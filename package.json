@@ -1,0 +1,29 @@
+{
+  "name": "yblackbox",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "source": "/src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sms165/yblackbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sms165/yblackbox/issues"
+  },
+  "homepage": "https://github.com/sms165/yblackbox#readme",
+  "dependencies": {
+    "parcel": "^2.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2"
+  }
+}
