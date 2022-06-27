@@ -5,7 +5,8 @@ import Cube from "../cube/Cube";
 export default function Nav() {
   return (
     <div className="orbit">
-      <div className="center-image"><Cube /></div>
+      <div className="center-image"><Cube /> </div>
+     
       <ul>
         <li>
           {/* <img src="" alt="" /> */}

@@ -3,12 +3,14 @@ import Test from "./Test";
 import Nav from "./components/nav/Nav";
 import Cube from "./components/cube/Cube";
 
+
 const App = () =>{
     return (
         <>
         
-        {/* <Nav /> */}
-       <Cube />
+        <Nav />
+        
+       {/* <Cube /> */}
 
         </>
     )

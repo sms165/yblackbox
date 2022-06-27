@@ -2911,17 +2911,17 @@ var _cube = require("./components/cube/Cube");
 var _cubeDefault = parcelHelpers.interopDefault(_cube);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cubeDefault.default), {}, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
             fileName: "src/index.jsx",
             lineNumber: 11,
-            columnNumber: 8
+            columnNumber: 9
         }, undefined)
     }, void 0, false);
 };
 _c = App;
 (0, _reactDomDefault.default).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 19,
+    lineNumber: 21,
     columnNumber: 17
 }, undefined), document.getElementById("root"));
 var _c;
@@ -27266,12 +27266,15 @@ function Nav() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "center-image",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cubeDefault.default), {}, void 0, false, {
-                    fileName: "src/components/nav/Nav.jsx",
-                    lineNumber: 8,
-                    columnNumber: 37
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cubeDefault.default), {}, void 0, false, {
+                        fileName: "src/components/nav/Nav.jsx",
+                        lineNumber: 8,
+                        columnNumber: 37
+                    }, this),
+                    " "
+                ]
+            }, void 0, true, {
                 fileName: "src/components/nav/Nav.jsx",
                 lineNumber: 8,
                 columnNumber: 7
@@ -27283,12 +27286,12 @@ function Nav() {
                             children: "Home"
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/nav/Nav.jsx",
-                        lineNumber: 10,
+                        lineNumber: 11,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27296,12 +27299,12 @@ function Nav() {
                             children: "About me"
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 17,
+                            lineNumber: 18,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/nav/Nav.jsx",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27309,12 +27312,12 @@ function Nav() {
                             children: "Projects"
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 22,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/nav/Nav.jsx",
-                        lineNumber: 20,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27322,12 +27325,12 @@ function Nav() {
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 27,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/nav/Nav.jsx",
-                        lineNumber: 25,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27335,12 +27338,12 @@ function Nav() {
                             children: "Skills"
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 32,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/nav/Nav.jsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27348,18 +27351,18 @@ function Nav() {
                             children: "Links"
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 37,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/nav/Nav.jsx",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/nav/Nav.jsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 7
             }, this)
         ]
@@ -27379,7 +27382,7 @@ $RefreshReg$(_c, "Nav");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../cube/Cube":"6hHkf"}],"fpeeO":[function() {},{}],"6hHkf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../cube/Cube":"6hHkf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"6hHkf":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b0c9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
