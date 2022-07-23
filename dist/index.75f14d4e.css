@@ -58,7 +58,7 @@ body {
   position: absolute;
 }
 
-ul {
+.ulNav {
   color: #fff;
   width: 100px;
   height: 100px;
@@ -68,11 +68,11 @@ ul {
   position: relative;
 }
 
-ul:hover, ul:hover li p {
+.ulNav:hover, .ulNav:hover li p {
   animation-play-state: paused;
 }
 
-li {
+.liNav {
   width: 6rem;
   aspect-ratio: 1 / 1;
   background: radial-gradient(#1f1e1e, #000);
@@ -82,69 +82,69 @@ li {
   position: absolute;
 }
 
-li > * {
+.liNav > * {
   animation: hold-position 30s linear infinite reverse;
 }
 
-li:hover {
+.liNav:hover {
   border: solid 3px var(--pink-highlighter);
 }
 
-li:nth-child(1) {
+.liNav:nth-child(1) {
   animation: first-pop 5s;
   transform: translate(15rem);
 }
 
-li:nth-child(1) p {
+.liNav:nth-child(1) p {
   animation: first 30s linear infinite;
 }
 
-li:nth-child(2) {
+.liNav:nth-child(2) {
   animation: second-pop 5s;
   transform: rotate(60deg)translate(15rem);
 }
 
-li:nth-child(2) p {
+.liNav:nth-child(2) p {
   animation: second 30s linear infinite;
   transform: rotate(-60deg);
 }
 
-li:nth-child(3) {
+.liNav:nth-child(3) {
   animation: third-pop 5s;
   transform: rotate(120deg)translate(15rem);
 }
 
-li:nth-child(3) p {
+.liNav:nth-child(3) p {
   animation: third 30s linear infinite;
   transform: rotate(-120deg);
 }
 
-li:nth-child(4) {
+.liNav:nth-child(4) {
   animation: fourth-pop 5s;
   transform: rotate(180deg)translate(15rem);
 }
 
-li:nth-child(4) p {
+.liNav:nth-child(4) p {
   animation: fourth 30s linear infinite;
   transform: rotate(-180deg);
 }
 
-li:nth-child(5) {
+.liNav:nth-child(5) {
   animation: fifth-pop 5s;
   transform: rotate(240deg)translate(15rem);
 }
 
-li:nth-child(5) p {
+.liNav:nth-child(5) p {
   animation: fifth 30s linear infinite;
   transform: rotate(-240deg);
 }
 
-li:nth-child(6) {
+.liNav:nth-child(6) {
   animation: sixth-pop 5s;
   transform: rotate(300deg)translate(15rem);
 }
 
-li:nth-child(6) p {
+.liNav:nth-child(6) p {
   animation: sixth 30s linear infinite;
   transform: rotate(-300deg);
 }
@@ -638,6 +638,50 @@ img {
   margin-top: 20vh;
   margin-right: 5vw;
   display: block;
+}
+
+.ex {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+.ex > div {
+  width: 100vw;
+  height: 100vh;
+  will-change: transform;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.ex > div > div {
+  width: 45vh;
+  max-width: 300px;
+  height: 550px;
+  max-height: 570px;
+  will-change: transform;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 85%;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 12.5px 100px -10px #32324966, 0 10px 10px -10px #3232494d;
+}
+
+.imgCard {
+  height: 380px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+button[aria-label="previous"], button[aria-label="next"] {
+  color: #000 !important;
+  background: salmon !important;
 }
 
 /*# sourceMappingURL=index.75f14d4e.css.map */

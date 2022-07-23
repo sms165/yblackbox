@@ -7,33 +7,33 @@ export default function Nav() {
     <div className="orbit">
       <div className="center-image"><Cube /> </div>
      
-      <ul>
-        <li>
+      <ul className="ulNav">
+        <li className="liNav">
           {/* <img src="" alt="" /> */}
           <p>Home</p>
         </li>
 
-        <li>
+        <li className="liNav">
           {/* <img src="" alt="" /> */}
           <p>About me</p>
         </li>
 
-        <li>
+        <li className="liNav">
           {/* <img src="" alt="" /> */}
           <p>Projects</p>
         </li>
 
-        <li>
+        <li className="liNav">
           {/* <img src="" alt="" /> */}
           <p>Contact</p>
         </li>
 
-        <li>
+        <li className="liNav">
           {/* <img src="" alt="" /> */}
           <p>Skills</p>
         </li>
 
-        <li>
+        <li className="liNav">
           {/* <img src="" alt="" /> */}
           <p>Links</p>
         </li>

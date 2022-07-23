@@ -1,7 +1,7 @@
 import  ReactDOM  from "react-dom";
 import React from 'react';
 import { createRoot } from "react-dom/client";
-import Test from "./Test";
+import Test from "./components/test/Test";
 import Nav from "./components/nav/Nav";
 import Cube from "./components/cube/Cube";
 import Background from "./components/background/Background";
@@ -13,11 +13,14 @@ import bg from './assets/bg.jpg';
 import { useRef, useState } from "react";
 import { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
+import Deck from "./components/deck/Deck";
 
 
 const App = () =>{
   const [scroll, setScroll] = useState(0)
 const parallax = useRef(null)
+
+
 
 useEffect(() => {
   const getScroll = (e) => {
@@ -59,7 +62,7 @@ useEffect(() => {
          <div className="backg">
   <Background  style={{ postion:'fixed'}} />
   </div>
-<Parallax ref={parallax} pages={3} style={{ top: '0', left: '0' }}>
+<Parallax ref={parallax} pages={5} style={{ top: '0', left: '0' }}>
 
   <ParallaxLayer 
     offset={0}
@@ -78,11 +81,27 @@ useEffect(() => {
       <div className="aboutComp">
       <p>I've scrolled {scroll} pixels</p>
     <About />
+    
     </div>
+    {/* <Test /> */}
+  </ParallaxLayer>
+  <ParallaxLayer 
+    offset={2}
+    
+    >
+     
+      <div className="deckComp">
+    <Deck  />
+    </div>
+      
+      {/* <Test /> */}
+      {/* <div className="deckComp">
+    <Deck  />
+    </div> */}
   </ParallaxLayer>
   <ParallaxLayer
   // style={props}
-sticky={{start:1}}
+sticky={{start:1, end:5}}
    
     >
      
@@ -91,32 +110,28 @@ sticky={{start:1}}
          </div> 
     
   </ParallaxLayer>
+  <ParallaxLayer offset={3}>
+  {/* <animated.div className="deckComp">
+    <Deck  />
+    </animated.div> */}
+  
+  </ParallaxLayer>
+ 
+    <div className="deckComp">
+    <Deck  />
+    </div>
 
+ 
 </Parallax>
 
 
 
-{/* <div className="backg">
-  <Background  />
-  </div>  */}
 
- {/* <Parallax pages={3} style={{ }}>
-
-  <ParallaxLayer offset={1}
-    
-    style={{ }}>
-  <div className="aboutComp">
-    <About />
+ {/* <Parallax pages={2} style={{ }}>
+ <div className="deckComp">
+    <Deck  />
     </div>
-  </ParallaxLayer>
-  <ParallaxLayer offset={1}>
- 1
-  </ParallaxLayer>
-  <ParallaxLayer>
-2
-  </ParallaxLayer>
   
-
 </Parallax> */}
 
        {/* <Cube /> */}

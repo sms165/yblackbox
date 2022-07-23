@@ -16,7 +16,7 @@ body {
 
 
 
-ul {
+.ulNav {
   position: relative;
   list-style: none;
   color: white;
@@ -35,7 +35,7 @@ ul {
   }
 }
 
-li {
+.liNav {
   position: absolute;
 //   background: black;
   background: radial-gradient( #1f1e1e, #000000);
@@ -55,7 +55,7 @@ li {
   }
 }
 
-li:nth-child(1) {
+.liNav:nth-child(1) {
   
   transform: translate(15rem);
   animation: first-pop 5s ease;
@@ -64,7 +64,7 @@ li:nth-child(1) {
   }
 }
 
-li:nth-child(2) {
+.liNav:nth-child(2) {
   transform: rotate(60deg) translate(15rem);
   animation: second-pop 5s ease;
 
@@ -74,7 +74,7 @@ li:nth-child(2) {
   }
 }
 
-li:nth-child(3) {
+.liNav:nth-child(3) {
   transform: rotate(120deg) translate(15rem);
   animation: third-pop 5s ease;
 
@@ -84,7 +84,7 @@ li:nth-child(3) {
   }
 }
 
-li:nth-child(4) {
+.liNav:nth-child(4) {
   transform: rotate(180deg) translate(15rem);
   animation: fourth-pop 5s ease;
 
@@ -94,7 +94,7 @@ li:nth-child(4) {
   }
 }
 
-li:nth-child(5) {
+.liNav:nth-child(5) {
   transform: rotate(240deg) translate(15rem);
   animation: fifth-pop 5s ease;
 
@@ -104,7 +104,7 @@ li:nth-child(5) {
   }
 }
 
-li:nth-child(6) {
+.liNav:nth-child(6) {
   transform: rotate(300deg) translate(15rem);
   animation: sixth-pop 5s ease;
 

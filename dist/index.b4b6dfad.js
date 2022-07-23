@@ -2906,7 +2906,7 @@ var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
-var _test = require("./Test");
+var _test = require("./components/test/Test");
 var _testDefault = parcelHelpers.interopDefault(_test);
 var _nav = require("./components/nav/Nav");
 var _navDefault = parcelHelpers.interopDefault(_nav);
@@ -2923,6 +2923,8 @@ var _parallax = require("@react-spring/parallax");
 var _bgJpg = require("./assets/bg.jpg");
 var _bgJpgDefault = parcelHelpers.interopDefault(_bgJpg);
 var _reactSpring = require("react-spring");
+var _deck = require("./components/deck/Deck");
+var _deckDefault = parcelHelpers.interopDefault(_deck);
 var _s = $RefreshSig$();
 const App = ()=>{
     _s();
@@ -2962,17 +2964,17 @@ const App = ()=>{
                     }
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 60,
+                    lineNumber: 63,
                     columnNumber: 3
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/index.jsx",
-                lineNumber: 59,
+                lineNumber: 62,
                 columnNumber: 10
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.Parallax), {
                 ref: parallax,
-                pages: 3,
+                pages: 5,
                 style: {
                     top: "0",
                     left: "0"
@@ -2992,30 +2994,30 @@ const App = ()=>{
                                     className: "clouds"
                                 }, void 0, false, {
                                     fileName: "src/index.jsx",
-                                    lineNumber: 69,
+                                    lineNumber: 72,
                                     columnNumber: 5
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "nav-comp",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                         fileName: "src/index.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 74,
                                         columnNumber: 9
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/index.jsx",
-                                    lineNumber: 70,
+                                    lineNumber: 73,
                                     columnNumber: 8
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/index.jsx",
-                            lineNumber: 68,
+                            lineNumber: 71,
                             columnNumber: 5
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 64,
+                        lineNumber: 67,
                         columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3033,52 +3035,91 @@ const App = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/index.jsx",
-                                    lineNumber: 79,
+                                    lineNumber: 82,
                                     columnNumber: 7
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                                     fileName: "src/index.jsx",
-                                    lineNumber: 80,
+                                    lineNumber: 83,
                                     columnNumber: 5
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/index.jsx",
-                            lineNumber: 78,
+                            lineNumber: 81,
                             columnNumber: 7
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 74,
+                        lineNumber: 77,
+                        columnNumber: 3
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                        offset: 2,
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "deckComp",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
+                                fileName: "src/index.jsx",
+                                lineNumber: 94,
+                                columnNumber: 5
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 93,
+                            columnNumber: 7
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 88,
                         columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                         // style={props}
                         sticky: {
-                            start: 1
+                            start: 1,
+                            end: 5
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "sideNav reveal",
                             id: "iconsNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 90,
+                                lineNumber: 109,
                                 columnNumber: 10
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 89,
+                            lineNumber: 108,
                             columnNumber: 7
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 83,
+                        lineNumber: 102,
                         columnNumber: 3
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                        offset: 3
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 113,
+                        columnNumber: 3
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "deckComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 121,
+                            columnNumber: 5
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 120,
+                        columnNumber: 5
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/index.jsx",
-                lineNumber: 62,
+                lineNumber: 65,
                 columnNumber: 1
             }, undefined)
         ]
@@ -3092,12 +3133,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 133,
+        lineNumber: 148,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 132,
+    lineNumber: 147,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -3108,7 +3149,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","./Test":"kF5w0","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react":"21dqq","react-spring":"2gPbQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-dom/client":"lOjBx"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27240,11 +27281,32 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"kF5w0":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2cd6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"lOjBx":[function(require,module,exports) {
+"use strict";
+var m = require("react-dom");
+var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+exports.createRoot = function(c, o) {
+    i.usingClientEntryPoint = true;
+    try {
+        return m.createRoot(c, o);
+    } finally{
+        i.usingClientEntryPoint = false;
+    }
+};
+exports.hydrateRoot = function(c, h, o) {
+    i.usingClientEntryPoint = true;
+    try {
+        return m.hydrateRoot(c, h, o);
+    } finally{
+        i.usingClientEntryPoint = false;
+    }
+};
+
+},{"react-dom":"j6uA9"}],"a57lq":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cd25 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2cd6.prelude(module);
+$parcel$ReactRefreshHelpers$cd25.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27252,26 +27314,3152 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleScss = require("../../sass/style.scss");
+var _reactSpring = require("react-spring");
+var _deck = require("../deck/Deck");
+var _deckDefault = parcelHelpers.interopDefault(_deck);
+var _s = $RefreshSig$();
 function Test() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: "Test"
-    }, void 0, false, {
-        fileName: "src/Test.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
+    _s();
+    const styles = (0, _reactSpring.useSpring)({
+        loop: true,
+        from: {
+            rotateZ: 0
+        },
+        to: {
+            rotateZ: 180
+        }
+    });
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
+            fileName: "src/components/test/Test.jsx",
+            lineNumber: 18,
+            columnNumber: 10
+        }, this)
+    }, void 0, false);
 }
 exports.default = Test;
+_s(Test, "U224RyuTRdqavojqe0DmYzMtXoU=", false, function() {
+    return [
+        (0, _reactSpring.useSpring)
+    ];
+});
 _c = Test;
 var _c;
 $RefreshReg$(_c, "Test");
 
-  $parcel$ReactRefreshHelpers$2cd6.postlude(module);
+  $parcel$ReactRefreshHelpers$cd25.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","react-spring":"2gPbQ","../deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"2gPbQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _web = require("@react-spring/web");
+parcelHelpers.exportAll(_web, exports);
+
+},{"@react-spring/web":"75MAn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"75MAn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "a", ()=>animated);
+parcelHelpers.export(exports, "animated", ()=>animated);
+var _core = require("@react-spring/core");
+var _reactDom = require("react-dom");
+var _shared = require("@react-spring/shared");
+var _animated = require("@react-spring/animated");
+parcelHelpers.exportAll(_core, exports);
+function _objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+const _excluded$2 = [
+    "style",
+    "children",
+    "scrollTop",
+    "scrollLeft"
+];
+const isCustomPropRE = /^--/;
+function dangerousStyleValue(name, value) {
+    if (value == null || typeof value === "boolean" || value === "") return "";
+    if (typeof value === "number" && value !== 0 && !isCustomPropRE.test(name) && !(isUnitlessNumber.hasOwnProperty(name) && isUnitlessNumber[name])) return value + "px";
+    return ("" + value).trim();
+}
+const attributeCache = {};
+function applyAnimatedValues(instance, props) {
+    if (!instance.nodeType || !instance.setAttribute) return false;
+    const isFilterElement = instance.nodeName === "filter" || instance.parentNode && instance.parentNode.nodeName === "filter";
+    const _ref = props, { style , children , scrollTop , scrollLeft  } = _ref, attributes = _objectWithoutPropertiesLoose(_ref, _excluded$2);
+    const values = Object.values(attributes);
+    const names = Object.keys(attributes).map((name)=>isFilterElement || instance.hasAttribute(name) ? name : attributeCache[name] || (attributeCache[name] = name.replace(/([A-Z])/g, (n)=>"-" + n.toLowerCase())));
+    if (children !== void 0) instance.textContent = children;
+    for(let name1 in style)if (style.hasOwnProperty(name1)) {
+        const value = dangerousStyleValue(name1, style[name1]);
+        if (isCustomPropRE.test(name1)) instance.style.setProperty(name1, value);
+        else instance.style[name1] = value;
+    }
+    names.forEach((name, i)=>{
+        instance.setAttribute(name, values[i]);
+    });
+    if (scrollTop !== void 0) instance.scrollTop = scrollTop;
+    if (scrollLeft !== void 0) instance.scrollLeft = scrollLeft;
+}
+let isUnitlessNumber = {
+    animationIterationCount: true,
+    borderImageOutset: true,
+    borderImageSlice: true,
+    borderImageWidth: true,
+    boxFlex: true,
+    boxFlexGroup: true,
+    boxOrdinalGroup: true,
+    columnCount: true,
+    columns: true,
+    flex: true,
+    flexGrow: true,
+    flexPositive: true,
+    flexShrink: true,
+    flexNegative: true,
+    flexOrder: true,
+    gridRow: true,
+    gridRowEnd: true,
+    gridRowSpan: true,
+    gridRowStart: true,
+    gridColumn: true,
+    gridColumnEnd: true,
+    gridColumnSpan: true,
+    gridColumnStart: true,
+    fontWeight: true,
+    lineClamp: true,
+    lineHeight: true,
+    opacity: true,
+    order: true,
+    orphans: true,
+    tabSize: true,
+    widows: true,
+    zIndex: true,
+    zoom: true,
+    fillOpacity: true,
+    floodOpacity: true,
+    stopOpacity: true,
+    strokeDasharray: true,
+    strokeDashoffset: true,
+    strokeMiterlimit: true,
+    strokeOpacity: true,
+    strokeWidth: true
+};
+const prefixKey = (prefix, key)=>prefix + key.charAt(0).toUpperCase() + key.substring(1);
+const prefixes = [
+    "Webkit",
+    "Ms",
+    "Moz",
+    "O"
+];
+isUnitlessNumber = Object.keys(isUnitlessNumber).reduce((acc, prop)=>{
+    prefixes.forEach((prefix)=>acc[prefixKey(prefix, prop)] = acc[prop]);
+    return acc;
+}, isUnitlessNumber);
+const _excluded$1 = [
+    "x",
+    "y",
+    "z"
+];
+const domTransforms = /^(matrix|translate|scale|rotate|skew)/;
+const pxTransforms = /^(translate)/;
+const degTransforms = /^(rotate|skew)/;
+const addUnit = (value, unit)=>(0, _shared.is).num(value) && value !== 0 ? value + unit : value;
+const isValueIdentity = (value, id)=>(0, _shared.is).arr(value) ? value.every((v)=>isValueIdentity(v, id)) : (0, _shared.is).num(value) ? value === id : parseFloat(value) === id;
+class AnimatedStyle extends (0, _animated.AnimatedObject) {
+    constructor(_ref){
+        let { x: x1 , y: y1 , z: z1  } = _ref, style = _objectWithoutPropertiesLoose(_ref, _excluded$1);
+        const inputs = [];
+        const transforms = [];
+        if (x1 || y1 || z1) {
+            inputs.push([
+                x1 || 0,
+                y1 || 0,
+                z1 || 0
+            ]);
+            transforms.push((xyz)=>[
+                    `translate3d(${xyz.map((v)=>addUnit(v, "px")).join(",")})`,
+                    isValueIdentity(xyz, 0)
+                ]);
+        }
+        (0, _shared.eachProp)(style, (value, key)=>{
+            if (key === "transform") {
+                inputs.push([
+                    value || ""
+                ]);
+                transforms.push((transform)=>[
+                        transform,
+                        transform === ""
+                    ]);
+            } else if (domTransforms.test(key)) {
+                delete style[key];
+                if ((0, _shared.is).und(value)) return;
+                const unit = pxTransforms.test(key) ? "px" : degTransforms.test(key) ? "deg" : "";
+                inputs.push((0, _shared.toArray)(value));
+                transforms.push(key === "rotate3d" ? ([x, y, z, deg])=>[
+                        `rotate3d(${x},${y},${z},${addUnit(deg, unit)})`,
+                        isValueIdentity(deg, 0)
+                    ] : (input)=>[
+                        `${key}(${input.map((v)=>addUnit(v, unit)).join(",")})`,
+                        isValueIdentity(input, key.startsWith("scale") ? 1 : 0)
+                    ]);
+            }
+        });
+        if (inputs.length) style.transform = new FluidTransform(inputs, transforms);
+        super(style);
+    }
+}
+class FluidTransform extends (0, _shared.FluidValue) {
+    constructor(inputs, transforms){
+        super();
+        this._value = null;
+        this.inputs = inputs;
+        this.transforms = transforms;
+    }
+    get() {
+        return this._value || (this._value = this._get());
+    }
+    _get() {
+        let transform = "";
+        let identity = true;
+        (0, _shared.each)(this.inputs, (input, i)=>{
+            const arg1 = (0, _shared.getFluidValue)(input[0]);
+            const [t, id] = this.transforms[i]((0, _shared.is).arr(arg1) ? arg1 : input.map((0, _shared.getFluidValue)));
+            transform += " " + t;
+            identity = identity && id;
+        });
+        return identity ? "none" : transform;
+    }
+    observerAdded(count) {
+        if (count == 1) (0, _shared.each)(this.inputs, (input)=>(0, _shared.each)(input, (value)=>(0, _shared.hasFluidValue)(value) && (0, _shared.addFluidObserver)(value, this)));
+    }
+    observerRemoved(count) {
+        if (count == 0) (0, _shared.each)(this.inputs, (input)=>(0, _shared.each)(input, (value)=>(0, _shared.hasFluidValue)(value) && (0, _shared.removeFluidObserver)(value, this)));
+    }
+    eventObserved(event) {
+        if (event.type == "change") this._value = null;
+        (0, _shared.callFluidObservers)(this, event);
+    }
+}
+const primitives = [
+    "a",
+    "abbr",
+    "address",
+    "area",
+    "article",
+    "aside",
+    "audio",
+    "b",
+    "base",
+    "bdi",
+    "bdo",
+    "big",
+    "blockquote",
+    "body",
+    "br",
+    "button",
+    "canvas",
+    "caption",
+    "cite",
+    "code",
+    "col",
+    "colgroup",
+    "data",
+    "datalist",
+    "dd",
+    "del",
+    "details",
+    "dfn",
+    "dialog",
+    "div",
+    "dl",
+    "dt",
+    "em",
+    "embed",
+    "fieldset",
+    "figcaption",
+    "figure",
+    "footer",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "head",
+    "header",
+    "hgroup",
+    "hr",
+    "html",
+    "i",
+    "iframe",
+    "img",
+    "input",
+    "ins",
+    "kbd",
+    "keygen",
+    "label",
+    "legend",
+    "li",
+    "link",
+    "main",
+    "map",
+    "mark",
+    "menu",
+    "menuitem",
+    "meta",
+    "meter",
+    "nav",
+    "noscript",
+    "object",
+    "ol",
+    "optgroup",
+    "option",
+    "output",
+    "p",
+    "param",
+    "picture",
+    "pre",
+    "progress",
+    "q",
+    "rp",
+    "rt",
+    "ruby",
+    "s",
+    "samp",
+    "script",
+    "section",
+    "select",
+    "small",
+    "source",
+    "span",
+    "strong",
+    "style",
+    "sub",
+    "summary",
+    "sup",
+    "table",
+    "tbody",
+    "td",
+    "textarea",
+    "tfoot",
+    "th",
+    "thead",
+    "time",
+    "title",
+    "tr",
+    "track",
+    "u",
+    "ul",
+    "var",
+    "video",
+    "wbr",
+    "circle",
+    "clipPath",
+    "defs",
+    "ellipse",
+    "foreignObject",
+    "g",
+    "image",
+    "line",
+    "linearGradient",
+    "mask",
+    "path",
+    "pattern",
+    "polygon",
+    "polyline",
+    "radialGradient",
+    "rect",
+    "stop",
+    "svg",
+    "text",
+    "tspan"
+];
+const _excluded = [
+    "scrollTop",
+    "scrollLeft"
+];
+(0, _core.Globals).assign({
+    batchedUpdates: (0, _reactDom.unstable_batchedUpdates),
+    createStringInterpolator: (0, _shared.createStringInterpolator),
+    colors: (0, _shared.colors)
+});
+const host = (0, _animated.createHost)(primitives, {
+    applyAnimatedValues,
+    createAnimatedStyle: (style)=>new AnimatedStyle(style),
+    getComponentProps: (_ref)=>{
+        let props = _objectWithoutPropertiesLoose(_ref, _excluded);
+        return props;
+    }
+});
+const animated = host.animated;
+
+},{"@react-spring/core":"f5VEd","react-dom":"j6uA9","@react-spring/shared":"jm667","@react-spring/animated":"abfrL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f5VEd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Globals", ()=>(0, _shared.Globals));
+parcelHelpers.export(exports, "createInterpolator", ()=>(0, _shared.createInterpolator));
+parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>(0, _shared.useIsomorphicLayoutEffect));
+parcelHelpers.export(exports, "useReducedMotion", ()=>(0, _shared.useReducedMotion));
+parcelHelpers.export(exports, "BailSignal", ()=>BailSignal);
+parcelHelpers.export(exports, "Controller", ()=>Controller);
+parcelHelpers.export(exports, "FrameValue", ()=>FrameValue);
+parcelHelpers.export(exports, "Interpolation", ()=>Interpolation);
+parcelHelpers.export(exports, "Spring", ()=>Spring);
+parcelHelpers.export(exports, "SpringContext", ()=>SpringContext);
+parcelHelpers.export(exports, "SpringRef", ()=>SpringRef);
+parcelHelpers.export(exports, "SpringValue", ()=>SpringValue);
+parcelHelpers.export(exports, "Trail", ()=>Trail);
+parcelHelpers.export(exports, "Transition", ()=>Transition);
+parcelHelpers.export(exports, "config", ()=>config);
+parcelHelpers.export(exports, "easings", ()=>easings);
+parcelHelpers.export(exports, "inferTo", ()=>inferTo);
+parcelHelpers.export(exports, "interpolate", ()=>interpolate);
+parcelHelpers.export(exports, "to", ()=>to);
+parcelHelpers.export(exports, "update", ()=>update);
+parcelHelpers.export(exports, "useChain", ()=>useChain);
+parcelHelpers.export(exports, "useSpring", ()=>useSpring);
+parcelHelpers.export(exports, "useSpringRef", ()=>useSpringRef);
+parcelHelpers.export(exports, "useSprings", ()=>useSprings);
+parcelHelpers.export(exports, "useTrail", ()=>useTrail);
+parcelHelpers.export(exports, "useTransition", ()=>useTransition);
+var _shared = require("@react-spring/shared");
+var _react = require("react");
+var _animated = require("@react-spring/animated");
+var _animated1 = require("@react-spring/types/animated");
+parcelHelpers.exportAll(_animated1, exports);
+var _interpolation = require("@react-spring/types/interpolation");
+parcelHelpers.exportAll(_interpolation, exports);
+function _extends() {
+    _extends = Object.assign || function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+function callProp(value, ...args) {
+    return (0, _shared.is).fun(value) ? value(...args) : value;
+}
+const matchProp = (value, key)=>value === true || !!(key && value && ((0, _shared.is).fun(value) ? value(key) : (0, _shared.toArray)(value).includes(key)));
+const resolveProp = (prop, key)=>(0, _shared.is).obj(prop) ? key && prop[key] : prop;
+const getDefaultProp = (props, key)=>props.default === true ? props[key] : props.default ? props.default[key] : undefined;
+const noopTransform = (value)=>value;
+const getDefaultProps = (props, transform = noopTransform)=>{
+    let keys = DEFAULT_PROPS;
+    if (props.default && props.default !== true) {
+        props = props.default;
+        keys = Object.keys(props);
+    }
+    const defaults1 = {};
+    for (const key of keys){
+        const value = transform(props[key], key);
+        if (!(0, _shared.is).und(value)) defaults1[key] = value;
+    }
+    return defaults1;
+};
+const DEFAULT_PROPS = [
+    "config",
+    "onProps",
+    "onStart",
+    "onChange",
+    "onPause",
+    "onResume",
+    "onRest"
+];
+const RESERVED_PROPS = {
+    config: 1,
+    from: 1,
+    to: 1,
+    ref: 1,
+    loop: 1,
+    reset: 1,
+    pause: 1,
+    cancel: 1,
+    reverse: 1,
+    immediate: 1,
+    default: 1,
+    delay: 1,
+    onProps: 1,
+    onStart: 1,
+    onChange: 1,
+    onPause: 1,
+    onResume: 1,
+    onRest: 1,
+    onResolve: 1,
+    items: 1,
+    trail: 1,
+    sort: 1,
+    expires: 1,
+    initial: 1,
+    enter: 1,
+    update: 1,
+    leave: 1,
+    children: 1,
+    onDestroyed: 1,
+    keys: 1,
+    callId: 1,
+    parentId: 1
+};
+function getForwardProps(props) {
+    const forward = {};
+    let count = 0;
+    (0, _shared.eachProp)(props, (value, prop)=>{
+        if (!RESERVED_PROPS[prop]) {
+            forward[prop] = value;
+            count++;
+        }
+    });
+    if (count) return forward;
+}
+function inferTo(props) {
+    const to1 = getForwardProps(props);
+    if (to1) {
+        const out = {
+            to: to1
+        };
+        (0, _shared.eachProp)(props, (val, key)=>key in to1 || (out[key] = val));
+        return out;
+    }
+    return _extends({}, props);
+}
+function computeGoal(value) {
+    value = (0, _shared.getFluidValue)(value);
+    return (0, _shared.is).arr(value) ? value.map(computeGoal) : (0, _shared.isAnimatedString)(value) ? (0, _shared.Globals).createStringInterpolator({
+        range: [
+            0,
+            1
+        ],
+        output: [
+            value,
+            value
+        ]
+    })(1) : value;
+}
+function hasProps(props) {
+    for(const _ in props)return true;
+    return false;
+}
+function isAsyncTo(to2) {
+    return (0, _shared.is).fun(to2) || (0, _shared.is).arr(to2) && (0, _shared.is).obj(to2[0]);
+}
+function detachRefs(ctrl, ref) {
+    var _ctrl$ref;
+    (_ctrl$ref = ctrl.ref) == null || _ctrl$ref.delete(ctrl);
+    ref == null || ref.delete(ctrl);
+}
+function replaceRef(ctrl, ref) {
+    if (ref && ctrl.ref !== ref) {
+        var _ctrl$ref2;
+        (_ctrl$ref2 = ctrl.ref) == null || _ctrl$ref2.delete(ctrl);
+        ref.add(ctrl);
+        ctrl.ref = ref;
+    }
+}
+function useChain(refs, timeSteps, timeFrame = 1000) {
+    (0, _shared.useIsomorphicLayoutEffect)(()=>{
+        if (timeSteps) {
+            let prevDelay = 0;
+            (0, _shared.each)(refs, (ref, i)=>{
+                const controllers = ref.current;
+                if (controllers.length) {
+                    let delay = timeFrame * timeSteps[i];
+                    if (isNaN(delay)) delay = prevDelay;
+                    else prevDelay = delay;
+                    (0, _shared.each)(controllers, (ctrl)=>{
+                        (0, _shared.each)(ctrl.queue, (props)=>{
+                            const memoizedDelayProp = props.delay;
+                            props.delay = (key)=>delay + callProp(memoizedDelayProp || 0, key);
+                        });
+                    });
+                    ref.start();
+                }
+            });
+        } else {
+            let p = Promise.resolve();
+            (0, _shared.each)(refs, (ref)=>{
+                const controllers = ref.current;
+                if (controllers.length) {
+                    const queues = controllers.map((ctrl)=>{
+                        const q = ctrl.queue;
+                        ctrl.queue = [];
+                        return q;
+                    });
+                    p = p.then(()=>{
+                        (0, _shared.each)(controllers, (ctrl, i)=>(0, _shared.each)(queues[i] || [], (update1)=>ctrl.queue.push(update1)));
+                        return Promise.all(ref.start());
+                    });
+                }
+            });
+        }
+    });
+}
+const config = {
+    default: {
+        tension: 170,
+        friction: 26
+    },
+    gentle: {
+        tension: 120,
+        friction: 14
+    },
+    wobbly: {
+        tension: 180,
+        friction: 12
+    },
+    stiff: {
+        tension: 210,
+        friction: 20
+    },
+    slow: {
+        tension: 280,
+        friction: 60
+    },
+    molasses: {
+        tension: 280,
+        friction: 120
+    }
+};
+const c1 = 1.70158;
+const c2 = c1 * 1.525;
+const c3 = c1 + 1;
+const c4 = 2 * Math.PI / 3;
+const c5 = 2 * Math.PI / 4.5;
+const bounceOut = (x)=>{
+    const n1 = 7.5625;
+    const d1 = 2.75;
+    if (x < 1 / d1) return n1 * x * x;
+    else if (x < 2 / d1) return n1 * (x -= 1.5 / d1) * x + 0.75;
+    else if (x < 2.5 / d1) return n1 * (x -= 2.25 / d1) * x + 0.9375;
+    else return n1 * (x -= 2.625 / d1) * x + 0.984375;
+};
+const easings = {
+    linear: (x)=>x,
+    easeInQuad: (x)=>x * x,
+    easeOutQuad: (x)=>1 - (1 - x) * (1 - x),
+    easeInOutQuad: (x)=>x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2,
+    easeInCubic: (x)=>x * x * x,
+    easeOutCubic: (x)=>1 - Math.pow(1 - x, 3),
+    easeInOutCubic: (x)=>x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2,
+    easeInQuart: (x)=>x * x * x * x,
+    easeOutQuart: (x)=>1 - Math.pow(1 - x, 4),
+    easeInOutQuart: (x)=>x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2,
+    easeInQuint: (x)=>x * x * x * x * x,
+    easeOutQuint: (x)=>1 - Math.pow(1 - x, 5),
+    easeInOutQuint: (x)=>x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2,
+    easeInSine: (x)=>1 - Math.cos(x * Math.PI / 2),
+    easeOutSine: (x)=>Math.sin(x * Math.PI / 2),
+    easeInOutSine: (x)=>-(Math.cos(Math.PI * x) - 1) / 2,
+    easeInExpo: (x)=>x === 0 ? 0 : Math.pow(2, 10 * x - 10),
+    easeOutExpo: (x)=>x === 1 ? 1 : 1 - Math.pow(2, -10 * x),
+    easeInOutExpo: (x)=>x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? Math.pow(2, 20 * x - 10) / 2 : (2 - Math.pow(2, -20 * x + 10)) / 2,
+    easeInCirc: (x)=>1 - Math.sqrt(1 - Math.pow(x, 2)),
+    easeOutCirc: (x)=>Math.sqrt(1 - Math.pow(x - 1, 2)),
+    easeInOutCirc: (x)=>x < 0.5 ? (1 - Math.sqrt(1 - Math.pow(2 * x, 2))) / 2 : (Math.sqrt(1 - Math.pow(-2 * x + 2, 2)) + 1) / 2,
+    easeInBack: (x)=>c3 * x * x * x - c1 * x * x,
+    easeOutBack: (x)=>1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2),
+    easeInOutBack: (x)=>x < 0.5 ? Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2) / 2 : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2,
+    easeInElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : -Math.pow(2, 10 * x - 10) * Math.sin((x * 10 - 10.75) * c4),
+    easeOutElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * c4) + 1,
+    easeInOutElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? -(Math.pow(2, 20 * x - 10) * Math.sin((20 * x - 11.125) * c5)) / 2 : Math.pow(2, -20 * x + 10) * Math.sin((20 * x - 11.125) * c5) / 2 + 1,
+    easeInBounce: (x)=>1 - bounceOut(1 - x),
+    easeOutBounce: bounceOut,
+    easeInOutBounce: (x)=>x < 0.5 ? (1 - bounceOut(1 - 2 * x)) / 2 : (1 + bounceOut(2 * x - 1)) / 2
+};
+const defaults = _extends({}, config.default, {
+    mass: 1,
+    damping: 1,
+    easing: easings.linear,
+    clamp: false
+});
+class AnimationConfig {
+    constructor(){
+        this.tension = void 0;
+        this.friction = void 0;
+        this.frequency = void 0;
+        this.damping = void 0;
+        this.mass = void 0;
+        this.velocity = 0;
+        this.restVelocity = void 0;
+        this.precision = void 0;
+        this.progress = void 0;
+        this.duration = void 0;
+        this.easing = void 0;
+        this.clamp = void 0;
+        this.bounce = void 0;
+        this.decay = void 0;
+        this.round = void 0;
+        Object.assign(this, defaults);
+    }
+}
+function mergeConfig(config1, newConfig, defaultConfig) {
+    if (defaultConfig) {
+        defaultConfig = _extends({}, defaultConfig);
+        sanitizeConfig(defaultConfig, newConfig);
+        newConfig = _extends({}, defaultConfig, newConfig);
+    }
+    sanitizeConfig(config1, newConfig);
+    Object.assign(config1, newConfig);
+    for(const key in defaults)if (config1[key] == null) config1[key] = defaults[key];
+    let { mass , frequency , damping  } = config1;
+    if (!(0, _shared.is).und(frequency)) {
+        if (frequency < 0.01) frequency = 0.01;
+        if (damping < 0) damping = 0;
+        config1.tension = Math.pow(2 * Math.PI / frequency, 2) * mass;
+        config1.friction = 4 * Math.PI * damping * mass / frequency;
+    }
+    return config1;
+}
+function sanitizeConfig(config2, props) {
+    if (!(0, _shared.is).und(props.decay)) config2.duration = undefined;
+    else {
+        const isTensionConfig = !(0, _shared.is).und(props.tension) || !(0, _shared.is).und(props.friction);
+        if (isTensionConfig || !(0, _shared.is).und(props.frequency) || !(0, _shared.is).und(props.damping) || !(0, _shared.is).und(props.mass)) {
+            config2.duration = undefined;
+            config2.decay = undefined;
+        }
+        if (isTensionConfig) config2.frequency = undefined;
+    }
+}
+const emptyArray = [];
+class Animation {
+    constructor(){
+        this.changed = false;
+        this.values = emptyArray;
+        this.toValues = null;
+        this.fromValues = emptyArray;
+        this.to = void 0;
+        this.from = void 0;
+        this.config = new AnimationConfig();
+        this.immediate = false;
+    }
+}
+function scheduleProps(callId, { key , props , defaultProps , state , actions  }) {
+    return new Promise((resolve, reject)=>{
+        var _props$cancel;
+        let delay;
+        let timeout;
+        let cancel = matchProp((_props$cancel = props.cancel) != null ? _props$cancel : defaultProps == null ? void 0 : defaultProps.cancel, key);
+        if (cancel) onStart();
+        else {
+            if (!(0, _shared.is).und(props.pause)) state.paused = matchProp(props.pause, key);
+            let pause = defaultProps == null ? void 0 : defaultProps.pause;
+            if (pause !== true) pause = state.paused || matchProp(pause, key);
+            delay = callProp(props.delay || 0, key);
+            if (pause) {
+                state.resumeQueue.add(onResume);
+                actions.pause();
+            } else {
+                actions.resume();
+                onResume();
+            }
+        }
+        function onPause() {
+            state.resumeQueue.add(onResume);
+            state.timeouts.delete(timeout);
+            timeout.cancel();
+            delay = timeout.time - (0, _shared.raf).now();
+        }
+        function onResume() {
+            if (delay > 0 && !(0, _shared.Globals).skipAnimation) {
+                state.delayed = true;
+                timeout = (0, _shared.raf).setTimeout(onStart, delay);
+                state.pauseQueue.add(onPause);
+                state.timeouts.add(timeout);
+            } else onStart();
+        }
+        function onStart() {
+            if (state.delayed) state.delayed = false;
+            state.pauseQueue.delete(onPause);
+            state.timeouts.delete(timeout);
+            if (callId <= (state.cancelId || 0)) cancel = true;
+            try {
+                actions.start(_extends({}, props, {
+                    callId,
+                    cancel
+                }), resolve);
+            } catch (err) {
+                reject(err);
+            }
+        }
+    });
+}
+const getCombinedResult = (target, results)=>results.length == 1 ? results[0] : results.some((result)=>result.cancelled) ? getCancelledResult(target.get()) : results.every((result)=>result.noop) ? getNoopResult(target.get()) : getFinishedResult(target.get(), results.every((result)=>result.finished));
+const getNoopResult = (value)=>({
+        value,
+        noop: true,
+        finished: true,
+        cancelled: false
+    });
+const getFinishedResult = (value, finished, cancelled = false)=>({
+        value,
+        finished,
+        cancelled
+    });
+const getCancelledResult = (value)=>({
+        value,
+        cancelled: true,
+        finished: false
+    });
+function runAsync(to3, props1, state, target) {
+    const { callId , parentId , onRest  } = props1;
+    const { asyncTo: prevTo , promise: prevPromise  } = state;
+    if (!parentId && to3 === prevTo && !props1.reset) return prevPromise;
+    return state.promise = (async ()=>{
+        state.asyncId = callId;
+        state.asyncTo = to3;
+        const defaultProps = getDefaultProps(props1, (value, key)=>key === "onRest" ? undefined : value);
+        let preventBail;
+        let bail;
+        const bailPromise = new Promise((resolve, reject)=>(preventBail = resolve, bail = reject));
+        const bailIfEnded = (bailSignal)=>{
+            const bailResult = callId <= (state.cancelId || 0) && getCancelledResult(target) || callId !== state.asyncId && getFinishedResult(target, false);
+            if (bailResult) {
+                bailSignal.result = bailResult;
+                bail(bailSignal);
+                throw bailSignal;
+            }
+        };
+        const animate = (arg1, arg2)=>{
+            const bailSignal = new BailSignal();
+            const skipAnimationSignal = new SkipAniamtionSignal();
+            return (async ()=>{
+                if ((0, _shared.Globals).skipAnimation) {
+                    stopAsync(state);
+                    skipAnimationSignal.result = getFinishedResult(target, false);
+                    bail(skipAnimationSignal);
+                    throw skipAnimationSignal;
+                }
+                bailIfEnded(bailSignal);
+                const props = (0, _shared.is).obj(arg1) ? _extends({}, arg1) : _extends({}, arg2, {
+                    to: arg1
+                });
+                props.parentId = callId;
+                (0, _shared.eachProp)(defaultProps, (value, key)=>{
+                    if ((0, _shared.is).und(props[key])) props[key] = value;
+                });
+                const result = await target.start(props);
+                bailIfEnded(bailSignal);
+                if (state.paused) await new Promise((resume)=>{
+                    state.resumeQueue.add(resume);
+                });
+                return result;
+            })();
+        };
+        let result1;
+        if ((0, _shared.Globals).skipAnimation) {
+            stopAsync(state);
+            return getFinishedResult(target, false);
+        }
+        try {
+            let animating;
+            if ((0, _shared.is).arr(to3)) animating = (async (queue)=>{
+                for (const props of queue)await animate(props);
+            })(to3);
+            else animating = Promise.resolve(to3(animate, target.stop.bind(target)));
+            await Promise.all([
+                animating.then(preventBail),
+                bailPromise
+            ]);
+            result1 = getFinishedResult(target.get(), true, false);
+        } catch (err) {
+            if (err instanceof BailSignal) result1 = err.result;
+            else if (err instanceof SkipAniamtionSignal) result1 = err.result;
+            else throw err;
+        } finally{
+            if (callId == state.asyncId) {
+                state.asyncId = parentId;
+                state.asyncTo = parentId ? prevTo : undefined;
+                state.promise = parentId ? prevPromise : undefined;
+            }
+        }
+        if ((0, _shared.is).fun(onRest)) (0, _shared.raf).batchedUpdates(()=>{
+            onRest(result1, target, target.item);
+        });
+        return result1;
+    })();
+}
+function stopAsync(state, cancelId) {
+    (0, _shared.flush)(state.timeouts, (t)=>t.cancel());
+    state.pauseQueue.clear();
+    state.resumeQueue.clear();
+    state.asyncId = state.asyncTo = state.promise = undefined;
+    if (cancelId) state.cancelId = cancelId;
+}
+class BailSignal extends Error {
+    constructor(){
+        super("An async animation has been interrupted. You see this error because you forgot to use `await` or `.catch(...)` on its returned promise.");
+        this.result = void 0;
+    }
+}
+class SkipAniamtionSignal extends Error {
+    constructor(){
+        super("SkipAnimationSignal");
+        this.result = void 0;
+    }
+}
+const isFrameValue = (value)=>value instanceof FrameValue;
+let nextId$1 = 1;
+class FrameValue extends (0, _shared.FluidValue) {
+    constructor(...args){
+        super(...args);
+        this.id = nextId$1++;
+        this.key = void 0;
+        this._priority = 0;
+    }
+    get priority() {
+        return this._priority;
+    }
+    set priority(priority) {
+        if (this._priority != priority) {
+            this._priority = priority;
+            this._onPriorityChange(priority);
+        }
+    }
+    get() {
+        const node = (0, _animated.getAnimated)(this);
+        return node && node.getValue();
+    }
+    to(...args) {
+        return (0, _shared.Globals).to(this, args);
+    }
+    interpolate(...args) {
+        (0, _shared.deprecateInterpolate)();
+        return (0, _shared.Globals).to(this, args);
+    }
+    toJSON() {
+        return this.get();
+    }
+    observerAdded(count) {
+        if (count == 1) this._attach();
+    }
+    observerRemoved(count) {
+        if (count == 0) this._detach();
+    }
+    _attach() {}
+    _detach() {}
+    _onChange(value, idle = false) {
+        (0, _shared.callFluidObservers)(this, {
+            type: "change",
+            parent: this,
+            value,
+            idle
+        });
+    }
+    _onPriorityChange(priority) {
+        if (!this.idle) (0, _shared.frameLoop).sort(this);
+        (0, _shared.callFluidObservers)(this, {
+            type: "priority",
+            parent: this,
+            priority
+        });
+    }
+}
+const $P = Symbol.for("SpringPhase");
+const HAS_ANIMATED = 1;
+const IS_ANIMATING = 2;
+const IS_PAUSED = 4;
+const hasAnimated = (target)=>(target[$P] & HAS_ANIMATED) > 0;
+const isAnimating = (target)=>(target[$P] & IS_ANIMATING) > 0;
+const isPaused = (target)=>(target[$P] & IS_PAUSED) > 0;
+const setActiveBit = (target, active)=>active ? target[$P] |= IS_ANIMATING | HAS_ANIMATED : target[$P] &= ~IS_ANIMATING;
+const setPausedBit = (target, paused)=>paused ? target[$P] |= IS_PAUSED : target[$P] &= ~IS_PAUSED;
+class SpringValue extends FrameValue {
+    constructor(arg1, arg2){
+        super();
+        this.key = void 0;
+        this.animation = new Animation();
+        this.queue = void 0;
+        this.defaultProps = {};
+        this._state = {
+            paused: false,
+            delayed: false,
+            pauseQueue: new Set(),
+            resumeQueue: new Set(),
+            timeouts: new Set()
+        };
+        this._pendingCalls = new Set();
+        this._lastCallId = 0;
+        this._lastToId = 0;
+        this._memoizedDuration = 0;
+        if (!(0, _shared.is).und(arg1) || !(0, _shared.is).und(arg2)) {
+            const props = (0, _shared.is).obj(arg1) ? _extends({}, arg1) : _extends({}, arg2, {
+                from: arg1
+            });
+            if ((0, _shared.is).und(props.default)) props.default = true;
+            this.start(props);
+        }
+    }
+    get idle() {
+        return !(isAnimating(this) || this._state.asyncTo) || isPaused(this);
+    }
+    get goal() {
+        return (0, _shared.getFluidValue)(this.animation.to);
+    }
+    get velocity() {
+        const node1 = (0, _animated.getAnimated)(this);
+        return node1 instanceof (0, _animated.AnimatedValue) ? node1.lastVelocity || 0 : node1.getPayload().map((node)=>node.lastVelocity || 0);
+    }
+    get hasAnimated() {
+        return hasAnimated(this);
+    }
+    get isAnimating() {
+        return isAnimating(this);
+    }
+    get isPaused() {
+        return isPaused(this);
+    }
+    get isDelayed() {
+        return this._state.delayed;
+    }
+    advance(dt) {
+        let idle = true;
+        let changed = false;
+        const anim = this.animation;
+        let { config: config3 , toValues  } = anim;
+        const payload = (0, _animated.getPayload)(anim.to);
+        if (!payload && (0, _shared.hasFluidValue)(anim.to)) toValues = (0, _shared.toArray)((0, _shared.getFluidValue)(anim.to));
+        anim.values.forEach((node, i)=>{
+            if (node.done) return;
+            const to4 = node.constructor == (0, _animated.AnimatedString) ? 1 : payload ? payload[i].lastPosition : toValues[i];
+            let finished = anim.immediate;
+            let position = to4;
+            if (!finished) {
+                position = node.lastPosition;
+                if (config3.tension <= 0) {
+                    node.done = true;
+                    return;
+                }
+                let elapsed = node.elapsedTime += dt;
+                const from = anim.fromValues[i];
+                const v0 = node.v0 != null ? node.v0 : node.v0 = (0, _shared.is).arr(config3.velocity) ? config3.velocity[i] : config3.velocity;
+                let velocity;
+                if (!(0, _shared.is).und(config3.duration)) {
+                    let p = 1;
+                    if (config3.duration > 0) {
+                        if (this._memoizedDuration !== config3.duration) {
+                            this._memoizedDuration = config3.duration;
+                            if (node.durationProgress > 0) {
+                                node.elapsedTime = config3.duration * node.durationProgress;
+                                elapsed = node.elapsedTime += dt;
+                            }
+                        }
+                        p = (config3.progress || 0) + elapsed / this._memoizedDuration;
+                        p = p > 1 ? 1 : p < 0 ? 0 : p;
+                        node.durationProgress = p;
+                    }
+                    position = from + config3.easing(p) * (to4 - from);
+                    velocity = (position - node.lastPosition) / dt;
+                    finished = p == 1;
+                } else if (config3.decay) {
+                    const decay = config3.decay === true ? 0.998 : config3.decay;
+                    const e = Math.exp(-(1 - decay) * elapsed);
+                    position = from + v0 / (1 - decay) * (1 - e);
+                    finished = Math.abs(node.lastPosition - position) < 0.1;
+                    velocity = v0 * e;
+                } else {
+                    velocity = node.lastVelocity == null ? v0 : node.lastVelocity;
+                    const precision = config3.precision || (from == to4 ? 0.005 : Math.min(1, Math.abs(to4 - from) * 0.001));
+                    const restVelocity = config3.restVelocity || precision / 10;
+                    const bounceFactor = config3.clamp ? 0 : config3.bounce;
+                    const canBounce = !(0, _shared.is).und(bounceFactor);
+                    const isGrowing = from == to4 ? node.v0 > 0 : from < to4;
+                    let isMoving;
+                    let isBouncing = false;
+                    const step = 1;
+                    const numSteps = Math.ceil(dt / step);
+                    for(let n = 0; n < numSteps; ++n){
+                        isMoving = Math.abs(velocity) > restVelocity;
+                        if (!isMoving) {
+                            finished = Math.abs(to4 - position) <= precision;
+                            if (finished) break;
+                        }
+                        if (canBounce) {
+                            isBouncing = position == to4 || position > to4 == isGrowing;
+                            if (isBouncing) {
+                                velocity = -velocity * bounceFactor;
+                                position = to4;
+                            }
+                        }
+                        const springForce = -config3.tension * 0.000001 * (position - to4);
+                        const dampingForce = -config3.friction * 0.001 * velocity;
+                        const acceleration = (springForce + dampingForce) / config3.mass;
+                        velocity = velocity + acceleration * step;
+                        position = position + velocity * step;
+                    }
+                }
+                node.lastVelocity = velocity;
+                if (Number.isNaN(position)) {
+                    console.warn(`Got NaN while animating:`, this);
+                    finished = true;
+                }
+            }
+            if (payload && !payload[i].done) finished = false;
+            if (finished) node.done = true;
+            else idle = false;
+            if (node.setValue(position, config3.round)) changed = true;
+        });
+        const node2 = (0, _animated.getAnimated)(this);
+        const currVal = node2.getValue();
+        if (idle) {
+            const finalVal = (0, _shared.getFluidValue)(anim.to);
+            if ((currVal !== finalVal || changed) && !config3.decay) {
+                node2.setValue(finalVal);
+                this._onChange(finalVal);
+            } else if (changed && config3.decay) this._onChange(currVal);
+            this._stop();
+        } else if (changed) this._onChange(currVal);
+    }
+    set(value) {
+        (0, _shared.raf).batchedUpdates(()=>{
+            this._stop();
+            this._focus(value);
+            this._set(value);
+        });
+        return this;
+    }
+    pause() {
+        this._update({
+            pause: true
+        });
+    }
+    resume() {
+        this._update({
+            pause: false
+        });
+    }
+    finish() {
+        if (isAnimating(this)) {
+            const { to: to5 , config: config4  } = this.animation;
+            (0, _shared.raf).batchedUpdates(()=>{
+                this._onStart();
+                if (!config4.decay) this._set(to5, false);
+                this._stop();
+            });
+        }
+        return this;
+    }
+    update(props) {
+        const queue = this.queue || (this.queue = []);
+        queue.push(props);
+        return this;
+    }
+    start(to6, arg2) {
+        let queue;
+        if (!(0, _shared.is).und(to6)) queue = [
+            (0, _shared.is).obj(to6) ? to6 : _extends({}, arg2, {
+                to: to6
+            })
+        ];
+        else {
+            queue = this.queue || [];
+            this.queue = [];
+        }
+        return Promise.all(queue.map((props)=>{
+            const up = this._update(props);
+            return up;
+        })).then((results)=>getCombinedResult(this, results));
+    }
+    stop(cancel) {
+        const { to: to7  } = this.animation;
+        this._focus(this.get());
+        stopAsync(this._state, cancel && this._lastCallId);
+        (0, _shared.raf).batchedUpdates(()=>this._stop(to7, cancel));
+        return this;
+    }
+    reset() {
+        this._update({
+            reset: true
+        });
+    }
+    eventObserved(event) {
+        if (event.type == "change") this._start();
+        else if (event.type == "priority") this.priority = event.priority + 1;
+    }
+    _prepareNode(props) {
+        const key = this.key || "";
+        let { to: to8 , from  } = props;
+        to8 = (0, _shared.is).obj(to8) ? to8[key] : to8;
+        if (to8 == null || isAsyncTo(to8)) to8 = undefined;
+        from = (0, _shared.is).obj(from) ? from[key] : from;
+        if (from == null) from = undefined;
+        const range = {
+            to: to8,
+            from
+        };
+        if (!hasAnimated(this)) {
+            if (props.reverse) [to8, from] = [
+                from,
+                to8
+            ];
+            from = (0, _shared.getFluidValue)(from);
+            if (!(0, _shared.is).und(from)) this._set(from);
+            else if (!(0, _animated.getAnimated)(this)) this._set(to8);
+        }
+        return range;
+    }
+    _update(_ref, isLoop) {
+        let props = _extends({}, _ref);
+        const { key , defaultProps  } = this;
+        if (props.default) Object.assign(defaultProps, getDefaultProps(props, (value, prop)=>/^on/.test(prop) ? resolveProp(value, key) : value));
+        mergeActiveFn(this, props, "onProps");
+        sendEvent(this, "onProps", props, this);
+        const range = this._prepareNode(props);
+        if (Object.isFrozen(this)) throw Error("Cannot animate a `SpringValue` object that is frozen. Did you forget to pass your component to `animated(...)` before animating its props?");
+        const state = this._state;
+        return scheduleProps(++this._lastCallId, {
+            key,
+            props,
+            defaultProps,
+            state,
+            actions: {
+                pause: ()=>{
+                    if (!isPaused(this)) {
+                        setPausedBit(this, true);
+                        (0, _shared.flushCalls)(state.pauseQueue);
+                        sendEvent(this, "onPause", getFinishedResult(this, checkFinished(this, this.animation.to)), this);
+                    }
+                },
+                resume: ()=>{
+                    if (isPaused(this)) {
+                        setPausedBit(this, false);
+                        if (isAnimating(this)) this._resume();
+                        (0, _shared.flushCalls)(state.resumeQueue);
+                        sendEvent(this, "onResume", getFinishedResult(this, checkFinished(this, this.animation.to)), this);
+                    }
+                },
+                start: this._merge.bind(this, range)
+            }
+        }).then((result)=>{
+            if (props.loop && result.finished && !(isLoop && result.noop)) {
+                const nextProps = createLoopUpdate(props);
+                if (nextProps) return this._update(nextProps, true);
+            }
+            return result;
+        });
+    }
+    _merge(range, props, resolve) {
+        if (props.cancel) {
+            this.stop(true);
+            return resolve(getCancelledResult(this));
+        }
+        const hasToProp = !(0, _shared.is).und(range.to);
+        const hasFromProp = !(0, _shared.is).und(range.from);
+        if (hasToProp || hasFromProp) {
+            if (props.callId > this._lastToId) this._lastToId = props.callId;
+            else return resolve(getCancelledResult(this));
+        }
+        const { key , defaultProps , animation: anim  } = this;
+        const { to: prevTo , from: prevFrom  } = anim;
+        let { to: to9 = prevTo , from =prevFrom  } = range;
+        if (hasFromProp && !hasToProp && (!props.default || (0, _shared.is).und(to9))) to9 = from;
+        if (props.reverse) [to9, from] = [
+            from,
+            to9
+        ];
+        const hasFromChanged = !(0, _shared.isEqual)(from, prevFrom);
+        if (hasFromChanged) anim.from = from;
+        from = (0, _shared.getFluidValue)(from);
+        const hasToChanged = !(0, _shared.isEqual)(to9, prevTo);
+        if (hasToChanged) this._focus(to9);
+        const hasAsyncTo = isAsyncTo(props.to);
+        const { config: config5  } = anim;
+        const { decay , velocity  } = config5;
+        if (hasToProp || hasFromProp) config5.velocity = 0;
+        if (props.config && !hasAsyncTo) mergeConfig(config5, callProp(props.config, key), props.config !== defaultProps.config ? callProp(defaultProps.config, key) : void 0);
+        let node = (0, _animated.getAnimated)(this);
+        if (!node || (0, _shared.is).und(to9)) return resolve(getFinishedResult(this, true));
+        const reset = (0, _shared.is).und(props.reset) ? hasFromProp && !props.default : !(0, _shared.is).und(from) && matchProp(props.reset, key);
+        const value = reset ? from : this.get();
+        const goal = computeGoal(to9);
+        const isAnimatable = (0, _shared.is).num(goal) || (0, _shared.is).arr(goal) || (0, _shared.isAnimatedString)(goal);
+        const immediate = !hasAsyncTo && (!isAnimatable || matchProp(defaultProps.immediate || props.immediate, key));
+        if (hasToChanged) {
+            const nodeType = (0, _animated.getAnimatedType)(to9);
+            if (nodeType !== node.constructor) {
+                if (immediate) node = this._set(goal);
+                else throw Error(`Cannot animate between ${node.constructor.name} and ${nodeType.name}, as the "to" prop suggests`);
+            }
+        }
+        const goalType = node.constructor;
+        let started = (0, _shared.hasFluidValue)(to9);
+        let finished = false;
+        if (!started) {
+            const hasValueChanged = reset || !hasAnimated(this) && hasFromChanged;
+            if (hasToChanged || hasValueChanged) {
+                finished = (0, _shared.isEqual)(computeGoal(value), goal);
+                started = !finished;
+            }
+            if (!(0, _shared.isEqual)(anim.immediate, immediate) && !immediate || !(0, _shared.isEqual)(config5.decay, decay) || !(0, _shared.isEqual)(config5.velocity, velocity)) started = true;
+        }
+        if (finished && isAnimating(this)) {
+            if (anim.changed && !reset) started = true;
+            else if (!started) this._stop(prevTo);
+        }
+        if (!hasAsyncTo) {
+            if (started || (0, _shared.hasFluidValue)(prevTo)) {
+                anim.values = node.getPayload();
+                anim.toValues = (0, _shared.hasFluidValue)(to9) ? null : goalType == (0, _animated.AnimatedString) ? [
+                    1
+                ] : (0, _shared.toArray)(goal);
+            }
+            if (anim.immediate != immediate) {
+                anim.immediate = immediate;
+                if (!immediate && !reset) this._set(prevTo);
+            }
+            if (started) {
+                const { onRest  } = anim;
+                (0, _shared.each)(ACTIVE_EVENTS, (type)=>mergeActiveFn(this, props, type));
+                const result = getFinishedResult(this, checkFinished(this, prevTo));
+                (0, _shared.flushCalls)(this._pendingCalls, result);
+                this._pendingCalls.add(resolve);
+                if (anim.changed) (0, _shared.raf).batchedUpdates(()=>{
+                    anim.changed = !reset;
+                    onRest == null || onRest(result, this);
+                    if (reset) callProp(defaultProps.onRest, result);
+                    else anim.onStart == null || anim.onStart(result, this);
+                });
+            }
+        }
+        if (reset) this._set(value);
+        if (hasAsyncTo) resolve(runAsync(props.to, props, this._state, this));
+        else if (started) this._start();
+        else if (isAnimating(this) && !hasToChanged) this._pendingCalls.add(resolve);
+        else resolve(getNoopResult(value));
+    }
+    _focus(value) {
+        const anim = this.animation;
+        if (value !== anim.to) {
+            if ((0, _shared.getFluidObservers)(this)) this._detach();
+            anim.to = value;
+            if ((0, _shared.getFluidObservers)(this)) this._attach();
+        }
+    }
+    _attach() {
+        let priority = 0;
+        const { to: to10  } = this.animation;
+        if ((0, _shared.hasFluidValue)(to10)) {
+            (0, _shared.addFluidObserver)(to10, this);
+            if (isFrameValue(to10)) priority = to10.priority + 1;
+        }
+        this.priority = priority;
+    }
+    _detach() {
+        const { to: to11  } = this.animation;
+        if ((0, _shared.hasFluidValue)(to11)) (0, _shared.removeFluidObserver)(to11, this);
+    }
+    _set(arg, idle = true) {
+        const value = (0, _shared.getFluidValue)(arg);
+        if (!(0, _shared.is).und(value)) {
+            const oldNode = (0, _animated.getAnimated)(this);
+            if (!oldNode || !(0, _shared.isEqual)(value, oldNode.getValue())) {
+                const nodeType = (0, _animated.getAnimatedType)(value);
+                if (!oldNode || oldNode.constructor != nodeType) (0, _animated.setAnimated)(this, nodeType.create(value));
+                else oldNode.setValue(value);
+                if (oldNode) (0, _shared.raf).batchedUpdates(()=>{
+                    this._onChange(value, idle);
+                });
+            }
+        }
+        return (0, _animated.getAnimated)(this);
+    }
+    _onStart() {
+        const anim = this.animation;
+        if (!anim.changed) {
+            anim.changed = true;
+            sendEvent(this, "onStart", getFinishedResult(this, checkFinished(this, anim.to)), this);
+        }
+    }
+    _onChange(value, idle) {
+        if (!idle) {
+            this._onStart();
+            callProp(this.animation.onChange, value, this);
+        }
+        callProp(this.defaultProps.onChange, value, this);
+        super._onChange(value, idle);
+    }
+    _start() {
+        const anim = this.animation;
+        (0, _animated.getAnimated)(this).reset((0, _shared.getFluidValue)(anim.to));
+        if (!anim.immediate) anim.fromValues = anim.values.map((node)=>node.lastPosition);
+        if (!isAnimating(this)) {
+            setActiveBit(this, true);
+            if (!isPaused(this)) this._resume();
+        }
+    }
+    _resume() {
+        if ((0, _shared.Globals).skipAnimation) this.finish();
+        else (0, _shared.frameLoop).start(this);
+    }
+    _stop(goal, cancel) {
+        if (isAnimating(this)) {
+            setActiveBit(this, false);
+            const anim = this.animation;
+            (0, _shared.each)(anim.values, (node)=>{
+                node.done = true;
+            });
+            if (anim.toValues) anim.onChange = anim.onPause = anim.onResume = undefined;
+            (0, _shared.callFluidObservers)(this, {
+                type: "idle",
+                parent: this
+            });
+            const result = cancel ? getCancelledResult(this.get()) : getFinishedResult(this.get(), checkFinished(this, goal != null ? goal : anim.to));
+            (0, _shared.flushCalls)(this._pendingCalls, result);
+            if (anim.changed) {
+                anim.changed = false;
+                sendEvent(this, "onRest", result, this);
+            }
+        }
+    }
+}
+function checkFinished(target, to12) {
+    const goal = computeGoal(to12);
+    const value = computeGoal(target.get());
+    return (0, _shared.isEqual)(value, goal);
+}
+function createLoopUpdate(props, loop = props.loop, to13 = props.to) {
+    let loopRet = callProp(loop);
+    if (loopRet) {
+        const overrides = loopRet !== true && inferTo(loopRet);
+        const reverse = (overrides || props).reverse;
+        const reset = !overrides || overrides.reset;
+        return createUpdate(_extends({}, props, {
+            loop,
+            default: false,
+            pause: undefined,
+            to: !reverse || isAsyncTo(to13) ? to13 : undefined,
+            from: reset ? props.from : undefined,
+            reset
+        }, overrides));
+    }
+}
+function createUpdate(props) {
+    const { to: to14 , from  } = props = inferTo(props);
+    const keys = new Set();
+    if ((0, _shared.is).obj(to14)) findDefined(to14, keys);
+    if ((0, _shared.is).obj(from)) findDefined(from, keys);
+    props.keys = keys.size ? Array.from(keys) : null;
+    return props;
+}
+function declareUpdate(props) {
+    const update2 = createUpdate(props);
+    if ((0, _shared.is).und(update2.default)) update2.default = getDefaultProps(update2);
+    return update2;
+}
+function findDefined(values, keys) {
+    (0, _shared.eachProp)(values, (value, key)=>value != null && keys.add(key));
+}
+const ACTIVE_EVENTS = [
+    "onStart",
+    "onRest",
+    "onChange",
+    "onPause",
+    "onResume"
+];
+function mergeActiveFn(target, props, type) {
+    target.animation[type] = props[type] !== getDefaultProp(props, type) ? resolveProp(props[type], target.key) : undefined;
+}
+function sendEvent(target, type, ...args) {
+    var _target$animation$typ, _target$animation, _target$defaultProps$, _target$defaultProps;
+    (_target$animation$typ = (_target$animation = target.animation)[type]) == null || _target$animation$typ.call(_target$animation, ...args);
+    (_target$defaultProps$ = (_target$defaultProps = target.defaultProps)[type]) == null || _target$defaultProps$.call(_target$defaultProps, ...args);
+}
+const BATCHED_EVENTS = [
+    "onStart",
+    "onChange",
+    "onRest"
+];
+let nextId = 1;
+class Controller {
+    constructor(props, flush){
+        this.id = nextId++;
+        this.springs = {};
+        this.queue = [];
+        this.ref = void 0;
+        this._flush = void 0;
+        this._initialProps = void 0;
+        this._lastAsyncId = 0;
+        this._active = new Set();
+        this._changed = new Set();
+        this._started = false;
+        this._item = void 0;
+        this._state = {
+            paused: false,
+            pauseQueue: new Set(),
+            resumeQueue: new Set(),
+            timeouts: new Set()
+        };
+        this._events = {
+            onStart: new Map(),
+            onChange: new Map(),
+            onRest: new Map()
+        };
+        this._onFrame = this._onFrame.bind(this);
+        if (flush) this._flush = flush;
+        if (props) this.start(_extends({
+            default: true
+        }, props));
+    }
+    get idle() {
+        return !this._state.asyncTo && Object.values(this.springs).every((spring)=>{
+            return spring.idle && !spring.isDelayed && !spring.isPaused;
+        });
+    }
+    get item() {
+        return this._item;
+    }
+    set item(item) {
+        this._item = item;
+    }
+    get() {
+        const values = {};
+        this.each((spring, key)=>values[key] = spring.get());
+        return values;
+    }
+    set(values) {
+        for(const key in values){
+            const value = values[key];
+            if (!(0, _shared.is).und(value)) this.springs[key].set(value);
+        }
+    }
+    update(props) {
+        if (props) this.queue.push(createUpdate(props));
+        return this;
+    }
+    start(props) {
+        let { queue  } = this;
+        if (props) queue = (0, _shared.toArray)(props).map(createUpdate);
+        else this.queue = [];
+        if (this._flush) return this._flush(this, queue);
+        prepareKeys(this, queue);
+        return flushUpdateQueue(this, queue);
+    }
+    stop(arg, keys) {
+        if (arg !== !!arg) keys = arg;
+        if (keys) {
+            const springs = this.springs;
+            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].stop(!!arg));
+        } else {
+            stopAsync(this._state, this._lastAsyncId);
+            this.each((spring)=>spring.stop(!!arg));
+        }
+        return this;
+    }
+    pause(keys) {
+        if ((0, _shared.is).und(keys)) this.start({
+            pause: true
+        });
+        else {
+            const springs = this.springs;
+            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].pause());
+        }
+        return this;
+    }
+    resume(keys) {
+        if ((0, _shared.is).und(keys)) this.start({
+            pause: false
+        });
+        else {
+            const springs = this.springs;
+            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].resume());
+        }
+        return this;
+    }
+    each(iterator) {
+        (0, _shared.eachProp)(this.springs, iterator);
+    }
+    _onFrame() {
+        const { onStart: onStart1 , onChange: onChange1 , onRest: onRest1  } = this._events;
+        const active = this._active.size > 0;
+        const changed = this._changed.size > 0;
+        if (active && !this._started || changed && !this._started) {
+            this._started = true;
+            (0, _shared.flush)(onStart1, ([onStart, result])=>{
+                result.value = this.get();
+                onStart(result, this, this._item);
+            });
+        }
+        const idle = !active && this._started;
+        const values = changed || idle && onRest1.size ? this.get() : null;
+        if (changed && onChange1.size) (0, _shared.flush)(onChange1, ([onChange, result])=>{
+            result.value = values;
+            onChange(result, this, this._item);
+        });
+        if (idle) {
+            this._started = false;
+            (0, _shared.flush)(onRest1, ([onRest, result])=>{
+                result.value = values;
+                onRest(result, this, this._item);
+            });
+        }
+    }
+    eventObserved(event) {
+        if (event.type == "change") {
+            this._changed.add(event.parent);
+            if (!event.idle) this._active.add(event.parent);
+        } else if (event.type == "idle") this._active.delete(event.parent);
+        else return;
+        (0, _shared.raf).onFrame(this._onFrame);
+    }
+}
+function flushUpdateQueue(ctrl, queue) {
+    return Promise.all(queue.map((props)=>flushUpdate(ctrl, props))).then((results)=>getCombinedResult(ctrl, results));
+}
+async function flushUpdate(ctrl, props2, isLoop) {
+    const { keys , to: to15 , from , loop , onRest , onResolve  } = props2;
+    const defaults2 = (0, _shared.is).obj(props2.default) && props2.default;
+    if (loop) props2.loop = false;
+    if (to15 === false) props2.to = null;
+    if (from === false) props2.from = null;
+    const asyncTo = (0, _shared.is).arr(to15) || (0, _shared.is).fun(to15) ? to15 : undefined;
+    if (asyncTo) {
+        props2.to = undefined;
+        props2.onRest = undefined;
+        if (defaults2) defaults2.onRest = undefined;
+    } else (0, _shared.each)(BATCHED_EVENTS, (key)=>{
+        const handler = props2[key];
+        if ((0, _shared.is).fun(handler)) {
+            const queue = ctrl["_events"][key];
+            props2[key] = ({ finished , cancelled  })=>{
+                const result = queue.get(handler);
+                if (result) {
+                    if (!finished) result.finished = false;
+                    if (cancelled) result.cancelled = true;
+                } else queue.set(handler, {
+                    value: null,
+                    finished: finished || false,
+                    cancelled: cancelled || false
+                });
+            };
+            if (defaults2) defaults2[key] = props2[key];
+        }
+    });
+    const state = ctrl["_state"];
+    if (props2.pause === !state.paused) {
+        state.paused = props2.pause;
+        (0, _shared.flushCalls)(props2.pause ? state.pauseQueue : state.resumeQueue);
+    } else if (state.paused) props2.pause = true;
+    const promises = (keys || Object.keys(ctrl.springs)).map((key)=>ctrl.springs[key].start(props2));
+    const cancel = props2.cancel === true || getDefaultProp(props2, "cancel") === true;
+    if (asyncTo || cancel && state.asyncId) promises.push(scheduleProps(++ctrl["_lastAsyncId"], {
+        props: props2,
+        state,
+        actions: {
+            pause: (0, _shared.noop),
+            resume: (0, _shared.noop),
+            start (props, resolve) {
+                if (cancel) {
+                    stopAsync(state, ctrl["_lastAsyncId"]);
+                    resolve(getCancelledResult(ctrl));
+                } else {
+                    props.onRest = onRest;
+                    resolve(runAsync(asyncTo, props, state, ctrl));
+                }
+            }
+        }
+    }));
+    if (state.paused) await new Promise((resume)=>{
+        state.resumeQueue.add(resume);
+    });
+    const result2 = getCombinedResult(ctrl, await Promise.all(promises));
+    if (loop && result2.finished && !(isLoop && result2.noop)) {
+        const nextProps = createLoopUpdate(props2, loop, to15);
+        if (nextProps) {
+            prepareKeys(ctrl, [
+                nextProps
+            ]);
+            return flushUpdate(ctrl, nextProps, true);
+        }
+    }
+    if (onResolve) (0, _shared.raf).batchedUpdates(()=>onResolve(result2, ctrl, ctrl.item));
+    return result2;
+}
+function getSprings(ctrl, props3) {
+    const springs = _extends({}, ctrl.springs);
+    if (props3) (0, _shared.each)((0, _shared.toArray)(props3), (props)=>{
+        if ((0, _shared.is).und(props.keys)) props = createUpdate(props);
+        if (!(0, _shared.is).obj(props.to)) props = _extends({}, props, {
+            to: undefined
+        });
+        prepareSprings(springs, props, (key)=>{
+            return createSpring(key);
+        });
+    });
+    setSprings(ctrl, springs);
+    return springs;
+}
+function setSprings(ctrl, springs) {
+    (0, _shared.eachProp)(springs, (spring, key)=>{
+        if (!ctrl.springs[key]) {
+            ctrl.springs[key] = spring;
+            (0, _shared.addFluidObserver)(spring, ctrl);
+        }
+    });
+}
+function createSpring(key, observer) {
+    const spring = new SpringValue();
+    spring.key = key;
+    if (observer) (0, _shared.addFluidObserver)(spring, observer);
+    return spring;
+}
+function prepareSprings(springs, props, create) {
+    if (props.keys) (0, _shared.each)(props.keys, (key)=>{
+        const spring = springs[key] || (springs[key] = create(key));
+        spring["_prepareNode"](props);
+    });
+}
+function prepareKeys(ctrl, queue) {
+    (0, _shared.each)(queue, (props)=>{
+        prepareSprings(ctrl.springs, props, (key)=>{
+            return createSpring(key, ctrl);
+        });
+    });
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+const _excluded$3 = [
+    "children"
+];
+const SpringContext = (_ref)=>{
+    let { children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$3);
+    const inherited = (0, _react.useContext)(ctx);
+    const pause = props.pause || !!inherited.pause, immediate = props.immediate || !!inherited.immediate;
+    props = (0, _shared.useMemoOne)(()=>({
+            pause,
+            immediate
+        }), [
+        pause,
+        immediate
+    ]);
+    const { Provider  } = ctx;
+    return _react.createElement(Provider, {
+        value: props
+    }, children);
+};
+const ctx = makeContext(SpringContext, {});
+SpringContext.Provider = ctx.Provider;
+SpringContext.Consumer = ctx.Consumer;
+function makeContext(target, init) {
+    Object.assign(target, _react.createContext(init));
+    target.Provider._context = target;
+    target.Consumer._context = target;
+    return target;
+}
+const SpringRef = ()=>{
+    const current = [];
+    const SpringRef1 = function SpringRef(props) {
+        (0, _shared.deprecateDirectCall)();
+        const results = [];
+        (0, _shared.each)(current, (ctrl, i)=>{
+            if ((0, _shared.is).und(props)) results.push(ctrl.start());
+            else {
+                const update3 = _getProps(props, ctrl, i);
+                if (update3) results.push(ctrl.start(update3));
+            }
+        });
+        return results;
+    };
+    SpringRef1.current = current;
+    SpringRef1.add = function(ctrl) {
+        if (!current.includes(ctrl)) current.push(ctrl);
+    };
+    SpringRef1.delete = function(ctrl) {
+        const i = current.indexOf(ctrl);
+        if (~i) current.splice(i, 1);
+    };
+    SpringRef1.pause = function() {
+        (0, _shared.each)(current, (ctrl)=>ctrl.pause(...arguments));
+        return this;
+    };
+    SpringRef1.resume = function() {
+        (0, _shared.each)(current, (ctrl)=>ctrl.resume(...arguments));
+        return this;
+    };
+    SpringRef1.set = function(values) {
+        (0, _shared.each)(current, (ctrl)=>ctrl.set(values));
+    };
+    SpringRef1.start = function(props) {
+        const results = [];
+        (0, _shared.each)(current, (ctrl, i)=>{
+            if ((0, _shared.is).und(props)) results.push(ctrl.start());
+            else {
+                const update4 = this._getProps(props, ctrl, i);
+                if (update4) results.push(ctrl.start(update4));
+            }
+        });
+        return results;
+    };
+    SpringRef1.stop = function() {
+        (0, _shared.each)(current, (ctrl)=>ctrl.stop(...arguments));
+        return this;
+    };
+    SpringRef1.update = function(props) {
+        (0, _shared.each)(current, (ctrl, i)=>ctrl.update(this._getProps(props, ctrl, i)));
+        return this;
+    };
+    const _getProps = function _getProps(arg, ctrl, index) {
+        return (0, _shared.is).fun(arg) ? arg(index, ctrl) : arg;
+    };
+    SpringRef1._getProps = _getProps;
+    return SpringRef1;
+};
+function useSprings(length, props, deps) {
+    const propsFn = (0, _shared.is).fun(props) && props;
+    if (propsFn && !deps) deps = [];
+    const ref = (0, _react.useMemo)(()=>propsFn || arguments.length == 3 ? SpringRef() : void 0, []);
+    const layoutId = (0, _react.useRef)(0);
+    const forceUpdate = (0, _shared.useForceUpdate)();
+    const state = (0, _react.useMemo)(()=>({
+            ctrls: [],
+            queue: [],
+            flush (ctrl, updates) {
+                const springs = getSprings(ctrl, updates);
+                const canFlushSync = layoutId.current > 0 && !state.queue.length && !Object.keys(springs).some((key)=>!ctrl.springs[key]);
+                return canFlushSync ? flushUpdateQueue(ctrl, updates) : new Promise((resolve)=>{
+                    setSprings(ctrl, springs);
+                    state.queue.push(()=>{
+                        resolve(flushUpdateQueue(ctrl, updates));
+                    });
+                    forceUpdate();
+                });
+            }
+        }), []);
+    const ctrls = (0, _react.useRef)([
+        ...state.ctrls
+    ]);
+    const updates1 = [];
+    const prevLength = (0, _shared.usePrev)(length) || 0;
+    (0, _react.useMemo)(()=>{
+        (0, _shared.each)(ctrls.current.slice(length, prevLength), (ctrl)=>{
+            detachRefs(ctrl, ref);
+            ctrl.stop(true);
+        });
+        ctrls.current.length = length;
+        declareUpdates(prevLength, length);
+    }, [
+        length
+    ]);
+    (0, _react.useMemo)(()=>{
+        declareUpdates(0, Math.min(prevLength, length));
+    }, deps);
+    function declareUpdates(startIndex, endIndex) {
+        for(let i = startIndex; i < endIndex; i++){
+            const ctrl = ctrls.current[i] || (ctrls.current[i] = new Controller(null, state.flush));
+            const update5 = propsFn ? propsFn(i, ctrl) : props[i];
+            if (update5) updates1[i] = declareUpdate(update5);
+        }
+    }
+    const springs1 = ctrls.current.map((ctrl, i)=>getSprings(ctrl, updates1[i]));
+    const context = (0, _react.useContext)(SpringContext);
+    const prevContext = (0, _shared.usePrev)(context);
+    const hasContext = context !== prevContext && hasProps(context);
+    (0, _shared.useIsomorphicLayoutEffect)(()=>{
+        layoutId.current++;
+        state.ctrls = ctrls.current;
+        const { queue  } = state;
+        if (queue.length) {
+            state.queue = [];
+            (0, _shared.each)(queue, (cb)=>cb());
+        }
+        (0, _shared.each)(ctrls.current, (ctrl, i)=>{
+            ref == null || ref.add(ctrl);
+            if (hasContext) ctrl.start({
+                default: context
+            });
+            const update6 = updates1[i];
+            if (update6) {
+                replaceRef(ctrl, update6.ref);
+                if (ctrl.ref) ctrl.queue.push(update6);
+                else ctrl.start(update6);
+            }
+        });
+    });
+    (0, _shared.useOnce)(()=>()=>{
+            (0, _shared.each)(state.ctrls, (ctrl)=>ctrl.stop(true));
+        });
+    const values = springs1.map((x)=>_extends({}, x));
+    return ref ? [
+        values,
+        ref
+    ] : values;
+}
+function useSpring(props, deps) {
+    const isFn = (0, _shared.is).fun(props);
+    const [[values], ref] = useSprings(1, isFn ? props : [
+        props
+    ], isFn ? deps || [] : deps);
+    return isFn || arguments.length == 2 ? [
+        values,
+        ref
+    ] : values;
+}
+const initSpringRef = ()=>SpringRef();
+const useSpringRef = ()=>(0, _react.useState)(initSpringRef)[0];
+function useTrail(length, propsArg1, deps) {
+    var _passedRef;
+    const propsFn = (0, _shared.is).fun(propsArg1) && propsArg1;
+    if (propsFn && !deps) deps = [];
+    let reverse = true;
+    let passedRef = undefined;
+    const result = useSprings(length, (i, ctrl)=>{
+        const props = propsFn ? propsFn(i, ctrl) : propsArg1;
+        passedRef = props.ref;
+        reverse = reverse && props.reverse;
+        return props;
+    }, deps || [
+        {}
+    ]);
+    const ref = (_passedRef = passedRef) != null ? _passedRef : result[1];
+    (0, _shared.useIsomorphicLayoutEffect)(()=>{
+        (0, _shared.each)(ref.current, (ctrl, i)=>{
+            const parent = ref.current[i + (reverse ? 1 : -1)];
+            if (parent) ctrl.start({
+                to: parent.springs
+            });
+            else ctrl.start();
+        });
+    }, deps);
+    if (propsFn || arguments.length == 3) {
+        ref["_getProps"] = (propsArg, ctrl, i)=>{
+            const props = (0, _shared.is).fun(propsArg) ? propsArg(i, ctrl) : propsArg;
+            if (props) {
+                const parent = ref.current[i + (props.reverse ? 1 : -1)];
+                if (parent) props.to = parent.springs;
+                return props;
+            }
+        };
+        return result;
+    }
+    ref["start"] = (propsArg)=>{
+        const results = [];
+        (0, _shared.each)(ref.current, (ctrl, i)=>{
+            const props = (0, _shared.is).fun(propsArg) ? propsArg(i, ctrl) : propsArg;
+            const parent = ref.current[i + (reverse ? 1 : -1)];
+            if (parent) results.push(ctrl.start(_extends({}, props, {
+                to: parent.springs
+            })));
+            else results.push(ctrl.start(_extends({}, props)));
+        });
+        return results;
+    };
+    return result[0];
+}
+let TransitionPhase;
+(function(TransitionPhase1) {
+    TransitionPhase1["MOUNT"] = "mount";
+    TransitionPhase1["ENTER"] = "enter";
+    TransitionPhase1["UPDATE"] = "update";
+    TransitionPhase1["LEAVE"] = "leave";
+})(TransitionPhase || (TransitionPhase = {}));
+function useTransition(data, props, deps) {
+    const propsFn = (0, _shared.is).fun(props) && props;
+    const { reset , sort , trail =0 , expires =true , exitBeforeEnter =false , onDestroyed , ref: propsRef , config: propsConfig  } = propsFn ? propsFn() : props;
+    const ref = (0, _react.useMemo)(()=>propsFn || arguments.length == 3 ? SpringRef() : void 0, []);
+    const items = (0, _shared.toArray)(data);
+    const transitions1 = [];
+    const usedTransitions = (0, _react.useRef)(null);
+    const prevTransitions = reset ? null : usedTransitions.current;
+    (0, _shared.useIsomorphicLayoutEffect)(()=>{
+        usedTransitions.current = transitions1;
+    });
+    (0, _shared.useOnce)(()=>{
+        (0, _shared.each)(transitions1, (t)=>{
+            ref == null || ref.add(t.ctrl);
+            t.ctrl.ref = ref;
+        });
+        return ()=>{
+            (0, _shared.each)(usedTransitions.current, (t)=>{
+                if (t.expired) clearTimeout(t.expirationId);
+                detachRefs(t.ctrl, ref);
+                t.ctrl.stop(true);
+            });
+        };
+    });
+    const keys = getKeys(items, propsFn ? propsFn() : props, prevTransitions);
+    const expired = reset && usedTransitions.current || [];
+    (0, _shared.useIsomorphicLayoutEffect)(()=>(0, _shared.each)(expired, ({ ctrl , item , key  })=>{
+            detachRefs(ctrl, ref);
+            callProp(onDestroyed, item, key);
+        }));
+    const reused = [];
+    if (prevTransitions) (0, _shared.each)(prevTransitions, (t, i)=>{
+        if (t.expired) {
+            clearTimeout(t.expirationId);
+            expired.push(t);
+        } else {
+            i = reused[i] = keys.indexOf(t.key);
+            if (~i) transitions1[i] = t;
+        }
+    });
+    (0, _shared.each)(items, (item, i)=>{
+        if (!transitions1[i]) {
+            transitions1[i] = {
+                key: keys[i],
+                item,
+                phase: TransitionPhase.MOUNT,
+                ctrl: new Controller()
+            };
+            transitions1[i].ctrl.item = item;
+        }
+    });
+    if (reused.length) {
+        let i = -1;
+        const { leave  } = propsFn ? propsFn() : props;
+        (0, _shared.each)(reused, (keyIndex, prevIndex)=>{
+            const t = prevTransitions[prevIndex];
+            if (~keyIndex) {
+                i = transitions1.indexOf(t);
+                transitions1[i] = _extends({}, t, {
+                    item: items[keyIndex]
+                });
+            } else if (leave) transitions1.splice(++i, 0, t);
+        });
+    }
+    if ((0, _shared.is).fun(sort)) transitions1.sort((a, b)=>sort(a.item, b.item));
+    let delay = -trail;
+    const forceUpdate = (0, _shared.useForceUpdate)();
+    const defaultProps = getDefaultProps(props);
+    const changes = new Map();
+    const exitingTransitions = (0, _react.useRef)(new Map());
+    const forceChange = (0, _react.useRef)(false);
+    (0, _shared.each)(transitions1, (t1, i)=>{
+        const key = t1.key;
+        const prevPhase = t1.phase;
+        const p = propsFn ? propsFn() : props;
+        let to16;
+        let phase;
+        let propsDelay = callProp(p.delay || 0, key);
+        if (prevPhase == TransitionPhase.MOUNT) {
+            to16 = p.enter;
+            phase = TransitionPhase.ENTER;
+        } else {
+            const isLeave = keys.indexOf(key) < 0;
+            if (prevPhase != TransitionPhase.LEAVE) {
+                if (isLeave) {
+                    to16 = p.leave;
+                    phase = TransitionPhase.LEAVE;
+                } else if (to16 = p.update) phase = TransitionPhase.UPDATE;
+                else return;
+            } else if (!isLeave) {
+                to16 = p.enter;
+                phase = TransitionPhase.ENTER;
+            } else return;
+        }
+        to16 = callProp(to16, t1.item, i);
+        to16 = (0, _shared.is).obj(to16) ? inferTo(to16) : {
+            to: to16
+        };
+        if (!to16.config) {
+            const config6 = propsConfig || defaultProps.config;
+            to16.config = callProp(config6, t1.item, i, phase);
+        }
+        delay += trail;
+        const payload = _extends({}, defaultProps, {
+            delay: propsDelay + delay,
+            ref: propsRef,
+            immediate: p.immediate,
+            reset: false
+        }, to16);
+        if (phase == TransitionPhase.ENTER && (0, _shared.is).und(payload.from)) {
+            const _p = propsFn ? propsFn() : props;
+            const from = (0, _shared.is).und(_p.initial) || prevTransitions ? _p.from : _p.initial;
+            payload.from = callProp(from, t1.item, i);
+        }
+        const { onResolve  } = payload;
+        payload.onResolve = (result)=>{
+            callProp(onResolve, result);
+            const transitions = usedTransitions.current;
+            const t2 = transitions.find((t)=>t.key === key);
+            if (!t2) return;
+            if (result.cancelled && t2.phase != TransitionPhase.UPDATE) return;
+            if (t2.ctrl.idle) {
+                const idle = transitions.every((t)=>t.ctrl.idle);
+                if (t2.phase == TransitionPhase.LEAVE) {
+                    const expiry = callProp(expires, t2.item);
+                    if (expiry !== false) {
+                        const expiryMs = expiry === true ? 0 : expiry;
+                        t2.expired = true;
+                        if (!idle && expiryMs > 0) {
+                            if (expiryMs <= 0x7fffffff) t2.expirationId = setTimeout(forceUpdate, expiryMs);
+                            return;
+                        }
+                    }
+                }
+                if (idle && transitions.some((t)=>t.expired)) {
+                    exitingTransitions.current.delete(t2);
+                    if (exitBeforeEnter) forceChange.current = true;
+                    forceUpdate();
+                }
+            }
+        };
+        const springs = getSprings(t1.ctrl, payload);
+        if (phase === TransitionPhase.LEAVE && exitBeforeEnter) exitingTransitions.current.set(t1, {
+            phase,
+            springs,
+            payload
+        });
+        else changes.set(t1, {
+            phase,
+            springs,
+            payload
+        });
+    });
+    const context = (0, _react.useContext)(SpringContext);
+    const prevContext = (0, _shared.usePrev)(context);
+    const hasContext = context !== prevContext && hasProps(context);
+    (0, _shared.useIsomorphicLayoutEffect)(()=>{
+        if (hasContext) (0, _shared.each)(transitions1, (t)=>{
+            t.ctrl.start({
+                default: context
+            });
+        });
+    }, [
+        context
+    ]);
+    (0, _shared.each)(changes, (_, t)=>{
+        if (exitingTransitions.current.size) {
+            const ind = transitions1.findIndex((state)=>state.key === t.key);
+            transitions1.splice(ind, 1);
+        }
+    });
+    (0, _shared.useIsomorphicLayoutEffect)(()=>{
+        (0, _shared.each)(exitingTransitions.current.size ? exitingTransitions.current : changes, ({ phase , payload  }, t)=>{
+            const { ctrl  } = t;
+            t.phase = phase;
+            ref == null || ref.add(ctrl);
+            if (hasContext && phase == TransitionPhase.ENTER) ctrl.start({
+                default: context
+            });
+            if (payload) {
+                replaceRef(ctrl, payload.ref);
+                if (ctrl.ref && !forceChange.current) ctrl.update(payload);
+                else {
+                    ctrl.start(payload);
+                    if (forceChange.current) forceChange.current = false;
+                }
+            }
+        });
+    }, reset ? void 0 : deps);
+    const renderTransitions = (render)=>_react.createElement(_react.Fragment, null, transitions1.map((t, i)=>{
+            const { springs  } = changes.get(t) || t.ctrl;
+            const elem = render(_extends({}, springs), t.item, t, i);
+            return elem && elem.type ? _react.createElement(elem.type, _extends({}, elem.props, {
+                key: (0, _shared.is).str(t.key) || (0, _shared.is).num(t.key) ? t.key : t.ctrl.id,
+                ref: elem.ref
+            })) : elem;
+        }));
+    return ref ? [
+        renderTransitions,
+        ref
+    ] : renderTransitions;
+}
+let nextKey = 1;
+function getKeys(items, { key , keys =key  }, prevTransitions) {
+    if (keys === null) {
+        const reused = new Set();
+        return items.map((item)=>{
+            const t3 = prevTransitions && prevTransitions.find((t)=>t.item === item && t.phase !== TransitionPhase.LEAVE && !reused.has(t));
+            if (t3) {
+                reused.add(t3);
+                return t3.key;
+            }
+            return nextKey++;
+        });
+    }
+    return (0, _shared.is).und(keys) ? items : (0, _shared.is).fun(keys) ? items.map(keys) : (0, _shared.toArray)(keys);
+}
+const _excluded$2 = [
+    "children"
+];
+function Spring(_ref) {
+    let { children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$2);
+    return children(useSpring(props));
+}
+const _excluded$1 = [
+    "items",
+    "children"
+];
+function Trail(_ref) {
+    let { items , children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$1);
+    const trails = useTrail(items.length, props);
+    return items.map((item, index)=>{
+        const result = children(item, index);
+        return (0, _shared.is).fun(result) ? result(trails[index]) : result;
+    });
+}
+const _excluded = [
+    "items",
+    "children"
+];
+function Transition(_ref) {
+    let { items , children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded);
+    return useTransition(items, props)(children);
+}
+class Interpolation extends FrameValue {
+    constructor(source, args){
+        super();
+        this.key = void 0;
+        this.idle = true;
+        this.calc = void 0;
+        this._active = new Set();
+        this.source = source;
+        this.calc = (0, _shared.createInterpolator)(...args);
+        const value = this._get();
+        const nodeType = (0, _animated.getAnimatedType)(value);
+        (0, _animated.setAnimated)(this, nodeType.create(value));
+    }
+    advance(_dt) {
+        const value = this._get();
+        const oldValue = this.get();
+        if (!(0, _shared.isEqual)(value, oldValue)) {
+            (0, _animated.getAnimated)(this).setValue(value);
+            this._onChange(value, this.idle);
+        }
+        if (!this.idle && checkIdle(this._active)) becomeIdle(this);
+    }
+    _get() {
+        const inputs = (0, _shared.is).arr(this.source) ? this.source.map((0, _shared.getFluidValue)) : (0, _shared.toArray)((0, _shared.getFluidValue)(this.source));
+        return this.calc(...inputs);
+    }
+    _start() {
+        if (this.idle && !checkIdle(this._active)) {
+            this.idle = false;
+            (0, _shared.each)((0, _animated.getPayload)(this), (node)=>{
+                node.done = false;
+            });
+            if ((0, _shared.Globals).skipAnimation) {
+                (0, _shared.raf).batchedUpdates(()=>this.advance());
+                becomeIdle(this);
+            } else (0, _shared.frameLoop).start(this);
+        }
+    }
+    _attach() {
+        let priority = 1;
+        (0, _shared.each)((0, _shared.toArray)(this.source), (source)=>{
+            if ((0, _shared.hasFluidValue)(source)) (0, _shared.addFluidObserver)(source, this);
+            if (isFrameValue(source)) {
+                if (!source.idle) this._active.add(source);
+                priority = Math.max(priority, source.priority + 1);
+            }
+        });
+        this.priority = priority;
+        this._start();
+    }
+    _detach() {
+        (0, _shared.each)((0, _shared.toArray)(this.source), (source)=>{
+            if ((0, _shared.hasFluidValue)(source)) (0, _shared.removeFluidObserver)(source, this);
+        });
+        this._active.clear();
+        becomeIdle(this);
+    }
+    eventObserved(event) {
+        if (event.type == "change") {
+            if (event.idle) this.advance();
+            else {
+                this._active.add(event.parent);
+                this._start();
+            }
+        } else if (event.type == "idle") this._active.delete(event.parent);
+        else if (event.type == "priority") this.priority = (0, _shared.toArray)(this.source).reduce((highest, parent)=>Math.max(highest, (isFrameValue(parent) ? parent.priority : 0) + 1), 0);
+    }
+}
+function isIdle(source) {
+    return source.idle !== false;
+}
+function checkIdle(active) {
+    return !active.size || Array.from(active).every(isIdle);
+}
+function becomeIdle(self) {
+    if (!self.idle) {
+        self.idle = true;
+        (0, _shared.each)((0, _animated.getPayload)(self), (node)=>{
+            node.done = true;
+        });
+        (0, _shared.callFluidObservers)(self, {
+            type: "idle",
+            parent: self
+        });
+    }
+}
+const to = (source, ...args)=>new Interpolation(source, args);
+const interpolate = (source, ...args)=>((0, _shared.deprecateInterpolate)(), new Interpolation(source, args));
+(0, _shared.Globals).assign({
+    createStringInterpolator: (0, _shared.createStringInterpolator),
+    to: (source, args)=>new Interpolation(source, args)
+});
+const update = (0, _shared.frameLoop).advance;
+
+},{"@react-spring/shared":"jm667","react":"21dqq","@react-spring/animated":"abfrL","@react-spring/types/animated":"e9Tpo","@react-spring/types/interpolation":"dlWzh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jm667":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "raf", ()=>(0, _rafz.raf));
+parcelHelpers.export(exports, "FluidValue", ()=>FluidValue);
+parcelHelpers.export(exports, "Globals", ()=>globals);
+parcelHelpers.export(exports, "addFluidObserver", ()=>addFluidObserver);
+parcelHelpers.export(exports, "callFluidObserver", ()=>callFluidObserver);
+parcelHelpers.export(exports, "callFluidObservers", ()=>callFluidObservers);
+parcelHelpers.export(exports, "colorToRgba", ()=>colorToRgba);
+parcelHelpers.export(exports, "colors", ()=>colors);
+parcelHelpers.export(exports, "createInterpolator", ()=>createInterpolator);
+parcelHelpers.export(exports, "createStringInterpolator", ()=>createStringInterpolator);
+parcelHelpers.export(exports, "defineHidden", ()=>defineHidden);
+parcelHelpers.export(exports, "deprecateDirectCall", ()=>deprecateDirectCall);
+parcelHelpers.export(exports, "deprecateInterpolate", ()=>deprecateInterpolate);
+parcelHelpers.export(exports, "each", ()=>each);
+parcelHelpers.export(exports, "eachProp", ()=>eachProp);
+parcelHelpers.export(exports, "flush", ()=>flush);
+parcelHelpers.export(exports, "flushCalls", ()=>flushCalls);
+parcelHelpers.export(exports, "frameLoop", ()=>frameLoop);
+parcelHelpers.export(exports, "getFluidObservers", ()=>getFluidObservers);
+parcelHelpers.export(exports, "getFluidValue", ()=>getFluidValue);
+parcelHelpers.export(exports, "hasFluidValue", ()=>hasFluidValue);
+parcelHelpers.export(exports, "hex3", ()=>hex3);
+parcelHelpers.export(exports, "hex4", ()=>hex4);
+parcelHelpers.export(exports, "hex6", ()=>hex6);
+parcelHelpers.export(exports, "hex8", ()=>hex8);
+parcelHelpers.export(exports, "hsl", ()=>hsl);
+parcelHelpers.export(exports, "hsla", ()=>hsla);
+parcelHelpers.export(exports, "is", ()=>is);
+parcelHelpers.export(exports, "isAnimatedString", ()=>isAnimatedString);
+parcelHelpers.export(exports, "isEqual", ()=>isEqual);
+parcelHelpers.export(exports, "isSSR", ()=>isSSR);
+parcelHelpers.export(exports, "noop", ()=>noop);
+parcelHelpers.export(exports, "removeFluidObserver", ()=>removeFluidObserver);
+parcelHelpers.export(exports, "rgb", ()=>rgb);
+parcelHelpers.export(exports, "rgba", ()=>rgba);
+parcelHelpers.export(exports, "setFluidGetter", ()=>setFluidGetter);
+parcelHelpers.export(exports, "toArray", ()=>toArray);
+parcelHelpers.export(exports, "useForceUpdate", ()=>useForceUpdate);
+parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>useIsomorphicLayoutEffect);
+parcelHelpers.export(exports, "useMemoOne", ()=>useMemoOne);
+parcelHelpers.export(exports, "useOnce", ()=>useOnce);
+parcelHelpers.export(exports, "usePrev", ()=>usePrev);
+parcelHelpers.export(exports, "useReducedMotion", ()=>useReducedMotion);
+var _rafz = require("@react-spring/rafz");
+var _react = require("react");
+function noop() {}
+const defineHidden = (obj, key, value)=>Object.defineProperty(obj, key, {
+        value,
+        writable: true,
+        configurable: true
+    });
+const is = {
+    arr: Array.isArray,
+    obj: (a)=>!!a && a.constructor.name === "Object",
+    fun: (a)=>typeof a === "function",
+    str: (a)=>typeof a === "string",
+    num: (a)=>typeof a === "number",
+    und: (a)=>a === undefined
+};
+function isEqual(a, b) {
+    if (is.arr(a)) {
+        if (!is.arr(b) || a.length !== b.length) return false;
+        for(let i = 0; i < a.length; i++){
+            if (a[i] !== b[i]) return false;
+        }
+        return true;
+    }
+    return a === b;
+}
+const each = (obj, fn)=>obj.forEach(fn);
+function eachProp(obj, fn, ctx) {
+    if (is.arr(obj)) {
+        for(let i = 0; i < obj.length; i++)fn.call(ctx, obj[i], `${i}`);
+        return;
+    }
+    for(const key in obj)if (obj.hasOwnProperty(key)) fn.call(ctx, obj[key], key);
+}
+const toArray = (a)=>is.und(a) ? [] : is.arr(a) ? a : [
+        a
+    ];
+function flush(queue, iterator) {
+    if (queue.size) {
+        const items = Array.from(queue);
+        queue.clear();
+        each(items, iterator);
+    }
+}
+const flushCalls = (queue, ...args)=>flush(queue, (fn)=>fn(...args));
+const isSSR = ()=>typeof window === "undefined" || !window.navigator || /ServerSideRendering|^Deno\//.test(window.navigator.userAgent);
+let createStringInterpolator$1;
+let to;
+let colors$1 = null;
+let skipAnimation = false;
+let willAdvance = noop;
+const assign = (globals1)=>{
+    if (globals1.to) to = globals1.to;
+    if (globals1.now) (0, _rafz.raf).now = globals1.now;
+    if (globals1.colors !== undefined) colors$1 = globals1.colors;
+    if (globals1.skipAnimation != null) skipAnimation = globals1.skipAnimation;
+    if (globals1.createStringInterpolator) createStringInterpolator$1 = globals1.createStringInterpolator;
+    if (globals1.requestAnimationFrame) (0, _rafz.raf).use(globals1.requestAnimationFrame);
+    if (globals1.batchedUpdates) (0, _rafz.raf).batchedUpdates = globals1.batchedUpdates;
+    if (globals1.willAdvance) willAdvance = globals1.willAdvance;
+    if (globals1.frameLoop) (0, _rafz.raf).frameLoop = globals1.frameLoop;
+};
+var globals = /*#__PURE__*/ Object.freeze({
+    __proto__: null,
+    get createStringInterpolator () {
+        return createStringInterpolator$1;
+    },
+    get to () {
+        return to;
+    },
+    get colors () {
+        return colors$1;
+    },
+    get skipAnimation () {
+        return skipAnimation;
+    },
+    get willAdvance () {
+        return willAdvance;
+    },
+    assign: assign
+});
+const startQueue = new Set();
+let currentFrame = [];
+let prevFrame = [];
+let priority = 0;
+const frameLoop = {
+    get idle () {
+        return !startQueue.size && !currentFrame.length;
+    },
+    start (animation) {
+        if (priority > animation.priority) {
+            startQueue.add(animation);
+            (0, _rafz.raf).onStart(flushStartQueue);
+        } else {
+            startSafely(animation);
+            (0, _rafz.raf)(advance);
+        }
+    },
+    advance,
+    sort (animation) {
+        if (priority) (0, _rafz.raf).onFrame(()=>frameLoop.sort(animation));
+        else {
+            const prevIndex = currentFrame.indexOf(animation);
+            if (~prevIndex) {
+                currentFrame.splice(prevIndex, 1);
+                startUnsafely(animation);
+            }
+        }
+    },
+    clear () {
+        currentFrame = [];
+        startQueue.clear();
+    }
+};
+function flushStartQueue() {
+    startQueue.forEach(startSafely);
+    startQueue.clear();
+    (0, _rafz.raf)(advance);
+}
+function startSafely(animation) {
+    if (!currentFrame.includes(animation)) startUnsafely(animation);
+}
+function startUnsafely(animation) {
+    currentFrame.splice(findIndex(currentFrame, (other)=>other.priority > animation.priority), 0, animation);
+}
+function advance(dt) {
+    const nextFrame = prevFrame;
+    for(let i = 0; i < currentFrame.length; i++){
+        const animation = currentFrame[i];
+        priority = animation.priority;
+        if (!animation.idle) {
+            willAdvance(animation);
+            animation.advance(dt);
+            if (!animation.idle) nextFrame.push(animation);
+        }
+    }
+    priority = 0;
+    prevFrame = currentFrame;
+    prevFrame.length = 0;
+    currentFrame = nextFrame;
+    return currentFrame.length > 0;
+}
+function findIndex(arr, test) {
+    const index = arr.findIndex(test);
+    return index < 0 ? arr.length : index;
+}
+const colors = {
+    transparent: 0x00000000,
+    aliceblue: 0xf0f8ffff,
+    antiquewhite: 0xfaebd7ff,
+    aqua: 0x00ffffff,
+    aquamarine: 0x7fffd4ff,
+    azure: 0xf0ffffff,
+    beige: 0xf5f5dcff,
+    bisque: 0xffe4c4ff,
+    black: 0x000000ff,
+    blanchedalmond: 0xffebcdff,
+    blue: 0x0000ffff,
+    blueviolet: 0x8a2be2ff,
+    brown: 0xa52a2aff,
+    burlywood: 0xdeb887ff,
+    burntsienna: 0xea7e5dff,
+    cadetblue: 0x5f9ea0ff,
+    chartreuse: 0x7fff00ff,
+    chocolate: 0xd2691eff,
+    coral: 0xff7f50ff,
+    cornflowerblue: 0x6495edff,
+    cornsilk: 0xfff8dcff,
+    crimson: 0xdc143cff,
+    cyan: 0x00ffffff,
+    darkblue: 0x00008bff,
+    darkcyan: 0x008b8bff,
+    darkgoldenrod: 0xb8860bff,
+    darkgray: 0xa9a9a9ff,
+    darkgreen: 0x006400ff,
+    darkgrey: 0xa9a9a9ff,
+    darkkhaki: 0xbdb76bff,
+    darkmagenta: 0x8b008bff,
+    darkolivegreen: 0x556b2fff,
+    darkorange: 0xff8c00ff,
+    darkorchid: 0x9932ccff,
+    darkred: 0x8b0000ff,
+    darksalmon: 0xe9967aff,
+    darkseagreen: 0x8fbc8fff,
+    darkslateblue: 0x483d8bff,
+    darkslategray: 0x2f4f4fff,
+    darkslategrey: 0x2f4f4fff,
+    darkturquoise: 0x00ced1ff,
+    darkviolet: 0x9400d3ff,
+    deeppink: 0xff1493ff,
+    deepskyblue: 0x00bfffff,
+    dimgray: 0x696969ff,
+    dimgrey: 0x696969ff,
+    dodgerblue: 0x1e90ffff,
+    firebrick: 0xb22222ff,
+    floralwhite: 0xfffaf0ff,
+    forestgreen: 0x228b22ff,
+    fuchsia: 0xff00ffff,
+    gainsboro: 0xdcdcdcff,
+    ghostwhite: 0xf8f8ffff,
+    gold: 0xffd700ff,
+    goldenrod: 0xdaa520ff,
+    gray: 0x808080ff,
+    green: 0x008000ff,
+    greenyellow: 0xadff2fff,
+    grey: 0x808080ff,
+    honeydew: 0xf0fff0ff,
+    hotpink: 0xff69b4ff,
+    indianred: 0xcd5c5cff,
+    indigo: 0x4b0082ff,
+    ivory: 0xfffff0ff,
+    khaki: 0xf0e68cff,
+    lavender: 0xe6e6faff,
+    lavenderblush: 0xfff0f5ff,
+    lawngreen: 0x7cfc00ff,
+    lemonchiffon: 0xfffacdff,
+    lightblue: 0xadd8e6ff,
+    lightcoral: 0xf08080ff,
+    lightcyan: 0xe0ffffff,
+    lightgoldenrodyellow: 0xfafad2ff,
+    lightgray: 0xd3d3d3ff,
+    lightgreen: 0x90ee90ff,
+    lightgrey: 0xd3d3d3ff,
+    lightpink: 0xffb6c1ff,
+    lightsalmon: 0xffa07aff,
+    lightseagreen: 0x20b2aaff,
+    lightskyblue: 0x87cefaff,
+    lightslategray: 0x778899ff,
+    lightslategrey: 0x778899ff,
+    lightsteelblue: 0xb0c4deff,
+    lightyellow: 0xffffe0ff,
+    lime: 0x00ff00ff,
+    limegreen: 0x32cd32ff,
+    linen: 0xfaf0e6ff,
+    magenta: 0xff00ffff,
+    maroon: 0x800000ff,
+    mediumaquamarine: 0x66cdaaff,
+    mediumblue: 0x0000cdff,
+    mediumorchid: 0xba55d3ff,
+    mediumpurple: 0x9370dbff,
+    mediumseagreen: 0x3cb371ff,
+    mediumslateblue: 0x7b68eeff,
+    mediumspringgreen: 0x00fa9aff,
+    mediumturquoise: 0x48d1ccff,
+    mediumvioletred: 0xc71585ff,
+    midnightblue: 0x191970ff,
+    mintcream: 0xf5fffaff,
+    mistyrose: 0xffe4e1ff,
+    moccasin: 0xffe4b5ff,
+    navajowhite: 0xffdeadff,
+    navy: 0x000080ff,
+    oldlace: 0xfdf5e6ff,
+    olive: 0x808000ff,
+    olivedrab: 0x6b8e23ff,
+    orange: 0xffa500ff,
+    orangered: 0xff4500ff,
+    orchid: 0xda70d6ff,
+    palegoldenrod: 0xeee8aaff,
+    palegreen: 0x98fb98ff,
+    paleturquoise: 0xafeeeeff,
+    palevioletred: 0xdb7093ff,
+    papayawhip: 0xffefd5ff,
+    peachpuff: 0xffdab9ff,
+    peru: 0xcd853fff,
+    pink: 0xffc0cbff,
+    plum: 0xdda0ddff,
+    powderblue: 0xb0e0e6ff,
+    purple: 0x800080ff,
+    rebeccapurple: 0x663399ff,
+    red: 0xff0000ff,
+    rosybrown: 0xbc8f8fff,
+    royalblue: 0x4169e1ff,
+    saddlebrown: 0x8b4513ff,
+    salmon: 0xfa8072ff,
+    sandybrown: 0xf4a460ff,
+    seagreen: 0x2e8b57ff,
+    seashell: 0xfff5eeff,
+    sienna: 0xa0522dff,
+    silver: 0xc0c0c0ff,
+    skyblue: 0x87ceebff,
+    slateblue: 0x6a5acdff,
+    slategray: 0x708090ff,
+    slategrey: 0x708090ff,
+    snow: 0xfffafaff,
+    springgreen: 0x00ff7fff,
+    steelblue: 0x4682b4ff,
+    tan: 0xd2b48cff,
+    teal: 0x008080ff,
+    thistle: 0xd8bfd8ff,
+    tomato: 0xff6347ff,
+    turquoise: 0x40e0d0ff,
+    violet: 0xee82eeff,
+    wheat: 0xf5deb3ff,
+    white: 0xffffffff,
+    whitesmoke: 0xf5f5f5ff,
+    yellow: 0xffff00ff,
+    yellowgreen: 0x9acd32ff
+};
+const NUMBER = "[-+]?\\d*\\.?\\d+";
+const PERCENTAGE = NUMBER + "%";
+function call(...parts) {
+    return "\\(\\s*(" + parts.join(")\\s*,\\s*(") + ")\\s*\\)";
+}
+const rgb = new RegExp("rgb" + call(NUMBER, NUMBER, NUMBER));
+const rgba = new RegExp("rgba" + call(NUMBER, NUMBER, NUMBER, NUMBER));
+const hsl = new RegExp("hsl" + call(NUMBER, PERCENTAGE, PERCENTAGE));
+const hsla = new RegExp("hsla" + call(NUMBER, PERCENTAGE, PERCENTAGE, NUMBER));
+const hex3 = /^#([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/;
+const hex4 = /^#([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/;
+const hex6 = /^#([0-9a-fA-F]{6})$/;
+const hex8 = /^#([0-9a-fA-F]{8})$/;
+function normalizeColor(color) {
+    let match;
+    if (typeof color === "number") return color >>> 0 === color && color >= 0 && color <= 0xffffffff ? color : null;
+    if (match = hex6.exec(color)) return parseInt(match[1] + "ff", 16) >>> 0;
+    if (colors$1 && colors$1[color] !== undefined) return colors$1[color];
+    if (match = rgb.exec(color)) return (parse255(match[1]) << 24 | parse255(match[2]) << 16 | parse255(match[3]) << 8 | 0x000000ff) >>> 0;
+    if (match = rgba.exec(color)) return (parse255(match[1]) << 24 | parse255(match[2]) << 16 | parse255(match[3]) << 8 | parse1(match[4])) >>> 0;
+    if (match = hex3.exec(color)) return parseInt(match[1] + match[1] + match[2] + match[2] + match[3] + match[3] + "ff", 16) >>> 0;
+    if (match = hex8.exec(color)) return parseInt(match[1], 16) >>> 0;
+    if (match = hex4.exec(color)) return parseInt(match[1] + match[1] + match[2] + match[2] + match[3] + match[3] + match[4] + match[4], 16) >>> 0;
+    if (match = hsl.exec(color)) return (hslToRgb(parse360(match[1]), parsePercentage(match[2]), parsePercentage(match[3])) | 0x000000ff) >>> 0;
+    if (match = hsla.exec(color)) return (hslToRgb(parse360(match[1]), parsePercentage(match[2]), parsePercentage(match[3])) | parse1(match[4])) >>> 0;
+    return null;
+}
+function hue2rgb(p, q, t) {
+    if (t < 0) t += 1;
+    if (t > 1) t -= 1;
+    if (t < 1 / 6) return p + (q - p) * 6 * t;
+    if (t < 0.5) return q;
+    if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
+    return p;
+}
+function hslToRgb(h, s, l) {
+    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    const p = 2 * l - q;
+    const r = hue2rgb(p, q, h + 1 / 3);
+    const g = hue2rgb(p, q, h);
+    const b = hue2rgb(p, q, h - 1 / 3);
+    return Math.round(r * 255) << 24 | Math.round(g * 255) << 16 | Math.round(b * 255) << 8;
+}
+function parse255(str) {
+    const int = parseInt(str, 10);
+    if (int < 0) return 0;
+    if (int > 255) return 255;
+    return int;
+}
+function parse360(str) {
+    const int = parseFloat(str);
+    return (int % 360 + 360) % 360 / 360;
+}
+function parse1(str) {
+    const num = parseFloat(str);
+    if (num < 0) return 0;
+    if (num > 1) return 255;
+    return Math.round(num * 255);
+}
+function parsePercentage(str) {
+    const int = parseFloat(str);
+    if (int < 0) return 0;
+    if (int > 100) return 1;
+    return int / 100;
+}
+function colorToRgba(input) {
+    let int32Color = normalizeColor(input);
+    if (int32Color === null) return input;
+    int32Color = int32Color || 0;
+    let r = (int32Color & 0xff000000) >>> 24;
+    let g = (int32Color & 0x00ff0000) >>> 16;
+    let b = (int32Color & 0x0000ff00) >>> 8;
+    let a = (int32Color & 0x000000ff) / 255;
+    return `rgba(${r}, ${g}, ${b}, ${a})`;
+}
+const createInterpolator = (range1, output, extrapolate)=>{
+    if (is.fun(range1)) return range1;
+    if (is.arr(range1)) return createInterpolator({
+        range: range1,
+        output: output,
+        extrapolate
+    });
+    if (is.str(range1.output[0])) return createStringInterpolator$1(range1);
+    const config = range1;
+    const outputRange = config.output;
+    const inputRange = config.range || [
+        0,
+        1
+    ];
+    const extrapolateLeft = config.extrapolateLeft || config.extrapolate || "extend";
+    const extrapolateRight = config.extrapolateRight || config.extrapolate || "extend";
+    const easing = config.easing || ((t)=>t);
+    return (input)=>{
+        const range = findRange(input, inputRange);
+        return interpolate(input, inputRange[range], inputRange[range + 1], outputRange[range], outputRange[range + 1], easing, extrapolateLeft, extrapolateRight, config.map);
+    };
+};
+function interpolate(input, inputMin, inputMax, outputMin, outputMax, easing, extrapolateLeft, extrapolateRight, map) {
+    let result = map ? map(input) : input;
+    if (result < inputMin) {
+        if (extrapolateLeft === "identity") return result;
+        else if (extrapolateLeft === "clamp") result = inputMin;
+    }
+    if (result > inputMax) {
+        if (extrapolateRight === "identity") return result;
+        else if (extrapolateRight === "clamp") result = inputMax;
+    }
+    if (outputMin === outputMax) return outputMin;
+    if (inputMin === inputMax) return input <= inputMin ? outputMin : outputMax;
+    if (inputMin === -Infinity) result = -result;
+    else if (inputMax === Infinity) result = result - inputMin;
+    else result = (result - inputMin) / (inputMax - inputMin);
+    result = easing(result);
+    if (outputMin === -Infinity) result = -result;
+    else if (outputMax === Infinity) result = result + outputMin;
+    else result = result * (outputMax - outputMin) + outputMin;
+    return result;
+}
+function findRange(input, inputRange) {
+    for(var i = 1; i < inputRange.length - 1; ++i)if (inputRange[i] >= input) break;
+    return i - 1;
+}
+function _extends() {
+    _extends = Object.assign || function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+const $get = Symbol.for("FluidValue.get");
+const $observers = Symbol.for("FluidValue.observers");
+const hasFluidValue = (arg)=>Boolean(arg && arg[$get]);
+const getFluidValue = (arg)=>arg && arg[$get] ? arg[$get]() : arg;
+const getFluidObservers = (target)=>target[$observers] || null;
+function callFluidObserver(observer, event) {
+    if (observer.eventObserved) observer.eventObserved(event);
+    else observer(event);
+}
+function callFluidObservers(target, event) {
+    let observers = target[$observers];
+    if (observers) observers.forEach((observer)=>{
+        callFluidObserver(observer, event);
+    });
+}
+class FluidValue {
+    constructor(get){
+        this[$get] = void 0;
+        this[$observers] = void 0;
+        if (!get && !(get = this.get)) throw Error("Unknown getter");
+        setFluidGetter(this, get);
+    }
+}
+const setFluidGetter = (target, get)=>setHidden(target, $get, get);
+function addFluidObserver(target, observer) {
+    if (target[$get]) {
+        let observers = target[$observers];
+        if (!observers) setHidden(target, $observers, observers = new Set());
+        if (!observers.has(observer)) {
+            observers.add(observer);
+            if (target.observerAdded) target.observerAdded(observers.size, observer);
+        }
+    }
+    return observer;
+}
+function removeFluidObserver(target, observer) {
+    let observers = target[$observers];
+    if (observers && observers.has(observer)) {
+        const count = observers.size - 1;
+        if (count) observers.delete(observer);
+        else target[$observers] = null;
+        if (target.observerRemoved) target.observerRemoved(count, observer);
+    }
+}
+const setHidden = (target, key, value)=>Object.defineProperty(target, key, {
+        value,
+        writable: true,
+        configurable: true
+    });
+const numberRegex = /[+\-]?(?:0|[1-9]\d*)(?:\.\d*)?(?:[eE][+\-]?\d+)?/g;
+const colorRegex = /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))/gi;
+const unitRegex = new RegExp(`(${numberRegex.source})(%|[a-z]+)`, "i");
+const rgbaRegex = /rgba\(([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+)\)/gi;
+const cssVariableRegex = /var\((--[a-zA-Z0-9-_]+),? ?([a-zA-Z0-9 ()%#.,-]+)?\)/;
+const variableToRgba = (input)=>{
+    const [token, fallback] = parseCSSVariable(input);
+    if (!token || isSSR()) return input;
+    const value = window.getComputedStyle(document.documentElement).getPropertyValue(token);
+    if (value) return value.trim();
+    else if (fallback && fallback.startsWith("--")) {
+        const _value = window.getComputedStyle(document.documentElement).getPropertyValue(fallback);
+        if (_value) return _value;
+        else return input;
+    } else if (fallback && cssVariableRegex.test(fallback)) return variableToRgba(fallback);
+    else if (fallback) return fallback;
+    return input;
+};
+const parseCSSVariable = (current)=>{
+    const match = cssVariableRegex.exec(current);
+    if (!match) return [
+        , 
+    ];
+    const [, token, fallback] = match;
+    return [
+        token,
+        fallback
+    ];
+};
+let namedColorRegex;
+const rgbaRound = (_, p1, p2, p3, p4)=>`rgba(${Math.round(p1)}, ${Math.round(p2)}, ${Math.round(p3)}, ${p4})`;
+const createStringInterpolator = (config)=>{
+    if (!namedColorRegex) namedColorRegex = colors$1 ? new RegExp(`(${Object.keys(colors$1).join("|")})(?!\\w)`, "g") : /^\b$/;
+    const output1 = config.output.map((value)=>{
+        return getFluidValue(value).replace(cssVariableRegex, variableToRgba).replace(colorRegex, colorToRgba).replace(namedColorRegex, colorToRgba);
+    });
+    const keyframes = output1.map((value)=>value.match(numberRegex).map(Number));
+    const outputRanges = keyframes[0].map((_, i)=>keyframes.map((values)=>{
+            if (!(i in values)) throw Error('The arity of each "output" value must be equal');
+            return values[i];
+        }));
+    const interpolators = outputRanges.map((output)=>createInterpolator(_extends({}, config, {
+            output
+        })));
+    return (input)=>{
+        var _output$find;
+        const missingUnit = !unitRegex.test(output1[0]) && ((_output$find = output1.find((value)=>unitRegex.test(value))) == null ? void 0 : _output$find.replace(numberRegex, ""));
+        let i = 0;
+        return output1[0].replace(numberRegex, ()=>`${interpolators[i++](input)}${missingUnit || ""}`).replace(rgbaRegex, rgbaRound);
+    };
+};
+const prefix = "react-spring: ";
+const once = (fn)=>{
+    const func = fn;
+    let called = false;
+    if (typeof func != "function") throw new TypeError(`${prefix}once requires a function parameter`);
+    return (...args)=>{
+        if (!called) {
+            func(...args);
+            called = true;
+        }
+    };
+};
+const warnInterpolate = once(console.warn);
+function deprecateInterpolate() {
+    warnInterpolate(`${prefix}The "interpolate" function is deprecated in v9 (use "to" instead)`);
+}
+const warnDirectCall = once(console.warn);
+function deprecateDirectCall() {
+    warnDirectCall(`${prefix}Directly calling start instead of using the api object is deprecated in v9 (use ".start" instead), this will be removed in later 0.X.0 versions`);
+}
+function isAnimatedString(value) {
+    return is.str(value) && (value[0] == "#" || /\d/.test(value) || !isSSR() && cssVariableRegex.test(value) || value in (colors$1 || {}));
+}
+const useIsomorphicLayoutEffect = isSSR() ? (0, _react.useEffect) : (0, _react.useLayoutEffect);
+const useIsMounted = ()=>{
+    const isMounted = (0, _react.useRef)(false);
+    useIsomorphicLayoutEffect(()=>{
+        isMounted.current = true;
+        return ()=>{
+            isMounted.current = false;
+        };
+    }, []);
+    return isMounted;
+};
+function useForceUpdate() {
+    const update = (0, _react.useState)()[1];
+    const isMounted = useIsMounted();
+    return ()=>{
+        if (isMounted.current) update(Math.random());
+    };
+}
+function useMemoOne(getResult, inputs) {
+    const [initial] = (0, _react.useState)(()=>({
+            inputs,
+            result: getResult()
+        }));
+    const committed = (0, _react.useRef)();
+    const prevCache = committed.current;
+    let cache = prevCache;
+    if (cache) {
+        const useCache = Boolean(inputs && cache.inputs && areInputsEqual(inputs, cache.inputs));
+        if (!useCache) cache = {
+            inputs,
+            result: getResult()
+        };
+    } else cache = initial;
+    (0, _react.useEffect)(()=>{
+        committed.current = cache;
+        if (prevCache == initial) initial.inputs = initial.result = undefined;
+    }, [
+        cache
+    ]);
+    return cache.result;
+}
+function areInputsEqual(next, prev) {
+    if (next.length !== prev.length) return false;
+    for(let i = 0; i < next.length; i++){
+        if (next[i] !== prev[i]) return false;
+    }
+    return true;
+}
+const useOnce = (effect)=>(0, _react.useEffect)(effect, emptyDeps);
+const emptyDeps = [];
+function usePrev(value) {
+    const prevRef = (0, _react.useRef)();
+    (0, _react.useEffect)(()=>{
+        prevRef.current = value;
+    });
+    return prevRef.current;
+}
+const useReducedMotion = ()=>{
+    const [reducedMotion, setReducedMotion] = (0, _react.useState)(null);
+    useIsomorphicLayoutEffect(()=>{
+        const mql = window.matchMedia("(prefers-reduced-motion)");
+        const handleMediaChange = (e)=>{
+            setReducedMotion(e.matches);
+            assign({
+                skipAnimation: e.matches
+            });
+        };
+        handleMediaChange(mql);
+        mql.addEventListener("change", handleMediaChange);
+        return ()=>{
+            mql.removeEventListener("change", handleMediaChange);
+        };
+    }, []);
+    return reducedMotion;
+};
+
+},{"@react-spring/rafz":"jCdCs","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jCdCs":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "__raf", ()=>__raf);
+parcelHelpers.export(exports, "raf", ()=>raf);
+let updateQueue = makeQueue();
+const raf = (fn)=>schedule(fn, updateQueue);
+let writeQueue = makeQueue();
+raf.write = (fn)=>schedule(fn, writeQueue);
+let onStartQueue = makeQueue();
+raf.onStart = (fn)=>schedule(fn, onStartQueue);
+let onFrameQueue = makeQueue();
+raf.onFrame = (fn)=>schedule(fn, onFrameQueue);
+let onFinishQueue = makeQueue();
+raf.onFinish = (fn)=>schedule(fn, onFinishQueue);
+let timeouts = [];
+raf.setTimeout = (handler, ms)=>{
+    let time = raf.now() + ms;
+    let cancel = ()=>{
+        let i = timeouts.findIndex((t)=>t.cancel == cancel);
+        if (~i) timeouts.splice(i, 1);
+        pendingCount -= ~i ? 1 : 0;
+    };
+    let timeout = {
+        time,
+        handler,
+        cancel
+    };
+    timeouts.splice(findTimeout(time), 0, timeout);
+    pendingCount += 1;
+    start();
+    return timeout;
+};
+let findTimeout = (time)=>~(~timeouts.findIndex((t)=>t.time > time) || ~timeouts.length);
+raf.cancel = (fn)=>{
+    onStartQueue.delete(fn);
+    onFrameQueue.delete(fn);
+    onFinishQueue.delete(fn);
+    updateQueue.delete(fn);
+    writeQueue.delete(fn);
+};
+raf.sync = (fn)=>{
+    sync = true;
+    raf.batchedUpdates(fn);
+    sync = false;
+};
+raf.throttle = (fn)=>{
+    let lastArgs;
+    function queuedFn() {
+        try {
+            fn(...lastArgs);
+        } finally{
+            lastArgs = null;
+        }
+    }
+    function throttled(...args) {
+        lastArgs = args;
+        raf.onStart(queuedFn);
+    }
+    throttled.handler = fn;
+    throttled.cancel = ()=>{
+        onStartQueue.delete(queuedFn);
+        lastArgs = null;
+    };
+    return throttled;
+};
+let nativeRaf = typeof window != "undefined" ? window.requestAnimationFrame : ()=>{};
+raf.use = (impl)=>nativeRaf = impl;
+raf.now = typeof performance != "undefined" ? ()=>performance.now() : Date.now;
+raf.batchedUpdates = (fn)=>fn();
+raf.catch = console.error;
+raf.frameLoop = "always";
+raf.advance = ()=>{
+    if (raf.frameLoop !== "demand") console.warn("Cannot call the manual advancement of rafz whilst frameLoop is not set as demand");
+    else update();
+};
+let ts = -1;
+let pendingCount = 0;
+let sync = false;
+function schedule(fn, queue) {
+    if (sync) {
+        queue.delete(fn);
+        fn(0);
+    } else {
+        queue.add(fn);
+        start();
+    }
+}
+function start() {
+    if (ts < 0) {
+        ts = 0;
+        if (raf.frameLoop !== "demand") nativeRaf(loop);
+    }
+}
+function stop() {
+    ts = -1;
+}
+function loop() {
+    if (~ts) {
+        nativeRaf(loop);
+        raf.batchedUpdates(update);
+    }
+}
+function update() {
+    let prevTs = ts;
+    ts = raf.now();
+    let count = findTimeout(ts);
+    if (count) {
+        eachSafely(timeouts.splice(0, count), (t)=>t.handler());
+        pendingCount -= count;
+    }
+    if (!pendingCount) {
+        stop();
+        return;
+    }
+    onStartQueue.flush();
+    updateQueue.flush(prevTs ? Math.min(64, ts - prevTs) : 16.667);
+    onFrameQueue.flush();
+    writeQueue.flush();
+    onFinishQueue.flush();
+}
+function makeQueue() {
+    let next = new Set();
+    let current = next;
+    return {
+        add (fn) {
+            pendingCount += current == next && !next.has(fn) ? 1 : 0;
+            next.add(fn);
+        },
+        delete (fn) {
+            pendingCount -= current == next && next.has(fn) ? 1 : 0;
+            return next.delete(fn);
+        },
+        flush (arg) {
+            if (current.size) {
+                next = new Set();
+                pendingCount -= current.size;
+                eachSafely(current, (fn)=>fn(arg) && next.add(fn));
+                pendingCount += next.size;
+                current = next;
+            }
+        }
+    };
+}
+function eachSafely(values, each) {
+    values.forEach((value)=>{
+        try {
+            each(value);
+        } catch (e) {
+            raf.catch(e);
+        }
+    });
+}
+const __raf = {
+    count () {
+        return pendingCount;
+    },
+    isRunning () {
+        return ts >= 0;
+    },
+    clear () {
+        ts = -1;
+        timeouts = [];
+        onStartQueue = makeQueue();
+        updateQueue = makeQueue();
+        onFrameQueue = makeQueue();
+        writeQueue = makeQueue();
+        onFinishQueue = makeQueue();
+        pendingCount = 0;
+    }
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27301,7 +30489,534 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"km3Ru":[function(require,module,exports) {
+},{}],"abfrL":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Animated", ()=>Animated);
+parcelHelpers.export(exports, "AnimatedArray", ()=>AnimatedArray);
+parcelHelpers.export(exports, "AnimatedObject", ()=>AnimatedObject);
+parcelHelpers.export(exports, "AnimatedString", ()=>AnimatedString);
+parcelHelpers.export(exports, "AnimatedValue", ()=>AnimatedValue);
+parcelHelpers.export(exports, "createHost", ()=>createHost);
+parcelHelpers.export(exports, "getAnimated", ()=>getAnimated);
+parcelHelpers.export(exports, "getAnimatedType", ()=>getAnimatedType);
+parcelHelpers.export(exports, "getPayload", ()=>getPayload);
+parcelHelpers.export(exports, "isAnimated", ()=>isAnimated);
+parcelHelpers.export(exports, "setAnimated", ()=>setAnimated);
+var _shared = require("@react-spring/shared");
+var _react = require("react");
+const $node = Symbol.for("Animated:node");
+const isAnimated = (value)=>!!value && value[$node] === value;
+const getAnimated = (owner)=>owner && owner[$node];
+const setAnimated = (owner, node)=>(0, _shared.defineHidden)(owner, $node, node);
+const getPayload = (owner)=>owner && owner[$node] && owner[$node].getPayload();
+class Animated {
+    constructor(){
+        this.payload = void 0;
+        setAnimated(this, this);
+    }
+    getPayload() {
+        return this.payload || [];
+    }
+}
+class AnimatedValue extends Animated {
+    constructor(_value){
+        super();
+        this.done = true;
+        this.elapsedTime = void 0;
+        this.lastPosition = void 0;
+        this.lastVelocity = void 0;
+        this.v0 = void 0;
+        this.durationProgress = 0;
+        this._value = _value;
+        if ((0, _shared.is).num(this._value)) this.lastPosition = this._value;
+    }
+    static create(value) {
+        return new AnimatedValue(value);
+    }
+    getPayload() {
+        return [
+            this
+        ];
+    }
+    getValue() {
+        return this._value;
+    }
+    setValue(value, step) {
+        if ((0, _shared.is).num(value)) {
+            this.lastPosition = value;
+            if (step) {
+                value = Math.round(value / step) * step;
+                if (this.done) this.lastPosition = value;
+            }
+        }
+        if (this._value === value) return false;
+        this._value = value;
+        return true;
+    }
+    reset() {
+        const { done  } = this;
+        this.done = false;
+        if ((0, _shared.is).num(this._value)) {
+            this.elapsedTime = 0;
+            this.durationProgress = 0;
+            this.lastPosition = this._value;
+            if (done) this.lastVelocity = null;
+            this.v0 = null;
+        }
+    }
+}
+class AnimatedString extends AnimatedValue {
+    constructor(value){
+        super(0);
+        this._string = null;
+        this._toString = void 0;
+        this._toString = (0, _shared.createInterpolator)({
+            output: [
+                value,
+                value
+            ]
+        });
+    }
+    static create(value) {
+        return new AnimatedString(value);
+    }
+    getValue() {
+        let value = this._string;
+        return value == null ? this._string = this._toString(this._value) : value;
+    }
+    setValue(value) {
+        if ((0, _shared.is).str(value)) {
+            if (value == this._string) return false;
+            this._string = value;
+            this._value = 1;
+        } else if (super.setValue(value)) this._string = null;
+        else return false;
+        return true;
+    }
+    reset(goal) {
+        if (goal) this._toString = (0, _shared.createInterpolator)({
+            output: [
+                this.getValue(),
+                goal
+            ]
+        });
+        this._value = 0;
+        super.reset();
+    }
+}
+const TreeContext = {
+    dependencies: null
+};
+class AnimatedObject extends Animated {
+    constructor(source){
+        super();
+        this.source = source;
+        this.setValue(source);
+    }
+    getValue(animated) {
+        const values = {};
+        (0, _shared.eachProp)(this.source, (source, key)=>{
+            if (isAnimated(source)) values[key] = source.getValue(animated);
+            else if ((0, _shared.hasFluidValue)(source)) values[key] = (0, _shared.getFluidValue)(source);
+            else if (!animated) values[key] = source;
+        });
+        return values;
+    }
+    setValue(source) {
+        this.source = source;
+        this.payload = this._makePayload(source);
+    }
+    reset() {
+        if (this.payload) (0, _shared.each)(this.payload, (node)=>node.reset());
+    }
+    _makePayload(source) {
+        if (source) {
+            const payload = new Set();
+            (0, _shared.eachProp)(source, this._addToPayload, payload);
+            return Array.from(payload);
+        }
+    }
+    _addToPayload(source) {
+        if (TreeContext.dependencies && (0, _shared.hasFluidValue)(source)) TreeContext.dependencies.add(source);
+        const payload = getPayload(source);
+        if (payload) (0, _shared.each)(payload, (node)=>this.add(node));
+    }
+}
+class AnimatedArray extends AnimatedObject {
+    constructor(source){
+        super(source);
+    }
+    static create(source) {
+        return new AnimatedArray(source);
+    }
+    getValue() {
+        return this.source.map((node)=>node.getValue());
+    }
+    setValue(source) {
+        const payload = this.getPayload();
+        if (source.length == payload.length) return payload.map((node, i)=>node.setValue(source[i])).some(Boolean);
+        super.setValue(source.map(makeAnimated));
+        return true;
+    }
+}
+function makeAnimated(value) {
+    const nodeType = (0, _shared.isAnimatedString)(value) ? AnimatedString : AnimatedValue;
+    return nodeType.create(value);
+}
+function getAnimatedType(value) {
+    const parentNode = getAnimated(value);
+    return parentNode ? parentNode.constructor : (0, _shared.is).arr(value) ? AnimatedArray : (0, _shared.isAnimatedString)(value) ? AnimatedString : AnimatedValue;
+}
+function _extends() {
+    _extends = Object.assign || function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+const withAnimated = (Component, host)=>{
+    const hasInstance = !(0, _shared.is).fun(Component) || Component.prototype && Component.prototype.isReactComponent;
+    return (0, _react.forwardRef)((givenProps, givenRef)=>{
+        const instanceRef = (0, _react.useRef)(null);
+        const ref = hasInstance && (0, _react.useCallback)((value)=>{
+            instanceRef.current = updateRef(givenRef, value);
+        }, [
+            givenRef
+        ]);
+        const [props, deps] = getAnimatedState(givenProps, host);
+        const forceUpdate = (0, _shared.useForceUpdate)();
+        const callback = ()=>{
+            const instance = instanceRef.current;
+            if (hasInstance && !instance) return;
+            const didUpdate = instance ? host.applyAnimatedValues(instance, props.getValue(true)) : false;
+            if (didUpdate === false) forceUpdate();
+        };
+        const observer1 = new PropsObserver(callback, deps);
+        const observerRef = (0, _react.useRef)();
+        (0, _shared.useIsomorphicLayoutEffect)(()=>{
+            observerRef.current = observer1;
+            (0, _shared.each)(deps, (dep)=>(0, _shared.addFluidObserver)(dep, observer1));
+            return ()=>{
+                if (observerRef.current) {
+                    (0, _shared.each)(observerRef.current.deps, (dep)=>(0, _shared.removeFluidObserver)(dep, observerRef.current));
+                    (0, _shared.raf).cancel(observerRef.current.update);
+                }
+            };
+        });
+        (0, _react.useEffect)(callback, []);
+        (0, _shared.useOnce)(()=>()=>{
+                const observer = observerRef.current;
+                (0, _shared.each)(observer.deps, (dep)=>(0, _shared.removeFluidObserver)(dep, observer));
+            });
+        const usedProps = host.getComponentProps(props.getValue());
+        return _react.createElement(Component, _extends({}, usedProps, {
+            ref: ref
+        }));
+    });
+};
+class PropsObserver {
+    constructor(update, deps){
+        this.update = update;
+        this.deps = deps;
+    }
+    eventObserved(event) {
+        if (event.type == "change") (0, _shared.raf).write(this.update);
+    }
+}
+function getAnimatedState(props, host) {
+    const dependencies = new Set();
+    TreeContext.dependencies = dependencies;
+    if (props.style) props = _extends({}, props, {
+        style: host.createAnimatedStyle(props.style)
+    });
+    props = new AnimatedObject(props);
+    TreeContext.dependencies = null;
+    return [
+        props,
+        dependencies
+    ];
+}
+function updateRef(ref, value) {
+    if (ref) {
+        if ((0, _shared.is).fun(ref)) ref(value);
+        else ref.current = value;
+    }
+    return value;
+}
+const cacheKey = Symbol.for("AnimatedComponent");
+const createHost = (components, { applyAnimatedValues: _applyAnimatedValues = ()=>false , createAnimatedStyle: _createAnimatedStyle = (style)=>new AnimatedObject(style) , getComponentProps: _getComponentProps = (props)=>props  } = {})=>{
+    const hostConfig = {
+        applyAnimatedValues: _applyAnimatedValues,
+        createAnimatedStyle: _createAnimatedStyle,
+        getComponentProps: _getComponentProps
+    };
+    const animated = (Component)=>{
+        const displayName = getDisplayName(Component) || "Anonymous";
+        if ((0, _shared.is).str(Component)) Component = animated[Component] || (animated[Component] = withAnimated(Component, hostConfig));
+        else Component = Component[cacheKey] || (Component[cacheKey] = withAnimated(Component, hostConfig));
+        Component.displayName = `Animated(${displayName})`;
+        return Component;
+    };
+    (0, _shared.eachProp)(components, (Component, key)=>{
+        if ((0, _shared.is).arr(components)) key = getDisplayName(Component);
+        animated[key] = animated(Component);
+    });
+    return {
+        animated
+    };
+};
+const getDisplayName = (arg)=>(0, _shared.is).str(arg) ? arg : arg && (0, _shared.is).str(arg.displayName) ? arg.displayName : (0, _shared.is).fun(arg) && arg.name || null;
+
+},{"@react-spring/shared":"jm667","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e9Tpo":[function(require,module,exports) {
+
+},{}],"dlWzh":[function(require,module,exports) {
+
+},{}],"1ZiTE":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d3fe = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d3fe.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+// import React, { useState } from "react";
+// import { useSprings } from "react-spring";
+// import { useGesture, useDrag } from "react-use-gesture";
+// // import { useGesture } from "react-with-gesture";
+// import Card from "../card/Card";
+// import '../../sass/style.scss';
+// const cards = [1, 2, 3, 4];
+// const objs = [
+//   {
+//     pics: [
+//       "https://images.unsplash.com/photo-1522263842439-347f062b8475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+//     ],
+//     name: "Chloe",
+//     age: 18,
+//     distance: "1 mile away",
+//     text: "The C and the L are silent."
+//   },
+//   {
+//     pics: [
+//       "https://images.unsplash.com/photo-1535378719329-f0a8b9a42152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+//     ],
+//     name: "Sarah",
+//     age: 24,
+//     distance: "5 miles away",
+//     text:
+//       "It's tough being a single mom. Or so I'm told, I wouldn't know; I don't have kids."
+//   },
+//   {
+//     pics: [
+//       "https://images.unsplash.com/photo-1514924801778-1db0aba75e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+//     ],
+//     name: "Savannah",
+//     age: 29,
+//     distance: "3 miles away",
+//     text: "A little known fact is that I cover about 40% of Africa."
+//   },
+//   {
+//     pics: [
+//       "https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+//     //   "https://images.unsplash.com/photo-1532635270-c09dac425ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+//     ],
+//     name: "Jane",
+//     age: 22,
+//     distance: "2 miles away",
+//     text:
+//       "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I have a knife."
+//   }
+// ];
+// const to = i => ({
+//   x: 0,
+//   y: i * -10,
+//   scale: 1,
+//   rot: -10 + Math.random() * 20,
+//   delay: i * 100
+// });
+// const from = i => ({ rot: 0, scale: 1.5, y: -1000 });
+// const trans = (r, s) =>
+//   `perspective(1500px) rotateX(30deg) rotateY(${r /
+//     10}deg) rotateZ(${r}deg) scale(${s})`;
+// function Deck() {
+//   const [gone] = useState(() => new Set());
+//   const [props, set] = useSprings(cards.length, i => ({
+//     ...to(i),
+//     from: from(i)
+//   }));
+//   const bind = useDrag(
+//     ({
+//       args: [index],
+//       down,
+//       movement: [mx],
+//       delta: [xDelta],
+//       distance,
+//       direction: [xDir],
+//       velocity
+//     }) => {
+//       const trigger = velocity > 0.2;
+//       const dir = xDir < 0 ? -1 : 1;
+//       if (!down && trigger) gone.add(index);
+//       set(i => {
+//         if (index !== i) return;
+//         const isGone = gone.has(index);
+//         const x = isGone ? (200 + window.innerWidth) * dir : down ? xDelta : 0;
+//         const rot = mx / 100 + (isGone ? dir * 10 * velocity : 0) // How much the card tilts, flicking it harder makes it rotate faster
+//         const scale = down ? 1.1 : 1;
+//         return {
+//           x,
+//           rot,
+//           scale,
+//           delay: undefined,
+//           config: { friction: 50, tension: down ? 800 : isGone ? 200 : 500 }
+//         };
+//       });
+//       if (!down && gone.size === cards.length)
+//         setTimeout(() => gone.clear() || set(i => to(i)), 600);
+//     }
+//   );
+//   return props.map(({ x, y, rot, scale }, i) => (
+//     <Card
+//       i={i}
+//       x={x}
+//       y={y}
+//       rot={rot}
+//       scale={scale}
+//       trans={trans}
+//       cards={cards}
+//       objs={objs}
+//       bind={bind}
+//     />
+//   ));
+// }
+// export default Deck;
+var _reactDom = require("react-dom");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactSpring = require("react-spring");
+//import { useDrag } from '@use-gesture/react'
+var _reactUseGesture = require("react-use-gesture");
+var _styleScss = require("../../sass/style.scss");
+var _s = $RefreshSig$();
+const cards = [
+    "https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/9/9b/RWS_Tarot_07_Chariot.jpg", 
+];
+// These two are just helpers, they curate spring data, values that are later being interpolated into css
+const to = (i)=>({
+        x: 80,
+        y: i * -4,
+        scale: 1,
+        rot: -10 + Math.random() * 20,
+        delay: i * 100
+    });
+const from = (i)=>({
+        x: 80,
+        rot: 0,
+        scale: 1.5,
+        y: -1000
+    });
+// This is being used down there in the view, it interpolates rotation and scale into a css transform
+const trans = (r, s)=>`perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`;
+function Deck() {
+    _s();
+    const [gone] = (0, _react.useState)(()=>new Set()) // The set flags all the cards that are flicked out
+    ;
+    const [props, set] = (0, _reactSpring.useSprings)(cards.length, (i)=>({
+            ...to(i),
+            from: from(i)
+        })) // Create a bunch of springs using the helpers above
+    ;
+    // Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
+    const bind = (0, _reactUseGesture.useDrag)(({ args: [index] , down , movement: [mx] , direction: [xDir] , velocity  })=>{
+        const trigger = velocity > 0.2 // If you flick hard enough it should trigger the card to fly out
+        ;
+        const dir = xDir < 0 ? -1 : 1 // Direction should either point left or right
+        ;
+        if (trigger) gone.add(index) // If button/finger's up and trigger velocity is reached, we flag the card ready to fly out
+        ;
+        set((i)=>{
+            if (index !== i) return; // We're only interested in changing spring-data for the current spring
+            const isGone = gone.has(index);
+            const x = isGone ? (100 + window.innerWidth) * dir : down ? mx : 0 // When a card is gone it flys out left or right, otherwise goes back to zero
+            ;
+            const rot = mx / 100 + (isGone ? dir * 10 * velocity : 0 // How much the card tilts, flicking it harder makes it rotate faster
+            );
+            const scale = down ? 1.1 : 1 // Active cards lift up a bit
+            ;
+            return {
+                x,
+                rot,
+                scale,
+                delay: undefined,
+                config: {
+                    friction: 50,
+                    tension: down ? 800 : isGone ? 200 : 500
+                }
+            };
+        });
+        if (!down && gone.size === cards.length) setTimeout(()=>gone.clear() || set((i)=>to(i)), 600);
+    });
+    // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "ex",
+        children: [
+            console.log(window.innerWidth),
+            props.map(({ x , y , rot , scale  }, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactSpring.animated).div, {
+                    style: {
+                        x,
+                        y
+                    },
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactSpring.animated).div, {
+                        ...bind(i),
+                        style: {
+                            transform: (0, _reactSpring.to)([
+                                rot,
+                                scale
+                            ], trans),
+                            backgroundImage: `url(${cards[i]})`
+                        }
+                    }, void 0, false, {
+                        fileName: "src/components/deck/Deck.jsx",
+                        lineNumber: 175,
+                        columnNumber: 7
+                    }, this)
+                }, i, false, {
+                    fileName: "src/components/deck/Deck.jsx",
+                    lineNumber: 173,
+                    columnNumber: 5
+                }, this))
+        ]
+    }, void 0, true, {
+        fileName: "src/components/deck/Deck.jsx",
+        lineNumber: 169,
+        columnNumber: 11
+    }, this);
+}
+_s(Deck, "uKz3DD1hIf0fAVfFvArwr1vCMAU=", false, function() {
+    return [
+        (0, _reactSpring.useSprings),
+        (0, _reactUseGesture.useDrag)
+    ];
+});
+_c = Deck;
+exports.default = Deck; // render(<Deck />, document.getElementById('root'))
+var _c;
+$RefreshReg$(_c, "Deck");
+
+  $parcel$ReactRefreshHelpers$d3fe.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-spring":"2gPbQ","../../sass/style.scss":"fpeeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-dom":"j6uA9","react-use-gesture":"3CEht"}],"fpeeO":[function() {},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("react-refresh/runtime");
 function debounce(func, delay) {
@@ -27421,7 +31136,2225 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"4znZA":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"3CEht":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "addV", ()=>addV);
+parcelHelpers.export(exports, "rubberbandIfOutOfBounds", ()=>rubberbandIfOutOfBounds);
+parcelHelpers.export(exports, "subV", ()=>subV);
+parcelHelpers.export(exports, "useDrag", ()=>useDrag);
+parcelHelpers.export(exports, "useGesture", ()=>useGesture);
+parcelHelpers.export(exports, "useHover", ()=>useHover);
+parcelHelpers.export(exports, "useMove", ()=>useMove);
+parcelHelpers.export(exports, "usePinch", ()=>usePinch);
+parcelHelpers.export(exports, "useScroll", ()=>useScroll);
+parcelHelpers.export(exports, "useWheel", ()=>useWheel);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+// vector add
+function addV(v1, v2) {
+    return v1.map(function(v, i) {
+        return v + v2[i];
+    });
+} // vector substract
+function subV(v1, v2) {
+    return v1.map(function(v, i) {
+        return v - v2[i];
+    });
+}
+/**
+ * Calculates distance
+ * @param movement the difference between current and initial vectors
+ * @returns distance
+ */ function calculateDistance(movement) {
+    return Math.hypot.apply(Math, movement);
+}
+function calculateAllGeometry(movement, delta) {
+    if (delta === void 0) delta = movement;
+    var dl = calculateDistance(delta);
+    var alpha = dl === 0 ? 0 : 1 / dl;
+    var direction = delta.map(function(v) {
+        return alpha * v;
+    });
+    var distance = calculateDistance(movement);
+    return {
+        distance: distance,
+        direction: direction
+    };
+}
+/**
+ * Calculates all kinematics
+ * @template T the expected vector type
+ * @param movement the difference between current and initial vectors
+ * @param delta the difference between current and previous vectors
+ * @param delta_t the time difference between current and previous timestamps
+ * @returns all kinematics
+ */ function calculateAllKinematics(movement, delta, dt) {
+    var dl = calculateDistance(delta);
+    var alpha = dl === 0 ? 0 : 1 / dl;
+    var beta = dt === 0 ? 0 : 1 / dt;
+    var velocity = beta * dl;
+    var velocities = delta.map(function(v) {
+        return beta * v;
+    });
+    var direction = delta.map(function(v) {
+        return alpha * v;
+    });
+    var distance = calculateDistance(movement);
+    return {
+        velocities: velocities,
+        velocity: velocity,
+        distance: distance,
+        direction: direction
+    };
+}
+/**
+ * Because IE doesn't support `Math.sign` function, so we use the polyfill version of the function.
+ * This polyfill function is suggested by Mozilla:
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign#Polyfill
+ * @param x target number
+ */ function sign(x) {
+    if (Math.sign) return Math.sign(x);
+    return Number(x > 0) - Number(x < 0) || +x;
+}
+function minMax(value, min, max) {
+    return Math.max(min, Math.min(value, max));
+} // Based on @aholachek ;)
+// https://twitter.com/chpwn/status/285540192096497664
+// iOS constant = 0.55
+// https://medium.com/@nathangitter/building-fluid-interfaces-ios-swift-9732bb934bf5
+function rubberband2(distance, constant) {
+    // default constant from the article is 0.7
+    return Math.pow(distance, constant * 5);
+}
+function rubberband(distance, dimension, constant) {
+    if (dimension === 0 || Math.abs(dimension) === Infinity) return rubberband2(distance, constant);
+    return distance * dimension * constant / (dimension + constant * distance);
+}
+function rubberbandIfOutOfBounds(position, min, max, constant) {
+    if (constant === void 0) constant = 0.15;
+    if (constant === 0) return minMax(position, min, max);
+    if (position < min) return -rubberband(min - position, max - min, constant) + min;
+    if (position > max) return +rubberband(position - max, max - min, constant) + max;
+    return position;
+}
+function _defineProperties(target, props) {
+    for(var i = 0; i < props.length; i++){
+        var descriptor = props[i];
+        descriptor.enumerable = descriptor.enumerable || false;
+        descriptor.configurable = true;
+        if ("value" in descriptor) descriptor.writable = true;
+        Object.defineProperty(target, descriptor.key, descriptor);
+    }
+}
+function _createClass(Constructor, protoProps, staticProps) {
+    if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) _defineProperties(Constructor, staticProps);
+    return Constructor;
+}
+function _extends() {
+    _extends = Object.assign || function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+function _inheritsLoose(subClass, superClass) {
+    subClass.prototype = Object.create(superClass.prototype);
+    subClass.prototype.constructor = subClass;
+    subClass.__proto__ = superClass;
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+function _assertThisInitialized(self) {
+    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return self;
+}
+function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
+    return arr2;
+}
+function _createForOfIteratorHelperLoose(o, allowArrayLike) {
+    var it;
+    if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) {
+        if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
+            if (it) o = it;
+            var i = 0;
+            return function() {
+                if (i >= o.length) return {
+                    done: true
+                };
+                return {
+                    done: false,
+                    value: o[i++]
+                };
+            };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+    }
+    it = o[Symbol.iterator]();
+    return it.next.bind(it);
+}
+function noop() {}
+/**
+ * TODO Beware that only optimized cases are covered in tests =)
+ * TODO Need to cover general case as well
+ *
+ * @param fns
+ */ function chainFns() {
+    for(var _len = arguments.length, fns = new Array(_len), _key = 0; _key < _len; _key++)fns[_key] = arguments[_key];
+    if (fns.length === 0) return noop;
+    if (fns.length === 1) return fns[0];
+    return function() {
+        var result;
+        for(var _iterator = _createForOfIteratorHelperLoose(fns), _step; !(_step = _iterator()).done;){
+            var fn = _step.value;
+            result = fn.apply(this, arguments) || result;
+        }
+        return result;
+    };
+}
+/**
+ * Expects a simple value or 2D vector (an array with 2 elements) and
+ * always returns 2D vector. If simple value is passed, returns a
+ * vector with this value as both coordinates.
+ *
+ * @param value
+ */ function ensureVector(value, fallback) {
+    if (value === undefined) {
+        if (fallback === undefined) throw new Error("Must define fallback value if undefined is expected");
+        value = fallback;
+    }
+    if (Array.isArray(value)) return value;
+    return [
+        value,
+        value
+    ];
+}
+/**
+ * Helper for defining a default value
+ *
+ * @param value
+ * @param fallback
+ */ function assignDefault(value, fallback) {
+    return Object.assign({}, fallback, value || {});
+}
+/**
+ * Resolves getters (functions) by calling them
+ * If simple value is given it just passes through
+ *
+ * @param v
+ */ function valueFn(v) {
+    if (typeof v === "function") {
+        for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
+        // @ts-ignore
+        return v.apply(void 0, args);
+    } else return v;
+}
+function resolveWith(config, resolvers) {
+    if (config === void 0) config = {};
+    var result = {};
+    for(var _i = 0, _Object$entries = Object.entries(resolvers); _i < _Object$entries.length; _i++){
+        var _Object$entries$_i = _Object$entries[_i], key = _Object$entries$_i[0], resolver = _Object$entries$_i[1];
+        switch(typeof resolver){
+            case "function":
+                result[key] = resolver.call(result, config[key], key, config);
+                break;
+            case "object":
+                result[key] = resolveWith(config[key], resolver);
+                break;
+            case "boolean":
+                if (resolver) result[key] = config[key];
+                break;
+        }
+    }
+    return result;
+}
+/**
+ * Whether the browser supports GestureEvent (ie Safari)
+ * @returns true if the browser supports gesture event
+ */ function supportsGestureEvents() {
+    try {
+        // TODO [TS] possibly find GestureEvent definitions?
+        // @ts-ignore: no type definitions for webkit GestureEvents
+        return "constructor" in GestureEvent;
+    } catch (e) {
+        return false;
+    }
+}
+function supportsTouchEvents() {
+    return typeof window !== "undefined" && "ontouchstart" in window;
+}
+function supportsPointerEvents() {
+    return typeof window !== "undefined" && "onpointerdown" in window;
+}
+function getEventTouches(event) {
+    if ("pointerId" in event) return null;
+    return event.type === "touchend" ? event.changedTouches : event.targetTouches;
+}
+function getTouchIds(event) {
+    return Array.from(getEventTouches(event)).map(function(t) {
+        return t.identifier;
+    });
+}
+function getGenericEventData(event) {
+    var buttons = "buttons" in event ? event.buttons : 0;
+    var shiftKey = event.shiftKey, altKey = event.altKey, metaKey = event.metaKey, ctrlKey = event.ctrlKey; // TODO check if this might create some overrides?
+    return {
+        buttons: buttons,
+        shiftKey: shiftKey,
+        altKey: altKey,
+        metaKey: metaKey,
+        ctrlKey: ctrlKey
+    };
+}
+var identity = function identity(xy) {
+    return xy;
+};
+/**
+ * Gets pointer event values.
+ * @param event
+ * @returns pointer event values
+ */ function getPointerEventValues(event, transform) {
+    if (transform === void 0) transform = identity;
+    var touchEvents = getEventTouches(event);
+    var _ref = touchEvents ? touchEvents[0] : event, clientX = _ref.clientX, clientY = _ref.clientY;
+    return transform([
+        clientX,
+        clientY
+    ]);
+}
+/**
+ * Gets two touches event data
+ * @param event
+ * @returns two touches event data
+ */ function getTwoTouchesEventValues(event, pointerIds, transform) {
+    if (transform === void 0) transform = identity;
+    var _Array$from$filter = Array.from(event.touches).filter(function(t) {
+        return pointerIds.includes(t.identifier);
+    }), A = _Array$from$filter[0], B = _Array$from$filter[1];
+    if (!A || !B) throw Error("The event doesn't have two pointers matching the pointerIds");
+    var dx = B.clientX - A.clientX;
+    var dy = B.clientY - A.clientY;
+    var cx = (B.clientX + A.clientX) / 2;
+    var cy = (B.clientY + A.clientY) / 2; // const e: any = 'nativeEvent' in event ? event.nativeEvent : event
+    var distance = Math.hypot(dx, dy); // FIXME rotation has inconsistant values so we're not using it atm
+    // const angle = (e.rotation as number) ?? -(Math.atan2(dx, dy) * 180) / Math.PI
+    var angle = -(Math.atan2(dx, dy) * 180) / Math.PI;
+    var values = transform([
+        distance,
+        angle
+    ]);
+    var origin = transform([
+        cx,
+        cy
+    ]);
+    return {
+        values: values,
+        origin: origin
+    };
+}
+/**
+ * Gets scroll event values
+ * @param event
+ * @returns scroll event values
+ */ function getScrollEventValues(event, transform) {
+    if (transform === void 0) transform = identity;
+    // If the currentTarget is the window then we return the scrollX/Y position.
+    // If not (ie the currentTarget is a DOM element), then we return scrollLeft/Top
+    var _event$currentTarget = event.currentTarget, scrollX = _event$currentTarget.scrollX, scrollY = _event$currentTarget.scrollY, scrollLeft = _event$currentTarget.scrollLeft, scrollTop = _event$currentTarget.scrollTop;
+    return transform([
+        scrollX || scrollLeft || 0,
+        scrollY || scrollTop || 0
+    ]);
+} // wheel delta defaults from https://github.com/facebookarchive/fixed-data-table/blob/master/src/vendor_upstream/dom/normalizeWheel.js
+var LINE_HEIGHT = 40;
+var PAGE_HEIGHT = 800;
+/**
+ * Gets wheel event values.
+ * @param event
+ * @returns wheel event values
+ */ function getWheelEventValues(event, transform) {
+    if (transform === void 0) transform = identity;
+    var deltaX = event.deltaX, deltaY = event.deltaY, deltaMode = event.deltaMode; // normalize wheel values, especially for Firefox
+    if (deltaMode === 1) {
+        deltaX *= LINE_HEIGHT;
+        deltaY *= LINE_HEIGHT;
+    } else if (deltaMode === 2) {
+        deltaX *= PAGE_HEIGHT;
+        deltaY *= PAGE_HEIGHT;
+    }
+    return transform([
+        deltaX,
+        deltaY
+    ]);
+}
+/**
+ * Gets webkit gesture event values.
+ * @param event
+ * @returns webkit gesture event values
+ */ function getWebkitGestureEventValues(event, transform) {
+    if (transform === void 0) transform = identity;
+    return transform([
+        event.scale,
+        event.rotation
+    ]);
+}
+var DEFAULT_DRAG_DELAY = 180;
+var DEFAULT_RUBBERBAND = 0.15;
+var DEFAULT_SWIPE_VELOCITY = 0.5;
+var DEFAULT_SWIPE_DISTANCE = 50;
+var DEFAULT_SWIPE_DURATION = 250;
+var InternalGestureOptionsNormalizers = {
+    threshold: function threshold(value) {
+        if (value === void 0) value = 0;
+        return ensureVector(value);
+    },
+    rubberband: function rubberband(value) {
+        if (value === void 0) value = 0;
+        switch(value){
+            case true:
+                return ensureVector(DEFAULT_RUBBERBAND);
+            case false:
+                return ensureVector(0);
+            default:
+                return ensureVector(value);
+        }
+    },
+    enabled: function enabled(value) {
+        if (value === void 0) value = true;
+        return value;
+    },
+    triggerAllEvents: function triggerAllEvents(value) {
+        if (value === void 0) value = false;
+        return value;
+    },
+    initial: function initial(value) {
+        if (value === void 0) value = 0;
+        if (typeof value === "function") return value;
+        return ensureVector(value);
+    },
+    transform: true
+};
+var InternalCoordinatesOptionsNormalizers = /*#__PURE__*/ _extends({}, InternalGestureOptionsNormalizers, {
+    axis: true,
+    lockDirection: function lockDirection(value) {
+        if (value === void 0) value = false;
+        return value;
+    },
+    bounds: function bounds(value) {
+        if (value === void 0) value = {};
+        if (typeof value === "function") return function(state) {
+            return InternalCoordinatesOptionsNormalizers.bounds(value(state));
+        };
+        var _value2 = value, _value2$left = _value2.left, left = _value2$left === void 0 ? -Infinity : _value2$left, _value2$right = _value2.right, right = _value2$right === void 0 ? Infinity : _value2$right, _value2$top = _value2.top, top = _value2$top === void 0 ? -Infinity : _value2$top, _value2$bottom = _value2.bottom, bottom = _value2$bottom === void 0 ? Infinity : _value2$bottom;
+        return [
+            [
+                left,
+                right
+            ],
+            [
+                top,
+                bottom
+            ]
+        ];
+    }
+});
+var isBrowser = typeof window !== "undefined" && window.document && window.document.createElement;
+var InternalGenericOptionsNormalizers = {
+    enabled: function enabled(value) {
+        if (value === void 0) value = true;
+        return value;
+    },
+    domTarget: true,
+    window: /*#__PURE__*/ function(_window) {
+        function window(_x) {
+            return _window.apply(this, arguments);
+        }
+        window.toString = function() {
+            return _window.toString();
+        };
+        return window;
+    }(function(value) {
+        if (value === void 0) value = isBrowser ? window : undefined;
+        return value;
+    }),
+    eventOptions: function eventOptions(_temp) {
+        var _ref = _temp === void 0 ? {} : _temp, _ref$passive = _ref.passive, passive = _ref$passive === void 0 ? true : _ref$passive, _ref$capture = _ref.capture, capture = _ref$capture === void 0 ? false : _ref$capture;
+        return {
+            passive: passive,
+            capture: capture
+        };
+    },
+    transform: true
+};
+var InternalDistanceAngleOptionsNormalizers = /*#__PURE__*/ _extends({}, InternalGestureOptionsNormalizers, {
+    bounds: function bounds(_value, _key, _ref2) {
+        var _ref2$distanceBounds = _ref2.distanceBounds, distanceBounds = _ref2$distanceBounds === void 0 ? {} : _ref2$distanceBounds, _ref2$angleBounds = _ref2.angleBounds, angleBounds = _ref2$angleBounds === void 0 ? {} : _ref2$angleBounds;
+        var _distanceBounds = function _distanceBounds(state) {
+            var D = assignDefault(valueFn(distanceBounds, state), {
+                min: -Infinity,
+                max: Infinity
+            });
+            return [
+                D.min,
+                D.max
+            ];
+        };
+        var _angleBounds = function _angleBounds(state) {
+            var A = assignDefault(valueFn(angleBounds, state), {
+                min: -Infinity,
+                max: Infinity
+            });
+            return [
+                A.min,
+                A.max
+            ];
+        };
+        if (typeof distanceBounds !== "function" && typeof angleBounds !== "function") return [
+            _distanceBounds(),
+            _angleBounds()
+        ];
+        return function(state) {
+            return [
+                _distanceBounds(state),
+                _angleBounds(state)
+            ];
+        };
+    }
+});
+var InternalDragOptionsNormalizers = /*#__PURE__*/ _extends({}, InternalCoordinatesOptionsNormalizers, {
+    useTouch: function useTouch(value) {
+        if (value === void 0) value = false;
+        var supportsTouch = supportsTouchEvents();
+        var supportsPointer = supportsPointerEvents();
+        if (value && supportsTouch) return true;
+        if (supportsTouch && !supportsPointer) return true;
+        return false;
+    },
+    experimental_preventWindowScrollY: function experimental_preventWindowScrollY(value) {
+        if (value === void 0) value = false;
+        return value;
+    },
+    threshold: function threshold(v, _k, _ref3) {
+        var _ref3$filterTaps = _ref3.filterTaps, filterTaps = _ref3$filterTaps === void 0 ? false : _ref3$filterTaps, _ref3$lockDirection = _ref3.lockDirection, lockDirection = _ref3$lockDirection === void 0 ? false : _ref3$lockDirection, _ref3$axis = _ref3.axis, axis = _ref3$axis === void 0 ? undefined : _ref3$axis;
+        var A = ensureVector(v, filterTaps ? 3 : lockDirection ? 1 : axis ? 1 : 0);
+        this.filterTaps = filterTaps;
+        return A;
+    },
+    swipeVelocity: function swipeVelocity(v) {
+        if (v === void 0) v = DEFAULT_SWIPE_VELOCITY;
+        return ensureVector(v);
+    },
+    swipeDistance: function swipeDistance(v) {
+        if (v === void 0) v = DEFAULT_SWIPE_DISTANCE;
+        return ensureVector(v);
+    },
+    swipeDuration: function swipeDuration(value) {
+        if (value === void 0) value = DEFAULT_SWIPE_DURATION;
+        return value;
+    },
+    delay: function delay(value) {
+        if (value === void 0) value = 0;
+        switch(value){
+            case true:
+                return DEFAULT_DRAG_DELAY;
+            case false:
+                return 0;
+            default:
+                return value;
+        }
+    }
+});
+function getInternalGenericOptions(config) {
+    if (config === void 0) config = {};
+    // TODO warn when passive is set to true and domTarget is undefined
+    return resolveWith(config, InternalGenericOptionsNormalizers);
+}
+function getInternalCoordinatesOptions(config) {
+    if (config === void 0) config = {};
+    return resolveWith(config, InternalCoordinatesOptionsNormalizers);
+}
+function getInternalDistanceAngleOptions(config) {
+    if (config === void 0) config = {};
+    return resolveWith(config, InternalDistanceAngleOptionsNormalizers);
+}
+function getInternalDragOptions(config) {
+    if (config === void 0) config = {};
+    return resolveWith(config, InternalDragOptionsNormalizers);
+}
+function _buildMoveConfig(_ref) {
+    var domTarget = _ref.domTarget, eventOptions = _ref.eventOptions, window = _ref.window, enabled = _ref.enabled, rest = _objectWithoutPropertiesLoose(_ref, [
+        "domTarget",
+        "eventOptions",
+        "window",
+        "enabled"
+    ]);
+    var opts = getInternalGenericOptions({
+        domTarget: domTarget,
+        eventOptions: eventOptions,
+        window: window,
+        enabled: enabled
+    });
+    opts.move = getInternalCoordinatesOptions(rest);
+    return opts;
+}
+function _buildHoverConfig(_ref2) {
+    var domTarget = _ref2.domTarget, eventOptions = _ref2.eventOptions, window = _ref2.window, enabled = _ref2.enabled, rest = _objectWithoutPropertiesLoose(_ref2, [
+        "domTarget",
+        "eventOptions",
+        "window",
+        "enabled"
+    ]);
+    var opts = getInternalGenericOptions({
+        domTarget: domTarget,
+        eventOptions: eventOptions,
+        window: window,
+        enabled: enabled
+    });
+    opts.hover = _extends({
+        enabled: true
+    }, rest);
+    return opts;
+}
+function _buildDragConfig(_ref3) {
+    var domTarget = _ref3.domTarget, eventOptions = _ref3.eventOptions, window = _ref3.window, enabled = _ref3.enabled, rest = _objectWithoutPropertiesLoose(_ref3, [
+        "domTarget",
+        "eventOptions",
+        "window",
+        "enabled"
+    ]);
+    var opts = getInternalGenericOptions({
+        domTarget: domTarget,
+        eventOptions: eventOptions,
+        window: window,
+        enabled: enabled
+    });
+    opts.drag = getInternalDragOptions(rest);
+    return opts;
+}
+function _buildPinchConfig(_ref4) {
+    var domTarget = _ref4.domTarget, eventOptions = _ref4.eventOptions, window = _ref4.window, enabled = _ref4.enabled, rest = _objectWithoutPropertiesLoose(_ref4, [
+        "domTarget",
+        "eventOptions",
+        "window",
+        "enabled"
+    ]);
+    var opts = getInternalGenericOptions({
+        domTarget: domTarget,
+        eventOptions: eventOptions,
+        window: window,
+        enabled: enabled
+    });
+    opts.pinch = getInternalDistanceAngleOptions(rest);
+    return opts;
+}
+function _buildScrollConfig(_ref5) {
+    var domTarget = _ref5.domTarget, eventOptions = _ref5.eventOptions, window = _ref5.window, enabled = _ref5.enabled, rest = _objectWithoutPropertiesLoose(_ref5, [
+        "domTarget",
+        "eventOptions",
+        "window",
+        "enabled"
+    ]);
+    var opts = getInternalGenericOptions({
+        domTarget: domTarget,
+        eventOptions: eventOptions,
+        window: window,
+        enabled: enabled
+    });
+    opts.scroll = getInternalCoordinatesOptions(rest);
+    return opts;
+}
+function _buildWheelConfig(_ref6) {
+    var domTarget = _ref6.domTarget, eventOptions = _ref6.eventOptions, window = _ref6.window, enabled = _ref6.enabled, rest = _objectWithoutPropertiesLoose(_ref6, [
+        "domTarget",
+        "eventOptions",
+        "window",
+        "enabled"
+    ]);
+    var opts = getInternalGenericOptions({
+        domTarget: domTarget,
+        eventOptions: eventOptions,
+        window: window,
+        enabled: enabled
+    });
+    opts.wheel = getInternalCoordinatesOptions(rest);
+    return opts;
+}
+function buildComplexConfig(config, actions) {
+    if (config === void 0) config = {};
+    if (actions === void 0) actions = new Set();
+    var _config = config, drag = _config.drag, wheel = _config.wheel, move = _config.move, scroll = _config.scroll, pinch = _config.pinch, hover = _config.hover, eventOptions = _config.eventOptions, window = _config.window, transform = _config.transform, domTarget = _config.domTarget, enabled = _config.enabled;
+    var mergedConfig = getInternalGenericOptions({
+        domTarget: domTarget,
+        eventOptions: eventOptions,
+        transform: transform,
+        window: window,
+        enabled: enabled
+    });
+    if (actions.has("onDrag")) mergedConfig.drag = getInternalDragOptions(drag);
+    if (actions.has("onWheel")) mergedConfig.wheel = getInternalCoordinatesOptions(wheel);
+    if (actions.has("onScroll")) mergedConfig.scroll = getInternalCoordinatesOptions(scroll);
+    if (actions.has("onMove")) mergedConfig.move = getInternalCoordinatesOptions(move);
+    if (actions.has("onPinch")) mergedConfig.pinch = getInternalDistanceAngleOptions(pinch);
+    if (actions.has("onHover")) mergedConfig.hover = _extends({
+        enabled: true
+    }, hover);
+    return mergedConfig;
+}
+function getInitial(mixed) {
+    return _extends({
+        _active: false,
+        _blocked: false,
+        _intentional: [
+            false,
+            false
+        ],
+        _movement: [
+            0,
+            0
+        ],
+        _initial: [
+            0,
+            0
+        ],
+        _bounds: [
+            [
+                -Infinity,
+                Infinity
+            ],
+            [
+                -Infinity,
+                Infinity
+            ]
+        ],
+        _threshold: [
+            0,
+            0
+        ],
+        _lastEventType: undefined,
+        _dragStarted: false,
+        _dragPreventScroll: false,
+        _dragIsTap: true,
+        _dragDelayed: false,
+        event: undefined,
+        intentional: false,
+        values: [
+            0,
+            0
+        ],
+        velocities: [
+            0,
+            0
+        ],
+        delta: [
+            0,
+            0
+        ],
+        movement: [
+            0,
+            0
+        ],
+        offset: [
+            0,
+            0
+        ],
+        lastOffset: [
+            0,
+            0
+        ],
+        direction: [
+            0,
+            0
+        ],
+        initial: [
+            0,
+            0
+        ],
+        previous: [
+            0,
+            0
+        ],
+        first: false,
+        last: false,
+        active: false,
+        timeStamp: 0,
+        startTime: 0,
+        elapsedTime: 0,
+        cancel: noop,
+        canceled: false,
+        memo: undefined,
+        args: undefined
+    }, mixed);
+}
+function getInitialState() {
+    var shared = {
+        hovering: false,
+        scrolling: false,
+        wheeling: false,
+        dragging: false,
+        moving: false,
+        pinching: false,
+        touches: 0,
+        buttons: 0,
+        down: false,
+        shiftKey: false,
+        altKey: false,
+        metaKey: false,
+        ctrlKey: false,
+        locked: false
+    };
+    var drag = getInitial({
+        _pointerId: undefined,
+        axis: undefined,
+        xy: [
+            0,
+            0
+        ],
+        vxvy: [
+            0,
+            0
+        ],
+        velocity: 0,
+        distance: 0,
+        tap: false,
+        swipe: [
+            0,
+            0
+        ]
+    });
+    var pinch = getInitial({
+        // @ts-expect-error when used _pointerIds we can assert its type will be [number, number]
+        _pointerIds: [],
+        da: [
+            0,
+            0
+        ],
+        vdva: [
+            0,
+            0
+        ],
+        // @ts-expect-error origin can never be passed as undefined in userland
+        origin: undefined,
+        turns: 0
+    });
+    var wheel = getInitial({
+        axis: undefined,
+        xy: [
+            0,
+            0
+        ],
+        vxvy: [
+            0,
+            0
+        ],
+        velocity: 0,
+        distance: 0
+    });
+    var move = getInitial({
+        axis: undefined,
+        xy: [
+            0,
+            0
+        ],
+        vxvy: [
+            0,
+            0
+        ],
+        velocity: 0,
+        distance: 0
+    });
+    var scroll = getInitial({
+        axis: undefined,
+        xy: [
+            0,
+            0
+        ],
+        vxvy: [
+            0,
+            0
+        ],
+        velocity: 0,
+        distance: 0
+    });
+    return {
+        shared: shared,
+        drag: drag,
+        pinch: pinch,
+        wheel: wheel,
+        move: move,
+        scroll: scroll
+    };
+}
+var RecognizersMap = /*#__PURE__*/ new Map();
+var identity$1 = function identity(xy) {
+    return xy;
+};
+/**
+ * @private
+ * Recognizer abstract class.
+ */ var Recognizer = /*#__PURE__*/ function() {
+    /**
+   * Creates an instance of a gesture recognizer.
+   * @param stateKey drag, move, pinch, etc.
+   * @param controller the controller attached to the gesture
+   * @param [args] the args that should be passed to the gesture handler
+   */ function Recognizer1(controller, args1) {
+        var _this = this;
+        if (args1 === void 0) args1 = [];
+        this.controller = controller;
+        this.args = args1;
+        this.debounced = true; // Convenience method to set a timeout for a given gesture
+        this.setTimeout = function(callback, ms) {
+            var _window;
+            if (ms === void 0) ms = 140;
+            clearTimeout(_this.controller.timeouts[_this.stateKey]);
+            for(var _len = arguments.length, args = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++)args[_key - 2] = arguments[_key];
+            _this.controller.timeouts[_this.stateKey] = (_window = window).setTimeout.apply(_window, [
+                callback,
+                ms
+            ].concat(args));
+        }; // Convenience method to clear a timeout for a given gesture
+        this.clearTimeout = function() {
+            clearTimeout(_this.controller.timeouts[_this.stateKey]);
+        };
+        /**
+     * Fires the gesture handler
+     */ this.fireGestureHandler = function(forceFlag) {
+            if (forceFlag === void 0) forceFlag = false;
+            /**
+       * If the gesture has been blocked (this can happen when the gesture has started in an unwanted direction),
+       * clean everything and don't do anything.
+       */ if (_this.state._blocked) {
+                // we need debounced gestures to end by themselves
+                if (!_this.debounced) {
+                    _this.state._active = false;
+                    _this.clean();
+                }
+                return null;
+            } // If the gesture has no intentional dimension, don't fire the handler.
+            if (!forceFlag && !_this.state.intentional && !_this.config.triggerAllEvents) return null;
+            if (_this.state.intentional) {
+                var prev_active = _this.state.active;
+                var next_active = _this.state._active;
+                _this.state.active = next_active;
+                _this.state.first = next_active && !prev_active;
+                _this.state.last = prev_active && !next_active;
+                _this.controller.state.shared[_this.ingKey] = next_active; // Sets dragging, pinching, etc. to the gesture active state
+            }
+            var touches = _this.controller.pointerIds.size || _this.controller.touchIds.size;
+            var down = _this.controller.state.shared.buttons > 0 || touches > 0;
+            var state = _extends({}, _this.controller.state.shared, _this.state, _this.mapStateValues(_this.state), {
+                locked: !!document.pointerLockElement,
+                touches: touches,
+                down: down
+            }); // @ts-expect-error
+            var newMemo = _this.handler(state); // Sets memo to the returned value of the handler (unless it's not undefined)
+            _this.state.memo = newMemo !== void 0 ? newMemo : _this.state.memo;
+            return state;
+        };
+        this.controller = controller;
+        this.args = args1;
+    } // Returns the gesture config
+    var _proto = Recognizer1.prototype;
+    // Convenience method to update the shared state
+    _proto.updateSharedState = function updateSharedState(sharedState) {
+        Object.assign(this.controller.state.shared, sharedState);
+    } // Convenience method to update the gesture state
+    ;
+    _proto.updateGestureState = function updateGestureState(gestureState) {
+        Object.assign(this.state, gestureState);
+    } /**
+   * Returns state properties depending on the movement and state.
+   *
+   * Should be overriden for custom behavior, doesn't do anything in the implementation
+   * below.
+   */ ;
+    _proto.checkIntentionality = function checkIntentionality(_intentional, _movement) {
+        return {
+            _intentional: _intentional,
+            _blocked: false
+        };
+    } /**
+   * Returns basic movement properties for the gesture based on the next values and current state.
+   */ ;
+    _proto.getMovement = function getMovement(values) {
+        var rubberband1 = this.config.rubberband;
+        var _this$state = this.state, _bounds = _this$state._bounds, _initial = _this$state._initial, _active = _this$state._active, wasIntentional = _this$state._intentional, lastOffset = _this$state.lastOffset, prevMovement = _this$state.movement, _T = _this$state._threshold;
+        var M = this.getInternalMovement(values, this.state);
+        var i0 = wasIntentional[0] === false ? getIntentionalDisplacement(M[0], _T[0]) : wasIntentional[0];
+        var i1 = wasIntentional[1] === false ? getIntentionalDisplacement(M[1], _T[1]) : wasIntentional[1]; // Get gesture specific state properties based on intentionality and movement.
+        var intentionalityCheck = this.checkIntentionality([
+            i0,
+            i1
+        ], M);
+        if (intentionalityCheck._blocked) return _extends({}, intentionalityCheck, {
+            _movement: M,
+            delta: [
+                0,
+                0
+            ]
+        });
+        var _intentional = intentionalityCheck._intentional;
+        var _movement = M;
+        /**
+     * The movement sent to the handler has 0 in its dimensions when intentionality is false.
+     * It is calculated from the actual movement minus the threshold.
+     */ var movement = [
+            _intentional[0] !== false ? M[0] - _intentional[0] : 0,
+            _intentional[1] !== false ? M[1] - _intentional[1] : 0
+        ];
+        var offset = addV(movement, lastOffset);
+        /**
+     * Rubberband should be 0 when the gesture is no longer active, so that movement
+     * and offset can return within their bounds.
+     */ var _rubberband = _active ? rubberband1 : [
+            0,
+            0
+        ];
+        movement = computeRubberband(_bounds, addV(movement, _initial), _rubberband);
+        return _extends({}, intentionalityCheck, {
+            intentional: _intentional[0] !== false || _intentional[1] !== false,
+            _initial: _initial,
+            _movement: _movement,
+            movement: movement,
+            values: values,
+            offset: computeRubberband(_bounds, offset, _rubberband),
+            delta: subV(movement, prevMovement)
+        });
+    } // Cleans the gesture. Can be overriden by gestures.
+    ;
+    _proto.clean = function clean() {
+        this.clearTimeout();
+    };
+    _createClass(Recognizer1, [
+        {
+            key: "config",
+            get: function get() {
+                return this.controller.config[this.stateKey];
+            } // Is the gesture enabled
+        },
+        {
+            key: "enabled",
+            get: function get() {
+                return this.controller.config.enabled && this.config.enabled;
+            } // Returns the controller state for a given gesture
+        },
+        {
+            key: "state",
+            get: function get() {
+                return this.controller.state[this.stateKey];
+            } // Returns the gesture handler
+        },
+        {
+            key: "handler",
+            get: function get() {
+                return this.controller.handlers[this.stateKey];
+            }
+        },
+        {
+            key: "transform",
+            get: function get() {
+                return this.config.transform || this.controller.config.transform || identity$1;
+            }
+        }
+    ]);
+    return Recognizer1;
+}(); //--------------------------------------------
+function getIntentionalDisplacement(movement, threshold) {
+    if (Math.abs(movement) >= threshold) return sign(movement) * threshold;
+    else return false;
+}
+function computeRubberband(bounds, _ref, _ref2) {
+    var Vx = _ref[0], Vy = _ref[1];
+    var Rx = _ref2[0], Ry = _ref2[1];
+    var _bounds$ = bounds[0], X1 = _bounds$[0], X2 = _bounds$[1], _bounds$2 = bounds[1], Y1 = _bounds$2[0], Y2 = _bounds$2[1];
+    return [
+        rubberbandIfOutOfBounds(Vx, X1, X2, Rx),
+        rubberbandIfOutOfBounds(Vy, Y1, Y2, Ry)
+    ];
+}
+/**
+ * Returns a generic, common payload for all gestures from an event.
+ */ function getGenericPayload(_ref3, event, isStartEvent) {
+    var state = _ref3.state;
+    var timeStamp = event.timeStamp, _lastEventType = event.type;
+    var previous = state.values;
+    var elapsedTime = isStartEvent ? 0 : timeStamp - state.startTime;
+    return {
+        _lastEventType: _lastEventType,
+        event: event,
+        timeStamp: timeStamp,
+        elapsedTime: elapsedTime,
+        previous: previous
+    };
+}
+/**
+ * Returns the reinitialized start state for the gesture.
+ * Should be common to all gestures.
+ */ function getStartGestureState(_ref4, values, event, initial) {
+    var state = _ref4.state, config = _ref4.config, stateKey = _ref4.stateKey, args = _ref4.args, transform = _ref4.transform;
+    var offset = state.offset;
+    var startTime = event.timeStamp;
+    var initialFn = config.initial, bounds = config.bounds, threshold = config.threshold; // the _threshold is the difference between a [0,0] offset converted to
+    // its new space coordinates
+    var _threshold = subV(transform(threshold), transform([
+        0,
+        0
+    ])).map(Math.abs);
+    var _state = _extends({}, getInitialState()[stateKey], {
+        _active: true,
+        args: args,
+        values: values,
+        initial: initial != null ? initial : values,
+        _threshold: _threshold,
+        offset: offset,
+        lastOffset: offset,
+        startTime: startTime
+    });
+    return _extends({}, _state, {
+        _initial: valueFn(initialFn, _state),
+        _bounds: valueFn(bounds, _state)
+    });
+}
+/**
+ * The controller will keep track of the state for all gestures and also keep
+ * track of timeouts, and window listeners.
+ */ var Controller = function Controller(classes) {
+    var _this = this;
+    this.classes = classes;
+    this.pointerIds = new Set(); // register Pointer Events pointerIds
+    this.touchIds = new Set(); // register Touch Events identifiers
+    this.supportsTouchEvents = supportsTouchEvents();
+    this.supportsGestureEvents = supportsGestureEvents();
+    this.bind = function() {
+        for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++)args[_key] = arguments[_key];
+        var bindings = {};
+        for(var _iterator = _createForOfIteratorHelperLoose(_this.classes), _step; !(_step = _iterator()).done;){
+            var RecognizerClass = _step.value;
+            new RecognizerClass(_this, args).addBindings(bindings);
+        } // // we also add event bindings for native handlers
+        var _loop = function _loop(eventKey) {
+            addBindings(bindings, eventKey, function(event) {
+                return _this.nativeRefs[eventKey](_extends({}, _this.state.shared, {
+                    event: event,
+                    args: args
+                }));
+            });
+        };
+        for(var eventKey1 in _this.nativeRefs)_loop(eventKey1);
+        if (_this.config.domTarget) // If config.domTarget is set we add event listeners to it and return the clean function.
+        return updateDomListeners(_this, bindings);
+        else // If not, we return an object that contains gesture handlers mapped to react handler event keys.
+        return getPropsListener(_this, bindings);
+    };
+    this.effect = function() {
+        if (_this.config.domTarget) _this.bind();
+        return _this.clean;
+    };
+    /**
+   * Function ran on component unmount: cleans timeouts and removes dom listeners set by the bind function.
+   */ this.clean = function() {
+        var domTarget = getDomTargetFromConfig(_this.config);
+        var eventOptions = _this.config.eventOptions;
+        if (domTarget) removeListeners(domTarget, takeAll(_this.domListeners), eventOptions);
+        Object.values(_this.timeouts).forEach(clearTimeout);
+        clearAllWindowListeners(_this);
+    };
+    this.classes = classes;
+    this.state = getInitialState();
+    this.timeouts = {};
+    this.domListeners = [];
+    this.windowListeners = {};
+};
+function addEventIds(controller, event) {
+    if ("pointerId" in event) controller.pointerIds.add(event.pointerId);
+    else controller.touchIds = new Set(getTouchIds(event));
+}
+function removeEventIds(controller, event) {
+    if ("pointerId" in event) controller.pointerIds["delete"](event.pointerId);
+    else getTouchIds(event).forEach(function(id) {
+        return controller.touchIds["delete"](id);
+    });
+}
+function clearAllWindowListeners(controller) {
+    var _controller$config = controller.config, el = _controller$config.window, eventOptions = _controller$config.eventOptions, windowListeners = controller.windowListeners;
+    if (!el) return;
+    for(var stateKey in windowListeners){
+        var handlers = windowListeners[stateKey];
+        removeListeners(el, handlers, eventOptions);
+    }
+    controller.windowListeners = {};
+}
+function clearWindowListeners(_ref, stateKey, options) {
+    var config = _ref.config, windowListeners = _ref.windowListeners;
+    if (options === void 0) options = config.eventOptions;
+    if (!config.window) return;
+    removeListeners(config.window, windowListeners[stateKey], options);
+    delete windowListeners[stateKey];
+}
+function updateWindowListeners(_ref2, stateKey, listeners, options) {
+    var config = _ref2.config, windowListeners = _ref2.windowListeners;
+    if (listeners === void 0) listeners = [];
+    if (options === void 0) options = config.eventOptions;
+    if (!config.window) return;
+    removeListeners(config.window, windowListeners[stateKey], options);
+    addListeners(config.window, windowListeners[stateKey] = listeners, options);
+}
+function updateDomListeners(_ref3, bindings) {
+    var config = _ref3.config, domListeners = _ref3.domListeners;
+    var domTarget = getDomTargetFromConfig(config);
+    if (!domTarget) throw new Error("domTarget must be defined");
+    var eventOptions = config.eventOptions;
+    removeListeners(domTarget, takeAll(domListeners), eventOptions);
+    for(var _i = 0, _Object$entries = Object.entries(bindings); _i < _Object$entries.length; _i++){
+        var _Object$entries$_i = _Object$entries[_i], key = _Object$entries$_i[0], fns = _Object$entries$_i[1];
+        var name = key.slice(2).toLowerCase();
+        domListeners.push([
+            name,
+            chainFns.apply(void 0, fns)
+        ]);
+    }
+    addListeners(domTarget, domListeners, eventOptions);
+}
+function getPropsListener(_ref4, bindings) {
+    var config = _ref4.config;
+    var props = {};
+    var captureString = config.eventOptions.capture ? "Capture" : "";
+    for(var _i2 = 0, _Object$entries2 = Object.entries(bindings); _i2 < _Object$entries2.length; _i2++){
+        var _Object$entries2$_i = _Object$entries2[_i2], event = _Object$entries2$_i[0], fns = _Object$entries2$_i[1];
+        var fnsArray = Array.isArray(fns) ? fns : [
+            fns
+        ];
+        var key = event + captureString;
+        props[key] = chainFns.apply(void 0, fnsArray);
+    }
+    return props;
+}
+function takeAll(array) {
+    if (array === void 0) array = [];
+    return array.splice(0, array.length);
+}
+function getDomTargetFromConfig(_ref5) {
+    var domTarget = _ref5.domTarget;
+    return domTarget && "current" in domTarget ? domTarget.current : domTarget;
+}
+/**
+ * bindings is an object which keys match ReactEventHandlerKeys.
+ * Since a recognizer might want to bind a handler function to an event key already used by a previously
+ * added recognizer, we need to make sure that each event key is an array of all the functions mapped for
+ * that key.
+ */ function addBindings(bindings, name, fn) {
+    if (!bindings[name]) bindings[name] = [];
+    bindings[name].push(fn);
+}
+function addListeners(el, listeners, options) {
+    if (listeners === void 0) listeners = [];
+    if (options === void 0) options = {};
+    for(var _iterator2 = _createForOfIteratorHelperLoose(listeners), _step2; !(_step2 = _iterator2()).done;){
+        var _step2$value = _step2.value, eventName = _step2$value[0], eventHandler = _step2$value[1];
+        el.addEventListener(eventName, eventHandler, options);
+    }
+}
+function removeListeners(el, listeners, options) {
+    if (listeners === void 0) listeners = [];
+    if (options === void 0) options = {};
+    for(var _iterator3 = _createForOfIteratorHelperLoose(listeners), _step3; !(_step3 = _iterator3()).done;){
+        var _step3$value = _step3.value, eventName = _step3$value[0], eventHandler = _step3$value[1];
+        el.removeEventListener(eventName, eventHandler, options);
+    }
+}
+/* eslint-disable react-hooks/exhaustive-deps */ /**
+ * Utility hook called by all gesture hooks and that will be responsible for the internals.
+ *
+ * @param handlers
+ * @param classes
+ * @param config
+ * @param nativeHandlers - native handlers such as onClick, onMouseDown, etc.
+ */ function useRecognizers(handlers, config, nativeHandlers) {
+    if (nativeHandlers === void 0) nativeHandlers = {};
+    var classes = resolveClasses(handlers);
+    var controller = (0, _reactDefault.default).useMemo(function() {
+        return new Controller(classes);
+    }, []);
+    controller.config = config;
+    controller.handlers = handlers;
+    controller.nativeRefs = nativeHandlers;
+    (0, _reactDefault.default).useEffect(controller.effect, []); // @ts-ignore
+    if (controller.config.domTarget) return deprecationNoticeForDomTarget; // @ts-ignore
+    return controller.bind;
+}
+function deprecationNoticeForDomTarget() {
+    // eslint-disable-next-line no-console
+    console.warn("Deprecation notice: When the `domTarget` option is specified, you don't need to write `useEffect(bind, [bind])` anymore: event binding is now made handled internally to this lib.\n\nNext version won't return anything when `domTarget` is provided, therefore your code will break if you try to call `useEffect`.");
+}
+function resolveClasses(internalHandlers) {
+    var classes = new Set();
+    if (internalHandlers.drag) classes.add(RecognizersMap.get("drag"));
+    if (internalHandlers.wheel) classes.add(RecognizersMap.get("wheel"));
+    if (internalHandlers.scroll) classes.add(RecognizersMap.get("scroll"));
+    if (internalHandlers.move) classes.add(RecognizersMap.get("move"));
+    if (internalHandlers.pinch) classes.add(RecognizersMap.get("pinch"));
+    if (internalHandlers.hover) classes.add(RecognizersMap.get("hover"));
+    return classes;
+}
+/**
+ * @private
+ * Abstract class for coordinates-based gesture recongizers
+ */ var CoordinatesRecognizer = /*#__PURE__*/ function(_Recognizer) {
+    _inheritsLoose(CoordinatesRecognizer1, _Recognizer);
+    function CoordinatesRecognizer1() {
+        return _Recognizer.apply(this, arguments) || this;
+    }
+    var _proto = CoordinatesRecognizer1.prototype;
+    /**
+   * Returns the real movement (without taking intentionality into account)
+   */ _proto.getInternalMovement = function getInternalMovement(values, state) {
+        return subV(values, state.initial);
+    } /**
+   * In coordinates-based gesture, this function will detect the first intentional axis,
+   * lock the gesture axis if lockDirection is specified in the config, block the gesture
+   * if the first intentional axis doesn't match the specified axis in config.
+   */ ;
+    _proto.checkIntentionality = function checkIntentionality(_intentional, _movement) {
+        if (_intentional[0] === false && _intentional[1] === false) return {
+            _intentional: _intentional,
+            axis: this.state.axis
+        };
+        var _movement$map = _movement.map(Math.abs), absX = _movement$map[0], absY = _movement$map[1];
+        var axis = this.state.axis || (absX > absY ? "x" : absX < absY ? "y" : undefined);
+        if (!this.config.axis && !this.config.lockDirection) return {
+            _intentional: _intentional,
+            _blocked: false,
+            axis: axis
+        };
+        if (!axis) return {
+            _intentional: [
+                false,
+                false
+            ],
+            _blocked: false,
+            axis: axis
+        };
+        if (!!this.config.axis && axis !== this.config.axis) return {
+            _intentional: _intentional,
+            _blocked: true,
+            axis: axis
+        };
+        _intentional[axis === "x" ? 1 : 0] = false;
+        return {
+            _intentional: _intentional,
+            _blocked: false,
+            axis: axis
+        };
+    };
+    _proto.getKinematics = function getKinematics(values, event) {
+        var state = this.getMovement(values);
+        if (!state._blocked) {
+            var dt = event.timeStamp - this.state.timeStamp;
+            Object.assign(state, calculateAllKinematics(state.movement, state.delta, dt));
+        }
+        return state;
+    };
+    _proto.mapStateValues = function mapStateValues(state) {
+        return {
+            xy: state.values,
+            vxvy: state.velocities
+        };
+    };
+    return CoordinatesRecognizer1;
+}(Recognizer);
+var TAP_DISTANCE_THRESHOLD = 3;
+function persistEvent(event) {
+    "persist" in event && typeof event.persist === "function" && event.persist();
+}
+var DragRecognizer = /*#__PURE__*/ function(_CoordinatesRecognize) {
+    _inheritsLoose(DragRecognizer1, _CoordinatesRecognize);
+    function DragRecognizer1() {
+        var _this;
+        _this = _CoordinatesRecognize.apply(this, arguments) || this;
+        _this.ingKey = "dragging";
+        _this.stateKey = "drag"; // TODO add back when setPointerCapture is widely wupported
+        // https://caniuse.com/#search=setPointerCapture
+        _this.setPointerCapture = function(event) {
+            // don't perform pointere capture when user wants to use touch events or
+            // when a pointerLockElement exists as this would throw an error
+            if (_this.config.useTouch || document.pointerLockElement) return;
+            var target = event.target, pointerId = event.pointerId;
+            if (target && "setPointerCapture" in target) // this would work in the DOM but doesn't with react three fiber
+            // target.addEventListener('pointermove', this.onDragChange, this.controller.config.eventOptions)
+            // @ts-expect-error
+            target.setPointerCapture(pointerId);
+            _this.updateGestureState({
+                _dragTarget: target,
+                _dragPointerId: pointerId
+            });
+        };
+        _this.releasePointerCapture = function() {
+            if (_this.config.useTouch || document.pointerLockElement) return;
+            var _this$state = _this.state, _dragTarget = _this$state._dragTarget, _dragPointerId = _this$state._dragPointerId;
+            if (_dragPointerId && _dragTarget && "releasePointerCapture" in _dragTarget) {
+                // this would work in the DOM but doesn't with react three fiber
+                // target.removeEventListener('pointermove', this.onDragChange, this.controller.config.eventOptions)
+                if (!("hasPointerCapture" in _dragTarget) || _dragTarget.hasPointerCapture(_dragPointerId)) try {
+                    _dragTarget.releasePointerCapture(_dragPointerId);
+                } catch (e) {}
+            }
+        };
+        _this.preventScroll = function(event) {
+            if (_this.state._dragPreventScroll && event.cancelable) event.preventDefault();
+        };
+        _this.getEventId = function(event) {
+            if (_this.config.useTouch) return event.changedTouches[0].identifier;
+            return event.pointerId;
+        };
+        _this.isValidEvent = function(event) {
+            // if we were using pointer events only event.isPrimary === 1 would suffice
+            return _this.state._pointerId === _this.getEventId(event);
+        };
+        _this.shouldPreventWindowScrollY = _this.config.experimental_preventWindowScrollY && _this.controller.supportsTouchEvents;
+        _this.setUpWindowScrollDetection = function(event) {
+            persistEvent(event); // we add window listeners that will prevent the scroll when the user has started dragging
+            updateWindowListeners(_this.controller, _this.stateKey, [
+                [
+                    "touchmove",
+                    _this.preventScroll
+                ],
+                [
+                    "touchend",
+                    _this.clean.bind(_assertThisInitialized(_this))
+                ],
+                [
+                    "touchcancel",
+                    _this.clean.bind(_assertThisInitialized(_this))
+                ]
+            ], {
+                passive: false
+            });
+            _this.setTimeout(_this.startDrag.bind(_assertThisInitialized(_this)), 250, event);
+        };
+        _this.setUpDelayedDragTrigger = function(event) {
+            _this.state._dragDelayed = true;
+            persistEvent(event);
+            _this.setTimeout(_this.startDrag.bind(_assertThisInitialized(_this)), _this.config.delay, event);
+        };
+        _this.setStartState = function(event) {
+            var values = getPointerEventValues(event, _this.transform);
+            _this.updateSharedState(getGenericEventData(event));
+            _this.updateGestureState(_extends({}, getStartGestureState(_assertThisInitialized(_this), values, event), getGenericPayload(_assertThisInitialized(_this), event, true), {
+                _pointerId: _this.getEventId(event)
+            }));
+            _this.updateGestureState(_this.getMovement(values));
+        };
+        _this.onDragStart = function(event) {
+            addEventIds(_this.controller, event);
+            if (!_this.enabled || _this.state._active) return;
+            _this.setStartState(event);
+            _this.setPointerCapture(event);
+            if (_this.shouldPreventWindowScrollY) _this.setUpWindowScrollDetection(event);
+            else if (_this.config.delay > 0) _this.setUpDelayedDragTrigger(event);
+            else _this.startDrag(event, true); // we pass the values to the startDrag event
+        };
+        _this.onDragChange = function(event) {
+            if (_this.state.canceled || !_this.state._active || !_this.isValidEvent(event) || // note that checking type equality is ONLY for tests ¯\_(ツ)_/¯
+            _this.state._lastEventType === event.type && event.timeStamp === _this.state.timeStamp) return;
+            var values;
+            if (document.pointerLockElement) {
+                var movementX = event.movementX, movementY = event.movementY;
+                values = addV(_this.transform([
+                    movementX,
+                    movementY
+                ]), _this.state.values);
+            } else values = getPointerEventValues(event, _this.transform);
+            var kinematics = _this.getKinematics(values, event); // if startDrag hasn't fired
+            if (!_this.state._dragStarted) {
+                // If the gesture isn't active then respond to the event only if
+                // it's been delayed via the `delay` option, in which case start
+                // the gesture immediately.
+                if (_this.state._dragDelayed) {
+                    _this.startDrag(event);
+                    return;
+                } // if the user wants to prevent vertical window scroll when user starts dragging
+                if (_this.shouldPreventWindowScrollY) {
+                    if (!_this.state._dragPreventScroll && kinematics.axis) {
+                        // if the user is dragging horizontally then we should allow the drag
+                        if (kinematics.axis === "x") _this.startDrag(event);
+                        else {
+                            _this.state._active = false;
+                            return;
+                        }
+                    } else return;
+                } else return;
+            }
+            var genericEventData = getGenericEventData(event);
+            _this.updateSharedState(genericEventData);
+            var genericPayload = getGenericPayload(_assertThisInitialized(_this), event); // This verifies if the drag can be assimilated to a tap by checking
+            // if the real distance of the drag (ie not accounting for the threshold) is
+            // greater than the TAP_DISTANCE_THRESHOLD.
+            var realDistance = calculateDistance(kinematics._movement);
+            var _dragIsTap = _this.state._dragIsTap;
+            if (_dragIsTap && realDistance >= TAP_DISTANCE_THRESHOLD) _dragIsTap = false;
+            _this.updateGestureState(_extends({}, genericPayload, kinematics, {
+                _dragIsTap: _dragIsTap
+            }));
+            _this.fireGestureHandler();
+        };
+        _this.onDragEnd = function(event) {
+            removeEventIds(_this.controller, event); // if the event pointerId doesn't match the one that initiated the drag
+            // we don't want to end the drag
+            if (!_this.isValidEvent(event)) return;
+            _this.clean(); // if the gesture is no longer active (ie canceled)
+            // don't do anything
+            if (!_this.state._active) return;
+            _this.state._active = false;
+            var tap = _this.state._dragIsTap;
+            var _this$state$velocitie = _this.state.velocities, vx = _this$state$velocitie[0], vy = _this$state$velocitie[1];
+            var _this$state$movement = _this.state.movement, mx = _this$state$movement[0], my = _this$state$movement[1];
+            var _this$state$_intentio = _this.state._intentional, ix = _this$state$_intentio[0], iy = _this$state$_intentio[1];
+            var _this$config$swipeVel = _this.config.swipeVelocity, svx = _this$config$swipeVel[0], svy = _this$config$swipeVel[1];
+            var _this$config$swipeDis = _this.config.swipeDistance, sx = _this$config$swipeDis[0], sy = _this$config$swipeDis[1];
+            var sd = _this.config.swipeDuration;
+            var endState = _extends({}, getGenericPayload(_assertThisInitialized(_this), event), _this.getMovement(_this.state.values));
+            var swipe = [
+                0,
+                0
+            ];
+            if (endState.elapsedTime < sd) {
+                if (ix !== false && Math.abs(vx) > svx && Math.abs(mx) > sx) swipe[0] = sign(vx);
+                if (iy !== false && Math.abs(vy) > svy && Math.abs(my) > sy) swipe[1] = sign(vy);
+            }
+            _this.updateSharedState({
+                buttons: 0
+            });
+            _this.updateGestureState(_extends({}, endState, {
+                tap: tap,
+                swipe: swipe
+            }));
+            _this.fireGestureHandler(_this.config.filterTaps && tap === true);
+        };
+        _this.clean = function() {
+            _CoordinatesRecognize.prototype.clean.call(_assertThisInitialized(_this));
+            _this.state._dragStarted = false;
+            _this.releasePointerCapture();
+            clearWindowListeners(_this.controller, _this.stateKey);
+        };
+        _this.onCancel = function() {
+            if (_this.state.canceled) return;
+            _this.updateGestureState({
+                canceled: true,
+                _active: false
+            });
+            _this.updateSharedState({
+                buttons: 0
+            });
+            setTimeout(function() {
+                return _this.fireGestureHandler();
+            }, 0);
+        };
+        _this.onClick = function(event) {
+            if (!_this.state._dragIsTap) event.stopPropagation();
+        };
+        return _this;
+    }
+    var _proto = DragRecognizer1.prototype;
+    _proto.startDrag = function startDrag(event, onDragIsStart) {
+        if (onDragIsStart === void 0) onDragIsStart = false;
+        // startDrag can happen after a timeout, so we need to check if the gesture is still active
+        // as the user might have lift up the pointer in between.
+        if (!this.state._active || this.state._dragStarted) return;
+        if (!onDragIsStart) this.setStartState(event);
+        this.updateGestureState({
+            _dragStarted: true,
+            _dragPreventScroll: true,
+            cancel: this.onCancel
+        });
+        this.clearTimeout();
+        this.fireGestureHandler();
+    };
+    _proto.addBindings = function addBindings$1(bindings) {
+        if (this.config.useTouch) {
+            addBindings(bindings, "onTouchStart", this.onDragStart);
+            addBindings(bindings, "onTouchMove", this.onDragChange); // this is needed for react-three-fiber
+            addBindings(bindings, "onTouchEnd", this.onDragEnd);
+            addBindings(bindings, "onTouchCancel", this.onDragEnd);
+        } else {
+            addBindings(bindings, "onPointerDown", this.onDragStart);
+            addBindings(bindings, "onPointerMove", this.onDragChange); // this is needed for react-three-fiber
+            addBindings(bindings, "onPointerUp", this.onDragEnd);
+            addBindings(bindings, "onPointerCancel", this.onDragEnd);
+        }
+        if (this.config.filterTaps) {
+            var handler = this.controller.config.eventOptions.capture ? "onClick" : "onClickCapture";
+            addBindings(bindings, handler, this.onClick);
+        }
+    };
+    return DragRecognizer1;
+}(CoordinatesRecognizer);
+/**
+ * Inlined from https://github.com/alexreardon/memoize-one
+ */ function memoizeOne(resultFn, isEqual1) {
+    var lastThis;
+    var lastArgs = [];
+    var lastResult;
+    var calledOnce = false;
+    function memoized() {
+        for(var _len = arguments.length, newArgs = new Array(_len), _key = 0; _key < _len; _key++)newArgs[_key] = arguments[_key];
+        if (calledOnce && lastThis === this && isEqual1(newArgs, lastArgs)) return lastResult;
+        lastResult = resultFn.apply(this, newArgs);
+        calledOnce = true;
+        lastThis = this;
+        lastArgs = newArgs;
+        return lastResult;
+    }
+    return memoized;
+}
+/**
+ * Taken from https://github.com/FormidableLabs/react-fast-compare
+ *
+ * Dropped comments and ArrayBuffer handling
+ */ function equal(a, b) {
+    if (a === b) return true;
+    if (a && b && typeof a == "object" && typeof b == "object") {
+        if (a.constructor !== b.constructor) return false;
+        var length, i, keys;
+        if (Array.isArray(a)) {
+            length = a.length;
+            if (length !== b.length) return false;
+            for(i = length; (i--) !== 0;){
+                if (!equal(a[i], b[i])) return false;
+            }
+            return true;
+        }
+        var it;
+        if (typeof Map === "function" && a instanceof Map && b instanceof Map) {
+            if (a.size !== b.size) return false;
+            it = a.entries();
+            while(!(i = it.next()).done){
+                if (!b.has(i.value[0])) return false;
+            }
+            it = a.entries();
+            while(!(i = it.next()).done){
+                if (!equal(i.value[1], b.get(i.value[0]))) return false;
+            }
+            return true;
+        }
+        if (typeof Set === "function" && a instanceof Set && b instanceof Set) {
+            if (a.size !== b.size) return false;
+            it = a.entries();
+            while(!(i = it.next()).done){
+                if (!b.has(i.value[0])) return false;
+            }
+            return true;
+        }
+        if (a.constructor === RegExp) return a.source === b.source && a.flags === b.flags;
+        if (a.valueOf !== Object.prototype.valueOf) return a.valueOf() === b.valueOf();
+        if (a.toString !== Object.prototype.toString) return a.toString() === b.toString();
+        keys = Object.keys(a);
+        length = keys.length;
+        if (length !== Object.keys(b).length) return false;
+        for(i = length; (i--) !== 0;){
+            if (!Object.prototype.hasOwnProperty.call(b, keys[i])) return false;
+        }
+        if (typeof Element !== "undefined" && a instanceof Element) return false;
+        for(i = length; (i--) !== 0;){
+            if (keys[i] === "_owner" && a.$$typeof) continue;
+            if (!equal(a[keys[i]], b[keys[i]])) return false;
+        }
+        return true;
+    } // true if both NaN, false otherwise — NaN !== NaN → true
+    // eslint-disable-next-line no-self-compare
+    return a !== a && b !== b;
+}
+function isEqual(a, b) {
+    try {
+        return equal(a, b);
+    } catch (error) {
+        if ((error.message || "").match(/stack|recursion/i)) {
+            // eslint-disable-next-line no-console
+            console.warn("react-fast-compare cannot handle circular refs");
+            return false;
+        }
+        throw error;
+    }
+}
+/**
+ * Drag hook.
+ *
+ * @param handler - the function fired every time the drag gesture updates
+ * @param [config={}] - the config object including generic options and drag options
+ */ function useDrag(handler, config) {
+    if (config === void 0) config = {};
+    RecognizersMap.set("drag", DragRecognizer);
+    var buildDragConfig = (0, _react.useRef)();
+    if (!buildDragConfig.current) buildDragConfig.current = memoizeOne(_buildDragConfig, isEqual);
+    return useRecognizers({
+        drag: handler
+    }, buildDragConfig.current(config));
+}
+/**
+ * @private
+ * Abstract class for distance/angle-based gesture recongizers
+ */ var DistanceAngleRecognizer = /*#__PURE__*/ function(_Recognizer) {
+    _inheritsLoose(DistanceAngleRecognizer1, _Recognizer);
+    function DistanceAngleRecognizer1() {
+        return _Recognizer.apply(this, arguments) || this;
+    }
+    var _proto = DistanceAngleRecognizer1.prototype;
+    _proto.getInternalMovement = function getInternalMovement(values, state) {
+        var prev_a = state.values[1]; // not be defined if ctrl+wheel is used for zoom only
+        var d = values[0], _values$ = values[1], a = _values$ === void 0 ? prev_a : _values$;
+        var delta_a = a - prev_a;
+        var next_turns = state.turns;
+        if (Math.abs(delta_a) > 270) next_turns += sign(delta_a);
+        return subV([
+            d,
+            a - 360 * next_turns
+        ], state.initial);
+    };
+    _proto.getKinematics = function getKinematics(values, event) {
+        var state = this.getMovement(values);
+        var turns = (values[1] - state._movement[1] - this.state.initial[1]) / 360;
+        var dt = event.timeStamp - this.state.timeStamp;
+        var _calculateAllKinemati = calculateAllKinematics(state.movement, state.delta, dt), kinematics = _objectWithoutPropertiesLoose(_calculateAllKinemati, [
+            "distance",
+            "velocity"
+        ]);
+        return _extends({
+            turns: turns
+        }, state, kinematics);
+    };
+    _proto.mapStateValues = function mapStateValues(state) {
+        return {
+            da: state.values,
+            vdva: state.velocities
+        };
+    };
+    return DistanceAngleRecognizer1;
+}(Recognizer);
+var ZOOM_CONSTANT = 7;
+var WEBKIT_DISTANCE_SCALE_FACTOR = 260;
+var PinchRecognizer = /*#__PURE__*/ function(_DistanceAngleRecogni) {
+    _inheritsLoose(PinchRecognizer1, _DistanceAngleRecogni);
+    function PinchRecognizer1() {
+        var _this;
+        _this = _DistanceAngleRecogni.apply(this, arguments) || this;
+        _this.ingKey = "pinching";
+        _this.stateKey = "pinch";
+        _this.onPinchStart = function(event) {
+            addEventIds(_this.controller, event);
+            var touchIds = _this.controller.touchIds;
+            if (!_this.enabled) return;
+            if (_this.state._active) {
+                // check that the pointerIds that initiated the gesture
+                // are still enabled. This is useful for when the page
+                // loses track of the pointers (minifying gesture on iPad).
+                if (_this.state._pointerIds.every(function(id) {
+                    return touchIds.has(id);
+                })) return; // something was wrong with the pointers but we let it go.
+            } // until we reach two fingers on the target don't react
+            if (touchIds.size < 2) return;
+            var _pointerIds = Array.from(touchIds).slice(0, 2);
+            var _getTwoTouchesEventVa = getTwoTouchesEventValues(event, _pointerIds, _this.transform), values = _getTwoTouchesEventVa.values, origin = _getTwoTouchesEventVa.origin;
+            _this.updateSharedState(getGenericEventData(event));
+            _this.updateGestureState(_extends({}, getStartGestureState(_assertThisInitialized(_this), values, event), getGenericPayload(_assertThisInitialized(_this), event, true), {
+                _pointerIds: _pointerIds,
+                cancel: _this.onCancel,
+                origin: origin
+            }));
+            _this.updateGestureState(_this.getMovement(values));
+            _this.fireGestureHandler();
+        };
+        _this.onPinchChange = function(event) {
+            var _this$state = _this.state, canceled = _this$state.canceled, _active = _this$state._active;
+            if (canceled || !_active || event.timeStamp === _this.state.timeStamp) return;
+            var genericEventData = getGenericEventData(event);
+            _this.updateSharedState(genericEventData);
+            try {
+                var _getTwoTouchesEventVa2 = getTwoTouchesEventValues(event, _this.state._pointerIds, _this.transform), values = _getTwoTouchesEventVa2.values, origin = _getTwoTouchesEventVa2.origin;
+                var kinematics = _this.getKinematics(values, event);
+                _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), kinematics, {
+                    origin: origin
+                }));
+                _this.fireGestureHandler();
+            } catch (e) {
+                _this.onPinchEnd(event);
+            }
+        };
+        _this.onPinchEnd = function(event) {
+            removeEventIds(_this.controller, event);
+            var pointerIds = getTouchIds(event); // if none of the lifted pointerIds is in the state pointerIds don't do anything
+            if (_this.state._pointerIds.every(function(id) {
+                return !pointerIds.includes(id);
+            })) return;
+            _this.clean();
+            if (!_this.state._active) return;
+            _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), _this.getMovement(_this.state.values), {
+                _active: false
+            }));
+            _this.fireGestureHandler();
+        };
+        _this.onCancel = function() {
+            if (_this.state.canceled) return;
+            _this.updateGestureState({
+                _active: false,
+                canceled: true
+            });
+            setTimeout(function() {
+                return _this.fireGestureHandler();
+            }, 0);
+        };
+        /**
+     * PINCH WITH WEBKIT GESTURES
+     */ _this.onGestureStart = function(event) {
+            if (!_this.enabled) return;
+            event.preventDefault();
+            var values = getWebkitGestureEventValues(event, _this.transform);
+            _this.updateSharedState(getGenericEventData(event));
+            _this.updateGestureState(_extends({}, getStartGestureState(_assertThisInitialized(_this), values, event), getGenericPayload(_assertThisInitialized(_this), event, true), {
+                origin: [
+                    event.clientX,
+                    event.clientY
+                ],
+                cancel: _this.onCancel
+            }));
+            _this.updateGestureState(_this.getMovement(values));
+            _this.fireGestureHandler();
+        };
+        _this.onGestureChange = function(event) {
+            var _this$state2 = _this.state, canceled = _this$state2.canceled, _active = _this$state2._active;
+            if (canceled || !_active) return;
+            event.preventDefault();
+            var genericEventData = getGenericEventData(event);
+            _this.updateSharedState(genericEventData); // this normalizes the values of the Safari's WebKitEvent by calculating
+            // the delta and then multiplying it by a constant.
+            var values = getWebkitGestureEventValues(event, _this.transform);
+            values[0] = (values[0] - _this.state.event.scale) * WEBKIT_DISTANCE_SCALE_FACTOR + _this.state.values[0];
+            var kinematics = _this.getKinematics(values, event);
+            _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), kinematics, {
+                origin: [
+                    event.clientX,
+                    event.clientY
+                ]
+            }));
+            _this.fireGestureHandler();
+        };
+        _this.onGestureEnd = function(event) {
+            _this.clean();
+            if (!_this.state._active) return;
+            _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), _this.getMovement(_this.state.values), {
+                _active: false,
+                origin: [
+                    event.clientX,
+                    event.clientY
+                ]
+            }));
+            _this.fireGestureHandler();
+        };
+        /**
+     * PINCH WITH WHEEL
+     */ _this.wheelShouldRun = function(event) {
+            return _this.enabled && event.ctrlKey;
+        };
+        _this.getWheelValuesFromEvent = function(event) {
+            var _getWheelEventValues = getWheelEventValues(event, _this.transform), delta_d = _getWheelEventValues[1];
+            var _this$state$values = _this.state.values, prev_d = _this$state$values[0], prev_a = _this$state$values[1]; // ZOOM_CONSTANT is based on Safari trackpad natural zooming
+            var _delta_d = -delta_d * ZOOM_CONSTANT; // new distance is the previous state distance added to the delta
+            var d = prev_d + _delta_d;
+            var a = prev_a !== void 0 ? prev_a : 0;
+            return {
+                values: [
+                    d,
+                    a
+                ],
+                origin: [
+                    event.clientX,
+                    event.clientY
+                ],
+                delta: [
+                    _delta_d,
+                    a
+                ]
+            };
+        };
+        _this.onWheel = function(event) {
+            if (!_this.wheelShouldRun(event)) return;
+            _this.setTimeout(_this.onWheelEnd);
+            if (!_this.state._active) _this.onWheelStart(event);
+            else _this.onWheelChange(event);
+        };
+        _this.onWheelStart = function(event) {
+            var _this$getWheelValuesF = _this.getWheelValuesFromEvent(event), values = _this$getWheelValuesF.values, delta = _this$getWheelValuesF.delta, origin = _this$getWheelValuesF.origin;
+            if (event.cancelable) event.preventDefault();
+            else // eslint-disable-next-line no-console
+            console.warn("To properly support zoom on trackpads, try using the `domTarget` option and `config.eventOptions.passive` set to `false`. This message will only appear in development mode.");
+            _this.updateSharedState(getGenericEventData(event));
+            _this.updateGestureState(_extends({}, getStartGestureState(_assertThisInitialized(_this), values, event, _this.state.values), getGenericPayload(_assertThisInitialized(_this), event, true), {
+                offset: values,
+                delta: delta,
+                origin: origin
+            }));
+            _this.updateGestureState(_this.getMovement(values));
+            _this.fireGestureHandler();
+        };
+        _this.onWheelChange = function(event) {
+            if (event.cancelable) event.preventDefault();
+            _this.updateSharedState(getGenericEventData(event));
+            var _this$getWheelValuesF2 = _this.getWheelValuesFromEvent(event), values = _this$getWheelValuesF2.values, origin = _this$getWheelValuesF2.origin, delta = _this$getWheelValuesF2.delta;
+            _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), _this.getKinematics(values, event), {
+                origin: origin,
+                delta: delta
+            }));
+            _this.fireGestureHandler();
+        };
+        _this.onWheelEnd = function() {
+            _this.clean();
+            if (!_this.state._active) return;
+            _this.state._active = false;
+            _this.updateGestureState(_this.getMovement(_this.state.values));
+            _this.fireGestureHandler();
+        };
+        return _this;
+    }
+    var _proto = PinchRecognizer1.prototype;
+    _proto.addBindings = function addBindings$1(bindings) {
+        // Only try to use gesture events when they are supported and domTarget is set
+        // as React doesn't support gesture handlers.
+        if (this.controller.config.domTarget && !this.controller.supportsTouchEvents && this.controller.supportsGestureEvents) {
+            addBindings(bindings, "onGestureStart", this.onGestureStart);
+            addBindings(bindings, "onGestureChange", this.onGestureChange);
+            addBindings(bindings, "onGestureEnd", this.onGestureEnd);
+        } else {
+            addBindings(bindings, "onTouchStart", this.onPinchStart);
+            addBindings(bindings, "onTouchMove", this.onPinchChange);
+            addBindings(bindings, "onTouchEnd", this.onPinchEnd);
+            addBindings(bindings, "onTouchCancel", this.onPinchEnd);
+            addBindings(bindings, "onWheel", this.onWheel);
+        }
+    };
+    return PinchRecognizer1;
+}(DistanceAngleRecognizer);
+/**
+ * Pinch hook.
+ *
+ * @param handler - the function fired every time the pinch gesture updates
+ * @param [config={}] - the config object including generic options and pinch options
+ */ function usePinch(handler, config) {
+    if (config === void 0) config = {};
+    RecognizersMap.set("pinch", PinchRecognizer);
+    var buildPinchConfig = (0, _react.useRef)();
+    if (!buildPinchConfig.current) buildPinchConfig.current = memoizeOne(_buildPinchConfig, isEqual);
+    return useRecognizers({
+        pinch: handler
+    }, buildPinchConfig.current(config));
+}
+var WheelRecognizer = /*#__PURE__*/ function(_CoordinatesRecognize) {
+    _inheritsLoose(WheelRecognizer1, _CoordinatesRecognize);
+    function WheelRecognizer1() {
+        var _this;
+        _this = _CoordinatesRecognize.apply(this, arguments) || this;
+        _this.ingKey = "wheeling";
+        _this.stateKey = "wheel";
+        _this.debounced = true;
+        _this.handleEvent = function(event) {
+            if (event.ctrlKey && "pinch" in _this.controller.handlers) return;
+            if (!_this.enabled) return;
+            _this.setTimeout(_this.onEnd);
+            _this.updateSharedState(getGenericEventData(event));
+            var values = addV(getWheelEventValues(event, _this.transform), _this.state.values);
+            if (!_this.state._active) {
+                _this.updateGestureState(_extends({}, getStartGestureState(_assertThisInitialized(_this), values, event, _this.state.values), getGenericPayload(_assertThisInitialized(_this), event, true)));
+                var movement = _this.getMovement(values);
+                var geometry = calculateAllGeometry(movement.delta);
+                _this.updateGestureState(movement);
+                _this.updateGestureState(geometry);
+            } else _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), _this.getKinematics(values, event)));
+            _this.fireGestureHandler();
+        };
+        _this.onEnd = function() {
+            _this.clean();
+            if (!_this.state._active) return;
+            var movement = _this.getMovement(_this.state.values);
+            _this.updateGestureState(movement);
+            _this.updateGestureState({
+                _active: false,
+                velocities: [
+                    0,
+                    0
+                ],
+                velocity: 0
+            });
+            _this.fireGestureHandler();
+        };
+        return _this;
+    }
+    var _proto = WheelRecognizer1.prototype;
+    _proto.addBindings = function addBindings$1(bindings) {
+        addBindings(bindings, "onWheel", this.handleEvent);
+    };
+    return WheelRecognizer1;
+}(CoordinatesRecognizer);
+/**
+ * Wheel hook.
+ *
+ * @param handler - the function fired every time the wheel gesture updates
+ * @param the config object including generic options and wheel options
+ */ function useWheel(handler, config) {
+    if (config === void 0) config = {};
+    RecognizersMap.set("wheel", WheelRecognizer);
+    var buildWheelConfig = (0, _react.useRef)();
+    if (!buildWheelConfig.current) buildWheelConfig.current = memoizeOne(_buildWheelConfig, isEqual);
+    return useRecognizers({
+        wheel: handler
+    }, buildWheelConfig.current(config));
+}
+var MoveRecognizer = /*#__PURE__*/ function(_CoordinatesRecognize) {
+    _inheritsLoose(MoveRecognizer1, _CoordinatesRecognize);
+    function MoveRecognizer1() {
+        var _this;
+        _this = _CoordinatesRecognize.apply(this, arguments) || this;
+        _this.ingKey = "moving";
+        _this.stateKey = "move";
+        _this.debounced = true;
+        _this.onMove = function(event) {
+            if (!_this.enabled) return;
+            _this.setTimeout(_this.onMoveEnd);
+            if (!_this.state._active) _this.onMoveStart(event);
+            else _this.onMoveChange(event);
+        };
+        _this.onMoveStart = function(event) {
+            _this.updateSharedState(getGenericEventData(event));
+            var values = getPointerEventValues(event, _this.transform);
+            _this.updateGestureState(_extends({}, getStartGestureState(_assertThisInitialized(_this), values, event), getGenericPayload(_assertThisInitialized(_this), event, true)));
+            _this.updateGestureState(_this.getMovement(values));
+            _this.fireGestureHandler();
+        };
+        _this.onMoveChange = function(event) {
+            _this.updateSharedState(getGenericEventData(event));
+            var values = getPointerEventValues(event, _this.transform);
+            _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), _this.getKinematics(values, event)));
+            _this.fireGestureHandler();
+        };
+        _this.onMoveEnd = function() {
+            _this.clean();
+            if (!_this.state._active) return;
+            var values = _this.state.values;
+            _this.updateGestureState(_this.getMovement(values));
+            _this.updateGestureState({
+                velocities: [
+                    0,
+                    0
+                ],
+                velocity: 0,
+                _active: false
+            });
+            _this.fireGestureHandler();
+        };
+        _this.hoverTransform = function() {
+            return _this.controller.config.hover.transform || _this.controller.config.transform;
+        };
+        _this.onPointerEnter = function(event) {
+            _this.controller.state.shared.hovering = true;
+            if (!_this.controller.config.enabled) return;
+            if (_this.controller.config.hover.enabled) {
+                var values = getPointerEventValues(event, _this.hoverTransform());
+                var state = _extends({}, _this.controller.state.shared, _this.state, getGenericPayload(_assertThisInitialized(_this), event, true), {
+                    args: _this.args,
+                    values: values,
+                    active: true,
+                    hovering: true
+                });
+                _this.controller.handlers.hover(_extends({}, state, _this.mapStateValues(state)));
+            }
+            if ("move" in _this.controller.handlers) _this.onMoveStart(event);
+        };
+        _this.onPointerLeave = function(event) {
+            _this.controller.state.shared.hovering = false;
+            if ("move" in _this.controller.handlers) _this.onMoveEnd();
+            if (!_this.controller.config.hover.enabled) return;
+            var values = getPointerEventValues(event, _this.hoverTransform());
+            var state = _extends({}, _this.controller.state.shared, _this.state, getGenericPayload(_assertThisInitialized(_this), event), {
+                args: _this.args,
+                values: values,
+                active: false
+            });
+            _this.controller.handlers.hover(_extends({}, state, _this.mapStateValues(state)));
+        };
+        return _this;
+    }
+    var _proto = MoveRecognizer1.prototype;
+    _proto.addBindings = function addBindings$1(bindings) {
+        if ("move" in this.controller.handlers) addBindings(bindings, "onPointerMove", this.onMove);
+        if ("hover" in this.controller.handlers) {
+            addBindings(bindings, "onPointerEnter", this.onPointerEnter);
+            addBindings(bindings, "onPointerLeave", this.onPointerLeave);
+        }
+    };
+    return MoveRecognizer1;
+}(CoordinatesRecognizer);
+/**
+ * Move hook.
+ *
+ * @param handler - the function fired every time the move gesture updates
+ * @param [config={}] - the config object including generic options and move options
+ */ function useMove(handler, config) {
+    if (config === void 0) config = {};
+    RecognizersMap.set("move", MoveRecognizer);
+    var buildMoveConfig = (0, _react.useRef)();
+    if (!buildMoveConfig.current) buildMoveConfig.current = memoizeOne(_buildMoveConfig, isEqual);
+    return useRecognizers({
+        move: handler
+    }, buildMoveConfig.current(config));
+}
+/**
+ * Hover hook.
+ *
+ * @param handler - the function fired every time the hover gesture updates
+ * @param [config={}] - the config object including generic options and hover options
+ */ function useHover(handler, config) {
+    if (config === void 0) config = {};
+    RecognizersMap.set("hover", MoveRecognizer);
+    var buildHoverConfig = (0, _react.useRef)();
+    if (!buildHoverConfig.current) buildHoverConfig.current = memoizeOne(_buildHoverConfig, isEqual);
+    return useRecognizers({
+        hover: handler
+    }, buildHoverConfig.current(config));
+}
+var ScrollRecognizer = /*#__PURE__*/ function(_CoordinatesRecognize) {
+    _inheritsLoose(ScrollRecognizer1, _CoordinatesRecognize);
+    function ScrollRecognizer1() {
+        var _this;
+        _this = _CoordinatesRecognize.apply(this, arguments) || this;
+        _this.ingKey = "scrolling";
+        _this.stateKey = "scroll";
+        _this.debounced = true;
+        _this.handleEvent = function(event) {
+            if (!_this.enabled) return;
+            _this.clearTimeout();
+            _this.setTimeout(_this.onEnd);
+            var values = getScrollEventValues(event, _this.transform);
+            _this.updateSharedState(getGenericEventData(event));
+            if (!_this.state._active) {
+                _this.updateGestureState(_extends({}, getStartGestureState(_assertThisInitialized(_this), values, event, _this.state.values), getGenericPayload(_assertThisInitialized(_this), event, true)));
+                var movementDetection = _this.getMovement(values);
+                var geometry = calculateAllGeometry(movementDetection.delta);
+                _this.updateGestureState(movementDetection);
+                _this.updateGestureState(geometry);
+            } else _this.updateGestureState(_extends({}, getGenericPayload(_assertThisInitialized(_this), event), _this.getKinematics(values, event)));
+            _this.fireGestureHandler();
+        };
+        _this.onEnd = function() {
+            _this.clean();
+            if (!_this.state._active) return;
+            _this.updateGestureState(_extends({}, _this.getMovement(_this.state.values), {
+                _active: false,
+                velocities: [
+                    0,
+                    0
+                ],
+                velocity: 0
+            }));
+            _this.fireGestureHandler();
+        };
+        return _this;
+    }
+    var _proto = ScrollRecognizer1.prototype;
+    _proto.addBindings = function addBindings$1(bindings) {
+        addBindings(bindings, "onScroll", this.handleEvent);
+    };
+    return ScrollRecognizer1;
+}(CoordinatesRecognizer);
+/**
+ * Scroll hook.
+ *
+ * @param handler - the function fired every time the scroll gesture updates
+ * @param [config={}] - the config object including generic options and scroll options
+ */ function useScroll(handler, config) {
+    if (config === void 0) config = {};
+    RecognizersMap.set("scroll", ScrollRecognizer);
+    var buildScrollConfig = (0, _react.useRef)();
+    if (!buildScrollConfig.current) buildScrollConfig.current = memoizeOne(_buildScrollConfig, isEqual);
+    return useRecognizers({
+        scroll: handler
+    }, buildScrollConfig.current(config));
+}
+var RE_NOT_NATIVE = /^on(Drag|Wheel|Scroll|Move|Pinch|Hover)/;
+function sortHandlers(handlers) {
+    var _native = {};
+    var handle = {};
+    var actions = new Set();
+    for(var key in handlers)if (RE_NOT_NATIVE.test(key)) {
+        actions.add(RegExp.lastMatch);
+        handle[key] = handlers[key];
+    } else _native[key] = handlers[key];
+    return [
+        handle,
+        _native,
+        actions
+    ];
+}
+/**
+ * @public
+ *
+ * The most complete gesture hook, allowing support for multiple gestures.
+ *
+ * @param {Handlers} handlers - an object with on[Gesture] keys containg gesture handlers
+ * @param {UseGestureConfig} [config={}] - the full config object
+ * @returns {(...args: any[]) => HookReturnType<Config>}
+ */ function useGesture(_handlers, config) {
+    if (config === void 0) config = {};
+    var _sortHandlers = sortHandlers(_handlers), handlers = _sortHandlers[0], nativeHandlers = _sortHandlers[1], actions = _sortHandlers[2];
+    RecognizersMap.set("drag", DragRecognizer);
+    RecognizersMap.set("hover", MoveRecognizer);
+    RecognizersMap.set("move", MoveRecognizer);
+    RecognizersMap.set("pinch", PinchRecognizer);
+    RecognizersMap.set("scroll", ScrollRecognizer);
+    RecognizersMap.set("wheel", WheelRecognizer);
+    var mergedConfig = buildComplexConfig(config, actions);
+    var internalHandlers = {};
+    if (actions.has("onDrag")) internalHandlers.drag = includeStartEndHandlers(handlers, "onDrag");
+    if (actions.has("onWheel")) internalHandlers.wheel = includeStartEndHandlers(handlers, "onWheel");
+    if (actions.has("onScroll")) internalHandlers.scroll = includeStartEndHandlers(handlers, "onScroll");
+    if (actions.has("onMove")) internalHandlers.move = includeStartEndHandlers(handlers, "onMove");
+    if (actions.has("onPinch")) internalHandlers.pinch = includeStartEndHandlers(handlers, "onPinch");
+    if (actions.has("onHover")) internalHandlers.hover = handlers.onHover;
+    return useRecognizers(internalHandlers, mergedConfig, nativeHandlers);
+}
+function includeStartEndHandlers(handlers, handlerKey) {
+    var startKey = handlerKey + "Start";
+    var endKey = handlerKey + "End";
+    var fn = function fn(state) {
+        var memo = undefined;
+        if (state.first && startKey in handlers) handlers[startKey](state);
+        if (handlerKey in handlers) memo = handlers[handlerKey](state);
+        if (state.last && endKey in handlers) handlers[endKey](state);
+        return memo;
+    };
+    return fn;
+}
+
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4znZA":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$95d6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27456,8 +33389,10 @@ function Nav() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                className: "ulNav",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "liNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Home"
                         }, void 0, false, {
@@ -27471,6 +33406,7 @@ function Nav() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "liNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "About me"
                         }, void 0, false, {
@@ -27484,6 +33420,7 @@ function Nav() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "liNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Projects"
                         }, void 0, false, {
@@ -27497,6 +33434,7 @@ function Nav() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "liNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Contact"
                         }, void 0, false, {
@@ -27510,6 +33448,7 @@ function Nav() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "liNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Skills"
                         }, void 0, false, {
@@ -27523,6 +33462,7 @@ function Nav() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "liNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "Links"
                         }, void 0, false, {
@@ -27898,6 +33838,7 @@ function classList(props) {
         "fa-inverse": inverse,
         "fa-border": border,
         "fa-li": listItem,
+        "fa-flip": flip === true,
         "fa-flip-horizontal": flip === "horizontal" || flip === "both",
         "fa-flip-vertical": flip === "vertical" || flip === "both"
     }, _defineProperty(_classes, "fa-".concat(size), typeof size !== "undefined" && size !== null), _defineProperty(_classes, "fa-rotate-".concat(rotation), typeof rotation !== "undefined" && rotation !== null && rotation !== 0), _defineProperty(_classes, "fa-pull-".concat(pull), typeof pull !== "undefined" && pull !== null), _defineProperty(_classes, "fa-swap-opacity", props.swapOpacity), _classes); // map over all the keys in the classes object
@@ -27924,7 +33865,7 @@ function camelize(string) {
     }); // Ensure 1st char is always lowercase
     return string.substr(0, 1).toLowerCase() + string.substr(1);
 }
-var _excluded$1 = [
+var _excluded = [
     "style"
 ];
 function capitalize(val) {
@@ -27967,7 +33908,7 @@ function convert(createElement, element) {
     }, {
         attrs: {}
     });
-    var _extraProps$style = extraProps.style, existingStyle = _extraProps$style === void 0 ? {} : _extraProps$style, remaining = _objectWithoutProperties(extraProps, _excluded$1);
+    var _extraProps$style = extraProps.style, existingStyle = _extraProps$style === void 0 ? {} : _extraProps$style, remaining = _objectWithoutProperties(extraProps, _excluded);
     mixins.attrs["style"] = _objectSpread2(_objectSpread2({}, mixins.attrs["style"]), existingStyle);
     /* eslint-enable */ return createElement.apply(void 0, [
         element.tag,
@@ -28015,11 +33956,7 @@ function objectWithKey(key, value) {
     // if not, return an empty array
     return Array.isArray(value) && value.length > 0 || !Array.isArray(value) && value ? _defineProperty({}, key, value) : {};
 }
-var _excluded = [
-    "forwardedRef"
-];
-function FontAwesomeIcon(_ref) {
-    var forwardedRef = _ref.forwardedRef, props = _objectWithoutProperties(_ref, _excluded);
+var FontAwesomeIcon = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(function(props, ref) {
     var iconArgs = props.icon, maskArgs = props.mask, symbol = props.symbol, className = props.className, title = props.title, titleId = props.titleId, maskId = props.maskId;
     var iconLookup = normalizeIconArgs(iconArgs);
     var classes = objectWithKey("classes", [].concat(_toConsumableArray(classList(props)), _toConsumableArray(className.split(" "))));
@@ -28037,18 +33974,19 @@ function FontAwesomeIcon(_ref) {
     }
     var abstract = renderedIcon.abstract;
     var extraProps = {
-        ref: forwardedRef
+        ref: ref
     };
     Object.keys(props).forEach(function(key) {
         // eslint-disable-next-line no-prototype-builtins
         if (!FontAwesomeIcon.defaultProps.hasOwnProperty(key)) extraProps[key] = props[key];
     });
     return convertCurry(abstract[0], extraProps);
-}
+});
 FontAwesomeIcon.displayName = "FontAwesomeIcon";
 FontAwesomeIcon.propTypes = {
     beat: (0, _propTypesDefault.default).bool,
     border: (0, _propTypesDefault.default).bool,
+    beatFade: (0, _propTypesDefault.default).bool,
     bounce: (0, _propTypesDefault.default).bool,
     className: (0, _propTypesDefault.default).string,
     fade: (0, _propTypesDefault.default).bool,
@@ -28062,6 +34000,8 @@ FontAwesomeIcon.propTypes = {
     fixedWidth: (0, _propTypesDefault.default).bool,
     inverse: (0, _propTypesDefault.default).bool,
     flip: (0, _propTypesDefault.default).oneOf([
+        true,
+        false,
         "horizontal",
         "vertical",
         "both"
@@ -28124,7 +34064,7 @@ FontAwesomeIcon.defaultProps = {
     maskId: null,
     fixedWidth: false,
     inverse: false,
-    flip: null,
+    flip: false,
     icon: null,
     listItem: false,
     pull: null,
@@ -28132,6 +34072,8 @@ FontAwesomeIcon.defaultProps = {
     rotation: null,
     size: null,
     spin: false,
+    spinPulse: false,
+    spinReverse: false,
     beat: false,
     fade: false,
     beatFade: false,
@@ -53313,6788 +59255,9 @@ const Parallax = _react.memo(_react.forwardRef((props, ref)=>{
     }, mapChildrenRecursive(children, (child)=>child.props.sticky && child))));
 }));
 
-},{"react":"21dqq","@react-spring/shared":"jm667","@react-spring/web":"75MAn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jm667":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "raf", ()=>(0, _rafz.raf));
-parcelHelpers.export(exports, "FluidValue", ()=>FluidValue);
-parcelHelpers.export(exports, "Globals", ()=>globals);
-parcelHelpers.export(exports, "addFluidObserver", ()=>addFluidObserver);
-parcelHelpers.export(exports, "callFluidObserver", ()=>callFluidObserver);
-parcelHelpers.export(exports, "callFluidObservers", ()=>callFluidObservers);
-parcelHelpers.export(exports, "colorToRgba", ()=>colorToRgba);
-parcelHelpers.export(exports, "colors", ()=>colors);
-parcelHelpers.export(exports, "createInterpolator", ()=>createInterpolator);
-parcelHelpers.export(exports, "createStringInterpolator", ()=>createStringInterpolator);
-parcelHelpers.export(exports, "defineHidden", ()=>defineHidden);
-parcelHelpers.export(exports, "deprecateDirectCall", ()=>deprecateDirectCall);
-parcelHelpers.export(exports, "deprecateInterpolate", ()=>deprecateInterpolate);
-parcelHelpers.export(exports, "each", ()=>each);
-parcelHelpers.export(exports, "eachProp", ()=>eachProp);
-parcelHelpers.export(exports, "flush", ()=>flush);
-parcelHelpers.export(exports, "flushCalls", ()=>flushCalls);
-parcelHelpers.export(exports, "frameLoop", ()=>frameLoop);
-parcelHelpers.export(exports, "getFluidObservers", ()=>getFluidObservers);
-parcelHelpers.export(exports, "getFluidValue", ()=>getFluidValue);
-parcelHelpers.export(exports, "hasFluidValue", ()=>hasFluidValue);
-parcelHelpers.export(exports, "hex3", ()=>hex3);
-parcelHelpers.export(exports, "hex4", ()=>hex4);
-parcelHelpers.export(exports, "hex6", ()=>hex6);
-parcelHelpers.export(exports, "hex8", ()=>hex8);
-parcelHelpers.export(exports, "hsl", ()=>hsl);
-parcelHelpers.export(exports, "hsla", ()=>hsla);
-parcelHelpers.export(exports, "is", ()=>is);
-parcelHelpers.export(exports, "isAnimatedString", ()=>isAnimatedString);
-parcelHelpers.export(exports, "isEqual", ()=>isEqual);
-parcelHelpers.export(exports, "isSSR", ()=>isSSR);
-parcelHelpers.export(exports, "noop", ()=>noop);
-parcelHelpers.export(exports, "removeFluidObserver", ()=>removeFluidObserver);
-parcelHelpers.export(exports, "rgb", ()=>rgb);
-parcelHelpers.export(exports, "rgba", ()=>rgba);
-parcelHelpers.export(exports, "setFluidGetter", ()=>setFluidGetter);
-parcelHelpers.export(exports, "toArray", ()=>toArray);
-parcelHelpers.export(exports, "useForceUpdate", ()=>useForceUpdate);
-parcelHelpers.export(exports, "useLayoutEffect", ()=>useLayoutEffect);
-parcelHelpers.export(exports, "useMemoOne", ()=>useMemoOne);
-parcelHelpers.export(exports, "useOnce", ()=>useOnce);
-parcelHelpers.export(exports, "usePrev", ()=>usePrev);
-var _rafz = require("@react-spring/rafz");
-var _react = require("react");
-function noop() {}
-const defineHidden = (obj, key, value)=>Object.defineProperty(obj, key, {
-        value,
-        writable: true,
-        configurable: true
-    });
-const is = {
-    arr: Array.isArray,
-    obj: (a)=>!!a && a.constructor.name === "Object",
-    fun: (a)=>typeof a === "function",
-    str: (a)=>typeof a === "string",
-    num: (a)=>typeof a === "number",
-    und: (a)=>a === undefined
-};
-function isEqual(a, b) {
-    if (is.arr(a)) {
-        if (!is.arr(b) || a.length !== b.length) return false;
-        for(let i = 0; i < a.length; i++){
-            if (a[i] !== b[i]) return false;
-        }
-        return true;
-    }
-    return a === b;
-}
-const each = (obj, fn)=>obj.forEach(fn);
-function eachProp(obj, fn, ctx) {
-    if (is.arr(obj)) {
-        for(let i = 0; i < obj.length; i++)fn.call(ctx, obj[i], `${i}`);
-        return;
-    }
-    for(const key in obj)if (obj.hasOwnProperty(key)) fn.call(ctx, obj[key], key);
-}
-const toArray = (a)=>is.und(a) ? [] : is.arr(a) ? a : [
-        a
-    ];
-function flush(queue, iterator) {
-    if (queue.size) {
-        const items = Array.from(queue);
-        queue.clear();
-        each(items, iterator);
-    }
-}
-const flushCalls = (queue, ...args)=>flush(queue, (fn)=>fn(...args));
-const isSSR = ()=>typeof window === "undefined" || !window.navigator || /ServerSideRendering|^Deno\//.test(window.navigator.userAgent);
-let createStringInterpolator$1;
-let to;
-let colors$1 = null;
-let skipAnimation = false;
-let willAdvance = noop;
-const assign = (globals1)=>{
-    if (globals1.to) to = globals1.to;
-    if (globals1.now) (0, _rafz.raf).now = globals1.now;
-    if (globals1.colors !== undefined) colors$1 = globals1.colors;
-    if (globals1.skipAnimation != null) skipAnimation = globals1.skipAnimation;
-    if (globals1.createStringInterpolator) createStringInterpolator$1 = globals1.createStringInterpolator;
-    if (globals1.requestAnimationFrame) (0, _rafz.raf).use(globals1.requestAnimationFrame);
-    if (globals1.batchedUpdates) (0, _rafz.raf).batchedUpdates = globals1.batchedUpdates;
-    if (globals1.willAdvance) willAdvance = globals1.willAdvance;
-    if (globals1.frameLoop) (0, _rafz.raf).frameLoop = globals1.frameLoop;
-};
-var globals = /*#__PURE__*/ Object.freeze({
-    __proto__: null,
-    get createStringInterpolator () {
-        return createStringInterpolator$1;
-    },
-    get to () {
-        return to;
-    },
-    get colors () {
-        return colors$1;
-    },
-    get skipAnimation () {
-        return skipAnimation;
-    },
-    get willAdvance () {
-        return willAdvance;
-    },
-    assign: assign
-});
-const startQueue = new Set();
-let currentFrame = [];
-let prevFrame = [];
-let priority = 0;
-const frameLoop = {
-    get idle () {
-        return !startQueue.size && !currentFrame.length;
-    },
-    start (animation) {
-        if (priority > animation.priority) {
-            startQueue.add(animation);
-            (0, _rafz.raf).onStart(flushStartQueue);
-        } else {
-            startSafely(animation);
-            (0, _rafz.raf)(advance);
-        }
-    },
-    advance,
-    sort (animation) {
-        if (priority) (0, _rafz.raf).onFrame(()=>frameLoop.sort(animation));
-        else {
-            const prevIndex = currentFrame.indexOf(animation);
-            if (~prevIndex) {
-                currentFrame.splice(prevIndex, 1);
-                startUnsafely(animation);
-            }
-        }
-    },
-    clear () {
-        currentFrame = [];
-        startQueue.clear();
-    }
-};
-function flushStartQueue() {
-    startQueue.forEach(startSafely);
-    startQueue.clear();
-    (0, _rafz.raf)(advance);
-}
-function startSafely(animation) {
-    if (!currentFrame.includes(animation)) startUnsafely(animation);
-}
-function startUnsafely(animation) {
-    currentFrame.splice(findIndex(currentFrame, (other)=>other.priority > animation.priority), 0, animation);
-}
-function advance(dt) {
-    const nextFrame = prevFrame;
-    for(let i = 0; i < currentFrame.length; i++){
-        const animation = currentFrame[i];
-        priority = animation.priority;
-        if (!animation.idle) {
-            willAdvance(animation);
-            animation.advance(dt);
-            if (!animation.idle) nextFrame.push(animation);
-        }
-    }
-    priority = 0;
-    prevFrame = currentFrame;
-    prevFrame.length = 0;
-    currentFrame = nextFrame;
-    return currentFrame.length > 0;
-}
-function findIndex(arr, test) {
-    const index = arr.findIndex(test);
-    return index < 0 ? arr.length : index;
-}
-const colors = {
-    transparent: 0x00000000,
-    aliceblue: 0xf0f8ffff,
-    antiquewhite: 0xfaebd7ff,
-    aqua: 0x00ffffff,
-    aquamarine: 0x7fffd4ff,
-    azure: 0xf0ffffff,
-    beige: 0xf5f5dcff,
-    bisque: 0xffe4c4ff,
-    black: 0x000000ff,
-    blanchedalmond: 0xffebcdff,
-    blue: 0x0000ffff,
-    blueviolet: 0x8a2be2ff,
-    brown: 0xa52a2aff,
-    burlywood: 0xdeb887ff,
-    burntsienna: 0xea7e5dff,
-    cadetblue: 0x5f9ea0ff,
-    chartreuse: 0x7fff00ff,
-    chocolate: 0xd2691eff,
-    coral: 0xff7f50ff,
-    cornflowerblue: 0x6495edff,
-    cornsilk: 0xfff8dcff,
-    crimson: 0xdc143cff,
-    cyan: 0x00ffffff,
-    darkblue: 0x00008bff,
-    darkcyan: 0x008b8bff,
-    darkgoldenrod: 0xb8860bff,
-    darkgray: 0xa9a9a9ff,
-    darkgreen: 0x006400ff,
-    darkgrey: 0xa9a9a9ff,
-    darkkhaki: 0xbdb76bff,
-    darkmagenta: 0x8b008bff,
-    darkolivegreen: 0x556b2fff,
-    darkorange: 0xff8c00ff,
-    darkorchid: 0x9932ccff,
-    darkred: 0x8b0000ff,
-    darksalmon: 0xe9967aff,
-    darkseagreen: 0x8fbc8fff,
-    darkslateblue: 0x483d8bff,
-    darkslategray: 0x2f4f4fff,
-    darkslategrey: 0x2f4f4fff,
-    darkturquoise: 0x00ced1ff,
-    darkviolet: 0x9400d3ff,
-    deeppink: 0xff1493ff,
-    deepskyblue: 0x00bfffff,
-    dimgray: 0x696969ff,
-    dimgrey: 0x696969ff,
-    dodgerblue: 0x1e90ffff,
-    firebrick: 0xb22222ff,
-    floralwhite: 0xfffaf0ff,
-    forestgreen: 0x228b22ff,
-    fuchsia: 0xff00ffff,
-    gainsboro: 0xdcdcdcff,
-    ghostwhite: 0xf8f8ffff,
-    gold: 0xffd700ff,
-    goldenrod: 0xdaa520ff,
-    gray: 0x808080ff,
-    green: 0x008000ff,
-    greenyellow: 0xadff2fff,
-    grey: 0x808080ff,
-    honeydew: 0xf0fff0ff,
-    hotpink: 0xff69b4ff,
-    indianred: 0xcd5c5cff,
-    indigo: 0x4b0082ff,
-    ivory: 0xfffff0ff,
-    khaki: 0xf0e68cff,
-    lavender: 0xe6e6faff,
-    lavenderblush: 0xfff0f5ff,
-    lawngreen: 0x7cfc00ff,
-    lemonchiffon: 0xfffacdff,
-    lightblue: 0xadd8e6ff,
-    lightcoral: 0xf08080ff,
-    lightcyan: 0xe0ffffff,
-    lightgoldenrodyellow: 0xfafad2ff,
-    lightgray: 0xd3d3d3ff,
-    lightgreen: 0x90ee90ff,
-    lightgrey: 0xd3d3d3ff,
-    lightpink: 0xffb6c1ff,
-    lightsalmon: 0xffa07aff,
-    lightseagreen: 0x20b2aaff,
-    lightskyblue: 0x87cefaff,
-    lightslategray: 0x778899ff,
-    lightslategrey: 0x778899ff,
-    lightsteelblue: 0xb0c4deff,
-    lightyellow: 0xffffe0ff,
-    lime: 0x00ff00ff,
-    limegreen: 0x32cd32ff,
-    linen: 0xfaf0e6ff,
-    magenta: 0xff00ffff,
-    maroon: 0x800000ff,
-    mediumaquamarine: 0x66cdaaff,
-    mediumblue: 0x0000cdff,
-    mediumorchid: 0xba55d3ff,
-    mediumpurple: 0x9370dbff,
-    mediumseagreen: 0x3cb371ff,
-    mediumslateblue: 0x7b68eeff,
-    mediumspringgreen: 0x00fa9aff,
-    mediumturquoise: 0x48d1ccff,
-    mediumvioletred: 0xc71585ff,
-    midnightblue: 0x191970ff,
-    mintcream: 0xf5fffaff,
-    mistyrose: 0xffe4e1ff,
-    moccasin: 0xffe4b5ff,
-    navajowhite: 0xffdeadff,
-    navy: 0x000080ff,
-    oldlace: 0xfdf5e6ff,
-    olive: 0x808000ff,
-    olivedrab: 0x6b8e23ff,
-    orange: 0xffa500ff,
-    orangered: 0xff4500ff,
-    orchid: 0xda70d6ff,
-    palegoldenrod: 0xeee8aaff,
-    palegreen: 0x98fb98ff,
-    paleturquoise: 0xafeeeeff,
-    palevioletred: 0xdb7093ff,
-    papayawhip: 0xffefd5ff,
-    peachpuff: 0xffdab9ff,
-    peru: 0xcd853fff,
-    pink: 0xffc0cbff,
-    plum: 0xdda0ddff,
-    powderblue: 0xb0e0e6ff,
-    purple: 0x800080ff,
-    rebeccapurple: 0x663399ff,
-    red: 0xff0000ff,
-    rosybrown: 0xbc8f8fff,
-    royalblue: 0x4169e1ff,
-    saddlebrown: 0x8b4513ff,
-    salmon: 0xfa8072ff,
-    sandybrown: 0xf4a460ff,
-    seagreen: 0x2e8b57ff,
-    seashell: 0xfff5eeff,
-    sienna: 0xa0522dff,
-    silver: 0xc0c0c0ff,
-    skyblue: 0x87ceebff,
-    slateblue: 0x6a5acdff,
-    slategray: 0x708090ff,
-    slategrey: 0x708090ff,
-    snow: 0xfffafaff,
-    springgreen: 0x00ff7fff,
-    steelblue: 0x4682b4ff,
-    tan: 0xd2b48cff,
-    teal: 0x008080ff,
-    thistle: 0xd8bfd8ff,
-    tomato: 0xff6347ff,
-    turquoise: 0x40e0d0ff,
-    violet: 0xee82eeff,
-    wheat: 0xf5deb3ff,
-    white: 0xffffffff,
-    whitesmoke: 0xf5f5f5ff,
-    yellow: 0xffff00ff,
-    yellowgreen: 0x9acd32ff
-};
-const NUMBER = "[-+]?\\d*\\.?\\d+";
-const PERCENTAGE = NUMBER + "%";
-function call(...parts) {
-    return "\\(\\s*(" + parts.join(")\\s*,\\s*(") + ")\\s*\\)";
-}
-const rgb = new RegExp("rgb" + call(NUMBER, NUMBER, NUMBER));
-const rgba = new RegExp("rgba" + call(NUMBER, NUMBER, NUMBER, NUMBER));
-const hsl = new RegExp("hsl" + call(NUMBER, PERCENTAGE, PERCENTAGE));
-const hsla = new RegExp("hsla" + call(NUMBER, PERCENTAGE, PERCENTAGE, NUMBER));
-const hex3 = /^#([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/;
-const hex4 = /^#([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/;
-const hex6 = /^#([0-9a-fA-F]{6})$/;
-const hex8 = /^#([0-9a-fA-F]{8})$/;
-function normalizeColor(color) {
-    let match;
-    if (typeof color === "number") return color >>> 0 === color && color >= 0 && color <= 0xffffffff ? color : null;
-    if (match = hex6.exec(color)) return parseInt(match[1] + "ff", 16) >>> 0;
-    if (colors$1 && colors$1[color] !== undefined) return colors$1[color];
-    if (match = rgb.exec(color)) return (parse255(match[1]) << 24 | parse255(match[2]) << 16 | parse255(match[3]) << 8 | 0x000000ff) >>> 0;
-    if (match = rgba.exec(color)) return (parse255(match[1]) << 24 | parse255(match[2]) << 16 | parse255(match[3]) << 8 | parse1(match[4])) >>> 0;
-    if (match = hex3.exec(color)) return parseInt(match[1] + match[1] + match[2] + match[2] + match[3] + match[3] + "ff", 16) >>> 0;
-    if (match = hex8.exec(color)) return parseInt(match[1], 16) >>> 0;
-    if (match = hex4.exec(color)) return parseInt(match[1] + match[1] + match[2] + match[2] + match[3] + match[3] + match[4] + match[4], 16) >>> 0;
-    if (match = hsl.exec(color)) return (hslToRgb(parse360(match[1]), parsePercentage(match[2]), parsePercentage(match[3])) | 0x000000ff) >>> 0;
-    if (match = hsla.exec(color)) return (hslToRgb(parse360(match[1]), parsePercentage(match[2]), parsePercentage(match[3])) | parse1(match[4])) >>> 0;
-    return null;
-}
-function hue2rgb(p, q, t) {
-    if (t < 0) t += 1;
-    if (t > 1) t -= 1;
-    if (t < 1 / 6) return p + (q - p) * 6 * t;
-    if (t < 0.5) return q;
-    if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
-    return p;
-}
-function hslToRgb(h, s, l) {
-    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-    const p = 2 * l - q;
-    const r = hue2rgb(p, q, h + 1 / 3);
-    const g = hue2rgb(p, q, h);
-    const b = hue2rgb(p, q, h - 1 / 3);
-    return Math.round(r * 255) << 24 | Math.round(g * 255) << 16 | Math.round(b * 255) << 8;
-}
-function parse255(str) {
-    const int = parseInt(str, 10);
-    if (int < 0) return 0;
-    if (int > 255) return 255;
-    return int;
-}
-function parse360(str) {
-    const int = parseFloat(str);
-    return (int % 360 + 360) % 360 / 360;
-}
-function parse1(str) {
-    const num = parseFloat(str);
-    if (num < 0) return 0;
-    if (num > 1) return 255;
-    return Math.round(num * 255);
-}
-function parsePercentage(str) {
-    const int = parseFloat(str);
-    if (int < 0) return 0;
-    if (int > 100) return 1;
-    return int / 100;
-}
-function colorToRgba(input) {
-    let int32Color = normalizeColor(input);
-    if (int32Color === null) return input;
-    int32Color = int32Color || 0;
-    let r = (int32Color & 0xff000000) >>> 24;
-    let g = (int32Color & 0x00ff0000) >>> 16;
-    let b = (int32Color & 0x0000ff00) >>> 8;
-    let a = (int32Color & 0x000000ff) / 255;
-    return `rgba(${r}, ${g}, ${b}, ${a})`;
-}
-const createInterpolator = (range1, output, extrapolate)=>{
-    if (is.fun(range1)) return range1;
-    if (is.arr(range1)) return createInterpolator({
-        range: range1,
-        output: output,
-        extrapolate
-    });
-    if (is.str(range1.output[0])) return createStringInterpolator$1(range1);
-    const config = range1;
-    const outputRange = config.output;
-    const inputRange = config.range || [
-        0,
-        1
-    ];
-    const extrapolateLeft = config.extrapolateLeft || config.extrapolate || "extend";
-    const extrapolateRight = config.extrapolateRight || config.extrapolate || "extend";
-    const easing = config.easing || ((t)=>t);
-    return (input)=>{
-        const range = findRange(input, inputRange);
-        return interpolate(input, inputRange[range], inputRange[range + 1], outputRange[range], outputRange[range + 1], easing, extrapolateLeft, extrapolateRight, config.map);
-    };
-};
-function interpolate(input, inputMin, inputMax, outputMin, outputMax, easing, extrapolateLeft, extrapolateRight, map) {
-    let result = map ? map(input) : input;
-    if (result < inputMin) {
-        if (extrapolateLeft === "identity") return result;
-        else if (extrapolateLeft === "clamp") result = inputMin;
-    }
-    if (result > inputMax) {
-        if (extrapolateRight === "identity") return result;
-        else if (extrapolateRight === "clamp") result = inputMax;
-    }
-    if (outputMin === outputMax) return outputMin;
-    if (inputMin === inputMax) return input <= inputMin ? outputMin : outputMax;
-    if (inputMin === -Infinity) result = -result;
-    else if (inputMax === Infinity) result = result - inputMin;
-    else result = (result - inputMin) / (inputMax - inputMin);
-    result = easing(result);
-    if (outputMin === -Infinity) result = -result;
-    else if (outputMax === Infinity) result = result + outputMin;
-    else result = result * (outputMax - outputMin) + outputMin;
-    return result;
-}
-function findRange(input, inputRange) {
-    for(var i = 1; i < inputRange.length - 1; ++i)if (inputRange[i] >= input) break;
-    return i - 1;
-}
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-const $get = Symbol.for("FluidValue.get");
-const $observers = Symbol.for("FluidValue.observers");
-const hasFluidValue = (arg)=>Boolean(arg && arg[$get]);
-const getFluidValue = (arg)=>arg && arg[$get] ? arg[$get]() : arg;
-const getFluidObservers = (target)=>target[$observers] || null;
-function callFluidObserver(observer, event) {
-    if (observer.eventObserved) observer.eventObserved(event);
-    else observer(event);
-}
-function callFluidObservers(target, event) {
-    let observers = target[$observers];
-    if (observers) observers.forEach((observer)=>{
-        callFluidObserver(observer, event);
-    });
-}
-class FluidValue {
-    constructor(get){
-        this[$get] = void 0;
-        this[$observers] = void 0;
-        if (!get && !(get = this.get)) throw Error("Unknown getter");
-        setFluidGetter(this, get);
-    }
-}
-const setFluidGetter = (target, get)=>setHidden(target, $get, get);
-function addFluidObserver(target, observer) {
-    if (target[$get]) {
-        let observers = target[$observers];
-        if (!observers) setHidden(target, $observers, observers = new Set());
-        if (!observers.has(observer)) {
-            observers.add(observer);
-            if (target.observerAdded) target.observerAdded(observers.size, observer);
-        }
-    }
-    return observer;
-}
-function removeFluidObserver(target, observer) {
-    let observers = target[$observers];
-    if (observers && observers.has(observer)) {
-        const count = observers.size - 1;
-        if (count) observers.delete(observer);
-        else target[$observers] = null;
-        if (target.observerRemoved) target.observerRemoved(count, observer);
-    }
-}
-const setHidden = (target, key, value)=>Object.defineProperty(target, key, {
-        value,
-        writable: true,
-        configurable: true
-    });
-const numberRegex = /[+\-]?(?:0|[1-9]\d*)(?:\.\d*)?(?:[eE][+\-]?\d+)?/g;
-const colorRegex = /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))/gi;
-const unitRegex = new RegExp(`(${numberRegex.source})(%|[a-z]+)`, "i");
-const rgbaRegex = /rgba\(([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+)\)/gi;
-const cssVariableRegex = /var\((--[a-zA-Z0-9-_]+),? ?([a-zA-Z0-9 ()%#.,-]+)?\)/;
-const variableToRgba = (input)=>{
-    const [token, fallback] = parseCSSVariable(input);
-    if (!token || isSSR()) return input;
-    const value = window.getComputedStyle(document.documentElement).getPropertyValue(token);
-    if (value) return value.trim();
-    else if (fallback && fallback.startsWith("--")) {
-        const _value = window.getComputedStyle(document.documentElement).getPropertyValue(fallback);
-        if (_value) return _value;
-        else return input;
-    } else if (fallback && cssVariableRegex.test(fallback)) return variableToRgba(fallback);
-    else if (fallback) return fallback;
-    return input;
-};
-const parseCSSVariable = (current)=>{
-    const match = cssVariableRegex.exec(current);
-    if (!match) return [
-        , 
-    ];
-    const [, token, fallback] = match;
-    return [
-        token,
-        fallback
-    ];
-};
-let namedColorRegex;
-const rgbaRound = (_, p1, p2, p3, p4)=>`rgba(${Math.round(p1)}, ${Math.round(p2)}, ${Math.round(p3)}, ${p4})`;
-const createStringInterpolator = (config)=>{
-    if (!namedColorRegex) namedColorRegex = colors$1 ? new RegExp(`(${Object.keys(colors$1).join("|")})(?!\\w)`, "g") : /^\b$/;
-    const output1 = config.output.map((value)=>{
-        return getFluidValue(value).replace(cssVariableRegex, variableToRgba).replace(colorRegex, colorToRgba).replace(namedColorRegex, colorToRgba);
-    });
-    const keyframes = output1.map((value)=>value.match(numberRegex).map(Number));
-    const outputRanges = keyframes[0].map((_, i)=>keyframes.map((values)=>{
-            if (!(i in values)) throw Error('The arity of each "output" value must be equal');
-            return values[i];
-        }));
-    const interpolators = outputRanges.map((output)=>createInterpolator(_extends({}, config, {
-            output
-        })));
-    return (input)=>{
-        var _output$find;
-        const missingUnit = !unitRegex.test(output1[0]) && ((_output$find = output1.find((value)=>unitRegex.test(value))) == null ? void 0 : _output$find.replace(numberRegex, ""));
-        let i = 0;
-        return output1[0].replace(numberRegex, ()=>`${interpolators[i++](input)}${missingUnit || ""}`).replace(rgbaRegex, rgbaRound);
-    };
-};
-const prefix = "react-spring: ";
-const once = (fn)=>{
-    const func = fn;
-    let called = false;
-    if (typeof func != "function") throw new TypeError(`${prefix}once requires a function parameter`);
-    return (...args)=>{
-        if (!called) {
-            func(...args);
-            called = true;
-        }
-    };
-};
-const warnInterpolate = once(console.warn);
-function deprecateInterpolate() {
-    warnInterpolate(`${prefix}The "interpolate" function is deprecated in v9 (use "to" instead)`);
-}
-const warnDirectCall = once(console.warn);
-function deprecateDirectCall() {
-    warnDirectCall(`${prefix}Directly calling start instead of using the api object is deprecated in v9 (use ".start" instead), this will be removed in later 0.X.0 versions`);
-}
-function isAnimatedString(value) {
-    return is.str(value) && (value[0] == "#" || /\d/.test(value) || !isSSR() && cssVariableRegex.test(value) || value in (colors$1 || {}));
-}
-const useLayoutEffect = typeof window !== "undefined" && window.document && window.document.createElement ? _react.useLayoutEffect : _react.useEffect;
-const useIsMounted = ()=>{
-    const isMounted = (0, _react.useRef)(false);
-    useLayoutEffect(()=>{
-        isMounted.current = true;
-        return ()=>{
-            isMounted.current = false;
-        };
-    }, []);
-    return isMounted;
-};
-function useForceUpdate() {
-    const update = (0, _react.useState)()[1];
-    const isMounted = useIsMounted();
-    return ()=>{
-        if (isMounted.current) update(Math.random());
-    };
-}
-function useMemoOne(getResult, inputs) {
-    const [initial] = (0, _react.useState)(()=>({
-            inputs,
-            result: getResult()
-        }));
-    const committed = (0, _react.useRef)();
-    const prevCache = committed.current;
-    let cache = prevCache;
-    if (cache) {
-        const useCache = Boolean(inputs && cache.inputs && areInputsEqual(inputs, cache.inputs));
-        if (!useCache) cache = {
-            inputs,
-            result: getResult()
-        };
-    } else cache = initial;
-    (0, _react.useEffect)(()=>{
-        committed.current = cache;
-        if (prevCache == initial) initial.inputs = initial.result = undefined;
-    }, [
-        cache
-    ]);
-    return cache.result;
-}
-function areInputsEqual(next, prev) {
-    if (next.length !== prev.length) return false;
-    for(let i = 0; i < next.length; i++){
-        if (next[i] !== prev[i]) return false;
-    }
-    return true;
-}
-const useOnce = (effect)=>(0, _react.useEffect)(effect, emptyDeps);
-const emptyDeps = [];
-function usePrev(value) {
-    const prevRef = (0, _react.useRef)();
-    (0, _react.useEffect)(()=>{
-        prevRef.current = value;
-    });
-    return prevRef.current;
-}
-
-},{"@react-spring/rafz":"jCdCs","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jCdCs":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "__raf", ()=>__raf);
-parcelHelpers.export(exports, "raf", ()=>raf);
-let updateQueue = makeQueue();
-const raf = (fn)=>schedule(fn, updateQueue);
-let writeQueue = makeQueue();
-raf.write = (fn)=>schedule(fn, writeQueue);
-let onStartQueue = makeQueue();
-raf.onStart = (fn)=>schedule(fn, onStartQueue);
-let onFrameQueue = makeQueue();
-raf.onFrame = (fn)=>schedule(fn, onFrameQueue);
-let onFinishQueue = makeQueue();
-raf.onFinish = (fn)=>schedule(fn, onFinishQueue);
-let timeouts = [];
-raf.setTimeout = (handler, ms)=>{
-    let time = raf.now() + ms;
-    let cancel = ()=>{
-        let i = timeouts.findIndex((t)=>t.cancel == cancel);
-        if (~i) timeouts.splice(i, 1);
-        pendingCount -= ~i ? 1 : 0;
-    };
-    let timeout = {
-        time,
-        handler,
-        cancel
-    };
-    timeouts.splice(findTimeout(time), 0, timeout);
-    pendingCount += 1;
-    start();
-    return timeout;
-};
-let findTimeout = (time)=>~(~timeouts.findIndex((t)=>t.time > time) || ~timeouts.length);
-raf.cancel = (fn)=>{
-    onStartQueue.delete(fn);
-    onFrameQueue.delete(fn);
-    updateQueue.delete(fn);
-    writeQueue.delete(fn);
-    onFinishQueue.delete(fn);
-};
-raf.sync = (fn)=>{
-    sync = true;
-    raf.batchedUpdates(fn);
-    sync = false;
-};
-raf.throttle = (fn)=>{
-    let lastArgs;
-    function queuedFn() {
-        try {
-            fn(...lastArgs);
-        } finally{
-            lastArgs = null;
-        }
-    }
-    function throttled(...args) {
-        lastArgs = args;
-        raf.onStart(queuedFn);
-    }
-    throttled.handler = fn;
-    throttled.cancel = ()=>{
-        onStartQueue.delete(queuedFn);
-        lastArgs = null;
-    };
-    return throttled;
-};
-let nativeRaf = typeof window != "undefined" ? window.requestAnimationFrame : ()=>{};
-raf.use = (impl)=>nativeRaf = impl;
-raf.now = typeof performance != "undefined" ? ()=>performance.now() : Date.now;
-raf.batchedUpdates = (fn)=>fn();
-raf.catch = console.error;
-raf.frameLoop = "always";
-raf.advance = ()=>{
-    if (raf.frameLoop !== "demand") console.warn("Cannot call the manual advancement of rafz whilst frameLoop is not set as demand");
-    else update();
-};
-let ts = -1;
-let pendingCount = 0;
-let sync = false;
-function schedule(fn, queue) {
-    if (sync) {
-        queue.delete(fn);
-        fn(0);
-    } else {
-        queue.add(fn);
-        start();
-    }
-}
-function start() {
-    if (ts < 0) {
-        ts = 0;
-        if (raf.frameLoop !== "demand") nativeRaf(loop);
-    }
-}
-function stop() {
-    ts = -1;
-}
-function loop() {
-    if (~ts) {
-        nativeRaf(loop);
-        raf.batchedUpdates(update);
-    }
-}
-function update() {
-    let prevTs = ts;
-    ts = raf.now();
-    let count = findTimeout(ts);
-    if (count) {
-        eachSafely(timeouts.splice(0, count), (t)=>t.handler());
-        pendingCount -= count;
-    }
-    onStartQueue.flush();
-    updateQueue.flush(prevTs ? Math.min(64, ts - prevTs) : 16.667);
-    onFrameQueue.flush();
-    writeQueue.flush();
-    onFinishQueue.flush();
-    if (!pendingCount) stop();
-}
-function makeQueue() {
-    let next = new Set();
-    let current = next;
-    return {
-        add (fn) {
-            pendingCount += current == next && !next.has(fn) ? 1 : 0;
-            next.add(fn);
-        },
-        delete (fn) {
-            pendingCount -= current == next && next.has(fn) ? 1 : 0;
-            return next.delete(fn);
-        },
-        flush (arg) {
-            if (current.size) {
-                next = new Set();
-                pendingCount -= current.size;
-                eachSafely(current, (fn)=>fn(arg) && next.add(fn));
-                pendingCount += next.size;
-                current = next;
-            }
-        }
-    };
-}
-function eachSafely(values, each) {
-    values.forEach((value)=>{
-        try {
-            each(value);
-        } catch (e) {
-            raf.catch(e);
-        }
-    });
-}
-const __raf = {
-    count () {
-        return pendingCount;
-    },
-    isRunning () {
-        return ts >= 0;
-    },
-    clear () {
-        ts = -1;
-        timeouts = [];
-        onStartQueue = makeQueue();
-        updateQueue = makeQueue();
-        onFrameQueue = makeQueue();
-        writeQueue = makeQueue();
-        onFinishQueue = makeQueue();
-        pendingCount = 0;
-    }
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"75MAn":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "a", ()=>animated);
-parcelHelpers.export(exports, "animated", ()=>animated);
-var _core = require("@react-spring/core");
-var _reactDom = require("react-dom");
-var _shared = require("@react-spring/shared");
-var _animated = require("@react-spring/animated");
-parcelHelpers.exportAll(_core, exports);
-function _objectWithoutPropertiesLoose(source, excluded) {
-    if (source == null) return {};
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-    for(i = 0; i < sourceKeys.length; i++){
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-    return target;
-}
-const _excluded$2 = [
-    "style",
-    "children",
-    "scrollTop",
-    "scrollLeft"
-];
-const isCustomPropRE = /^--/;
-function dangerousStyleValue(name, value) {
-    if (value == null || typeof value === "boolean" || value === "") return "";
-    if (typeof value === "number" && value !== 0 && !isCustomPropRE.test(name) && !(isUnitlessNumber.hasOwnProperty(name) && isUnitlessNumber[name])) return value + "px";
-    return ("" + value).trim();
-}
-const attributeCache = {};
-function applyAnimatedValues(instance, props) {
-    if (!instance.nodeType || !instance.setAttribute) return false;
-    const isFilterElement = instance.nodeName === "filter" || instance.parentNode && instance.parentNode.nodeName === "filter";
-    const _ref = props, { style , children , scrollTop , scrollLeft  } = _ref, attributes = _objectWithoutPropertiesLoose(_ref, _excluded$2);
-    const values = Object.values(attributes);
-    const names = Object.keys(attributes).map((name)=>isFilterElement || instance.hasAttribute(name) ? name : attributeCache[name] || (attributeCache[name] = name.replace(/([A-Z])/g, (n)=>"-" + n.toLowerCase())));
-    if (children !== void 0) instance.textContent = children;
-    for(let name1 in style)if (style.hasOwnProperty(name1)) {
-        const value = dangerousStyleValue(name1, style[name1]);
-        if (isCustomPropRE.test(name1)) instance.style.setProperty(name1, value);
-        else instance.style[name1] = value;
-    }
-    names.forEach((name, i)=>{
-        instance.setAttribute(name, values[i]);
-    });
-    if (scrollTop !== void 0) instance.scrollTop = scrollTop;
-    if (scrollLeft !== void 0) instance.scrollLeft = scrollLeft;
-}
-let isUnitlessNumber = {
-    animationIterationCount: true,
-    borderImageOutset: true,
-    borderImageSlice: true,
-    borderImageWidth: true,
-    boxFlex: true,
-    boxFlexGroup: true,
-    boxOrdinalGroup: true,
-    columnCount: true,
-    columns: true,
-    flex: true,
-    flexGrow: true,
-    flexPositive: true,
-    flexShrink: true,
-    flexNegative: true,
-    flexOrder: true,
-    gridRow: true,
-    gridRowEnd: true,
-    gridRowSpan: true,
-    gridRowStart: true,
-    gridColumn: true,
-    gridColumnEnd: true,
-    gridColumnSpan: true,
-    gridColumnStart: true,
-    fontWeight: true,
-    lineClamp: true,
-    lineHeight: true,
-    opacity: true,
-    order: true,
-    orphans: true,
-    tabSize: true,
-    widows: true,
-    zIndex: true,
-    zoom: true,
-    fillOpacity: true,
-    floodOpacity: true,
-    stopOpacity: true,
-    strokeDasharray: true,
-    strokeDashoffset: true,
-    strokeMiterlimit: true,
-    strokeOpacity: true,
-    strokeWidth: true
-};
-const prefixKey = (prefix, key)=>prefix + key.charAt(0).toUpperCase() + key.substring(1);
-const prefixes = [
-    "Webkit",
-    "Ms",
-    "Moz",
-    "O"
-];
-isUnitlessNumber = Object.keys(isUnitlessNumber).reduce((acc, prop)=>{
-    prefixes.forEach((prefix)=>acc[prefixKey(prefix, prop)] = acc[prop]);
-    return acc;
-}, isUnitlessNumber);
-const _excluded$1 = [
-    "x",
-    "y",
-    "z"
-];
-const domTransforms = /^(matrix|translate|scale|rotate|skew)/;
-const pxTransforms = /^(translate)/;
-const degTransforms = /^(rotate|skew)/;
-const addUnit = (value, unit)=>(0, _shared.is).num(value) && value !== 0 ? value + unit : value;
-const isValueIdentity = (value, id)=>(0, _shared.is).arr(value) ? value.every((v)=>isValueIdentity(v, id)) : (0, _shared.is).num(value) ? value === id : parseFloat(value) === id;
-class AnimatedStyle extends (0, _animated.AnimatedObject) {
-    constructor(_ref){
-        let { x: x1 , y: y1 , z: z1  } = _ref, style = _objectWithoutPropertiesLoose(_ref, _excluded$1);
-        const inputs = [];
-        const transforms = [];
-        if (x1 || y1 || z1) {
-            inputs.push([
-                x1 || 0,
-                y1 || 0,
-                z1 || 0
-            ]);
-            transforms.push((xyz)=>[
-                    `translate3d(${xyz.map((v)=>addUnit(v, "px")).join(",")})`,
-                    isValueIdentity(xyz, 0)
-                ]);
-        }
-        (0, _shared.eachProp)(style, (value, key)=>{
-            if (key === "transform") {
-                inputs.push([
-                    value || ""
-                ]);
-                transforms.push((transform)=>[
-                        transform,
-                        transform === ""
-                    ]);
-            } else if (domTransforms.test(key)) {
-                delete style[key];
-                if ((0, _shared.is).und(value)) return;
-                const unit = pxTransforms.test(key) ? "px" : degTransforms.test(key) ? "deg" : "";
-                inputs.push((0, _shared.toArray)(value));
-                transforms.push(key === "rotate3d" ? ([x, y, z, deg])=>[
-                        `rotate3d(${x},${y},${z},${addUnit(deg, unit)})`,
-                        isValueIdentity(deg, 0)
-                    ] : (input)=>[
-                        `${key}(${input.map((v)=>addUnit(v, unit)).join(",")})`,
-                        isValueIdentity(input, key.startsWith("scale") ? 1 : 0)
-                    ]);
-            }
-        });
-        if (inputs.length) style.transform = new FluidTransform(inputs, transforms);
-        super(style);
-    }
-}
-class FluidTransform extends (0, _shared.FluidValue) {
-    constructor(inputs, transforms){
-        super();
-        this._value = null;
-        this.inputs = inputs;
-        this.transforms = transforms;
-    }
-    get() {
-        return this._value || (this._value = this._get());
-    }
-    _get() {
-        let transform = "";
-        let identity = true;
-        (0, _shared.each)(this.inputs, (input, i)=>{
-            const arg1 = (0, _shared.getFluidValue)(input[0]);
-            const [t, id] = this.transforms[i]((0, _shared.is).arr(arg1) ? arg1 : input.map((0, _shared.getFluidValue)));
-            transform += " " + t;
-            identity = identity && id;
-        });
-        return identity ? "none" : transform;
-    }
-    observerAdded(count) {
-        if (count == 1) (0, _shared.each)(this.inputs, (input)=>(0, _shared.each)(input, (value)=>(0, _shared.hasFluidValue)(value) && (0, _shared.addFluidObserver)(value, this)));
-    }
-    observerRemoved(count) {
-        if (count == 0) (0, _shared.each)(this.inputs, (input)=>(0, _shared.each)(input, (value)=>(0, _shared.hasFluidValue)(value) && (0, _shared.removeFluidObserver)(value, this)));
-    }
-    eventObserved(event) {
-        if (event.type == "change") this._value = null;
-        (0, _shared.callFluidObservers)(this, event);
-    }
-}
-const primitives = [
-    "a",
-    "abbr",
-    "address",
-    "area",
-    "article",
-    "aside",
-    "audio",
-    "b",
-    "base",
-    "bdi",
-    "bdo",
-    "big",
-    "blockquote",
-    "body",
-    "br",
-    "button",
-    "canvas",
-    "caption",
-    "cite",
-    "code",
-    "col",
-    "colgroup",
-    "data",
-    "datalist",
-    "dd",
-    "del",
-    "details",
-    "dfn",
-    "dialog",
-    "div",
-    "dl",
-    "dt",
-    "em",
-    "embed",
-    "fieldset",
-    "figcaption",
-    "figure",
-    "footer",
-    "form",
-    "h1",
-    "h2",
-    "h3",
-    "h4",
-    "h5",
-    "h6",
-    "head",
-    "header",
-    "hgroup",
-    "hr",
-    "html",
-    "i",
-    "iframe",
-    "img",
-    "input",
-    "ins",
-    "kbd",
-    "keygen",
-    "label",
-    "legend",
-    "li",
-    "link",
-    "main",
-    "map",
-    "mark",
-    "menu",
-    "menuitem",
-    "meta",
-    "meter",
-    "nav",
-    "noscript",
-    "object",
-    "ol",
-    "optgroup",
-    "option",
-    "output",
-    "p",
-    "param",
-    "picture",
-    "pre",
-    "progress",
-    "q",
-    "rp",
-    "rt",
-    "ruby",
-    "s",
-    "samp",
-    "script",
-    "section",
-    "select",
-    "small",
-    "source",
-    "span",
-    "strong",
-    "style",
-    "sub",
-    "summary",
-    "sup",
-    "table",
-    "tbody",
-    "td",
-    "textarea",
-    "tfoot",
-    "th",
-    "thead",
-    "time",
-    "title",
-    "tr",
-    "track",
-    "u",
-    "ul",
-    "var",
-    "video",
-    "wbr",
-    "circle",
-    "clipPath",
-    "defs",
-    "ellipse",
-    "foreignObject",
-    "g",
-    "image",
-    "line",
-    "linearGradient",
-    "mask",
-    "path",
-    "pattern",
-    "polygon",
-    "polyline",
-    "radialGradient",
-    "rect",
-    "stop",
-    "svg",
-    "text",
-    "tspan"
-];
-const _excluded = [
-    "scrollTop",
-    "scrollLeft"
-];
-(0, _core.Globals).assign({
-    batchedUpdates: (0, _reactDom.unstable_batchedUpdates),
-    createStringInterpolator: (0, _shared.createStringInterpolator),
-    colors: (0, _shared.colors)
-});
-const host = (0, _animated.createHost)(primitives, {
-    applyAnimatedValues,
-    createAnimatedStyle: (style)=>new AnimatedStyle(style),
-    getComponentProps: (_ref)=>{
-        let props = _objectWithoutPropertiesLoose(_ref, _excluded);
-        return props;
-    }
-});
-const animated = host.animated;
-
-},{"@react-spring/core":"f5VEd","react-dom":"j6uA9","@react-spring/shared":"jm667","@react-spring/animated":"abfrL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f5VEd":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Globals", ()=>(0, _shared.Globals));
-parcelHelpers.export(exports, "createInterpolator", ()=>(0, _shared.createInterpolator));
-parcelHelpers.export(exports, "BailSignal", ()=>BailSignal);
-parcelHelpers.export(exports, "Controller", ()=>Controller);
-parcelHelpers.export(exports, "FrameValue", ()=>FrameValue);
-parcelHelpers.export(exports, "Interpolation", ()=>Interpolation);
-parcelHelpers.export(exports, "Spring", ()=>Spring);
-parcelHelpers.export(exports, "SpringContext", ()=>SpringContext);
-parcelHelpers.export(exports, "SpringRef", ()=>SpringRef);
-parcelHelpers.export(exports, "SpringValue", ()=>SpringValue);
-parcelHelpers.export(exports, "Trail", ()=>Trail);
-parcelHelpers.export(exports, "Transition", ()=>Transition);
-parcelHelpers.export(exports, "config", ()=>config);
-parcelHelpers.export(exports, "easings", ()=>easings);
-parcelHelpers.export(exports, "inferTo", ()=>inferTo);
-parcelHelpers.export(exports, "interpolate", ()=>interpolate);
-parcelHelpers.export(exports, "to", ()=>to);
-parcelHelpers.export(exports, "update", ()=>update);
-parcelHelpers.export(exports, "useChain", ()=>useChain);
-parcelHelpers.export(exports, "useSpring", ()=>useSpring);
-parcelHelpers.export(exports, "useSpringRef", ()=>useSpringRef);
-parcelHelpers.export(exports, "useSprings", ()=>useSprings);
-parcelHelpers.export(exports, "useTrail", ()=>useTrail);
-parcelHelpers.export(exports, "useTransition", ()=>useTransition);
-var _shared = require("@react-spring/shared");
-var _react = require("react");
-var _animated = require("@react-spring/animated");
-var _animated1 = require("@react-spring/types/animated");
-parcelHelpers.exportAll(_animated1, exports);
-var _interpolation = require("@react-spring/types/interpolation");
-parcelHelpers.exportAll(_interpolation, exports);
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-function callProp(value, ...args) {
-    return (0, _shared.is).fun(value) ? value(...args) : value;
-}
-const matchProp = (value, key)=>value === true || !!(key && value && ((0, _shared.is).fun(value) ? value(key) : (0, _shared.toArray)(value).includes(key)));
-const resolveProp = (prop, key)=>(0, _shared.is).obj(prop) ? key && prop[key] : prop;
-const getDefaultProp = (props, key)=>props.default === true ? props[key] : props.default ? props.default[key] : undefined;
-const noopTransform = (value)=>value;
-const getDefaultProps = (props, transform = noopTransform)=>{
-    let keys = DEFAULT_PROPS;
-    if (props.default && props.default !== true) {
-        props = props.default;
-        keys = Object.keys(props);
-    }
-    const defaults1 = {};
-    for (const key of keys){
-        const value = transform(props[key], key);
-        if (!(0, _shared.is).und(value)) defaults1[key] = value;
-    }
-    return defaults1;
-};
-const DEFAULT_PROPS = [
-    "config",
-    "onProps",
-    "onStart",
-    "onChange",
-    "onPause",
-    "onResume",
-    "onRest"
-];
-const RESERVED_PROPS = {
-    config: 1,
-    from: 1,
-    to: 1,
-    ref: 1,
-    loop: 1,
-    reset: 1,
-    pause: 1,
-    cancel: 1,
-    reverse: 1,
-    immediate: 1,
-    default: 1,
-    delay: 1,
-    onProps: 1,
-    onStart: 1,
-    onChange: 1,
-    onPause: 1,
-    onResume: 1,
-    onRest: 1,
-    onResolve: 1,
-    items: 1,
-    trail: 1,
-    sort: 1,
-    expires: 1,
-    initial: 1,
-    enter: 1,
-    update: 1,
-    leave: 1,
-    children: 1,
-    onDestroyed: 1,
-    keys: 1,
-    callId: 1,
-    parentId: 1
-};
-function getForwardProps(props) {
-    const forward = {};
-    let count = 0;
-    (0, _shared.eachProp)(props, (value, prop)=>{
-        if (!RESERVED_PROPS[prop]) {
-            forward[prop] = value;
-            count++;
-        }
-    });
-    if (count) return forward;
-}
-function inferTo(props) {
-    const to1 = getForwardProps(props);
-    if (to1) {
-        const out = {
-            to: to1
-        };
-        (0, _shared.eachProp)(props, (val, key)=>key in to1 || (out[key] = val));
-        return out;
-    }
-    return _extends({}, props);
-}
-function computeGoal(value) {
-    value = (0, _shared.getFluidValue)(value);
-    return (0, _shared.is).arr(value) ? value.map(computeGoal) : (0, _shared.isAnimatedString)(value) ? (0, _shared.Globals).createStringInterpolator({
-        range: [
-            0,
-            1
-        ],
-        output: [
-            value,
-            value
-        ]
-    })(1) : value;
-}
-function hasProps(props) {
-    for(const _ in props)return true;
-    return false;
-}
-function isAsyncTo(to2) {
-    return (0, _shared.is).fun(to2) || (0, _shared.is).arr(to2) && (0, _shared.is).obj(to2[0]);
-}
-function detachRefs(ctrl, ref) {
-    var _ctrl$ref;
-    (_ctrl$ref = ctrl.ref) == null || _ctrl$ref.delete(ctrl);
-    ref == null || ref.delete(ctrl);
-}
-function replaceRef(ctrl, ref) {
-    if (ref && ctrl.ref !== ref) {
-        var _ctrl$ref2;
-        (_ctrl$ref2 = ctrl.ref) == null || _ctrl$ref2.delete(ctrl);
-        ref.add(ctrl);
-        ctrl.ref = ref;
-    }
-}
-function useChain(refs, timeSteps, timeFrame = 1000) {
-    (0, _shared.useLayoutEffect)(()=>{
-        if (timeSteps) {
-            let prevDelay = 0;
-            (0, _shared.each)(refs, (ref, i)=>{
-                const controllers = ref.current;
-                if (controllers.length) {
-                    let delay = timeFrame * timeSteps[i];
-                    if (isNaN(delay)) delay = prevDelay;
-                    else prevDelay = delay;
-                    (0, _shared.each)(controllers, (ctrl)=>{
-                        (0, _shared.each)(ctrl.queue, (props)=>{
-                            const memoizedDelayProp = props.delay;
-                            props.delay = (key)=>delay + callProp(memoizedDelayProp || 0, key);
-                        });
-                    });
-                    ref.start();
-                }
-            });
-        } else {
-            let p = Promise.resolve();
-            (0, _shared.each)(refs, (ref)=>{
-                const controllers = ref.current;
-                if (controllers.length) {
-                    const queues = controllers.map((ctrl)=>{
-                        const q = ctrl.queue;
-                        ctrl.queue = [];
-                        return q;
-                    });
-                    p = p.then(()=>{
-                        (0, _shared.each)(controllers, (ctrl, i)=>(0, _shared.each)(queues[i] || [], (update1)=>ctrl.queue.push(update1)));
-                        return Promise.all(ref.start());
-                    });
-                }
-            });
-        }
-    });
-}
-const config = {
-    default: {
-        tension: 170,
-        friction: 26
-    },
-    gentle: {
-        tension: 120,
-        friction: 14
-    },
-    wobbly: {
-        tension: 180,
-        friction: 12
-    },
-    stiff: {
-        tension: 210,
-        friction: 20
-    },
-    slow: {
-        tension: 280,
-        friction: 60
-    },
-    molasses: {
-        tension: 280,
-        friction: 120
-    }
-};
-const c1 = 1.70158;
-const c2 = c1 * 1.525;
-const c3 = c1 + 1;
-const c4 = 2 * Math.PI / 3;
-const c5 = 2 * Math.PI / 4.5;
-const bounceOut = (x)=>{
-    const n1 = 7.5625;
-    const d1 = 2.75;
-    if (x < 1 / d1) return n1 * x * x;
-    else if (x < 2 / d1) return n1 * (x -= 1.5 / d1) * x + 0.75;
-    else if (x < 2.5 / d1) return n1 * (x -= 2.25 / d1) * x + 0.9375;
-    else return n1 * (x -= 2.625 / d1) * x + 0.984375;
-};
-const easings = {
-    linear: (x)=>x,
-    easeInQuad: (x)=>x * x,
-    easeOutQuad: (x)=>1 - (1 - x) * (1 - x),
-    easeInOutQuad: (x)=>x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2,
-    easeInCubic: (x)=>x * x * x,
-    easeOutCubic: (x)=>1 - Math.pow(1 - x, 3),
-    easeInOutCubic: (x)=>x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2,
-    easeInQuart: (x)=>x * x * x * x,
-    easeOutQuart: (x)=>1 - Math.pow(1 - x, 4),
-    easeInOutQuart: (x)=>x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2,
-    easeInQuint: (x)=>x * x * x * x * x,
-    easeOutQuint: (x)=>1 - Math.pow(1 - x, 5),
-    easeInOutQuint: (x)=>x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2,
-    easeInSine: (x)=>1 - Math.cos(x * Math.PI / 2),
-    easeOutSine: (x)=>Math.sin(x * Math.PI / 2),
-    easeInOutSine: (x)=>-(Math.cos(Math.PI * x) - 1) / 2,
-    easeInExpo: (x)=>x === 0 ? 0 : Math.pow(2, 10 * x - 10),
-    easeOutExpo: (x)=>x === 1 ? 1 : 1 - Math.pow(2, -10 * x),
-    easeInOutExpo: (x)=>x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? Math.pow(2, 20 * x - 10) / 2 : (2 - Math.pow(2, -20 * x + 10)) / 2,
-    easeInCirc: (x)=>1 - Math.sqrt(1 - Math.pow(x, 2)),
-    easeOutCirc: (x)=>Math.sqrt(1 - Math.pow(x - 1, 2)),
-    easeInOutCirc: (x)=>x < 0.5 ? (1 - Math.sqrt(1 - Math.pow(2 * x, 2))) / 2 : (Math.sqrt(1 - Math.pow(-2 * x + 2, 2)) + 1) / 2,
-    easeInBack: (x)=>c3 * x * x * x - c1 * x * x,
-    easeOutBack: (x)=>1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2),
-    easeInOutBack: (x)=>x < 0.5 ? Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2) / 2 : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2,
-    easeInElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : -Math.pow(2, 10 * x - 10) * Math.sin((x * 10 - 10.75) * c4),
-    easeOutElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * c4) + 1,
-    easeInOutElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? -(Math.pow(2, 20 * x - 10) * Math.sin((20 * x - 11.125) * c5)) / 2 : Math.pow(2, -20 * x + 10) * Math.sin((20 * x - 11.125) * c5) / 2 + 1,
-    easeInBounce: (x)=>1 - bounceOut(1 - x),
-    easeOutBounce: bounceOut,
-    easeInOutBounce: (x)=>x < 0.5 ? (1 - bounceOut(1 - 2 * x)) / 2 : (1 + bounceOut(2 * x - 1)) / 2
-};
-const defaults = _extends({}, config.default, {
-    mass: 1,
-    damping: 1,
-    easing: easings.linear,
-    clamp: false
-});
-class AnimationConfig {
-    constructor(){
-        this.tension = void 0;
-        this.friction = void 0;
-        this.frequency = void 0;
-        this.damping = void 0;
-        this.mass = void 0;
-        this.velocity = 0;
-        this.restVelocity = void 0;
-        this.precision = void 0;
-        this.progress = void 0;
-        this.duration = void 0;
-        this.easing = void 0;
-        this.clamp = void 0;
-        this.bounce = void 0;
-        this.decay = void 0;
-        this.round = void 0;
-        Object.assign(this, defaults);
-    }
-}
-function mergeConfig(config1, newConfig, defaultConfig) {
-    if (defaultConfig) {
-        defaultConfig = _extends({}, defaultConfig);
-        sanitizeConfig(defaultConfig, newConfig);
-        newConfig = _extends({}, defaultConfig, newConfig);
-    }
-    sanitizeConfig(config1, newConfig);
-    Object.assign(config1, newConfig);
-    for(const key in defaults)if (config1[key] == null) config1[key] = defaults[key];
-    let { mass , frequency , damping  } = config1;
-    if (!(0, _shared.is).und(frequency)) {
-        if (frequency < 0.01) frequency = 0.01;
-        if (damping < 0) damping = 0;
-        config1.tension = Math.pow(2 * Math.PI / frequency, 2) * mass;
-        config1.friction = 4 * Math.PI * damping * mass / frequency;
-    }
-    return config1;
-}
-function sanitizeConfig(config2, props) {
-    if (!(0, _shared.is).und(props.decay)) config2.duration = undefined;
-    else {
-        const isTensionConfig = !(0, _shared.is).und(props.tension) || !(0, _shared.is).und(props.friction);
-        if (isTensionConfig || !(0, _shared.is).und(props.frequency) || !(0, _shared.is).und(props.damping) || !(0, _shared.is).und(props.mass)) {
-            config2.duration = undefined;
-            config2.decay = undefined;
-        }
-        if (isTensionConfig) config2.frequency = undefined;
-    }
-}
-const emptyArray = [];
-class Animation {
-    constructor(){
-        this.changed = false;
-        this.values = emptyArray;
-        this.toValues = null;
-        this.fromValues = emptyArray;
-        this.to = void 0;
-        this.from = void 0;
-        this.config = new AnimationConfig();
-        this.immediate = false;
-    }
-}
-function scheduleProps(callId, { key , props , defaultProps , state , actions  }) {
-    return new Promise((resolve, reject)=>{
-        var _props$cancel;
-        let delay;
-        let timeout;
-        let cancel = matchProp((_props$cancel = props.cancel) != null ? _props$cancel : defaultProps == null ? void 0 : defaultProps.cancel, key);
-        if (cancel) onStart();
-        else {
-            if (!(0, _shared.is).und(props.pause)) state.paused = matchProp(props.pause, key);
-            let pause = defaultProps == null ? void 0 : defaultProps.pause;
-            if (pause !== true) pause = state.paused || matchProp(pause, key);
-            delay = callProp(props.delay || 0, key);
-            if (pause) {
-                state.resumeQueue.add(onResume);
-                actions.pause();
-            } else {
-                actions.resume();
-                onResume();
-            }
-        }
-        function onPause() {
-            state.resumeQueue.add(onResume);
-            state.timeouts.delete(timeout);
-            timeout.cancel();
-            delay = timeout.time - (0, _shared.raf).now();
-        }
-        function onResume() {
-            if (delay > 0 && !(0, _shared.Globals).skipAnimation) {
-                state.delayed = true;
-                timeout = (0, _shared.raf).setTimeout(onStart, delay);
-                state.pauseQueue.add(onPause);
-                state.timeouts.add(timeout);
-            } else onStart();
-        }
-        function onStart() {
-            if (state.delayed) state.delayed = false;
-            state.pauseQueue.delete(onPause);
-            state.timeouts.delete(timeout);
-            if (callId <= (state.cancelId || 0)) cancel = true;
-            try {
-                actions.start(_extends({}, props, {
-                    callId,
-                    cancel
-                }), resolve);
-            } catch (err) {
-                reject(err);
-            }
-        }
-    });
-}
-const getCombinedResult = (target, results)=>results.length == 1 ? results[0] : results.some((result)=>result.cancelled) ? getCancelledResult(target.get()) : results.every((result)=>result.noop) ? getNoopResult(target.get()) : getFinishedResult(target.get(), results.every((result)=>result.finished));
-const getNoopResult = (value)=>({
-        value,
-        noop: true,
-        finished: true,
-        cancelled: false
-    });
-const getFinishedResult = (value, finished, cancelled = false)=>({
-        value,
-        finished,
-        cancelled
-    });
-const getCancelledResult = (value)=>({
-        value,
-        cancelled: true,
-        finished: false
-    });
-function runAsync(to3, props1, state, target) {
-    const { callId , parentId , onRest  } = props1;
-    const { asyncTo: prevTo , promise: prevPromise  } = state;
-    if (!parentId && to3 === prevTo && !props1.reset) return prevPromise;
-    return state.promise = (async ()=>{
-        state.asyncId = callId;
-        state.asyncTo = to3;
-        const defaultProps = getDefaultProps(props1, (value, key)=>key === "onRest" ? undefined : value);
-        let preventBail;
-        let bail;
-        const bailPromise = new Promise((resolve, reject)=>(preventBail = resolve, bail = reject));
-        const bailIfEnded = (bailSignal)=>{
-            const bailResult = callId <= (state.cancelId || 0) && getCancelledResult(target) || callId !== state.asyncId && getFinishedResult(target, false);
-            if (bailResult) {
-                bailSignal.result = bailResult;
-                bail(bailSignal);
-                throw bailSignal;
-            }
-        };
-        const animate = (arg1, arg2)=>{
-            const bailSignal = new BailSignal();
-            const skipAnimationSignal = new SkipAniamtionSignal();
-            return (async ()=>{
-                if ((0, _shared.Globals).skipAnimation) {
-                    stopAsync(state);
-                    skipAnimationSignal.result = getFinishedResult(target, false);
-                    bail(skipAnimationSignal);
-                    throw skipAnimationSignal;
-                }
-                bailIfEnded(bailSignal);
-                const props = (0, _shared.is).obj(arg1) ? _extends({}, arg1) : _extends({}, arg2, {
-                    to: arg1
-                });
-                props.parentId = callId;
-                (0, _shared.eachProp)(defaultProps, (value, key)=>{
-                    if ((0, _shared.is).und(props[key])) props[key] = value;
-                });
-                const result = await target.start(props);
-                bailIfEnded(bailSignal);
-                if (state.paused) await new Promise((resume)=>{
-                    state.resumeQueue.add(resume);
-                });
-                return result;
-            })();
-        };
-        let result1;
-        if ((0, _shared.Globals).skipAnimation) {
-            stopAsync(state);
-            return getFinishedResult(target, false);
-        }
-        try {
-            let animating;
-            if ((0, _shared.is).arr(to3)) animating = (async (queue)=>{
-                for (const props of queue)await animate(props);
-            })(to3);
-            else animating = Promise.resolve(to3(animate, target.stop.bind(target)));
-            await Promise.all([
-                animating.then(preventBail),
-                bailPromise
-            ]);
-            result1 = getFinishedResult(target.get(), true, false);
-        } catch (err) {
-            if (err instanceof BailSignal) result1 = err.result;
-            else if (err instanceof SkipAniamtionSignal) result1 = err.result;
-            else throw err;
-        } finally{
-            if (callId == state.asyncId) {
-                state.asyncId = parentId;
-                state.asyncTo = parentId ? prevTo : undefined;
-                state.promise = parentId ? prevPromise : undefined;
-            }
-        }
-        if ((0, _shared.is).fun(onRest)) (0, _shared.raf).batchedUpdates(()=>{
-            onRest(result1, target, target.item);
-        });
-        return result1;
-    })();
-}
-function stopAsync(state, cancelId) {
-    (0, _shared.flush)(state.timeouts, (t)=>t.cancel());
-    state.pauseQueue.clear();
-    state.resumeQueue.clear();
-    state.asyncId = state.asyncTo = state.promise = undefined;
-    if (cancelId) state.cancelId = cancelId;
-}
-class BailSignal extends Error {
-    constructor(){
-        super("An async animation has been interrupted. You see this error because you forgot to use `await` or `.catch(...)` on its returned promise.");
-        this.result = void 0;
-    }
-}
-class SkipAniamtionSignal extends Error {
-    constructor(){
-        super("SkipAnimationSignal");
-        this.result = void 0;
-    }
-}
-const isFrameValue = (value)=>value instanceof FrameValue;
-let nextId$1 = 1;
-class FrameValue extends (0, _shared.FluidValue) {
-    constructor(...args){
-        super(...args);
-        this.id = nextId$1++;
-        this.key = void 0;
-        this._priority = 0;
-    }
-    get priority() {
-        return this._priority;
-    }
-    set priority(priority) {
-        if (this._priority != priority) {
-            this._priority = priority;
-            this._onPriorityChange(priority);
-        }
-    }
-    get() {
-        const node = (0, _animated.getAnimated)(this);
-        return node && node.getValue();
-    }
-    to(...args) {
-        return (0, _shared.Globals).to(this, args);
-    }
-    interpolate(...args) {
-        (0, _shared.deprecateInterpolate)();
-        return (0, _shared.Globals).to(this, args);
-    }
-    toJSON() {
-        return this.get();
-    }
-    observerAdded(count) {
-        if (count == 1) this._attach();
-    }
-    observerRemoved(count) {
-        if (count == 0) this._detach();
-    }
-    _attach() {}
-    _detach() {}
-    _onChange(value, idle = false) {
-        (0, _shared.callFluidObservers)(this, {
-            type: "change",
-            parent: this,
-            value,
-            idle
-        });
-    }
-    _onPriorityChange(priority) {
-        if (!this.idle) (0, _shared.frameLoop).sort(this);
-        (0, _shared.callFluidObservers)(this, {
-            type: "priority",
-            parent: this,
-            priority
-        });
-    }
-}
-const $P = Symbol.for("SpringPhase");
-const HAS_ANIMATED = 1;
-const IS_ANIMATING = 2;
-const IS_PAUSED = 4;
-const hasAnimated = (target)=>(target[$P] & HAS_ANIMATED) > 0;
-const isAnimating = (target)=>(target[$P] & IS_ANIMATING) > 0;
-const isPaused = (target)=>(target[$P] & IS_PAUSED) > 0;
-const setActiveBit = (target, active)=>active ? target[$P] |= IS_ANIMATING | HAS_ANIMATED : target[$P] &= ~IS_ANIMATING;
-const setPausedBit = (target, paused)=>paused ? target[$P] |= IS_PAUSED : target[$P] &= ~IS_PAUSED;
-class SpringValue extends FrameValue {
-    constructor(arg1, arg2){
-        super();
-        this.key = void 0;
-        this.animation = new Animation();
-        this.queue = void 0;
-        this.defaultProps = {};
-        this._state = {
-            paused: false,
-            delayed: false,
-            pauseQueue: new Set(),
-            resumeQueue: new Set(),
-            timeouts: new Set()
-        };
-        this._pendingCalls = new Set();
-        this._lastCallId = 0;
-        this._lastToId = 0;
-        this._memoizedDuration = 0;
-        if (!(0, _shared.is).und(arg1) || !(0, _shared.is).und(arg2)) {
-            const props = (0, _shared.is).obj(arg1) ? _extends({}, arg1) : _extends({}, arg2, {
-                from: arg1
-            });
-            if ((0, _shared.is).und(props.default)) props.default = true;
-            this.start(props);
-        }
-    }
-    get idle() {
-        return !(isAnimating(this) || this._state.asyncTo) || isPaused(this);
-    }
-    get goal() {
-        return (0, _shared.getFluidValue)(this.animation.to);
-    }
-    get velocity() {
-        const node1 = (0, _animated.getAnimated)(this);
-        return node1 instanceof (0, _animated.AnimatedValue) ? node1.lastVelocity || 0 : node1.getPayload().map((node)=>node.lastVelocity || 0);
-    }
-    get hasAnimated() {
-        return hasAnimated(this);
-    }
-    get isAnimating() {
-        return isAnimating(this);
-    }
-    get isPaused() {
-        return isPaused(this);
-    }
-    get isDelayed() {
-        return this._state.delayed;
-    }
-    advance(dt) {
-        let idle = true;
-        let changed = false;
-        const anim = this.animation;
-        let { config: config3 , toValues  } = anim;
-        const payload = (0, _animated.getPayload)(anim.to);
-        if (!payload && (0, _shared.hasFluidValue)(anim.to)) toValues = (0, _shared.toArray)((0, _shared.getFluidValue)(anim.to));
-        anim.values.forEach((node, i)=>{
-            if (node.done) return;
-            const to4 = node.constructor == (0, _animated.AnimatedString) ? 1 : payload ? payload[i].lastPosition : toValues[i];
-            let finished = anim.immediate;
-            let position = to4;
-            if (!finished) {
-                position = node.lastPosition;
-                if (config3.tension <= 0) {
-                    node.done = true;
-                    return;
-                }
-                let elapsed = node.elapsedTime += dt;
-                const from = anim.fromValues[i];
-                const v0 = node.v0 != null ? node.v0 : node.v0 = (0, _shared.is).arr(config3.velocity) ? config3.velocity[i] : config3.velocity;
-                let velocity;
-                if (!(0, _shared.is).und(config3.duration)) {
-                    let p = 1;
-                    if (config3.duration > 0) {
-                        if (this._memoizedDuration !== config3.duration) {
-                            this._memoizedDuration = config3.duration;
-                            if (node.durationProgress > 0) {
-                                node.elapsedTime = config3.duration * node.durationProgress;
-                                elapsed = node.elapsedTime += dt;
-                            }
-                        }
-                        p = (config3.progress || 0) + elapsed / this._memoizedDuration;
-                        p = p > 1 ? 1 : p < 0 ? 0 : p;
-                        node.durationProgress = p;
-                    }
-                    position = from + config3.easing(p) * (to4 - from);
-                    velocity = (position - node.lastPosition) / dt;
-                    finished = p == 1;
-                } else if (config3.decay) {
-                    const decay = config3.decay === true ? 0.998 : config3.decay;
-                    const e = Math.exp(-(1 - decay) * elapsed);
-                    position = from + v0 / (1 - decay) * (1 - e);
-                    finished = Math.abs(node.lastPosition - position) < 0.1;
-                    velocity = v0 * e;
-                } else {
-                    velocity = node.lastVelocity == null ? v0 : node.lastVelocity;
-                    const precision = config3.precision || (from == to4 ? 0.005 : Math.min(1, Math.abs(to4 - from) * 0.001));
-                    const restVelocity = config3.restVelocity || precision / 10;
-                    const bounceFactor = config3.clamp ? 0 : config3.bounce;
-                    const canBounce = !(0, _shared.is).und(bounceFactor);
-                    const isGrowing = from == to4 ? node.v0 > 0 : from < to4;
-                    let isMoving;
-                    let isBouncing = false;
-                    const step = 1;
-                    const numSteps = Math.ceil(dt / step);
-                    for(let n = 0; n < numSteps; ++n){
-                        isMoving = Math.abs(velocity) > restVelocity;
-                        if (!isMoving) {
-                            finished = Math.abs(to4 - position) <= precision;
-                            if (finished) break;
-                        }
-                        if (canBounce) {
-                            isBouncing = position == to4 || position > to4 == isGrowing;
-                            if (isBouncing) {
-                                velocity = -velocity * bounceFactor;
-                                position = to4;
-                            }
-                        }
-                        const springForce = -config3.tension * 0.000001 * (position - to4);
-                        const dampingForce = -config3.friction * 0.001 * velocity;
-                        const acceleration = (springForce + dampingForce) / config3.mass;
-                        velocity = velocity + acceleration * step;
-                        position = position + velocity * step;
-                    }
-                }
-                node.lastVelocity = velocity;
-                if (Number.isNaN(position)) {
-                    console.warn(`Got NaN while animating:`, this);
-                    finished = true;
-                }
-            }
-            if (payload && !payload[i].done) finished = false;
-            if (finished) node.done = true;
-            else idle = false;
-            if (node.setValue(position, config3.round)) changed = true;
-        });
-        const node2 = (0, _animated.getAnimated)(this);
-        const currVal = node2.getValue();
-        if (idle) {
-            const finalVal = (0, _shared.getFluidValue)(anim.to);
-            if ((currVal !== finalVal || changed) && !config3.decay) {
-                node2.setValue(finalVal);
-                this._onChange(finalVal);
-            } else if (changed && config3.decay) this._onChange(currVal);
-            this._stop();
-        } else if (changed) this._onChange(currVal);
-    }
-    set(value) {
-        (0, _shared.raf).batchedUpdates(()=>{
-            this._stop();
-            this._focus(value);
-            this._set(value);
-        });
-        return this;
-    }
-    pause() {
-        this._update({
-            pause: true
-        });
-    }
-    resume() {
-        this._update({
-            pause: false
-        });
-    }
-    finish() {
-        if (isAnimating(this)) {
-            const { to: to5 , config: config4  } = this.animation;
-            (0, _shared.raf).batchedUpdates(()=>{
-                this._onStart();
-                if (!config4.decay) this._set(to5, false);
-                this._stop();
-            });
-        }
-        return this;
-    }
-    update(props) {
-        const queue = this.queue || (this.queue = []);
-        queue.push(props);
-        return this;
-    }
-    start(to6, arg2) {
-        let queue;
-        if (!(0, _shared.is).und(to6)) queue = [
-            (0, _shared.is).obj(to6) ? to6 : _extends({}, arg2, {
-                to: to6
-            })
-        ];
-        else {
-            queue = this.queue || [];
-            this.queue = [];
-        }
-        return Promise.all(queue.map((props)=>{
-            const up = this._update(props);
-            return up;
-        })).then((results)=>getCombinedResult(this, results));
-    }
-    stop(cancel) {
-        const { to: to7  } = this.animation;
-        this._focus(this.get());
-        stopAsync(this._state, cancel && this._lastCallId);
-        (0, _shared.raf).batchedUpdates(()=>this._stop(to7, cancel));
-        return this;
-    }
-    reset() {
-        this._update({
-            reset: true
-        });
-    }
-    eventObserved(event) {
-        if (event.type == "change") this._start();
-        else if (event.type == "priority") this.priority = event.priority + 1;
-    }
-    _prepareNode(props) {
-        const key = this.key || "";
-        let { to: to8 , from  } = props;
-        to8 = (0, _shared.is).obj(to8) ? to8[key] : to8;
-        if (to8 == null || isAsyncTo(to8)) to8 = undefined;
-        from = (0, _shared.is).obj(from) ? from[key] : from;
-        if (from == null) from = undefined;
-        const range = {
-            to: to8,
-            from
-        };
-        if (!hasAnimated(this)) {
-            if (props.reverse) [to8, from] = [
-                from,
-                to8
-            ];
-            from = (0, _shared.getFluidValue)(from);
-            if (!(0, _shared.is).und(from)) this._set(from);
-            else if (!(0, _animated.getAnimated)(this)) this._set(to8);
-        }
-        return range;
-    }
-    _update(_ref, isLoop) {
-        let props = _extends({}, _ref);
-        const { key , defaultProps  } = this;
-        if (props.default) Object.assign(defaultProps, getDefaultProps(props, (value, prop)=>/^on/.test(prop) ? resolveProp(value, key) : value));
-        mergeActiveFn(this, props, "onProps");
-        sendEvent(this, "onProps", props, this);
-        const range = this._prepareNode(props);
-        if (Object.isFrozen(this)) throw Error("Cannot animate a `SpringValue` object that is frozen. Did you forget to pass your component to `animated(...)` before animating its props?");
-        const state = this._state;
-        return scheduleProps(++this._lastCallId, {
-            key,
-            props,
-            defaultProps,
-            state,
-            actions: {
-                pause: ()=>{
-                    if (!isPaused(this)) {
-                        setPausedBit(this, true);
-                        (0, _shared.flushCalls)(state.pauseQueue);
-                        sendEvent(this, "onPause", getFinishedResult(this, checkFinished(this, this.animation.to)), this);
-                    }
-                },
-                resume: ()=>{
-                    if (isPaused(this)) {
-                        setPausedBit(this, false);
-                        if (isAnimating(this)) this._resume();
-                        (0, _shared.flushCalls)(state.resumeQueue);
-                        sendEvent(this, "onResume", getFinishedResult(this, checkFinished(this, this.animation.to)), this);
-                    }
-                },
-                start: this._merge.bind(this, range)
-            }
-        }).then((result)=>{
-            if (props.loop && result.finished && !(isLoop && result.noop)) {
-                const nextProps = createLoopUpdate(props);
-                if (nextProps) return this._update(nextProps, true);
-            }
-            return result;
-        });
-    }
-    _merge(range, props, resolve) {
-        if (props.cancel) {
-            this.stop(true);
-            return resolve(getCancelledResult(this));
-        }
-        const hasToProp = !(0, _shared.is).und(range.to);
-        const hasFromProp = !(0, _shared.is).und(range.from);
-        if (hasToProp || hasFromProp) {
-            if (props.callId > this._lastToId) this._lastToId = props.callId;
-            else return resolve(getCancelledResult(this));
-        }
-        const { key , defaultProps , animation: anim  } = this;
-        const { to: prevTo , from: prevFrom  } = anim;
-        let { to: to9 = prevTo , from =prevFrom  } = range;
-        if (hasFromProp && !hasToProp && (!props.default || (0, _shared.is).und(to9))) to9 = from;
-        if (props.reverse) [to9, from] = [
-            from,
-            to9
-        ];
-        const hasFromChanged = !(0, _shared.isEqual)(from, prevFrom);
-        if (hasFromChanged) anim.from = from;
-        from = (0, _shared.getFluidValue)(from);
-        const hasToChanged = !(0, _shared.isEqual)(to9, prevTo);
-        if (hasToChanged) this._focus(to9);
-        const hasAsyncTo = isAsyncTo(props.to);
-        const { config: config5  } = anim;
-        const { decay , velocity  } = config5;
-        if (hasToProp || hasFromProp) config5.velocity = 0;
-        if (props.config && !hasAsyncTo) mergeConfig(config5, callProp(props.config, key), props.config !== defaultProps.config ? callProp(defaultProps.config, key) : void 0);
-        let node = (0, _animated.getAnimated)(this);
-        if (!node || (0, _shared.is).und(to9)) return resolve(getFinishedResult(this, true));
-        const reset = (0, _shared.is).und(props.reset) ? hasFromProp && !props.default : !(0, _shared.is).und(from) && matchProp(props.reset, key);
-        const value = reset ? from : this.get();
-        const goal = computeGoal(to9);
-        const isAnimatable = (0, _shared.is).num(goal) || (0, _shared.is).arr(goal) || (0, _shared.isAnimatedString)(goal);
-        const immediate = !hasAsyncTo && (!isAnimatable || matchProp(defaultProps.immediate || props.immediate, key));
-        if (hasToChanged) {
-            const nodeType = (0, _animated.getAnimatedType)(to9);
-            if (nodeType !== node.constructor) {
-                if (immediate) node = this._set(goal);
-                else throw Error(`Cannot animate between ${node.constructor.name} and ${nodeType.name}, as the "to" prop suggests`);
-            }
-        }
-        const goalType = node.constructor;
-        let started = (0, _shared.hasFluidValue)(to9);
-        let finished = false;
-        if (!started) {
-            const hasValueChanged = reset || !hasAnimated(this) && hasFromChanged;
-            if (hasToChanged || hasValueChanged) {
-                finished = (0, _shared.isEqual)(computeGoal(value), goal);
-                started = !finished;
-            }
-            if (!(0, _shared.isEqual)(anim.immediate, immediate) && !immediate || !(0, _shared.isEqual)(config5.decay, decay) || !(0, _shared.isEqual)(config5.velocity, velocity)) started = true;
-        }
-        if (finished && isAnimating(this)) {
-            if (anim.changed && !reset) started = true;
-            else if (!started) this._stop(prevTo);
-        }
-        if (!hasAsyncTo) {
-            if (started || (0, _shared.hasFluidValue)(prevTo)) {
-                anim.values = node.getPayload();
-                anim.toValues = (0, _shared.hasFluidValue)(to9) ? null : goalType == (0, _animated.AnimatedString) ? [
-                    1
-                ] : (0, _shared.toArray)(goal);
-            }
-            if (anim.immediate != immediate) {
-                anim.immediate = immediate;
-                if (!immediate && !reset) this._set(prevTo);
-            }
-            if (started) {
-                const { onRest  } = anim;
-                (0, _shared.each)(ACTIVE_EVENTS, (type)=>mergeActiveFn(this, props, type));
-                const result = getFinishedResult(this, checkFinished(this, prevTo));
-                (0, _shared.flushCalls)(this._pendingCalls, result);
-                this._pendingCalls.add(resolve);
-                if (anim.changed) (0, _shared.raf).batchedUpdates(()=>{
-                    anim.changed = !reset;
-                    onRest == null || onRest(result, this);
-                    if (reset) callProp(defaultProps.onRest, result);
-                    else anim.onStart == null || anim.onStart(result, this);
-                });
-            }
-        }
-        if (reset) this._set(value);
-        if (hasAsyncTo) resolve(runAsync(props.to, props, this._state, this));
-        else if (started) this._start();
-        else if (isAnimating(this) && !hasToChanged) this._pendingCalls.add(resolve);
-        else resolve(getNoopResult(value));
-    }
-    _focus(value) {
-        const anim = this.animation;
-        if (value !== anim.to) {
-            if ((0, _shared.getFluidObservers)(this)) this._detach();
-            anim.to = value;
-            if ((0, _shared.getFluidObservers)(this)) this._attach();
-        }
-    }
-    _attach() {
-        let priority = 0;
-        const { to: to10  } = this.animation;
-        if ((0, _shared.hasFluidValue)(to10)) {
-            (0, _shared.addFluidObserver)(to10, this);
-            if (isFrameValue(to10)) priority = to10.priority + 1;
-        }
-        this.priority = priority;
-    }
-    _detach() {
-        const { to: to11  } = this.animation;
-        if ((0, _shared.hasFluidValue)(to11)) (0, _shared.removeFluidObserver)(to11, this);
-    }
-    _set(arg, idle = true) {
-        const value = (0, _shared.getFluidValue)(arg);
-        if (!(0, _shared.is).und(value)) {
-            const oldNode = (0, _animated.getAnimated)(this);
-            if (!oldNode || !(0, _shared.isEqual)(value, oldNode.getValue())) {
-                const nodeType = (0, _animated.getAnimatedType)(value);
-                if (!oldNode || oldNode.constructor != nodeType) (0, _animated.setAnimated)(this, nodeType.create(value));
-                else oldNode.setValue(value);
-                if (oldNode) (0, _shared.raf).batchedUpdates(()=>{
-                    this._onChange(value, idle);
-                });
-            }
-        }
-        return (0, _animated.getAnimated)(this);
-    }
-    _onStart() {
-        const anim = this.animation;
-        if (!anim.changed) {
-            anim.changed = true;
-            sendEvent(this, "onStart", getFinishedResult(this, checkFinished(this, anim.to)), this);
-        }
-    }
-    _onChange(value, idle) {
-        if (!idle) {
-            this._onStart();
-            callProp(this.animation.onChange, value, this);
-        }
-        callProp(this.defaultProps.onChange, value, this);
-        super._onChange(value, idle);
-    }
-    _start() {
-        const anim = this.animation;
-        (0, _animated.getAnimated)(this).reset((0, _shared.getFluidValue)(anim.to));
-        if (!anim.immediate) anim.fromValues = anim.values.map((node)=>node.lastPosition);
-        if (!isAnimating(this)) {
-            setActiveBit(this, true);
-            if (!isPaused(this)) this._resume();
-        }
-    }
-    _resume() {
-        if ((0, _shared.Globals).skipAnimation) this.finish();
-        else (0, _shared.frameLoop).start(this);
-    }
-    _stop(goal, cancel) {
-        if (isAnimating(this)) {
-            setActiveBit(this, false);
-            const anim = this.animation;
-            (0, _shared.each)(anim.values, (node)=>{
-                node.done = true;
-            });
-            if (anim.toValues) anim.onChange = anim.onPause = anim.onResume = undefined;
-            (0, _shared.callFluidObservers)(this, {
-                type: "idle",
-                parent: this
-            });
-            const result = cancel ? getCancelledResult(this.get()) : getFinishedResult(this.get(), checkFinished(this, goal != null ? goal : anim.to));
-            (0, _shared.flushCalls)(this._pendingCalls, result);
-            if (anim.changed) {
-                anim.changed = false;
-                sendEvent(this, "onRest", result, this);
-            }
-        }
-    }
-}
-function checkFinished(target, to12) {
-    const goal = computeGoal(to12);
-    const value = computeGoal(target.get());
-    return (0, _shared.isEqual)(value, goal);
-}
-function createLoopUpdate(props, loop = props.loop, to13 = props.to) {
-    let loopRet = callProp(loop);
-    if (loopRet) {
-        const overrides = loopRet !== true && inferTo(loopRet);
-        const reverse = (overrides || props).reverse;
-        const reset = !overrides || overrides.reset;
-        return createUpdate(_extends({}, props, {
-            loop,
-            default: false,
-            pause: undefined,
-            to: !reverse || isAsyncTo(to13) ? to13 : undefined,
-            from: reset ? props.from : undefined,
-            reset
-        }, overrides));
-    }
-}
-function createUpdate(props) {
-    const { to: to14 , from  } = props = inferTo(props);
-    const keys = new Set();
-    if ((0, _shared.is).obj(to14)) findDefined(to14, keys);
-    if ((0, _shared.is).obj(from)) findDefined(from, keys);
-    props.keys = keys.size ? Array.from(keys) : null;
-    return props;
-}
-function declareUpdate(props) {
-    const update2 = createUpdate(props);
-    if ((0, _shared.is).und(update2.default)) update2.default = getDefaultProps(update2);
-    return update2;
-}
-function findDefined(values, keys) {
-    (0, _shared.eachProp)(values, (value, key)=>value != null && keys.add(key));
-}
-const ACTIVE_EVENTS = [
-    "onStart",
-    "onRest",
-    "onChange",
-    "onPause",
-    "onResume"
-];
-function mergeActiveFn(target, props, type) {
-    target.animation[type] = props[type] !== getDefaultProp(props, type) ? resolveProp(props[type], target.key) : undefined;
-}
-function sendEvent(target, type, ...args) {
-    var _target$animation$typ, _target$animation, _target$defaultProps$, _target$defaultProps;
-    (_target$animation$typ = (_target$animation = target.animation)[type]) == null || _target$animation$typ.call(_target$animation, ...args);
-    (_target$defaultProps$ = (_target$defaultProps = target.defaultProps)[type]) == null || _target$defaultProps$.call(_target$defaultProps, ...args);
-}
-const BATCHED_EVENTS = [
-    "onStart",
-    "onChange",
-    "onRest"
-];
-let nextId = 1;
-class Controller {
-    constructor(props, flush){
-        this.id = nextId++;
-        this.springs = {};
-        this.queue = [];
-        this.ref = void 0;
-        this._flush = void 0;
-        this._initialProps = void 0;
-        this._lastAsyncId = 0;
-        this._active = new Set();
-        this._changed = new Set();
-        this._started = false;
-        this._item = void 0;
-        this._state = {
-            paused: false,
-            pauseQueue: new Set(),
-            resumeQueue: new Set(),
-            timeouts: new Set()
-        };
-        this._events = {
-            onStart: new Map(),
-            onChange: new Map(),
-            onRest: new Map()
-        };
-        this._onFrame = this._onFrame.bind(this);
-        if (flush) this._flush = flush;
-        if (props) this.start(_extends({
-            default: true
-        }, props));
-    }
-    get idle() {
-        return !this._state.asyncTo && Object.values(this.springs).every((spring)=>{
-            return spring.idle && !spring.isDelayed && !spring.isPaused;
-        });
-    }
-    get item() {
-        return this._item;
-    }
-    set item(item) {
-        this._item = item;
-    }
-    get() {
-        const values = {};
-        this.each((spring, key)=>values[key] = spring.get());
-        return values;
-    }
-    set(values) {
-        for(const key in values){
-            const value = values[key];
-            if (!(0, _shared.is).und(value)) this.springs[key].set(value);
-        }
-    }
-    update(props) {
-        if (props) this.queue.push(createUpdate(props));
-        return this;
-    }
-    start(props) {
-        let { queue  } = this;
-        if (props) queue = (0, _shared.toArray)(props).map(createUpdate);
-        else this.queue = [];
-        if (this._flush) return this._flush(this, queue);
-        prepareKeys(this, queue);
-        return flushUpdateQueue(this, queue);
-    }
-    stop(arg, keys) {
-        if (arg !== !!arg) keys = arg;
-        if (keys) {
-            const springs = this.springs;
-            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].stop(!!arg));
-        } else {
-            stopAsync(this._state, this._lastAsyncId);
-            this.each((spring)=>spring.stop(!!arg));
-        }
-        return this;
-    }
-    pause(keys) {
-        if ((0, _shared.is).und(keys)) this.start({
-            pause: true
-        });
-        else {
-            const springs = this.springs;
-            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].pause());
-        }
-        return this;
-    }
-    resume(keys) {
-        if ((0, _shared.is).und(keys)) this.start({
-            pause: false
-        });
-        else {
-            const springs = this.springs;
-            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].resume());
-        }
-        return this;
-    }
-    each(iterator) {
-        (0, _shared.eachProp)(this.springs, iterator);
-    }
-    _onFrame() {
-        const { onStart: onStart1 , onChange: onChange1 , onRest: onRest1  } = this._events;
-        const active = this._active.size > 0;
-        const changed = this._changed.size > 0;
-        if (active && !this._started || changed && !this._started) {
-            this._started = true;
-            (0, _shared.flush)(onStart1, ([onStart, result])=>{
-                result.value = this.get();
-                onStart(result, this, this._item);
-            });
-        }
-        const idle = !active && this._started;
-        const values = changed || idle && onRest1.size ? this.get() : null;
-        if (changed && onChange1.size) (0, _shared.flush)(onChange1, ([onChange, result])=>{
-            result.value = values;
-            onChange(result, this, this._item);
-        });
-        if (idle) {
-            this._started = false;
-            (0, _shared.flush)(onRest1, ([onRest, result])=>{
-                result.value = values;
-                onRest(result, this, this._item);
-            });
-        }
-    }
-    eventObserved(event) {
-        if (event.type == "change") {
-            this._changed.add(event.parent);
-            if (!event.idle) this._active.add(event.parent);
-        } else if (event.type == "idle") this._active.delete(event.parent);
-        else return;
-        (0, _shared.raf).onFrame(this._onFrame);
-    }
-}
-function flushUpdateQueue(ctrl, queue) {
-    return Promise.all(queue.map((props)=>flushUpdate(ctrl, props))).then((results)=>getCombinedResult(ctrl, results));
-}
-async function flushUpdate(ctrl, props2, isLoop) {
-    const { keys , to: to15 , from , loop , onRest , onResolve  } = props2;
-    const defaults2 = (0, _shared.is).obj(props2.default) && props2.default;
-    if (loop) props2.loop = false;
-    if (to15 === false) props2.to = null;
-    if (from === false) props2.from = null;
-    const asyncTo = (0, _shared.is).arr(to15) || (0, _shared.is).fun(to15) ? to15 : undefined;
-    if (asyncTo) {
-        props2.to = undefined;
-        props2.onRest = undefined;
-        if (defaults2) defaults2.onRest = undefined;
-    } else (0, _shared.each)(BATCHED_EVENTS, (key)=>{
-        const handler = props2[key];
-        if ((0, _shared.is).fun(handler)) {
-            const queue = ctrl["_events"][key];
-            props2[key] = ({ finished , cancelled  })=>{
-                const result = queue.get(handler);
-                if (result) {
-                    if (!finished) result.finished = false;
-                    if (cancelled) result.cancelled = true;
-                } else queue.set(handler, {
-                    value: null,
-                    finished: finished || false,
-                    cancelled: cancelled || false
-                });
-            };
-            if (defaults2) defaults2[key] = props2[key];
-        }
-    });
-    const state = ctrl["_state"];
-    if (props2.pause === !state.paused) {
-        state.paused = props2.pause;
-        (0, _shared.flushCalls)(props2.pause ? state.pauseQueue : state.resumeQueue);
-    } else if (state.paused) props2.pause = true;
-    const promises = (keys || Object.keys(ctrl.springs)).map((key)=>ctrl.springs[key].start(props2));
-    const cancel = props2.cancel === true || getDefaultProp(props2, "cancel") === true;
-    if (asyncTo || cancel && state.asyncId) promises.push(scheduleProps(++ctrl["_lastAsyncId"], {
-        props: props2,
-        state,
-        actions: {
-            pause: (0, _shared.noop),
-            resume: (0, _shared.noop),
-            start (props, resolve) {
-                if (cancel) {
-                    stopAsync(state, ctrl["_lastAsyncId"]);
-                    resolve(getCancelledResult(ctrl));
-                } else {
-                    props.onRest = onRest;
-                    resolve(runAsync(asyncTo, props, state, ctrl));
-                }
-            }
-        }
-    }));
-    if (state.paused) await new Promise((resume)=>{
-        state.resumeQueue.add(resume);
-    });
-    const result2 = getCombinedResult(ctrl, await Promise.all(promises));
-    if (loop && result2.finished && !(isLoop && result2.noop)) {
-        const nextProps = createLoopUpdate(props2, loop, to15);
-        if (nextProps) {
-            prepareKeys(ctrl, [
-                nextProps
-            ]);
-            return flushUpdate(ctrl, nextProps, true);
-        }
-    }
-    if (onResolve) (0, _shared.raf).batchedUpdates(()=>onResolve(result2, ctrl, ctrl.item));
-    return result2;
-}
-function getSprings(ctrl, props3) {
-    const springs = _extends({}, ctrl.springs);
-    if (props3) (0, _shared.each)((0, _shared.toArray)(props3), (props)=>{
-        if ((0, _shared.is).und(props.keys)) props = createUpdate(props);
-        if (!(0, _shared.is).obj(props.to)) props = _extends({}, props, {
-            to: undefined
-        });
-        prepareSprings(springs, props, (key)=>{
-            return createSpring(key);
-        });
-    });
-    setSprings(ctrl, springs);
-    return springs;
-}
-function setSprings(ctrl, springs) {
-    (0, _shared.eachProp)(springs, (spring, key)=>{
-        if (!ctrl.springs[key]) {
-            ctrl.springs[key] = spring;
-            (0, _shared.addFluidObserver)(spring, ctrl);
-        }
-    });
-}
-function createSpring(key, observer) {
-    const spring = new SpringValue();
-    spring.key = key;
-    if (observer) (0, _shared.addFluidObserver)(spring, observer);
-    return spring;
-}
-function prepareSprings(springs, props, create) {
-    if (props.keys) (0, _shared.each)(props.keys, (key)=>{
-        const spring = springs[key] || (springs[key] = create(key));
-        spring["_prepareNode"](props);
-    });
-}
-function prepareKeys(ctrl, queue) {
-    (0, _shared.each)(queue, (props)=>{
-        prepareSprings(ctrl.springs, props, (key)=>{
-            return createSpring(key, ctrl);
-        });
-    });
-}
-function _objectWithoutPropertiesLoose(source, excluded) {
-    if (source == null) return {};
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-    for(i = 0; i < sourceKeys.length; i++){
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-    return target;
-}
-const _excluded$3 = [
-    "children"
-];
-const SpringContext = (_ref)=>{
-    let { children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$3);
-    const inherited = (0, _react.useContext)(ctx);
-    const pause = props.pause || !!inherited.pause, immediate = props.immediate || !!inherited.immediate;
-    props = (0, _shared.useMemoOne)(()=>({
-            pause,
-            immediate
-        }), [
-        pause,
-        immediate
-    ]);
-    const { Provider  } = ctx;
-    return _react.createElement(Provider, {
-        value: props
-    }, children);
-};
-const ctx = makeContext(SpringContext, {});
-SpringContext.Provider = ctx.Provider;
-SpringContext.Consumer = ctx.Consumer;
-function makeContext(target, init) {
-    Object.assign(target, _react.createContext(init));
-    target.Provider._context = target;
-    target.Consumer._context = target;
-    return target;
-}
-const SpringRef = ()=>{
-    const current = [];
-    const SpringRef1 = function SpringRef(props) {
-        (0, _shared.deprecateDirectCall)();
-        const results = [];
-        (0, _shared.each)(current, (ctrl, i)=>{
-            if ((0, _shared.is).und(props)) results.push(ctrl.start());
-            else {
-                const update3 = _getProps(props, ctrl, i);
-                if (update3) results.push(ctrl.start(update3));
-            }
-        });
-        return results;
-    };
-    SpringRef1.current = current;
-    SpringRef1.add = function(ctrl) {
-        if (!current.includes(ctrl)) current.push(ctrl);
-    };
-    SpringRef1.delete = function(ctrl) {
-        const i = current.indexOf(ctrl);
-        if (~i) current.splice(i, 1);
-    };
-    SpringRef1.pause = function() {
-        (0, _shared.each)(current, (ctrl)=>ctrl.pause(...arguments));
-        return this;
-    };
-    SpringRef1.resume = function() {
-        (0, _shared.each)(current, (ctrl)=>ctrl.resume(...arguments));
-        return this;
-    };
-    SpringRef1.set = function(values) {
-        (0, _shared.each)(current, (ctrl)=>ctrl.set(values));
-    };
-    SpringRef1.start = function(props) {
-        const results = [];
-        (0, _shared.each)(current, (ctrl, i)=>{
-            if ((0, _shared.is).und(props)) results.push(ctrl.start());
-            else {
-                const update4 = this._getProps(props, ctrl, i);
-                if (update4) results.push(ctrl.start(update4));
-            }
-        });
-        return results;
-    };
-    SpringRef1.stop = function() {
-        (0, _shared.each)(current, (ctrl)=>ctrl.stop(...arguments));
-        return this;
-    };
-    SpringRef1.update = function(props) {
-        (0, _shared.each)(current, (ctrl, i)=>ctrl.update(this._getProps(props, ctrl, i)));
-        return this;
-    };
-    const _getProps = function _getProps(arg, ctrl, index) {
-        return (0, _shared.is).fun(arg) ? arg(index, ctrl) : arg;
-    };
-    SpringRef1._getProps = _getProps;
-    return SpringRef1;
-};
-function useSprings(length, props, deps) {
-    const propsFn = (0, _shared.is).fun(props) && props;
-    if (propsFn && !deps) deps = [];
-    const ref = (0, _react.useMemo)(()=>propsFn || arguments.length == 3 ? SpringRef() : void 0, []);
-    const layoutId = (0, _react.useRef)(0);
-    const forceUpdate = (0, _shared.useForceUpdate)();
-    const state = (0, _react.useMemo)(()=>({
-            ctrls: [],
-            queue: [],
-            flush (ctrl, updates) {
-                const springs = getSprings(ctrl, updates);
-                const canFlushSync = layoutId.current > 0 && !state.queue.length && !Object.keys(springs).some((key)=>!ctrl.springs[key]);
-                return canFlushSync ? flushUpdateQueue(ctrl, updates) : new Promise((resolve)=>{
-                    setSprings(ctrl, springs);
-                    state.queue.push(()=>{
-                        resolve(flushUpdateQueue(ctrl, updates));
-                    });
-                    forceUpdate();
-                });
-            }
-        }), []);
-    const ctrls = (0, _react.useRef)([
-        ...state.ctrls
-    ]);
-    const updates1 = [];
-    const prevLength = (0, _shared.usePrev)(length) || 0;
-    (0, _react.useMemo)(()=>{
-        (0, _shared.each)(ctrls.current.slice(length, prevLength), (ctrl)=>{
-            detachRefs(ctrl, ref);
-            ctrl.stop(true);
-        });
-        ctrls.current.length = length;
-        declareUpdates(prevLength, length);
-    }, [
-        length
-    ]);
-    (0, _react.useMemo)(()=>{
-        declareUpdates(0, Math.min(prevLength, length));
-    }, deps);
-    function declareUpdates(startIndex, endIndex) {
-        for(let i = startIndex; i < endIndex; i++){
-            const ctrl = ctrls.current[i] || (ctrls.current[i] = new Controller(null, state.flush));
-            const update5 = propsFn ? propsFn(i, ctrl) : props[i];
-            if (update5) updates1[i] = declareUpdate(update5);
-        }
-    }
-    const springs1 = ctrls.current.map((ctrl, i)=>getSprings(ctrl, updates1[i]));
-    const context = (0, _react.useContext)(SpringContext);
-    const prevContext = (0, _shared.usePrev)(context);
-    const hasContext = context !== prevContext && hasProps(context);
-    (0, _shared.useLayoutEffect)(()=>{
-        layoutId.current++;
-        state.ctrls = ctrls.current;
-        const { queue  } = state;
-        if (queue.length) {
-            state.queue = [];
-            (0, _shared.each)(queue, (cb)=>cb());
-        }
-        (0, _shared.each)(ctrls.current, (ctrl, i)=>{
-            ref == null || ref.add(ctrl);
-            if (hasContext) ctrl.start({
-                default: context
-            });
-            const update6 = updates1[i];
-            if (update6) {
-                replaceRef(ctrl, update6.ref);
-                if (ctrl.ref) ctrl.queue.push(update6);
-                else ctrl.start(update6);
-            }
-        });
-    });
-    (0, _shared.useOnce)(()=>()=>{
-            (0, _shared.each)(state.ctrls, (ctrl)=>ctrl.stop(true));
-        });
-    const values = springs1.map((x)=>_extends({}, x));
-    return ref ? [
-        values,
-        ref
-    ] : values;
-}
-function useSpring(props, deps) {
-    const isFn = (0, _shared.is).fun(props);
-    const [[values], ref] = useSprings(1, isFn ? props : [
-        props
-    ], isFn ? deps || [] : deps);
-    return isFn || arguments.length == 2 ? [
-        values,
-        ref
-    ] : values;
-}
-const initSpringRef = ()=>SpringRef();
-const useSpringRef = ()=>(0, _react.useState)(initSpringRef)[0];
-function useTrail(length, propsArg1, deps) {
-    var _passedRef;
-    const propsFn = (0, _shared.is).fun(propsArg1) && propsArg1;
-    if (propsFn && !deps) deps = [];
-    let reverse = true;
-    let passedRef = undefined;
-    const result = useSprings(length, (i, ctrl)=>{
-        const props = propsFn ? propsFn(i, ctrl) : propsArg1;
-        passedRef = props.ref;
-        reverse = reverse && props.reverse;
-        return props;
-    }, deps || [
-        {}
-    ]);
-    const ref = (_passedRef = passedRef) != null ? _passedRef : result[1];
-    (0, _shared.useLayoutEffect)(()=>{
-        (0, _shared.each)(ref.current, (ctrl, i)=>{
-            const parent = ref.current[i + (reverse ? 1 : -1)];
-            if (parent) ctrl.start({
-                to: parent.springs
-            });
-            else ctrl.start();
-        });
-    }, deps);
-    if (propsFn || arguments.length == 3) {
-        ref["_getProps"] = (propsArg, ctrl, i)=>{
-            const props = (0, _shared.is).fun(propsArg) ? propsArg(i, ctrl) : propsArg;
-            if (props) {
-                const parent = ref.current[i + (props.reverse ? 1 : -1)];
-                if (parent) props.to = parent.springs;
-                return props;
-            }
-        };
-        return result;
-    }
-    ref["start"] = (propsArg)=>{
-        const results = [];
-        (0, _shared.each)(ref.current, (ctrl, i)=>{
-            const props = (0, _shared.is).fun(propsArg) ? propsArg(i, ctrl) : propsArg;
-            const parent = ref.current[i + (reverse ? 1 : -1)];
-            if (parent) results.push(ctrl.start(_extends({}, props, {
-                to: parent.springs
-            })));
-            else results.push(ctrl.start(_extends({}, props)));
-        });
-        return results;
-    };
-    return result[0];
-}
-let TransitionPhase;
-(function(TransitionPhase1) {
-    TransitionPhase1["MOUNT"] = "mount";
-    TransitionPhase1["ENTER"] = "enter";
-    TransitionPhase1["UPDATE"] = "update";
-    TransitionPhase1["LEAVE"] = "leave";
-})(TransitionPhase || (TransitionPhase = {}));
-function useTransition(data, props, deps) {
-    const propsFn = (0, _shared.is).fun(props) && props;
-    const { reset , sort , trail =0 , expires =true , exitBeforeEnter =false , onDestroyed , ref: propsRef , config: propsConfig  } = propsFn ? propsFn() : props;
-    const ref = (0, _react.useMemo)(()=>propsFn || arguments.length == 3 ? SpringRef() : void 0, []);
-    const items = (0, _shared.toArray)(data);
-    const transitions1 = [];
-    const usedTransitions = (0, _react.useRef)(null);
-    const prevTransitions = reset ? null : usedTransitions.current;
-    (0, _shared.useLayoutEffect)(()=>{
-        usedTransitions.current = transitions1;
-    });
-    (0, _shared.useOnce)(()=>{
-        (0, _shared.each)(usedTransitions.current, (t)=>{
-            var _t$ctrl$ref;
-            (_t$ctrl$ref = t.ctrl.ref) == null || _t$ctrl$ref.add(t.ctrl);
-            const change = changes.get(t);
-            if (change) t.ctrl.start(change.payload);
-        });
-        return ()=>{
-            (0, _shared.each)(usedTransitions.current, (t)=>{
-                if (t.expired) clearTimeout(t.expirationId);
-                detachRefs(t.ctrl, ref);
-                t.ctrl.stop(true);
-            });
-        };
-    });
-    const keys = getKeys(items, propsFn ? propsFn() : props, prevTransitions);
-    const expired = reset && usedTransitions.current || [];
-    (0, _shared.useLayoutEffect)(()=>(0, _shared.each)(expired, ({ ctrl , item , key  })=>{
-            detachRefs(ctrl, ref);
-            callProp(onDestroyed, item, key);
-        }));
-    const reused = [];
-    if (prevTransitions) (0, _shared.each)(prevTransitions, (t, i)=>{
-        if (t.expired) {
-            clearTimeout(t.expirationId);
-            expired.push(t);
-        } else {
-            i = reused[i] = keys.indexOf(t.key);
-            if (~i) transitions1[i] = t;
-        }
-    });
-    (0, _shared.each)(items, (item, i)=>{
-        if (!transitions1[i]) {
-            transitions1[i] = {
-                key: keys[i],
-                item,
-                phase: TransitionPhase.MOUNT,
-                ctrl: new Controller()
-            };
-            transitions1[i].ctrl.item = item;
-        }
-    });
-    if (reused.length) {
-        let i = -1;
-        const { leave  } = propsFn ? propsFn() : props;
-        (0, _shared.each)(reused, (keyIndex, prevIndex)=>{
-            const t = prevTransitions[prevIndex];
-            if (~keyIndex) {
-                i = transitions1.indexOf(t);
-                transitions1[i] = _extends({}, t, {
-                    item: items[keyIndex]
-                });
-            } else if (leave) transitions1.splice(++i, 0, t);
-        });
-    }
-    if ((0, _shared.is).fun(sort)) transitions1.sort((a, b)=>sort(a.item, b.item));
-    let delay = -trail;
-    const forceUpdate = (0, _shared.useForceUpdate)();
-    const defaultProps = getDefaultProps(props);
-    const changes = new Map();
-    const exitingTransitions = (0, _react.useRef)(new Map());
-    const forceChange = (0, _react.useRef)(false);
-    (0, _shared.each)(transitions1, (t1, i)=>{
-        const key = t1.key;
-        const prevPhase = t1.phase;
-        const p = propsFn ? propsFn() : props;
-        let to16;
-        let phase;
-        let propsDelay = callProp(p.delay || 0, key);
-        if (prevPhase == TransitionPhase.MOUNT) {
-            to16 = p.enter;
-            phase = TransitionPhase.ENTER;
-        } else {
-            const isLeave = keys.indexOf(key) < 0;
-            if (prevPhase != TransitionPhase.LEAVE) {
-                if (isLeave) {
-                    to16 = p.leave;
-                    phase = TransitionPhase.LEAVE;
-                } else if (to16 = p.update) phase = TransitionPhase.UPDATE;
-                else return;
-            } else if (!isLeave) {
-                to16 = p.enter;
-                phase = TransitionPhase.ENTER;
-            } else return;
-        }
-        to16 = callProp(to16, t1.item, i);
-        to16 = (0, _shared.is).obj(to16) ? inferTo(to16) : {
-            to: to16
-        };
-        if (!to16.config) {
-            const config6 = propsConfig || defaultProps.config;
-            to16.config = callProp(config6, t1.item, i, phase);
-        }
-        delay += trail;
-        const payload = _extends({}, defaultProps, {
-            delay: propsDelay + delay,
-            ref: propsRef,
-            immediate: p.immediate,
-            reset: false
-        }, to16);
-        if (phase == TransitionPhase.ENTER && (0, _shared.is).und(payload.from)) {
-            const _p = propsFn ? propsFn() : props;
-            const from = (0, _shared.is).und(_p.initial) || prevTransitions ? _p.from : _p.initial;
-            payload.from = callProp(from, t1.item, i);
-        }
-        const { onResolve  } = payload;
-        payload.onResolve = (result)=>{
-            callProp(onResolve, result);
-            const transitions = usedTransitions.current;
-            const t2 = transitions.find((t)=>t.key === key);
-            if (!t2) return;
-            if (result.cancelled && t2.phase != TransitionPhase.UPDATE) return;
-            if (t2.ctrl.idle) {
-                const idle = transitions.every((t)=>t.ctrl.idle);
-                if (t2.phase == TransitionPhase.LEAVE) {
-                    const expiry = callProp(expires, t2.item);
-                    if (expiry !== false) {
-                        const expiryMs = expiry === true ? 0 : expiry;
-                        t2.expired = true;
-                        if (!idle && expiryMs > 0) {
-                            if (expiryMs <= 0x7fffffff) t2.expirationId = setTimeout(forceUpdate, expiryMs);
-                            return;
-                        }
-                    }
-                }
-                if (idle && transitions.some((t)=>t.expired)) {
-                    exitingTransitions.current.delete(t2);
-                    if (exitBeforeEnter) forceChange.current = true;
-                    forceUpdate();
-                }
-            }
-        };
-        const springs = getSprings(t1.ctrl, payload);
-        if (phase === TransitionPhase.LEAVE && exitBeforeEnter) exitingTransitions.current.set(t1, {
-            phase,
-            springs,
-            payload
-        });
-        else changes.set(t1, {
-            phase,
-            springs,
-            payload
-        });
-    });
-    const context = (0, _react.useContext)(SpringContext);
-    const prevContext = (0, _shared.usePrev)(context);
-    const hasContext = context !== prevContext && hasProps(context);
-    (0, _shared.useLayoutEffect)(()=>{
-        if (hasContext) (0, _shared.each)(transitions1, (t)=>{
-            t.ctrl.start({
-                default: context
-            });
-        });
-    }, [
-        context
-    ]);
-    (0, _shared.each)(changes, (_, t)=>{
-        if (exitingTransitions.current.size) {
-            const ind = transitions1.findIndex((state)=>state.key === t.key);
-            transitions1.splice(ind, 1);
-        }
-    });
-    (0, _shared.useLayoutEffect)(()=>{
-        (0, _shared.each)(exitingTransitions.current.size ? exitingTransitions.current : changes, ({ phase , payload  }, t)=>{
-            const { ctrl  } = t;
-            t.phase = phase;
-            ref == null || ref.add(ctrl);
-            if (hasContext && phase == TransitionPhase.ENTER) ctrl.start({
-                default: context
-            });
-            if (payload) {
-                replaceRef(ctrl, payload.ref);
-                if (ctrl.ref && !forceChange.current) ctrl.update(payload);
-                else {
-                    ctrl.start(payload);
-                    if (forceChange.current) forceChange.current = false;
-                }
-            }
-        });
-    }, reset ? void 0 : deps);
-    const renderTransitions = (render)=>_react.createElement(_react.Fragment, null, transitions1.map((t, i)=>{
-            const { springs  } = changes.get(t) || t.ctrl;
-            const elem = render(_extends({}, springs), t.item, t, i);
-            return elem && elem.type ? _react.createElement(elem.type, _extends({}, elem.props, {
-                key: (0, _shared.is).str(t.key) || (0, _shared.is).num(t.key) ? t.key : t.ctrl.id,
-                ref: elem.ref
-            })) : elem;
-        }));
-    return ref ? [
-        renderTransitions,
-        ref
-    ] : renderTransitions;
-}
-let nextKey = 1;
-function getKeys(items, { key , keys =key  }, prevTransitions) {
-    if (keys === null) {
-        const reused = new Set();
-        return items.map((item)=>{
-            const t3 = prevTransitions && prevTransitions.find((t)=>t.item === item && t.phase !== TransitionPhase.LEAVE && !reused.has(t));
-            if (t3) {
-                reused.add(t3);
-                return t3.key;
-            }
-            return nextKey++;
-        });
-    }
-    return (0, _shared.is).und(keys) ? items : (0, _shared.is).fun(keys) ? items.map(keys) : (0, _shared.toArray)(keys);
-}
-const _excluded$2 = [
-    "children"
-];
-function Spring(_ref) {
-    let { children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$2);
-    return children(useSpring(props));
-}
-const _excluded$1 = [
-    "items",
-    "children"
-];
-function Trail(_ref) {
-    let { items , children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$1);
-    const trails = useTrail(items.length, props);
-    return items.map((item, index)=>{
-        const result = children(item, index);
-        return (0, _shared.is).fun(result) ? result(trails[index]) : result;
-    });
-}
-const _excluded = [
-    "items",
-    "children"
-];
-function Transition(_ref) {
-    let { items , children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded);
-    return useTransition(items, props)(children);
-}
-class Interpolation extends FrameValue {
-    constructor(source, args){
-        super();
-        this.key = void 0;
-        this.idle = true;
-        this.calc = void 0;
-        this._active = new Set();
-        this.source = source;
-        this.calc = (0, _shared.createInterpolator)(...args);
-        const value = this._get();
-        const nodeType = (0, _animated.getAnimatedType)(value);
-        (0, _animated.setAnimated)(this, nodeType.create(value));
-    }
-    advance(_dt) {
-        const value = this._get();
-        const oldValue = this.get();
-        if (!(0, _shared.isEqual)(value, oldValue)) {
-            (0, _animated.getAnimated)(this).setValue(value);
-            this._onChange(value, this.idle);
-        }
-        if (!this.idle && checkIdle(this._active)) becomeIdle(this);
-    }
-    _get() {
-        const inputs = (0, _shared.is).arr(this.source) ? this.source.map((0, _shared.getFluidValue)) : (0, _shared.toArray)((0, _shared.getFluidValue)(this.source));
-        return this.calc(...inputs);
-    }
-    _start() {
-        if (this.idle && !checkIdle(this._active)) {
-            this.idle = false;
-            (0, _shared.each)((0, _animated.getPayload)(this), (node)=>{
-                node.done = false;
-            });
-            if ((0, _shared.Globals).skipAnimation) {
-                (0, _shared.raf).batchedUpdates(()=>this.advance());
-                becomeIdle(this);
-            } else (0, _shared.frameLoop).start(this);
-        }
-    }
-    _attach() {
-        let priority = 1;
-        (0, _shared.each)((0, _shared.toArray)(this.source), (source)=>{
-            if ((0, _shared.hasFluidValue)(source)) (0, _shared.addFluidObserver)(source, this);
-            if (isFrameValue(source)) {
-                if (!source.idle) this._active.add(source);
-                priority = Math.max(priority, source.priority + 1);
-            }
-        });
-        this.priority = priority;
-        this._start();
-    }
-    _detach() {
-        (0, _shared.each)((0, _shared.toArray)(this.source), (source)=>{
-            if ((0, _shared.hasFluidValue)(source)) (0, _shared.removeFluidObserver)(source, this);
-        });
-        this._active.clear();
-        becomeIdle(this);
-    }
-    eventObserved(event) {
-        if (event.type == "change") {
-            if (event.idle) this.advance();
-            else {
-                this._active.add(event.parent);
-                this._start();
-            }
-        } else if (event.type == "idle") this._active.delete(event.parent);
-        else if (event.type == "priority") this.priority = (0, _shared.toArray)(this.source).reduce((highest, parent)=>Math.max(highest, (isFrameValue(parent) ? parent.priority : 0) + 1), 0);
-    }
-}
-function isIdle(source) {
-    return source.idle !== false;
-}
-function checkIdle(active) {
-    return !active.size || Array.from(active).every(isIdle);
-}
-function becomeIdle(self) {
-    if (!self.idle) {
-        self.idle = true;
-        (0, _shared.each)((0, _animated.getPayload)(self), (node)=>{
-            node.done = true;
-        });
-        (0, _shared.callFluidObservers)(self, {
-            type: "idle",
-            parent: self
-        });
-    }
-}
-const to = (source, ...args)=>new Interpolation(source, args);
-const interpolate = (source, ...args)=>((0, _shared.deprecateInterpolate)(), new Interpolation(source, args));
-(0, _shared.Globals).assign({
-    createStringInterpolator: (0, _shared.createStringInterpolator),
-    to: (source, args)=>new Interpolation(source, args)
-});
-const update = (0, _shared.frameLoop).advance;
-
-},{"@react-spring/shared":"jm667","react":"21dqq","@react-spring/animated":"abfrL","@react-spring/types/animated":"e9Tpo","@react-spring/types/interpolation":"dlWzh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"abfrL":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Animated", ()=>Animated);
-parcelHelpers.export(exports, "AnimatedArray", ()=>AnimatedArray);
-parcelHelpers.export(exports, "AnimatedObject", ()=>AnimatedObject);
-parcelHelpers.export(exports, "AnimatedString", ()=>AnimatedString);
-parcelHelpers.export(exports, "AnimatedValue", ()=>AnimatedValue);
-parcelHelpers.export(exports, "createHost", ()=>createHost);
-parcelHelpers.export(exports, "getAnimated", ()=>getAnimated);
-parcelHelpers.export(exports, "getAnimatedType", ()=>getAnimatedType);
-parcelHelpers.export(exports, "getPayload", ()=>getPayload);
-parcelHelpers.export(exports, "isAnimated", ()=>isAnimated);
-parcelHelpers.export(exports, "setAnimated", ()=>setAnimated);
-var _shared = require("@react-spring/shared");
-var _react = require("react");
-const $node = Symbol.for("Animated:node");
-const isAnimated = (value)=>!!value && value[$node] === value;
-const getAnimated = (owner)=>owner && owner[$node];
-const setAnimated = (owner, node)=>(0, _shared.defineHidden)(owner, $node, node);
-const getPayload = (owner)=>owner && owner[$node] && owner[$node].getPayload();
-class Animated {
-    constructor(){
-        this.payload = void 0;
-        setAnimated(this, this);
-    }
-    getPayload() {
-        return this.payload || [];
-    }
-}
-class AnimatedValue extends Animated {
-    constructor(_value){
-        super();
-        this.done = true;
-        this.elapsedTime = void 0;
-        this.lastPosition = void 0;
-        this.lastVelocity = void 0;
-        this.v0 = void 0;
-        this.durationProgress = 0;
-        this._value = _value;
-        if ((0, _shared.is).num(this._value)) this.lastPosition = this._value;
-    }
-    static create(value) {
-        return new AnimatedValue(value);
-    }
-    getPayload() {
-        return [
-            this
-        ];
-    }
-    getValue() {
-        return this._value;
-    }
-    setValue(value, step) {
-        if ((0, _shared.is).num(value)) {
-            this.lastPosition = value;
-            if (step) {
-                value = Math.round(value / step) * step;
-                if (this.done) this.lastPosition = value;
-            }
-        }
-        if (this._value === value) return false;
-        this._value = value;
-        return true;
-    }
-    reset() {
-        const { done  } = this;
-        this.done = false;
-        if ((0, _shared.is).num(this._value)) {
-            this.elapsedTime = 0;
-            this.durationProgress = 0;
-            this.lastPosition = this._value;
-            if (done) this.lastVelocity = null;
-            this.v0 = null;
-        }
-    }
-}
-class AnimatedString extends AnimatedValue {
-    constructor(value){
-        super(0);
-        this._string = null;
-        this._toString = void 0;
-        this._toString = (0, _shared.createInterpolator)({
-            output: [
-                value,
-                value
-            ]
-        });
-    }
-    static create(value) {
-        return new AnimatedString(value);
-    }
-    getValue() {
-        let value = this._string;
-        return value == null ? this._string = this._toString(this._value) : value;
-    }
-    setValue(value) {
-        if ((0, _shared.is).str(value)) {
-            if (value == this._string) return false;
-            this._string = value;
-            this._value = 1;
-        } else if (super.setValue(value)) this._string = null;
-        else return false;
-        return true;
-    }
-    reset(goal) {
-        if (goal) this._toString = (0, _shared.createInterpolator)({
-            output: [
-                this.getValue(),
-                goal
-            ]
-        });
-        this._value = 0;
-        super.reset();
-    }
-}
-const TreeContext = {
-    dependencies: null
-};
-class AnimatedObject extends Animated {
-    constructor(source){
-        super();
-        this.source = source;
-        this.setValue(source);
-    }
-    getValue(animated) {
-        const values = {};
-        (0, _shared.eachProp)(this.source, (source, key)=>{
-            if (isAnimated(source)) values[key] = source.getValue(animated);
-            else if ((0, _shared.hasFluidValue)(source)) values[key] = (0, _shared.getFluidValue)(source);
-            else if (!animated) values[key] = source;
-        });
-        return values;
-    }
-    setValue(source) {
-        this.source = source;
-        this.payload = this._makePayload(source);
-    }
-    reset() {
-        if (this.payload) (0, _shared.each)(this.payload, (node)=>node.reset());
-    }
-    _makePayload(source) {
-        if (source) {
-            const payload = new Set();
-            (0, _shared.eachProp)(source, this._addToPayload, payload);
-            return Array.from(payload);
-        }
-    }
-    _addToPayload(source) {
-        if (TreeContext.dependencies && (0, _shared.hasFluidValue)(source)) TreeContext.dependencies.add(source);
-        const payload = getPayload(source);
-        if (payload) (0, _shared.each)(payload, (node)=>this.add(node));
-    }
-}
-class AnimatedArray extends AnimatedObject {
-    constructor(source){
-        super(source);
-    }
-    static create(source) {
-        return new AnimatedArray(source);
-    }
-    getValue() {
-        return this.source.map((node)=>node.getValue());
-    }
-    setValue(source) {
-        const payload = this.getPayload();
-        if (source.length == payload.length) return payload.map((node, i)=>node.setValue(source[i])).some(Boolean);
-        super.setValue(source.map(makeAnimated));
-        return true;
-    }
-}
-function makeAnimated(value) {
-    const nodeType = (0, _shared.isAnimatedString)(value) ? AnimatedString : AnimatedValue;
-    return nodeType.create(value);
-}
-function getAnimatedType(value) {
-    const parentNode = getAnimated(value);
-    return parentNode ? parentNode.constructor : (0, _shared.is).arr(value) ? AnimatedArray : (0, _shared.isAnimatedString)(value) ? AnimatedString : AnimatedValue;
-}
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-const withAnimated = (Component, host)=>{
-    const hasInstance = !(0, _shared.is).fun(Component) || Component.prototype && Component.prototype.isReactComponent;
-    return (0, _react.forwardRef)((givenProps, givenRef)=>{
-        const instanceRef = (0, _react.useRef)(null);
-        const ref = hasInstance && (0, _react.useCallback)((value)=>{
-            instanceRef.current = updateRef(givenRef, value);
-        }, [
-            givenRef
-        ]);
-        const [props, deps] = getAnimatedState(givenProps, host);
-        const forceUpdate = (0, _shared.useForceUpdate)();
-        const callback = ()=>{
-            const instance = instanceRef.current;
-            if (hasInstance && !instance) return;
-            const didUpdate = instance ? host.applyAnimatedValues(instance, props.getValue(true)) : false;
-            if (didUpdate === false) forceUpdate();
-        };
-        const observer1 = new PropsObserver(callback, deps);
-        const observerRef = (0, _react.useRef)();
-        (0, _shared.useLayoutEffect)(()=>{
-            observerRef.current = observer1;
-            (0, _shared.each)(deps, (dep)=>(0, _shared.addFluidObserver)(dep, observer1));
-            return ()=>{
-                if (observerRef.current) {
-                    (0, _shared.each)(observerRef.current.deps, (dep)=>(0, _shared.removeFluidObserver)(dep, observerRef.current));
-                    (0, _shared.raf).cancel(observerRef.current.update);
-                }
-            };
-        });
-        (0, _react.useEffect)(callback, []);
-        (0, _shared.useOnce)(()=>()=>{
-                const observer = observerRef.current;
-                (0, _shared.each)(observer.deps, (dep)=>(0, _shared.removeFluidObserver)(dep, observer));
-            });
-        const usedProps = host.getComponentProps(props.getValue());
-        return _react.createElement(Component, _extends({}, usedProps, {
-            ref: ref
-        }));
-    });
-};
-class PropsObserver {
-    constructor(update, deps){
-        this.update = update;
-        this.deps = deps;
-    }
-    eventObserved(event) {
-        if (event.type == "change") (0, _shared.raf).write(this.update);
-    }
-}
-function getAnimatedState(props, host) {
-    const dependencies = new Set();
-    TreeContext.dependencies = dependencies;
-    if (props.style) props = _extends({}, props, {
-        style: host.createAnimatedStyle(props.style)
-    });
-    props = new AnimatedObject(props);
-    TreeContext.dependencies = null;
-    return [
-        props,
-        dependencies
-    ];
-}
-function updateRef(ref, value) {
-    if (ref) {
-        if ((0, _shared.is).fun(ref)) ref(value);
-        else ref.current = value;
-    }
-    return value;
-}
-const cacheKey = Symbol.for("AnimatedComponent");
-const createHost = (components, { applyAnimatedValues: _applyAnimatedValues = ()=>false , createAnimatedStyle: _createAnimatedStyle = (style)=>new AnimatedObject(style) , getComponentProps: _getComponentProps = (props)=>props  } = {})=>{
-    const hostConfig = {
-        applyAnimatedValues: _applyAnimatedValues,
-        createAnimatedStyle: _createAnimatedStyle,
-        getComponentProps: _getComponentProps
-    };
-    const animated = (Component)=>{
-        const displayName = getDisplayName(Component) || "Anonymous";
-        if ((0, _shared.is).str(Component)) Component = animated[Component] || (animated[Component] = withAnimated(Component, hostConfig));
-        else Component = Component[cacheKey] || (Component[cacheKey] = withAnimated(Component, hostConfig));
-        Component.displayName = `Animated(${displayName})`;
-        return Component;
-    };
-    (0, _shared.eachProp)(components, (Component, key)=>{
-        if ((0, _shared.is).arr(components)) key = getDisplayName(Component);
-        animated[key] = animated(Component);
-    });
-    return {
-        animated
-    };
-};
-const getDisplayName = (arg)=>(0, _shared.is).str(arg) ? arg : arg && (0, _shared.is).str(arg.displayName) ? arg.displayName : (0, _shared.is).fun(arg) && arg.name || null;
-
-},{"@react-spring/shared":"jm667","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e9Tpo":[function(require,module,exports) {
-
-},{}],"dlWzh":[function(require,module,exports) {
-
-},{}],"fdQBU":[function(require,module,exports) {
+},{"react":"21dqq","@react-spring/shared":"jm667","@react-spring/web":"75MAn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fdQBU":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "bg.577eee2d.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"2gPbQ":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _web = require("@react-spring/web");
-parcelHelpers.exportAll(_web, exports);
-
-},{"@react-spring/web":"jAqef","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jAqef":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "a", ()=>animated);
-parcelHelpers.export(exports, "animated", ()=>animated);
-var _core = require("@react-spring/core");
-var _reactDom = require("react-dom");
-var _shared = require("@react-spring/shared");
-var _animated = require("@react-spring/animated");
-parcelHelpers.exportAll(_core, exports);
-function _objectWithoutPropertiesLoose(source, excluded) {
-    if (source == null) return {};
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-    for(i = 0; i < sourceKeys.length; i++){
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-    return target;
-}
-const _excluded$2 = [
-    "style",
-    "children",
-    "scrollTop",
-    "scrollLeft"
-];
-const isCustomPropRE = /^--/;
-function dangerousStyleValue(name, value) {
-    if (value == null || typeof value === "boolean" || value === "") return "";
-    if (typeof value === "number" && value !== 0 && !isCustomPropRE.test(name) && !(isUnitlessNumber.hasOwnProperty(name) && isUnitlessNumber[name])) return value + "px";
-    return ("" + value).trim();
-}
-const attributeCache = {};
-function applyAnimatedValues(instance, props) {
-    if (!instance.nodeType || !instance.setAttribute) return false;
-    const isFilterElement = instance.nodeName === "filter" || instance.parentNode && instance.parentNode.nodeName === "filter";
-    const _ref = props, { style , children , scrollTop , scrollLeft  } = _ref, attributes = _objectWithoutPropertiesLoose(_ref, _excluded$2);
-    const values = Object.values(attributes);
-    const names = Object.keys(attributes).map((name)=>isFilterElement || instance.hasAttribute(name) ? name : attributeCache[name] || (attributeCache[name] = name.replace(/([A-Z])/g, (n)=>"-" + n.toLowerCase())));
-    if (children !== void 0) instance.textContent = children;
-    for(let name1 in style)if (style.hasOwnProperty(name1)) {
-        const value = dangerousStyleValue(name1, style[name1]);
-        if (isCustomPropRE.test(name1)) instance.style.setProperty(name1, value);
-        else instance.style[name1] = value;
-    }
-    names.forEach((name, i)=>{
-        instance.setAttribute(name, values[i]);
-    });
-    if (scrollTop !== void 0) instance.scrollTop = scrollTop;
-    if (scrollLeft !== void 0) instance.scrollLeft = scrollLeft;
-}
-let isUnitlessNumber = {
-    animationIterationCount: true,
-    borderImageOutset: true,
-    borderImageSlice: true,
-    borderImageWidth: true,
-    boxFlex: true,
-    boxFlexGroup: true,
-    boxOrdinalGroup: true,
-    columnCount: true,
-    columns: true,
-    flex: true,
-    flexGrow: true,
-    flexPositive: true,
-    flexShrink: true,
-    flexNegative: true,
-    flexOrder: true,
-    gridRow: true,
-    gridRowEnd: true,
-    gridRowSpan: true,
-    gridRowStart: true,
-    gridColumn: true,
-    gridColumnEnd: true,
-    gridColumnSpan: true,
-    gridColumnStart: true,
-    fontWeight: true,
-    lineClamp: true,
-    lineHeight: true,
-    opacity: true,
-    order: true,
-    orphans: true,
-    tabSize: true,
-    widows: true,
-    zIndex: true,
-    zoom: true,
-    fillOpacity: true,
-    floodOpacity: true,
-    stopOpacity: true,
-    strokeDasharray: true,
-    strokeDashoffset: true,
-    strokeMiterlimit: true,
-    strokeOpacity: true,
-    strokeWidth: true
-};
-const prefixKey = (prefix, key)=>prefix + key.charAt(0).toUpperCase() + key.substring(1);
-const prefixes = [
-    "Webkit",
-    "Ms",
-    "Moz",
-    "O"
-];
-isUnitlessNumber = Object.keys(isUnitlessNumber).reduce((acc, prop)=>{
-    prefixes.forEach((prefix)=>acc[prefixKey(prefix, prop)] = acc[prop]);
-    return acc;
-}, isUnitlessNumber);
-const _excluded$1 = [
-    "x",
-    "y",
-    "z"
-];
-const domTransforms = /^(matrix|translate|scale|rotate|skew)/;
-const pxTransforms = /^(translate)/;
-const degTransforms = /^(rotate|skew)/;
-const addUnit = (value, unit)=>(0, _shared.is).num(value) && value !== 0 ? value + unit : value;
-const isValueIdentity = (value, id)=>(0, _shared.is).arr(value) ? value.every((v)=>isValueIdentity(v, id)) : (0, _shared.is).num(value) ? value === id : parseFloat(value) === id;
-class AnimatedStyle extends (0, _animated.AnimatedObject) {
-    constructor(_ref){
-        let { x: x1 , y: y1 , z: z1  } = _ref, style = _objectWithoutPropertiesLoose(_ref, _excluded$1);
-        const inputs = [];
-        const transforms = [];
-        if (x1 || y1 || z1) {
-            inputs.push([
-                x1 || 0,
-                y1 || 0,
-                z1 || 0
-            ]);
-            transforms.push((xyz)=>[
-                    `translate3d(${xyz.map((v)=>addUnit(v, "px")).join(",")})`,
-                    isValueIdentity(xyz, 0)
-                ]);
-        }
-        (0, _shared.eachProp)(style, (value, key)=>{
-            if (key === "transform") {
-                inputs.push([
-                    value || ""
-                ]);
-                transforms.push((transform)=>[
-                        transform,
-                        transform === ""
-                    ]);
-            } else if (domTransforms.test(key)) {
-                delete style[key];
-                if ((0, _shared.is).und(value)) return;
-                const unit = pxTransforms.test(key) ? "px" : degTransforms.test(key) ? "deg" : "";
-                inputs.push((0, _shared.toArray)(value));
-                transforms.push(key === "rotate3d" ? ([x, y, z, deg])=>[
-                        `rotate3d(${x},${y},${z},${addUnit(deg, unit)})`,
-                        isValueIdentity(deg, 0)
-                    ] : (input)=>[
-                        `${key}(${input.map((v)=>addUnit(v, unit)).join(",")})`,
-                        isValueIdentity(input, key.startsWith("scale") ? 1 : 0)
-                    ]);
-            }
-        });
-        if (inputs.length) style.transform = new FluidTransform(inputs, transforms);
-        super(style);
-    }
-}
-class FluidTransform extends (0, _shared.FluidValue) {
-    constructor(inputs, transforms){
-        super();
-        this._value = null;
-        this.inputs = inputs;
-        this.transforms = transforms;
-    }
-    get() {
-        return this._value || (this._value = this._get());
-    }
-    _get() {
-        let transform = "";
-        let identity = true;
-        (0, _shared.each)(this.inputs, (input, i)=>{
-            const arg1 = (0, _shared.getFluidValue)(input[0]);
-            const [t, id] = this.transforms[i]((0, _shared.is).arr(arg1) ? arg1 : input.map((0, _shared.getFluidValue)));
-            transform += " " + t;
-            identity = identity && id;
-        });
-        return identity ? "none" : transform;
-    }
-    observerAdded(count) {
-        if (count == 1) (0, _shared.each)(this.inputs, (input)=>(0, _shared.each)(input, (value)=>(0, _shared.hasFluidValue)(value) && (0, _shared.addFluidObserver)(value, this)));
-    }
-    observerRemoved(count) {
-        if (count == 0) (0, _shared.each)(this.inputs, (input)=>(0, _shared.each)(input, (value)=>(0, _shared.hasFluidValue)(value) && (0, _shared.removeFluidObserver)(value, this)));
-    }
-    eventObserved(event) {
-        if (event.type == "change") this._value = null;
-        (0, _shared.callFluidObservers)(this, event);
-    }
-}
-const primitives = [
-    "a",
-    "abbr",
-    "address",
-    "area",
-    "article",
-    "aside",
-    "audio",
-    "b",
-    "base",
-    "bdi",
-    "bdo",
-    "big",
-    "blockquote",
-    "body",
-    "br",
-    "button",
-    "canvas",
-    "caption",
-    "cite",
-    "code",
-    "col",
-    "colgroup",
-    "data",
-    "datalist",
-    "dd",
-    "del",
-    "details",
-    "dfn",
-    "dialog",
-    "div",
-    "dl",
-    "dt",
-    "em",
-    "embed",
-    "fieldset",
-    "figcaption",
-    "figure",
-    "footer",
-    "form",
-    "h1",
-    "h2",
-    "h3",
-    "h4",
-    "h5",
-    "h6",
-    "head",
-    "header",
-    "hgroup",
-    "hr",
-    "html",
-    "i",
-    "iframe",
-    "img",
-    "input",
-    "ins",
-    "kbd",
-    "keygen",
-    "label",
-    "legend",
-    "li",
-    "link",
-    "main",
-    "map",
-    "mark",
-    "menu",
-    "menuitem",
-    "meta",
-    "meter",
-    "nav",
-    "noscript",
-    "object",
-    "ol",
-    "optgroup",
-    "option",
-    "output",
-    "p",
-    "param",
-    "picture",
-    "pre",
-    "progress",
-    "q",
-    "rp",
-    "rt",
-    "ruby",
-    "s",
-    "samp",
-    "script",
-    "section",
-    "select",
-    "small",
-    "source",
-    "span",
-    "strong",
-    "style",
-    "sub",
-    "summary",
-    "sup",
-    "table",
-    "tbody",
-    "td",
-    "textarea",
-    "tfoot",
-    "th",
-    "thead",
-    "time",
-    "title",
-    "tr",
-    "track",
-    "u",
-    "ul",
-    "var",
-    "video",
-    "wbr",
-    "circle",
-    "clipPath",
-    "defs",
-    "ellipse",
-    "foreignObject",
-    "g",
-    "image",
-    "line",
-    "linearGradient",
-    "mask",
-    "path",
-    "pattern",
-    "polygon",
-    "polyline",
-    "radialGradient",
-    "rect",
-    "stop",
-    "svg",
-    "text",
-    "tspan"
-];
-const _excluded = [
-    "scrollTop",
-    "scrollLeft"
-];
-(0, _core.Globals).assign({
-    batchedUpdates: (0, _reactDom.unstable_batchedUpdates),
-    createStringInterpolator: (0, _shared.createStringInterpolator),
-    colors: (0, _shared.colors)
-});
-const host = (0, _animated.createHost)(primitives, {
-    applyAnimatedValues,
-    createAnimatedStyle: (style)=>new AnimatedStyle(style),
-    getComponentProps: (_ref)=>{
-        let props = _objectWithoutPropertiesLoose(_ref, _excluded);
-        return props;
-    }
-});
-const animated = host.animated;
-
-},{"@react-spring/core":"aQVw1","react-dom":"j6uA9","@react-spring/shared":"ddiQF","@react-spring/animated":"cBjYb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aQVw1":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Globals", ()=>(0, _shared.Globals));
-parcelHelpers.export(exports, "createInterpolator", ()=>(0, _shared.createInterpolator));
-parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>(0, _shared.useIsomorphicLayoutEffect));
-parcelHelpers.export(exports, "useReducedMotion", ()=>(0, _shared.useReducedMotion));
-parcelHelpers.export(exports, "BailSignal", ()=>BailSignal);
-parcelHelpers.export(exports, "Controller", ()=>Controller);
-parcelHelpers.export(exports, "FrameValue", ()=>FrameValue);
-parcelHelpers.export(exports, "Interpolation", ()=>Interpolation);
-parcelHelpers.export(exports, "Spring", ()=>Spring);
-parcelHelpers.export(exports, "SpringContext", ()=>SpringContext);
-parcelHelpers.export(exports, "SpringRef", ()=>SpringRef);
-parcelHelpers.export(exports, "SpringValue", ()=>SpringValue);
-parcelHelpers.export(exports, "Trail", ()=>Trail);
-parcelHelpers.export(exports, "Transition", ()=>Transition);
-parcelHelpers.export(exports, "config", ()=>config);
-parcelHelpers.export(exports, "easings", ()=>easings);
-parcelHelpers.export(exports, "inferTo", ()=>inferTo);
-parcelHelpers.export(exports, "interpolate", ()=>interpolate);
-parcelHelpers.export(exports, "to", ()=>to);
-parcelHelpers.export(exports, "update", ()=>update);
-parcelHelpers.export(exports, "useChain", ()=>useChain);
-parcelHelpers.export(exports, "useSpring", ()=>useSpring);
-parcelHelpers.export(exports, "useSpringRef", ()=>useSpringRef);
-parcelHelpers.export(exports, "useSprings", ()=>useSprings);
-parcelHelpers.export(exports, "useTrail", ()=>useTrail);
-parcelHelpers.export(exports, "useTransition", ()=>useTransition);
-var _shared = require("@react-spring/shared");
-var _react = require("react");
-var _animated = require("@react-spring/animated");
-var _animated1 = require("@react-spring/types/animated");
-parcelHelpers.exportAll(_animated1, exports);
-var _interpolation = require("@react-spring/types/interpolation");
-parcelHelpers.exportAll(_interpolation, exports);
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-function callProp(value, ...args) {
-    return (0, _shared.is).fun(value) ? value(...args) : value;
-}
-const matchProp = (value, key)=>value === true || !!(key && value && ((0, _shared.is).fun(value) ? value(key) : (0, _shared.toArray)(value).includes(key)));
-const resolveProp = (prop, key)=>(0, _shared.is).obj(prop) ? key && prop[key] : prop;
-const getDefaultProp = (props, key)=>props.default === true ? props[key] : props.default ? props.default[key] : undefined;
-const noopTransform = (value)=>value;
-const getDefaultProps = (props, transform = noopTransform)=>{
-    let keys = DEFAULT_PROPS;
-    if (props.default && props.default !== true) {
-        props = props.default;
-        keys = Object.keys(props);
-    }
-    const defaults1 = {};
-    for (const key of keys){
-        const value = transform(props[key], key);
-        if (!(0, _shared.is).und(value)) defaults1[key] = value;
-    }
-    return defaults1;
-};
-const DEFAULT_PROPS = [
-    "config",
-    "onProps",
-    "onStart",
-    "onChange",
-    "onPause",
-    "onResume",
-    "onRest"
-];
-const RESERVED_PROPS = {
-    config: 1,
-    from: 1,
-    to: 1,
-    ref: 1,
-    loop: 1,
-    reset: 1,
-    pause: 1,
-    cancel: 1,
-    reverse: 1,
-    immediate: 1,
-    default: 1,
-    delay: 1,
-    onProps: 1,
-    onStart: 1,
-    onChange: 1,
-    onPause: 1,
-    onResume: 1,
-    onRest: 1,
-    onResolve: 1,
-    items: 1,
-    trail: 1,
-    sort: 1,
-    expires: 1,
-    initial: 1,
-    enter: 1,
-    update: 1,
-    leave: 1,
-    children: 1,
-    onDestroyed: 1,
-    keys: 1,
-    callId: 1,
-    parentId: 1
-};
-function getForwardProps(props) {
-    const forward = {};
-    let count = 0;
-    (0, _shared.eachProp)(props, (value, prop)=>{
-        if (!RESERVED_PROPS[prop]) {
-            forward[prop] = value;
-            count++;
-        }
-    });
-    if (count) return forward;
-}
-function inferTo(props) {
-    const to1 = getForwardProps(props);
-    if (to1) {
-        const out = {
-            to: to1
-        };
-        (0, _shared.eachProp)(props, (val, key)=>key in to1 || (out[key] = val));
-        return out;
-    }
-    return _extends({}, props);
-}
-function computeGoal(value) {
-    value = (0, _shared.getFluidValue)(value);
-    return (0, _shared.is).arr(value) ? value.map(computeGoal) : (0, _shared.isAnimatedString)(value) ? (0, _shared.Globals).createStringInterpolator({
-        range: [
-            0,
-            1
-        ],
-        output: [
-            value,
-            value
-        ]
-    })(1) : value;
-}
-function hasProps(props) {
-    for(const _ in props)return true;
-    return false;
-}
-function isAsyncTo(to2) {
-    return (0, _shared.is).fun(to2) || (0, _shared.is).arr(to2) && (0, _shared.is).obj(to2[0]);
-}
-function detachRefs(ctrl, ref) {
-    var _ctrl$ref;
-    (_ctrl$ref = ctrl.ref) == null || _ctrl$ref.delete(ctrl);
-    ref == null || ref.delete(ctrl);
-}
-function replaceRef(ctrl, ref) {
-    if (ref && ctrl.ref !== ref) {
-        var _ctrl$ref2;
-        (_ctrl$ref2 = ctrl.ref) == null || _ctrl$ref2.delete(ctrl);
-        ref.add(ctrl);
-        ctrl.ref = ref;
-    }
-}
-function useChain(refs, timeSteps, timeFrame = 1000) {
-    (0, _shared.useIsomorphicLayoutEffect)(()=>{
-        if (timeSteps) {
-            let prevDelay = 0;
-            (0, _shared.each)(refs, (ref, i)=>{
-                const controllers = ref.current;
-                if (controllers.length) {
-                    let delay = timeFrame * timeSteps[i];
-                    if (isNaN(delay)) delay = prevDelay;
-                    else prevDelay = delay;
-                    (0, _shared.each)(controllers, (ctrl)=>{
-                        (0, _shared.each)(ctrl.queue, (props)=>{
-                            const memoizedDelayProp = props.delay;
-                            props.delay = (key)=>delay + callProp(memoizedDelayProp || 0, key);
-                        });
-                    });
-                    ref.start();
-                }
-            });
-        } else {
-            let p = Promise.resolve();
-            (0, _shared.each)(refs, (ref)=>{
-                const controllers = ref.current;
-                if (controllers.length) {
-                    const queues = controllers.map((ctrl)=>{
-                        const q = ctrl.queue;
-                        ctrl.queue = [];
-                        return q;
-                    });
-                    p = p.then(()=>{
-                        (0, _shared.each)(controllers, (ctrl, i)=>(0, _shared.each)(queues[i] || [], (update1)=>ctrl.queue.push(update1)));
-                        return Promise.all(ref.start());
-                    });
-                }
-            });
-        }
-    });
-}
-const config = {
-    default: {
-        tension: 170,
-        friction: 26
-    },
-    gentle: {
-        tension: 120,
-        friction: 14
-    },
-    wobbly: {
-        tension: 180,
-        friction: 12
-    },
-    stiff: {
-        tension: 210,
-        friction: 20
-    },
-    slow: {
-        tension: 280,
-        friction: 60
-    },
-    molasses: {
-        tension: 280,
-        friction: 120
-    }
-};
-const c1 = 1.70158;
-const c2 = c1 * 1.525;
-const c3 = c1 + 1;
-const c4 = 2 * Math.PI / 3;
-const c5 = 2 * Math.PI / 4.5;
-const bounceOut = (x)=>{
-    const n1 = 7.5625;
-    const d1 = 2.75;
-    if (x < 1 / d1) return n1 * x * x;
-    else if (x < 2 / d1) return n1 * (x -= 1.5 / d1) * x + 0.75;
-    else if (x < 2.5 / d1) return n1 * (x -= 2.25 / d1) * x + 0.9375;
-    else return n1 * (x -= 2.625 / d1) * x + 0.984375;
-};
-const easings = {
-    linear: (x)=>x,
-    easeInQuad: (x)=>x * x,
-    easeOutQuad: (x)=>1 - (1 - x) * (1 - x),
-    easeInOutQuad: (x)=>x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2,
-    easeInCubic: (x)=>x * x * x,
-    easeOutCubic: (x)=>1 - Math.pow(1 - x, 3),
-    easeInOutCubic: (x)=>x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2,
-    easeInQuart: (x)=>x * x * x * x,
-    easeOutQuart: (x)=>1 - Math.pow(1 - x, 4),
-    easeInOutQuart: (x)=>x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2,
-    easeInQuint: (x)=>x * x * x * x * x,
-    easeOutQuint: (x)=>1 - Math.pow(1 - x, 5),
-    easeInOutQuint: (x)=>x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2,
-    easeInSine: (x)=>1 - Math.cos(x * Math.PI / 2),
-    easeOutSine: (x)=>Math.sin(x * Math.PI / 2),
-    easeInOutSine: (x)=>-(Math.cos(Math.PI * x) - 1) / 2,
-    easeInExpo: (x)=>x === 0 ? 0 : Math.pow(2, 10 * x - 10),
-    easeOutExpo: (x)=>x === 1 ? 1 : 1 - Math.pow(2, -10 * x),
-    easeInOutExpo: (x)=>x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? Math.pow(2, 20 * x - 10) / 2 : (2 - Math.pow(2, -20 * x + 10)) / 2,
-    easeInCirc: (x)=>1 - Math.sqrt(1 - Math.pow(x, 2)),
-    easeOutCirc: (x)=>Math.sqrt(1 - Math.pow(x - 1, 2)),
-    easeInOutCirc: (x)=>x < 0.5 ? (1 - Math.sqrt(1 - Math.pow(2 * x, 2))) / 2 : (Math.sqrt(1 - Math.pow(-2 * x + 2, 2)) + 1) / 2,
-    easeInBack: (x)=>c3 * x * x * x - c1 * x * x,
-    easeOutBack: (x)=>1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2),
-    easeInOutBack: (x)=>x < 0.5 ? Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2) / 2 : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2,
-    easeInElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : -Math.pow(2, 10 * x - 10) * Math.sin((x * 10 - 10.75) * c4),
-    easeOutElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * c4) + 1,
-    easeInOutElastic: (x)=>x === 0 ? 0 : x === 1 ? 1 : x < 0.5 ? -(Math.pow(2, 20 * x - 10) * Math.sin((20 * x - 11.125) * c5)) / 2 : Math.pow(2, -20 * x + 10) * Math.sin((20 * x - 11.125) * c5) / 2 + 1,
-    easeInBounce: (x)=>1 - bounceOut(1 - x),
-    easeOutBounce: bounceOut,
-    easeInOutBounce: (x)=>x < 0.5 ? (1 - bounceOut(1 - 2 * x)) / 2 : (1 + bounceOut(2 * x - 1)) / 2
-};
-const defaults = _extends({}, config.default, {
-    mass: 1,
-    damping: 1,
-    easing: easings.linear,
-    clamp: false
-});
-class AnimationConfig {
-    constructor(){
-        this.tension = void 0;
-        this.friction = void 0;
-        this.frequency = void 0;
-        this.damping = void 0;
-        this.mass = void 0;
-        this.velocity = 0;
-        this.restVelocity = void 0;
-        this.precision = void 0;
-        this.progress = void 0;
-        this.duration = void 0;
-        this.easing = void 0;
-        this.clamp = void 0;
-        this.bounce = void 0;
-        this.decay = void 0;
-        this.round = void 0;
-        Object.assign(this, defaults);
-    }
-}
-function mergeConfig(config1, newConfig, defaultConfig) {
-    if (defaultConfig) {
-        defaultConfig = _extends({}, defaultConfig);
-        sanitizeConfig(defaultConfig, newConfig);
-        newConfig = _extends({}, defaultConfig, newConfig);
-    }
-    sanitizeConfig(config1, newConfig);
-    Object.assign(config1, newConfig);
-    for(const key in defaults)if (config1[key] == null) config1[key] = defaults[key];
-    let { mass , frequency , damping  } = config1;
-    if (!(0, _shared.is).und(frequency)) {
-        if (frequency < 0.01) frequency = 0.01;
-        if (damping < 0) damping = 0;
-        config1.tension = Math.pow(2 * Math.PI / frequency, 2) * mass;
-        config1.friction = 4 * Math.PI * damping * mass / frequency;
-    }
-    return config1;
-}
-function sanitizeConfig(config2, props) {
-    if (!(0, _shared.is).und(props.decay)) config2.duration = undefined;
-    else {
-        const isTensionConfig = !(0, _shared.is).und(props.tension) || !(0, _shared.is).und(props.friction);
-        if (isTensionConfig || !(0, _shared.is).und(props.frequency) || !(0, _shared.is).und(props.damping) || !(0, _shared.is).und(props.mass)) {
-            config2.duration = undefined;
-            config2.decay = undefined;
-        }
-        if (isTensionConfig) config2.frequency = undefined;
-    }
-}
-const emptyArray = [];
-class Animation {
-    constructor(){
-        this.changed = false;
-        this.values = emptyArray;
-        this.toValues = null;
-        this.fromValues = emptyArray;
-        this.to = void 0;
-        this.from = void 0;
-        this.config = new AnimationConfig();
-        this.immediate = false;
-    }
-}
-function scheduleProps(callId, { key , props , defaultProps , state , actions  }) {
-    return new Promise((resolve, reject)=>{
-        var _props$cancel;
-        let delay;
-        let timeout;
-        let cancel = matchProp((_props$cancel = props.cancel) != null ? _props$cancel : defaultProps == null ? void 0 : defaultProps.cancel, key);
-        if (cancel) onStart();
-        else {
-            if (!(0, _shared.is).und(props.pause)) state.paused = matchProp(props.pause, key);
-            let pause = defaultProps == null ? void 0 : defaultProps.pause;
-            if (pause !== true) pause = state.paused || matchProp(pause, key);
-            delay = callProp(props.delay || 0, key);
-            if (pause) {
-                state.resumeQueue.add(onResume);
-                actions.pause();
-            } else {
-                actions.resume();
-                onResume();
-            }
-        }
-        function onPause() {
-            state.resumeQueue.add(onResume);
-            state.timeouts.delete(timeout);
-            timeout.cancel();
-            delay = timeout.time - (0, _shared.raf).now();
-        }
-        function onResume() {
-            if (delay > 0 && !(0, _shared.Globals).skipAnimation) {
-                state.delayed = true;
-                timeout = (0, _shared.raf).setTimeout(onStart, delay);
-                state.pauseQueue.add(onPause);
-                state.timeouts.add(timeout);
-            } else onStart();
-        }
-        function onStart() {
-            if (state.delayed) state.delayed = false;
-            state.pauseQueue.delete(onPause);
-            state.timeouts.delete(timeout);
-            if (callId <= (state.cancelId || 0)) cancel = true;
-            try {
-                actions.start(_extends({}, props, {
-                    callId,
-                    cancel
-                }), resolve);
-            } catch (err) {
-                reject(err);
-            }
-        }
-    });
-}
-const getCombinedResult = (target, results)=>results.length == 1 ? results[0] : results.some((result)=>result.cancelled) ? getCancelledResult(target.get()) : results.every((result)=>result.noop) ? getNoopResult(target.get()) : getFinishedResult(target.get(), results.every((result)=>result.finished));
-const getNoopResult = (value)=>({
-        value,
-        noop: true,
-        finished: true,
-        cancelled: false
-    });
-const getFinishedResult = (value, finished, cancelled = false)=>({
-        value,
-        finished,
-        cancelled
-    });
-const getCancelledResult = (value)=>({
-        value,
-        cancelled: true,
-        finished: false
-    });
-function runAsync(to3, props1, state, target) {
-    const { callId , parentId , onRest  } = props1;
-    const { asyncTo: prevTo , promise: prevPromise  } = state;
-    if (!parentId && to3 === prevTo && !props1.reset) return prevPromise;
-    return state.promise = (async ()=>{
-        state.asyncId = callId;
-        state.asyncTo = to3;
-        const defaultProps = getDefaultProps(props1, (value, key)=>key === "onRest" ? undefined : value);
-        let preventBail;
-        let bail;
-        const bailPromise = new Promise((resolve, reject)=>(preventBail = resolve, bail = reject));
-        const bailIfEnded = (bailSignal)=>{
-            const bailResult = callId <= (state.cancelId || 0) && getCancelledResult(target) || callId !== state.asyncId && getFinishedResult(target, false);
-            if (bailResult) {
-                bailSignal.result = bailResult;
-                bail(bailSignal);
-                throw bailSignal;
-            }
-        };
-        const animate = (arg1, arg2)=>{
-            const bailSignal = new BailSignal();
-            const skipAnimationSignal = new SkipAniamtionSignal();
-            return (async ()=>{
-                if ((0, _shared.Globals).skipAnimation) {
-                    stopAsync(state);
-                    skipAnimationSignal.result = getFinishedResult(target, false);
-                    bail(skipAnimationSignal);
-                    throw skipAnimationSignal;
-                }
-                bailIfEnded(bailSignal);
-                const props = (0, _shared.is).obj(arg1) ? _extends({}, arg1) : _extends({}, arg2, {
-                    to: arg1
-                });
-                props.parentId = callId;
-                (0, _shared.eachProp)(defaultProps, (value, key)=>{
-                    if ((0, _shared.is).und(props[key])) props[key] = value;
-                });
-                const result = await target.start(props);
-                bailIfEnded(bailSignal);
-                if (state.paused) await new Promise((resume)=>{
-                    state.resumeQueue.add(resume);
-                });
-                return result;
-            })();
-        };
-        let result1;
-        if ((0, _shared.Globals).skipAnimation) {
-            stopAsync(state);
-            return getFinishedResult(target, false);
-        }
-        try {
-            let animating;
-            if ((0, _shared.is).arr(to3)) animating = (async (queue)=>{
-                for (const props of queue)await animate(props);
-            })(to3);
-            else animating = Promise.resolve(to3(animate, target.stop.bind(target)));
-            await Promise.all([
-                animating.then(preventBail),
-                bailPromise
-            ]);
-            result1 = getFinishedResult(target.get(), true, false);
-        } catch (err) {
-            if (err instanceof BailSignal) result1 = err.result;
-            else if (err instanceof SkipAniamtionSignal) result1 = err.result;
-            else throw err;
-        } finally{
-            if (callId == state.asyncId) {
-                state.asyncId = parentId;
-                state.asyncTo = parentId ? prevTo : undefined;
-                state.promise = parentId ? prevPromise : undefined;
-            }
-        }
-        if ((0, _shared.is).fun(onRest)) (0, _shared.raf).batchedUpdates(()=>{
-            onRest(result1, target, target.item);
-        });
-        return result1;
-    })();
-}
-function stopAsync(state, cancelId) {
-    (0, _shared.flush)(state.timeouts, (t)=>t.cancel());
-    state.pauseQueue.clear();
-    state.resumeQueue.clear();
-    state.asyncId = state.asyncTo = state.promise = undefined;
-    if (cancelId) state.cancelId = cancelId;
-}
-class BailSignal extends Error {
-    constructor(){
-        super("An async animation has been interrupted. You see this error because you forgot to use `await` or `.catch(...)` on its returned promise.");
-        this.result = void 0;
-    }
-}
-class SkipAniamtionSignal extends Error {
-    constructor(){
-        super("SkipAnimationSignal");
-        this.result = void 0;
-    }
-}
-const isFrameValue = (value)=>value instanceof FrameValue;
-let nextId$1 = 1;
-class FrameValue extends (0, _shared.FluidValue) {
-    constructor(...args){
-        super(...args);
-        this.id = nextId$1++;
-        this.key = void 0;
-        this._priority = 0;
-    }
-    get priority() {
-        return this._priority;
-    }
-    set priority(priority) {
-        if (this._priority != priority) {
-            this._priority = priority;
-            this._onPriorityChange(priority);
-        }
-    }
-    get() {
-        const node = (0, _animated.getAnimated)(this);
-        return node && node.getValue();
-    }
-    to(...args) {
-        return (0, _shared.Globals).to(this, args);
-    }
-    interpolate(...args) {
-        (0, _shared.deprecateInterpolate)();
-        return (0, _shared.Globals).to(this, args);
-    }
-    toJSON() {
-        return this.get();
-    }
-    observerAdded(count) {
-        if (count == 1) this._attach();
-    }
-    observerRemoved(count) {
-        if (count == 0) this._detach();
-    }
-    _attach() {}
-    _detach() {}
-    _onChange(value, idle = false) {
-        (0, _shared.callFluidObservers)(this, {
-            type: "change",
-            parent: this,
-            value,
-            idle
-        });
-    }
-    _onPriorityChange(priority) {
-        if (!this.idle) (0, _shared.frameLoop).sort(this);
-        (0, _shared.callFluidObservers)(this, {
-            type: "priority",
-            parent: this,
-            priority
-        });
-    }
-}
-const $P = Symbol.for("SpringPhase");
-const HAS_ANIMATED = 1;
-const IS_ANIMATING = 2;
-const IS_PAUSED = 4;
-const hasAnimated = (target)=>(target[$P] & HAS_ANIMATED) > 0;
-const isAnimating = (target)=>(target[$P] & IS_ANIMATING) > 0;
-const isPaused = (target)=>(target[$P] & IS_PAUSED) > 0;
-const setActiveBit = (target, active)=>active ? target[$P] |= IS_ANIMATING | HAS_ANIMATED : target[$P] &= ~IS_ANIMATING;
-const setPausedBit = (target, paused)=>paused ? target[$P] |= IS_PAUSED : target[$P] &= ~IS_PAUSED;
-class SpringValue extends FrameValue {
-    constructor(arg1, arg2){
-        super();
-        this.key = void 0;
-        this.animation = new Animation();
-        this.queue = void 0;
-        this.defaultProps = {};
-        this._state = {
-            paused: false,
-            delayed: false,
-            pauseQueue: new Set(),
-            resumeQueue: new Set(),
-            timeouts: new Set()
-        };
-        this._pendingCalls = new Set();
-        this._lastCallId = 0;
-        this._lastToId = 0;
-        this._memoizedDuration = 0;
-        if (!(0, _shared.is).und(arg1) || !(0, _shared.is).und(arg2)) {
-            const props = (0, _shared.is).obj(arg1) ? _extends({}, arg1) : _extends({}, arg2, {
-                from: arg1
-            });
-            if ((0, _shared.is).und(props.default)) props.default = true;
-            this.start(props);
-        }
-    }
-    get idle() {
-        return !(isAnimating(this) || this._state.asyncTo) || isPaused(this);
-    }
-    get goal() {
-        return (0, _shared.getFluidValue)(this.animation.to);
-    }
-    get velocity() {
-        const node1 = (0, _animated.getAnimated)(this);
-        return node1 instanceof (0, _animated.AnimatedValue) ? node1.lastVelocity || 0 : node1.getPayload().map((node)=>node.lastVelocity || 0);
-    }
-    get hasAnimated() {
-        return hasAnimated(this);
-    }
-    get isAnimating() {
-        return isAnimating(this);
-    }
-    get isPaused() {
-        return isPaused(this);
-    }
-    get isDelayed() {
-        return this._state.delayed;
-    }
-    advance(dt) {
-        let idle = true;
-        let changed = false;
-        const anim = this.animation;
-        let { config: config3 , toValues  } = anim;
-        const payload = (0, _animated.getPayload)(anim.to);
-        if (!payload && (0, _shared.hasFluidValue)(anim.to)) toValues = (0, _shared.toArray)((0, _shared.getFluidValue)(anim.to));
-        anim.values.forEach((node, i)=>{
-            if (node.done) return;
-            const to4 = node.constructor == (0, _animated.AnimatedString) ? 1 : payload ? payload[i].lastPosition : toValues[i];
-            let finished = anim.immediate;
-            let position = to4;
-            if (!finished) {
-                position = node.lastPosition;
-                if (config3.tension <= 0) {
-                    node.done = true;
-                    return;
-                }
-                let elapsed = node.elapsedTime += dt;
-                const from = anim.fromValues[i];
-                const v0 = node.v0 != null ? node.v0 : node.v0 = (0, _shared.is).arr(config3.velocity) ? config3.velocity[i] : config3.velocity;
-                let velocity;
-                if (!(0, _shared.is).und(config3.duration)) {
-                    let p = 1;
-                    if (config3.duration > 0) {
-                        if (this._memoizedDuration !== config3.duration) {
-                            this._memoizedDuration = config3.duration;
-                            if (node.durationProgress > 0) {
-                                node.elapsedTime = config3.duration * node.durationProgress;
-                                elapsed = node.elapsedTime += dt;
-                            }
-                        }
-                        p = (config3.progress || 0) + elapsed / this._memoizedDuration;
-                        p = p > 1 ? 1 : p < 0 ? 0 : p;
-                        node.durationProgress = p;
-                    }
-                    position = from + config3.easing(p) * (to4 - from);
-                    velocity = (position - node.lastPosition) / dt;
-                    finished = p == 1;
-                } else if (config3.decay) {
-                    const decay = config3.decay === true ? 0.998 : config3.decay;
-                    const e = Math.exp(-(1 - decay) * elapsed);
-                    position = from + v0 / (1 - decay) * (1 - e);
-                    finished = Math.abs(node.lastPosition - position) < 0.1;
-                    velocity = v0 * e;
-                } else {
-                    velocity = node.lastVelocity == null ? v0 : node.lastVelocity;
-                    const precision = config3.precision || (from == to4 ? 0.005 : Math.min(1, Math.abs(to4 - from) * 0.001));
-                    const restVelocity = config3.restVelocity || precision / 10;
-                    const bounceFactor = config3.clamp ? 0 : config3.bounce;
-                    const canBounce = !(0, _shared.is).und(bounceFactor);
-                    const isGrowing = from == to4 ? node.v0 > 0 : from < to4;
-                    let isMoving;
-                    let isBouncing = false;
-                    const step = 1;
-                    const numSteps = Math.ceil(dt / step);
-                    for(let n = 0; n < numSteps; ++n){
-                        isMoving = Math.abs(velocity) > restVelocity;
-                        if (!isMoving) {
-                            finished = Math.abs(to4 - position) <= precision;
-                            if (finished) break;
-                        }
-                        if (canBounce) {
-                            isBouncing = position == to4 || position > to4 == isGrowing;
-                            if (isBouncing) {
-                                velocity = -velocity * bounceFactor;
-                                position = to4;
-                            }
-                        }
-                        const springForce = -config3.tension * 0.000001 * (position - to4);
-                        const dampingForce = -config3.friction * 0.001 * velocity;
-                        const acceleration = (springForce + dampingForce) / config3.mass;
-                        velocity = velocity + acceleration * step;
-                        position = position + velocity * step;
-                    }
-                }
-                node.lastVelocity = velocity;
-                if (Number.isNaN(position)) {
-                    console.warn(`Got NaN while animating:`, this);
-                    finished = true;
-                }
-            }
-            if (payload && !payload[i].done) finished = false;
-            if (finished) node.done = true;
-            else idle = false;
-            if (node.setValue(position, config3.round)) changed = true;
-        });
-        const node2 = (0, _animated.getAnimated)(this);
-        const currVal = node2.getValue();
-        if (idle) {
-            const finalVal = (0, _shared.getFluidValue)(anim.to);
-            if ((currVal !== finalVal || changed) && !config3.decay) {
-                node2.setValue(finalVal);
-                this._onChange(finalVal);
-            } else if (changed && config3.decay) this._onChange(currVal);
-            this._stop();
-        } else if (changed) this._onChange(currVal);
-    }
-    set(value) {
-        (0, _shared.raf).batchedUpdates(()=>{
-            this._stop();
-            this._focus(value);
-            this._set(value);
-        });
-        return this;
-    }
-    pause() {
-        this._update({
-            pause: true
-        });
-    }
-    resume() {
-        this._update({
-            pause: false
-        });
-    }
-    finish() {
-        if (isAnimating(this)) {
-            const { to: to5 , config: config4  } = this.animation;
-            (0, _shared.raf).batchedUpdates(()=>{
-                this._onStart();
-                if (!config4.decay) this._set(to5, false);
-                this._stop();
-            });
-        }
-        return this;
-    }
-    update(props) {
-        const queue = this.queue || (this.queue = []);
-        queue.push(props);
-        return this;
-    }
-    start(to6, arg2) {
-        let queue;
-        if (!(0, _shared.is).und(to6)) queue = [
-            (0, _shared.is).obj(to6) ? to6 : _extends({}, arg2, {
-                to: to6
-            })
-        ];
-        else {
-            queue = this.queue || [];
-            this.queue = [];
-        }
-        return Promise.all(queue.map((props)=>{
-            const up = this._update(props);
-            return up;
-        })).then((results)=>getCombinedResult(this, results));
-    }
-    stop(cancel) {
-        const { to: to7  } = this.animation;
-        this._focus(this.get());
-        stopAsync(this._state, cancel && this._lastCallId);
-        (0, _shared.raf).batchedUpdates(()=>this._stop(to7, cancel));
-        return this;
-    }
-    reset() {
-        this._update({
-            reset: true
-        });
-    }
-    eventObserved(event) {
-        if (event.type == "change") this._start();
-        else if (event.type == "priority") this.priority = event.priority + 1;
-    }
-    _prepareNode(props) {
-        const key = this.key || "";
-        let { to: to8 , from  } = props;
-        to8 = (0, _shared.is).obj(to8) ? to8[key] : to8;
-        if (to8 == null || isAsyncTo(to8)) to8 = undefined;
-        from = (0, _shared.is).obj(from) ? from[key] : from;
-        if (from == null) from = undefined;
-        const range = {
-            to: to8,
-            from
-        };
-        if (!hasAnimated(this)) {
-            if (props.reverse) [to8, from] = [
-                from,
-                to8
-            ];
-            from = (0, _shared.getFluidValue)(from);
-            if (!(0, _shared.is).und(from)) this._set(from);
-            else if (!(0, _animated.getAnimated)(this)) this._set(to8);
-        }
-        return range;
-    }
-    _update(_ref, isLoop) {
-        let props = _extends({}, _ref);
-        const { key , defaultProps  } = this;
-        if (props.default) Object.assign(defaultProps, getDefaultProps(props, (value, prop)=>/^on/.test(prop) ? resolveProp(value, key) : value));
-        mergeActiveFn(this, props, "onProps");
-        sendEvent(this, "onProps", props, this);
-        const range = this._prepareNode(props);
-        if (Object.isFrozen(this)) throw Error("Cannot animate a `SpringValue` object that is frozen. Did you forget to pass your component to `animated(...)` before animating its props?");
-        const state = this._state;
-        return scheduleProps(++this._lastCallId, {
-            key,
-            props,
-            defaultProps,
-            state,
-            actions: {
-                pause: ()=>{
-                    if (!isPaused(this)) {
-                        setPausedBit(this, true);
-                        (0, _shared.flushCalls)(state.pauseQueue);
-                        sendEvent(this, "onPause", getFinishedResult(this, checkFinished(this, this.animation.to)), this);
-                    }
-                },
-                resume: ()=>{
-                    if (isPaused(this)) {
-                        setPausedBit(this, false);
-                        if (isAnimating(this)) this._resume();
-                        (0, _shared.flushCalls)(state.resumeQueue);
-                        sendEvent(this, "onResume", getFinishedResult(this, checkFinished(this, this.animation.to)), this);
-                    }
-                },
-                start: this._merge.bind(this, range)
-            }
-        }).then((result)=>{
-            if (props.loop && result.finished && !(isLoop && result.noop)) {
-                const nextProps = createLoopUpdate(props);
-                if (nextProps) return this._update(nextProps, true);
-            }
-            return result;
-        });
-    }
-    _merge(range, props, resolve) {
-        if (props.cancel) {
-            this.stop(true);
-            return resolve(getCancelledResult(this));
-        }
-        const hasToProp = !(0, _shared.is).und(range.to);
-        const hasFromProp = !(0, _shared.is).und(range.from);
-        if (hasToProp || hasFromProp) {
-            if (props.callId > this._lastToId) this._lastToId = props.callId;
-            else return resolve(getCancelledResult(this));
-        }
-        const { key , defaultProps , animation: anim  } = this;
-        const { to: prevTo , from: prevFrom  } = anim;
-        let { to: to9 = prevTo , from =prevFrom  } = range;
-        if (hasFromProp && !hasToProp && (!props.default || (0, _shared.is).und(to9))) to9 = from;
-        if (props.reverse) [to9, from] = [
-            from,
-            to9
-        ];
-        const hasFromChanged = !(0, _shared.isEqual)(from, prevFrom);
-        if (hasFromChanged) anim.from = from;
-        from = (0, _shared.getFluidValue)(from);
-        const hasToChanged = !(0, _shared.isEqual)(to9, prevTo);
-        if (hasToChanged) this._focus(to9);
-        const hasAsyncTo = isAsyncTo(props.to);
-        const { config: config5  } = anim;
-        const { decay , velocity  } = config5;
-        if (hasToProp || hasFromProp) config5.velocity = 0;
-        if (props.config && !hasAsyncTo) mergeConfig(config5, callProp(props.config, key), props.config !== defaultProps.config ? callProp(defaultProps.config, key) : void 0);
-        let node = (0, _animated.getAnimated)(this);
-        if (!node || (0, _shared.is).und(to9)) return resolve(getFinishedResult(this, true));
-        const reset = (0, _shared.is).und(props.reset) ? hasFromProp && !props.default : !(0, _shared.is).und(from) && matchProp(props.reset, key);
-        const value = reset ? from : this.get();
-        const goal = computeGoal(to9);
-        const isAnimatable = (0, _shared.is).num(goal) || (0, _shared.is).arr(goal) || (0, _shared.isAnimatedString)(goal);
-        const immediate = !hasAsyncTo && (!isAnimatable || matchProp(defaultProps.immediate || props.immediate, key));
-        if (hasToChanged) {
-            const nodeType = (0, _animated.getAnimatedType)(to9);
-            if (nodeType !== node.constructor) {
-                if (immediate) node = this._set(goal);
-                else throw Error(`Cannot animate between ${node.constructor.name} and ${nodeType.name}, as the "to" prop suggests`);
-            }
-        }
-        const goalType = node.constructor;
-        let started = (0, _shared.hasFluidValue)(to9);
-        let finished = false;
-        if (!started) {
-            const hasValueChanged = reset || !hasAnimated(this) && hasFromChanged;
-            if (hasToChanged || hasValueChanged) {
-                finished = (0, _shared.isEqual)(computeGoal(value), goal);
-                started = !finished;
-            }
-            if (!(0, _shared.isEqual)(anim.immediate, immediate) && !immediate || !(0, _shared.isEqual)(config5.decay, decay) || !(0, _shared.isEqual)(config5.velocity, velocity)) started = true;
-        }
-        if (finished && isAnimating(this)) {
-            if (anim.changed && !reset) started = true;
-            else if (!started) this._stop(prevTo);
-        }
-        if (!hasAsyncTo) {
-            if (started || (0, _shared.hasFluidValue)(prevTo)) {
-                anim.values = node.getPayload();
-                anim.toValues = (0, _shared.hasFluidValue)(to9) ? null : goalType == (0, _animated.AnimatedString) ? [
-                    1
-                ] : (0, _shared.toArray)(goal);
-            }
-            if (anim.immediate != immediate) {
-                anim.immediate = immediate;
-                if (!immediate && !reset) this._set(prevTo);
-            }
-            if (started) {
-                const { onRest  } = anim;
-                (0, _shared.each)(ACTIVE_EVENTS, (type)=>mergeActiveFn(this, props, type));
-                const result = getFinishedResult(this, checkFinished(this, prevTo));
-                (0, _shared.flushCalls)(this._pendingCalls, result);
-                this._pendingCalls.add(resolve);
-                if (anim.changed) (0, _shared.raf).batchedUpdates(()=>{
-                    anim.changed = !reset;
-                    onRest == null || onRest(result, this);
-                    if (reset) callProp(defaultProps.onRest, result);
-                    else anim.onStart == null || anim.onStart(result, this);
-                });
-            }
-        }
-        if (reset) this._set(value);
-        if (hasAsyncTo) resolve(runAsync(props.to, props, this._state, this));
-        else if (started) this._start();
-        else if (isAnimating(this) && !hasToChanged) this._pendingCalls.add(resolve);
-        else resolve(getNoopResult(value));
-    }
-    _focus(value) {
-        const anim = this.animation;
-        if (value !== anim.to) {
-            if ((0, _shared.getFluidObservers)(this)) this._detach();
-            anim.to = value;
-            if ((0, _shared.getFluidObservers)(this)) this._attach();
-        }
-    }
-    _attach() {
-        let priority = 0;
-        const { to: to10  } = this.animation;
-        if ((0, _shared.hasFluidValue)(to10)) {
-            (0, _shared.addFluidObserver)(to10, this);
-            if (isFrameValue(to10)) priority = to10.priority + 1;
-        }
-        this.priority = priority;
-    }
-    _detach() {
-        const { to: to11  } = this.animation;
-        if ((0, _shared.hasFluidValue)(to11)) (0, _shared.removeFluidObserver)(to11, this);
-    }
-    _set(arg, idle = true) {
-        const value = (0, _shared.getFluidValue)(arg);
-        if (!(0, _shared.is).und(value)) {
-            const oldNode = (0, _animated.getAnimated)(this);
-            if (!oldNode || !(0, _shared.isEqual)(value, oldNode.getValue())) {
-                const nodeType = (0, _animated.getAnimatedType)(value);
-                if (!oldNode || oldNode.constructor != nodeType) (0, _animated.setAnimated)(this, nodeType.create(value));
-                else oldNode.setValue(value);
-                if (oldNode) (0, _shared.raf).batchedUpdates(()=>{
-                    this._onChange(value, idle);
-                });
-            }
-        }
-        return (0, _animated.getAnimated)(this);
-    }
-    _onStart() {
-        const anim = this.animation;
-        if (!anim.changed) {
-            anim.changed = true;
-            sendEvent(this, "onStart", getFinishedResult(this, checkFinished(this, anim.to)), this);
-        }
-    }
-    _onChange(value, idle) {
-        if (!idle) {
-            this._onStart();
-            callProp(this.animation.onChange, value, this);
-        }
-        callProp(this.defaultProps.onChange, value, this);
-        super._onChange(value, idle);
-    }
-    _start() {
-        const anim = this.animation;
-        (0, _animated.getAnimated)(this).reset((0, _shared.getFluidValue)(anim.to));
-        if (!anim.immediate) anim.fromValues = anim.values.map((node)=>node.lastPosition);
-        if (!isAnimating(this)) {
-            setActiveBit(this, true);
-            if (!isPaused(this)) this._resume();
-        }
-    }
-    _resume() {
-        if ((0, _shared.Globals).skipAnimation) this.finish();
-        else (0, _shared.frameLoop).start(this);
-    }
-    _stop(goal, cancel) {
-        if (isAnimating(this)) {
-            setActiveBit(this, false);
-            const anim = this.animation;
-            (0, _shared.each)(anim.values, (node)=>{
-                node.done = true;
-            });
-            if (anim.toValues) anim.onChange = anim.onPause = anim.onResume = undefined;
-            (0, _shared.callFluidObservers)(this, {
-                type: "idle",
-                parent: this
-            });
-            const result = cancel ? getCancelledResult(this.get()) : getFinishedResult(this.get(), checkFinished(this, goal != null ? goal : anim.to));
-            (0, _shared.flushCalls)(this._pendingCalls, result);
-            if (anim.changed) {
-                anim.changed = false;
-                sendEvent(this, "onRest", result, this);
-            }
-        }
-    }
-}
-function checkFinished(target, to12) {
-    const goal = computeGoal(to12);
-    const value = computeGoal(target.get());
-    return (0, _shared.isEqual)(value, goal);
-}
-function createLoopUpdate(props, loop = props.loop, to13 = props.to) {
-    let loopRet = callProp(loop);
-    if (loopRet) {
-        const overrides = loopRet !== true && inferTo(loopRet);
-        const reverse = (overrides || props).reverse;
-        const reset = !overrides || overrides.reset;
-        return createUpdate(_extends({}, props, {
-            loop,
-            default: false,
-            pause: undefined,
-            to: !reverse || isAsyncTo(to13) ? to13 : undefined,
-            from: reset ? props.from : undefined,
-            reset
-        }, overrides));
-    }
-}
-function createUpdate(props) {
-    const { to: to14 , from  } = props = inferTo(props);
-    const keys = new Set();
-    if ((0, _shared.is).obj(to14)) findDefined(to14, keys);
-    if ((0, _shared.is).obj(from)) findDefined(from, keys);
-    props.keys = keys.size ? Array.from(keys) : null;
-    return props;
-}
-function declareUpdate(props) {
-    const update2 = createUpdate(props);
-    if ((0, _shared.is).und(update2.default)) update2.default = getDefaultProps(update2);
-    return update2;
-}
-function findDefined(values, keys) {
-    (0, _shared.eachProp)(values, (value, key)=>value != null && keys.add(key));
-}
-const ACTIVE_EVENTS = [
-    "onStart",
-    "onRest",
-    "onChange",
-    "onPause",
-    "onResume"
-];
-function mergeActiveFn(target, props, type) {
-    target.animation[type] = props[type] !== getDefaultProp(props, type) ? resolveProp(props[type], target.key) : undefined;
-}
-function sendEvent(target, type, ...args) {
-    var _target$animation$typ, _target$animation, _target$defaultProps$, _target$defaultProps;
-    (_target$animation$typ = (_target$animation = target.animation)[type]) == null || _target$animation$typ.call(_target$animation, ...args);
-    (_target$defaultProps$ = (_target$defaultProps = target.defaultProps)[type]) == null || _target$defaultProps$.call(_target$defaultProps, ...args);
-}
-const BATCHED_EVENTS = [
-    "onStart",
-    "onChange",
-    "onRest"
-];
-let nextId = 1;
-class Controller {
-    constructor(props, flush){
-        this.id = nextId++;
-        this.springs = {};
-        this.queue = [];
-        this.ref = void 0;
-        this._flush = void 0;
-        this._initialProps = void 0;
-        this._lastAsyncId = 0;
-        this._active = new Set();
-        this._changed = new Set();
-        this._started = false;
-        this._item = void 0;
-        this._state = {
-            paused: false,
-            pauseQueue: new Set(),
-            resumeQueue: new Set(),
-            timeouts: new Set()
-        };
-        this._events = {
-            onStart: new Map(),
-            onChange: new Map(),
-            onRest: new Map()
-        };
-        this._onFrame = this._onFrame.bind(this);
-        if (flush) this._flush = flush;
-        if (props) this.start(_extends({
-            default: true
-        }, props));
-    }
-    get idle() {
-        return !this._state.asyncTo && Object.values(this.springs).every((spring)=>{
-            return spring.idle && !spring.isDelayed && !spring.isPaused;
-        });
-    }
-    get item() {
-        return this._item;
-    }
-    set item(item) {
-        this._item = item;
-    }
-    get() {
-        const values = {};
-        this.each((spring, key)=>values[key] = spring.get());
-        return values;
-    }
-    set(values) {
-        for(const key in values){
-            const value = values[key];
-            if (!(0, _shared.is).und(value)) this.springs[key].set(value);
-        }
-    }
-    update(props) {
-        if (props) this.queue.push(createUpdate(props));
-        return this;
-    }
-    start(props) {
-        let { queue  } = this;
-        if (props) queue = (0, _shared.toArray)(props).map(createUpdate);
-        else this.queue = [];
-        if (this._flush) return this._flush(this, queue);
-        prepareKeys(this, queue);
-        return flushUpdateQueue(this, queue);
-    }
-    stop(arg, keys) {
-        if (arg !== !!arg) keys = arg;
-        if (keys) {
-            const springs = this.springs;
-            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].stop(!!arg));
-        } else {
-            stopAsync(this._state, this._lastAsyncId);
-            this.each((spring)=>spring.stop(!!arg));
-        }
-        return this;
-    }
-    pause(keys) {
-        if ((0, _shared.is).und(keys)) this.start({
-            pause: true
-        });
-        else {
-            const springs = this.springs;
-            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].pause());
-        }
-        return this;
-    }
-    resume(keys) {
-        if ((0, _shared.is).und(keys)) this.start({
-            pause: false
-        });
-        else {
-            const springs = this.springs;
-            (0, _shared.each)((0, _shared.toArray)(keys), (key)=>springs[key].resume());
-        }
-        return this;
-    }
-    each(iterator) {
-        (0, _shared.eachProp)(this.springs, iterator);
-    }
-    _onFrame() {
-        const { onStart: onStart1 , onChange: onChange1 , onRest: onRest1  } = this._events;
-        const active = this._active.size > 0;
-        const changed = this._changed.size > 0;
-        if (active && !this._started || changed && !this._started) {
-            this._started = true;
-            (0, _shared.flush)(onStart1, ([onStart, result])=>{
-                result.value = this.get();
-                onStart(result, this, this._item);
-            });
-        }
-        const idle = !active && this._started;
-        const values = changed || idle && onRest1.size ? this.get() : null;
-        if (changed && onChange1.size) (0, _shared.flush)(onChange1, ([onChange, result])=>{
-            result.value = values;
-            onChange(result, this, this._item);
-        });
-        if (idle) {
-            this._started = false;
-            (0, _shared.flush)(onRest1, ([onRest, result])=>{
-                result.value = values;
-                onRest(result, this, this._item);
-            });
-        }
-    }
-    eventObserved(event) {
-        if (event.type == "change") {
-            this._changed.add(event.parent);
-            if (!event.idle) this._active.add(event.parent);
-        } else if (event.type == "idle") this._active.delete(event.parent);
-        else return;
-        (0, _shared.raf).onFrame(this._onFrame);
-    }
-}
-function flushUpdateQueue(ctrl, queue) {
-    return Promise.all(queue.map((props)=>flushUpdate(ctrl, props))).then((results)=>getCombinedResult(ctrl, results));
-}
-async function flushUpdate(ctrl, props2, isLoop) {
-    const { keys , to: to15 , from , loop , onRest , onResolve  } = props2;
-    const defaults2 = (0, _shared.is).obj(props2.default) && props2.default;
-    if (loop) props2.loop = false;
-    if (to15 === false) props2.to = null;
-    if (from === false) props2.from = null;
-    const asyncTo = (0, _shared.is).arr(to15) || (0, _shared.is).fun(to15) ? to15 : undefined;
-    if (asyncTo) {
-        props2.to = undefined;
-        props2.onRest = undefined;
-        if (defaults2) defaults2.onRest = undefined;
-    } else (0, _shared.each)(BATCHED_EVENTS, (key)=>{
-        const handler = props2[key];
-        if ((0, _shared.is).fun(handler)) {
-            const queue = ctrl["_events"][key];
-            props2[key] = ({ finished , cancelled  })=>{
-                const result = queue.get(handler);
-                if (result) {
-                    if (!finished) result.finished = false;
-                    if (cancelled) result.cancelled = true;
-                } else queue.set(handler, {
-                    value: null,
-                    finished: finished || false,
-                    cancelled: cancelled || false
-                });
-            };
-            if (defaults2) defaults2[key] = props2[key];
-        }
-    });
-    const state = ctrl["_state"];
-    if (props2.pause === !state.paused) {
-        state.paused = props2.pause;
-        (0, _shared.flushCalls)(props2.pause ? state.pauseQueue : state.resumeQueue);
-    } else if (state.paused) props2.pause = true;
-    const promises = (keys || Object.keys(ctrl.springs)).map((key)=>ctrl.springs[key].start(props2));
-    const cancel = props2.cancel === true || getDefaultProp(props2, "cancel") === true;
-    if (asyncTo || cancel && state.asyncId) promises.push(scheduleProps(++ctrl["_lastAsyncId"], {
-        props: props2,
-        state,
-        actions: {
-            pause: (0, _shared.noop),
-            resume: (0, _shared.noop),
-            start (props, resolve) {
-                if (cancel) {
-                    stopAsync(state, ctrl["_lastAsyncId"]);
-                    resolve(getCancelledResult(ctrl));
-                } else {
-                    props.onRest = onRest;
-                    resolve(runAsync(asyncTo, props, state, ctrl));
-                }
-            }
-        }
-    }));
-    if (state.paused) await new Promise((resume)=>{
-        state.resumeQueue.add(resume);
-    });
-    const result2 = getCombinedResult(ctrl, await Promise.all(promises));
-    if (loop && result2.finished && !(isLoop && result2.noop)) {
-        const nextProps = createLoopUpdate(props2, loop, to15);
-        if (nextProps) {
-            prepareKeys(ctrl, [
-                nextProps
-            ]);
-            return flushUpdate(ctrl, nextProps, true);
-        }
-    }
-    if (onResolve) (0, _shared.raf).batchedUpdates(()=>onResolve(result2, ctrl, ctrl.item));
-    return result2;
-}
-function getSprings(ctrl, props3) {
-    const springs = _extends({}, ctrl.springs);
-    if (props3) (0, _shared.each)((0, _shared.toArray)(props3), (props)=>{
-        if ((0, _shared.is).und(props.keys)) props = createUpdate(props);
-        if (!(0, _shared.is).obj(props.to)) props = _extends({}, props, {
-            to: undefined
-        });
-        prepareSprings(springs, props, (key)=>{
-            return createSpring(key);
-        });
-    });
-    setSprings(ctrl, springs);
-    return springs;
-}
-function setSprings(ctrl, springs) {
-    (0, _shared.eachProp)(springs, (spring, key)=>{
-        if (!ctrl.springs[key]) {
-            ctrl.springs[key] = spring;
-            (0, _shared.addFluidObserver)(spring, ctrl);
-        }
-    });
-}
-function createSpring(key, observer) {
-    const spring = new SpringValue();
-    spring.key = key;
-    if (observer) (0, _shared.addFluidObserver)(spring, observer);
-    return spring;
-}
-function prepareSprings(springs, props, create) {
-    if (props.keys) (0, _shared.each)(props.keys, (key)=>{
-        const spring = springs[key] || (springs[key] = create(key));
-        spring["_prepareNode"](props);
-    });
-}
-function prepareKeys(ctrl, queue) {
-    (0, _shared.each)(queue, (props)=>{
-        prepareSprings(ctrl.springs, props, (key)=>{
-            return createSpring(key, ctrl);
-        });
-    });
-}
-function _objectWithoutPropertiesLoose(source, excluded) {
-    if (source == null) return {};
-    var target = {};
-    var sourceKeys = Object.keys(source);
-    var key, i;
-    for(i = 0; i < sourceKeys.length; i++){
-        key = sourceKeys[i];
-        if (excluded.indexOf(key) >= 0) continue;
-        target[key] = source[key];
-    }
-    return target;
-}
-const _excluded$3 = [
-    "children"
-];
-const SpringContext = (_ref)=>{
-    let { children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$3);
-    const inherited = (0, _react.useContext)(ctx);
-    const pause = props.pause || !!inherited.pause, immediate = props.immediate || !!inherited.immediate;
-    props = (0, _shared.useMemoOne)(()=>({
-            pause,
-            immediate
-        }), [
-        pause,
-        immediate
-    ]);
-    const { Provider  } = ctx;
-    return _react.createElement(Provider, {
-        value: props
-    }, children);
-};
-const ctx = makeContext(SpringContext, {});
-SpringContext.Provider = ctx.Provider;
-SpringContext.Consumer = ctx.Consumer;
-function makeContext(target, init) {
-    Object.assign(target, _react.createContext(init));
-    target.Provider._context = target;
-    target.Consumer._context = target;
-    return target;
-}
-const SpringRef = ()=>{
-    const current = [];
-    const SpringRef1 = function SpringRef(props) {
-        (0, _shared.deprecateDirectCall)();
-        const results = [];
-        (0, _shared.each)(current, (ctrl, i)=>{
-            if ((0, _shared.is).und(props)) results.push(ctrl.start());
-            else {
-                const update3 = _getProps(props, ctrl, i);
-                if (update3) results.push(ctrl.start(update3));
-            }
-        });
-        return results;
-    };
-    SpringRef1.current = current;
-    SpringRef1.add = function(ctrl) {
-        if (!current.includes(ctrl)) current.push(ctrl);
-    };
-    SpringRef1.delete = function(ctrl) {
-        const i = current.indexOf(ctrl);
-        if (~i) current.splice(i, 1);
-    };
-    SpringRef1.pause = function() {
-        (0, _shared.each)(current, (ctrl)=>ctrl.pause(...arguments));
-        return this;
-    };
-    SpringRef1.resume = function() {
-        (0, _shared.each)(current, (ctrl)=>ctrl.resume(...arguments));
-        return this;
-    };
-    SpringRef1.set = function(values) {
-        (0, _shared.each)(current, (ctrl)=>ctrl.set(values));
-    };
-    SpringRef1.start = function(props) {
-        const results = [];
-        (0, _shared.each)(current, (ctrl, i)=>{
-            if ((0, _shared.is).und(props)) results.push(ctrl.start());
-            else {
-                const update4 = this._getProps(props, ctrl, i);
-                if (update4) results.push(ctrl.start(update4));
-            }
-        });
-        return results;
-    };
-    SpringRef1.stop = function() {
-        (0, _shared.each)(current, (ctrl)=>ctrl.stop(...arguments));
-        return this;
-    };
-    SpringRef1.update = function(props) {
-        (0, _shared.each)(current, (ctrl, i)=>ctrl.update(this._getProps(props, ctrl, i)));
-        return this;
-    };
-    const _getProps = function _getProps(arg, ctrl, index) {
-        return (0, _shared.is).fun(arg) ? arg(index, ctrl) : arg;
-    };
-    SpringRef1._getProps = _getProps;
-    return SpringRef1;
-};
-function useSprings(length, props, deps) {
-    const propsFn = (0, _shared.is).fun(props) && props;
-    if (propsFn && !deps) deps = [];
-    const ref = (0, _react.useMemo)(()=>propsFn || arguments.length == 3 ? SpringRef() : void 0, []);
-    const layoutId = (0, _react.useRef)(0);
-    const forceUpdate = (0, _shared.useForceUpdate)();
-    const state = (0, _react.useMemo)(()=>({
-            ctrls: [],
-            queue: [],
-            flush (ctrl, updates) {
-                const springs = getSprings(ctrl, updates);
-                const canFlushSync = layoutId.current > 0 && !state.queue.length && !Object.keys(springs).some((key)=>!ctrl.springs[key]);
-                return canFlushSync ? flushUpdateQueue(ctrl, updates) : new Promise((resolve)=>{
-                    setSprings(ctrl, springs);
-                    state.queue.push(()=>{
-                        resolve(flushUpdateQueue(ctrl, updates));
-                    });
-                    forceUpdate();
-                });
-            }
-        }), []);
-    const ctrls = (0, _react.useRef)([
-        ...state.ctrls
-    ]);
-    const updates1 = [];
-    const prevLength = (0, _shared.usePrev)(length) || 0;
-    (0, _react.useMemo)(()=>{
-        (0, _shared.each)(ctrls.current.slice(length, prevLength), (ctrl)=>{
-            detachRefs(ctrl, ref);
-            ctrl.stop(true);
-        });
-        ctrls.current.length = length;
-        declareUpdates(prevLength, length);
-    }, [
-        length
-    ]);
-    (0, _react.useMemo)(()=>{
-        declareUpdates(0, Math.min(prevLength, length));
-    }, deps);
-    function declareUpdates(startIndex, endIndex) {
-        for(let i = startIndex; i < endIndex; i++){
-            const ctrl = ctrls.current[i] || (ctrls.current[i] = new Controller(null, state.flush));
-            const update5 = propsFn ? propsFn(i, ctrl) : props[i];
-            if (update5) updates1[i] = declareUpdate(update5);
-        }
-    }
-    const springs1 = ctrls.current.map((ctrl, i)=>getSprings(ctrl, updates1[i]));
-    const context = (0, _react.useContext)(SpringContext);
-    const prevContext = (0, _shared.usePrev)(context);
-    const hasContext = context !== prevContext && hasProps(context);
-    (0, _shared.useIsomorphicLayoutEffect)(()=>{
-        layoutId.current++;
-        state.ctrls = ctrls.current;
-        const { queue  } = state;
-        if (queue.length) {
-            state.queue = [];
-            (0, _shared.each)(queue, (cb)=>cb());
-        }
-        (0, _shared.each)(ctrls.current, (ctrl, i)=>{
-            ref == null || ref.add(ctrl);
-            if (hasContext) ctrl.start({
-                default: context
-            });
-            const update6 = updates1[i];
-            if (update6) {
-                replaceRef(ctrl, update6.ref);
-                if (ctrl.ref) ctrl.queue.push(update6);
-                else ctrl.start(update6);
-            }
-        });
-    });
-    (0, _shared.useOnce)(()=>()=>{
-            (0, _shared.each)(state.ctrls, (ctrl)=>ctrl.stop(true));
-        });
-    const values = springs1.map((x)=>_extends({}, x));
-    return ref ? [
-        values,
-        ref
-    ] : values;
-}
-function useSpring(props, deps) {
-    const isFn = (0, _shared.is).fun(props);
-    const [[values], ref] = useSprings(1, isFn ? props : [
-        props
-    ], isFn ? deps || [] : deps);
-    return isFn || arguments.length == 2 ? [
-        values,
-        ref
-    ] : values;
-}
-const initSpringRef = ()=>SpringRef();
-const useSpringRef = ()=>(0, _react.useState)(initSpringRef)[0];
-function useTrail(length, propsArg1, deps) {
-    var _passedRef;
-    const propsFn = (0, _shared.is).fun(propsArg1) && propsArg1;
-    if (propsFn && !deps) deps = [];
-    let reverse = true;
-    let passedRef = undefined;
-    const result = useSprings(length, (i, ctrl)=>{
-        const props = propsFn ? propsFn(i, ctrl) : propsArg1;
-        passedRef = props.ref;
-        reverse = reverse && props.reverse;
-        return props;
-    }, deps || [
-        {}
-    ]);
-    const ref = (_passedRef = passedRef) != null ? _passedRef : result[1];
-    (0, _shared.useIsomorphicLayoutEffect)(()=>{
-        (0, _shared.each)(ref.current, (ctrl, i)=>{
-            const parent = ref.current[i + (reverse ? 1 : -1)];
-            if (parent) ctrl.start({
-                to: parent.springs
-            });
-            else ctrl.start();
-        });
-    }, deps);
-    if (propsFn || arguments.length == 3) {
-        ref["_getProps"] = (propsArg, ctrl, i)=>{
-            const props = (0, _shared.is).fun(propsArg) ? propsArg(i, ctrl) : propsArg;
-            if (props) {
-                const parent = ref.current[i + (props.reverse ? 1 : -1)];
-                if (parent) props.to = parent.springs;
-                return props;
-            }
-        };
-        return result;
-    }
-    ref["start"] = (propsArg)=>{
-        const results = [];
-        (0, _shared.each)(ref.current, (ctrl, i)=>{
-            const props = (0, _shared.is).fun(propsArg) ? propsArg(i, ctrl) : propsArg;
-            const parent = ref.current[i + (reverse ? 1 : -1)];
-            if (parent) results.push(ctrl.start(_extends({}, props, {
-                to: parent.springs
-            })));
-            else results.push(ctrl.start(_extends({}, props)));
-        });
-        return results;
-    };
-    return result[0];
-}
-let TransitionPhase;
-(function(TransitionPhase1) {
-    TransitionPhase1["MOUNT"] = "mount";
-    TransitionPhase1["ENTER"] = "enter";
-    TransitionPhase1["UPDATE"] = "update";
-    TransitionPhase1["LEAVE"] = "leave";
-})(TransitionPhase || (TransitionPhase = {}));
-function useTransition(data, props, deps) {
-    const propsFn = (0, _shared.is).fun(props) && props;
-    const { reset , sort , trail =0 , expires =true , exitBeforeEnter =false , onDestroyed , ref: propsRef , config: propsConfig  } = propsFn ? propsFn() : props;
-    const ref = (0, _react.useMemo)(()=>propsFn || arguments.length == 3 ? SpringRef() : void 0, []);
-    const items = (0, _shared.toArray)(data);
-    const transitions1 = [];
-    const usedTransitions = (0, _react.useRef)(null);
-    const prevTransitions = reset ? null : usedTransitions.current;
-    (0, _shared.useIsomorphicLayoutEffect)(()=>{
-        usedTransitions.current = transitions1;
-    });
-    (0, _shared.useOnce)(()=>{
-        (0, _shared.each)(usedTransitions.current, (t)=>{
-            var _t$ctrl$ref;
-            (_t$ctrl$ref = t.ctrl.ref) == null || _t$ctrl$ref.add(t.ctrl);
-            const change = changes.get(t);
-            if (change) t.ctrl.start(change.payload);
-        });
-        return ()=>{
-            (0, _shared.each)(usedTransitions.current, (t)=>{
-                if (t.expired) clearTimeout(t.expirationId);
-                detachRefs(t.ctrl, ref);
-                t.ctrl.stop(true);
-            });
-        };
-    });
-    const keys = getKeys(items, propsFn ? propsFn() : props, prevTransitions);
-    const expired = reset && usedTransitions.current || [];
-    (0, _shared.useIsomorphicLayoutEffect)(()=>(0, _shared.each)(expired, ({ ctrl , item , key  })=>{
-            detachRefs(ctrl, ref);
-            callProp(onDestroyed, item, key);
-        }));
-    const reused = [];
-    if (prevTransitions) (0, _shared.each)(prevTransitions, (t, i)=>{
-        if (t.expired) {
-            clearTimeout(t.expirationId);
-            expired.push(t);
-        } else {
-            i = reused[i] = keys.indexOf(t.key);
-            if (~i) transitions1[i] = t;
-        }
-    });
-    (0, _shared.each)(items, (item, i)=>{
-        if (!transitions1[i]) {
-            transitions1[i] = {
-                key: keys[i],
-                item,
-                phase: TransitionPhase.MOUNT,
-                ctrl: new Controller()
-            };
-            transitions1[i].ctrl.item = item;
-        }
-    });
-    if (reused.length) {
-        let i = -1;
-        const { leave  } = propsFn ? propsFn() : props;
-        (0, _shared.each)(reused, (keyIndex, prevIndex)=>{
-            const t = prevTransitions[prevIndex];
-            if (~keyIndex) {
-                i = transitions1.indexOf(t);
-                transitions1[i] = _extends({}, t, {
-                    item: items[keyIndex]
-                });
-            } else if (leave) transitions1.splice(++i, 0, t);
-        });
-    }
-    if ((0, _shared.is).fun(sort)) transitions1.sort((a, b)=>sort(a.item, b.item));
-    let delay = -trail;
-    const forceUpdate = (0, _shared.useForceUpdate)();
-    const defaultProps = getDefaultProps(props);
-    const changes = new Map();
-    const exitingTransitions = (0, _react.useRef)(new Map());
-    const forceChange = (0, _react.useRef)(false);
-    (0, _shared.each)(transitions1, (t1, i)=>{
-        const key = t1.key;
-        const prevPhase = t1.phase;
-        const p = propsFn ? propsFn() : props;
-        let to16;
-        let phase;
-        let propsDelay = callProp(p.delay || 0, key);
-        if (prevPhase == TransitionPhase.MOUNT) {
-            to16 = p.enter;
-            phase = TransitionPhase.ENTER;
-        } else {
-            const isLeave = keys.indexOf(key) < 0;
-            if (prevPhase != TransitionPhase.LEAVE) {
-                if (isLeave) {
-                    to16 = p.leave;
-                    phase = TransitionPhase.LEAVE;
-                } else if (to16 = p.update) phase = TransitionPhase.UPDATE;
-                else return;
-            } else if (!isLeave) {
-                to16 = p.enter;
-                phase = TransitionPhase.ENTER;
-            } else return;
-        }
-        to16 = callProp(to16, t1.item, i);
-        to16 = (0, _shared.is).obj(to16) ? inferTo(to16) : {
-            to: to16
-        };
-        if (!to16.config) {
-            const config6 = propsConfig || defaultProps.config;
-            to16.config = callProp(config6, t1.item, i, phase);
-        }
-        delay += trail;
-        const payload = _extends({}, defaultProps, {
-            delay: propsDelay + delay,
-            ref: propsRef,
-            immediate: p.immediate,
-            reset: false
-        }, to16);
-        if (phase == TransitionPhase.ENTER && (0, _shared.is).und(payload.from)) {
-            const _p = propsFn ? propsFn() : props;
-            const from = (0, _shared.is).und(_p.initial) || prevTransitions ? _p.from : _p.initial;
-            payload.from = callProp(from, t1.item, i);
-        }
-        const { onResolve  } = payload;
-        payload.onResolve = (result)=>{
-            callProp(onResolve, result);
-            const transitions = usedTransitions.current;
-            const t2 = transitions.find((t)=>t.key === key);
-            if (!t2) return;
-            if (result.cancelled && t2.phase != TransitionPhase.UPDATE) return;
-            if (t2.ctrl.idle) {
-                const idle = transitions.every((t)=>t.ctrl.idle);
-                if (t2.phase == TransitionPhase.LEAVE) {
-                    const expiry = callProp(expires, t2.item);
-                    if (expiry !== false) {
-                        const expiryMs = expiry === true ? 0 : expiry;
-                        t2.expired = true;
-                        if (!idle && expiryMs > 0) {
-                            if (expiryMs <= 0x7fffffff) t2.expirationId = setTimeout(forceUpdate, expiryMs);
-                            return;
-                        }
-                    }
-                }
-                if (idle && transitions.some((t)=>t.expired)) {
-                    exitingTransitions.current.delete(t2);
-                    if (exitBeforeEnter) forceChange.current = true;
-                    forceUpdate();
-                }
-            }
-        };
-        const springs = getSprings(t1.ctrl, payload);
-        if (phase === TransitionPhase.LEAVE && exitBeforeEnter) exitingTransitions.current.set(t1, {
-            phase,
-            springs,
-            payload
-        });
-        else changes.set(t1, {
-            phase,
-            springs,
-            payload
-        });
-    });
-    const context = (0, _react.useContext)(SpringContext);
-    const prevContext = (0, _shared.usePrev)(context);
-    const hasContext = context !== prevContext && hasProps(context);
-    (0, _shared.useIsomorphicLayoutEffect)(()=>{
-        if (hasContext) (0, _shared.each)(transitions1, (t)=>{
-            t.ctrl.start({
-                default: context
-            });
-        });
-    }, [
-        context
-    ]);
-    (0, _shared.each)(changes, (_, t)=>{
-        if (exitingTransitions.current.size) {
-            const ind = transitions1.findIndex((state)=>state.key === t.key);
-            transitions1.splice(ind, 1);
-        }
-    });
-    (0, _shared.useIsomorphicLayoutEffect)(()=>{
-        (0, _shared.each)(exitingTransitions.current.size ? exitingTransitions.current : changes, ({ phase , payload  }, t)=>{
-            const { ctrl  } = t;
-            t.phase = phase;
-            ref == null || ref.add(ctrl);
-            if (hasContext && phase == TransitionPhase.ENTER) ctrl.start({
-                default: context
-            });
-            if (payload) {
-                replaceRef(ctrl, payload.ref);
-                if (ctrl.ref && !forceChange.current) ctrl.update(payload);
-                else {
-                    ctrl.start(payload);
-                    if (forceChange.current) forceChange.current = false;
-                }
-            }
-        });
-    }, reset ? void 0 : deps);
-    const renderTransitions = (render)=>_react.createElement(_react.Fragment, null, transitions1.map((t, i)=>{
-            const { springs  } = changes.get(t) || t.ctrl;
-            const elem = render(_extends({}, springs), t.item, t, i);
-            return elem && elem.type ? _react.createElement(elem.type, _extends({}, elem.props, {
-                key: (0, _shared.is).str(t.key) || (0, _shared.is).num(t.key) ? t.key : t.ctrl.id,
-                ref: elem.ref
-            })) : elem;
-        }));
-    return ref ? [
-        renderTransitions,
-        ref
-    ] : renderTransitions;
-}
-let nextKey = 1;
-function getKeys(items, { key , keys =key  }, prevTransitions) {
-    if (keys === null) {
-        const reused = new Set();
-        return items.map((item)=>{
-            const t3 = prevTransitions && prevTransitions.find((t)=>t.item === item && t.phase !== TransitionPhase.LEAVE && !reused.has(t));
-            if (t3) {
-                reused.add(t3);
-                return t3.key;
-            }
-            return nextKey++;
-        });
-    }
-    return (0, _shared.is).und(keys) ? items : (0, _shared.is).fun(keys) ? items.map(keys) : (0, _shared.toArray)(keys);
-}
-const _excluded$2 = [
-    "children"
-];
-function Spring(_ref) {
-    let { children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$2);
-    return children(useSpring(props));
-}
-const _excluded$1 = [
-    "items",
-    "children"
-];
-function Trail(_ref) {
-    let { items , children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded$1);
-    const trails = useTrail(items.length, props);
-    return items.map((item, index)=>{
-        const result = children(item, index);
-        return (0, _shared.is).fun(result) ? result(trails[index]) : result;
-    });
-}
-const _excluded = [
-    "items",
-    "children"
-];
-function Transition(_ref) {
-    let { items , children  } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded);
-    return useTransition(items, props)(children);
-}
-class Interpolation extends FrameValue {
-    constructor(source, args){
-        super();
-        this.key = void 0;
-        this.idle = true;
-        this.calc = void 0;
-        this._active = new Set();
-        this.source = source;
-        this.calc = (0, _shared.createInterpolator)(...args);
-        const value = this._get();
-        const nodeType = (0, _animated.getAnimatedType)(value);
-        (0, _animated.setAnimated)(this, nodeType.create(value));
-    }
-    advance(_dt) {
-        const value = this._get();
-        const oldValue = this.get();
-        if (!(0, _shared.isEqual)(value, oldValue)) {
-            (0, _animated.getAnimated)(this).setValue(value);
-            this._onChange(value, this.idle);
-        }
-        if (!this.idle && checkIdle(this._active)) becomeIdle(this);
-    }
-    _get() {
-        const inputs = (0, _shared.is).arr(this.source) ? this.source.map((0, _shared.getFluidValue)) : (0, _shared.toArray)((0, _shared.getFluidValue)(this.source));
-        return this.calc(...inputs);
-    }
-    _start() {
-        if (this.idle && !checkIdle(this._active)) {
-            this.idle = false;
-            (0, _shared.each)((0, _animated.getPayload)(this), (node)=>{
-                node.done = false;
-            });
-            if ((0, _shared.Globals).skipAnimation) {
-                (0, _shared.raf).batchedUpdates(()=>this.advance());
-                becomeIdle(this);
-            } else (0, _shared.frameLoop).start(this);
-        }
-    }
-    _attach() {
-        let priority = 1;
-        (0, _shared.each)((0, _shared.toArray)(this.source), (source)=>{
-            if ((0, _shared.hasFluidValue)(source)) (0, _shared.addFluidObserver)(source, this);
-            if (isFrameValue(source)) {
-                if (!source.idle) this._active.add(source);
-                priority = Math.max(priority, source.priority + 1);
-            }
-        });
-        this.priority = priority;
-        this._start();
-    }
-    _detach() {
-        (0, _shared.each)((0, _shared.toArray)(this.source), (source)=>{
-            if ((0, _shared.hasFluidValue)(source)) (0, _shared.removeFluidObserver)(source, this);
-        });
-        this._active.clear();
-        becomeIdle(this);
-    }
-    eventObserved(event) {
-        if (event.type == "change") {
-            if (event.idle) this.advance();
-            else {
-                this._active.add(event.parent);
-                this._start();
-            }
-        } else if (event.type == "idle") this._active.delete(event.parent);
-        else if (event.type == "priority") this.priority = (0, _shared.toArray)(this.source).reduce((highest, parent)=>Math.max(highest, (isFrameValue(parent) ? parent.priority : 0) + 1), 0);
-    }
-}
-function isIdle(source) {
-    return source.idle !== false;
-}
-function checkIdle(active) {
-    return !active.size || Array.from(active).every(isIdle);
-}
-function becomeIdle(self) {
-    if (!self.idle) {
-        self.idle = true;
-        (0, _shared.each)((0, _animated.getPayload)(self), (node)=>{
-            node.done = true;
-        });
-        (0, _shared.callFluidObservers)(self, {
-            type: "idle",
-            parent: self
-        });
-    }
-}
-const to = (source, ...args)=>new Interpolation(source, args);
-const interpolate = (source, ...args)=>((0, _shared.deprecateInterpolate)(), new Interpolation(source, args));
-(0, _shared.Globals).assign({
-    createStringInterpolator: (0, _shared.createStringInterpolator),
-    to: (source, args)=>new Interpolation(source, args)
-});
-const update = (0, _shared.frameLoop).advance;
-
-},{"@react-spring/shared":"ddiQF","react":"21dqq","@react-spring/animated":"cBjYb","@react-spring/types/animated":"1o0d6","@react-spring/types/interpolation":"hyb7N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ddiQF":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "raf", ()=>(0, _rafz.raf));
-parcelHelpers.export(exports, "FluidValue", ()=>FluidValue);
-parcelHelpers.export(exports, "Globals", ()=>globals);
-parcelHelpers.export(exports, "addFluidObserver", ()=>addFluidObserver);
-parcelHelpers.export(exports, "callFluidObserver", ()=>callFluidObserver);
-parcelHelpers.export(exports, "callFluidObservers", ()=>callFluidObservers);
-parcelHelpers.export(exports, "colorToRgba", ()=>colorToRgba);
-parcelHelpers.export(exports, "colors", ()=>colors);
-parcelHelpers.export(exports, "createInterpolator", ()=>createInterpolator);
-parcelHelpers.export(exports, "createStringInterpolator", ()=>createStringInterpolator);
-parcelHelpers.export(exports, "defineHidden", ()=>defineHidden);
-parcelHelpers.export(exports, "deprecateDirectCall", ()=>deprecateDirectCall);
-parcelHelpers.export(exports, "deprecateInterpolate", ()=>deprecateInterpolate);
-parcelHelpers.export(exports, "each", ()=>each);
-parcelHelpers.export(exports, "eachProp", ()=>eachProp);
-parcelHelpers.export(exports, "flush", ()=>flush);
-parcelHelpers.export(exports, "flushCalls", ()=>flushCalls);
-parcelHelpers.export(exports, "frameLoop", ()=>frameLoop);
-parcelHelpers.export(exports, "getFluidObservers", ()=>getFluidObservers);
-parcelHelpers.export(exports, "getFluidValue", ()=>getFluidValue);
-parcelHelpers.export(exports, "hasFluidValue", ()=>hasFluidValue);
-parcelHelpers.export(exports, "hex3", ()=>hex3);
-parcelHelpers.export(exports, "hex4", ()=>hex4);
-parcelHelpers.export(exports, "hex6", ()=>hex6);
-parcelHelpers.export(exports, "hex8", ()=>hex8);
-parcelHelpers.export(exports, "hsl", ()=>hsl);
-parcelHelpers.export(exports, "hsla", ()=>hsla);
-parcelHelpers.export(exports, "is", ()=>is);
-parcelHelpers.export(exports, "isAnimatedString", ()=>isAnimatedString);
-parcelHelpers.export(exports, "isEqual", ()=>isEqual);
-parcelHelpers.export(exports, "isSSR", ()=>isSSR);
-parcelHelpers.export(exports, "noop", ()=>noop);
-parcelHelpers.export(exports, "removeFluidObserver", ()=>removeFluidObserver);
-parcelHelpers.export(exports, "rgb", ()=>rgb);
-parcelHelpers.export(exports, "rgba", ()=>rgba);
-parcelHelpers.export(exports, "setFluidGetter", ()=>setFluidGetter);
-parcelHelpers.export(exports, "toArray", ()=>toArray);
-parcelHelpers.export(exports, "useForceUpdate", ()=>useForceUpdate);
-parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>useIsomorphicLayoutEffect);
-parcelHelpers.export(exports, "useMemoOne", ()=>useMemoOne);
-parcelHelpers.export(exports, "useOnce", ()=>useOnce);
-parcelHelpers.export(exports, "usePrev", ()=>usePrev);
-parcelHelpers.export(exports, "useReducedMotion", ()=>useReducedMotion);
-var _rafz = require("@react-spring/rafz");
-var _react = require("react");
-function noop() {}
-const defineHidden = (obj, key, value)=>Object.defineProperty(obj, key, {
-        value,
-        writable: true,
-        configurable: true
-    });
-const is = {
-    arr: Array.isArray,
-    obj: (a)=>!!a && a.constructor.name === "Object",
-    fun: (a)=>typeof a === "function",
-    str: (a)=>typeof a === "string",
-    num: (a)=>typeof a === "number",
-    und: (a)=>a === undefined
-};
-function isEqual(a, b) {
-    if (is.arr(a)) {
-        if (!is.arr(b) || a.length !== b.length) return false;
-        for(let i = 0; i < a.length; i++){
-            if (a[i] !== b[i]) return false;
-        }
-        return true;
-    }
-    return a === b;
-}
-const each = (obj, fn)=>obj.forEach(fn);
-function eachProp(obj, fn, ctx) {
-    if (is.arr(obj)) {
-        for(let i = 0; i < obj.length; i++)fn.call(ctx, obj[i], `${i}`);
-        return;
-    }
-    for(const key in obj)if (obj.hasOwnProperty(key)) fn.call(ctx, obj[key], key);
-}
-const toArray = (a)=>is.und(a) ? [] : is.arr(a) ? a : [
-        a
-    ];
-function flush(queue, iterator) {
-    if (queue.size) {
-        const items = Array.from(queue);
-        queue.clear();
-        each(items, iterator);
-    }
-}
-const flushCalls = (queue, ...args)=>flush(queue, (fn)=>fn(...args));
-const isSSR = ()=>typeof window === "undefined" || !window.navigator || /ServerSideRendering|^Deno\//.test(window.navigator.userAgent);
-let createStringInterpolator$1;
-let to;
-let colors$1 = null;
-let skipAnimation = false;
-let willAdvance = noop;
-const assign = (globals1)=>{
-    if (globals1.to) to = globals1.to;
-    if (globals1.now) (0, _rafz.raf).now = globals1.now;
-    if (globals1.colors !== undefined) colors$1 = globals1.colors;
-    if (globals1.skipAnimation != null) skipAnimation = globals1.skipAnimation;
-    if (globals1.createStringInterpolator) createStringInterpolator$1 = globals1.createStringInterpolator;
-    if (globals1.requestAnimationFrame) (0, _rafz.raf).use(globals1.requestAnimationFrame);
-    if (globals1.batchedUpdates) (0, _rafz.raf).batchedUpdates = globals1.batchedUpdates;
-    if (globals1.willAdvance) willAdvance = globals1.willAdvance;
-    if (globals1.frameLoop) (0, _rafz.raf).frameLoop = globals1.frameLoop;
-};
-var globals = /*#__PURE__*/ Object.freeze({
-    __proto__: null,
-    get createStringInterpolator () {
-        return createStringInterpolator$1;
-    },
-    get to () {
-        return to;
-    },
-    get colors () {
-        return colors$1;
-    },
-    get skipAnimation () {
-        return skipAnimation;
-    },
-    get willAdvance () {
-        return willAdvance;
-    },
-    assign: assign
-});
-const startQueue = new Set();
-let currentFrame = [];
-let prevFrame = [];
-let priority = 0;
-const frameLoop = {
-    get idle () {
-        return !startQueue.size && !currentFrame.length;
-    },
-    start (animation) {
-        if (priority > animation.priority) {
-            startQueue.add(animation);
-            (0, _rafz.raf).onStart(flushStartQueue);
-        } else {
-            startSafely(animation);
-            (0, _rafz.raf)(advance);
-        }
-    },
-    advance,
-    sort (animation) {
-        if (priority) (0, _rafz.raf).onFrame(()=>frameLoop.sort(animation));
-        else {
-            const prevIndex = currentFrame.indexOf(animation);
-            if (~prevIndex) {
-                currentFrame.splice(prevIndex, 1);
-                startUnsafely(animation);
-            }
-        }
-    },
-    clear () {
-        currentFrame = [];
-        startQueue.clear();
-    }
-};
-function flushStartQueue() {
-    startQueue.forEach(startSafely);
-    startQueue.clear();
-    (0, _rafz.raf)(advance);
-}
-function startSafely(animation) {
-    if (!currentFrame.includes(animation)) startUnsafely(animation);
-}
-function startUnsafely(animation) {
-    currentFrame.splice(findIndex(currentFrame, (other)=>other.priority > animation.priority), 0, animation);
-}
-function advance(dt) {
-    const nextFrame = prevFrame;
-    for(let i = 0; i < currentFrame.length; i++){
-        const animation = currentFrame[i];
-        priority = animation.priority;
-        if (!animation.idle) {
-            willAdvance(animation);
-            animation.advance(dt);
-            if (!animation.idle) nextFrame.push(animation);
-        }
-    }
-    priority = 0;
-    prevFrame = currentFrame;
-    prevFrame.length = 0;
-    currentFrame = nextFrame;
-    return currentFrame.length > 0;
-}
-function findIndex(arr, test) {
-    const index = arr.findIndex(test);
-    return index < 0 ? arr.length : index;
-}
-const colors = {
-    transparent: 0x00000000,
-    aliceblue: 0xf0f8ffff,
-    antiquewhite: 0xfaebd7ff,
-    aqua: 0x00ffffff,
-    aquamarine: 0x7fffd4ff,
-    azure: 0xf0ffffff,
-    beige: 0xf5f5dcff,
-    bisque: 0xffe4c4ff,
-    black: 0x000000ff,
-    blanchedalmond: 0xffebcdff,
-    blue: 0x0000ffff,
-    blueviolet: 0x8a2be2ff,
-    brown: 0xa52a2aff,
-    burlywood: 0xdeb887ff,
-    burntsienna: 0xea7e5dff,
-    cadetblue: 0x5f9ea0ff,
-    chartreuse: 0x7fff00ff,
-    chocolate: 0xd2691eff,
-    coral: 0xff7f50ff,
-    cornflowerblue: 0x6495edff,
-    cornsilk: 0xfff8dcff,
-    crimson: 0xdc143cff,
-    cyan: 0x00ffffff,
-    darkblue: 0x00008bff,
-    darkcyan: 0x008b8bff,
-    darkgoldenrod: 0xb8860bff,
-    darkgray: 0xa9a9a9ff,
-    darkgreen: 0x006400ff,
-    darkgrey: 0xa9a9a9ff,
-    darkkhaki: 0xbdb76bff,
-    darkmagenta: 0x8b008bff,
-    darkolivegreen: 0x556b2fff,
-    darkorange: 0xff8c00ff,
-    darkorchid: 0x9932ccff,
-    darkred: 0x8b0000ff,
-    darksalmon: 0xe9967aff,
-    darkseagreen: 0x8fbc8fff,
-    darkslateblue: 0x483d8bff,
-    darkslategray: 0x2f4f4fff,
-    darkslategrey: 0x2f4f4fff,
-    darkturquoise: 0x00ced1ff,
-    darkviolet: 0x9400d3ff,
-    deeppink: 0xff1493ff,
-    deepskyblue: 0x00bfffff,
-    dimgray: 0x696969ff,
-    dimgrey: 0x696969ff,
-    dodgerblue: 0x1e90ffff,
-    firebrick: 0xb22222ff,
-    floralwhite: 0xfffaf0ff,
-    forestgreen: 0x228b22ff,
-    fuchsia: 0xff00ffff,
-    gainsboro: 0xdcdcdcff,
-    ghostwhite: 0xf8f8ffff,
-    gold: 0xffd700ff,
-    goldenrod: 0xdaa520ff,
-    gray: 0x808080ff,
-    green: 0x008000ff,
-    greenyellow: 0xadff2fff,
-    grey: 0x808080ff,
-    honeydew: 0xf0fff0ff,
-    hotpink: 0xff69b4ff,
-    indianred: 0xcd5c5cff,
-    indigo: 0x4b0082ff,
-    ivory: 0xfffff0ff,
-    khaki: 0xf0e68cff,
-    lavender: 0xe6e6faff,
-    lavenderblush: 0xfff0f5ff,
-    lawngreen: 0x7cfc00ff,
-    lemonchiffon: 0xfffacdff,
-    lightblue: 0xadd8e6ff,
-    lightcoral: 0xf08080ff,
-    lightcyan: 0xe0ffffff,
-    lightgoldenrodyellow: 0xfafad2ff,
-    lightgray: 0xd3d3d3ff,
-    lightgreen: 0x90ee90ff,
-    lightgrey: 0xd3d3d3ff,
-    lightpink: 0xffb6c1ff,
-    lightsalmon: 0xffa07aff,
-    lightseagreen: 0x20b2aaff,
-    lightskyblue: 0x87cefaff,
-    lightslategray: 0x778899ff,
-    lightslategrey: 0x778899ff,
-    lightsteelblue: 0xb0c4deff,
-    lightyellow: 0xffffe0ff,
-    lime: 0x00ff00ff,
-    limegreen: 0x32cd32ff,
-    linen: 0xfaf0e6ff,
-    magenta: 0xff00ffff,
-    maroon: 0x800000ff,
-    mediumaquamarine: 0x66cdaaff,
-    mediumblue: 0x0000cdff,
-    mediumorchid: 0xba55d3ff,
-    mediumpurple: 0x9370dbff,
-    mediumseagreen: 0x3cb371ff,
-    mediumslateblue: 0x7b68eeff,
-    mediumspringgreen: 0x00fa9aff,
-    mediumturquoise: 0x48d1ccff,
-    mediumvioletred: 0xc71585ff,
-    midnightblue: 0x191970ff,
-    mintcream: 0xf5fffaff,
-    mistyrose: 0xffe4e1ff,
-    moccasin: 0xffe4b5ff,
-    navajowhite: 0xffdeadff,
-    navy: 0x000080ff,
-    oldlace: 0xfdf5e6ff,
-    olive: 0x808000ff,
-    olivedrab: 0x6b8e23ff,
-    orange: 0xffa500ff,
-    orangered: 0xff4500ff,
-    orchid: 0xda70d6ff,
-    palegoldenrod: 0xeee8aaff,
-    palegreen: 0x98fb98ff,
-    paleturquoise: 0xafeeeeff,
-    palevioletred: 0xdb7093ff,
-    papayawhip: 0xffefd5ff,
-    peachpuff: 0xffdab9ff,
-    peru: 0xcd853fff,
-    pink: 0xffc0cbff,
-    plum: 0xdda0ddff,
-    powderblue: 0xb0e0e6ff,
-    purple: 0x800080ff,
-    rebeccapurple: 0x663399ff,
-    red: 0xff0000ff,
-    rosybrown: 0xbc8f8fff,
-    royalblue: 0x4169e1ff,
-    saddlebrown: 0x8b4513ff,
-    salmon: 0xfa8072ff,
-    sandybrown: 0xf4a460ff,
-    seagreen: 0x2e8b57ff,
-    seashell: 0xfff5eeff,
-    sienna: 0xa0522dff,
-    silver: 0xc0c0c0ff,
-    skyblue: 0x87ceebff,
-    slateblue: 0x6a5acdff,
-    slategray: 0x708090ff,
-    slategrey: 0x708090ff,
-    snow: 0xfffafaff,
-    springgreen: 0x00ff7fff,
-    steelblue: 0x4682b4ff,
-    tan: 0xd2b48cff,
-    teal: 0x008080ff,
-    thistle: 0xd8bfd8ff,
-    tomato: 0xff6347ff,
-    turquoise: 0x40e0d0ff,
-    violet: 0xee82eeff,
-    wheat: 0xf5deb3ff,
-    white: 0xffffffff,
-    whitesmoke: 0xf5f5f5ff,
-    yellow: 0xffff00ff,
-    yellowgreen: 0x9acd32ff
-};
-const NUMBER = "[-+]?\\d*\\.?\\d+";
-const PERCENTAGE = NUMBER + "%";
-function call(...parts) {
-    return "\\(\\s*(" + parts.join(")\\s*,\\s*(") + ")\\s*\\)";
-}
-const rgb = new RegExp("rgb" + call(NUMBER, NUMBER, NUMBER));
-const rgba = new RegExp("rgba" + call(NUMBER, NUMBER, NUMBER, NUMBER));
-const hsl = new RegExp("hsl" + call(NUMBER, PERCENTAGE, PERCENTAGE));
-const hsla = new RegExp("hsla" + call(NUMBER, PERCENTAGE, PERCENTAGE, NUMBER));
-const hex3 = /^#([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/;
-const hex4 = /^#([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})([0-9a-fA-F]{1})$/;
-const hex6 = /^#([0-9a-fA-F]{6})$/;
-const hex8 = /^#([0-9a-fA-F]{8})$/;
-function normalizeColor(color) {
-    let match;
-    if (typeof color === "number") return color >>> 0 === color && color >= 0 && color <= 0xffffffff ? color : null;
-    if (match = hex6.exec(color)) return parseInt(match[1] + "ff", 16) >>> 0;
-    if (colors$1 && colors$1[color] !== undefined) return colors$1[color];
-    if (match = rgb.exec(color)) return (parse255(match[1]) << 24 | parse255(match[2]) << 16 | parse255(match[3]) << 8 | 0x000000ff) >>> 0;
-    if (match = rgba.exec(color)) return (parse255(match[1]) << 24 | parse255(match[2]) << 16 | parse255(match[3]) << 8 | parse1(match[4])) >>> 0;
-    if (match = hex3.exec(color)) return parseInt(match[1] + match[1] + match[2] + match[2] + match[3] + match[3] + "ff", 16) >>> 0;
-    if (match = hex8.exec(color)) return parseInt(match[1], 16) >>> 0;
-    if (match = hex4.exec(color)) return parseInt(match[1] + match[1] + match[2] + match[2] + match[3] + match[3] + match[4] + match[4], 16) >>> 0;
-    if (match = hsl.exec(color)) return (hslToRgb(parse360(match[1]), parsePercentage(match[2]), parsePercentage(match[3])) | 0x000000ff) >>> 0;
-    if (match = hsla.exec(color)) return (hslToRgb(parse360(match[1]), parsePercentage(match[2]), parsePercentage(match[3])) | parse1(match[4])) >>> 0;
-    return null;
-}
-function hue2rgb(p, q, t) {
-    if (t < 0) t += 1;
-    if (t > 1) t -= 1;
-    if (t < 1 / 6) return p + (q - p) * 6 * t;
-    if (t < 0.5) return q;
-    if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
-    return p;
-}
-function hslToRgb(h, s, l) {
-    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-    const p = 2 * l - q;
-    const r = hue2rgb(p, q, h + 1 / 3);
-    const g = hue2rgb(p, q, h);
-    const b = hue2rgb(p, q, h - 1 / 3);
-    return Math.round(r * 255) << 24 | Math.round(g * 255) << 16 | Math.round(b * 255) << 8;
-}
-function parse255(str) {
-    const int = parseInt(str, 10);
-    if (int < 0) return 0;
-    if (int > 255) return 255;
-    return int;
-}
-function parse360(str) {
-    const int = parseFloat(str);
-    return (int % 360 + 360) % 360 / 360;
-}
-function parse1(str) {
-    const num = parseFloat(str);
-    if (num < 0) return 0;
-    if (num > 1) return 255;
-    return Math.round(num * 255);
-}
-function parsePercentage(str) {
-    const int = parseFloat(str);
-    if (int < 0) return 0;
-    if (int > 100) return 1;
-    return int / 100;
-}
-function colorToRgba(input) {
-    let int32Color = normalizeColor(input);
-    if (int32Color === null) return input;
-    int32Color = int32Color || 0;
-    let r = (int32Color & 0xff000000) >>> 24;
-    let g = (int32Color & 0x00ff0000) >>> 16;
-    let b = (int32Color & 0x0000ff00) >>> 8;
-    let a = (int32Color & 0x000000ff) / 255;
-    return `rgba(${r}, ${g}, ${b}, ${a})`;
-}
-const createInterpolator = (range1, output, extrapolate)=>{
-    if (is.fun(range1)) return range1;
-    if (is.arr(range1)) return createInterpolator({
-        range: range1,
-        output: output,
-        extrapolate
-    });
-    if (is.str(range1.output[0])) return createStringInterpolator$1(range1);
-    const config = range1;
-    const outputRange = config.output;
-    const inputRange = config.range || [
-        0,
-        1
-    ];
-    const extrapolateLeft = config.extrapolateLeft || config.extrapolate || "extend";
-    const extrapolateRight = config.extrapolateRight || config.extrapolate || "extend";
-    const easing = config.easing || ((t)=>t);
-    return (input)=>{
-        const range = findRange(input, inputRange);
-        return interpolate(input, inputRange[range], inputRange[range + 1], outputRange[range], outputRange[range + 1], easing, extrapolateLeft, extrapolateRight, config.map);
-    };
-};
-function interpolate(input, inputMin, inputMax, outputMin, outputMax, easing, extrapolateLeft, extrapolateRight, map) {
-    let result = map ? map(input) : input;
-    if (result < inputMin) {
-        if (extrapolateLeft === "identity") return result;
-        else if (extrapolateLeft === "clamp") result = inputMin;
-    }
-    if (result > inputMax) {
-        if (extrapolateRight === "identity") return result;
-        else if (extrapolateRight === "clamp") result = inputMax;
-    }
-    if (outputMin === outputMax) return outputMin;
-    if (inputMin === inputMax) return input <= inputMin ? outputMin : outputMax;
-    if (inputMin === -Infinity) result = -result;
-    else if (inputMax === Infinity) result = result - inputMin;
-    else result = (result - inputMin) / (inputMax - inputMin);
-    result = easing(result);
-    if (outputMin === -Infinity) result = -result;
-    else if (outputMax === Infinity) result = result + outputMin;
-    else result = result * (outputMax - outputMin) + outputMin;
-    return result;
-}
-function findRange(input, inputRange) {
-    for(var i = 1; i < inputRange.length - 1; ++i)if (inputRange[i] >= input) break;
-    return i - 1;
-}
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-const $get = Symbol.for("FluidValue.get");
-const $observers = Symbol.for("FluidValue.observers");
-const hasFluidValue = (arg)=>Boolean(arg && arg[$get]);
-const getFluidValue = (arg)=>arg && arg[$get] ? arg[$get]() : arg;
-const getFluidObservers = (target)=>target[$observers] || null;
-function callFluidObserver(observer, event) {
-    if (observer.eventObserved) observer.eventObserved(event);
-    else observer(event);
-}
-function callFluidObservers(target, event) {
-    let observers = target[$observers];
-    if (observers) observers.forEach((observer)=>{
-        callFluidObserver(observer, event);
-    });
-}
-class FluidValue {
-    constructor(get){
-        this[$get] = void 0;
-        this[$observers] = void 0;
-        if (!get && !(get = this.get)) throw Error("Unknown getter");
-        setFluidGetter(this, get);
-    }
-}
-const setFluidGetter = (target, get)=>setHidden(target, $get, get);
-function addFluidObserver(target, observer) {
-    if (target[$get]) {
-        let observers = target[$observers];
-        if (!observers) setHidden(target, $observers, observers = new Set());
-        if (!observers.has(observer)) {
-            observers.add(observer);
-            if (target.observerAdded) target.observerAdded(observers.size, observer);
-        }
-    }
-    return observer;
-}
-function removeFluidObserver(target, observer) {
-    let observers = target[$observers];
-    if (observers && observers.has(observer)) {
-        const count = observers.size - 1;
-        if (count) observers.delete(observer);
-        else target[$observers] = null;
-        if (target.observerRemoved) target.observerRemoved(count, observer);
-    }
-}
-const setHidden = (target, key, value)=>Object.defineProperty(target, key, {
-        value,
-        writable: true,
-        configurable: true
-    });
-const numberRegex = /[+\-]?(?:0|[1-9]\d*)(?:\.\d*)?(?:[eE][+\-]?\d+)?/g;
-const colorRegex = /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))/gi;
-const unitRegex = new RegExp(`(${numberRegex.source})(%|[a-z]+)`, "i");
-const rgbaRegex = /rgba\(([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+), ([0-9\.-]+)\)/gi;
-const cssVariableRegex = /var\((--[a-zA-Z0-9-_]+),? ?([a-zA-Z0-9 ()%#.,-]+)?\)/;
-const variableToRgba = (input)=>{
-    const [token, fallback] = parseCSSVariable(input);
-    if (!token || isSSR()) return input;
-    const value = window.getComputedStyle(document.documentElement).getPropertyValue(token);
-    if (value) return value.trim();
-    else if (fallback && fallback.startsWith("--")) {
-        const _value = window.getComputedStyle(document.documentElement).getPropertyValue(fallback);
-        if (_value) return _value;
-        else return input;
-    } else if (fallback && cssVariableRegex.test(fallback)) return variableToRgba(fallback);
-    else if (fallback) return fallback;
-    return input;
-};
-const parseCSSVariable = (current)=>{
-    const match = cssVariableRegex.exec(current);
-    if (!match) return [
-        , 
-    ];
-    const [, token, fallback] = match;
-    return [
-        token,
-        fallback
-    ];
-};
-let namedColorRegex;
-const rgbaRound = (_, p1, p2, p3, p4)=>`rgba(${Math.round(p1)}, ${Math.round(p2)}, ${Math.round(p3)}, ${p4})`;
-const createStringInterpolator = (config)=>{
-    if (!namedColorRegex) namedColorRegex = colors$1 ? new RegExp(`(${Object.keys(colors$1).join("|")})(?!\\w)`, "g") : /^\b$/;
-    const output1 = config.output.map((value)=>{
-        return getFluidValue(value).replace(cssVariableRegex, variableToRgba).replace(colorRegex, colorToRgba).replace(namedColorRegex, colorToRgba);
-    });
-    const keyframes = output1.map((value)=>value.match(numberRegex).map(Number));
-    const outputRanges = keyframes[0].map((_, i)=>keyframes.map((values)=>{
-            if (!(i in values)) throw Error('The arity of each "output" value must be equal');
-            return values[i];
-        }));
-    const interpolators = outputRanges.map((output)=>createInterpolator(_extends({}, config, {
-            output
-        })));
-    return (input)=>{
-        var _output$find;
-        const missingUnit = !unitRegex.test(output1[0]) && ((_output$find = output1.find((value)=>unitRegex.test(value))) == null ? void 0 : _output$find.replace(numberRegex, ""));
-        let i = 0;
-        return output1[0].replace(numberRegex, ()=>`${interpolators[i++](input)}${missingUnit || ""}`).replace(rgbaRegex, rgbaRound);
-    };
-};
-const prefix = "react-spring: ";
-const once = (fn)=>{
-    const func = fn;
-    let called = false;
-    if (typeof func != "function") throw new TypeError(`${prefix}once requires a function parameter`);
-    return (...args)=>{
-        if (!called) {
-            func(...args);
-            called = true;
-        }
-    };
-};
-const warnInterpolate = once(console.warn);
-function deprecateInterpolate() {
-    warnInterpolate(`${prefix}The "interpolate" function is deprecated in v9 (use "to" instead)`);
-}
-const warnDirectCall = once(console.warn);
-function deprecateDirectCall() {
-    warnDirectCall(`${prefix}Directly calling start instead of using the api object is deprecated in v9 (use ".start" instead), this will be removed in later 0.X.0 versions`);
-}
-function isAnimatedString(value) {
-    return is.str(value) && (value[0] == "#" || /\d/.test(value) || !isSSR() && cssVariableRegex.test(value) || value in (colors$1 || {}));
-}
-const useIsomorphicLayoutEffect = isSSR() ? (0, _react.useEffect) : (0, _react.useLayoutEffect);
-const useIsMounted = ()=>{
-    const isMounted = (0, _react.useRef)(false);
-    useIsomorphicLayoutEffect(()=>{
-        isMounted.current = true;
-        return ()=>{
-            isMounted.current = false;
-        };
-    }, []);
-    return isMounted;
-};
-function useForceUpdate() {
-    const update = (0, _react.useState)()[1];
-    const isMounted = useIsMounted();
-    return ()=>{
-        if (isMounted.current) update(Math.random());
-    };
-}
-function useMemoOne(getResult, inputs) {
-    const [initial] = (0, _react.useState)(()=>({
-            inputs,
-            result: getResult()
-        }));
-    const committed = (0, _react.useRef)();
-    const prevCache = committed.current;
-    let cache = prevCache;
-    if (cache) {
-        const useCache = Boolean(inputs && cache.inputs && areInputsEqual(inputs, cache.inputs));
-        if (!useCache) cache = {
-            inputs,
-            result: getResult()
-        };
-    } else cache = initial;
-    (0, _react.useEffect)(()=>{
-        committed.current = cache;
-        if (prevCache == initial) initial.inputs = initial.result = undefined;
-    }, [
-        cache
-    ]);
-    return cache.result;
-}
-function areInputsEqual(next, prev) {
-    if (next.length !== prev.length) return false;
-    for(let i = 0; i < next.length; i++){
-        if (next[i] !== prev[i]) return false;
-    }
-    return true;
-}
-const useOnce = (effect)=>(0, _react.useEffect)(effect, emptyDeps);
-const emptyDeps = [];
-function usePrev(value) {
-    const prevRef = (0, _react.useRef)();
-    (0, _react.useEffect)(()=>{
-        prevRef.current = value;
-    });
-    return prevRef.current;
-}
-const useReducedMotion = ()=>{
-    const [reducedMotion, setReducedMotion] = (0, _react.useState)(null);
-    useIsomorphicLayoutEffect(()=>{
-        const mql = window.matchMedia("(prefers-reduced-motion)");
-        const handleMediaChange = (e)=>{
-            setReducedMotion(e.matches);
-            assign({
-                skipAnimation: e.matches
-            });
-        };
-        handleMediaChange(mql);
-        mql.addEventListener("change", handleMediaChange);
-        return ()=>{
-            mql.removeEventListener("change", handleMediaChange);
-        };
-    }, []);
-    return reducedMotion;
-};
-
-},{"@react-spring/rafz":"hxkBl","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hxkBl":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "__raf", ()=>__raf);
-parcelHelpers.export(exports, "raf", ()=>raf);
-let updateQueue = makeQueue();
-const raf = (fn)=>schedule(fn, updateQueue);
-let writeQueue = makeQueue();
-raf.write = (fn)=>schedule(fn, writeQueue);
-let onStartQueue = makeQueue();
-raf.onStart = (fn)=>schedule(fn, onStartQueue);
-let onFrameQueue = makeQueue();
-raf.onFrame = (fn)=>schedule(fn, onFrameQueue);
-let onFinishQueue = makeQueue();
-raf.onFinish = (fn)=>schedule(fn, onFinishQueue);
-let timeouts = [];
-raf.setTimeout = (handler, ms)=>{
-    let time = raf.now() + ms;
-    let cancel = ()=>{
-        let i = timeouts.findIndex((t)=>t.cancel == cancel);
-        if (~i) timeouts.splice(i, 1);
-        pendingCount -= ~i ? 1 : 0;
-    };
-    let timeout = {
-        time,
-        handler,
-        cancel
-    };
-    timeouts.splice(findTimeout(time), 0, timeout);
-    pendingCount += 1;
-    start();
-    return timeout;
-};
-let findTimeout = (time)=>~(~timeouts.findIndex((t)=>t.time > time) || ~timeouts.length);
-raf.cancel = (fn)=>{
-    onStartQueue.delete(fn);
-    onFrameQueue.delete(fn);
-    onFinishQueue.delete(fn);
-    updateQueue.delete(fn);
-    writeQueue.delete(fn);
-};
-raf.sync = (fn)=>{
-    sync = true;
-    raf.batchedUpdates(fn);
-    sync = false;
-};
-raf.throttle = (fn)=>{
-    let lastArgs;
-    function queuedFn() {
-        try {
-            fn(...lastArgs);
-        } finally{
-            lastArgs = null;
-        }
-    }
-    function throttled(...args) {
-        lastArgs = args;
-        raf.onStart(queuedFn);
-    }
-    throttled.handler = fn;
-    throttled.cancel = ()=>{
-        onStartQueue.delete(queuedFn);
-        lastArgs = null;
-    };
-    return throttled;
-};
-let nativeRaf = typeof window != "undefined" ? window.requestAnimationFrame : ()=>{};
-raf.use = (impl)=>nativeRaf = impl;
-raf.now = typeof performance != "undefined" ? ()=>performance.now() : Date.now;
-raf.batchedUpdates = (fn)=>fn();
-raf.catch = console.error;
-raf.frameLoop = "always";
-raf.advance = ()=>{
-    if (raf.frameLoop !== "demand") console.warn("Cannot call the manual advancement of rafz whilst frameLoop is not set as demand");
-    else update();
-};
-let ts = -1;
-let pendingCount = 0;
-let sync = false;
-function schedule(fn, queue) {
-    if (sync) {
-        queue.delete(fn);
-        fn(0);
-    } else {
-        queue.add(fn);
-        start();
-    }
-}
-function start() {
-    if (ts < 0) {
-        ts = 0;
-        if (raf.frameLoop !== "demand") nativeRaf(loop);
-    }
-}
-function stop() {
-    ts = -1;
-}
-function loop() {
-    if (~ts) {
-        nativeRaf(loop);
-        raf.batchedUpdates(update);
-    }
-}
-function update() {
-    let prevTs = ts;
-    ts = raf.now();
-    let count = findTimeout(ts);
-    if (count) {
-        eachSafely(timeouts.splice(0, count), (t)=>t.handler());
-        pendingCount -= count;
-    }
-    if (!pendingCount) {
-        stop();
-        return;
-    }
-    onStartQueue.flush();
-    updateQueue.flush(prevTs ? Math.min(64, ts - prevTs) : 16.667);
-    onFrameQueue.flush();
-    writeQueue.flush();
-    onFinishQueue.flush();
-}
-function makeQueue() {
-    let next = new Set();
-    let current = next;
-    return {
-        add (fn) {
-            pendingCount += current == next && !next.has(fn) ? 1 : 0;
-            next.add(fn);
-        },
-        delete (fn) {
-            pendingCount -= current == next && next.has(fn) ? 1 : 0;
-            return next.delete(fn);
-        },
-        flush (arg) {
-            if (current.size) {
-                next = new Set();
-                pendingCount -= current.size;
-                eachSafely(current, (fn)=>fn(arg) && next.add(fn));
-                pendingCount += next.size;
-                current = next;
-            }
-        }
-    };
-}
-function eachSafely(values, each) {
-    values.forEach((value)=>{
-        try {
-            each(value);
-        } catch (e) {
-            raf.catch(e);
-        }
-    });
-}
-const __raf = {
-    count () {
-        return pendingCount;
-    },
-    isRunning () {
-        return ts >= 0;
-    },
-    clear () {
-        ts = -1;
-        timeouts = [];
-        onStartQueue = makeQueue();
-        updateQueue = makeQueue();
-        onFrameQueue = makeQueue();
-        writeQueue = makeQueue();
-        onFinishQueue = makeQueue();
-        pendingCount = 0;
-    }
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cBjYb":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Animated", ()=>Animated);
-parcelHelpers.export(exports, "AnimatedArray", ()=>AnimatedArray);
-parcelHelpers.export(exports, "AnimatedObject", ()=>AnimatedObject);
-parcelHelpers.export(exports, "AnimatedString", ()=>AnimatedString);
-parcelHelpers.export(exports, "AnimatedValue", ()=>AnimatedValue);
-parcelHelpers.export(exports, "createHost", ()=>createHost);
-parcelHelpers.export(exports, "getAnimated", ()=>getAnimated);
-parcelHelpers.export(exports, "getAnimatedType", ()=>getAnimatedType);
-parcelHelpers.export(exports, "getPayload", ()=>getPayload);
-parcelHelpers.export(exports, "isAnimated", ()=>isAnimated);
-parcelHelpers.export(exports, "setAnimated", ()=>setAnimated);
-var _shared = require("@react-spring/shared");
-var _react = require("react");
-const $node = Symbol.for("Animated:node");
-const isAnimated = (value)=>!!value && value[$node] === value;
-const getAnimated = (owner)=>owner && owner[$node];
-const setAnimated = (owner, node)=>(0, _shared.defineHidden)(owner, $node, node);
-const getPayload = (owner)=>owner && owner[$node] && owner[$node].getPayload();
-class Animated {
-    constructor(){
-        this.payload = void 0;
-        setAnimated(this, this);
-    }
-    getPayload() {
-        return this.payload || [];
-    }
-}
-class AnimatedValue extends Animated {
-    constructor(_value){
-        super();
-        this.done = true;
-        this.elapsedTime = void 0;
-        this.lastPosition = void 0;
-        this.lastVelocity = void 0;
-        this.v0 = void 0;
-        this.durationProgress = 0;
-        this._value = _value;
-        if ((0, _shared.is).num(this._value)) this.lastPosition = this._value;
-    }
-    static create(value) {
-        return new AnimatedValue(value);
-    }
-    getPayload() {
-        return [
-            this
-        ];
-    }
-    getValue() {
-        return this._value;
-    }
-    setValue(value, step) {
-        if ((0, _shared.is).num(value)) {
-            this.lastPosition = value;
-            if (step) {
-                value = Math.round(value / step) * step;
-                if (this.done) this.lastPosition = value;
-            }
-        }
-        if (this._value === value) return false;
-        this._value = value;
-        return true;
-    }
-    reset() {
-        const { done  } = this;
-        this.done = false;
-        if ((0, _shared.is).num(this._value)) {
-            this.elapsedTime = 0;
-            this.durationProgress = 0;
-            this.lastPosition = this._value;
-            if (done) this.lastVelocity = null;
-            this.v0 = null;
-        }
-    }
-}
-class AnimatedString extends AnimatedValue {
-    constructor(value){
-        super(0);
-        this._string = null;
-        this._toString = void 0;
-        this._toString = (0, _shared.createInterpolator)({
-            output: [
-                value,
-                value
-            ]
-        });
-    }
-    static create(value) {
-        return new AnimatedString(value);
-    }
-    getValue() {
-        let value = this._string;
-        return value == null ? this._string = this._toString(this._value) : value;
-    }
-    setValue(value) {
-        if ((0, _shared.is).str(value)) {
-            if (value == this._string) return false;
-            this._string = value;
-            this._value = 1;
-        } else if (super.setValue(value)) this._string = null;
-        else return false;
-        return true;
-    }
-    reset(goal) {
-        if (goal) this._toString = (0, _shared.createInterpolator)({
-            output: [
-                this.getValue(),
-                goal
-            ]
-        });
-        this._value = 0;
-        super.reset();
-    }
-}
-const TreeContext = {
-    dependencies: null
-};
-class AnimatedObject extends Animated {
-    constructor(source){
-        super();
-        this.source = source;
-        this.setValue(source);
-    }
-    getValue(animated) {
-        const values = {};
-        (0, _shared.eachProp)(this.source, (source, key)=>{
-            if (isAnimated(source)) values[key] = source.getValue(animated);
-            else if ((0, _shared.hasFluidValue)(source)) values[key] = (0, _shared.getFluidValue)(source);
-            else if (!animated) values[key] = source;
-        });
-        return values;
-    }
-    setValue(source) {
-        this.source = source;
-        this.payload = this._makePayload(source);
-    }
-    reset() {
-        if (this.payload) (0, _shared.each)(this.payload, (node)=>node.reset());
-    }
-    _makePayload(source) {
-        if (source) {
-            const payload = new Set();
-            (0, _shared.eachProp)(source, this._addToPayload, payload);
-            return Array.from(payload);
-        }
-    }
-    _addToPayload(source) {
-        if (TreeContext.dependencies && (0, _shared.hasFluidValue)(source)) TreeContext.dependencies.add(source);
-        const payload = getPayload(source);
-        if (payload) (0, _shared.each)(payload, (node)=>this.add(node));
-    }
-}
-class AnimatedArray extends AnimatedObject {
-    constructor(source){
-        super(source);
-    }
-    static create(source) {
-        return new AnimatedArray(source);
-    }
-    getValue() {
-        return this.source.map((node)=>node.getValue());
-    }
-    setValue(source) {
-        const payload = this.getPayload();
-        if (source.length == payload.length) return payload.map((node, i)=>node.setValue(source[i])).some(Boolean);
-        super.setValue(source.map(makeAnimated));
-        return true;
-    }
-}
-function makeAnimated(value) {
-    const nodeType = (0, _shared.isAnimatedString)(value) ? AnimatedString : AnimatedValue;
-    return nodeType.create(value);
-}
-function getAnimatedType(value) {
-    const parentNode = getAnimated(value);
-    return parentNode ? parentNode.constructor : (0, _shared.is).arr(value) ? AnimatedArray : (0, _shared.isAnimatedString)(value) ? AnimatedString : AnimatedValue;
-}
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-const withAnimated = (Component, host)=>{
-    const hasInstance = !(0, _shared.is).fun(Component) || Component.prototype && Component.prototype.isReactComponent;
-    return (0, _react.forwardRef)((givenProps, givenRef)=>{
-        const instanceRef = (0, _react.useRef)(null);
-        const ref = hasInstance && (0, _react.useCallback)((value)=>{
-            instanceRef.current = updateRef(givenRef, value);
-        }, [
-            givenRef
-        ]);
-        const [props, deps] = getAnimatedState(givenProps, host);
-        const forceUpdate = (0, _shared.useForceUpdate)();
-        const callback = ()=>{
-            const instance = instanceRef.current;
-            if (hasInstance && !instance) return;
-            const didUpdate = instance ? host.applyAnimatedValues(instance, props.getValue(true)) : false;
-            if (didUpdate === false) forceUpdate();
-        };
-        const observer1 = new PropsObserver(callback, deps);
-        const observerRef = (0, _react.useRef)();
-        (0, _shared.useIsomorphicLayoutEffect)(()=>{
-            observerRef.current = observer1;
-            (0, _shared.each)(deps, (dep)=>(0, _shared.addFluidObserver)(dep, observer1));
-            return ()=>{
-                if (observerRef.current) {
-                    (0, _shared.each)(observerRef.current.deps, (dep)=>(0, _shared.removeFluidObserver)(dep, observerRef.current));
-                    (0, _shared.raf).cancel(observerRef.current.update);
-                }
-            };
-        });
-        (0, _react.useEffect)(callback, []);
-        (0, _shared.useOnce)(()=>()=>{
-                const observer = observerRef.current;
-                (0, _shared.each)(observer.deps, (dep)=>(0, _shared.removeFluidObserver)(dep, observer));
-            });
-        const usedProps = host.getComponentProps(props.getValue());
-        return _react.createElement(Component, _extends({}, usedProps, {
-            ref: ref
-        }));
-    });
-};
-class PropsObserver {
-    constructor(update, deps){
-        this.update = update;
-        this.deps = deps;
-    }
-    eventObserved(event) {
-        if (event.type == "change") (0, _shared.raf).write(this.update);
-    }
-}
-function getAnimatedState(props, host) {
-    const dependencies = new Set();
-    TreeContext.dependencies = dependencies;
-    if (props.style) props = _extends({}, props, {
-        style: host.createAnimatedStyle(props.style)
-    });
-    props = new AnimatedObject(props);
-    TreeContext.dependencies = null;
-    return [
-        props,
-        dependencies
-    ];
-}
-function updateRef(ref, value) {
-    if (ref) {
-        if ((0, _shared.is).fun(ref)) ref(value);
-        else ref.current = value;
-    }
-    return value;
-}
-const cacheKey = Symbol.for("AnimatedComponent");
-const createHost = (components, { applyAnimatedValues: _applyAnimatedValues = ()=>false , createAnimatedStyle: _createAnimatedStyle = (style)=>new AnimatedObject(style) , getComponentProps: _getComponentProps = (props)=>props  } = {})=>{
-    const hostConfig = {
-        applyAnimatedValues: _applyAnimatedValues,
-        createAnimatedStyle: _createAnimatedStyle,
-        getComponentProps: _getComponentProps
-    };
-    const animated = (Component)=>{
-        const displayName = getDisplayName(Component) || "Anonymous";
-        if ((0, _shared.is).str(Component)) Component = animated[Component] || (animated[Component] = withAnimated(Component, hostConfig));
-        else Component = Component[cacheKey] || (Component[cacheKey] = withAnimated(Component, hostConfig));
-        Component.displayName = `Animated(${displayName})`;
-        return Component;
-    };
-    (0, _shared.eachProp)(components, (Component, key)=>{
-        if ((0, _shared.is).arr(components)) key = getDisplayName(Component);
-        animated[key] = animated(Component);
-    });
-    return {
-        animated
-    };
-};
-const getDisplayName = (arg)=>(0, _shared.is).str(arg) ? arg : arg && (0, _shared.is).str(arg.displayName) ? arg.displayName : (0, _shared.is).fun(arg) && arg.name || null;
-
-},{"@react-spring/shared":"ddiQF","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1o0d6":[function(require,module,exports) {
-
-},{}],"hyb7N":[function(require,module,exports) {
-
-},{}],"lOjBx":[function(require,module,exports) {
-"use strict";
-var m = require("react-dom");
-var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-exports.createRoot = function(c, o) {
-    i.usingClientEntryPoint = true;
-    try {
-        return m.createRoot(c, o);
-    } finally{
-        i.usingClientEntryPoint = false;
-    }
-};
-exports.hydrateRoot = function(c, h, o) {
-    i.usingClientEntryPoint = true;
-    try {
-        return m.hydrateRoot(c, h, o);
-    } finally{
-        i.usingClientEntryPoint = false;
-    }
-};
-
-},{"react-dom":"j6uA9"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
+},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
