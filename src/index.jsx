@@ -16,9 +16,11 @@ import { useSpring, animated } from "react-spring";
 import Deck from "./components/deck/Deck";
 
 
+
 const App = () =>{
   const [scroll, setScroll] = useState(0)
 const parallax = useRef(null)
+
 
 
 
@@ -57,8 +59,7 @@ useEffect(() => {
     {/* <div className="sideNav reveal active " id="sideNav">
          <Sidenav />
          </div>  */}
-    
-   
+       
          <div className="backg">
   <Background  style={{ postion:'fixed'}} />
   </div>
