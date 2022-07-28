@@ -2925,6 +2925,8 @@ var _bgJpgDefault = parcelHelpers.interopDefault(_bgJpg);
 var _reactSpring = require("react-spring");
 var _deck = require("./components/deck/Deck");
 var _deckDefault = parcelHelpers.interopDefault(_deck);
+var _projects = require("./components/projects/Projects");
+var _projectsDefault = parcelHelpers.interopDefault(_projects);
 var _s = $RefreshSig$();
 const App = ()=>{
     _s();
@@ -2943,187 +2945,178 @@ const App = ()=>{
         container.addEventListener("scroll", getScroll);
         return ()=>{};
     }, []);
-    if (scroll > 700) {
+    if (scroll > 320) {
         console.log(document.getElementById("iconsNav"));
         const nav = document.getElementById("iconsNav");
         nav.classList.add("active");
         nav.classList.remove("reveal");
-    } else if (scroll < 700 && scroll > 50) {
+    } else if (scroll < 320 && scroll > 50) {
         console.log(document.getElementById("iconsNav"));
         const nav = document.getElementById("iconsNav");
         nav.classList.remove("active");
         nav.classList.add("reveal");
     }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "backg",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {
-                    style: {
-                        postion: "fixed"
-                    }
-                }, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.Parallax), {
+            ref: parallax,
+            pages: 5,
+            style: {
+                top: "0",
+                left: "0"
+            },
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    offset: 0,
+                    speed: 0,
+                    factor: 10,
+                    children: [
+                        "//  ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 71,
+                            columnNumber: 3
+                        }, undefined),
+                        "// "
+                    ]
+                }, void 0, true, {
                     fileName: "src/index.jsx",
                     lineNumber: 64,
-                    columnNumber: 3
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/index.jsx",
-                lineNumber: 63,
-                columnNumber: 10
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.Parallax), {
-                ref: parallax,
-                pages: 5,
-                style: {
-                    top: "0",
-                    left: "0"
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                        offset: 0,
-                        style: {
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "topMenu",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "clouds"
-                                }, void 0, false, {
-                                    fileName: "src/index.jsx",
-                                    lineNumber: 73,
-                                    columnNumber: 5
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "nav-comp",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
-                                        fileName: "src/index.jsx",
-                                        lineNumber: 75,
-                                        columnNumber: 9
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/index.jsx",
-                                    lineNumber: 74,
-                                    columnNumber: 8
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
+                    columnNumber: 1
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    className: "sideNavLayer",
+                    style: {
+                        width: "20vw"
+                    },
+                    // style={props}
+                    sticky: {
+                        start: 0,
+                        end: 5
+                    },
+                    // offset={2}
+                    // speed={-1}
+                    factor: 10,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "sideNav reveal",
+                        id: "iconsNav",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 72,
+                            lineNumber: 84,
+                            columnNumber: 10
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 83,
+                        columnNumber: 7
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 75,
+                    columnNumber: 1
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    // offset={0}
+                    speed: 1,
+                    // sticky={{start:0, end:0}}
+                    style: {
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        zindex: "1"
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "clouds"
+                        }, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 96,
                             columnNumber: 5
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 68,
-                        columnNumber: 3
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                        className: "layerOne",
-                        offset: 1,
-                        style: {},
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "aboutComp",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    children: [
-                                        "I've scrolled ",
-                                        scroll,
-                                        " pixels"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/index.jsx",
-                                    lineNumber: 83,
-                                    columnNumber: 7
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                                    fileName: "src/index.jsx",
-                                    lineNumber: 84,
-                                    columnNumber: 5
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 82,
-                            columnNumber: 7
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 78,
-                        columnNumber: 3
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                        offset: 2,
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "deckComp",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "nav-comp",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 95,
+                                lineNumber: 98,
+                                columnNumber: 9
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 97,
+                            columnNumber: 8
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 89,
+                    columnNumber: 3
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    className: "layerOne",
+                    offset: 1,
+                    speed: 1,
+                    // sticky={{start:2, end:2}}
+                    style: {},
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "aboutComp",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    "I've scrolled ",
+                                    scroll,
+                                    " pixels"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/index.jsx",
+                                lineNumber: 108,
+                                columnNumber: 7
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                                fileName: "src/index.jsx",
+                                lineNumber: 109,
                                 columnNumber: 5
                             }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 94,
-                            columnNumber: 7
-                        }, undefined)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "src/index.jsx",
-                        lineNumber: 89,
-                        columnNumber: 3
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                        // style={props}
-                        sticky: {
-                            start: 1,
-                            end: 5
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "sideNav reveal",
-                            id: "iconsNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 110,
-                                columnNumber: 10
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 109,
-                            columnNumber: 7
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 103,
-                        columnNumber: 3
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                        offset: 3
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 114,
-                        columnNumber: 3
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        lineNumber: 107,
+                        columnNumber: 7
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 102,
+                    columnNumber: 3
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    offset: 1,
+                    style: {
+                        width: "70vw",
+                        float: "right"
+                    },
+                    speed: 1,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "deckComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 122,
+                            lineNumber: 120,
                             columnNumber: 5
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 121,
-                        columnNumber: 5
+                        lineNumber: 119,
+                        columnNumber: 4
                     }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/index.jsx",
-                lineNumber: 66,
-                columnNumber: 1
-            }, undefined)
-        ]
-    }, void 0, true);
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 116,
+                    columnNumber: 3
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/index.jsx",
+            lineNumber: 62,
+            columnNumber: 1
+        }, undefined)
+    }, void 0, false);
 };
 _s(App, "Kcx4DdevZecx97iFy/ToffVBkTk=");
 _c = App;
@@ -3133,12 +3126,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 149,
+        lineNumber: 140,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 148,
+    lineNumber: 139,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -3149,7 +3142,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -59258,6 +59251,43 @@ const Parallax = _react.memo(_react.forwardRef((props, ref)=>{
 },{"react":"21dqq","@react-spring/shared":"jm667","@react-spring/web":"75MAn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fdQBU":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "bg.577eee2d.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
+},{"./helpers/bundle-url":"lgJ39"}],"hj1ik":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d493 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d493.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _deck = require("../deck/Deck");
+var _deckDefault = parcelHelpers.interopDefault(_deck);
+function Projects() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
+            fileName: "src/components/projects/Projects.jsx",
+            lineNumber: 6,
+            columnNumber: 10
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/projects/Projects.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, this);
+}
+exports.default = Projects;
+_c = Projects;
+var _c;
+$RefreshReg$(_c, "Projects");
+
+  $parcel$ReactRefreshHelpers$d493.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

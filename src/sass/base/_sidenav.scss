@@ -3,17 +3,16 @@
 .sideNav{
      z-index: 4;
     // background-color: rgb(16, 16, 16);
+    // position: sticky;
     width: 5vw;
     height: 50vh;
     // align-self: flex-start;
-    top: 25vh;
+    margin-top: 25vh;
     left: 5vw;
     float: left;
-    position: fixed;
-    
-    
-  
+
 }
+
 
 img{
     width: 8vw;
@@ -24,11 +23,11 @@ img{
 
 .reveal{
     opacity: 0;
-    transition: 4s;
+    transition: 2s;
     
 }
 
 .active{
     opacity: 1;
-    transition: 4s;
+    transition: 2s;
 }

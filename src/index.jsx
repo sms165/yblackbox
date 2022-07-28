@@ -8,12 +8,13 @@ import Background from "./components/background/Background";
 import Sidenav from "./components/sidenav/Sidenav";
 import About from "./components/about/About"
 import './sass/style.scss'
-import { Parallax, ParallaxLayer  } from "@react-spring/parallax";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import bg from './assets/bg.jpg';
 import { useRef, useState } from "react";
 import { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 import Deck from "./components/deck/Deck";
+import Projects from "./components/projects/Projects";
 
 
 
@@ -43,99 +44,89 @@ useEffect(() => {
    
   }
 }, [])
- if (scroll > 700) {
+ if (scroll > 320) {
    console.log(document.getElementById("iconsNav"));
       const nav= document.getElementById("iconsNav");
       nav.classList.add("active");
       nav.classList.remove("reveal");
        
-     }else if(scroll < 700 && scroll >50) {
+     }else if(scroll < 320 && scroll >50) {
       console.log(document.getElementById("iconsNav"));
       const nav= document.getElementById("iconsNav");
       nav.classList.remove("active");
       nav.classList.add("reveal");
      }
     return (<>
-    {/* <div className="sideNav reveal active " id="sideNav">
-         <Sidenav />
-         </div>  */}
-       
-         <div className="backg">
-  <Background  style={{ postion:'fixed'}} />
-  </div>
-<Parallax ref={parallax} pages={5} style={{ top: '0', left: '0' }}>
-
-  <ParallaxLayer 
-    offset={0}
     
-    style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-    <div className="topMenu">
+   
+<Parallax ref={parallax} pages={5} style={{ top: '0', left: '0' }}>
+  
+<ParallaxLayer
+offset={0}
+speed={0}
+factor={10}
+ >
+
+  //  {/* <div className="backg"> */}
+  <Background />
+  // {/* </div> */}
+  
+</ParallaxLayer>
+<ParallaxLayer className="sideNavLayer" style={{width:'20vw'}} 
+  // style={props}
+ sticky={{start:0, end:5}}
+// offset={2}
+// speed={-1}
+factor={10}
+    >
+    
+      <div className="sideNav reveal" id="iconsNav">
+         <Sidenav />
+         </div> 
+    
+  </ParallaxLayer>
+ 
+  <ParallaxLayer 
+    // offset={0}
+    speed={1}
+    // sticky={{start:0, end:0}}
+     style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' , zindex:'1'}}
+    >
+    {/* <div className="topMenu"> */}
     <div className="clouds"></div>
        <div className="nav-comp">
         <Nav />
-        </div></div>
+        </div>
+        {/* </div> */}
   </ParallaxLayer>
   <ParallaxLayer className="layerOne"
     offset={1}
-    
+    speed={1}
+    // sticky={{start:2, end:2}}
     style={{  }}>
       <div className="aboutComp">
       <p>I've scrolled {scroll} pixels</p>
     <About />
     
     </div>
-    {/* <Test /> */}
-  </ParallaxLayer>
-  <ParallaxLayer 
-    offset={2}
-    
-    >
-     
-      <div className="deckComp">
-    <Deck  />
-    </div>
-      
-      {/* <Test /> */}
-      {/* <div className="deckComp">
-    <Deck  />
-    </div> */}
-  </ParallaxLayer>
-  <ParallaxLayer
-  // style={props}
-sticky={{start:1, end:5}}
-   
-    >
-     
-      <div className="sideNav reveal" id="iconsNav">
-         <Sidenav />
-         </div> 
     
   </ParallaxLayer>
-  <ParallaxLayer offset={3}>
-  {/* <animated.div className="deckComp">
-    <Deck  />
-    </animated.div> */}
   
+  
+  <ParallaxLayer offset={1} style={{width:'70vw', float:'right'}}
+  speed={1}>
+    {/* <Sidenav style={{float:'left'}} /> */}
+   <div className="deckComp">
+    <Projects  />
+    </div>
   </ParallaxLayer>
  
-    <div className="deckComp">
-    <Deck  />
-    </div>
-
+   
  
 </Parallax>
 
 
-
-
- {/* <Parallax pages={2} style={{ }}>
- <div className="deckComp">
-    <Deck  />
-    </div>
-  
-</Parallax> */}
-
-       {/* <Cube /> */}
+ 
 
       </>
     )
