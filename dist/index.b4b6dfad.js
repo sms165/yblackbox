@@ -2927,6 +2927,8 @@ var _deck = require("./components/deck/Deck");
 var _deckDefault = parcelHelpers.interopDefault(_deck);
 var _projects = require("./components/projects/Projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
+var _logo = require("./components/logo/Logo");
+var _logoDefault = parcelHelpers.interopDefault(_logo);
 var _s = $RefreshSig$();
 const App = ()=>{
     _s();
@@ -2935,11 +2937,6 @@ const App = ()=>{
     (0, _react.useEffect)(()=>{
         const getScroll = (e)=>{
             setScroll(e.target.scrollTop);
-        // if (e > 500) {
-        //   const nav= document.getElementById("sideNav").classList.toggle('active');
-        //  }else{
-        //    console.log(scroll)
-        //  }
         };
         const container = parallax.current.container.current;
         container.addEventListener("scroll", getScroll);
@@ -2970,18 +2967,18 @@ const App = ()=>{
                     speed: 0,
                     factor: 10,
                     children: [
-                        "//  ",
+                        "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 71,
-                            columnNumber: 3
+                            lineNumber: 51,
+                            columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 64,
-                    columnNumber: 1
+                    lineNumber: 49,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "sideNavLayer",
@@ -3001,18 +2998,39 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 84,
-                            columnNumber: 10
+                            lineNumber: 66,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 83,
-                        columnNumber: 7
+                        lineNumber: 65,
+                        columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 75,
-                    columnNumber: 1
+                    lineNumber: 56,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    className: "yblackbox",
+                    sticky: {
+                        start: 1,
+                        end: 5
+                    },
+                    style: {
+                        width: "10vw",
+                        float: "left",
+                        height: "10vh"
+                    },
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 75,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 71,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     // offset={0}
@@ -3029,26 +3047,26 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 96,
-                            columnNumber: 5
+                            lineNumber: 91,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 98,
-                                columnNumber: 9
+                                lineNumber: 93,
+                                columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 97,
-                            columnNumber: 8
+                            lineNumber: 92,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 89,
-                    columnNumber: 3
+                    lineNumber: 79,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "layerOne",
@@ -3067,24 +3085,24 @@ const App = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 108,
-                                columnNumber: 7
+                                lineNumber: 107,
+                                columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 109,
-                                columnNumber: 5
+                                lineNumber: 108,
+                                columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/index.jsx",
-                        lineNumber: 107,
-                        columnNumber: 7
+                        lineNumber: 106,
+                        columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 102,
-                    columnNumber: 3
+                    lineNumber: 99,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 1,
@@ -3098,23 +3116,23 @@ const App = ()=>{
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
                             lineNumber: 120,
-                            columnNumber: 5
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
                         lineNumber: 119,
-                        columnNumber: 4
+                        columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 116,
-                    columnNumber: 3
+                    lineNumber: 113,
+                    columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 62,
-            columnNumber: 1
+            lineNumber: 46,
+            columnNumber: 7
         }, undefined)
     }, void 0, false);
 };
@@ -3126,12 +3144,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 140,
+        lineNumber: 133,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 139,
+    lineNumber: 132,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -3142,7 +3160,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/logo/Logo":"dorWe"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -59288,6 +59306,51 @@ $RefreshReg$(_c, "Projects");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dorWe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$42f7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$42f7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleScss = require("../../sass/style.scss");
+var _ySvg = require("../../assets/y.svg");
+var _ySvgDefault = parcelHelpers.interopDefault(_ySvg);
+function Logo() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "logo",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            src: (0, _ySvgDefault.default),
+            alt: "logo"
+        }, void 0, false, {
+            fileName: "src/components/logo/Logo.jsx",
+            lineNumber: 9,
+            columnNumber: 10
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/logo/Logo.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+exports.default = Logo;
+_c = Logo;
+var _c;
+$RefreshReg$(_c, "Logo");
+
+  $parcel$ReactRefreshHelpers$42f7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/y.svg":"1GP1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"1GP1E":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "y.08306a29.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
