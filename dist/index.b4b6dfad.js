@@ -3160,7 +3160,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/logo/Logo":"dorWe"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","./components/logo/Logo":"dorWe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -29466,7 +29466,7 @@ function useTransition(data, props, deps) {
             });
             if (payload) {
                 replaceRef(ctrl, payload.ref);
-                if (ctrl.ref && !forceChange.current) ctrl.update(payload);
+                if ((ctrl.ref || ref) && !forceChange.current) ctrl.update(payload);
                 else {
                     ctrl.start(payload);
                     if (forceChange.current) forceChange.current = false;
@@ -30796,172 +30796,148 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-// import React, { useState } from "react";
-// import { useSprings } from "react-spring";
-// import { useGesture, useDrag } from "react-use-gesture";
-// // import { useGesture } from "react-with-gesture";
-// import Card from "../card/Card";
-// import '../../sass/style.scss';
-// const cards = [1, 2, 3, 4];
-// const objs = [
-//   {
-//     pics: [
-//       "https://images.unsplash.com/photo-1522263842439-347f062b8475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-//     ],
-//     name: "Chloe",
-//     age: 18,
-//     distance: "1 mile away",
-//     text: "The C and the L are silent."
-//   },
-//   {
-//     pics: [
-//       "https://images.unsplash.com/photo-1535378719329-f0a8b9a42152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-//     ],
-//     name: "Sarah",
-//     age: 24,
-//     distance: "5 miles away",
-//     text:
-//       "It's tough being a single mom. Or so I'm told, I wouldn't know; I don't have kids."
-//   },
-//   {
-//     pics: [
-//       "https://images.unsplash.com/photo-1514924801778-1db0aba75e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-//     ],
-//     name: "Savannah",
-//     age: 29,
-//     distance: "3 miles away",
-//     text: "A little known fact is that I cover about 40% of Africa."
-//   },
-//   {
-//     pics: [
-//       "https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
-//     //   "https://images.unsplash.com/photo-1532635270-c09dac425ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-//     ],
-//     name: "Jane",
-//     age: 22,
-//     distance: "2 miles away",
-//     text:
-//       "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I have a knife."
-//   }
-// ];
-// const to = i => ({
-//   x: 0,
-//   y: i * -10,
-//   scale: 1,
-//   rot: -10 + Math.random() * 20,
-//   delay: i * 100
-// });
-// const from = i => ({ rot: 0, scale: 1.5, y: -1000 });
-// const trans = (r, s) =>
-//   `perspective(1500px) rotateX(30deg) rotateY(${r /
-//     10}deg) rotateZ(${r}deg) scale(${s})`;
-// function Deck() {
-//   const [gone] = useState(() => new Set());
-//   const [props, set] = useSprings(cards.length, i => ({
-//     ...to(i),
-//     from: from(i)
-//   }));
-//   const bind = useDrag(
-//     ({
-//       args: [index],
-//       down,
-//       movement: [mx],
-//       delta: [xDelta],
-//       distance,
-//       direction: [xDir],
-//       velocity
-//     }) => {
-//       const trigger = velocity > 0.2;
-//       const dir = xDir < 0 ? -1 : 1;
-//       if (!down && trigger) gone.add(index);
-//       set(i => {
-//         if (index !== i) return;
-//         const isGone = gone.has(index);
-//         const x = isGone ? (200 + window.innerWidth) * dir : down ? xDelta : 0;
-//         const rot = mx / 100 + (isGone ? dir * 10 * velocity : 0) // How much the card tilts, flicking it harder makes it rotate faster
-//         const scale = down ? 1.1 : 1;
-//         return {
-//           x,
-//           rot,
-//           scale,
-//           delay: undefined,
-//           config: { friction: 50, tension: down ? 800 : isGone ? 200 : 500 }
-//         };
-//       });
-//       if (!down && gone.size === cards.length)
-//         setTimeout(() => gone.clear() || set(i => to(i)), 600);
-//     }
-//   );
-//   return props.map(({ x, y, rot, scale }, i) => (
-//     <Card
-//       i={i}
-//       x={x}
-//       y={y}
-//       rot={rot}
-//       scale={scale}
-//       trans={trans}
-//       cards={cards}
-//       objs={objs}
-//       bind={bind}
-//     />
-//   ));
-// }
-// export default Deck;
-var _reactDom = require("react-dom");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactSpring = require("react-spring");
-//import { useDrag } from '@use-gesture/react'
 var _reactUseGesture = require("react-use-gesture");
+// import { useGesture } from "react-with-gesture";
+var _card = require("../card/Card");
+var _cardDefault = parcelHelpers.interopDefault(_card);
 var _styleScss = require("../../sass/style.scss");
+var _myflix1Png = require("../../assets/myflix-1.png");
+var _myflix1PngDefault = parcelHelpers.interopDefault(_myflix1Png);
+var _myflix2Png = require("../../assets/myflix-2.png");
+var _myflix2PngDefault = parcelHelpers.interopDefault(_myflix2Png);
+var _myflixApi1Png = require("../../assets/myflix-api-1.png");
+var _myflixApi1PngDefault = parcelHelpers.interopDefault(_myflixApi1Png);
+var _myflixApi2Png = require("../../assets/myflix-api-2.png");
+var _myflixApi2PngDefault = parcelHelpers.interopDefault(_myflixApi2Png);
+var _meet1Jpg = require("../../assets/meet1.jpg");
+var _meet1JpgDefault = parcelHelpers.interopDefault(_meet1Jpg);
+var _meet2Jpg = require("../../assets/meet2.jpg");
+var _meet2JpgDefault = parcelHelpers.interopDefault(_meet2Jpg);
+var _meet3Jpg = require("../../assets/meet3.jpg");
+var _meet3JpgDefault = parcelHelpers.interopDefault(_meet3Jpg);
+var _yblackbox1Png = require("../../assets/yblackbox1.png");
+var _yblackbox1PngDefault = parcelHelpers.interopDefault(_yblackbox1Png);
 var _s = $RefreshSig$();
 const cards = [
-    "https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg",
-    "https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg",
-    "https://upload.wikimedia.org/wikipedia/en/9/9b/RWS_Tarot_07_Chariot.jpg", 
+    1,
+    2,
+    3,
+    4
 ];
-// These two are just helpers, they curate spring data, values that are later being interpolated into css
+const objs = [
+    {
+        pics: [
+            (0, _myflix1PngDefault.default),
+            (0, _myflix2PngDefault.default)
+        ],
+        name: "myFLIX",
+        keywords: [
+            "React",
+            "Parcel",
+            "React Bootstrap",
+            "React Redux",
+            "React Router",
+            "Axios",
+            "Netlify",
+            "Fontawesome",
+            "SCSS",
+            "Node.js"
+        ],
+        text: "The C and the L are silent."
+    },
+    {
+        pics: [
+            (0, _myflixApi1PngDefault.default),
+            (0, _myflixApi2PngDefault.default)
+        ],
+        name: "myFlix API",
+        keywords: [
+            "React",
+            "Parcel",
+            "React Bootstrap",
+            "React Redux",
+            "React Router",
+            "Axios",
+            "Netlify",
+            "Fontawesome",
+            "SCSS",
+            "Node.js"
+        ]
+    },
+    {
+        pics: [
+            (0, _meet3JpgDefault.default),
+            (0, _meet2JpgDefault.default),
+            (0, _meet1JpgDefault.default)
+        ],
+        name: "Meet App",
+        keywords: [
+            "React",
+            "Parcel",
+            "React Bootstrap",
+            "React Redux",
+            "React Router",
+            "Axios",
+            "Netlify",
+            "Fontawesome",
+            "SCSS",
+            "Node.js"
+        ],
+        text: "A little known fact is that I cover about 40% of Africa."
+    },
+    {
+        pics: [
+            (0, _yblackbox1PngDefault.default)
+        ],
+        name: "YBlackBox",
+        keywords: [
+            "React",
+            "Parcel",
+            "React Bootstrap",
+            "React Redux",
+            "React Router",
+            "Axios",
+            "Netlify",
+            "Fontawesome",
+            "SCSS",
+            "Node.js"
+        ]
+    }
+];
 const to = (i)=>({
-        x: 80,
-        y: i * -4,
+        x: 0,
+        y: i * -10,
         scale: 1,
         rot: -10 + Math.random() * 20,
         delay: i * 100
     });
 const from = (i)=>({
-        x: 80,
         rot: 0,
         scale: 1.5,
         y: -1000
     });
-// This is being used down there in the view, it interpolates rotation and scale into a css transform
 const trans = (r, s)=>`perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`;
 function Deck() {
     _s();
-    const [gone] = (0, _react.useState)(()=>new Set()) // The set flags all the cards that are flicked out
-    ;
+    const [gone] = (0, _react.useState)(()=>new Set());
     const [props, set] = (0, _reactSpring.useSprings)(cards.length, (i)=>({
             ...to(i),
             from: from(i)
-        })) // Create a bunch of springs using the helpers above
-    ;
-    // Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
-    const bind = (0, _reactUseGesture.useDrag)(({ args: [index] , down , movement: [mx] , direction: [xDir] , velocity  })=>{
-        const trigger = velocity > 0.2 // If you flick hard enough it should trigger the card to fly out
-        ;
-        const dir = xDir < 0 ? -1 : 1 // Direction should either point left or right
-        ;
-        if (trigger) gone.add(index) // If button/finger's up and trigger velocity is reached, we flag the card ready to fly out
-        ;
+        }));
+    const bind = (0, _reactUseGesture.useDrag)(({ args: [index] , down , movement: [mx] , delta: [xDelta] , distance , direction: [xDir] , velocity  })=>{
+        const trigger = velocity > 0.2;
+        const dir = xDir < 0 ? -1 : 1;
+        if (!down && trigger) gone.add(index);
         set((i)=>{
-            if (index !== i) return; // We're only interested in changing spring-data for the current spring
+            if (index !== i) return;
             const isGone = gone.has(index);
-            const x = isGone ? (100 + window.innerWidth) * dir : down ? mx : 0 // When a card is gone it flys out left or right, otherwise goes back to zero
-            ;
+            const x = isGone ? (200 + window.innerWidth) * dir : down ? xDelta : 0;
             const rot = mx / 100 + (isGone ? dir * 10 * velocity : 0 // How much the card tilts, flicking it harder makes it rotate faster
             );
-            const scale = down ? 1.1 : 1 // Active cards lift up a bit
-            ;
+            const scale = down ? 1.1 : 1;
             return {
                 x,
                 rot,
@@ -30975,41 +30951,21 @@ function Deck() {
         });
         if (!down && gone.size === cards.length) setTimeout(()=>gone.clear() || set((i)=>to(i)), 600);
     });
-    // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "ex",
-        children: [
-            console.log(window.innerWidth),
-            props.map(({ x , y , rot , scale  }, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactSpring.animated).div, {
-                    style: {
-                        x,
-                        y
-                    },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactSpring.animated).div, {
-                        ...bind(i),
-                        style: {
-                            transform: (0, _reactSpring.to)([
-                                rot,
-                                scale
-                            ], trans),
-                            backgroundImage: `url(${cards[i]})`
-                        }
-                    }, void 0, false, {
-                        fileName: "src/components/deck/Deck.jsx",
-                        lineNumber: 176,
-                        columnNumber: 7
-                    }, this)
-                }, i, false, {
-                    fileName: "src/components/deck/Deck.jsx",
-                    lineNumber: 174,
-                    columnNumber: 5
-                }, this))
-        ]
-    }, void 0, true, {
-        fileName: "src/components/deck/Deck.jsx",
-        lineNumber: 170,
-        columnNumber: 11
-    }, this);
+    return props.map(({ x , y , rot , scale  }, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+            i: i,
+            x: x,
+            y: y,
+            rot: rot,
+            scale: scale,
+            trans: trans,
+            cards: cards,
+            objs: objs,
+            bind: bind
+        }, void 0, false, {
+            fileName: "src/components/deck/Deck.jsx",
+            lineNumber: 180,
+            columnNumber: 5
+        }, this));
 }
 _s(Deck, "uKz3DD1hIf0fAVfFvArwr1vCMAU=", false, function() {
     return [
@@ -31018,7 +30974,92 @@ _s(Deck, "uKz3DD1hIf0fAVfFvArwr1vCMAU=", false, function() {
     ];
 });
 _c = Deck;
-exports.default = Deck; // render(<Deck />, document.getElementById('root'))
+exports.default = Deck; // import { render } from 'react-dom'
+ // import React, { useState } from 'react'
+ // import { useSprings, animated, to as interpolate } from 'react-spring'
+ //  //import { useDrag } from '@use-gesture/react'
+ // import { useDrag } from 'react-use-gesture'
+ // import '../../sass/style.scss';
+ // import myflix1 from "../../assets/myflix-1.png";
+ // import myflix2 from "../../assets/myflix-2.png";
+ // const cards = [
+ //   myflix1,
+ //   myflix2,
+ //   // 'https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg',
+ //   // 'https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg',
+ //   // 'https://upload.wikimedia.org/wikipedia/en/9/9b/RWS_Tarot_07_Chariot.jpg',
+ // ]
+ // const card =[
+ //   {images:[
+ //     myflix1,
+ //     myflix2
+ //   ],
+ //   name: 'myFlix',
+ //   keywords:[
+ //     'react',
+ //     'html',
+ //     'scss',
+ //   ]
+ // },
+ // {images:[
+ //   myflix1,
+ //   myflix2
+ // ],
+ // name: 'myFlix database',
+ // keywords:[
+ //   'react',
+ //   'html',
+ //   'scss',
+ // ]
+ // },
+ // ]
+ // // These two are just helpers, they curate spring data, values that are later being interpolated into css
+ // const to = (i) => ({ x: 80, y: i*-4, scale: 1, rot: -10 + Math.random() * 20, delay: i * 100 })
+ // const from = (i) => ({ x: 80, rot: 0, scale: 1.5, y: -1000 })
+ // // This is being used down there in the view, it interpolates rotation and scale into a css transform
+ // const trans = (r, s) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
+ // function Deck() {
+ //   const [gone] = useState(() => new Set()) // The set flags all the cards that are flicked out
+ //   const [props, set] = useSprings(cards.length, (i) => ({ ...to(i), from: from(i) })) // Create a bunch of springs using the helpers above
+ //   // Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
+ //   const bind = useDrag(({ args: [index], down, movement: [mx], direction: [xDir], velocity }) => {
+ //     const trigger = velocity > 0.2 // If you flick hard enough it should trigger the card to fly out
+ //     const dir = xDir < 0 ? -1 : 1 // Direction should either point left or right
+ //     if (trigger) gone.add(index) // If button/finger's up and trigger velocity is reached, we flag the card ready to fly out
+ //     set((i) => {
+ //       if (index !== i) return // We're only interested in changing spring-data for the current spring
+ //       const isGone = gone.has(index)
+ //       const x = isGone ? (100 + window.innerWidth) * dir : down ? mx : 0 // When a card is gone it flys out left or right, otherwise goes back to zero
+ //       const rot = mx / 100 + (isGone ? dir * 10 * velocity : 0) // How much the card tilts, flicking it harder makes it rotate faster
+ //       const scale = down ? 1.1 : 1 // Active cards lift up a bit
+ //       return { x, rot, scale, delay: undefined, config: { friction: 50, tension: down ? 800 : isGone ? 200 : 500 } }
+ //     })
+ //     if (!down && gone.size === cards.length) setTimeout(() => gone.clear() || set((i) => to(i)), 600)
+ //   })
+ //   // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
+ //   return  <div className="ex">
+ //       {console.log(window.innerWidth)}
+ //       {props.map(({ x, y, rot, scale }, i) => (
+ //     <animated.div key={i} style={{ x, y }}>
+ //       {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
+ //       <animated.div {...bind(i)} style={{ transform: interpolate([rot, scale], trans) }} >
+ //        <p>hello</p>
+ //        <p>{card.name}</p>
+ //        {card.map((item, key)=>
+ //        { <>
+ //        <h2>hello</h2>
+ //        {console.log('hello')}
+ //        {console.log(item.name)}
+ //         <p>{item.name}</p>
+ //         </>
+ //         })}
+ //         <p>goodbye</p>
+ //          </animated.div>
+ //     </animated.div>
+ //   ))}</div>
+ // }
+ // export default Deck;
+ // // render(<Deck />, document.getElementById('root'))
 var _c;
 $RefreshReg$(_c, "Deck");
 
@@ -31027,7 +31068,7 @@ $RefreshReg$(_c, "Deck");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-spring":"2gPbQ","react-use-gesture":"3CEht","../../sass/style.scss":"fpeeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3CEht":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-spring":"2gPbQ","react-use-gesture":"3CEht","../card/Card":"60Z1z","../../sass/style.scss":"fpeeO","../../assets/myflix-1.png":"2plZK","../../assets/myflix-2.png":"cgvBF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/myflix-api-1.png":"9YqgE","../../assets/myflix-api-2.png":"9HMFD","../../assets/meet1.jpg":"8ndsO","../../assets/meet2.jpg":"ecAVZ","../../assets/meet3.jpg":"zfkfr","../../assets/yblackbox1.png":"1bWT7"}],"3CEht":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addV", ()=>addV);
@@ -33245,7 +33286,1865 @@ function includeStartEndHandlers(handlers, handlerKey) {
     return fn;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fpeeO":[function() {},{}],"km3Ru":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"60Z1z":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4138 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4138.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactSpring = require("react-spring");
+var _nukaCarousel = require("nuka-carousel");
+var _nukaCarouselDefault = parcelHelpers.interopDefault(_nukaCarousel);
+var _styleScss = require("../../sass/style.scss");
+class Card extends (0, _reactDefault.default).Component {
+    render() {
+        const { i , x: x1 , y: y1 , rot , scale , trans , cards , bind , objs  } = this.props;
+        const { name , age , distance , text , pics , keywords  } = objs[i];
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "ex",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactSpring.animated).div, {
+                style: {
+                    transform: (0, _reactSpring.to)([
+                        x1,
+                        y1
+                    ], (x, y)=>`translate3d(${x}px,${y}px,0)`)
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactSpring.animated).div, {
+                    ...bind(i),
+                    style: {
+                        transform: (0, _reactSpring.to)([
+                            rot,
+                            scale
+                        ], trans)
+                    },
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _nukaCarouselDefault.default), {
+                                children: pics.map((pic)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        className: "imgCard",
+                                        src: pic,
+                                        alt: "profilePicture"
+                                    }, void 0, false, {
+                                        fileName: "src/components/card/Card.jsx",
+                                        lineNumber: 32,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "src/components/card/Card.jsx",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: name
+                            }, void 0, false, {
+                                fileName: "src/components/card/Card.jsx",
+                                lineNumber: 35,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "keywordsContainer",
+                                children: keywords.map((word)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                                        className: "keyword",
+                                        children: word
+                                    }, void 0, false, {
+                                        fileName: "src/components/card/Card.jsx",
+                                        lineNumber: 39,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "src/components/card/Card.jsx",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/card/Card.jsx",
+                        lineNumber: 29,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/card/Card.jsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, this)
+            }, i, false, {
+                fileName: "src/components/card/Card.jsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/card/Card.jsx",
+            lineNumber: 13,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = Card;
+
+  $parcel$ReactRefreshHelpers$4138.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-spring":"2gPbQ","nuka-carousel":"4gVhu","../../sass/style.scss":"fpeeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4gVhu":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _exportNames = {
+    NextButton: true,
+    PreviousButton: true,
+    PagingDots: true
+};
+Object.defineProperty(exports, "NextButton", {
+    enumerable: true,
+    get: function get() {
+        return _defaultControls.NextButton;
+    }
+});
+Object.defineProperty(exports, "PagingDots", {
+    enumerable: true,
+    get: function get() {
+        return _defaultControls.PagingDots;
+    }
+});
+Object.defineProperty(exports, "PreviousButton", {
+    enumerable: true,
+    get: function get() {
+        return _defaultControls.PreviousButton;
+    }
+});
+Object.defineProperty(exports, "default", {
+    enumerable: true,
+    get: function get() {
+        return _carousel.Carousel;
+    }
+});
+var _carousel = require("./carousel");
+var _types = require("./types");
+Object.keys(_types).forEach(function(key) {
+    if (key === "default" || key === "__esModule") return;
+    if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+    if (key in exports && exports[key] === _types[key]) return;
+    Object.defineProperty(exports, key, {
+        enumerable: true,
+        get: function get() {
+            return _types[key];
+        }
+    });
+});
+var _defaultControls = require("./default-controls");
+
+},{"./carousel":"iIbED","./types":"4W2yA","./default-controls":"2sIQ4"}],"iIbED":[function(require,module,exports) {
+"use strict";
+function _typeof(obj1) {
+    "@babel/helpers - typeof";
+    return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj) {
+        return typeof obj;
+    } : function(obj) {
+        return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    }, _typeof(obj1);
+}
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = exports.Carousel = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _slide = _interopRequireDefault(require("./slide"));
+var _announceSlide = _interopRequireDefault(require("./announce-slide"));
+var _sliderList = require("./slider-list");
+var _controls = _interopRequireDefault(require("./controls"));
+var _defaultCarouselProps = _interopRequireDefault(require("./default-carousel-props"));
+var _utils = require("./utils");
+var _useFrameHeight2 = require("./hooks/use-frame-height");
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+function _getRequireWildcardCache(nodeInterop1) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop1);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
+        "default": obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {};
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj["default"] = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+    if (Object.getOwnPropertySymbols) {
+        var symbols = Object.getOwnPropertySymbols(object);
+        enumerableOnly && (symbols = symbols.filter(function(sym) {
+            return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+        })), keys.push.apply(keys, symbols);
+    }
+    return keys;
+}
+function _objectSpread(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = null != arguments[i] ? arguments[i] : {};
+        i % 2 ? ownKeys(Object(source), !0).forEach(function(key) {
+            _defineProperty(target, key, source[key]);
+        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function(key) {
+            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
+    }
+    return target;
+}
+function _defineProperty(obj, key, value) {
+    if (key in obj) Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+    });
+    else obj[key] = value;
+    return obj;
+}
+function _slicedToArray(arr, i) {
+    return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
+}
+function _nonIterableRest() {
+    throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
+    return arr2;
+}
+function _iterableToArrayLimit(arr, i) {
+    var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
+    if (_i == null) return;
+    var _arr = [];
+    var _n = true;
+    var _d = false;
+    var _s, _e;
+    try {
+        for(_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true){
+            _arr.push(_s.value);
+            if (i && _arr.length === i) break;
+        }
+    } catch (err) {
+        _d = true;
+        _e = err;
+    } finally{
+        try {
+            if (!_n && _i["return"] != null) _i["return"]();
+        } finally{
+            if (_d) throw _e;
+        }
+    }
+    return _arr;
+}
+function _arrayWithHoles(arr) {
+    if (Array.isArray(arr)) return arr;
+}
+var Carousel = function Carousel(rawProps) {
+    /**
+   * We need this cast because we want the component's properties to seem
+   * optional to external users, but always-present for the internal
+   * implementation.
+   *
+   * This cast is safe due to the `Carousel.defaultProps = defaultProps;`
+   * statement below. That guarantees all the properties are present, since
+   * `defaultProps` has type `InternalCarouselProps`.
+   */ var props = rawProps;
+    var adaptiveHeight = props.adaptiveHeight, adaptiveHeightAnimation = props.adaptiveHeightAnimation, afterSlide = props.afterSlide, animation = props.animation, autoplay = props.autoplay, autoplayInterval = props.autoplayInterval, autoplayReverse = props.autoplayReverse, beforeSlide = props.beforeSlide, cellAlign = props.cellAlign, cellSpacing = props.cellSpacing, children = props.children, className = props.className, disableAnimation = props.disableAnimation, disableEdgeSwiping = props.disableEdgeSwiping, dragging = props.dragging, propsDragThreshold = props.dragThreshold, enableKeyboardControls = props.enableKeyboardControls, frameAriaLabel = props.frameAriaLabel, innerRef = props.innerRef, keyCodeConfig = props.keyCodeConfig, onDrag = props.onDrag, onDragEnd = props.onDragEnd, onDragStart = props.onDragStart, pauseOnHover = props.pauseOnHover, renderAnnounceSlideMessage = props.renderAnnounceSlideMessage, scrollMode = props.scrollMode, slideIndex = props.slideIndex, propsSlidesToScroll = props.slidesToScroll, slidesToShow = props.slidesToShow, propsSpeed = props.speed, style = props.style, swiping = props.swiping, wrapAround = props.wrapAround, zoomScale = props.zoomScale;
+    var count = _react["default"].Children.count(children);
+    var _useState = (0, _react.useState)(autoplayReverse ? count - slidesToShow : slideIndex), _useState2 = _slicedToArray(_useState, 2), currentSlide = _useState2[0], setCurrentSlide = _useState2[1];
+    var _useState3 = (0, _react.useState)(false), _useState4 = _slicedToArray(_useState3, 2), animationEnabled = _useState4[0], setAnimationEnabled = _useState4[1];
+    var _useState5 = (0, _react.useState)(false), _useState6 = _slicedToArray(_useState5, 2), pause = _useState6[0], setPause = _useState6[1];
+    var _useState7 = (0, _react.useState)(false), _useState8 = _slicedToArray(_useState7, 2), isDragging = _useState8[0], setIsDragging = _useState8[1];
+    var _useState9 = (0, _react.useState)(0), _useState10 = _slicedToArray(_useState9, 2), move = _useState10[0], setMove = _useState10[1];
+    var _useState11 = (0, _react.useState)(null), _useState12 = _slicedToArray(_useState11, 2), keyboardMove = _useState12[0], setKeyboardMove = _useState12[1];
+    var carouselWidth = (0, _react.useRef)(null);
+    var focus = (0, _react.useRef)(false);
+    var prevMove = (0, _react.useRef)(0);
+    var carouselEl = (0, _react.useRef)(null);
+    var timer = (0, _react.useRef)(null);
+    var isMounted = (0, _react.useRef)(true);
+    var slidesToScroll = animation === "fade" ? slidesToShow : propsSlidesToScroll;
+    var dragThreshold = (carouselWidth.current || 0) / slidesToShow * propsDragThreshold;
+    var _getIndexes = (0, _utils.getIndexes)(currentSlide, currentSlide - slidesToScroll, count), _getIndexes2 = _slicedToArray(_getIndexes, 1), slide = _getIndexes2[0];
+    (0, _react.useEffect)(function() {
+        isMounted.current = true;
+        return function() {
+            isMounted.current = false;
+        };
+    }, []);
+    (0, _react.useEffect)(function() {
+        // disable img draggable attribute by default, this will improve the dragging
+        document.querySelectorAll(".slider-list img").forEach(function(el) {
+            return el.setAttribute("draggable", "false");
+        });
+    }, []);
+    var carouselRef = innerRef || carouselEl;
+    var getNextIndex = (0, _react.useCallback)(function(to) {
+        var index = to !== null && to !== void 0 ? to : currentSlide;
+        if (index < 0) return index + count;
+        if (index === count) return 0;
+        return index;
+    }, [
+        count,
+        currentSlide
+    ]);
+    var moveSlide = (0, _react.useCallback)(function(to) {
+        var nextIndex = getNextIndex(to);
+        typeof to === "number" && beforeSlide(slide, nextIndex);
+        !disableAnimation && setAnimationEnabled(true);
+        if (typeof to === "number") setCurrentSlide(to);
+        setTimeout(function() {
+            if (!isMounted.current) return;
+            typeof to === "number" && afterSlide(nextIndex);
+            !disableAnimation && setAnimationEnabled(false);
+        }, !disableAnimation ? propsSpeed || 500 : 40); // if animation is disabled decrease the speed to 40
+    }, [
+        slide,
+        afterSlide,
+        beforeSlide,
+        disableAnimation,
+        getNextIndex,
+        propsSpeed
+    ]);
+    var nextSlide = (0, _react.useCallback)(function() {
+        if (wrapAround || currentSlide < count - propsSlidesToScroll) {
+            var nextPosition = (0, _utils.getNextMoveIndex)(scrollMode, wrapAround, currentSlide, count, propsSlidesToScroll, slidesToShow);
+            moveSlide(nextPosition);
+        }
+    }, [
+        count,
+        currentSlide,
+        moveSlide,
+        propsSlidesToScroll,
+        scrollMode,
+        wrapAround,
+        slidesToShow
+    ]);
+    var prevSlide = (0, _react.useCallback)(function() {
+        // boundary
+        if (wrapAround || currentSlide > 0) {
+            var prevPosition = (0, _utils.getPrevMoveIndex)(scrollMode, wrapAround, currentSlide, propsSlidesToScroll);
+            moveSlide(prevPosition);
+        }
+    }, [
+        currentSlide,
+        moveSlide,
+        propsSlidesToScroll,
+        scrollMode,
+        wrapAround
+    ]); // When user changed the slideIndex property from outside.
+    var prevMovedToSlideIndex = (0, _react.useRef)(slideIndex);
+    (0, _react.useEffect)(function() {
+        if (slideIndex !== prevMovedToSlideIndex.current && !autoplayReverse) {
+            moveSlide(slideIndex);
+            prevMovedToSlideIndex.current = slideIndex;
+        }
+    }, [
+        slideIndex,
+        currentSlide,
+        autoplayReverse,
+        moveSlide
+    ]); // Makes the carousel infinity when autoplay and wrapAround are enabled
+    (0, _react.useEffect)(function() {
+        if (autoplay && !animationEnabled && wrapAround) {
+            if (currentSlide > count) {
+                setCurrentSlide(currentSlide - count);
+                if (timer !== null && timer !== void 0 && timer.current) clearTimeout(timer.current);
+            } else if (currentSlide < 0) {
+                setCurrentSlide(count - -currentSlide);
+                if (timer !== null && timer !== void 0 && timer.current) clearTimeout(timer.current);
+            }
+        }
+    }, [
+        animationEnabled,
+        currentSlide,
+        count,
+        wrapAround,
+        autoplay
+    ]);
+    (0, _react.useEffect)(function() {
+        if (autoplay && !pause) timer.current = setTimeout(function() {
+            if (autoplayReverse) {
+                if (!wrapAround && currentSlide > 0) prevSlide();
+                else if (wrapAround) prevSlide();
+            } else if (!wrapAround && currentSlide < count - slidesToShow) nextSlide();
+            else if (wrapAround) nextSlide();
+        }, autoplayInterval);
+         // Clear the timeout if user hover on carousel
+        if (autoplay && pause && timer !== null && timer !== void 0 && timer.current) clearTimeout(timer.current);
+        return function() {
+            if (timer.current) clearTimeout(timer.current);
+        };
+    }, [
+        currentSlide,
+        slidesToShow,
+        count,
+        pause,
+        autoplay,
+        autoplayInterval,
+        autoplayReverse,
+        wrapAround,
+        prevSlide,
+        nextSlide
+    ]); // Makes the carousel infinity when wrapAround is enabled, but autoplay is disabled
+    (0, _react.useEffect)(function() {
+        var prevTimeout = null;
+        var nextTimeout = null;
+        if (wrapAround && !autoplay) {
+            // if animation is disabled decrease the speed to 0
+            var speed = !disableAnimation ? propsSpeed || 500 : 0;
+            if (currentSlide <= -slidesToShow) // prev
+            prevTimeout = setTimeout(function() {
+                if (!isMounted.current) return;
+                setCurrentSlide(count - -currentSlide);
+            }, speed + 10);
+            else if (currentSlide >= count) // next
+            nextTimeout = setTimeout(function() {
+                if (!isMounted.current) return;
+                setCurrentSlide(currentSlide - count);
+            }, speed + 10);
+        }
+        return function cleanup() {
+            if (prevTimeout) clearTimeout(prevTimeout);
+            if (nextTimeout) clearTimeout(nextTimeout);
+        };
+    }, [
+        currentSlide,
+        autoplay,
+        wrapAround,
+        disableAnimation,
+        propsSpeed,
+        slidesToShow,
+        count
+    ]);
+    (0, _react.useEffect)(function() {
+        if (enableKeyboardControls && keyboardMove && focus.current) {
+            switch(keyboardMove){
+                case "nextSlide":
+                    nextSlide();
+                    break;
+                case "previousSlide":
+                    prevSlide();
+                    break;
+                case "firstSlide":
+                    setCurrentSlide(0);
+                    break;
+                case "lastSlide":
+                    setCurrentSlide(count - slidesToShow);
+                    break;
+                case "pause":
+                    if (pause && autoplay) {
+                        setPause(false);
+                        break;
+                    } else if (autoplay) {
+                        setPause(true);
+                        break;
+                    }
+                    break;
+            }
+            setKeyboardMove(null);
+        }
+    }, [
+        keyboardMove,
+        enableKeyboardControls,
+        count,
+        slidesToShow,
+        pause,
+        autoplay,
+        nextSlide,
+        prevSlide
+    ]);
+    var onKeyPress = (0, _react.useCallback)(function(e) {
+        if (enableKeyboardControls && focus.current && e.keyCode) {
+            var keyConfig = keyCodeConfig;
+            for(var func in keyConfig){
+                var _keyConfig;
+                if ((_keyConfig = keyConfig[func]) !== null && _keyConfig !== void 0 && _keyConfig.includes(e.keyCode)) setKeyboardMove(func);
+            }
+        }
+    }, [
+        enableKeyboardControls,
+        keyCodeConfig
+    ]);
+    (0, _react.useEffect)(function() {
+        if (carouselEl && carouselEl.current) carouselWidth.current = carouselEl.current.offsetWidth;
+        else if (innerRef) carouselWidth.current = innerRef.current.offsetWidth;
+        if (enableKeyboardControls) (0, _utils.addEvent)(document, "keydown", onKeyPress);
+        return function() {
+            (0, _utils.removeEvent)(document, "keydown", onKeyPress);
+        };
+    }, [
+        enableKeyboardControls,
+        innerRef,
+        onKeyPress
+    ]);
+    var handleDragEnd = (0, _react.useCallback)(function(e) {
+        if (!dragging || !isDragging) return;
+        setIsDragging(false);
+        onDragEnd(e);
+        if (Math.abs(move) <= dragThreshold) {
+            moveSlide();
+            setMove(0);
+            prevMove.current = 0;
+            return;
+        }
+        if (move > 0) nextSlide();
+        else prevSlide();
+        setMove(0);
+        prevMove.current = 0;
+    }, [
+        dragThreshold,
+        isDragging,
+        move,
+        moveSlide,
+        nextSlide,
+        onDragEnd,
+        prevSlide,
+        dragging
+    ]);
+    var onTouchStart = (0, _react.useCallback)(function(e) {
+        if (!swiping) return;
+        setIsDragging(true);
+        onDragStart(e);
+    }, [
+        onDragStart,
+        swiping
+    ]);
+    var handlePointerMove = (0, _react.useCallback)(function(m) {
+        if (!dragging || !isDragging) return;
+        var moveValue = m * 0.75; // Friction
+        var moveState = move + (moveValue - prevMove.current); // Exit drag early if passed threshold
+        if (Math.abs(move) > dragThreshold) {
+            handleDragEnd();
+            return;
+        }
+        if (!wrapAround && disableEdgeSwiping && (currentSlide <= 0 && moveState <= 0 || moveState > 0 && currentSlide >= count - slidesToShow)) {
+            prevMove.current = moveValue;
+            return;
+        }
+        if (prevMove.current !== 0) setMove(moveState);
+        prevMove.current = moveValue;
+    }, [
+        count,
+        currentSlide,
+        disableEdgeSwiping,
+        dragThreshold,
+        isDragging,
+        handleDragEnd,
+        move,
+        dragging,
+        slidesToShow,
+        wrapAround
+    ]);
+    var onTouchMove = (0, _react.useCallback)(function(e) {
+        if (!dragging || !isDragging) return;
+        onDragStart(e);
+        var moveValue = ((carouselWidth === null || carouselWidth === void 0 ? void 0 : carouselWidth.current) || 0) - e.touches[0].pageX;
+        handlePointerMove(moveValue);
+    }, [
+        dragging,
+        isDragging,
+        handlePointerMove,
+        onDragStart
+    ]);
+    var onMouseDown = (0, _react.useCallback)(function(e) {
+        var _carouselRef$current;
+        if (!dragging) return;
+        carouselRef === null || carouselRef === void 0 || (_carouselRef$current = carouselRef.current) === null || _carouselRef$current === void 0 || _carouselRef$current.focus();
+        setIsDragging(true);
+        onDragStart(e);
+    }, [
+        carouselRef,
+        dragging,
+        onDragStart
+    ]);
+    var onMouseMove = (0, _react.useCallback)(function(e) {
+        var _carouselRef$current2;
+        if (!dragging || !isDragging) return;
+        onDrag(e);
+        var offsetX = e.clientX - (((_carouselRef$current2 = carouselRef.current) === null || _carouselRef$current2 === void 0 ? void 0 : _carouselRef$current2.getBoundingClientRect().left) || 0);
+        var moveValue = ((carouselWidth === null || carouselWidth === void 0 ? void 0 : carouselWidth.current) || 0) - offsetX;
+        handlePointerMove(moveValue);
+    }, [
+        carouselRef,
+        isDragging,
+        handlePointerMove,
+        onDrag,
+        dragging
+    ]);
+    var onMouseUp = (0, _react.useCallback)(function(e) {
+        e === null || e === void 0 || e.preventDefault();
+        handleDragEnd(e);
+    }, [
+        handleDragEnd
+    ]);
+    var onMouseEnter = (0, _react.useCallback)(function() {
+        if (pauseOnHover) setPause(true);
+    }, [
+        pauseOnHover
+    ]);
+    var onMouseLeave = (0, _react.useCallback)(function() {
+        if (pauseOnHover) setPause(false);
+    }, [
+        pauseOnHover
+    ]);
+    var _useFrameHeight = (0, _useFrameHeight2.useFrameHeight)({
+        adaptiveHeight: adaptiveHeight,
+        slidesToShow: slidesToShow,
+        numSlides: count
+    }), frameHeight = _useFrameHeight.frameHeight, handleVisibleSlideHeightChange = _useFrameHeight.handleVisibleSlideHeightChange, initializedAdaptiveHeight = _useFrameHeight.initializedAdaptiveHeight;
+    var renderSlides = function renderSlides(typeOfSlide) {
+        var slides = _react["default"].Children.map(children, function(child, index) {
+            var isCurrentSlide = wrapAround ? currentSlide === index || currentSlide === index + count || currentSlide === index - count : currentSlide === index;
+            return /*#__PURE__*/ _react["default"].createElement(_slide["default"], {
+                key: "".concat(typeOfSlide, "-").concat(index),
+                count: count,
+                currentSlide: currentSlide,
+                index: index,
+                isCurrentSlide: isCurrentSlide,
+                typeOfSlide: typeOfSlide,
+                wrapAround: wrapAround,
+                cellSpacing: cellSpacing,
+                animation: animation,
+                slidesToShow: slidesToShow,
+                speed: propsSpeed,
+                zoomScale: zoomScale,
+                cellAlign: cellAlign,
+                onVisibleSlideHeightChange: handleVisibleSlideHeightChange,
+                adaptiveHeight: adaptiveHeight,
+                initializedAdaptiveHeight: initializedAdaptiveHeight
+            }, child);
+        });
+        return slides;
+    };
+    return /*#__PURE__*/ _react["default"].createElement("div", {
+        className: "slider-container",
+        style: {
+            position: "relative"
+        },
+        onMouseEnter: onMouseEnter,
+        onMouseLeave: onMouseLeave
+    }, /*#__PURE__*/ _react["default"].createElement(_announceSlide["default"], {
+        ariaLive: autoplay && !pause ? "off" : "polite",
+        message: renderAnnounceSlideMessage({
+            currentSlide: slide,
+            count: count
+        })
+    }), (0, _controls["default"])(props, count, currentSlide, moveSlide, nextSlide, prevSlide, slidesToScroll), /*#__PURE__*/ _react["default"].createElement("div", {
+        className: [
+            "slider-frame",
+            className || ""
+        ].join(" ").trim(),
+        style: _objectSpread({
+            overflow: "hidden",
+            width: "100%",
+            position: "relative",
+            outline: "none",
+            height: frameHeight,
+            transition: adaptiveHeightAnimation ? "height 300ms ease-in-out" : undefined,
+            willChange: "height"
+        }, style),
+        "aria-label": frameAriaLabel,
+        role: "region",
+        tabIndex: 0,
+        onFocus: function onFocus() {
+            return focus.current = true;
+        },
+        onBlur: function onBlur() {
+            return focus.current = false;
+        },
+        ref: innerRef || carouselEl,
+        onMouseUp: onMouseUp,
+        onMouseDown: onMouseDown,
+        onMouseMove: onMouseMove,
+        onMouseLeave: onMouseUp,
+        onTouchStart: onTouchStart,
+        onTouchEnd: handleDragEnd,
+        onTouchMove: onTouchMove
+    }, /*#__PURE__*/ _react["default"].createElement("div", {
+        className: "slider-list",
+        style: (0, _sliderList.getSliderListStyles)(children, currentSlide, animationEnabled, slidesToShow, cellAlign, wrapAround, propsSpeed, move, animation)
+    }, wrapAround ? renderSlides("prev-cloned") : null, renderSlides(), wrapAround ? renderSlides("next-cloned") : null)));
+};
+exports.Carousel = Carousel;
+Carousel.defaultProps = _defaultCarouselProps["default"];
+var _default = Carousel;
+exports["default"] = _default;
+
+},{"react":"21dqq","./slide":"pJrfk","./announce-slide":"2kEwe","./slider-list":"iTXVB","./controls":"7SBIz","./default-carousel-props":"emHWj","./utils":"afk4B","./hooks/use-frame-height":"bVHvC"}],"pJrfk":[function(require,module,exports) {
+"use strict";
+function _typeof(obj1) {
+    "@babel/helpers - typeof";
+    return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj) {
+        return typeof obj;
+    } : function(obj) {
+        return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    }, _typeof(obj1);
+}
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _types = require("./types");
+function _getRequireWildcardCache(nodeInterop1) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop1);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
+        "default": obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {};
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj["default"] = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+var getSlideWidth = function getSlideWidth(count, wrapAround) {
+    return "".concat(wrapAround ? 100 / (3 * count) : 100 / count, "%");
+};
+var getSlideStyles = function getSlideStyles(count, isCurrentSlide, isVisibleSlide1, wrapAround, cellSpacing, animation, speed, zoomScale, adaptiveHeight, initializedAdaptiveHeight) {
+    var width = getSlideWidth(count, wrapAround);
+    var visibleSlideOpacity = isVisibleSlide1 ? 1 : 0;
+    var animationSpeed = animation === "fade" ? 200 : 500;
+    var height = "auto";
+    if (adaptiveHeight) {
+        if (initializedAdaptiveHeight) // Once adaptiveHeight is initialized, the frame will size to the height
+        // of all the visible slides
+        height = "100%";
+        else if (isVisibleSlide1) // If the slide is visible but we're still measuring heights, have
+        // visible slides just take up their natural height
+        height = "auto";
+        else // If the slide is not visible and we're still measuring heights, the
+        // slide should have height 0 so it doesn't contribute to the measured
+        // height of the frame
+        height = "0";
+    }
+    return {
+        width: width,
+        flex: 1,
+        height: height,
+        padding: "0 ".concat(cellSpacing ? cellSpacing / 2 : 0, "px"),
+        transition: animation ? "".concat(speed || animationSpeed, "ms ease 0s") : undefined,
+        transform: animation === "zoom" ? "scale(".concat(isCurrentSlide && isVisibleSlide1 ? 1 : zoomScale || 0.85, ")") : undefined,
+        opacity: animation === "fade" ? visibleSlideOpacity : 1
+    };
+};
+var isVisibleSlide = function isVisibleSlide(currentSlide, index, slidesToShow, cellAlign) {
+    if (slidesToShow === 1) return index === currentSlide;
+    if (cellAlign === _types.Alignment.Left) return index < currentSlide + slidesToShow && index >= currentSlide;
+    if (cellAlign === _types.Alignment.Center) return index >= currentSlide - slidesToShow / 2 && index <= currentSlide || index > currentSlide && index <= currentSlide + slidesToShow / 2;
+    if (cellAlign === _types.Alignment.Right) return index <= currentSlide && index > currentSlide - slidesToShow;
+    return false;
+};
+var generateIndex = function generateIndex(index, count, typeOfSlide) {
+    if (typeOfSlide === "prev-cloned") return index - count;
+    if (typeOfSlide === "next-cloned") return index + count;
+    return index;
+};
+var Slide = function Slide(_ref) {
+    var count = _ref.count, children = _ref.children, currentSlide = _ref.currentSlide, index = _ref.index, isCurrentSlide = _ref.isCurrentSlide, typeOfSlide = _ref.typeOfSlide, wrapAround = _ref.wrapAround, cellSpacing = _ref.cellSpacing, animation = _ref.animation, speed = _ref.speed, slidesToShow = _ref.slidesToShow, zoomScale = _ref.zoomScale, cellAlign = _ref.cellAlign, onVisibleSlideHeightChange = _ref.onVisibleSlideHeightChange, adaptiveHeight = _ref.adaptiveHeight, initializedAdaptiveHeight = _ref.initializedAdaptiveHeight;
+    var customIndex = wrapAround ? generateIndex(index, count, typeOfSlide) : index;
+    var isVisible = isVisibleSlide(currentSlide, customIndex, slidesToShow, cellAlign);
+    var slideRef = (0, _react.useRef)(null);
+    var prevIsVisibleRef = (0, _react.useRef)(false);
+    (0, _react.useEffect)(function() {
+        var node = slideRef.current;
+        if (node) {
+            var _node$getBoundingClie;
+            var slideHeight = (_node$getBoundingClie = node.getBoundingClientRect()) === null || _node$getBoundingClie === void 0 ? void 0 : _node$getBoundingClie.height;
+            if (isVisible) node.removeAttribute("inert");
+            else node.setAttribute("inert", "true");
+            var prevIsVisible = prevIsVisibleRef.current;
+            if (isVisible && !prevIsVisible) onVisibleSlideHeightChange(customIndex, slideHeight);
+            else if (!isVisible && prevIsVisible) onVisibleSlideHeightChange(customIndex, null);
+            prevIsVisibleRef.current = isVisible;
+        }
+    }, [
+        adaptiveHeight,
+        customIndex,
+        isVisible,
+        onVisibleSlideHeightChange,
+        slidesToShow
+    ]);
+    var currentSlideClass = isCurrentSlide && isVisible ? " slide-current" : "";
+    return /*#__PURE__*/ _react["default"].createElement("div", {
+        ref: slideRef,
+        className: "slide".concat(currentSlideClass).concat(typeOfSlide ? " ".concat(typeOfSlide) : "").concat(isVisible ? " slide-visible" : ""),
+        style: getSlideStyles(count, isCurrentSlide, isVisible, wrapAround, cellSpacing, animation, speed, zoomScale, adaptiveHeight, initializedAdaptiveHeight)
+    }, children);
+};
+var _default = Slide;
+exports["default"] = _default;
+
+},{"react":"21dqq","./types":"4W2yA"}],"4W2yA":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.ScrollMode = exports.Positions = exports.Directions = exports.D3EasingFunctions = exports.Alignment = void 0;
+/* eslint-disable no-shadow */ var Alignment;
+exports.Alignment = Alignment;
+(function(Alignment1) {
+    Alignment1["Center"] = "center";
+    Alignment1["Right"] = "right";
+    Alignment1["Left"] = "left";
+})(Alignment || (exports.Alignment = Alignment = {}));
+var Directions;
+exports.Directions = Directions;
+(function(Directions1) {
+    Directions1["Next"] = "next";
+    Directions1["Prev"] = "prev";
+    Directions1["Up"] = "up";
+    Directions1["Down"] = "down";
+})(Directions || (exports.Directions = Directions = {}));
+var Positions;
+exports.Positions = Positions;
+(function(Positions1) {
+    Positions1["TopLeft"] = "TopLeft";
+    Positions1["TopCenter"] = "TopCenter";
+    Positions1["TopRight"] = "TopRight";
+    Positions1["CenterLeft"] = "CenterLeft";
+    Positions1["CenterCenter"] = "CenterCenter";
+    Positions1["CenterRight"] = "CenterRight";
+    Positions1["BottomLeft"] = "BottomLeft";
+    Positions1["BottomCenter"] = "BottomCenter";
+    Positions1["BottomRight"] = "BottomRight";
+})(Positions || (exports.Positions = Positions = {}));
+var ScrollMode;
+exports.ScrollMode = ScrollMode;
+(function(ScrollMode1) {
+    ScrollMode1["page"] = "page";
+    ScrollMode1["remainder"] = "remainder";
+})(ScrollMode || (exports.ScrollMode = ScrollMode = {}));
+var D3EasingFunctions;
+exports.D3EasingFunctions = D3EasingFunctions;
+(function(D3EasingFunctions1) {
+    D3EasingFunctions1["EaseLinear"] = "easeLinear";
+    D3EasingFunctions1["EaseQuad"] = "easeQuad";
+    D3EasingFunctions1["EaseQuadIn"] = "easeQuadIn";
+    D3EasingFunctions1["EaseQuadOut"] = "easeQuadOut";
+    D3EasingFunctions1["EaseQuadInOut"] = "easeQuadInOut";
+    D3EasingFunctions1["EaseCubic"] = "easeCubic";
+    D3EasingFunctions1["EaseCubicIn"] = "easeCubicIn";
+    D3EasingFunctions1["EaseCubicOut"] = "easeCubicOut";
+    D3EasingFunctions1["EaseCubicInOut"] = "easeCubicInOut";
+    D3EasingFunctions1["EasePoly"] = "easePoly";
+    D3EasingFunctions1["EasePolyIn"] = "easePolyIn";
+    D3EasingFunctions1["EasePolyOut"] = "easePolyOut";
+    D3EasingFunctions1["EasePolyInOut"] = "easePolyInOut";
+    D3EasingFunctions1["EaseSin"] = "easeSin";
+    D3EasingFunctions1["EaseSinIn"] = "easeSinIn";
+    D3EasingFunctions1["EaseSinOut"] = "easeSinOut";
+    D3EasingFunctions1["EaseSinInOut"] = "easeSinInOut";
+    D3EasingFunctions1["EaseExp"] = "easeExp";
+    D3EasingFunctions1["EaseExpIn"] = "easeExpIn";
+    D3EasingFunctions1["EaseExpOut"] = "easeExpOut";
+    D3EasingFunctions1["EaseExpInOut"] = "easeExpInOut";
+    D3EasingFunctions1["EaseCircle"] = "easeCircle";
+    D3EasingFunctions1["EaseCircleIn"] = "easeCircleIn";
+    D3EasingFunctions1["EaseCircleOut"] = "easeCircleOut";
+    D3EasingFunctions1["EaseCircleInOut"] = "easeCircleInOut";
+    D3EasingFunctions1["EaseBack"] = "easeBack";
+    D3EasingFunctions1["EaseBackIn"] = "easeBackIn";
+    D3EasingFunctions1["EaseBackOut"] = "easeBackOut";
+    D3EasingFunctions1["EaseBackInOut"] = "easeBackInOut";
+    D3EasingFunctions1["EaseBounce"] = "easeBounce";
+    D3EasingFunctions1["EaseBounceIn"] = "easeBounceIn";
+    D3EasingFunctions1["EaseBounceOut"] = "easeBounceOut";
+    D3EasingFunctions1["EaseBounceInOut"] = "easeBounceInOut";
+    D3EasingFunctions1["EaseElastic"] = "easeElastic";
+    D3EasingFunctions1["EaseElasticIn"] = "easeElasticIn";
+    D3EasingFunctions1["EaseElasticOut"] = "easeElasticOut";
+    D3EasingFunctions1["EaseElasticInOut"] = "easeElasticInOut";
+})(D3EasingFunctions || (exports.D3EasingFunctions = D3EasingFunctions = {}));
+
+},{}],"2kEwe":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.defaultRenderAnnounceSlideMessage = exports["default"] = void 0;
+var _react = _interopRequireDefault(require("react"));
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+var styles = {
+    position: "absolute",
+    width: "1px",
+    height: "1px",
+    overflow: "hidden",
+    padding: 0,
+    margin: "-1px",
+    clip: "rect(0, 0, 0, 0)",
+    whiteSpace: "nowrap",
+    border: 0
+};
+var AnnounceSlide = function AnnounceSlide(_ref) {
+    var message = _ref.message, _ref$ariaLive = _ref.ariaLive, ariaLive = _ref$ariaLive === void 0 ? "polite" : _ref$ariaLive;
+    return /*#__PURE__*/ _react["default"].createElement("div", {
+        "aria-live": ariaLive,
+        "aria-atomic": "true",
+        style: styles,
+        tabIndex: -1
+    }, message);
+};
+var defaultRenderAnnounceSlideMessage = function defaultRenderAnnounceSlideMessage(_ref2) {
+    var currentSlide = _ref2.currentSlide, count = _ref2.count;
+    return "Slide ".concat(currentSlide + 1, " of ").concat(count);
+};
+exports.defaultRenderAnnounceSlideMessage = defaultRenderAnnounceSlideMessage;
+var _default = AnnounceSlide;
+exports["default"] = _default;
+
+},{"react":"21dqq"}],"iTXVB":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.getSliderListStyles = void 0;
+var _react = _interopRequireDefault(require("react"));
+var _types = require("./types");
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+var getSliderListWidth = function getSliderListWidth(count, slidesToShow, wrapAround) {
+    var visibleSlides = slidesToShow || 1;
+    if (wrapAround) {
+        var _percentage = count * 100 / visibleSlides;
+        return "".concat(3 * _percentage, "%");
+    }
+    var percentage = count * 100 / visibleSlides;
+    return "".concat(percentage, "%");
+};
+var getTransition = function getTransition(count, initialValue, currentSlide, cellAlign, wrapAround) {
+    if (cellAlign === _types.Alignment.Left) {
+        if (wrapAround) {
+            var _slideTransition = 100 / (3 * count);
+            var currentTransition = initialValue - _slideTransition * (currentSlide - 1);
+            return currentTransition - _slideTransition;
+        }
+        var slideTransition = 100 / count * currentSlide;
+        return -(slideTransition + initialValue);
+    } else if (cellAlign === _types.Alignment.Center) {
+        if (wrapAround) {
+            var _slideTransition3 = 100 / (3 * count);
+            var _currentTransition = initialValue - _slideTransition3 * (currentSlide - 1);
+            return _currentTransition - _slideTransition3;
+        }
+        var _slideTransition2 = 100 / count * currentSlide;
+        return initialValue - _slideTransition2;
+    } else if (cellAlign === _types.Alignment.Right) {
+        if (wrapAround) {
+            var _slideTransition5 = 100 / (3 * count);
+            var _currentTransition2 = initialValue - _slideTransition5 * (currentSlide - 1);
+            return _currentTransition2 - _slideTransition5;
+        }
+        var _slideTransition4 = 100 / count * currentSlide;
+        return initialValue - _slideTransition4;
+    }
+    return initialValue;
+};
+var getPositioning = function getPositioning(cellAlign, slidesToShow, count, currentSlide, wrapAround, move) {
+    // When wrapAround is enabled, we show the slides 3 times
+    var totalCount = wrapAround ? 3 * count : count;
+    var slideSize = 100 / totalCount;
+    var initialValue = wrapAround ? -count * slideSize : 0;
+    if (cellAlign === _types.Alignment.Right && slidesToShow > 1) {
+        var excessSlides = slidesToShow - 1;
+        initialValue += slideSize * excessSlides;
+    }
+    if (cellAlign === _types.Alignment.Center && slidesToShow > 1) {
+        var _excessSlides = slidesToShow - 1; // Half of excess is on left and half is on right when centered
+        var excessLeftSlides = _excessSlides / 2;
+        initialValue += slideSize * excessLeftSlides;
+    }
+    var horizontalMove = getTransition(count, initialValue, currentSlide, cellAlign, wrapAround); // Special-case this. It's better to return undefined rather than a
+    // transform of 0 pixels since transforms can cause flickering in chrome.
+    if (move === 0 && horizontalMove === 0) return undefined;
+    var draggableMove = move ? "calc(".concat(horizontalMove, "% - ").concat(move, "px)") : "".concat(horizontalMove, "%");
+    return "translate3d(".concat(draggableMove, ", 0, 0)");
+};
+var getSliderListStyles = function getSliderListStyles(children, currentSlide, animation, slidesToShow, cellAlign, wrapAround, speed, move, slideAnimation) {
+    var count = _react["default"].Children.count(children);
+    var width = getSliderListWidth(count, slidesToShow, wrapAround);
+    var positioning = getPositioning(cellAlign || _types.Alignment.Left, slidesToShow || 1, count, currentSlide, wrapAround, move);
+    return {
+        width: width,
+        textAlign: "left",
+        transition: animation && slideAnimation !== "fade" ? "".concat(speed || 500, "ms ease 0s") : undefined,
+        transform: positioning,
+        display: "flex"
+    };
+};
+exports.getSliderListStyles = getSliderListStyles;
+
+},{"react":"21dqq","./types":"4W2yA"}],"7SBIz":[function(require,module,exports) {
+"use strict";
+function _typeof(obj1) {
+    "@babel/helpers - typeof";
+    return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj) {
+        return typeof obj;
+    } : function(obj) {
+        return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    }, _typeof(obj1);
+}
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _controlStyles = require("./control-styles");
+var _types = require("./types");
+function _getRequireWildcardCache(nodeInterop1) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop1);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
+        "default": obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {};
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj["default"] = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+    if (Object.getOwnPropertySymbols) {
+        var symbols = Object.getOwnPropertySymbols(object);
+        enumerableOnly && (symbols = symbols.filter(function(sym) {
+            return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+        })), keys.push.apply(keys, symbols);
+    }
+    return keys;
+}
+function _objectSpread(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = null != arguments[i] ? arguments[i] : {};
+        i % 2 ? ownKeys(Object(source), !0).forEach(function(key) {
+            _defineProperty(target, key, source[key]);
+        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function(key) {
+            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
+    }
+    return target;
+}
+function _defineProperty(obj, key, value) {
+    if (key in obj) Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+    });
+    else obj[key] = value;
+    return obj;
+}
+var controlsMap = [
+    {
+        funcName: "renderTopLeftControls",
+        key: _types.Positions.TopLeft
+    },
+    {
+        funcName: "renderTopCenterControls",
+        key: _types.Positions.TopCenter
+    },
+    {
+        funcName: "renderTopRightControls",
+        key: _types.Positions.TopRight
+    },
+    {
+        funcName: "renderCenterLeftControls",
+        key: _types.Positions.CenterLeft
+    },
+    {
+        funcName: "renderCenterCenterControls",
+        key: _types.Positions.CenterCenter
+    },
+    {
+        funcName: "renderCenterRightControls",
+        key: _types.Positions.CenterRight
+    },
+    {
+        funcName: "renderBottomLeftControls",
+        key: _types.Positions.BottomLeft
+    },
+    {
+        funcName: "renderBottomCenterControls",
+        key: _types.Positions.BottomCenter
+    },
+    {
+        funcName: "renderBottomRightControls",
+        key: _types.Positions.BottomRight
+    }
+];
+var renderControls = function renderControls(props, count, currentSlide, moveSlide, _nextSlide, prevSlide, slidesToScroll) {
+    if (props.withoutControls) return null;
+    return controlsMap.map(function(control) {
+        var _props$control$funcNa;
+        if (!props[control.funcName] || typeof props[control.funcName] !== "function") return /*#__PURE__*/ _react["default"].createElement(_react.Fragment, {
+            key: control.funcName
+        });
+        return /*#__PURE__*/ _react["default"].createElement("div", {
+            key: control.funcName,
+            style: _objectSpread(_objectSpread({}, (0, _controlStyles.getControlContainerStyles)(control.key)), {}, {
+                pointerEvents: "none"
+            })
+        }, /*#__PURE__*/ _react["default"].createElement("div", {
+            className: [
+                "slider-control-".concat(control.key.toLowerCase()),
+                props.defaultControlsConfig.containerClassName || ""
+            ].join(" ").trim() // The container has `pointerEvents: 'none'` so we need to override
+            ,
+            style: {
+                pointerEvents: "auto"
+            }
+        }, (_props$control$funcNa = props[control.funcName]) === null || _props$control$funcNa === void 0 ? void 0 : _props$control$funcNa.call(props, {
+            cellAlign: props.cellAlign,
+            cellSpacing: props.cellSpacing,
+            currentSlide: currentSlide,
+            defaultControlsConfig: props.defaultControlsConfig || {},
+            goToSlide: function goToSlide(index) {
+                return moveSlide(index);
+            },
+            nextSlide: function nextSlide() {
+                return _nextSlide();
+            },
+            previousSlide: function previousSlide() {
+                return prevSlide();
+            },
+            scrollMode: props.scrollMode,
+            slideCount: count,
+            slidesToScroll: slidesToScroll,
+            slidesToShow: props.slidesToShow || 1,
+            vertical: props.vertical,
+            wrapAround: props.wrapAround
+        })));
+    });
+};
+var _default = renderControls;
+exports["default"] = _default;
+
+},{"react":"21dqq","./control-styles":"7K7Bh","./types":"4W2yA"}],"7K7Bh":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.getControlContainerStyles = void 0;
+var _types = require("./types");
+function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+    if (Object.getOwnPropertySymbols) {
+        var symbols = Object.getOwnPropertySymbols(object);
+        enumerableOnly && (symbols = symbols.filter(function(sym) {
+            return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+        })), keys.push.apply(keys, symbols);
+    }
+    return keys;
+}
+function _objectSpread(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = null != arguments[i] ? arguments[i] : {};
+        i % 2 ? ownKeys(Object(source), !0).forEach(function(key) {
+            _defineProperty(target, key, source[key]);
+        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function(key) {
+            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
+    }
+    return target;
+}
+function _defineProperty(obj, key, value) {
+    if (key in obj) Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+    });
+    else obj[key] = value;
+    return obj;
+}
+var commonStyles = {
+    position: "absolute",
+    display: "flex",
+    zIndex: 1,
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0
+};
+/**
+ * Gets flexbox alignment and justify-content styles for a given position.
+ */ var getControlContainerFlexStyles = function getControlContainerFlexStyles(pos) {
+    var alignItems;
+    switch(pos){
+        case _types.Positions.TopLeft:
+        case _types.Positions.TopCenter:
+        case _types.Positions.TopRight:
+            alignItems = "flex-start";
+            break;
+        case _types.Positions.CenterLeft:
+        case _types.Positions.CenterCenter:
+        case _types.Positions.CenterRight:
+            alignItems = "center";
+            break;
+        case _types.Positions.BottomLeft:
+        case _types.Positions.BottomCenter:
+        case _types.Positions.BottomRight:
+            alignItems = "flex-end";
+            break;
+    }
+    var justifyContent;
+    switch(pos){
+        case _types.Positions.TopLeft:
+        case _types.Positions.CenterLeft:
+        case _types.Positions.BottomLeft:
+            justifyContent = "flex-start";
+            break;
+        case _types.Positions.TopCenter:
+        case _types.Positions.CenterCenter:
+        case _types.Positions.BottomCenter:
+            justifyContent = "center";
+            break;
+        case _types.Positions.TopRight:
+        case _types.Positions.CenterRight:
+        case _types.Positions.BottomRight:
+            justifyContent = "flex-end";
+            break;
+    }
+    return {
+        alignItems: alignItems,
+        justifyContent: justifyContent
+    };
+};
+/**
+ * Gets the styles for a back/forward control container to align the control
+ * properly within the parent.
+ */ var getControlContainerStyles = function getControlContainerStyles(pos) {
+    return _objectSpread(_objectSpread({}, getControlContainerFlexStyles(pos)), commonStyles);
+};
+exports.getControlContainerStyles = getControlContainerStyles;
+
+},{"./types":"4W2yA"}],"emHWj":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = void 0;
+var _react = _interopRequireDefault(require("react"));
+var _types = require("./types");
+var _defaultControls = require("./default-controls");
+var _announceSlide = require("./announce-slide");
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+var defaultProps = {
+    adaptiveHeight: false,
+    adaptiveHeightAnimation: true,
+    afterSlide: function afterSlide() {},
+    autoplay: false,
+    autoplayInterval: 3000,
+    autoplayReverse: false,
+    beforeSlide: function beforeSlide() {},
+    cellAlign: _types.Alignment.Left,
+    cellSpacing: 0,
+    defaultControlsConfig: {},
+    disableAnimation: false,
+    disableEdgeSwiping: false,
+    dragging: true,
+    dragThreshold: 0.5,
+    easing: _types.D3EasingFunctions.EaseCircleOut,
+    edgeEasing: _types.D3EasingFunctions.EaseElasticOut,
+    enableKeyboardControls: false,
+    frameAriaLabel: "carousel-slider",
+    keyCodeConfig: {
+        nextSlide: [
+            39,
+            68,
+            38,
+            87
+        ],
+        previousSlide: [
+            37,
+            65,
+            40,
+            83
+        ],
+        firstSlide: [
+            81
+        ],
+        lastSlide: [
+            69
+        ],
+        pause: [
+            32
+        ]
+    },
+    onDragStart: function onDragStart() {},
+    onDrag: function onDrag() {},
+    onDragEnd: function onDragEnd() {},
+    pauseOnHover: true,
+    renderAnnounceSlideMessage: _announceSlide.defaultRenderAnnounceSlideMessage,
+    renderBottomCenterControls: function renderBottomCenterControls(props) {
+        return /*#__PURE__*/ _react["default"].createElement(_defaultControls.PagingDots, props);
+    },
+    renderCenterLeftControls: function renderCenterLeftControls(props) {
+        return /*#__PURE__*/ _react["default"].createElement(_defaultControls.PreviousButton, props);
+    },
+    renderCenterRightControls: function renderCenterRightControls(props) {
+        return /*#__PURE__*/ _react["default"].createElement(_defaultControls.NextButton, props);
+    },
+    scrollMode: _types.ScrollMode.page,
+    slideIndex: 0,
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    speed: 500,
+    style: {},
+    swiping: true,
+    vertical: false,
+    withoutControls: false,
+    wrapAround: false,
+    children: /*#__PURE__*/ _react["default"].createElement(_react["default"].Fragment, null)
+};
+var _default = defaultProps;
+exports["default"] = _default;
+
+},{"react":"21dqq","./types":"4W2yA","./default-controls":"2sIQ4","./announce-slide":"2kEwe"}],"2sIQ4":[function(require,module,exports) {
+"use strict";
+function _typeof(obj1) {
+    "@babel/helpers - typeof";
+    return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj) {
+        return typeof obj;
+    } : function(obj) {
+        return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    }, _typeof(obj1);
+}
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.prevButtonDisabled = exports.nextButtonDisabled = exports.getDotIndexes = exports.PreviousButton = exports.PagingDots = exports.NextButton = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _types = require("./types");
+function _getRequireWildcardCache(nodeInterop1) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop1);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
+        "default": obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {};
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj["default"] = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+    if (Object.getOwnPropertySymbols) {
+        var symbols = Object.getOwnPropertySymbols(object);
+        enumerableOnly && (symbols = symbols.filter(function(sym) {
+            return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+        })), keys.push.apply(keys, symbols);
+    }
+    return keys;
+}
+function _objectSpread(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = null != arguments[i] ? arguments[i] : {};
+        i % 2 ? ownKeys(Object(source), !0).forEach(function(key) {
+            _defineProperty(target, key, source[key]);
+        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function(key) {
+            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
+    }
+    return target;
+}
+function _defineProperty(obj, key, value) {
+    if (key in obj) Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+    });
+    else obj[key] = value;
+    return obj;
+}
+var defaultButtonStyles = function defaultButtonStyles(disabled) {
+    return {
+        border: 0,
+        background: "rgba(0,0,0,0.4)",
+        color: "white",
+        padding: 10,
+        textTransform: "uppercase",
+        opacity: disabled ? 0.3 : 1,
+        cursor: disabled ? "not-allowed" : "pointer"
+    };
+};
+var prevButtonDisabled = function prevButtonDisabled(_ref) {
+    var currentSlide = _ref.currentSlide, slideCount = _ref.slideCount, slidesToShow = _ref.slidesToShow, wrapAround = _ref.wrapAround;
+    // inifite carousel with visible slides that are less than all slides
+    if (wrapAround && slidesToShow < slideCount) return false;
+     // inifite carousel with visible slide equal or less than all slides
+    if (wrapAround) return false;
+     // if the first slide is not visible return false (button is not disabled)
+    if (currentSlide !== 0) return false;
+    return true;
+};
+exports.prevButtonDisabled = prevButtonDisabled;
+var PreviousButton = function PreviousButton(props) {
+    var handleClick = function handleClick(event) {
+        event.preventDefault();
+        props === null || props === void 0 || props.previousSlide();
+    };
+    var _ref2 = props.defaultControlsConfig || {}, prevButtonClassName = _ref2.prevButtonClassName, _ref2$prevButtonStyle = _ref2.prevButtonStyle, prevButtonStyle = _ref2$prevButtonStyle === void 0 ? {} : _ref2$prevButtonStyle, prevButtonText = _ref2.prevButtonText;
+    var disabled = prevButtonDisabled(props);
+    return /*#__PURE__*/ _react["default"].createElement("button", {
+        className: prevButtonClassName,
+        style: _objectSpread(_objectSpread({}, defaultButtonStyles(disabled)), prevButtonStyle),
+        disabled: disabled,
+        onClick: handleClick,
+        "aria-label": "previous",
+        type: "button"
+    }, prevButtonText || "Prev");
+};
+exports.PreviousButton = PreviousButton;
+var nextButtonDisabled = function nextButtonDisabled(_ref3) {
+    var currentSlide = _ref3.currentSlide, slideCount = _ref3.slideCount, slidesToShow = _ref3.slidesToShow, slidesToScroll = _ref3.slidesToScroll, wrapAround = _ref3.wrapAround, scrollMode = _ref3.scrollMode;
+    // remainder scroll mode
+    if (!wrapAround && scrollMode === _types.ScrollMode.remainder && currentSlide >= slideCount - slidesToShow) return true;
+     // inifite carousel with visible slides that are less than all slides
+    if (wrapAround && slidesToShow < slideCount) return false;
+     // inifite carousel with visible slide equal or less than all slides
+    if (wrapAround) return false;
+     // if the last slide is not visible return false (button is not disabled)
+    if (currentSlide < slideCount - slidesToScroll) return false;
+    return true;
+};
+exports.nextButtonDisabled = nextButtonDisabled;
+var NextButton = function NextButton(props) {
+    var handleClick = function handleClick(event) {
+        event.preventDefault();
+        props.nextSlide();
+    };
+    var defaultControlsConfig = props.defaultControlsConfig;
+    var nextButtonClassName = defaultControlsConfig.nextButtonClassName, _defaultControlsConfi = defaultControlsConfig.nextButtonStyle, nextButtonStyle = _defaultControlsConfi === void 0 ? {} : _defaultControlsConfi, nextButtonText = defaultControlsConfig.nextButtonText;
+    var disabled = nextButtonDisabled(props);
+    return /*#__PURE__*/ _react["default"].createElement("button", {
+        className: nextButtonClassName,
+        style: _objectSpread(_objectSpread({}, defaultButtonStyles(disabled)), nextButtonStyle),
+        disabled: disabled,
+        onClick: handleClick,
+        "aria-label": "next",
+        type: "button"
+    }, nextButtonText || "Next");
+};
+exports.NextButton = NextButton;
+var getDotIndexes = function getDotIndexes(slideCount, slidesToScroll, scrollMode, slidesToShow, wrapAround) {
+    var dotIndexes = [];
+    var scrollSlides = slidesToScroll === 0 ? 1 : slidesToScroll;
+    for(var i = 0; i < slideCount; i += scrollSlides)if (!(!wrapAround && scrollMode === _types.ScrollMode.remainder && i > slideCount - slidesToShow)) dotIndexes.push(i);
+     // check if the slidesToShow is float value, if true add the last dot (remainder scroll mode)
+    if (!wrapAround && scrollMode === _types.ScrollMode.remainder && slidesToShow % 1 !== 0) {
+        var lastIndex = dotIndexes[dotIndexes.length - 1];
+        dotIndexes.push(lastIndex + slidesToShow % 1);
+    }
+    return dotIndexes;
+};
+exports.getDotIndexes = getDotIndexes;
+var PagingDots = function PagingDots(props) {
+    var listStyles = {
+        position: "relative",
+        top: -10,
+        display: "flex",
+        margin: 0,
+        padding: 0,
+        listStyleType: "none"
+    };
+    var getButtonStyles = (0, _react.useCallback)(function(active) {
+        return {
+            cursor: "pointer",
+            opacity: active ? 1 : 0.5,
+            background: "transparent",
+            border: "none",
+            fill: "black"
+        };
+    }, []);
+    var indexes = (0, _react.useMemo)(function() {
+        return getDotIndexes(props.slideCount, props.slidesToScroll, props.scrollMode, props.slidesToShow, props.wrapAround);
+    }, [
+        props.slideCount,
+        props.slidesToScroll,
+        props.scrollMode,
+        props.slidesToShow,
+        props.wrapAround
+    ]);
+    var _props$defaultControl = props.defaultControlsConfig, pagingDotsContainerClassName = _props$defaultControl.pagingDotsContainerClassName, pagingDotsClassName = _props$defaultControl.pagingDotsClassName, _props$defaultControl2 = _props$defaultControl.pagingDotsStyle, pagingDotsStyle = _props$defaultControl2 === void 0 ? {} : _props$defaultControl2;
+    return /*#__PURE__*/ _react["default"].createElement("ul", {
+        className: pagingDotsContainerClassName,
+        style: listStyles
+    }, indexes.map(function(index, i) {
+        var isActive = props.currentSlide === index || props.currentSlide - props.slideCount === index || props.currentSlide + props.slideCount === index; // the below condition checks and sets navigation dots active if the current slide falls in the current index range
+        if (props.currentSlide < index && props.currentSlide > indexes[i - 1]) isActive = true;
+        return /*#__PURE__*/ _react["default"].createElement("li", {
+            key: index,
+            className: isActive ? "paging-item active" : "paging-item"
+        }, /*#__PURE__*/ _react["default"].createElement("button", {
+            className: pagingDotsClassName,
+            type: "button",
+            style: _objectSpread(_objectSpread({}, getButtonStyles(isActive)), pagingDotsStyle),
+            onClick: props.goToSlide.bind(null, index),
+            "aria-label": "slide ".concat(index + 1, " bullet"),
+            "aria-selected": isActive
+        }, /*#__PURE__*/ _react["default"].createElement("svg", {
+            className: "paging-dot",
+            width: "6",
+            height: "6",
+            "aria-hidden": "true",
+            focusable: "false"
+        }, /*#__PURE__*/ _react["default"].createElement("circle", {
+            cx: "3",
+            cy: "3",
+            r: "3"
+        }))));
+    }));
+};
+exports.PagingDots = PagingDots;
+
+},{"react":"21dqq","./types":"4W2yA"}],"afk4B":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.removeEvent = exports.getPrevMoveIndex = exports.getNextMoveIndex = exports.getIndexes = exports.addEvent = void 0;
+var _types = require("./types");
+var getIndexes = function getIndexes(slide, endSlide, count) {
+    var slideIndex = slide;
+    var endSlideIndex = endSlide;
+    if (slideIndex < 0) slideIndex += count;
+    else if (slideIndex > count - 1) slideIndex -= count;
+    if (endSlideIndex < 0) endSlideIndex += count;
+    else if (endSlideIndex > count - 1) endSlideIndex -= count;
+    return [
+        slideIndex,
+        endSlideIndex
+    ];
+};
+exports.getIndexes = getIndexes;
+var addEvent = function addEvent(elem, type, eventHandler) {
+    if (elem === null || typeof elem === "undefined") return;
+    if (elem.addEventListener) elem.addEventListener(type, eventHandler, false);
+};
+exports.addEvent = addEvent;
+var removeEvent = function removeEvent(elem, type, eventHandler) {
+    if (elem === null || typeof elem === "undefined") return;
+    if (elem.removeEventListener) elem.removeEventListener(type, eventHandler, false);
+};
+exports.removeEvent = removeEvent;
+var getNextMoveIndex = function getNextMoveIndex(scrollMode, wrapAround, currentSlide, count, slidesToScroll, slidesToShow) {
+    if (!wrapAround && scrollMode === _types.ScrollMode.remainder && count < currentSlide + (slidesToScroll + slidesToShow)) {
+        var remindedSlides = count - (currentSlide + slidesToScroll) - (slidesToShow - slidesToScroll);
+        return currentSlide + remindedSlides;
+    }
+    return currentSlide + slidesToScroll;
+};
+exports.getNextMoveIndex = getNextMoveIndex;
+var getPrevMoveIndex = function getPrevMoveIndex(scrollMode, wrapAround, currentSlide, slidesToScroll) {
+    if (!wrapAround && scrollMode === _types.ScrollMode.remainder && currentSlide - slidesToScroll < 0) return 0;
+    return currentSlide - slidesToScroll;
+};
+exports.getPrevMoveIndex = getPrevMoveIndex;
+
+},{"./types":"4W2yA"}],"bVHvC":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.useFrameHeight = void 0;
+var _react = require("react");
+var _useStateWithRef3 = require("./use-state-with-ref");
+function _toConsumableArray(arr) {
+    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
+}
+function _nonIterableSpread() {
+    throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function _iterableToArray(iter) {
+    if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
+}
+function _arrayWithoutHoles(arr) {
+    if (Array.isArray(arr)) return _arrayLikeToArray(arr);
+}
+function _slicedToArray(arr, i) {
+    return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
+}
+function _nonIterableRest() {
+    throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
+    return arr2;
+}
+function _iterableToArrayLimit(arr, i) {
+    var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
+    if (_i == null) return;
+    var _arr = [];
+    var _n = true;
+    var _d = false;
+    var _s, _e;
+    try {
+        for(_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true){
+            _arr.push(_s.value);
+            if (i && _arr.length === i) break;
+        }
+    } catch (err) {
+        _d = true;
+        _e = err;
+    } finally{
+        try {
+            if (!_n && _i["return"] != null) _i["return"]();
+        } finally{
+            if (_d) throw _e;
+        }
+    }
+    return _arr;
+}
+function _arrayWithHoles(arr) {
+    if (Array.isArray(arr)) return arr;
+}
+/**
+ * The frame height is normally, just `auto` (i.e., it expands to fit the
+ * items), but in adaptiveHeight mode, it's the height of the tallest visible
+ * item.
+ *
+ * In adaptiveHeight mode, we also switch between two states to ensure that
+ * slides don't render with zero height when server-side-rendering:
+ *
+ * - When initializedAdaptiveHeight is false: the frame has height auto; visible
+ *   slides have height auto; invisible slides have height 0
+ * - The client sets initializedAdaptiveHeight to true once we've measured all
+ *   the visible slides' heights
+ * - When initializedAdaptiveHeight is true: the frame has height set to the
+ *   tallest visible slide; all slides have height 100%
+ */ var useFrameHeight = function useFrameHeight(_ref) {
+    var adaptiveHeight = _ref.adaptiveHeight, slidesToShow = _ref.slidesToShow, numSlides = _ref.numSlides;
+    var _useStateWithRef = (0, _useStateWithRef3.useStateWithRef)([]), _useStateWithRef2 = _slicedToArray(_useStateWithRef, 3), visibleHeights = _useStateWithRef2[0], setVisibleHeights = _useStateWithRef2[1], visibleHeightsRef = _useStateWithRef2[2]; // Whether we've received heights of all initial visible heights
+    var _useState = (0, _react.useState)(false), _useState2 = _slicedToArray(_useState, 2), initializedAdaptiveHeight = _useState2[0], setInitializedAdaptiveHeight = _useState2[1];
+    var handleVisibleSlideHeightChange = (0, _react.useCallback)(function(slideIndex, height) {
+        // Use the ref's value since it's always the latest value
+        var latestVisibleHeights = visibleHeightsRef.current;
+        var newVisibleHeights;
+        if (height === null) newVisibleHeights = latestVisibleHeights.filter(function(slideHeight) {
+            return slideHeight.slideIndex !== slideIndex;
+        });
+        else newVisibleHeights = [].concat(_toConsumableArray(latestVisibleHeights), [
+            {
+                slideIndex: slideIndex,
+                height: height
+            }
+        ]);
+        setVisibleHeights(newVisibleHeights);
+        if (newVisibleHeights.length >= Math.min(numSlides, Math.ceil(slidesToShow))) setInitializedAdaptiveHeight(true);
+    }, [
+        numSlides,
+        setVisibleHeights,
+        slidesToShow,
+        visibleHeightsRef
+    ]);
+    var frameHeight = (0, _react.useMemo)(function() {
+        if (adaptiveHeight) {
+            // We want server-side-rendering to render the carousel with non-zero
+            // height. to achieve this, we first set the height to `auto` until
+            // we've received the heights of the visible slides. Then, we switch to
+            // a mode where the frame controls the height.
+            if (!initializedAdaptiveHeight) return "auto";
+            var maxHeight = Math.max.apply(Math, [
+                0
+            ].concat(_toConsumableArray(visibleHeights.map(function(height) {
+                return height.height;
+            }))));
+            return "".concat(maxHeight, "px");
+        } else return "auto";
+    }, [
+        adaptiveHeight,
+        initializedAdaptiveHeight,
+        visibleHeights
+    ]);
+    return {
+        handleVisibleSlideHeightChange: handleVisibleSlideHeightChange,
+        frameHeight: frameHeight,
+        initializedAdaptiveHeight: initializedAdaptiveHeight
+    };
+};
+exports.useFrameHeight = useFrameHeight;
+
+},{"react":"21dqq","./use-state-with-ref":"bs1DZ"}],"bs1DZ":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.useStateWithRef = void 0;
+var _react = require("react");
+function _slicedToArray(arr, i) {
+    return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
+}
+function _nonIterableRest() {
+    throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
+    return arr2;
+}
+function _iterableToArrayLimit(arr, i) {
+    var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
+    if (_i == null) return;
+    var _arr = [];
+    var _n = true;
+    var _d = false;
+    var _s, _e;
+    try {
+        for(_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true){
+            _arr.push(_s.value);
+            if (i && _arr.length === i) break;
+        }
+    } catch (err) {
+        _d = true;
+        _e = err;
+    } finally{
+        try {
+            if (!_n && _i["return"] != null) _i["return"]();
+        } finally{
+            if (_d) throw _e;
+        }
+    }
+    return _arr;
+}
+function _arrayWithHoles(arr) {
+    if (Array.isArray(arr)) return arr;
+}
+/**
+ * Like useState, but also returns a ref that's always instantly updated.
+ *
+ * This is useful in two cases:
+ *
+ * 1. You need to both force a re-render when a variable changes, and
+ *    also avoid re-running side effects (for example, a network call), even
+ *    before the state fully updates for the component.
+ * 2. Multiple callbacks need to modify the same object or array before the
+ *    state updates. For example, if one callback tries to append 4 to
+ *    `[1, 2, 3]` and another tries to append 5, we may end up with only
+ *    `[1, 2, 3, 5]` instead of `[1, 2, 3, 4, 5]`
+ */ var useStateWithRef = function useStateWithRef(initialState) {
+    var _useState = (0, _react.useState)(initialState), _useState2 = _slicedToArray(_useState, 2), value = _useState2[0], setValue = _useState2[1]; // Need to explicitly type this out, or the overloads can confuse the
+    // compiler to think that this might be a React Component ref
+    var valueRef = (0, _react.useRef)(initialState);
+    var setValueAndRef = (0, _react.useCallback)(function(newValue) {
+        valueRef.current = newValue;
+        setValue(newValue);
+    }, []);
+    return [
+        value,
+        setValueAndRef,
+        valueRef
+    ];
+};
+exports.useStateWithRef = useStateWithRef;
+
+},{"react":"21dqq"}],"fpeeO":[function() {},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("react-refresh/runtime");
 function debounce(func, delay) {
@@ -33365,7 +35264,65 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"4znZA":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"fpeeO":[function() {},{}],"2plZK":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "myflix-1.1214ab4a.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"cgvBF":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "myflix-2.8313450c.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"9YqgE":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "myflix-api-1.39e9c294.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"9HMFD":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "myflix-api-2.4ae1db95.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"8ndsO":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "meet1.a2c94a85.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"ecAVZ":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "meet2.6536da26.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"zfkfr":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "meet3.671074c4.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"1bWT7":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "yblackbox1.5ca732f7.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"4znZA":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$95d6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -58889,41 +60846,7 @@ var _iconsCache = {
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fpeeO":[function() {},{}],"blAdC":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "logo2.76e06e21.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"3J0sd":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"3J0sd":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "user.29f30788.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"eXW6O":[function(require,module,exports) {
@@ -59284,13 +61207,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _deck = require("../deck/Deck");
 var _deckDefault = parcelHelpers.interopDefault(_deck);
 function Projects() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
-            fileName: "src/components/projects/Projects.jsx",
-            lineNumber: 6,
-            columnNumber: 10
-        }, this)
-    }, void 0, false, {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
         fileName: "src/components/projects/Projects.jsx",
         lineNumber: 6,
         columnNumber: 5

@@ -670,15 +670,44 @@ img {
 }
 
 .imgCard {
-  height: 380px;
+  object-fit: cover;
+  height: 350px;
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 button[aria-label="previous"], button[aria-label="next"] {
-  color: #000 !important;
-  background: salmon !important;
+  color: #fff !important;
+  border: solid 2px var(--pink-highlighter) !important;
+  background: #000 !important;
+}
+
+h2 {
+  color: #000;
+  text-shadow: -1px -1px 0 var(--pink-highlighter), 1px -1px 0 var(--pink-highlighter), -1px 1px 0 var(--pink-highlighter), 1px 1px 0 var(--pink-highlighter);
+}
+
+.keywordsContainer {
+  flex-flow: wrap;
+  display: flex;
+}
+
+.keyword {
+  color: #fff;
+  width: fit-content;
+  background: #040404;
+  border-radius: 30px;
+  margin: .2em;
+  padding: 0 .2em;
+}
+
+.slider-control-bottomcenter {
+  bottom: -15px !important;
+}
+
+.slider-control-bottomcenter > ul > li > button {
+  color: var(--pink-highlighter) !important;
 }
 
 /*# sourceMappingURL=index.75f14d4e.css.map */

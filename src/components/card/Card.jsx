@@ -2,13 +2,15 @@ import React from "react";
 import { animated, to  } from "react-spring";
 import Carousel from "nuka-carousel";
 
+import '../../sass/style.scss';
+
 class Card extends React.Component {
   render() {
     const { i, x, y, rot, scale, trans, cards, bind, objs } = this.props;
-    const { name, age, distance, text, pics } = objs[i];
+    const { name, age, distance, text, pics, keywords } = objs[i];
 
     return (
-        <div className="classComp">
+        <div className="ex">
       <animated.div
         key={i}
         style={{
@@ -25,15 +27,18 @@ class Card extends React.Component {
           }}
         >
           <div className="card">
-            {/* <Carousel> */}
+            <Carousel>
               {pics.map(pic => (
                 <img className="imgCard" src={pic} alt="profilePicture" />
               ))}
-            {/* </Carousel> */}
-            <h2>{name},</h2>
-            <h2>{age}</h2>
-            <h5>{distance}</h5>
-            <h5>{text}</h5>
+            </Carousel>
+            <h2>{name}</h2>
+            
+            <div className="keywordsContainer">
+            {keywords.map(word =>(
+              <h5 className="keyword">{word}</h5>
+            ))}
+            </div>
           </div>
         </animated.div>
       </animated.div>
