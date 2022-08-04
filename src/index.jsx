@@ -16,27 +16,73 @@ import { useSpring, animated } from "react-spring";
 import Deck from "./components/deck/Deck";
 import Projects from "./components/projects/Projects";
 import Logo from "./components/logo/Logo";
+import Skills from "./components/skills/Skills";
 
 const App = () => {
   const [scroll, setScroll] = useState(0);
   const parallax = useRef(null);
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  const skillsRef =useRef(null);
+
+      // console.log(document.getElementById('body'))
+    // const target= document.getElementById('skillsComp');
+    const options={
+      root:null,
+      rootMargin: '0px',
+      threshold: 1
+     };
+//  console.log(target);
+  const observer = new IntersectionObserver(function(entries,observer){
+    const entry = entries[0];
+    let html = document.getElementById('html');
+    let csharp = document.getElementById('csharp');
+    let css = document.getElementById('css');
+    let php = document.getElementById('php');
+    let java = document.getElementById('java');
+    let javascript = document.getElementById('javascript');
+    let python = document.getElementById('python');
+    console.log(html)
+     html.classList.add('visible');
+     csharp.classList.add('visible');
+     css.classList.add('visible');
+     php.classList.add('visible');
+     java.classList.add('visible');
+     javascript.classList.add('visible');
+     python.classList.add('visible');
+  },options);
+
+  const currentTarget = skillsRef.current;
+
+  if(currentTarget){
+     observer.observe(currentTarget)
+  }
+  
+
   useEffect(() => {
+
+ 
+
     const getScroll = (e) => {
       setScroll(e.target.scrollTop);
     };
     const container = parallax.current.container.current;
     container.addEventListener("scroll", getScroll);
 
-    return () => {};
+    return () => {
+      // if(currentTarget){
+      //   observer.unobserve(currentTarget);
+      // }
+    };
   }, []);
   if (scroll > 320) {
-    console.log(document.getElementById("iconsNav"));
+    //console.log(document.getElementById("iconsNav"));
     const nav = document.getElementById("iconsNav");
     nav.classList.add("active");
     nav.classList.remove("reveal");
   } else if (scroll < 320 && scroll > 50) {
-    console.log(document.getElementById("iconsNav"));
+    //console.log(document.getElementById("iconsNav"));
     const nav = document.getElementById("iconsNav");
     nav.classList.remove("active");
     nav.classList.add("reveal");
@@ -55,7 +101,7 @@ const App = () => {
         {/* side navigation */}
         <ParallaxLayer
           className="sideNavLayer"
-          style={{ width: "20vw" }}
+          style={{ width: "10vw" }}
           // style={props}
           sticky={{ start: 0, end: 5 }}
           // offset={2}
@@ -99,7 +145,7 @@ const App = () => {
         <ParallaxLayer
           className="layerOne"
           offset={1}
-          speed={1}
+          speed={.5}
           // sticky={{start:2, end:2}}
           style={{}}
         >
@@ -119,6 +165,16 @@ const App = () => {
           <div className="deckComp">
             <Projects />
           </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          offset={2}
+          // style={{ width: "50vw", float: "right" }}
+          speed={1.5}
+        >
+          <div className="skillsComp"  ref={skillsRef}>
+           <Skills />
+           </div>
         </ParallaxLayer>
       </Parallax>
     </>

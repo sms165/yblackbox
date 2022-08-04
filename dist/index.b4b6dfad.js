@@ -2929,26 +2929,62 @@ var _projects = require("./components/projects/Projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
 var _logo = require("./components/logo/Logo");
 var _logoDefault = parcelHelpers.interopDefault(_logo);
+var _skills = require("./components/skills/Skills");
+var _skillsDefault = parcelHelpers.interopDefault(_skills);
 var _s = $RefreshSig$();
 const App = ()=>{
     _s();
     const [scroll, setScroll] = (0, _react.useState)(0);
     const parallax = (0, _react.useRef)(null);
+    const [isVisible, setIsVisible] = (0, _react.useState)(false);
+    const skillsRef = (0, _react.useRef)(null);
+    // console.log(document.getElementById('body'))
+    // const target= document.getElementById('skillsComp');
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 1
+    };
+    //  console.log(target);
+    const observer = new IntersectionObserver(function(entries, observer) {
+        const entry = entries[0];
+        let html = document.getElementById("html");
+        let csharp = document.getElementById("csharp");
+        let css = document.getElementById("css");
+        let php = document.getElementById("php");
+        let java = document.getElementById("java");
+        let javascript = document.getElementById("javascript");
+        let python = document.getElementById("python");
+        console.log(html);
+        html.classList.add("visible");
+        csharp.classList.add("visible");
+        css.classList.add("visible");
+        php.classList.add("visible");
+        java.classList.add("visible");
+        javascript.classList.add("visible");
+        python.classList.add("visible");
+    }, options);
+    const currentTarget = skillsRef.current;
+    if (currentTarget) observer.observe(currentTarget);
     (0, _react.useEffect)(()=>{
         const getScroll = (e)=>{
             setScroll(e.target.scrollTop);
         };
         const container = parallax.current.container.current;
         container.addEventListener("scroll", getScroll);
-        return ()=>{};
+        return ()=>{
+        // if(currentTarget){
+        //   observer.unobserve(currentTarget);
+        // }
+        };
     }, []);
     if (scroll > 320) {
-        console.log(document.getElementById("iconsNav"));
+        //console.log(document.getElementById("iconsNav"));
         const nav = document.getElementById("iconsNav");
         nav.classList.add("active");
         nav.classList.remove("reveal");
     } else if (scroll < 320 && scroll > 50) {
-        console.log(document.getElementById("iconsNav"));
+        //console.log(document.getElementById("iconsNav"));
         const nav = document.getElementById("iconsNav");
         nav.classList.remove("active");
         nav.classList.add("reveal");
@@ -2970,20 +3006,20 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 51,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 49,
+                    lineNumber: 95,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "sideNavLayer",
                     style: {
-                        width: "20vw"
+                        width: "10vw"
                     },
                     // style={props}
                     sticky: {
@@ -2998,17 +3034,17 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 66,
+                            lineNumber: 112,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 65,
+                        lineNumber: 111,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 56,
+                    lineNumber: 102,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3024,12 +3060,12 @@ const App = ()=>{
                     },
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 75,
+                        lineNumber: 121,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 71,
+                    lineNumber: 117,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3047,31 +3083,31 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 91,
+                            lineNumber: 137,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 93,
+                                lineNumber: 139,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 92,
+                            lineNumber: 138,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 79,
+                    lineNumber: 125,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "layerOne",
                     offset: 1,
-                    speed: 1,
+                    speed: .5,
                     // sticky={{start:2, end:2}}
                     style: {},
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3085,23 +3121,23 @@ const App = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 107,
+                                lineNumber: 153,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 108,
+                                lineNumber: 154,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/index.jsx",
-                        lineNumber: 106,
+                        lineNumber: 152,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 99,
+                    lineNumber: 145,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3115,28 +3151,50 @@ const App = ()=>{
                         className: "deckComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 120,
+                            lineNumber: 166,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 119,
+                        lineNumber: 165,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 113,
+                    lineNumber: 159,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    offset: 2,
+                    // style={{ width: "50vw", float: "right" }}
+                    speed: 1.5,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skillsComp",
+                        ref: skillsRef,
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 176,
+                            columnNumber: 12
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 175,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 170,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 46,
+            lineNumber: 92,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
 };
-_s(App, "Kcx4DdevZecx97iFy/ToffVBkTk=");
+_s(App, "M0ajjPw1CiTwedA4FsCqALWyZ9Q=");
 _c = App;
 const rootElement = document.getElementById("root");
 const root = (0, _client.createRoot)(rootElement);
@@ -3144,12 +3202,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 133,
+        lineNumber: 189,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 132,
+    lineNumber: 188,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -3160,7 +3218,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","./components/logo/Logo":"dorWe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","./components/logo/Logo":"dorWe","./components/skills/Skills":"lcd2F","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -31068,7 +31126,7 @@ $RefreshReg$(_c, "Deck");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-spring":"2gPbQ","react-use-gesture":"3CEht","../card/Card":"60Z1z","../../sass/style.scss":"fpeeO","../../assets/myflix-1.png":"2plZK","../../assets/myflix-2.png":"cgvBF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/myflix-api-1.png":"9YqgE","../../assets/myflix-api-2.png":"9HMFD","../../assets/meet1.jpg":"8ndsO","../../assets/meet2.jpg":"ecAVZ","../../assets/meet3.jpg":"zfkfr","../../assets/yblackbox1.png":"1bWT7"}],"3CEht":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-spring":"2gPbQ","react-use-gesture":"3CEht","../card/Card":"60Z1z","../../sass/style.scss":"fpeeO","../../assets/myflix-1.png":"2plZK","../../assets/myflix-2.png":"cgvBF","../../assets/myflix-api-1.png":"9YqgE","../../assets/myflix-api-2.png":"9HMFD","../../assets/meet1.jpg":"8ndsO","../../assets/meet2.jpg":"ecAVZ","../../assets/meet3.jpg":"zfkfr","../../assets/yblackbox1.png":"1bWT7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3CEht":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addV", ()=>addV);
@@ -61267,6 +61325,364 @@ $RefreshReg$(_c, "Logo");
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/y.svg":"1GP1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"1GP1E":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "y.08306a29.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lcd2F":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$288d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$288d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleScss = require("../../sass/style.scss");
+var _htmlSvg = require("../../assets/html.svg");
+var _htmlSvgDefault = parcelHelpers.interopDefault(_htmlSvg);
+var _cssSvg = require("../../assets/css.svg");
+var _cssSvgDefault = parcelHelpers.interopDefault(_cssSvg);
+var _cSvg = require("../../assets/c.svg");
+var _cSvgDefault = parcelHelpers.interopDefault(_cSvg);
+var _javascriptSvg = require("../../assets/javascript.svg");
+var _javascriptSvgDefault = parcelHelpers.interopDefault(_javascriptSvg);
+var _javaSvg = require("../../assets/java.svg");
+var _javaSvgDefault = parcelHelpers.interopDefault(_javaSvg);
+var _phpSvg = require("../../assets/php.svg");
+var _phpSvgDefault = parcelHelpers.interopDefault(_phpSvg);
+var _pythonSvg = require("../../assets/python.svg");
+var _pythonSvgDefault = parcelHelpers.interopDefault(_pythonSvg);
+var _s = $RefreshSig$();
+function Skills() {
+    _s();
+    (0, _react.useEffect)(()=>{
+        console.log(document.getElementById("skillDetail"));
+        return ()=>{};
+    }, []);
+    // console.log(document.getElementById('skillDetail'))
+    // let detail= document.getElementById('skillDetail');
+    //        detail.innerHTML='<p>Hello</p>';
+    const info = ()=>{
+        let detail = document.getElementById("textDetail");
+        detail.innerHTML = '<div class="detail"><h1>C#</h1><img class="imageDetail" src="' + (0, _cSvgDefault.default) + '"  /></div>';
+    };
+    const infoCss = ()=>{
+        let detail = document.getElementById("textDetail");
+        detail.innerHTML = '<div class="detail"><h1>CSS</h1><img class="imageDetail" src="' + (0, _cssSvgDefault.default) + '"  /></div>';
+    };
+    const infoHtml = ()=>{
+        let detail = document.getElementById("textDetail");
+        detail.innerHTML = '<div class="detail"><h1>HTML</h1><img class="imageDetail" src="' + (0, _htmlSvgDefault.default) + '"  /></div>';
+    };
+    const infoJava = ()=>{
+        let detail = document.getElementById("textDetail");
+        detail.innerHTML = '<div class="detail"><h1>Java</h1><img class="imageDetail" src="' + (0, _javaSvgDefault.default) + '"  /></div>';
+    };
+    const infoJavascript = ()=>{
+        let detail = document.getElementById("textDetail");
+        detail.innerHTML = '<div class="detail"><h1>JavaScript</h1><img class="imageDetail" src="' + (0, _javascriptSvgDefault.default) + '"  /></div>';
+    };
+    const infoPhp = ()=>{
+        let detail = document.getElementById("textDetail");
+        detail.innerHTML = '<div class="detail"><h1>PHP</h1><img class="imageDetail" src="' + (0, _phpSvgDefault.default) + '"  /></div>';
+    };
+    const infoPython = ()=>{
+        let detail = document.getElementById("textDetail");
+        detail.innerHTML = '<div class="detail"><h1>Python</h1><img class="imageDetail" src="' + (0, _pythonSvgDefault.default) + '"  /></div>';
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "skills",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "skillName csharp",
+                                onClick: info,
+                                children: "C#"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 78,
+                                columnNumber: 8
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "bar",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "csharp",
+                                    id: "csharp"
+                                }, void 0, false, {
+                                    fileName: "src/components/skills/Skills.jsx",
+                                    lineNumber: 78,
+                                    columnNumber: 85
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 78,
+                                columnNumber: 63
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 77,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "skillName",
+                                onClick: infoCss,
+                                children: "CSS"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 81,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "bar",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "css",
+                                    id: "css"
+                                }, void 0, false, {
+                                    fileName: "src/components/skills/Skills.jsx",
+                                    lineNumber: 81,
+                                    columnNumber: 83
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 81,
+                                columnNumber: 61
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 80,
+                        columnNumber: 10
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "skillName",
+                                onClick: infoHtml,
+                                children: "HTML"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 84,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "bar",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "html",
+                                    id: "html"
+                                }, void 0, false, {
+                                    fileName: "src/components/skills/Skills.jsx",
+                                    lineNumber: 84,
+                                    columnNumber: 85
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 84,
+                                columnNumber: 63
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 83,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "skillName",
+                                onClick: infoJava,
+                                children: "Java"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 87,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "bar",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "java",
+                                    id: "java"
+                                }, void 0, false, {
+                                    fileName: "src/components/skills/Skills.jsx",
+                                    lineNumber: 87,
+                                    columnNumber: 85
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 87,
+                                columnNumber: 63
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 86,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "skillName",
+                                onClick: infoJavascript,
+                                children: "JavaScript"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 90,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "bar",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "javascript",
+                                    id: "javascript"
+                                }, void 0, false, {
+                                    fileName: "src/components/skills/Skills.jsx",
+                                    lineNumber: 90,
+                                    columnNumber: 97
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 90,
+                                columnNumber: 75
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 89,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "skillName",
+                                onClick: infoPhp,
+                                children: "PHP"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 93,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "bar",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "php",
+                                    id: "php"
+                                }, void 0, false, {
+                                    fileName: "src/components/skills/Skills.jsx",
+                                    lineNumber: 93,
+                                    columnNumber: 83
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 93,
+                                columnNumber: 61
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 92,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "skillName",
+                                onClick: infoPython,
+                                children: "Python"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 96,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "bar",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "python",
+                                    id: "python"
+                                }, void 0, false, {
+                                    fileName: "src/components/skills/Skills.jsx",
+                                    lineNumber: 96,
+                                    columnNumber: 89
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 96,
+                                columnNumber: 67
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 95,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 76,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "skillDetail",
+                id: "skillDetail",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "textDetail",
+                    id: "textDetail",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Click on Programming Language to learn more !"
+                    }, void 0, false, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 101,
+                        columnNumber: 12
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/skills/Skills.jsx",
+                    lineNumber: 100,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 99,
+                columnNumber: 5
+            }, this)
+        ]
+    }, void 0, true);
+}
+_s(Skills, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = Skills;
+exports.default = Skills;
+var _c;
+$RefreshReg$(_c, "Skills");
+
+  $parcel$ReactRefreshHelpers$288d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "html.18dc761f.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"6fudE":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "css.6d5dee92.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"aagvU":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "c.3a8208c7.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"aXfDG":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "javascript.06382871.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"4wIUY":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "java.dfae60ef.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lLbyI":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "php.4150d34b.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"gIRGv":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "python.44ea2d8e.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 
