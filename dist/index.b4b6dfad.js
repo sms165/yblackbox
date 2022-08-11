@@ -2948,6 +2948,7 @@ const App = ()=>{
     //  console.log(target);
     const observer = new IntersectionObserver(function(entries, observer) {
         const entry = entries[0];
+        // programming skills
         let html = document.getElementById("html");
         let csharp = document.getElementById("csharp");
         let css = document.getElementById("css");
@@ -2963,6 +2964,18 @@ const App = ()=>{
         java.classList.add("visible");
         javascript.classList.add("visible");
         python.classList.add("visible");
+        // graphic design skills
+        let afterEffects = document.getElementById("afterEffects");
+        let premierePro = document.getElementById("premierePro");
+        let illustrator = document.getElementById("illustrator");
+        let indesign = document.getElementById("indesign");
+        let photoshop = document.getElementById("photoshop");
+        console.log(afterEffects);
+        afterEffects.classList.add("visible");
+        premierePro.classList.add("visible");
+        illustrator.classList.add("visible");
+        indesign.classList.add("visible");
+        photoshop.classList.add("visible");
     }, options);
     const currentTarget = skillsRef.current;
     if (currentTarget) observer.observe(currentTarget);
@@ -3006,14 +3019,14 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 97,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 95,
+                    lineNumber: 111,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3034,17 +3047,17 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 112,
+                            lineNumber: 128,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 111,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 102,
+                    lineNumber: 118,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3060,12 +3073,12 @@ const App = ()=>{
                     },
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 121,
+                        lineNumber: 137,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 117,
+                    lineNumber: 133,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3083,25 +3096,25 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 137,
+                            lineNumber: 153,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 139,
+                                lineNumber: 155,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 138,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 125,
+                    lineNumber: 141,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3121,23 +3134,23 @@ const App = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 153,
+                                lineNumber: 169,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 154,
+                                lineNumber: 170,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/index.jsx",
-                        lineNumber: 152,
+                        lineNumber: 168,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 145,
+                    lineNumber: 161,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3151,17 +3164,17 @@ const App = ()=>{
                         className: "deckComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 166,
+                            lineNumber: 182,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 165,
+                        lineNumber: 181,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 159,
+                    lineNumber: 175,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3173,23 +3186,23 @@ const App = ()=>{
                         ref: skillsRef,
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 176,
+                            lineNumber: 192,
                             columnNumber: 12
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 175,
+                        lineNumber: 191,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 170,
+                    lineNumber: 186,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 92,
+            lineNumber: 108,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3202,12 +3215,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 189,
+        lineNumber: 205,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 188,
+    lineNumber: 204,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -61339,6 +61352,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styleScss = require("../../sass/style.scss");
+// programming languages
 var _htmlSvg = require("../../assets/html.svg");
 var _htmlSvgDefault = parcelHelpers.interopDefault(_htmlSvg);
 var _cssSvg = require("../../assets/css.svg");
@@ -61353,6 +61367,17 @@ var _phpSvg = require("../../assets/php.svg");
 var _phpSvgDefault = parcelHelpers.interopDefault(_phpSvg);
 var _pythonSvg = require("../../assets/python.svg");
 var _pythonSvgDefault = parcelHelpers.interopDefault(_pythonSvg);
+// graphic design
+var _photoshopSvg = require("../../assets/photoshop.svg");
+var _photoshopSvgDefault = parcelHelpers.interopDefault(_photoshopSvg);
+var _illustratorSvg = require("../../assets/illustrator.svg");
+var _illustratorSvgDefault = parcelHelpers.interopDefault(_illustratorSvg);
+var _premiereProSvg = require("../../assets/premierePro.svg");
+var _premiereProSvgDefault = parcelHelpers.interopDefault(_premiereProSvg);
+var _afterEffectsSvg = require("../../assets/afterEffects.svg");
+var _afterEffectsSvgDefault = parcelHelpers.interopDefault(_afterEffectsSvg);
+var _indesignSvg = require("../../assets/indesign.svg");
+var _indesignSvgDefault = parcelHelpers.interopDefault(_indesignSvg);
 var _s = $RefreshSig$();
 function Skills() {
     _s();
@@ -61360,294 +61385,778 @@ function Skills() {
         console.log(document.getElementById("skillDetail"));
         return ()=>{};
     }, []);
-    // console.log(document.getElementById('skillDetail'))
-    // let detail= document.getElementById('skillDetail');
-    //        detail.innerHTML='<p>Hello</p>';
-    const info = ()=>{
+    const programmingSkills = (language)=>{
         let detail = document.getElementById("textDetail");
-        detail.innerHTML = '<div class="detail"><h1>C#</h1><img class="imageDetail" src="' + (0, _cSvgDefault.default) + '"  /></div>';
+        switch(language){
+            case "csharp":
+                detail.innerHTML = '<div class="detail"><h1>C#</h1><img class="imageDetail" src="' + (0, _cSvgDefault.default) + '"  /></div><div class="text"><br /><p>C# is an object oriented programming language which allows development of cross-platform application for Windows, Web and mobile development.</p><br /><p>I learned C# during my training at Lutz & Grub.</p><br /><p>IDE: VisualStudio</p></div>';
+                break;
+            case "css":
+                detail.innerHTML = '<div class="detail"><h1>CSS</h1><img class="imageDetail" src="' + (0, _cssSvgDefault.default) + '"  /></div><div class="text"><br /><p>CSS (Cascading Style Sheet) is a stylesheet language which defines how elements should be rendered.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>Libraries: fontAwesome</p><br /><p>Framework: bootstrap</p><br /><p>Preprocessors: SCSS<p><br /><p>IDE: VisualStudioCode, PHP storm, Dreamweaver</p></div>';
+                break;
+            case "html":
+                detail.innerHTML = '<div class="detail"><h1>HTML</h1><img class="imageDetail" src="' + (0, _htmlSvgDefault.default) + '"  /></div><div class="text"><br /><p>HTML (Hypertext Markup Languaged) is a markup language which defines the content and structure of the webpage.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>IDE: VisualStudioCode, PHP storm, Dreamweaver</p></div>';
+                break;
+            case "java":
+                detail.innerHTML = '<div class="detail"><h1>Java</h1><img class="imageDetail" src="' + (0, _javaSvgDefault.default) + '"  /></div><div class="text"><br /><p>Java is a object oriented programming language, which allows for cross-platform development.</p><br /><p>I learned Java during my education at University.</p><br /><p>IDE: Eclipse, XCode</p></div>';
+                break;
+            case "javascript":
+                detail.innerHTML = '<div class="detail"><h1>JavaScript</h1><img class="imageDetail" src="' + (0, _javascriptSvgDefault.default) + '"  /></div><div class="text"><br /><p>JavaScript is a object oriented programming language, best known as a scripting language for web development.</p><br /><p>I learned JavaScript through various opportunites and self learning.</p><br /><p>Libraries: jQuery, Chart.js, React, Parallax, React-Spring</p><br /><p>Frameworks: Angular,  React Native</p><br /><p>Etc.: Node.js, ESLint, Babel, Webpack, Parcel</p><br /><p>IDE: Visual Studio Code</p></div>';
+                break;
+            case "php":
+                detail.innerHTML = '<div class="detail"><h1>PHP</h1><img class="imageDetail" src="' + (0, _phpSvgDefault.default) + '"  /></div><div class="text"><br /><p>PHP (Hypertext Preprocessor) is a server side scripting language.</p><br /><p>I learned PHP through my internship at abas and self learning.</p><br /><p>Libraries: Symfony, Twig</p><br /><p>IDE: PHP Storm, Visual Studio Code</p></div>';
+                break;
+            case "python":
+                detail.innerHTML = '<div class="detail"><h1>Python</h1><img class="imageDetail" src="' + (0, _pythonSvgDefault.default) + '"  /></div><div class="text"><br /><p>Python is an object oriented programming language.</p><br /><p>I learned Python through my education at University.</p><br /><p>IDE: PHP Storm, Visual Studio Code</p></div>';
+                break;
+            default:
+                break;
+        }
     };
-    const infoCss = ()=>{
-        let detail = document.getElementById("textDetail");
-        detail.innerHTML = '<div class="detail"><h1>CSS</h1><img class="imageDetail" src="' + (0, _cssSvgDefault.default) + '"  /></div>';
-    };
-    const infoHtml = ()=>{
-        let detail = document.getElementById("textDetail");
-        detail.innerHTML = '<div class="detail"><h1>HTML</h1><img class="imageDetail" src="' + (0, _htmlSvgDefault.default) + '"  /></div>';
-    };
-    const infoJava = ()=>{
-        let detail = document.getElementById("textDetail");
-        detail.innerHTML = '<div class="detail"><h1>Java</h1><img class="imageDetail" src="' + (0, _javaSvgDefault.default) + '"  /></div>';
-    };
-    const infoJavascript = ()=>{
-        let detail = document.getElementById("textDetail");
-        detail.innerHTML = '<div class="detail"><h1>JavaScript</h1><img class="imageDetail" src="' + (0, _javascriptSvgDefault.default) + '"  /></div>';
-    };
-    const infoPhp = ()=>{
-        let detail = document.getElementById("textDetail");
-        detail.innerHTML = '<div class="detail"><h1>PHP</h1><img class="imageDetail" src="' + (0, _phpSvgDefault.default) + '"  /></div>';
-    };
-    const infoPython = ()=>{
-        let detail = document.getElementById("textDetail");
-        detail.innerHTML = '<div class="detail"><h1>Python</h1><img class="imageDetail" src="' + (0, _pythonSvgDefault.default) + '"  /></div>';
+    const graphicDesignSkills = (language)=>{
+        let detail = document.getElementById("graphicDesignTextDetail");
+        switch(language){
+            case "afterEffects":
+                detail.innerHTML = '<div class="detail"><h1>After Effects</h1><img class="imageDetail" src="' + (0, _afterEffectsSvgDefault.default) + '"  /></div><div class="text"><br /><p>After Effect is a visual effects and motion graphics software for video.</p><br /><p>First experience was in High School.</p><p>Projects: Various projects in High School, animatons of svg images</div>';
+                break;
+            case "illustrator":
+                detail.innerHTML = '<div class="detail"><h1>Illustrator</h1><img class="imageDetail" src="' + (0, _illustratorSvgDefault.default) + '"  /></div><div class="text"><br /><p>Illustrator is a vector-based graphics software.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>Projects: Logos, Svgs,Vecctor Illustrations></p></div>';
+                break;
+            case "indesign":
+                detail.innerHTML = '<div class="detail"><h1>InDesign</h1><img class="imageDetail" src="' + (0, _indesignSvgDefault.default) + '"  /></div><div class="text"><br /><p>InDesign is a layout and page design software for print and digital media.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>Projects: Restaurant Menu, Movie Poster, CD design, Business Card, Calendar, Playing Cards</p></div>';
+                break;
+            case "photoshop":
+                detail.innerHTML = '<div class="detail"><h1>Photoshop</h1><img class="imageDetail" src="' + (0, _photoshopSvgDefault.default) + '"  /></div><div class="text"><br /><p>Photoshop is a graphic editor program.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>Projects: Photo editing, </p></div>';
+                break;
+            case "premierePro":
+                detail.innerHTML = '<div class="detail"><h1>Premiere Pro</h1><img class="imageDetail" src="' + (0, _premiereProSvgDefault.default) + '"  /></div><div class="text"><br /><p>Premiere Pro is a video editing software.</p><br /><p>First experience was in High School.</p><br /><p>Projects: Various videos in high school</p></div>';
+                break;
+            default:
+                break;
+        }
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "skillsHeader",
+                children: "Programming Skills"
+            }, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 91,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "skills",
+                className: "skillsProgramming",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skills",
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "skillName csharp",
-                                onClick: info,
-                                children: "C#"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName csharp",
+                                        onClick: ()=>programmingSkills("csharp"),
+                                        children: "C#"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 96,
+                                        columnNumber: 8
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "csharp",
+                                            id: "csharp"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 96,
+                                            columnNumber: 114
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 96,
+                                        columnNumber: 92
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 78,
-                                columnNumber: 8
+                                lineNumber: 95,
+                                columnNumber: 5
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "bar",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "csharp",
-                                    id: "csharp"
-                                }, void 0, false, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 78,
-                                    columnNumber: 85
-                                }, this)
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>programmingSkills("css"),
+                                        children: "CSS"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 99,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "css",
+                                            id: "css"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 99,
+                                            columnNumber: 106
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 99,
+                                        columnNumber: 84
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 78,
-                                columnNumber: 63
+                                lineNumber: 98,
+                                columnNumber: 10
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>programmingSkills("html"),
+                                        children: "HTML"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 102,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "html",
+                                            id: "html"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 102,
+                                            columnNumber: 108
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 102,
+                                        columnNumber: 86
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 101,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>programmingSkills("java"),
+                                        children: "Java"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 105,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "java",
+                                            id: "java"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 105,
+                                            columnNumber: 108
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 105,
+                                        columnNumber: 86
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 104,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>programmingSkills("javascript"),
+                                        children: "JavaScript"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 108,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "javascript",
+                                            id: "javascript"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 108,
+                                            columnNumber: 120
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 108,
+                                        columnNumber: 98
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 107,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>programmingSkills("php"),
+                                        children: "PHP"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 111,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "php",
+                                            id: "php"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 111,
+                                            columnNumber: 106
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 111,
+                                        columnNumber: 84
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 110,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>programmingSkills("python"),
+                                        children: "Python"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 114,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "python",
+                                            id: "python"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 114,
+                                            columnNumber: 112
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 114,
+                                        columnNumber: 90
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 113,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 77,
+                        lineNumber: 94,
                         columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "skillName",
-                                onClick: infoCss,
-                                children: "CSS"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skillDetail",
+                        id: "skillDetail",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "textDetail",
+                            id: "textDetail",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: "Click on a Programming Language to learn more !"
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 81,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "bar",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "css",
-                                    id: "css"
-                                }, void 0, false, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 81,
-                                    columnNumber: 83
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 81,
-                                columnNumber: 61
+                                lineNumber: 119,
+                                columnNumber: 12
                             }, this)
-                        ]
-                    }, void 0, true, {
+                        }, void 0, false, {
+                            fileName: "src/components/skills/Skills.jsx",
+                            lineNumber: 118,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 80,
-                        columnNumber: 10
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "skillName",
-                                onClick: infoHtml,
-                                children: "HTML"
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 84,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "bar",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "html",
-                                    id: "html"
-                                }, void 0, false, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 84,
-                                    columnNumber: 85
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 84,
-                                columnNumber: 63
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 83,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "skillName",
-                                onClick: infoJava,
-                                children: "Java"
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 87,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "bar",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "java",
-                                    id: "java"
-                                }, void 0, false, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 87,
-                                    columnNumber: 85
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 87,
-                                columnNumber: 63
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 86,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "skillName",
-                                onClick: infoJavascript,
-                                children: "JavaScript"
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 90,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "bar",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "javascript",
-                                    id: "javascript"
-                                }, void 0, false, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 90,
-                                    columnNumber: 97
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 90,
-                                columnNumber: 75
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 89,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "skillName",
-                                onClick: infoPhp,
-                                children: "PHP"
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 93,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "bar",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "php",
-                                    id: "php"
-                                }, void 0, false, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 93,
-                                    columnNumber: 83
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 93,
-                                columnNumber: 61
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 92,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "skillName",
-                                onClick: infoPython,
-                                children: "Python"
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 96,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "bar",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "python",
-                                    id: "python"
-                                }, void 0, false, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 96,
-                                    columnNumber: 89
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 96,
-                                columnNumber: 67
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 95,
-                        columnNumber: 9
+                        lineNumber: 117,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 76,
+                lineNumber: 92,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 124,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 125,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 126,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "skillsHeader",
+                children: "Graphic Design Skills"
+            }, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 127,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "skillDetail",
-                id: "skillDetail",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "textDetail",
-                    id: "textDetail",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "Click on Programming Language to learn more !"
+                className: "skillsGraphic",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skills",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>graphicDesignSkills("afterEffects"),
+                                        children: "AfterEffects"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 131,
+                                        columnNumber: 8
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "afterEffects",
+                                            id: "afterEffects"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 131,
+                                            columnNumber: 125
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 131,
+                                        columnNumber: 103
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 130,
+                                columnNumber: 5
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>graphicDesignSkills("illustrator"),
+                                        children: "Illustrator"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 134,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "illustrator",
+                                            id: "illustrator"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 134,
+                                            columnNumber: 124
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 134,
+                                        columnNumber: 102
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 133,
+                                columnNumber: 10
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>graphicDesignSkills("indesign"),
+                                        children: "InDesign"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 137,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "indesign",
+                                            id: "indesign"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 137,
+                                            columnNumber: 118
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 137,
+                                        columnNumber: 96
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 136,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>graphicDesignSkills("photoshop"),
+                                        children: "Photoshop"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 140,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "photoshop",
+                                            id: "photoshop"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 140,
+                                            columnNumber: 120
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 140,
+                                        columnNumber: 98
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 139,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>graphicDesignSkills("premierePro"),
+                                        children: "PremierePro"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 143,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "premierePro",
+                                            id: "premierePro"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 143,
+                                            columnNumber: 124
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 143,
+                                        columnNumber: 102
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 142,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 129,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skillDetail",
+                        id: "skillDetail",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "graphicDesignTextDetail",
+                            id: "graphicDesignTextDetail",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: "Click on a Software name to learn more !"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 148,
+                                columnNumber: 12
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/skills/Skills.jsx",
+                            lineNumber: 147,
+                            columnNumber: 9
+                        }, this)
                     }, void 0, false, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 101,
-                        columnNumber: 12
+                        lineNumber: 146,
+                        columnNumber: 5
                     }, this)
-                }, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 100,
-                    columnNumber: 9
-                }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 128,
+                columnNumber: 6
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 153,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 154,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 155,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "skillsHeader",
+                children: "Other Computer Skills"
             }, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 99,
+                lineNumber: 156,
                 columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "skillsEtc",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skills",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("phpMyAdmin"),
+                                        children: "PHP MyAdmin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 160,
+                                        columnNumber: 8
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "phpMyAdmin",
+                                            id: "phpMyAdmin"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 160,
+                                            columnNumber: 112
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 160,
+                                        columnNumber: 90
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 159,
+                                columnNumber: 5
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("mongodb"),
+                                        children: "MongoDB"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 163,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "mongodb",
+                                            id: "mongodb"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 163,
+                                            columnNumber: 106
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 163,
+                                        columnNumber: 84
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 162,
+                                columnNumber: 10
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("microsoft"),
+                                        children: "Microsoft Office"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 166,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "microsoft",
+                                            id: "microsoft"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 166,
+                                            columnNumber: 117
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 166,
+                                        columnNumber: 95
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 165,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("docker"),
+                                        children: "Docker"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 169,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "photoshop",
+                                            id: "photoshop"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 169,
+                                            columnNumber: 104
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 169,
+                                        columnNumber: 82
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 168,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("git"),
+                                        children: "Git"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 172,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "git",
+                                            id: "git"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 172,
+                                            columnNumber: 98
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 172,
+                                        columnNumber: 76
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 171,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 158,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skillDetail",
+                        id: "skillDetail",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "etcTextDetail",
+                            id: "etcTextDetail",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: "Click on name to learn more !"
+                            }, void 0, false, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 177,
+                                columnNumber: 12
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/skills/Skills.jsx",
+                            lineNumber: 176,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 175,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 157,
+                columnNumber: 6
             }, this)
         ]
     }, void 0, true);
@@ -61663,7 +62172,7 @@ $RefreshReg$(_c, "Skills");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/photoshop.svg":"hxB0T","../../assets/illustrator.svg":"34TSB","../../assets/premierePro.svg":"4nsTu","../../assets/afterEffects.svg":"jkIhe","../../assets/indesign.svg":"3iW5a"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "html.18dc761f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6fudE":[function(require,module,exports) {
@@ -61683,6 +62192,21 @@ module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "php.41
 
 },{"./helpers/bundle-url":"lgJ39"}],"gIRGv":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "python.44ea2d8e.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"hxB0T":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "photoshop.5a33cc91.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"34TSB":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "illustrator.9842a99d.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"4nsTu":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "premierePro.c9a6dc88.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"jkIhe":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "afterEffects.24e8613d.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"3iW5a":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "indesign.2cdffbad.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 

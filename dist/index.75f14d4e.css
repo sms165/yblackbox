@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
 *, :before, :after {
   box-sizing: border-box;
 }
@@ -630,6 +631,10 @@ img {
   transform: rotateX(-180deg)translateZ(50px);
 }
 
+p, h1, h2, h3, h4 {
+  font-family: Raleway, sans-serif;
+}
+
 .aboutComp {
   color: #fff;
   width: 30vw;
@@ -710,7 +715,8 @@ h2 {
   color: var(--pink-highlighter) !important;
 }
 
-.skillsComp, .detail {
+.skillsComp {
+  flex-direction: column;
   display: flex;
 }
 
@@ -720,15 +726,35 @@ h2 {
   height: 400px;
   background-color: #bebbbb1a;
   border-radius: 10%;
+  flex-basis: 30%;
   margin-top: 3vw;
   margin-right: 10vw;
+  padding-bottom: 200px;
   position: relative;
+  overflow: hidden;
 }
 
-.textDetail {
+.textDetail, .graphicDesignTextDetail, .etcTextDetail {
   color: #fff;
-  flex-direction: row;
   padding: 20px;
+}
+
+.skillsEtc, .skillsProgramming, .skillsGraphic {
+  display: flex;
+}
+
+.text {
+  height: 30vh;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.skillName:hover {
+  color: var(--pink-highlighter);
+  cursor: pointer;
 }
 
 .imageDetail {
@@ -738,15 +764,21 @@ h2 {
 }
 
 .skills {
-  width: 400px;
+  width: 600px;
   color: #fff;
+  flex-basis: 50%;
   margin: 20px auto;
+  padding-left: 200px;
   text-decoration: none;
   list-style: none;
 }
 
 .skills li {
   margin: 20px 0;
+}
+
+.skillsHeader {
+  margin: auto;
 }
 
 .bar {
@@ -756,6 +788,7 @@ h2 {
   border: 1px solid #0000004d;
   border-radius: 3px;
   display: block;
+  overflow: hidden;
 }
 
 .bar span {
@@ -766,37 +799,37 @@ h2 {
 
 .html.visible {
   width: 95%;
-  animation: html 30s;
+  animation: html 20s;
 }
 
 .css.visible {
   width: 90%;
-  animation: css 30s;
+  animation: css 20s;
 }
 
 .php.visible {
   width: 80%;
-  animation: php 30s;
+  animation: php 20s;
 }
 
 .javascript.visible {
   width: 90%;
-  animation: javascript 30s;
+  animation: javascript 20s;
 }
 
 .csharp.visible {
   width: 30%;
-  animation: csharp 30s;
+  animation: csharp 20s;
 }
 
 .java.visible {
   width: 40%;
-  animation: java 30s;
+  animation: java 20s;
 }
 
 .python.visible {
   width: 50%;
-  animation: python 30s;
+  animation: python 20s;
 }
 
 @keyframes html {
@@ -866,6 +899,81 @@ h2 {
 
   100% {
     width: 50%;
+  }
+}
+
+.premierePro.visible {
+  width: 50%;
+  animation: premierePro 20s;
+}
+
+.afterEffects.visible {
+  width: 40%;
+  animation: afterEffects 20s;
+}
+
+.photoshop.visible {
+  width: 70%;
+  animation: photoshop 20s;
+}
+
+.illustrator.visible {
+  width: 80%;
+  animation: illustrator 20s;
+}
+
+.indesign.visible {
+  width: 80%;
+  animation: indesign 20s;
+}
+
+@keyframes afterEffects {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
+@keyframes premierePro {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes illustrator {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes indesign {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
   }
 }
 

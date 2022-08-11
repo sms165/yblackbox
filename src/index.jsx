@@ -36,6 +36,7 @@ const App = () => {
 //  console.log(target);
   const observer = new IntersectionObserver(function(entries,observer){
     const entry = entries[0];
+    // programming skills
     let html = document.getElementById('html');
     let csharp = document.getElementById('csharp');
     let css = document.getElementById('css');
@@ -51,6 +52,21 @@ const App = () => {
      java.classList.add('visible');
      javascript.classList.add('visible');
      python.classList.add('visible');
+     
+     // graphic design skills
+    let afterEffects = document.getElementById('afterEffects');
+    let premierePro = document.getElementById('premierePro');
+    let illustrator = document.getElementById('illustrator');
+    let indesign = document.getElementById('indesign');
+    let photoshop = document.getElementById('photoshop');
+    console.log(afterEffects)
+    afterEffects.classList.add('visible');
+    premierePro.classList.add('visible');
+    illustrator.classList.add('visible');
+    indesign.classList.add('visible');
+    photoshop.classList.add('visible');
+
+
   },options);
 
   const currentTarget = skillsRef.current;
