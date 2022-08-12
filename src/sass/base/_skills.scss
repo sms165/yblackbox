@@ -299,3 +299,78 @@
     }
     
 }
+
+// etc skills
+.docker.visible{
+    width:40%;
+    animation: docker 20s;
+}
+
+.microsoft.visible{
+    width:70%;
+    animation: microsoft 20s;
+}
+
+.git.visible{
+    width:70%;
+    animation: git 20s;
+}
+
+.mongodb.visible{
+    width:60%;
+    animation: mongodb 20s;
+}
+
+.phpMyAdmin.visible{
+    width:60%;
+    animation: phpMyAdmin 20s;
+}
+
+
+@keyframes docker {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+    
+}
+
+@keyframes microsoft {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+    
+}
+@keyframes git {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+    
+}
+@keyframes mongodb {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+    
+}
+@keyframes phpMyAdmin {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+    
+}
+

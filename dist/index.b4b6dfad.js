@@ -2976,6 +2976,17 @@ const App = ()=>{
         illustrator.classList.add("visible");
         indesign.classList.add("visible");
         photoshop.classList.add("visible");
+        // etc skills
+        let docker = document.getElementById("docker");
+        let git = document.getElementById("git");
+        let microsoft = document.getElementById("microsoft");
+        let mongodb = document.getElementById("mongodb");
+        let phpMyAdmin = document.getElementById("phpMyAdmin");
+        docker.classList.add("visible");
+        git.classList.add("visible");
+        microsoft.classList.add("visible");
+        mongodb.classList.add("visible");
+        phpMyAdmin.classList.add("visible");
     }, options);
     const currentTarget = skillsRef.current;
     if (currentTarget) observer.observe(currentTarget);
@@ -3019,14 +3030,14 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 113,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 111,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3047,17 +3058,17 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 128,
+                            lineNumber: 139,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 127,
+                        lineNumber: 138,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 118,
+                    lineNumber: 129,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3073,12 +3084,12 @@ const App = ()=>{
                     },
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 137,
+                        lineNumber: 148,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 133,
+                    lineNumber: 144,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3096,25 +3107,25 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 153,
+                            lineNumber: 164,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 155,
+                                lineNumber: 166,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 154,
+                            lineNumber: 165,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 141,
+                    lineNumber: 152,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3134,23 +3145,23 @@ const App = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 169,
+                                lineNumber: 180,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 170,
+                                lineNumber: 181,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/index.jsx",
-                        lineNumber: 168,
+                        lineNumber: 179,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 161,
+                    lineNumber: 172,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3164,17 +3175,17 @@ const App = ()=>{
                         className: "deckComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 182,
+                            lineNumber: 193,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 181,
+                        lineNumber: 192,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 175,
+                    lineNumber: 186,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3186,23 +3197,23 @@ const App = ()=>{
                         ref: skillsRef,
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 192,
+                            lineNumber: 203,
                             columnNumber: 12
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 191,
+                        lineNumber: 202,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 186,
+                    lineNumber: 197,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 108,
+            lineNumber: 119,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3215,12 +3226,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 205,
+        lineNumber: 216,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 204,
+    lineNumber: 215,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -35710,16 +35721,16 @@ function Sidenav() {
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: (0, _codeSvgDefault.default),
-                alt: "skills"
+                src: (0, _portfolioSvgDefault.default),
+                alt: "portfolio"
             }, void 0, false, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
                 lineNumber: 31,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: (0, _portfolioSvgDefault.default),
-                alt: "portfolio"
+                src: (0, _codeSvgDefault.default),
+                alt: "skills"
             }, void 0, false, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
                 lineNumber: 32,
@@ -61378,6 +61389,17 @@ var _afterEffectsSvg = require("../../assets/afterEffects.svg");
 var _afterEffectsSvgDefault = parcelHelpers.interopDefault(_afterEffectsSvg);
 var _indesignSvg = require("../../assets/indesign.svg");
 var _indesignSvgDefault = parcelHelpers.interopDefault(_indesignSvg);
+// etc
+var _dockerSvg = require("../../assets/docker.svg");
+var _dockerSvgDefault = parcelHelpers.interopDefault(_dockerSvg);
+var _gitSvg = require("../../assets/git.svg");
+var _gitSvgDefault = parcelHelpers.interopDefault(_gitSvg);
+var _phpMyAdminSvg = require("../../assets/phpMyAdmin.svg");
+var _phpMyAdminSvgDefault = parcelHelpers.interopDefault(_phpMyAdminSvg);
+var _microsoftSvg = require("../../assets/microsoft.svg");
+var _microsoftSvgDefault = parcelHelpers.interopDefault(_microsoftSvg);
+var _mongodbSvg = require("../../assets/mongodb.svg");
+var _mongodbSvgDefault = parcelHelpers.interopDefault(_mongodbSvg);
 var _s = $RefreshSig$();
 function Skills() {
     _s();
@@ -61435,6 +61457,28 @@ function Skills() {
                 break;
         }
     };
+    const etcSkills = (language)=>{
+        let detail = document.getElementById("etcTextDetail");
+        switch(language){
+            case "docker":
+                detail.innerHTML = '<div class="detail"><h1>Docker</h1><img class="imageDetail" src="' + (0, _dockerSvgDefault.default) + '"  /></div><div class="text"><br /><p>Docker allows developers to easily deploy an application in a sandbox, using Os-level virtualization.</p><br /><p>First experience was during my internship at abas Software.</p><p>Used in combination with the Shopware CMS</div>';
+                break;
+            case "git":
+                detail.innerHTML = '<div class="detail"><h1>Git</h1><img class="imageDetail" src="' + (0, _gitSvgDefault.default) + '"  /></div><div class="text"><br /><p>Git is a free and open source version control system.</p><br /><p>Ongoing usage to uplad and keep track of completed and ongoing projects.</p><br /><a href="https://github.com/sms165" target=\u201D_blank\u201D >Personal github</a></div>';
+                break;
+            case "microsoft":
+                detail.innerHTML = '<div class="detail"><h1>Microsoft Office</h1><img class="imageDetail" src="' + (0, _microsoftSvgDefault.default) + '"  /></div><div class="text"><br /><p>Microsoft Office is a family of client softwarem server software, and services developed by Microsoft.</p><br /<br /><p>Software Experience: Excel, OneDrive, Outlook, PowerPoint, Teams, Word, Yammer</p></div>';
+                break;
+            case "mongodb":
+                detail.innerHTML = '<div class="detail"><h1>MongoDB</h1><img class="imageDetail" src="' + (0, _mongodbSvgDefault.default) + '"  /></div><div class="text"><br /><p>MongoDB is a NoSQL database program.</p><br /><p>First experience was in CareerFoundry bootcamp, and continued learning.</p><br /><p>Used with: AWS </p></div>';
+                break;
+            case "phpMyAdmin":
+                detail.innerHTML = '<div class="detail"><h1>PHP MyAdmin</h1><img class="imageDetail" src="' + (0, _phpMyAdminSvgDefault.default) + '"  /></div><div class="text"><br /><p>PHP MyAdmin is an open source administration tool for MySQL.</p><br /><p>First experience was during my internship at abas Software.</p><br /><p>Used with: Shopware CMS</p></div>';
+                break;
+            default:
+                break;
+        }
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -61442,7 +61486,7 @@ function Skills() {
                 children: "Programming Skills"
             }, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 91,
+                lineNumber: 125,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -61459,7 +61503,7 @@ function Skills() {
                                         children: "C#"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 130,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61469,18 +61513,18 @@ function Skills() {
                                             id: "csharp"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 96,
+                                            lineNumber: 130,
                                             columnNumber: 114
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 130,
                                         columnNumber: 92
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 95,
+                                lineNumber: 129,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61491,7 +61535,7 @@ function Skills() {
                                         children: "CSS"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 99,
+                                        lineNumber: 133,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61501,18 +61545,18 @@ function Skills() {
                                             id: "css"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 99,
+                                            lineNumber: 133,
                                             columnNumber: 106
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 99,
+                                        lineNumber: 133,
                                         columnNumber: 84
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 98,
+                                lineNumber: 132,
                                 columnNumber: 10
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61523,7 +61567,7 @@ function Skills() {
                                         children: "HTML"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 136,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61533,18 +61577,18 @@ function Skills() {
                                             id: "html"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 102,
+                                            lineNumber: 136,
                                             columnNumber: 108
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 136,
                                         columnNumber: 86
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 101,
+                                lineNumber: 135,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61555,7 +61599,7 @@ function Skills() {
                                         children: "Java"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 105,
+                                        lineNumber: 139,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61565,18 +61609,18 @@ function Skills() {
                                             id: "java"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 139,
                                             columnNumber: 108
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 105,
+                                        lineNumber: 139,
                                         columnNumber: 86
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 104,
+                                lineNumber: 138,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61587,7 +61631,7 @@ function Skills() {
                                         children: "JavaScript"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 108,
+                                        lineNumber: 142,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61597,18 +61641,18 @@ function Skills() {
                                             id: "javascript"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 142,
                                             columnNumber: 120
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 108,
+                                        lineNumber: 142,
                                         columnNumber: 98
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 107,
+                                lineNumber: 141,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61619,7 +61663,7 @@ function Skills() {
                                         children: "PHP"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 111,
+                                        lineNumber: 145,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61629,18 +61673,18 @@ function Skills() {
                                             id: "php"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 111,
+                                            lineNumber: 145,
                                             columnNumber: 106
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 111,
+                                        lineNumber: 145,
                                         columnNumber: 84
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 110,
+                                lineNumber: 144,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61651,7 +61695,7 @@ function Skills() {
                                         children: "Python"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 114,
+                                        lineNumber: 148,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61661,24 +61705,24 @@ function Skills() {
                                             id: "python"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 114,
+                                            lineNumber: 148,
                                             columnNumber: 112
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 114,
+                                        lineNumber: 148,
                                         columnNumber: 90
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 113,
+                                lineNumber: 147,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 94,
+                        lineNumber: 128,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -61691,38 +61735,38 @@ function Skills() {
                                 children: "Click on a Programming Language to learn more !"
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 119,
+                                lineNumber: 153,
                                 columnNumber: 12
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 118,
+                            lineNumber: 152,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 117,
+                        lineNumber: 151,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 92,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 124,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 125,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "src/components/skills/Skills.jsx",
                 lineNumber: 126,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 158,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 159,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 160,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -61730,7 +61774,7 @@ function Skills() {
                 children: "Graphic Design Skills"
             }, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 127,
+                lineNumber: 161,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -61747,7 +61791,7 @@ function Skills() {
                                         children: "AfterEffects"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 131,
+                                        lineNumber: 165,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61757,18 +61801,18 @@ function Skills() {
                                             id: "afterEffects"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 131,
+                                            lineNumber: 165,
                                             columnNumber: 125
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 131,
+                                        lineNumber: 165,
                                         columnNumber: 103
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 130,
+                                lineNumber: 164,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61779,7 +61823,7 @@ function Skills() {
                                         children: "Illustrator"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 134,
+                                        lineNumber: 168,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61789,18 +61833,18 @@ function Skills() {
                                             id: "illustrator"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 134,
+                                            lineNumber: 168,
                                             columnNumber: 124
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 134,
+                                        lineNumber: 168,
                                         columnNumber: 102
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 133,
+                                lineNumber: 167,
                                 columnNumber: 10
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61811,7 +61855,7 @@ function Skills() {
                                         children: "InDesign"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 137,
+                                        lineNumber: 171,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61821,18 +61865,18 @@ function Skills() {
                                             id: "indesign"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 137,
+                                            lineNumber: 171,
                                             columnNumber: 118
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 137,
+                                        lineNumber: 171,
                                         columnNumber: 96
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 136,
+                                lineNumber: 170,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61843,7 +61887,7 @@ function Skills() {
                                         children: "Photoshop"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 140,
+                                        lineNumber: 174,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61853,18 +61897,18 @@ function Skills() {
                                             id: "photoshop"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 140,
+                                            lineNumber: 174,
                                             columnNumber: 120
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 140,
+                                        lineNumber: 174,
                                         columnNumber: 98
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 139,
+                                lineNumber: 173,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -61875,7 +61919,7 @@ function Skills() {
                                         children: "PremierePro"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 143,
+                                        lineNumber: 177,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -61885,24 +61929,24 @@ function Skills() {
                                             id: "premierePro"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 143,
+                                            lineNumber: 177,
                                             columnNumber: 124
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 143,
+                                        lineNumber: 177,
                                         columnNumber: 102
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 142,
+                                lineNumber: 176,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 129,
+                        lineNumber: 163,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -61915,38 +61959,43 @@ function Skills() {
                                 children: "Click on a Software name to learn more !"
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 148,
+                                lineNumber: 182,
                                 columnNumber: 12
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 147,
+                            lineNumber: 181,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 146,
+                        lineNumber: 180,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 128,
+                lineNumber: 162,
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 153,
+                lineNumber: 187,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 154,
+                lineNumber: 188,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 155,
+                lineNumber: 189,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 190,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -61954,7 +62003,7 @@ function Skills() {
                 children: "Other Computer Skills"
             }, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 156,
+                lineNumber: 191,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -61967,128 +62016,32 @@ function Skills() {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         className: "skillName",
-                                        onClick: ()=>etcSkills("phpMyAdmin"),
-                                        children: "PHP MyAdmin"
-                                    }, void 0, false, {
-                                        fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 160,
-                                        columnNumber: 8
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bar",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "phpMyAdmin",
-                                            id: "phpMyAdmin"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 160,
-                                            columnNumber: 112
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 160,
-                                        columnNumber: 90
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 159,
-                                columnNumber: 5
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        className: "skillName",
-                                        onClick: ()=>etcSkills("mongodb"),
-                                        children: "MongoDB"
-                                    }, void 0, false, {
-                                        fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 163,
-                                        columnNumber: 9
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bar",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "mongodb",
-                                            id: "mongodb"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 163,
-                                            columnNumber: 106
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 163,
-                                        columnNumber: 84
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 162,
-                                columnNumber: 10
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        className: "skillName",
-                                        onClick: ()=>etcSkills("microsoft"),
-                                        children: "Microsoft Office"
-                                    }, void 0, false, {
-                                        fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 166,
-                                        columnNumber: 9
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bar",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "microsoft",
-                                            id: "microsoft"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 166,
-                                            columnNumber: 117
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 166,
-                                        columnNumber: 95
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 165,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        className: "skillName",
                                         onClick: ()=>etcSkills("docker"),
                                         children: "Docker"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 169,
+                                        lineNumber: 195,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "bar",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "photoshop",
-                                            id: "photoshop"
+                                            className: "docker",
+                                            id: "docker"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 169,
+                                            lineNumber: 195,
                                             columnNumber: 104
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 169,
+                                        lineNumber: 195,
                                         columnNumber: 82
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 168,
+                                lineNumber: 194,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -62099,7 +62052,7 @@ function Skills() {
                                         children: "Git"
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 172,
+                                        lineNumber: 198,
                                         columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -62109,24 +62062,120 @@ function Skills() {
                                             id: "git"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 172,
+                                            lineNumber: 198,
                                             columnNumber: 98
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/skills/Skills.jsx",
-                                        lineNumber: 172,
+                                        lineNumber: 198,
                                         columnNumber: 76
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 171,
+                                lineNumber: 197,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("microsoft"),
+                                        children: "Microsoft Office"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 201,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "microsoft",
+                                            id: "microsoft"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 201,
+                                            columnNumber: 117
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 201,
+                                        columnNumber: 95
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 200,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("mongodb"),
+                                        children: "MongoDB"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 204,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "mongodb",
+                                            id: "mongodb"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 204,
+                                            columnNumber: 106
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 204,
+                                        columnNumber: 84
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 203,
+                                columnNumber: 10
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "skillName",
+                                        onClick: ()=>etcSkills("phpMyAdmin"),
+                                        children: "PHP MyAdmin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 208,
+                                        columnNumber: 8
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bar",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "phpMyAdmin",
+                                            id: "phpMyAdmin"
+                                        }, void 0, false, {
+                                            fileName: "src/components/skills/Skills.jsx",
+                                            lineNumber: 208,
+                                            columnNumber: 112
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 208,
+                                        columnNumber: 90
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 207,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 158,
+                        lineNumber: 193,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -62139,23 +62188,23 @@ function Skills() {
                                 children: "Click on name to learn more !"
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 177,
+                                lineNumber: 214,
                                 columnNumber: 12
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 176,
+                            lineNumber: 213,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/skills/Skills.jsx",
-                        lineNumber: 175,
+                        lineNumber: 212,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/skills/Skills.jsx",
-                lineNumber: 157,
+                lineNumber: 192,
                 columnNumber: 6
             }, this)
         ]
@@ -62172,7 +62221,7 @@ $RefreshReg$(_c, "Skills");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/photoshop.svg":"hxB0T","../../assets/illustrator.svg":"34TSB","../../assets/premierePro.svg":"4nsTu","../../assets/afterEffects.svg":"jkIhe","../../assets/indesign.svg":"3iW5a"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/photoshop.svg":"hxB0T","../../assets/illustrator.svg":"34TSB","../../assets/premierePro.svg":"4nsTu","../../assets/afterEffects.svg":"jkIhe","../../assets/indesign.svg":"3iW5a","../../assets/docker.svg":"kKrTC","../../assets/git.svg":"1Z1oN","../../assets/phpMyAdmin.svg":"jOaGu","../../assets/mongodb.svg":"6rO54","../../assets/microsoft.svg":"9CfWl"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "html.18dc761f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6fudE":[function(require,module,exports) {
@@ -62207,6 +62256,21 @@ module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "afterE
 
 },{"./helpers/bundle-url":"lgJ39"}],"3iW5a":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "indesign.2cdffbad.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"kKrTC":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "docker.59b8fa1f.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"1Z1oN":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "git.6ec0125e.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"jOaGu":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "phpMyAdmin.2d7a48fb.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"6rO54":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "mongodb.a32eafb3.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"9CfWl":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "microsoft.e1d58455.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 

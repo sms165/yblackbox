@@ -18,6 +18,14 @@ import premiereProSvg from "../../assets/premierePro.svg";
 import afterEffectsSvg from "../../assets/afterEffects.svg";
 import indesignSvg from "../../assets/indesign.svg";
 
+// etc
+import dockerSvg from "../../assets/docker.svg";
+import gitSvg from "../../assets/git.svg";
+import phpMyAdminSvg from "../../assets/phpMyAdmin.svg";
+import microsoftSvg from "../../assets/microsoft.svg";
+import mongodbSvg from "../../assets/mongodb.svg";
+
+
 function Skills() {
 
     useEffect(() => {
@@ -78,6 +86,32 @@ function Skills() {
             detail.innerHTML='<div class="detail"><h1>Premiere Pro</h1><img class="imageDetail" src="' + premiereProSvg + '"  /></div><div class="text"><br /><p>Premiere Pro is a video editing software.</p><br /><p>First experience was in High School.</p><br /><p>Projects: Various videos in high school</p></div>';             
             break;
         default:
+            break;
+       }
+           
+    }
+
+
+    const etcSkills = (language) =>{
+        let detail= document.getElementById('etcTextDetail');
+       switch (language) {
+        case 'docker':
+            detail.innerHTML='<div class="detail"><h1>Docker</h1><img class="imageDetail" src="' + dockerSvg + '"  /></div><div class="text"><br /><p>Docker allows developers to easily deploy an application in a sandbox, using Os-level virtualization.</p><br /><p>First experience was during my internship at abas Software.</p><p>Used in combination with the Shopware CMS</div>';   
+            break;
+        case 'git':
+            detail.innerHTML='<div class="detail"><h1>Git</h1><img class="imageDetail" src="' + gitSvg + '"  /></div><div class="text"><br /><p>Git is a free and open source version control system.</p><br /><p>Ongoing usage to uplad and keep track of completed and ongoing projects.</p><br /><a href="https://github.com/sms165" target=”_blank” >Personal github</a></div>';   
+            break;
+        case 'microsoft':
+            detail.innerHTML='<div class="detail"><h1>Microsoft Office</h1><img class="imageDetail" src="' + microsoftSvg + '"  /></div><div class="text"><br /><p>Microsoft Office is a family of client softwarem server software, and services developed by Microsoft.</p><br /<br /><p>Software Experience: Excel, OneDrive, Outlook, PowerPoint, Teams, Word, Yammer</p></div>';           
+            break;
+        case 'mongodb':
+            detail.innerHTML='<div class="detail"><h1>MongoDB</h1><img class="imageDetail" src="' + mongodbSvg + '"  /></div><div class="text"><br /><p>MongoDB is a NoSQL database program.</p><br /><p>First experience was in CareerFoundry bootcamp, and continued learning.</p><br /><p>Used with: AWS </p></div>';            
+            break;
+        case 'phpMyAdmin':
+            detail.innerHTML='<div class="detail"><h1>PHP MyAdmin</h1><img class="imageDetail" src="' + phpMyAdminSvg + '"  /></div><div class="text"><br /><p>PHP MyAdmin is an open source administration tool for MySQL.</p><br /><p>First experience was during my internship at abas Software.</p><br /><p>Used with: Shopware CMS</p></div>';             
+            break;
+        default:
+
             break;
        }
            
@@ -153,24 +187,27 @@ function Skills() {
     <br />
     <br />
     <br />
+    <br />
     <h2 className='skillsHeader'>Other Computer Skills</h2>
      <div className="skillsEtc">
         <div className="skills">
-    <li>
-       <h3 className='skillName' onClick={() => etcSkills('phpMyAdmin')}>PHP MyAdmin</h3><span className="bar"><span className="phpMyAdmin" id='phpMyAdmin'></span></span>
-        </li>
-         <li>
-        <h3 className='skillName' onClick={() => etcSkills('mongodb')}>MongoDB</h3><span className="bar"><span className="mongodb" id="mongodb"></span></span>
-        </li>
-        <li>     
-        <h3 className='skillName' onClick={() => etcSkills('microsoft')}>Microsoft Office</h3><span className="bar"><span className="microsoft" id='microsoft'></span></span>
-        </li>
         <li>
-        <h3 className='skillName' onClick={() => etcSkills('docker')}>Docker</h3><span className="bar"><span className="photoshop" id='photoshop'></span></span>
+        <h3 className='skillName' onClick={() => etcSkills('docker')}>Docker</h3><span className="bar"><span className="docker" id='docker'></span></span>
         </li>
         <li>
         <h3 className='skillName' onClick={() => etcSkills('git')}>Git</h3><span className="bar"><span className="git" id='git'></span></span>
         </li>
+        <li>     
+        <h3 className='skillName' onClick={() => etcSkills('microsoft')}>Microsoft Office</h3><span className="bar"><span className="microsoft" id='microsoft'></span></span>
+        </li>
+         <li>
+        <h3 className='skillName' onClick={() => etcSkills('mongodb')}>MongoDB</h3><span className="bar"><span className="mongodb" id="mongodb"></span></span>
+        </li>
+        
+        <li>
+       <h3 className='skillName' onClick={() => etcSkills('phpMyAdmin')}>PHP MyAdmin</h3><span className="bar"><span className="phpMyAdmin" id='phpMyAdmin'></span></span>
+        </li>
+        
     </div>
     <div className="skillDetail" id='skillDetail'>
         <div className="etcTextDetail" id='etcTextDetail'>

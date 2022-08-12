@@ -28,8 +28,8 @@ export default function Sidenav() {
       <div className="sideNavigation ">
         <img src={logo} alt="logo" />
      <img src={user} alt="user" />
-     <img src={code} alt="skills" />
      <img src={portfolio} alt="portfolio" />
+     <img src={code} alt="skills" />
      <img src={education} alt="education" />
      <img src={mail} alt="mail" />
     

@@ -66,6 +66,17 @@ const App = () => {
     indesign.classList.add('visible');
     photoshop.classList.add('visible');
 
+    // etc skills
+    let docker = document.getElementById('docker');
+    let git = document.getElementById('git');
+    let microsoft = document.getElementById('microsoft');
+    let mongodb = document.getElementById('mongodb');
+    let phpMyAdmin = document.getElementById('phpMyAdmin');
+    docker.classList.add('visible');
+    git.classList.add('visible');
+    microsoft.classList.add('visible');
+    mongodb.classList.add('visible');
+    phpMyAdmin.classList.add('visible');
 
   },options);
 
