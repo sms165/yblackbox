@@ -2931,6 +2931,8 @@ var _logo = require("./components/logo/Logo");
 var _logoDefault = parcelHelpers.interopDefault(_logo);
 var _skills = require("./components/skills/Skills");
 var _skillsDefault = parcelHelpers.interopDefault(_skills);
+var _education = require("./components/education/Education");
+var _educationDefault = parcelHelpers.interopDefault(_education);
 var _s = $RefreshSig$();
 const App = ()=>{
     _s();
@@ -3016,7 +3018,7 @@ const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.Parallax), {
             ref: parallax,
-            pages: 5,
+            pages: 6,
             style: {
                 top: "0",
                 left: "0"
@@ -3030,14 +3032,14 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 124,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 122,
+                    lineNumber: 123,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3058,38 +3060,44 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 139,
+                            lineNumber: 140,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 138,
+                        lineNumber: 139,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 129,
+                    lineNumber: 130,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "yblackbox",
                     sticky: {
-                        start: 1,
+                        start: 0,
                         end: 5
                     },
                     style: {
                         width: "10vw",
-                        float: "left",
-                        height: "10vh"
+                        float: "left"
                     },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "logoComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 150,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 148,
+                        lineNumber: 149,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 144,
+                    lineNumber: 145,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3107,25 +3115,25 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 164,
+                            lineNumber: 167,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 166,
+                                lineNumber: 169,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 165,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 152,
+                    lineNumber: 155,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3145,23 +3153,23 @@ const App = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 180,
+                                lineNumber: 183,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 181,
+                                lineNumber: 184,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/index.jsx",
-                        lineNumber: 179,
+                        lineNumber: 182,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 172,
+                    lineNumber: 175,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3175,17 +3183,17 @@ const App = ()=>{
                         className: "deckComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 193,
+                            lineNumber: 196,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 192,
+                        lineNumber: 195,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 186,
+                    lineNumber: 189,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3197,23 +3205,44 @@ const App = ()=>{
                         ref: skillsRef,
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 203,
+                            lineNumber: 206,
                             columnNumber: 12
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 202,
+                        lineNumber: 205,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 197,
+                    lineNumber: 200,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    offset: 3.5,
+                    // style={{ width: "50vw", float: "right" }}
+                    speed: 0.2,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "educationComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 215,
+                            columnNumber: 12
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 214,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 209,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 119,
+            lineNumber: 120,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3226,12 +3255,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 216,
+        lineNumber: 228,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 215,
+    lineNumber: 227,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -3242,7 +3271,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","./components/logo/Logo":"dorWe","./components/skills/Skills":"lcd2F","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","./components/logo/Logo":"dorWe","./components/skills/Skills":"lcd2F","./components/education/Education":"bxfyI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -35705,6 +35734,7 @@ function Sidenav() {
         className: "sideNavigation ",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "imgSideNave",
                 src: (0, _logo2SvgDefault.default),
                 alt: "logo"
             }, void 0, false, {
@@ -35713,6 +35743,7 @@ function Sidenav() {
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "imgSmall",
                 src: (0, _userSvgDefault.default),
                 alt: "user"
             }, void 0, false, {
@@ -35721,6 +35752,7 @@ function Sidenav() {
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "imgSmall",
                 src: (0, _portfolioSvgDefault.default),
                 alt: "portfolio"
             }, void 0, false, {
@@ -35729,6 +35761,7 @@ function Sidenav() {
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "imgSmall",
                 src: (0, _codeSvgDefault.default),
                 alt: "skills"
             }, void 0, false, {
@@ -35737,6 +35770,7 @@ function Sidenav() {
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "imgSmall",
                 src: (0, _educationSvgDefault.default),
                 alt: "education"
             }, void 0, false, {
@@ -35745,6 +35779,7 @@ function Sidenav() {
                 columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "imgSmall",
                 src: (0, _mailSvgDefault.default),
                 alt: "mail"
             }, void 0, false, {
@@ -61324,6 +61359,7 @@ function Logo() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "logo",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            className: "logoImg",
             src: (0, _ySvgDefault.default),
             alt: "logo"
         }, void 0, false, {
@@ -62221,7 +62257,7 @@ $RefreshReg$(_c, "Skills");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets/photoshop.svg":"hxB0T","../../assets/illustrator.svg":"34TSB","../../assets/premierePro.svg":"4nsTu","../../assets/afterEffects.svg":"jkIhe","../../assets/indesign.svg":"3iW5a","../../assets/docker.svg":"kKrTC","../../assets/git.svg":"1Z1oN","../../assets/phpMyAdmin.svg":"jOaGu","../../assets/mongodb.svg":"6rO54","../../assets/microsoft.svg":"9CfWl"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv","../../assets/photoshop.svg":"hxB0T","../../assets/illustrator.svg":"34TSB","../../assets/premierePro.svg":"4nsTu","../../assets/afterEffects.svg":"jkIhe","../../assets/indesign.svg":"3iW5a","../../assets/docker.svg":"kKrTC","../../assets/git.svg":"1Z1oN","../../assets/phpMyAdmin.svg":"jOaGu","../../assets/microsoft.svg":"9CfWl","../../assets/mongodb.svg":"6rO54","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "html.18dc761f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6fudE":[function(require,module,exports) {
@@ -62266,11 +62302,87 @@ module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "git.6e
 },{"./helpers/bundle-url":"lgJ39"}],"jOaGu":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "phpMyAdmin.2d7a48fb.svg" + "?" + Date.now();
 
+},{"./helpers/bundle-url":"lgJ39"}],"9CfWl":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "microsoft.e1d58455.svg" + "?" + Date.now();
+
 },{"./helpers/bundle-url":"lgJ39"}],"6rO54":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "mongodb.a32eafb3.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"9CfWl":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "microsoft.e1d58455.svg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"bxfyI":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$41a4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$41a4.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleScss = require("../../sass/style.scss");
+var _uopeopleTextSvg = require("../../assets/uopeople-text.svg");
+var _uopeopleTextSvgDefault = parcelHelpers.interopDefault(_uopeopleTextSvg);
+var _lutzSvg = require("../../assets/lutz.svg");
+var _lutzSvgDefault = parcelHelpers.interopDefault(_lutzSvg);
+var _careerFoundrySvg = require("../../assets/careerFoundry.svg");
+var _careerFoundrySvgDefault = parcelHelpers.interopDefault(_careerFoundrySvg);
+function Projects() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "edu",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "uopeopleImg",
+                src: (0, _uopeopleTextSvgDefault.default),
+                alt: "uopeople logo"
+            }, void 0, false, {
+                fileName: "src/components/education/Education.jsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "lutzImg",
+                src: (0, _lutzSvgDefault.default),
+                alt: "lutz grub logo"
+            }, void 0, false, {
+                fileName: "src/components/education/Education.jsx",
+                lineNumber: 13,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "cfImg",
+                src: (0, _careerFoundrySvgDefault.default),
+                alt: "careerFoundry logo"
+            }, void 0, false, {
+                fileName: "src/components/education/Education.jsx",
+                lineNumber: 14,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/education/Education.jsx",
+        lineNumber: 11,
+        columnNumber: 4
+    }, this);
+}
+exports.default = Projects;
+_c = Projects;
+var _c;
+$RefreshReg$(_c, "Projects");
+
+  $parcel$ReactRefreshHelpers$41a4.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/uopeople-text.svg":"f8qAh","../../assets/lutz.svg":"1I1fy","../../assets/careerFoundry.svg":"7x02p","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"f8qAh":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "uopeople-text.c41c69e3.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"1I1fy":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "lutz.7c8fed5a.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"7x02p":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "careerFoundry.b20af5e4.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 

@@ -555,7 +555,7 @@ body {
   left: 5vw;
 }
 
-img {
+.imgSmall {
   width: 8vw;
   height: 8vh;
 }
@@ -720,6 +720,14 @@ h2 {
   color: var(--pink-highlighter) !important;
 }
 
+.logoComp {
+  margin-top: 2vh;
+}
+
+.logoImg {
+  height: 10vh;
+}
+
 .skillsComp {
   flex-direction: column;
   display: flex;
@@ -763,6 +771,8 @@ h2 {
 }
 
 .imageDetail {
+  width: 8vw;
+  height: 8vh;
   position: absolute;
   top: 20px;
   right: 10px;
@@ -1055,6 +1065,18 @@ h2 {
   100% {
     width: 60%;
   }
+}
+
+.educationComp {
+  color: #fff;
+  float: right;
+  margin-top: 20vh;
+  margin-right: 5vw;
+  display: block;
+}
+
+.uopeopleImg {
+  width: 50vw;
 }
 
 /*# sourceMappingURL=index.75f14d4e.css.map */

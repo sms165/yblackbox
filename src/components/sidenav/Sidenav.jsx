@@ -26,12 +26,12 @@ export default function Sidenav() {
   return (
     
       <div className="sideNavigation ">
-        <img src={logo} alt="logo" />
-     <img src={user} alt="user" />
-     <img src={portfolio} alt="portfolio" />
-     <img src={code} alt="skills" />
-     <img src={education} alt="education" />
-     <img src={mail} alt="mail" />
+        <img className="imgSideNave"  src={logo} alt="logo" />
+     <img className="imgSmall" src={user} alt="user" />
+     <img className="imgSmall"  src={portfolio} alt="portfolio" />
+     <img className="imgSmall"  src={code} alt="skills" />
+     <img className="imgSmall"  src={education} alt="education" />
+     <img className="imgSmall"  src={mail} alt="mail" />
     
    
    

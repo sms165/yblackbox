@@ -6,7 +6,7 @@ import logo from "../../assets/y.svg";
 export default function Logo() {
   return (
     <div className='logo'>
-         <img src={logo} alt="logo" />
+         <img className='logoImg' src={logo} alt="logo" />
     </div>
   )
 }

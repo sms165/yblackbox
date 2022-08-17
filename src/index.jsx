@@ -17,6 +17,7 @@ import Deck from "./components/deck/Deck";
 import Projects from "./components/projects/Projects";
 import Logo from "./components/logo/Logo";
 import Skills from "./components/skills/Skills";
+import Education from "./components/education/Education"
 
 const App = () => {
   const [scroll, setScroll] = useState(0);
@@ -116,7 +117,7 @@ const App = () => {
   }
   return (
     <>
-      <Parallax ref={parallax} pages={5} style={{ top: "0", left: "0" }}>
+      <Parallax ref={parallax} pages={6} style={{ top: "0", left: "0" }}>
 
         {/* background */}
         <ParallaxLayer offset={0} speed={0} factor={10}>
@@ -142,10 +143,12 @@ const App = () => {
 
         {/* yblackbox logo  */}
         <ParallaxLayer className="yblackbox"
-        sticky={{start:1, end:5}}
-        style={{ width: "10vw", float: "left", height:"10vh" }}
+        sticky={{start:0, end:5}}
+        style={{ width: "10vw", float: "left" }}
         >
+          <div className="logoComp">
           <Logo />
+          </div>
         </ParallaxLayer>
 
         {/* top cube animation / navigation */}
@@ -201,6 +204,15 @@ const App = () => {
         >
           <div className="skillsComp"  ref={skillsRef}>
            <Skills />
+           </div>
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={3.5}
+          // style={{ width: "50vw", float: "right" }}
+          speed={0.2}
+        >
+          <div className="educationComp"  >
+           <Education />
            </div>
         </ParallaxLayer>
       </Parallax>
