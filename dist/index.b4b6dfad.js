@@ -2933,23 +2933,41 @@ var _skills = require("./components/skills/Skills");
 var _skillsDefault = parcelHelpers.interopDefault(_skills);
 var _education = require("./components/education/Education");
 var _educationDefault = parcelHelpers.interopDefault(_education);
+var _contact = require("./components/contact/Contact");
+var _contactDefault = parcelHelpers.interopDefault(_contact);
+var _certificate = require("./components/certificate/Certificate");
+var _certificateDefault = parcelHelpers.interopDefault(_certificate);
 var _s = $RefreshSig$();
 const App = ()=>{
     _s();
     const [scroll, setScroll] = (0, _react.useState)(0);
     const parallax = (0, _react.useRef)(null);
     const [isVisible, setIsVisible] = (0, _react.useState)(false);
-    const skillsRef = (0, _react.useRef)(null);
-    // console.log(document.getElementById('body'))
-    // const target= document.getElementById('skillsComp');
-    const options = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 1
-    };
-    //  console.log(target);
-    const observer = new IntersectionObserver(function(entries, observer) {
-        const entry = entries[0];
+    (0, _react.useEffect)(()=>{
+        const getScroll = (e)=>{
+            setScroll(e.target.scrollTop);
+        };
+        const container = parallax.current.container.current;
+        container.addEventListener("scroll", getScroll);
+        return ()=>{
+        // if(currentTarget){
+        //   observer.unobserve(currentTarget);
+        // }
+        };
+    }, []);
+    // navbar visible starting at page 2
+    if (scroll > 320) {
+        //console.log(document.getElementById("iconsNav"));
+        const nav = document.getElementById("iconsNav");
+        nav.classList.add("active");
+        nav.classList.remove("reveal");
+    } else if (scroll < 320 && scroll > 50) {
+        //console.log(document.getElementById("iconsNav"));
+        const nav = document.getElementById("iconsNav");
+        nav.classList.remove("active");
+        nav.classList.add("reveal");
+    }
+    if (scroll > 1202) {
         // programming skills
         let html = document.getElementById("html");
         let csharp = document.getElementById("csharp");
@@ -2989,31 +3007,41 @@ const App = ()=>{
         microsoft.classList.add("visible");
         mongodb.classList.add("visible");
         phpMyAdmin.classList.add("visible");
-    }, options);
-    const currentTarget = skillsRef.current;
-    if (currentTarget) observer.observe(currentTarget);
-    (0, _react.useEffect)(()=>{
-        const getScroll = (e)=>{
-            setScroll(e.target.scrollTop);
-        };
-        const container = parallax.current.container.current;
-        container.addEventListener("scroll", getScroll);
-        return ()=>{
-        // if(currentTarget){
-        //   observer.unobserve(currentTarget);
-        // }
-        };
-    }, []);
-    if (scroll > 320) {
-        //console.log(document.getElementById("iconsNav"));
-        const nav = document.getElementById("iconsNav");
-        nav.classList.add("active");
-        nav.classList.remove("reveal");
-    } else if (scroll < 320 && scroll > 50) {
-        //console.log(document.getElementById("iconsNav"));
-        const nav = document.getElementById("iconsNav");
-        nav.classList.remove("active");
-        nav.classList.add("reveal");
+    }
+    if (scroll > 1650) {
+        let uopeopleImg = document.getElementById("uopeopleImg");
+        let lutzImg = document.getElementById("lutzImg");
+        let cfImg = document.getElementById("cfImg");
+        console.log(uopeopleImg);
+        uopeopleImg.classList.add("visible");
+        lutzImg.classList.add("visible");
+        cfImg.classList.add("visible");
+    }
+    if (scroll > 2500) {
+        let maskC = document.getElementById("mask-c");
+        let maske = document.getElementById("mask-e");
+        let maskr = document.getElementById("mask-r");
+        let maskt = document.getElementById("mask-t");
+        let maski = document.getElementById("mask-i");
+        let maskf = document.getElementById("mask-f");
+        let maskit = document.getElementById("mask-it");
+        let maskct = document.getElementById("mask-ct");
+        let maska = document.getElementById("mask-a");
+        let masktt = document.getElementById("mask-tt");
+        let masket = document.getElementById("mask-et");
+        let masks = document.getElementById("mask-s");
+        maskC.classList.add("visible");
+        maske.classList.add("visible");
+        maskr.classList.add("visible");
+        maskt.classList.add("visible");
+        maski.classList.add("visible");
+        maskf.classList.add("visible");
+        maskit.classList.add("visible");
+        maskct.classList.add("visible");
+        maska.classList.add("visible");
+        masktt.classList.add("visible");
+        masket.classList.add("visible");
+        masks.classList.add("visible");
     }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.Parallax), {
@@ -3032,14 +3060,14 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 125,
+                            lineNumber: 145,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 123,
+                    lineNumber: 143,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3060,17 +3088,17 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 140,
+                            lineNumber: 160,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 139,
+                        lineNumber: 159,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 130,
+                    lineNumber: 150,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3087,17 +3115,17 @@ const App = ()=>{
                         className: "logoComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 150,
-                            columnNumber: 11
+                            lineNumber: 171,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 149,
+                        lineNumber: 170,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 145,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3115,61 +3143,48 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 167,
+                            lineNumber: 188,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 169,
+                                lineNumber: 190,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 168,
+                            lineNumber: 189,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 155,
+                    lineNumber: 176,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "layerOne",
                     offset: 1,
-                    speed: .5,
+                    speed: 0.5,
                     // sticky={{start:2, end:2}}
                     style: {},
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "aboutComp",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "I've scrolled ",
-                                    scroll,
-                                    " pixels"
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 183,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 184,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 205,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 182,
+                        lineNumber: 203,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 175,
+                    lineNumber: 196,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3183,17 +3198,17 @@ const App = ()=>{
                         className: "deckComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 196,
+                            lineNumber: 217,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 195,
+                        lineNumber: 216,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 189,
+                    lineNumber: 210,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3202,20 +3217,40 @@ const App = ()=>{
                     speed: 1.5,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "skillsComp",
-                        ref: skillsRef,
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 206,
-                            columnNumber: 12
+                            lineNumber: 229,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 205,
+                        lineNumber: 227,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 200,
+                    lineNumber: 221,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    offset: 3,
+                    // style={{ width: "50vw", float: "right" }}
+                    speed: 0.2,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "educationComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 239,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 238,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 232,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3223,31 +3258,52 @@ const App = ()=>{
                     // style={{ width: "50vw", float: "right" }}
                     speed: 0.2,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "educationComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+                        className: "certificationComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 215,
-                            columnNumber: 12
+                            lineNumber: 249,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 214,
+                        lineNumber: 248,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 209,
+                    lineNumber: 242,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    offset: 5,
+                    // style={{ width: "50vw", float: "right" }}
+                    speed: 1,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "contactComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 259,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 258,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 252,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 120,
+            lineNumber: 141,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
 };
-_s(App, "M0ajjPw1CiTwedA4FsCqALWyZ9Q=");
+_s(App, "1224TnRiPs4mV8DG6mFthFMK/ig=");
 _c = App;
 const rootElement = document.getElementById("root");
 const root = (0, _client.createRoot)(rootElement);
@@ -3255,12 +3311,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 228,
+        lineNumber: 272,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 227,
+    lineNumber: 271,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -3271,7 +3327,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","./components/logo/Logo":"dorWe","./components/skills/Skills":"lcd2F","./components/education/Education":"bxfyI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","react-dom/client":"lOjBx","./components/test/Test":"a57lq","./components/nav/Nav":"4znZA","./components/cube/Cube":"6hHkf","./components/background/Background":"aA3XZ","./components/sidenav/Sidenav":"clru1","./components/about/About":"gXaFa","./sass/style.scss":"fpeeO","@react-spring/parallax":"gIcUF","./assets/bg.jpg":"fdQBU","react-spring":"2gPbQ","./components/deck/Deck":"1ZiTE","./components/projects/Projects":"hj1ik","./components/logo/Logo":"dorWe","./components/skills/Skills":"lcd2F","./components/education/Education":"bxfyI","./components/contact/Contact":"fQ0Mm","./components/certificate/Certificate":"lIcVn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -61768,7 +61824,7 @@ function Skills() {
                             className: "textDetail",
                             id: "textDetail",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                children: "Click on a Programming Language to learn more !"
+                                children: "Click on a Programming Language to learn more!"
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
                                 lineNumber: 153,
@@ -61992,7 +62048,7 @@ function Skills() {
                             className: "graphicDesignTextDetail",
                             id: "graphicDesignTextDetail",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                children: "Click on a Software name to learn more !"
+                                children: "Click on a Software name to learn more!"
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
                                 lineNumber: 182,
@@ -62221,7 +62277,7 @@ function Skills() {
                             className: "etcTextDetail",
                             id: "etcTextDetail",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                children: "Click on name to learn more !"
+                                children: "Click on name to learn more!"
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
                                 lineNumber: 214,
@@ -62327,55 +62383,249 @@ var _lutzSvg = require("../../assets/lutz.svg");
 var _lutzSvgDefault = parcelHelpers.interopDefault(_lutzSvg);
 var _careerFoundrySvg = require("../../assets/careerFoundry.svg");
 var _careerFoundrySvgDefault = parcelHelpers.interopDefault(_careerFoundrySvg);
-function Projects() {
+var _certSvg = require("../../assets/cert.svg");
+var _certSvgDefault = parcelHelpers.interopDefault(_certSvg);
+var _s = $RefreshSig$();
+function Education() {
+    _s();
+    const [isVisible, setIsVisible] = (0, _react.useState)(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "edu",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "uopeopleImg",
-                src: (0, _uopeopleTextSvgDefault.default),
-                alt: "uopeople logo"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "edu",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        class: "uopeopleText anim-typewriter",
+                        children: "Bachelor | Computer Science | 2020 - 2023"
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 29,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "uopeopleImg",
+                        id: "uopeopleImg",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _uopeopleTextSvgDefault.default),
+                            alt: "uopeople logo"
+                        }, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 35,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 34,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "degreeCfText anim-typewriter-cf",
+                        children: "Bootcamp | Full-Stack Web Development | 2022"
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "cfImg",
+                        id: "cfImg",
+                        src: (0, _careerFoundrySvgDefault.default),
+                        alt: "careerFoundry logo"
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "degreeLutzText anim-typewriter-lutz",
+                        children: "IHK | Fachinformatiker - Anwendungsentwicklung | 2019 - 2021"
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "lutzImg",
+                        id: "lutzImg",
+                        src: (0, _lutzSvgDefault.default),
+                        alt: "lutz grub logo"
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 44,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 12,
-                columnNumber: 9
+                lineNumber: 26,
+                columnNumber: 4
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "lutzImg",
-                src: (0, _lutzSvgDefault.default),
-                alt: "lutz grub logo"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 13,
-                columnNumber: 9
+                lineNumber: 47,
+                columnNumber: 1
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "cfImg",
-                src: (0, _careerFoundrySvgDefault.default),
-                alt: "careerFoundry logo"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/education/Education.jsx",
+                lineNumber: 48,
+                columnNumber: 1
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "certBox",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "cert",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "adobe",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    children: "Adobe"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 54,
+                                    columnNumber: 5
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "Adobe Certified Expert in Photoshop"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 55,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "Adobe Certified Expert in InDesign"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 56,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "Adobe Certified Expert in PremierePro"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 57,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 53,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 59,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "web",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    children: "Web"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 61,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "SEO Search Engine Optimization"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 62,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "CIW Certified Internet Web Associate"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 63,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "CIW Certified Internet Web Professional"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "Microsoft JavaScript Certificate"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 65,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 60,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 67,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "proManag",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    children: "Project Management"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 69,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "ITIL Foundation IT Service Management"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 70,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "GPM Basis Certificate"
+                                }, void 0, false, {
+                                    fileName: "src/components/education/Education.jsx",
+                                    lineNumber: 71,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 68,
+                            columnNumber: 7
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/education/Education.jsx",
+                    lineNumber: 52,
+                    columnNumber: 4
+                }, this)
             }, void 0, false, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 14,
-                columnNumber: 9
+                lineNumber: 51,
+                columnNumber: 1
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/education/Education.jsx",
-        lineNumber: 11,
-        columnNumber: 4
+        lineNumber: 25,
+        columnNumber: 3
     }, this);
 }
-exports.default = Projects;
-_c = Projects;
+exports.default = Education;
+_s(Education, "QjDZesRvLCmcrZLxgN677nXnVLA=");
+_c = Education;
 var _c;
-$RefreshReg$(_c, "Projects");
+$RefreshReg$(_c, "Education");
 
   $parcel$ReactRefreshHelpers$41a4.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/uopeople-text.svg":"f8qAh","../../assets/lutz.svg":"1I1fy","../../assets/careerFoundry.svg":"7x02p","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"f8qAh":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/uopeople-text.svg":"f8qAh","../../assets/lutz.svg":"1I1fy","../../assets/careerFoundry.svg":"7x02p","../../assets/cert.svg":"ffAkN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"f8qAh":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "uopeople-text.c41c69e3.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"1I1fy":[function(require,module,exports) {
@@ -62384,6 +62634,586 @@ module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "lutz.7
 },{"./helpers/bundle-url":"lgJ39"}],"7x02p":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "careerFoundry.b20af5e4.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
+},{"./helpers/bundle-url":"lgJ39"}],"ffAkN":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "cert.4debd1a9.svg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"fQ0Mm":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5c69 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5c69.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleScss = require("../../sass/style.scss");
+function Contact() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "about"
+    }, void 0, false, {
+        fileName: "src/components/contact/Contact.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, this);
+}
+exports.default = Contact;
+_c = Contact;
+var _c;
+$RefreshReg$(_c, "Contact");
+
+  $parcel$ReactRefreshHelpers$5c69.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"lIcVn":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$fc58 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$fc58.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleScss = require("../../sass/style.scss");
+var _uopeopleTextSvg = require("../../assets/uopeople-text.svg");
+var _uopeopleTextSvgDefault = parcelHelpers.interopDefault(_uopeopleTextSvg);
+var _lutzSvg = require("../../assets/lutz.svg");
+var _lutzSvgDefault = parcelHelpers.interopDefault(_lutzSvg);
+var _careerFoundrySvg = require("../../assets/careerFoundry.svg");
+var _careerFoundrySvgDefault = parcelHelpers.interopDefault(_careerFoundrySvg);
+var _certSvg = require("../../assets/cert.svg");
+var _certSvgDefault = parcelHelpers.interopDefault(_certSvg);
+var _s = $RefreshSig$();
+function Certificates() {
+    _s();
+    const [isVisible, setIsVisible] = (0, _react.useState)(false);
+    const masks = [
+        "c",
+        "e",
+        "r",
+        "t",
+        "i",
+        "f",
+        "it",
+        "ct",
+        "a",
+        "tt",
+        "et",
+        "s", 
+    ];
+    (0, _react.useEffect)(()=>{
+        masks.forEach((mask, index, el)=>{
+            const id = `mask-${mask}`;
+            let path = document.getElementById(id);
+            console.log(path);
+        // const length = path.getTotalLength()
+        // path.style.strokeDasharray = length;
+        // path.style.strokeDashoffset = length;
+        });
+        return ()=>{
+        // if(currentTarget){
+        //   observer.unobserve(currentTarget);
+        // }
+        };
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+            id: "certSvg",
+            xmlns: "http://www.w3.org/2000/svg",
+            viewBox: "0 0 271.12 92.83",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("title", {
+                    children: "Certifications"
+                }, void 0, false, {
+                    fileName: "src/components/certificate/Certificate.jsx",
+                    lineNumber: 47,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("defs", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("style", {}, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 49,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "cert-mask",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-c",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-c",
+                                        d: "M59.76,116.6c-2.57-5.42-2.09-8.35-1.16-10,.82-1.47,2.18-2.35,2.77-4.8a5.87,5.87,0,0,0-4.06-7.56c-2.2-.72-4.37.14-7.19,1.66-4.43,2.4-7.66,4.23-12,8.85A58.47,58.47,0,0,0,27.62,121a75.81,75.81,0,0,0-5,14.39c-1.56,6.24-2.68,10.91-1.84,17a25.31,25.31,0,0,0,3.14,9.22c1.28,2.22,2.43,4.15,4.79,5.17a9.35,9.35,0,0,0,6.64,0c2.44-.85,4.36-3.29,8.11-8.12a114,114,0,0,0,7.38-10.69c.79-1.3,1.42-2.38,1.84-3.14"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 7
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 55,
+                                    columnNumber: 4
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-e",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-e",
+                                        d: "M46.62,154c6.53-11.64,10.19-13.9,12.35-13.64a12.79,12.79,0,0,0,2.22.18c.88,0,3-.17,6.63-2.21a23.56,23.56,0,0,0,7.2-5.9c2-2.54,3.66-4.57,3.32-7.2a5.45,5.45,0,0,0-3.14-4.42c-2.36-.87-4.9,1.44-6.82,3.13-3.72,3.28-5.36,7-7,10.7-1.19,2.68-.13,1-2.95,9.77-.5,1.55-.93,2.86-.37,4.24.93,2.28,3.86,3,4.61,3.14,2.23.45,4-.21,6.27-1.11A27.46,27.46,0,0,0,78.52,144c.9-.9,1.59-1.69,2-2.21"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 59,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 58,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-r",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-r",
+                                        d: "M65.8,151.56A83.48,83.48,0,0,0,78.52,144c3-2.13,4.45-3.2,5.59-4.5,3-3.37,3.35-6.08,8.06-16.15A25,25,0,0,1,93.83,120c.44.18-15.85,40.1-14.76,40.57.79.34,10.64-19.29,18.08-28.21.51-.62,0,0,8.66-9,2-2.13,3.12-3.27,3.53-3,.82.5-1,6.79-4.08,12.24-1,1.78-2,3.17-1.84,5.16a14.34,14.34,0,0,0,1.82,5h0"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 62,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 61,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-t",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-t",
+                                        d: "M129.79,102a232.1,232.1,0,0,0-12.17,24.34A86.27,86.27,0,0,0,113.19,139c-1.94,7.5-1.07,8.53-2,13.1a9.47,9.47,0,0,0,0,3.69c.21,1,.34,1.7.74,1.84,1,.36,3.06-2.89,6.45-8.67,3.89-6.62,5.85-9.93,5.9-10.32,1.6-10.79-20.31-20.89-18.44-24.72.5-1,2-.27,10.33-.73,7-.39,9.41-1.08,15.68-.93,2.52.07,4.57.24,5.9.37"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 65,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-i",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-i",
+                                        d: "M114.11,154.15c4.45-6,7.66-11.07,9.78-14.57l7.19-12c2.84-4.73,4.26-7.09,4.42-7,.5.27-7.74,23.58-12,30.06-.31.47-1.2,1.78-.74,2.77.61,1.31,3.45,1.79,5.15.72s1.92-3.27,2-4.41c1.16-11.24-2.55-30.13,2-32.64,1.83-1,4.07,1.12,6.09-.55a5.67,5.67,0,0,0,1.48-5.37,6,6,0,0,0-1.3-2.56"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 68,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 67,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-f",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-f",
+                                        d: "M125.92,152.33a175.75,175.75,0,0,1,12.17-13.12c2.08-2,5-4.9,9.22-8.48,5.47-4.68,6.82-5.24,9.77-8.49a87.72,87.72,0,0,0,6.45-8.85,72.16,72.16,0,0,0,6.27-10.33c3.33-6.93,2.56-8.86,2-9.68a3.89,3.89,0,0,0-3.24-1.92c-2.12.14-2.81,2.89-6.36,8.65-2.52,4.11-2.63,3.47-5.34,7.93-2,3.23-3.25,5.76-4.61,8.49-.91,1.79-2.82,5.61-4.62,10-1.72,4.18-3.14,9-5.9,18.63-6.13,21.3-1.44,8.1-4.05,17.52a18.08,18.08,0,0,0-.19,8.11c.63,2.95,1.65,3.74,2.22,4.06a4.17,4.17,0,0,0,3.87,0c.79-.44,1.89-1.46,2.76-9.77.53-5,.79-7.5.37-10.15a68.18,68.18,0,0,0-1.47-7.19c-.75-2.6-1.23-3.43-.74-4.42.75-1.53,2.5-.86,6.09-3a21.64,21.64,0,0,0,4.05-3.14,23.44,23.44,0,0,0,2.21-2.47"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 71,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 70,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-it",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-3 mask",
+                                        id: "mask-it",
+                                        d: "M146,144.56a75.64,75.64,0,0,0,10.58-9c3.22-3.33,6-6.83,7.3-8.5,2.44-3.1,4.9-6.51,5-6.46S160,138.07,156.53,146.4c-.53,1.28-1.63,4-.37,5.9a3.34,3.34,0,0,0,2.58,1.48c.77,0,1.71-.33,4.06-3.14a30.09,30.09,0,0,0,3.32-4.61c3.69-7.13-1.8-18.86,2.58-30.06a23.88,23.88,0,0,1,3.47-6"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 74,
+                                        columnNumber: 4
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 73,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-ct",
+                                    "data-name": "mask-c",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-3 mask",
+                                        id: "mask-ct",
+                                        d: "M161,152.3a67.41,67.41,0,0,0,8.67-11.43,38.44,38.44,0,0,1,2.12-3.38c1.86-2.64,2.64-3.05,5.26-6.21,1.88-2.28,2-2.66,4.24-5.35s3.14-3.42,4.24-3.87c.4-.17,3.62-1.45,5.35.18,1.35,1.28,1,3.58.92,3.88-.29,1.62-1.16,1.78-2,4.24a6.05,6.05,0,0,0-.55,2.95c.25,2,1.84,3,1.64,3.26-.47.64-8.31-6.42-12-4.37-1.08.6-.4,1.22-3.13,7.56a10.9,10.9,0,0,0-1.3,5.17,6.21,6.21,0,0,0,.74,2.95c1.4,2.4,4.32,2.85,5,3a8.13,8.13,0,0,0,5.72-1.29c2.26-1.64,1.23-3,3.76-5.11,1.37-1.12,2.42-1.31,4.54-3.19.63-.57,1.12-1.07,1.44-1.41"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 77,
+                                        columnNumber: 4
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 76,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-a",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-a",
+                                        d: "M185.66,149a31.44,31.44,0,0,0,9.61-8.06c1.7-2.18,2.19-3.49,4.78-6.51,1.19-1.38,1.4-1.48,5.9-5.9,4.85-4.76,5.53-5.56,7.37-6.27,1.26-.48,4.07-1.55,6.46-.18,2.18,1.25,2.86,3.89,3.13,5,.06.23.74,2.87.19,3.13-1.63.77-9.35-21.37-16-20.65-7.26.78-7,27.76-9.22,38.17a3.63,3.63,0,0,0,.37,2.95,3.42,3.42,0,0,0,3.88.74c1.5-.72,1.39-2.37,2.58-4.79.62-1.28.84-1.2,5.16-5.91a77.65,77.65,0,0,0,5.9-6.82c1.61-2.22,2.43-3.77,2.58-3.69.35.18-3.6,8.27-6.27,18.81-.26,1-.94,3.81-.36,4.06.73.32,2.66-3.84,7.19-8.48a42,42,0,0,1,3.87-3.51"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 80,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 79,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-tt",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-tt",
+                                        d: "M214.06,149.54a52.33,52.33,0,0,0,14-12.07,51.53,51.53,0,0,0,5.21-7.85c2.36-4.41,3.13-7.44,4.43-11.25a82.27,82.27,0,0,1,7.56-16.6c.1,0-14.47,40.94-18.26,51.82-.69,2-1.5,4.36-.76,4.86,1.15.78,6-3,8.32-8.18a19.59,19.59,0,0,0,1.48-5.16c1.41-12.13-16.4-26.29-13.46-31.17,1.07-1.78,4.27-1.26,12.54-.73,10,.64,18.19.71,23.76.67"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 83,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 82,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-et",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-et",
+                                        d: "M228.08,155.25c3.92-8.36,8.41-11.49,11.89-12.76,3-1.1,5.7-1,10.05-3.47a27.32,27.32,0,0,0,6.64-5.53c2.26-2.56,4.18-4.73,4.43-7.93,0-.22.32-4.75-1.95-5.85s-6.19,2.19-7.83,4c-1.95,2.17-1.79,3.26-5,8.3-2,3.12-2,2.69-2.86,4.21-2.66,4.86-3.85,12.42-.82,14.6,1.18.85,2.88.52,6.27-.14a22.35,22.35,0,0,0,8.85-3.55,26.37,26.37,0,0,0,5-4.61c.55-.68,1.27-1.65,2.58-3.14.9-1,1.67-1.84,2.2-2.38"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 86,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 85,
+                                    columnNumber: 3
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                    id: "mask-cert-s",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        class: "cls-2 mask",
+                                        id: "mask-s",
+                                        d: "M250.68,150.06c6.1-4.91,10.79-8.81,13.94-11.47,8-6.79,5.83-5.27,7.35-6.39a29.76,29.76,0,0,0,5.16-4.79c1.48-1.76,2.31-2.75,2-3.56-.65-1.69-6.12-2.2-8.18.24-1,1.2-.91,2.77-.83,4.24.87,14.53,0,12.68.93,17.15.95,4.65,1.68,5.66,2,9.77a21.68,21.68,0,0,1-.36,7.19c-.62,2.59-1.22,5.06-3.51,6.83a9.22,9.22,0,0,1-7.16,1.55c-1-.21-3.66-.74-4.83-2.84-1.39-2.52.18-5.7,1.3-7.93,1.59-3.2,3.42-5,5.9-7.56,8.47-8.75,8-9.37,13.83-14.57,2.57-2.31,4.8-4.11,6.36-5.33"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 89,
+                                        columnNumber: 5
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 88,
+                                    columnNumber: 3
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 53,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/certificate/Certificate.jsx",
+                    lineNumber: 48,
+                    columnNumber: 2
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                    id: "text",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "c",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-c)",
+                                id: "cert-char-c",
+                                class: "cls-1",
+                                d: "M65.14,97.17C58,88.58,46,92.11,39,99a70,70,0,0,0-21.3,40.54c-3.37,12.63,2.52,37.08,19.66,27.37,3.25-.72,29.85-37.39,21.37-33.9-4.49,7.1-20.63,36.33-29.89,31.52-12.78-21,6.09-62.18,29.47-67.66-1.37,4.41-3.17,9-2.91,13.63-.29,4.33,8.26,10.32,5.86,2.42C60.66,107.34,65.91,102.17,65.14,97.17Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 97,
+                                columnNumber: 5
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 96,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "e",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-e)",
+                                id: "cert-char-e",
+                                class: "cls-1",
+                                d: "M85.09,132.59c-1.53,7.85-28.74,30.6-22.64,9.8,34.93-14.06,8.71-41.38-6-5-6.4,23.41,17.29,17.08,26.13,4C84.05,140.24,90.77,129.15,85.09,132.59Zm-8.66-9.65c1,7.12-6.66,12.78-12.35,15.69l-.14-.14C66.8,132.68,70,125.34,76.43,122.94Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 100,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 99,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "r",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-r)",
+                                id: "cert-char-r",
+                                class: "cls-1",
+                                d: "M110.8,121.66c-1.56-2-4.49-3.1-5.65-.28-5,6.23-10.66,11.72-15.3,18.24,1-5.47,5.26-10.76,5.4-16.18-1-1.57-4-4.2-5.47-2a154.43,154.43,0,0,0-9.73,25.2c-.26,3.47-4.82,10.63-1.35,12.82,1.29.58,3,.87,3.48-.82,5.32-8.85,11.18-19.45,17.89-27.08.24-.26.48-.54.71-.82l.15.07c-1.48,4.06.25,13.8,6,11.54a1.24,1.24,0,0,0-.42-1.46c-1.41-2,.58-4.77.81-7C107.77,129.8,111.42,125.57,110.8,121.66Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 103,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 102,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "t",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-t)",
+                                id: "cert-char-t",
+                                class: "cls-1",
+                                d: "M129.18,109.73c.32-.74,2-3.22,1.81-4-.55-1.59-3.37-2.86-4.82-2.45-2.53,1.2-3,5.65-5.51,6.82-2.91.28-6.41.08-9.12,1-1.51,5.21,3.15,5.24,6.92,4.4-3.86,8.19-7.43,16.56-9.37,25.42-1.52,5.68-4.26,24.26,6.46,15.34,3.19-4,7.62-13,10.16-17.47.34-1.07,4.9-6.82,1.06-6-2.61.92-3.24,4.26-4.9,6.25-.4.36-7.4,12.58-7.88,12.07,2.1-12.66,7.4-24.38,12.64-36,5.15-1.39,11.7,2,16.12-.43C142.09,109.43,133.15,110.56,129.18,109.73Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 106,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 105,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "i",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-i)",
+                                    id: "cert-char-i",
+                                    class: "cls-1",
+                                    d: "M139.05,118.25c0-2.33,3.07-4.31,2.35-6.46-3.92-5.34-5.55-.73-6.39,3.41C134.53,117,138.08,120.55,139.05,118.25Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 109,
+                                    columnNumber: 4
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-i)",
+                                    id: "cert-char-i",
+                                    class: "cls-1",
+                                    d: "M141.18,133.66c-4.76,6.47-9.53,13-15.26,18.67,1.65-9.18,5.78-18.42,9.65-26.91.46-1.06.43-1.3-.35-2.13-6.5-7.6-16,24.07-14.13,28.62,1.66,6.26,8.44,2.37,10.51-1.57l11.93-16.54A6.1,6.1,0,0,0,144,133C142.8,131.62,142,132.58,141.18,133.66Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 110,
+                                    columnNumber: 4
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 108,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "f",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-f)",
+                                id: "cert-char-f",
+                                class: "cls-1",
+                                d: "M170.08,91.2c-12.51.66-28.69,40.88-32,52.47-15.69,51.9,22.59,38.62,8.94,1.28,1.68-1.3,18-12.86,10.8-12.36a75.35,75.35,0,0,1-12.22,10.16c1.66-10.49,11.19-16.09,16.69-24.57C165.89,112,177.67,97.36,170.08,91.2Zm-29.39,81.87c-1.51-8.47.88-16.75,3.05-24.86,0,0,.3-.12.35-.14C145.64,157,145,165.05,140.69,173.07Zm29.39-79.53c-.72,12.15-9.89,23.38-17.89,32C156.29,114,161.8,102.69,170.08,93.54Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 113,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 112,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "i2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-it)",
+                                    id: "cert-char-it",
+                                    class: "cls-1",
+                                    d: "M171.57,118.25c0-2.33,3.06-4.31,2.34-6.46-3.91-5.34-5.54-.73-6.39,3.41C167.05,117,170.6,120.55,171.57,118.25Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 116,
+                                    columnNumber: 4
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-it)",
+                                    id: "cert-char-it",
+                                    class: "cls-1",
+                                    d: "M173.7,133.66c-4.77,6.47-9.54,13-15.27,18.67,1.66-9.18,5.79-18.42,9.66-26.91.45-1.06.43-1.3-.36-2.13-6.49-7.6-16,24.07-14.13,28.62,1.67,6.26,8.44,2.38,10.51-1.57L176,133.8a6,6,0,0,0,.5-.85C175.32,131.62,174.5,132.58,173.7,133.66Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 117,
+                                    columnNumber: 4
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 115,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "ct",
+                            "data-name": "c",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-ct)",
+                                id: "cert-char-ct",
+                                class: "cls-1",
+                                d: "M201.17,132.66c-2.56-.91-9.84,11.92-14.19,13.71-18.17,12.08-8.43-19.27,1.77-22.15-1.1,3.94-3.3,10.7,2.06,12.35,1,.24,1.35-.12,1.06-1.06-.8-4.13,2.2-7.65,2.7-11.51-6.46-12.6-20.41,2.1-22.08,11-4.66,11.64,6.67,22.41,17,13.63C192.14,146.14,203.07,135.63,201.17,132.66Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 120,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 119,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "a",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-a)",
+                                id: "cert-char-a",
+                                class: "cls-1",
+                                d: "M230.85,132.24c-2.27,0-12.31,12-14.2,13.13l-.28-.14c.37-4.41,5.6-11.06,3.76-14.77-1.16-1.1-3.86-2.46-4.9-.63-5.12,6.5-9.71,13.49-15.76,19.24.32-9.54,9.66-26,20.41-24.82.58,1.2.53,4.45,2.74,4.16,2.62-1.18.69-5.18-1-6.54-6.2-6.62-15.08-.64-19.27,5.22-5.49,5.31-14.76,29.1-.25,26.09,1.68-1.43,6.33-7,7.88-8.59-.08,2.58-1.9,5.74.21,7.67,1.89,1.38,3.6,1.19,5.11-.57l3.41-4C219.74,145.48,234.3,132.37,230.85,132.24Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 123,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 122,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "t-2",
+                            "data-name": "t",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-tt)",
+                                id: "cert-char-tt",
+                                class: "cls-1",
+                                d: "M245.48,109.73c.31-.74,2-3.22,1.81-4-.56-1.59-3.37-2.86-4.83-2.45-2.52,1.19-3.05,5.65-5.5,6.82-2.92.28-6.41.08-9.13,1-1.51,5.21,3.16,5.24,6.93,4.4-3.86,8.19-7.43,16.56-9.37,25.42-1.53,5.68-4.27,24.26,6.46,15.34,3.18-4,7.61-13,10.15-17.47.34-1.07,4.9-6.82,1.06-6-2.61.92-3.24,4.26-4.9,6.25-.4.36-7.4,12.58-7.88,12.07,2.11-12.66,7.4-24.38,12.64-36,5.15-1.39,11.71,2,16.12-.43C258.38,109.43,249.44,110.56,245.48,109.73Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 126,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 125,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "e-2",
+                            "data-name": "e",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-et)",
+                                id: "cert-char-et",
+                                class: "cls-1",
+                                d: "M268.13,132.59c-1.54,7.85-28.75,30.6-22.65,9.8,34.93-14.06,8.72-41.38-6-5-6.4,23.41,17.29,17.08,26.13,4C267.08,140.24,273.8,129.15,268.13,132.59Zm-8.67-9.65c1,7.12-6.66,12.78-12.35,15.69l-.14-.14C249.83,132.68,253,125.34,259.46,122.94Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 129,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 128,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            id: "s",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                mask: "url(#mask-cert-s)",
+                                id: "cert-char-s",
+                                class: "cls-1",
+                                d: "M284.6,132.59c-2.26-1.72-9.45,7.28-11.5,8.45-.51-4.27.42-7.76,1.91-11.71.71,1.87,7.42,4.23,5.18,1-2.92-3.09,1.71-8.86-4.61-9.58-9.19,3.16-8.3,16.93-7.77,24.88-5.16,6.87-13.56,13.69-13.1,23.11,3.52,11.24,22.51,3.94,21.72-6.53,1.32-6.09-3.22-12.32-2-17.89C274.55,143.52,287.53,133,284.6,132.59Zm-23,38.34c-4.1-6.64,3.32-14.92,7.27-20.09C270,157.84,270.29,169.25,261.56,170.93Z"
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 132,
+                                columnNumber: 4
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/certificate/Certificate.jsx",
+                            lineNumber: 131,
+                            columnNumber: 3
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/certificate/Certificate.jsx",
+                    lineNumber: 95,
+                    columnNumber: 2
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/certificate/Certificate.jsx",
+            lineNumber: 46,
+            columnNumber: 1
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/certificate/Certificate.jsx",
+        lineNumber: 45,
+        columnNumber: 3
+    }, this);
+}
+exports.default = Certificates;
+_s(Certificates, "J3yJOyGdBT4L7hs1p1XQYVGMdrY=");
+_c = Certificates;
+var _c;
+$RefreshReg$(_c, "Certificates");
+
+  $parcel$ReactRefreshHelpers$fc58.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/uopeople-text.svg":"f8qAh","../../assets/lutz.svg":"1I1fy","../../assets/careerFoundry.svg":"7x02p","../../assets/cert.svg":"ffAkN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}]},["1xC6H","jVvJi","d8Dch"], "d8Dch", "parcelRequire3d36")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

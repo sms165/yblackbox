@@ -150,7 +150,7 @@ function Skills() {
     </div>
     <div className="skillDetail" id='skillDetail'>
         <div className="textDetail" id='textDetail'>
-           <h1>Click on a Programming Language to learn more !</h1> 
+           <h1>Click on a Programming Language to learn more!</h1> 
         </div>
         
     </div>
@@ -179,7 +179,7 @@ function Skills() {
     </div>
     <div className="skillDetail" id='skillDetail'>
         <div className="graphicDesignTextDetail" id='graphicDesignTextDetail'>
-           <h1>Click on a Software name to learn more !</h1> 
+           <h1>Click on a Software name to learn more!</h1> 
         </div>
         </div>
     </div>
@@ -211,7 +211,7 @@ function Skills() {
     </div>
     <div className="skillDetail" id='skillDetail'>
         <div className="etcTextDetail" id='etcTextDetail'>
-           <h1>Click on name to learn more !</h1> 
+           <h1>Click on name to learn more!</h1> 
         </div>
         </div>
     </div>

@@ -1,0 +1,90 @@
+ .certificationComp {
+  color: white;
+  // width: 30vw;
+  display: block;
+  margin-right: 20vw;
+  float: right;
+  margin-top: 75vh;
+}
+
+
+.mask {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+  
+  /* Animation the stroke-dashoffset to a zero length */
+  @keyframes strokeOffset {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  #mask-c.visible {
+    animation: strokeOffset 2s linear forwards 0s;
+  }
+  #mask-e.visible {
+    animation: strokeOffset 3s linear forwards .5s;
+  }
+  #mask-r.visible {
+    animation: strokeOffset 4s linear forwards 1s;
+  }
+  #mask-t.visible {
+    animation: strokeOffset 5s linear forwards 2s;
+  }
+  #mask-i.visible {
+    animation: strokeOffset 6s linear forwards 3s;
+  }
+  #mask-f.visible {
+    animation: strokeOffset 6s linear forwards 3.8s;
+  }
+  #mask-it.visible {
+    animation: strokeOffset 6s linear forwards 5s;
+  }
+  #mask-ct.visible {
+    animation: strokeOffset 6s linear forwards 6s;
+  }
+  #mask-a.visible {
+    animation: strokeOffset 6s linear forwards 6.5s;
+  }
+  #mask-tt.visible {
+    animation: strokeOffset 6s linear forwards 7.5s;
+  }
+  #mask-et.visible {
+    animation: strokeOffset 6s linear forwards 9s;
+  }
+  #mask-s.visible {
+    animation: strokeOffset 6s linear forwards 10s;
+  }
+  
+  .cls-1 {
+    fill: #f2ebf2;
+  }
+  .cls-2,
+  .cls-3 {
+    fill: none;
+    stroke-miterlimit: 10;
+  }
+  .cls-2 {
+    stroke: #e6007e;
+    stroke-width: 9px;
+  }
+  .cls-3 {
+    stroke: #1d1d1b;
+    stroke-width: 7px;
+  }
+  .mask {
+    fill: none;
+    stroke: #fff;
+  }
+  
+  #certSvg {
+    height: 30vh;
+    overflow: visible !important;
+  }
+  
+  #text {
+    top: 200px;
+    position: relative;
+  }
+  

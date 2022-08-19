@@ -1,13 +1,226 @@
 .educationComp{
-    color: white;
-    // width: 30vw;
-    display: block;
-    margin-right: 5vw;
-    float: right;
-    margin-top: 20vh;
-    
+  color: white;
+  // width: 30vw;
+  display: block;
+  margin-right: 5vw;
+  float: right;
+  margin-top: 20vh;
 }
 
-.uopeopleImg{
-    width: 50vw;
+p {
+  color: white;
+}
+
+.degreeUop {
+  
+  position: relative;
+  top: 230px;
+  right: -250px;
+}
+
+// .degreeUopDesc {
+//   top: -269px;
+//   position: relative;
+//   top: 155px;
+//   right: -20px;
+// }
+
+// .degreeUopYear {
+//   top: -269px;
+//   position: relative;
+//   top: 155px;
+//   right: -70px;
+// }
+
+.uopeopleImg {
+  width: 50vw;
+  // opacity: 0;
+  position: relative;
+  right: -82px;
+  top: 10px;
+}
+
+.uopeopleImg.visible {
+  animation: uopeople 9s;
+}
+
+@keyframes uopeople {
+  0% {
+    right: -500px;
+    opacity: 0;
+  }
+  100% {
+    right: -82px;
+    opacity: 1;
+  }
+}
+
+.degreeLutzText {
+  
+  position: relative;
+    top: 340px;
+    right: 150px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;  
+}
+
+/* Animation */
+.anim-typewriter-lutz{
+    animation: typewriter-lutz 4s steps(40) 1s 1 normal both,
+               blinkTextCursor-lutz 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter-lutz{
+    from{width: 0;}
+    to{width: 29em;}
+  }
+  @keyframes blinkTextCursor-lutz{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+
+// .degreeLutzDesc {
+//   top: -269px;
+//   position: relative;
+//   top: 304px;
+//   left: 90px;
+// }
+
+// .degreeLutzYear {
+//   top: -269px;
+//   position: relative;
+//   top: 305px;
+//   left: 90px;
+// }
+
+.lutzImg {
+  width: 50vw;
+  // opacity: 0;
+  position: relative;
+  right: 350px;
+  top: 130px;
+}
+
+.lutzImg.visible {
+  animation: lutz 9s;
+}
+
+@keyframes lutz {
+  0% {
+    right: -400px;
+    opacity: 0;
+  }
+  100% {
+    right: 350px;
+    opacity: 1;
+  }
+}
+
+.degreeCfText {
+  position: relative;
+  right: -20px;
+  top: 180px;
+  
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;  
+}
+
+
+/* Animation */
+.anim-typewriter-cf{
+    animation: typewriter-cf 4s steps(40) 1s 1 normal both,
+               blinkTextCursor-cf 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter-cf{
+    from{width: 0;}
+    to{width: 22.5em;}
+  }
+  @keyframes blinkTextCursor-cf{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+// .degreeCfDesc {
+//   position: relative;
+//   right: 260px;
+//   top: 140px;
+// }
+
+// .degreeCfYear {
+//   position: relative;
+//   right: 80px;
+//   top: 140px;
+// }
+
+.cfImg {
+  width: 40vw;
+  // opacity: 0;
+  position: relative;
+  right: 20px;
+  top: 70px;
+}
+
+.cfImg.visible {
+  animation: cf 9s;
+}
+
+@keyframes cf {
+  0% {
+    right: -400px;
+    opacity: 0;
+  }
+  100% {
+    right: 20px;
+    opacity: 1;
+  }
+}
+
+.certBox {
+  position: relative;
+  background-color: rgba(190, 187, 187, 0.1);
+  // opacity: .1;
+  border-radius: 10%;
+
+  width: 350px;
+
+  height: 500px;
+  margin-right: 10vw;
+  margin-top: 50vh;
+  overflow: hidden;
+  padding-bottom: 200px;
+  flex-basis: 30%;
+}
+
+.cert {
+  padding: 40px;
+  // position: relative;
+  // right: -200px;
+  // top: 180px;
+}
+
+
+
+.uopeopleText{
+    position: relative;
+    top: 230px;
+    right: -250px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;  
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 20em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
