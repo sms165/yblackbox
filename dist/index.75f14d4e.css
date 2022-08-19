@@ -814,37 +814,37 @@ h2 {
 
 .html.visible {
   width: 95%;
-  animation: html 20s;
+  animation: html 15s;
 }
 
 .css.visible {
   width: 90%;
-  animation: css 20s;
+  animation: css 15s;
 }
 
 .php.visible {
   width: 80%;
-  animation: php 20s;
+  animation: php 15s;
 }
 
 .javascript.visible {
   width: 90%;
-  animation: javascript 20s;
+  animation: javascript 15s;
 }
 
 .csharp.visible {
   width: 30%;
-  animation: csharp 20s;
+  animation: csharp 15s;
 }
 
 .java.visible {
   width: 40%;
-  animation: java 20s;
+  animation: java 15s;
 }
 
 .python.visible {
   width: 50%;
-  animation: python 20s;
+  animation: python 15s;
 }
 
 @keyframes html {
@@ -919,27 +919,27 @@ h2 {
 
 .premierePro.visible {
   width: 50%;
-  animation: premierePro 20s;
+  animation: premierePro 150s;
 }
 
 .afterEffects.visible {
   width: 40%;
-  animation: afterEffects 20s;
+  animation: afterEffects 15s;
 }
 
 .photoshop.visible {
   width: 70%;
-  animation: photoshop 20s;
+  animation: photoshop 15s;
 }
 
 .illustrator.visible {
   width: 80%;
-  animation: illustrator 20s;
+  animation: illustrator 15s;
 }
 
 .indesign.visible {
   width: 80%;
-  animation: indesign 20s;
+  animation: indesign 15s;
 }
 
 @keyframes afterEffects {
@@ -994,27 +994,27 @@ h2 {
 
 .docker.visible {
   width: 40%;
-  animation: docker 20s;
+  animation: docker 15s;
 }
 
 .microsoft.visible {
   width: 70%;
-  animation: microsoft 20s;
+  animation: microsoft 15s;
 }
 
 .git.visible {
   width: 70%;
-  animation: git 20s;
+  animation: git 15s;
 }
 
 .mongodb.visible {
   width: 60%;
-  animation: mongodb 20s;
+  animation: mongodb 15s;
 }
 
 .phpMyAdmin.visible {
   width: 60%;
-  animation: phpMyAdmin 20s;
+  animation: phpMyAdmin 15s;
 }
 
 @keyframes docker {
@@ -1088,21 +1088,25 @@ p {
 .uopeopleImg {
   width: 50vw;
   position: relative;
-  top: 10px;
+  top: 40px;
   right: -82px;
 }
 
 .uopeopleImg.visible {
+  width: 50vw;
   animation: uopeople 9s;
+  position: relative;
+  top: 40px;
+  right: -82px;
 }
 
 @keyframes uopeople {
-  0% {
+  from {
     opacity: 0;
     right: -500px;
   }
 
-  100% {
+  to {
     opacity: 1;
     right: -82px;
   }
@@ -1118,7 +1122,7 @@ p {
 }
 
 .anim-typewriter-lutz {
-  animation: typewriter-lutz 4s steps(40, end) 1s both, blinkTextCursor-lutz .5s steps(44, end) infinite;
+  animation: typewriter-lutz 10s steps(40, end) 9s both, blinkTextCursor-lutz .5s steps(44, end) infinite;
 }
 
 @keyframes typewriter-lutz {
@@ -1174,7 +1178,7 @@ p {
 }
 
 .anim-typewriter-cf {
-  animation: typewriter-cf 4s steps(40, end) 1s both, blinkTextCursor-cf .5s steps(44, end) infinite;
+  animation: typewriter-cf 10s steps(40, end) 9s both, blinkTextCursor-cf .5s steps(44, end) infinite;
 }
 
 @keyframes typewriter-cf {
@@ -1241,13 +1245,13 @@ p {
   white-space: nowrap;
   border-right: 2px solid #ffffffbf;
   position: relative;
-  top: 230px;
+  top: 245px;
   right: -250px;
   overflow: hidden;
 }
 
 .anim-typewriter {
-  animation: typewriter 4s steps(40, end) 1s both, blinkTextCursor .5s steps(44, end) infinite;
+  animation: typewriter 10s steps(40, end) 9s both, blinkTextCursor .5s steps(44, end) infinite;
 }
 
 @keyframes typewriter {
@@ -1273,7 +1277,7 @@ p {
 .certificationComp {
   color: #fff;
   float: right;
-  margin-top: 75vh;
+  margin-top: 78vh;
   margin-right: 20vw;
   display: block;
 }

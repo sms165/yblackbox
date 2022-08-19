@@ -26,22 +26,18 @@ export default function Education() {
    <div className="edu">
    
 
-    <p class="uopeopleText anim-typewriter">Bachelor | Computer Science | 2020 - 2023</p>
-    {/* <p className='degreeUopDesc'>Computer Science</p>
-    <p className='degreeUopYear'>2020 - 2023 </p> */}
-    
+    <p class="uopeopleText anim-typewriter" id='uopeopleText'>Bachelor | Computer Science | 2020 - 2023</p>
+  
+        <img id='uopeopleImg' className='uopeopleImg'  src={uopeople} alt="uopeople logo"  />
+       
+        <p className='degreeCfText anim-typewriter-cf' id='degreeCfText'>Bootcamp | Full-Stack Web Development | 2022</p>
+        <img  id='cfImg' src={cf} alt="careerFoundry logo"  />
 
-      <div className="uopeopleImg" id='uopeopleImg'>
-        <img  src={uopeople} alt="uopeople logo"  />
-        </div>
-        <p className='degreeCfText anim-typewriter-cf'>Bootcamp | Full-Stack Web Development | 2022</p>
-        {/* <p className='degreeCfDesc'>Full-Stack Web Development</p>
-        <p className='degreeCfYear'>2022</p> */}
-        <img className='cfImg' id='cfImg' src={cf} alt="careerFoundry logo"  />
-        <p className='degreeLutzText anim-typewriter-lutz'>IHK | Fachinformatiker - Anwendungsentwicklung | 2019 - 2021</p>
+
+        <p className='degreeLutzText anim-typewriter-lutz' id='degreeLutzText'>IHK | Fachinformatiker - Anwendungsentwicklung | 2019 - 2021</p>
         {/* <p className='degreeLutzDesc'> Fachinformatiker - Anwendungsentwicklung</p>
         <p className='degreeLutzYear'>2019 - 2021</p> */}
-        <img className='lutzImg' id='lutzImg' src={lutz} alt="lutz grub logo"  />
+        <img  id='lutzImg' src={lutz} alt="lutz grub logo"  />
    </div>
 
 <br/>

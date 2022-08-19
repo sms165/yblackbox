@@ -3008,15 +3008,31 @@ const App = ()=>{
         mongodb.classList.add("visible");
         phpMyAdmin.classList.add("visible");
     }
-    if (scroll > 1650) {
+    if (scroll > 1625) {
+        // education images
         let uopeopleImg = document.getElementById("uopeopleImg");
         let lutzImg = document.getElementById("lutzImg");
         let cfImg = document.getElementById("cfImg");
         console.log(uopeopleImg);
+        uopeopleImg.classList.add("uopeopleImg");
+        lutzImg.classList.add("lutzImg");
+        cfImg.classList.add("cfImg");
         uopeopleImg.classList.add("visible");
         lutzImg.classList.add("visible");
         cfImg.classList.add("visible");
     }
+    // if(scroll>3000){
+    //   //education typewriter text
+    //   let uopeopleText = document.getElementById("uopeopleText");
+    //   uopeopleText.classList.add("uopeopleText");
+    //   uopeopleText.classList.add("anim-typewriter");
+    //   let degreeCfText = document.getElementById("degreeCfText");
+    //   degreeCfText.classList.add("degreeCfText");
+    //   degreeCfText.classList.add("anim-typewriter-cf");
+    //   let degreeLutzText = document.getElementById("degreeLutzText");
+    //   degreeLutzText.classList.add("degreeLutzText");
+    //   degreeLutzText.classList.add("anim-typewriter-lutz");
+    // }
     if (scroll > 2500) {
         let maskC = document.getElementById("mask-c");
         let maske = document.getElementById("mask-e");
@@ -3060,14 +3076,14 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 145,
+                            lineNumber: 163,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 143,
+                    lineNumber: 161,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3088,17 +3104,17 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 160,
+                            lineNumber: 178,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 159,
+                        lineNumber: 177,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 150,
+                    lineNumber: 168,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3115,17 +3131,17 @@ const App = ()=>{
                         className: "logoComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 171,
+                            lineNumber: 189,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 170,
+                        lineNumber: 188,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 165,
+                    lineNumber: 183,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3143,25 +3159,25 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 188,
+                            lineNumber: 206,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 190,
+                                lineNumber: 208,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 189,
+                            lineNumber: 207,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 176,
+                    lineNumber: 194,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3174,17 +3190,17 @@ const App = ()=>{
                         className: "aboutComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 205,
+                            lineNumber: 223,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 203,
+                        lineNumber: 221,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 196,
+                    lineNumber: 214,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3198,17 +3214,17 @@ const App = ()=>{
                         className: "deckComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 217,
+                            lineNumber: 235,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 216,
+                        lineNumber: 234,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 210,
+                    lineNumber: 228,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3219,59 +3235,72 @@ const App = ()=>{
                         className: "skillsComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 229,
+                            lineNumber: 247,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 227,
+                        lineNumber: 245,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 221,
+                    lineNumber: 239,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 3,
                     // style={{ width: "50vw", float: "right" }}
-                    speed: 0.2,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "educationComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+                    speed: 0.5,
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: [
+                                "I've scrolled ",
+                                scroll,
+                                " pixels"
+                            ]
+                        }, void 0, true, {
                             fileName: "src/index.jsx",
-                            lineNumber: 239,
-                            columnNumber: 13
+                            lineNumber: 256,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "educationComp",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+                                fileName: "src/index.jsx",
+                                lineNumber: 258,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 257,
+                            columnNumber: 11
                         }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 238,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
+                    ]
+                }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 232,
+                    lineNumber: 250,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 3.5,
                     // style={{ width: "50vw", float: "right" }}
-                    speed: 0.2,
+                    speed: 0.5,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "certificationComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 249,
+                            lineNumber: 268,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 248,
+                        lineNumber: 267,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 242,
+                    lineNumber: 261,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3282,23 +3311,23 @@ const App = ()=>{
                         className: "contactComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 259,
+                            lineNumber: 278,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 258,
+                        lineNumber: 277,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 252,
+                    lineNumber: 271,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 141,
+            lineNumber: 159,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3311,12 +3340,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 272,
+        lineNumber: 291,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 271,
+    lineNumber: 290,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -62396,62 +62425,57 @@ function Education() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         class: "uopeopleText anim-typewriter",
+                        id: "uopeopleText",
                         children: "Bachelor | Computer Science | 2020 - 2023"
                     }, void 0, false, {
                         fileName: "src/components/education/Education.jsx",
                         lineNumber: 29,
                         columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "uopeopleImg",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         id: "uopeopleImg",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _uopeopleTextSvgDefault.default),
-                            alt: "uopeople logo"
-                        }, void 0, false, {
-                            fileName: "src/components/education/Education.jsx",
-                            lineNumber: 35,
-                            columnNumber: 9
-                        }, this)
+                        className: "uopeopleImg",
+                        src: (0, _uopeopleTextSvgDefault.default),
+                        alt: "uopeople logo"
                     }, void 0, false, {
                         fileName: "src/components/education/Education.jsx",
-                        lineNumber: 34,
-                        columnNumber: 7
+                        lineNumber: 31,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "degreeCfText anim-typewriter-cf",
+                        id: "degreeCfText",
                         children: "Bootcamp | Full-Stack Web Development | 2022"
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 33,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        id: "cfImg",
+                        src: (0, _careerFoundrySvgDefault.default),
+                        alt: "careerFoundry logo"
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 34,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "degreeLutzText anim-typewriter-lutz",
+                        id: "degreeLutzText",
+                        children: "IHK | Fachinformatiker - Anwendungsentwicklung | 2019 - 2021"
                     }, void 0, false, {
                         fileName: "src/components/education/Education.jsx",
                         lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "cfImg",
-                        id: "cfImg",
-                        src: (0, _careerFoundrySvgDefault.default),
-                        alt: "careerFoundry logo"
-                    }, void 0, false, {
-                        fileName: "src/components/education/Education.jsx",
-                        lineNumber: 40,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "degreeLutzText anim-typewriter-lutz",
-                        children: "IHK | Fachinformatiker - Anwendungsentwicklung | 2019 - 2021"
-                    }, void 0, false, {
-                        fileName: "src/components/education/Education.jsx",
-                        lineNumber: 41,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "lutzImg",
                         id: "lutzImg",
                         src: (0, _lutzSvgDefault.default),
                         alt: "lutz grub logo"
                     }, void 0, false, {
                         fileName: "src/components/education/Education.jsx",
-                        lineNumber: 44,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, this)
                 ]
@@ -62462,12 +62486,12 @@ function Education() {
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 47,
+                lineNumber: 43,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 48,
+                lineNumber: 44,
                 columnNumber: 1
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -62482,39 +62506,39 @@ function Education() {
                                     children: "Adobe"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 54,
+                                    lineNumber: 50,
                                     columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Adobe Certified Expert in Photoshop"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 55,
+                                    lineNumber: 51,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Adobe Certified Expert in InDesign"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 52,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Adobe Certified Expert in PremierePro"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 53,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/education/Education.jsx",
-                            lineNumber: 53,
+                            lineNumber: 49,
                             columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/components/education/Education.jsx",
-                            lineNumber: 59,
+                            lineNumber: 55,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -62524,46 +62548,46 @@ function Education() {
                                     children: "Web"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 61,
+                                    lineNumber: 57,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "SEO Search Engine Optimization"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 62,
+                                    lineNumber: 58,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "CIW Certified Internet Web Associate"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 63,
+                                    lineNumber: 59,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "CIW Certified Internet Web Professional"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 64,
+                                    lineNumber: 60,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "Microsoft JavaScript Certificate"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 65,
+                                    lineNumber: 61,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/education/Education.jsx",
-                            lineNumber: 60,
+                            lineNumber: 56,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/components/education/Education.jsx",
-                            lineNumber: 67,
+                            lineNumber: 63,
                             columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -62573,38 +62597,38 @@ function Education() {
                                     children: "Project Management"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 69,
+                                    lineNumber: 65,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "ITIL Foundation IT Service Management"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 70,
+                                    lineNumber: 66,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "GPM Basis Certificate"
                                 }, void 0, false, {
                                     fileName: "src/components/education/Education.jsx",
-                                    lineNumber: 71,
+                                    lineNumber: 67,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/education/Education.jsx",
-                            lineNumber: 68,
+                            lineNumber: 64,
                             columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/education/Education.jsx",
-                    lineNumber: 52,
+                    lineNumber: 48,
                     columnNumber: 4
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 51,
+                lineNumber: 47,
                 columnNumber: 1
             }, this)
         ]

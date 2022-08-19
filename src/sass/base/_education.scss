@@ -34,22 +34,31 @@ p {
 
 .uopeopleImg {
   width: 50vw;
-  // opacity: 0;
+  
   position: relative;
   right: -82px;
-  top: 10px;
+  top: 40px;
 }
 
+
+
+
 .uopeopleImg.visible {
-  animation: uopeople 9s;
+    width: 50vw;
+    right: -82px;
+    top: 40px;
+  position: relative;
+    animation-fill-mode: both;  
+  animation:  uopeople 9s ;
+  
 }
 
 @keyframes uopeople {
-  0% {
+    from {
     right: -500px;
     opacity: 0;
   }
-  100% {
+  to {
     right: -82px;
     opacity: 1;
   }
@@ -67,8 +76,8 @@ p {
 
 /* Animation */
 .anim-typewriter-lutz{
-    animation: typewriter-lutz 4s steps(40) 1s 1 normal both,
-               blinkTextCursor-lutz 500ms steps(44) infinite normal;
+    animation: typewriter-lutz 10s steps(40) 9s 1 normal both,
+               blinkTextCursor-lutz 500ms steps(44)  infinite normal;
   }
   @keyframes typewriter-lutz{
     from{width: 0;}
@@ -130,7 +139,7 @@ p {
 
 /* Animation */
 .anim-typewriter-cf{
-    animation: typewriter-cf 4s steps(40) 1s 1 normal both,
+    animation: typewriter-cf 10s steps(40) 9s 1 normal both,
                blinkTextCursor-cf 500ms steps(44) infinite normal;
   }
   @keyframes typewriter-cf{
@@ -204,7 +213,7 @@ p {
 
 .uopeopleText{
     position: relative;
-    top: 230px;
+    top: 245px;
     right: -250px;
     border-right: 2px solid rgba(255,255,255,.75);
     white-space: nowrap;
@@ -213,7 +222,7 @@ p {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(40) 1s 1 normal both,
+  animation: typewriter 10s steps(40) 9s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{

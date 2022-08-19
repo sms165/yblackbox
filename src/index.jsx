@@ -99,15 +99,33 @@ const App = () => {
      phpMyAdmin.classList.add("visible");
   }
 
-  if(scroll>1650){
+  if(scroll>1625){
+
+    // education images
     let uopeopleImg = document.getElementById("uopeopleImg");
     let lutzImg = document.getElementById("lutzImg");
     let cfImg = document.getElementById("cfImg");
     console.log(uopeopleImg)
+    uopeopleImg.classList.add("uopeopleImg");
+    lutzImg.classList.add("lutzImg");
+    cfImg.classList.add("cfImg");
     uopeopleImg.classList.add("visible");
     lutzImg.classList.add("visible");
     cfImg.classList.add("visible");
   }
+  // if(scroll>3000){
+  //   //education typewriter text
+  //   let uopeopleText = document.getElementById("uopeopleText");
+  //   uopeopleText.classList.add("uopeopleText");
+  //   uopeopleText.classList.add("anim-typewriter");
+  //   let degreeCfText = document.getElementById("degreeCfText");
+  //   degreeCfText.classList.add("degreeCfText");
+  //   degreeCfText.classList.add("anim-typewriter-cf");
+  //   let degreeLutzText = document.getElementById("degreeLutzText");
+  //   degreeLutzText.classList.add("degreeLutzText");
+  //   degreeLutzText.classList.add("anim-typewriter-lutz");
+
+  // }
 
   if (scroll > 2500) {
     let maskC = document.getElementById("mask-c");
@@ -232,9 +250,10 @@ const App = () => {
         <ParallaxLayer
           offset={3}
           // style={{ width: "50vw", float: "right" }}
-          speed={0.2}
+          speed={0.5}
         >
-          {/* <p>I've scrolled {scroll} pixels</p> */}
+          
+          <p>I've scrolled {scroll} pixels</p>
           <div className="educationComp" >
             <Education />
           </div>
@@ -242,7 +261,7 @@ const App = () => {
         <ParallaxLayer
           offset={3.5}
           // style={{ width: "50vw", float: "right" }}
-          speed={0.2}
+          speed={0.5}
         >
          
           <div className="certificationComp" >
