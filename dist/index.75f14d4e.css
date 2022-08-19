@@ -83,10 +83,6 @@ body {
   position: absolute;
 }
 
-.liNav > * {
-  animation: hold-position 30s linear infinite reverse;
-}
-
 .liNav:hover {
   border: solid 3px var(--pink-highlighter);
 }
@@ -388,6 +384,26 @@ body {
     opacity: 1;
     transform: rotate(300deg)translate(15rem)scale(1);
   }
+}
+
+#projects {
+  position: fixed;
+  top: 200px;
+}
+
+#degrees {
+  position: fixed;
+  top: -260px;
+}
+
+#contact {
+  position: fixed;
+  top: 4150px;
+}
+
+#certificates {
+  position: fixed;
+  top: -30px;
 }
 
 .container {
@@ -1067,6 +1083,11 @@ h2 {
   }
 }
 
+#skills {
+  position: fixed;
+  top: -1350px;
+}
+
 .educationComp {
   color: #fff;
   float: right;
@@ -1088,16 +1109,16 @@ p {
 .uopeopleImg {
   width: 50vw;
   position: relative;
-  top: 40px;
+  top: 10px;
   right: -82px;
 }
 
 .uopeopleImg.visible {
-  width: 50vw;
+  width: 40vw;
   animation: uopeople 9s;
   position: relative;
-  top: 40px;
-  right: -82px;
+  top: 10px;
+  right: -50px;
 }
 
 @keyframes uopeople {
@@ -1108,7 +1129,40 @@ p {
 
   to {
     opacity: 1;
-    right: -82px;
+    right: -50px;
+  }
+}
+
+.uopeopleText {
+  white-space: nowrap;
+  border-right: 2px solid #ffffffbf;
+  position: relative;
+  top: 200px;
+  right: -180px;
+  overflow: hidden;
+}
+
+.anim-typewriter {
+  animation: typewriter 10s steps(40, end) 9s both, blinkTextCursor .5s steps(44, end) infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 20em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #ffffffbf;
+  }
+
+  to {
+    border-right-color: #0000;
   }
 }
 
@@ -1116,7 +1170,7 @@ p {
   white-space: nowrap;
   border-right: 2px solid #ffffffbf;
   position: relative;
-  top: 340px;
+  top: 310px;
   right: 150px;
   overflow: hidden;
 }
@@ -1146,7 +1200,7 @@ p {
 }
 
 .lutzImg {
-  width: 50vw;
+  width: 40vw;
   position: relative;
   top: 130px;
   right: 350px;
@@ -1241,43 +1295,10 @@ p {
   padding: 40px;
 }
 
-.uopeopleText {
-  white-space: nowrap;
-  border-right: 2px solid #ffffffbf;
-  position: relative;
-  top: 245px;
-  right: -250px;
-  overflow: hidden;
-}
-
-.anim-typewriter {
-  animation: typewriter 10s steps(40, end) 9s both, blinkTextCursor .5s steps(44, end) infinite;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 20em;
-  }
-}
-
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: #ffffffbf;
-  }
-
-  to {
-    border-right-color: #0000;
-  }
-}
-
 .certificationComp {
   color: #fff;
   float: right;
-  margin-top: 78vh;
+  margin-top: 70vh;
   margin-right: 20vw;
   display: block;
 }
@@ -1373,6 +1394,59 @@ p {
 #text {
   position: relative;
   top: 200px;
+}
+
+.contactBox {
+  width: 40vw;
+  height: 70vh;
+  background-color: #bebbbb1a;
+  border-radius: 10%;
+  flex-basis: 30%;
+  margin: auto;
+  padding-bottom: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.form {
+  padding: 3vh 5vw 5vh;
+}
+
+.formHeader {
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.formSubmit {
+  text-align: center;
+  width: 8vw;
+  color: #fff;
+  background-color: #bebbbb1a;
+  margin-left: 12vw;
+  padding: 1vh;
+  font-family: Raleway, sans-serif;
+}
+
+input {
+  color: #fff;
+  width: 30vw;
+  background-color: #bebbbb1a;
+  border: 1px solid #dfdcdc1a;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 3px;
+  font-family: Raleway, sans-serif;
+}
+
+textarea {
+  color: #fff;
+  width: 30vw;
+  background-color: #bebbbb1a;
+  border: 1px solid #dfdcdc1a;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  font-family: Raleway, sans-serif;
 }
 
 /*# sourceMappingURL=index.75f14d4e.css.map */

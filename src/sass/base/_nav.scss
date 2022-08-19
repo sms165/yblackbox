@@ -30,7 +30,7 @@ body {
   &:hover {
     animation-play-state: paused;
     & li p {
-      animation-play-state: paused;
+       animation-play-state: paused;
     }
   }
 }
@@ -46,14 +46,33 @@ body {
   place-content: center;
   
 
-  & > * {
-    animation: hold-position 30s linear infinite reverse;
-  }
+  
 
   &:hover {
     border: solid 3px var(--pink-highlighter);
   }
 }
+
+// .liNavCont{
+//   position: absolute;
+//   //   background: black;
+//     background: radial-gradient( #1f1e1e, #000000);
+//     width: 6rem;
+//     aspect-ratio: 1/1;
+//     border-radius: 50%;
+//     display: grid;
+//     place-content: center;
+
+//     & > * {
+//       animation: hold-position 30s linear infinite reverse;
+//     }
+  
+//     &:hover {
+//       border: solid 3px var(--pink-highlighter);
+//     }
+// }
+
+
 
 
 
@@ -64,6 +83,7 @@ body {
   p{
   animation: first 30s linear infinite;
   }
+  
 }
 
 .liNav:nth-child(2) {
@@ -327,3 +347,22 @@ body {
   }
 }
 
+#projects{
+  position: fixed;
+  top: 200px;
+}
+
+#degrees{
+  position: fixed;
+  top: -260px;
+}
+
+#contact{
+  position: fixed;
+  top: 4150px;
+}
+
+#certificates{
+  position: fixed;
+  top: -30px;
+}

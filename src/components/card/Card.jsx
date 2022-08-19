@@ -10,7 +10,7 @@ class Card extends React.Component {
     const { name, age, distance, text, pics, keywords } = objs[i];
 
     return (
-        <div className="ex">
+        <div className="ex" >
       <animated.div
         key={i}
         style={{
@@ -26,15 +26,15 @@ class Card extends React.Component {
             transform: to([rot, scale], trans)
           }}
         >
-          <div className="card">
-            <Carousel>
+          <div className="card" >
+            <Carousel >
               {pics.map(pic => (
                 <img className="imgCard" src={pic} alt="profilePicture" />
               ))}
             </Carousel>
             <h2>{name}</h2>
             
-            <div className="keywordsContainer">
+            <div className="keywordsContainer" >
             {keywords.map(word =>(
               <h5 className="keyword">{word}</h5>
             ))}

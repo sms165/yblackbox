@@ -1,0 +1,63 @@
+.contactComp{
+
+}
+
+.contactBox {
+    margin: auto;
+    position: relative;
+    background-color: rgba(190, 187, 187, 0.1);
+    // opacity: .1;
+    border-radius: 10%;
+  
+    width: 40vw;
+  
+    height: 70vh;
+    // margin-right: 10vw;
+    // margin-top: 50vh;
+    overflow: hidden;
+    padding-bottom: 200px;
+    flex-basis: 30%;
+  }
+
+  .form{
+    padding: 3vh 5vw 5vh 5vw;
+
+  }
+
+  .formHeader{
+    text-align: center;
+    padding-top: 2vh;
+  }
+
+  .formSubmit{
+    text-align: center;
+    
+    margin-left: 12vw;
+    width: 8vw;
+    padding: 1vh;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(190, 187, 187, 0.1);
+  }
+
+  input{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 30vw;
+    background-color: rgba(190, 187, 187, 0.1);
+    border: 1px solid rgba(223, 220, 220, 0.1);
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  textarea{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 30vw;
+    background-color: rgba(190, 187, 187, 0.1);
+    border: 1px solid rgba(223, 220, 220, 0.1);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }

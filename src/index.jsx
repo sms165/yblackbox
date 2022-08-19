@@ -20,6 +20,7 @@ import Skills from "./components/skills/Skills";
 import Education from "./components/education/Education";
 import Contact from "./components/contact/Contact";
 import Certificate from "./components/certificate/Certificate";
+import CertificateText from "./components/certificateText/CertificateText"
 
 const App = () => {
   const [scroll, setScroll] = useState(0);
@@ -113,19 +114,7 @@ const App = () => {
     lutzImg.classList.add("visible");
     cfImg.classList.add("visible");
   }
-  // if(scroll>3000){
-  //   //education typewriter text
-  //   let uopeopleText = document.getElementById("uopeopleText");
-  //   uopeopleText.classList.add("uopeopleText");
-  //   uopeopleText.classList.add("anim-typewriter");
-  //   let degreeCfText = document.getElementById("degreeCfText");
-  //   degreeCfText.classList.add("degreeCfText");
-  //   degreeCfText.classList.add("anim-typewriter-cf");
-  //   let degreeLutzText = document.getElementById("degreeLutzText");
-  //   degreeLutzText.classList.add("degreeLutzText");
-  //   degreeLutzText.classList.add("anim-typewriter-lutz");
-
-  // }
+ 
 
   if (scroll > 2500) {
     let maskC = document.getElementById("mask-c");
@@ -156,6 +145,7 @@ const App = () => {
   }
   return (
     <>
+   
       <Parallax ref={parallax} pages={6} style={{ top: "0", left: "0" }}>
         {/* background */}
         <ParallaxLayer offset={0} speed={0} factor={10}>
@@ -230,6 +220,7 @@ const App = () => {
           style={{ width: "70vw", float: "right" }}
           speed={1}
         >
+           <p id="projects">  </p>
           {/* <Sidenav style={{float:'left'}} /> */}
           <div className="deckComp">
             <Projects />
@@ -241,9 +232,10 @@ const App = () => {
           // style={{ width: "50vw", float: "right" }}
           speed={1.5}
         >
-          {/* <p>I've scrolled {scroll} pixels</p> */}
-          <div className="skillsComp" >
-          
+          {/* <div id="skills"></div> */}
+          <p id="skills"></p>
+          <div className="skillsComp" id="skillsNav" >
+         
             <Skills />
           </div>
         </ParallaxLayer>
@@ -252,8 +244,8 @@ const App = () => {
           // style={{ width: "50vw", float: "right" }}
           speed={0.5}
         >
-          
-          <p>I've scrolled {scroll} pixels</p>
+          <p id="degrees">  </p>
+          {/* <p>I've scrolled {scroll} pixels</p> */}
           <div className="educationComp" >
             <Education />
           </div>
@@ -263,18 +255,29 @@ const App = () => {
           // style={{ width: "50vw", float: "right" }}
           speed={0.5}
         >
-         
+         <p id="certificates">  </p>
           <div className="certificationComp" >
             <Certificate />
           </div>
         </ParallaxLayer>
         <ParallaxLayer
+          offset={3.5}
+          // style={{ width: "50vw", float: "right" }}
+          speed={0.5}
+        >
+         
+          <div className="certificationComp" >
+            <CertificateText />
+          </div>
+        </ParallaxLayer>
+        <p id="contact"> <p>I've scrolled {scroll} pixels</p> </p>
+        <ParallaxLayer id="contact"
           offset={5}
           // style={{ width: "50vw", float: "right" }}
           speed={1}
         >
-          {/* <p>I've scrolled {scroll} pixels</p> */}
-          <div className="contactComp" >
+          
+          <div className="contactComp" >  
             <Contact />
           </div>
         </ParallaxLayer>

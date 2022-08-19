@@ -122,8 +122,8 @@ function Skills() {
     
 
   return (
-    <><h2 className='skillsHeader'>Programming Skills</h2>
-    <div className='skillsProgramming' >
+    <><h2 className='skillsHeader' >Programming Skills</h2>
+    <div className='skillsProgramming'  >
         
     <div className="skills">
     <li>

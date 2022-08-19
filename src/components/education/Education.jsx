@@ -9,6 +9,7 @@ import lutz from "../../assets/lutz.svg";
 import cf from "../../assets/careerFoundry.svg";
 
 import cert from "../../assets/cert.svg";
+import Certificates from '../certificate/Certificate';
 
 export default function Education() {
   
@@ -44,7 +45,7 @@ export default function Education() {
 <br/>
 
 
-<div className="certBox">
+{/* <div className="certBox">
    <div className="cert">
     <div className="adobe">
     <h3>Adobe</h3>
@@ -68,7 +69,8 @@ export default function Education() {
       </div>
 
    </div>
-   </div></div>
+   </div> */}
+   </div>
    
   )
 }
