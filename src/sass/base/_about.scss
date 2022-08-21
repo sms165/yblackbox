@@ -3,8 +3,12 @@
 p{
     font-family: 'Raleway', sans-serif;
 }
-a,h1,h2,h3,h4{
+a,h1,h2,h3,h4, h5{
     font-family: 'Raleway', sans-serif;
+}
+
+h1,h3,h4, h5{
+    color: white;
 }
 
 a{
@@ -19,6 +23,6 @@ a{
     display: block;
     margin-right: 5vw;
     float: right;
-    margin-top: 20vh;
+    margin-top: -10vh;
     
 }

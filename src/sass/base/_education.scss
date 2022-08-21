@@ -209,23 +209,45 @@ p {
   }
 }
 
+// .certBox {
+//   position: relative;
+//   background-color: rgba(190, 187, 187, 0.1);
+//   // opacity: .1;
+//   border-radius: 10%;
+
+//   width: 350px;
+
+//   height: 500px;
+//   margin-right: 10vw;
+//   margin-top: 50vh;
+//   overflow: hidden;
+//   padding-bottom: 200px;
+//   flex-basis: 30%;
+// }
+
 .certBox {
+  margin: auto;
   position: relative;
+  display: flex;
+  align-content: center;
   background-color: rgba(190, 187, 187, 0.1);
   // opacity: .1;
   border-radius: 10%;
-
-  width: 350px;
-
-  height: 500px;
-  margin-right: 10vw;
-  margin-top: 50vh;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  // padding-top: 10vh;
+  height: 70vh;
+  // margin-right: 10vw;
+  margin-top: 0vh;
   overflow: hidden;
-  padding-bottom: 200px;
+  // padding-bottom: 200px;
   flex-basis: 30%;
 }
 
 .cert {
+  align-content: center;
+  // padding-top: 5vh;
   padding: 40px;
   // position: relative;
   // right: -200px;

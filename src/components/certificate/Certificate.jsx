@@ -42,7 +42,7 @@ return () => {
 }, []);
 
   return (
-  <div>
+  <div >
 <svg width="600px" id="certSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.12 92.83">
 <title>Certifications</title>
 	<defs>

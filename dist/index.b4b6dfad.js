@@ -2958,16 +2958,82 @@ const App = ()=>{
         };
     }, []);
     // navbar visible starting at page 2
-    if (scroll > 320) {
+    if (scroll > 2) {
         //console.log(document.getElementById("iconsNav"));
-        const nav = document.getElementById("iconsNav");
+        const nav = document.getElementById("blackbox");
         nav.classList.add("active");
         nav.classList.remove("reveal");
-    } else if (scroll < 320 && scroll > 50) {
-        //console.log(document.getElementById("iconsNav"));
-        const nav = document.getElementById("iconsNav");
-        nav.classList.remove("active");
-        nav.classList.add("reveal");
+    }
+    // else if (scroll < 320 && scroll > 50) {
+    //   //console.log(document.getElementById("iconsNav"));
+    //   const nav = document.getElementById("blackbox");
+    //   nav.classList.remove("active");
+    //   nav.classList.add("reveal");
+    // } 
+    const aboutMe = document.getElementById("aboutMe");
+    if (scroll > 300 && scroll < 530) {
+        aboutMe.classList.add("active");
+        aboutMe.classList.remove("reveal");
+    } else if (scroll > 2 && aboutMe.classList.contains("active")) {
+        if (scroll > 531 || scroll < 299) {
+            aboutMe.classList.remove("active");
+            aboutMe.classList.add("reveal");
+        }
+    }
+    const projectsTitle = document.getElementById("projectsTitle");
+    if (scroll > 800 && scroll < 1100) {
+        console.log(scroll);
+        projectsTitle.classList.add("active");
+        projectsTitle.classList.remove("reveal");
+    } else if (scroll > 2 && projectsTitle.classList.contains("active")) {
+        if (scroll > 1110 || scroll < 799) {
+            projectsTitle.classList.remove("active");
+            projectsTitle.classList.add("reveal");
+        }
+    }
+    const skillsTitle = document.getElementById("skillsTitle");
+    if (scroll > 1200 && scroll < 2000) {
+        console.log(scroll);
+        skillsTitle.classList.add("active");
+        skillsTitle.classList.remove("reveal");
+    } else if (scroll > 2 && skillsTitle.classList.contains("active")) {
+        if (scroll > 2010 || scroll < 1199) {
+            skillsTitle.classList.remove("active");
+            skillsTitle.classList.add("reveal");
+        }
+    }
+    const degreesTitle = document.getElementById("degreesTitle");
+    if (scroll > 2020 && scroll < 2700) {
+        console.log(scroll);
+        degreesTitle.classList.add("active");
+        degreesTitle.classList.remove("reveal");
+    } else if (scroll > 2 && degreesTitle.classList.contains("active")) {
+        if (scroll > 2700 || scroll < 2015) {
+            degreesTitle.classList.remove("active");
+            degreesTitle.classList.add("reveal");
+        }
+    }
+    const certificatesTitle = document.getElementById("certificatesTitle");
+    if (scroll > 2700 && scroll < 3200) {
+        console.log(scroll);
+        certificatesTitle.classList.add("active");
+        certificatesTitle.classList.remove("reveal");
+    } else if (scroll > 2 && certificatesTitle.classList.contains("active")) {
+        if (scroll > 3210 || scroll < 2715) {
+            certificatesTitle.classList.remove("active");
+            certificatesTitle.classList.add("reveal");
+        }
+    }
+    const contactTitle = document.getElementById("contactTitle");
+    if (scroll > 3220) {
+        console.log(scroll);
+        contactTitle.classList.add("active");
+        contactTitle.classList.remove("reveal");
+    } else if (scroll > 2 && contactTitle.classList.contains("active")) {
+        if (scroll < 3000) {
+            contactTitle.classList.remove("active");
+            contactTitle.classList.add("reveal");
+        }
     }
     if (scroll > 1202) {
         // programming skills
@@ -3060,26 +3126,27 @@ const App = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 0,
-                    speed: 0,
+                    speed: 0.1,
                     factor: 10,
                     children: [
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 153,
+                            lineNumber: 238,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 151,
+                    lineNumber: 236,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "sideNavLayer",
                     style: {
-                        width: "10vw"
+                        width: "15vw",
+                        float: "left"
                     },
                     // style={props}
                     sticky: {
@@ -3090,48 +3157,21 @@ const App = ()=>{
                     // speed={-1}
                     factor: 10,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "sideNav reveal",
+                        className: "sideNav ",
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 168,
+                            lineNumber: 253,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 167,
+                        lineNumber: 252,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 158,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    className: "yblackbox",
-                    sticky: {
-                        start: 0,
-                        end: 5
-                    },
-                    style: {
-                        width: "10vw",
-                        float: "left"
-                    },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "logoComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 179,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 178,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 173,
+                    lineNumber: 243,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3149,48 +3189,51 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 196,
+                            lineNumber: 281,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 198,
+                                lineNumber: 283,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 197,
+                            lineNumber: 282,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 184,
+                    lineNumber: 269,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     className: "layerOne",
                     offset: 1,
                     speed: 0.5,
-                    // sticky={{start:2, end:2}}
-                    style: {},
+                    style: {
+                        width: "70vw",
+                        float: "right",
+                        position: "relative"
+                    },
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "aboutComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 213,
+                            lineNumber: 299,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 211,
+                        lineNumber: 297,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 204,
+                    lineNumber: 289,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3206,25 +3249,25 @@ const App = ()=>{
                             children: "  "
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 223,
+                            lineNumber: 309,
                             columnNumber: 12
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "deckComp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 226,
+                                lineNumber: 312,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 225,
+                            lineNumber: 311,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 218,
+                    lineNumber: 304,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3236,7 +3279,7 @@ const App = ()=>{
                             id: "skills"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 236,
+                            lineNumber: 322,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3244,18 +3287,18 @@ const App = ()=>{
                             id: "skillsNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 239,
+                                lineNumber: 325,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 237,
+                            lineNumber: 323,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 230,
+                    lineNumber: 316,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3268,29 +3311,29 @@ const App = ()=>{
                             children: "  "
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 247,
+                            lineNumber: 333,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "educationComp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 250,
+                                lineNumber: 336,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 249,
+                            lineNumber: 335,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 242,
+                    lineNumber: 328,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 3.5,
+                    offset: 4,
                     // style={{ width: "50vw", float: "right" }}
                     speed: 0.5,
                     children: [
@@ -3299,96 +3342,82 @@ const App = ()=>{
                             children: "  "
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 258,
+                            lineNumber: 344,
                             columnNumber: 10
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "certificationComp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 260,
+                                lineNumber: 346,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 259,
+                            lineNumber: 345,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 253,
+                    lineNumber: 339,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 3.5,
+                    offset: 4,
                     // style={{ width: "50vw", float: "right" }}
                     speed: 0.5,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "certificationComp",
+                        className: "certificationTextComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateTextDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 270,
+                            lineNumber: 356,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 269,
+                        lineNumber: 355,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 263,
+                    lineNumber: 349,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     id: "contact",
-                    children: [
-                        " ",
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                "I've scrolled ",
-                                scroll,
-                                " pixels"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 273,
-                            columnNumber: 26
-                        }, undefined),
-                        " "
-                    ]
-                }, void 0, true, {
+                    children: "  "
+                }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 273,
+                    lineNumber: 359,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     id: "contact",
                     offset: 5,
                     // style={{ width: "50vw", float: "right" }}
-                    speed: 1,
+                    speed: 0.1,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "contactComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 281,
+                            lineNumber: 367,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 280,
+                        lineNumber: 366,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 274,
+                    lineNumber: 360,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 149,
+            lineNumber: 234,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3401,12 +3430,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 294,
+        lineNumber: 380,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 293,
+    lineNumber: 379,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -35640,21 +35669,30 @@ function Nav() {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "liNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "liNavCont",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
                                     to: "#certificates",
                                     scroll: (el)=>el.scrollIntoView({
-                                            behavior: "auto",
+                                            behavior: "smooth",
                                             block: "end"
                                         }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        children: "Certificates"
-                                    }, void 0, false, {
-                                        fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 45,
-                                        columnNumber: 10
-                                    }, this)
-                                }, void 0, false, {
+                                    children: [
+                                        " ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "liNavCont",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: "Certificates"
+                                            }, void 0, false, {
+                                                fileName: "src/components/nav/Nav.jsx",
+                                                lineNumber: 45,
+                                                columnNumber: 10
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 43,
+                                            columnNumber: 112
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "src/components/nav/Nav.jsx",
                                     lineNumber: 43,
                                     columnNumber: 9
@@ -35672,19 +35710,25 @@ function Nav() {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "liNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "liNavCont",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
                                     to: "#about",
                                     scroll: (el)=>el.scrollIntoView({
-                                            behavior: "auto",
+                                            behavior: "smooth",
                                             block: "end"
                                         }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        children: "About me"
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "liNavCont",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "About me"
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 54,
+                                            columnNumber: 11
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 53,
-                                        columnNumber: 11
+                                        lineNumber: 52,
+                                        columnNumber: 13
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/nav/Nav.jsx",
@@ -35704,132 +35748,153 @@ function Nav() {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "liNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "liNavCont",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
                                     to: "#projects",
                                     scroll: (el)=>el.scrollIntoView({
-                                            behavior: "auto",
+                                            behavior: "smooth",
                                             block: "end"
                                         }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        children: "Projects"
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "liNavCont",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "Projects"
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 65,
+                                            columnNumber: 11
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 62,
+                                        lineNumber: 63,
                                         columnNumber: 11
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 60,
+                                    lineNumber: 62,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 59,
+                                lineNumber: 61,
                                 columnNumber: 9
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 58,
+                            lineNumber: 60,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "liNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "liNavCont",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
                                     to: "#contact",
                                     scroll: (el)=>el.scrollIntoView({
-                                            behavior: "auto",
+                                            behavior: "smooth",
                                             block: "end"
                                         }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        children: "Contact"
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "liNavCont",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "Contact"
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 75,
+                                            columnNumber: 11
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 73,
                                         columnNumber: 11
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 69,
+                                    lineNumber: 72,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 68,
+                                lineNumber: 71,
                                 columnNumber: 9
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 67,
+                            lineNumber: 70,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "liNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "liNavCont",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
                                     to: "#skills",
                                     scroll: (el)=>el.scrollIntoView({
-                                            behavior: "auto",
+                                            behavior: "smooth",
                                             block: "end"
                                         }),
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "liNavCont",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                             children: "Skills"
                                         }, void 0, false, {
                                             fileName: "src/components/nav/Nav.jsx",
-                                            lineNumber: 80,
+                                            lineNumber: 87,
                                             columnNumber: 11
-                                        }, this),
-                                        " "
-                                    ]
-                                }, void 0, true, {
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/nav/Nav.jsx",
+                                        lineNumber: 85,
+                                        columnNumber: 11
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 78,
+                                    lineNumber: 84,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 77,
+                                lineNumber: 83,
                                 columnNumber: 9
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 76,
+                            lineNumber: 82,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             className: "liNav",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "liNavCont",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
                                     to: "#degrees",
                                     scroll: (el)=>el.scrollIntoView({
-                                            behavior: "auto",
+                                            behavior: "smooth",
                                             block: "end"
                                         }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        children: "Degrees"
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "liNavCont",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "Degrees"
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 98,
+                                            columnNumber: 11
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 89,
+                                        lineNumber: 96,
                                         columnNumber: 11
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 87,
+                                    lineNumber: 95,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 86,
+                                lineNumber: 94,
                                 columnNumber: 9
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 85,
+                            lineNumber: 93,
                             columnNumber: 9
                         }, this)
                     ]
@@ -38626,70 +38691,553 @@ var _educationSvg = require("../../assets/education.svg");
 var _educationSvgDefault = parcelHelpers.interopDefault(_educationSvg);
 var _mailSvg = require("../../assets/mail.svg");
 var _mailSvgDefault = parcelHelpers.interopDefault(_mailSvg);
+var _reactRouterHashLink = require("react-router-hash-link");
+var _reactRouterDom = require("react-router-dom");
+var _logo = require("../logo/Logo");
+var _logoDefault = parcelHelpers.interopDefault(_logo);
 function Sidenav() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return(// <Router>
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "sideNavigation ",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "imgSideNave",
-                src: (0, _logo2SvgDefault.default),
-                alt: "logo"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "reveal",
+                id: "blackbox",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "byfont yt ",
+                        children: "Y"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 39,
+                        columnNumber: 10
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont b",
+                        children: "B"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont smallLetter",
+                        children: "L"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont smallLetter a",
+                        children: "A"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 42,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont smallLetter c",
+                        children: "C"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 43,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont smallLetter k",
+                        children: "K"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 44,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: " "
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 45,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont b2",
+                        children: "B"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 46,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont smallLetter o",
+                        children: "O"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 47,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bbfont smallLetter x",
+                        children: "X"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
-                lineNumber: 29,
+                lineNumber: 38,
                 columnNumber: 9
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "imgSmall",
-                src: (0, _userSvgDefault.default),
-                alt: "user"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "section reveal",
+                id: "aboutMe",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter ",
+                        children: "A"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 52,
+                        columnNumber: 8
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter about-b",
+                        children: "B"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 53,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter about-o",
+                        children: "O"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 54,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter about-u ",
+                        children: "U"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 55,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter about-t",
+                        children: "T"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 56,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: " "
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 57,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter about-m",
+                        children: "M"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 58,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter about-e",
+                        children: "E"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 59,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
-                lineNumber: 30,
-                columnNumber: 6
+                lineNumber: 51,
+                columnNumber: 8
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "imgSmall",
-                src: (0, _portfolioSvgDefault.default),
-                alt: "portfolio"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sectionProjects reveal",
+                id: "projectsTitle",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter ",
+                        children: "P"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 63,
+                        columnNumber: 8
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter projects-r",
+                        children: "R"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 64,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter projects-o",
+                        children: "O"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 65,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter projects-j ",
+                        children: "J"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 66,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter projects-e",
+                        children: "E"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 67,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter projects-c",
+                        children: "C"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 68,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter projects-t",
+                        children: "T"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter projects-s",
+                        children: "S"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
-                lineNumber: 31,
-                columnNumber: 6
+                lineNumber: 62,
+                columnNumber: 8
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "imgSmall",
-                src: (0, _codeSvgDefault.default),
-                alt: "skills"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sectionSkills reveal",
+                id: "skillsTitle",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter ",
+                        children: "S"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 74,
+                        columnNumber: 8
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter skills-k",
+                        children: "K"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 75,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter skills-i",
+                        children: "I"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 76,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter skills-l ",
+                        children: "L"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 77,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter skills-ll",
+                        children: "L"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 78,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter skills-s",
+                        children: "S"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
-                lineNumber: 32,
-                columnNumber: 6
+                lineNumber: 73,
+                columnNumber: 8
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "imgSmall",
-                src: (0, _educationSvgDefault.default),
-                alt: "education"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sectionDegrees reveal",
+                id: "degreesTitle",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter ",
+                        children: "D"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 83,
+                        columnNumber: 8
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter degrees-e",
+                        children: "E"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 84,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter degrees-g",
+                        children: "G"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 85,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter degrees-r ",
+                        children: "R"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 86,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter degrees-ee",
+                        children: "E"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 87,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter degrees-eee",
+                        children: "E"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 88,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter degrees-s",
+                        children: "S"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 89,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
-                lineNumber: 33,
-                columnNumber: 6
+                lineNumber: 82,
+                columnNumber: 8
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "imgSmall",
-                src: (0, _mailSvgDefault.default),
-                alt: "mail"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sectionCertificates reveal",
+                id: "certificatesTitle",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter ",
+                        children: "C"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 93,
+                        columnNumber: 8
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-e",
+                        children: "E"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 94,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-r",
+                        children: "R"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 95,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-t ",
+                        children: "T"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 96,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-i",
+                        children: "I"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 97,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-f",
+                        children: "F"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 98,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-ii",
+                        children: "I"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 99,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-c",
+                        children: "C"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 100,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-a",
+                        children: "A"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 101,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-tt",
+                        children: "T"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 102,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-ee",
+                        children: "E"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 103,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter certificates-s",
+                        children: "S"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 104,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/sidenav/Sidenav.jsx",
-                lineNumber: 34,
-                columnNumber: 6
+                lineNumber: 92,
+                columnNumber: 8
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sectionContact reveal",
+                id: "contactTitle",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter ",
+                        children: "C"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 108,
+                        columnNumber: 8
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter contact-o",
+                        children: "O"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 109,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter contact-n",
+                        children: "N"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 110,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter contact-t ",
+                        children: "T"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter contact-a",
+                        children: "A"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 112,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter contact-c",
+                        children: "C"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "bfont smallLetter contact-tt",
+                        children: "T"
+                    }, void 0, false, {
+                        fileName: "src/components/sidenav/Sidenav.jsx",
+                        lineNumber: 114,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/sidenav/Sidenav.jsx",
+                lineNumber: 107,
+                columnNumber: 8
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/sidenav/Sidenav.jsx",
-        lineNumber: 28,
+        lineNumber: 33,
         columnNumber: 7
-    }, this);
+    }, this));
 }
 exports.default = Sidenav;
 _c = Sidenav;
@@ -38701,7 +39249,7 @@ $RefreshReg$(_c, "Sidenav");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@fortawesome/react-fontawesome":"clIT3","@fortawesome/free-solid-svg-icons":"iNxAT","../../sass/style.scss":"fpeeO","../../assets/logo2.svg":"blAdC","../../assets/user.svg":"3J0sd","../../assets/code.svg":"eXW6O","../../assets/portfolio.svg":"70tzK","../../assets/education.svg":"lwnaG","../../assets/mail.svg":"dSssv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"clIT3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@fortawesome/react-fontawesome":"clIT3","@fortawesome/free-solid-svg-icons":"iNxAT","../../sass/style.scss":"fpeeO","../../assets/logo2.svg":"blAdC","../../assets/user.svg":"3J0sd","../../assets/code.svg":"eXW6O","../../assets/portfolio.svg":"70tzK","../../assets/education.svg":"lwnaG","../../assets/mail.svg":"dSssv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"fdOAw","react-router-hash-link":"19rTh","../logo/Logo":"dorWe"}],"clIT3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "FontAwesomeIcon", ()=>FontAwesomeIcon);
@@ -63134,6 +63682,52 @@ module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "educat
 },{"./helpers/bundle-url":"lgJ39"}],"dSssv":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "mail.07ae5e30.svg" + "?" + Date.now();
 
+},{"./helpers/bundle-url":"lgJ39"}],"dorWe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$42f7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$42f7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleScss = require("../../sass/style.scss");
+var _ySvg = require("../../assets/y.svg");
+var _ySvgDefault = parcelHelpers.interopDefault(_ySvg);
+function Logo() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "logo",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            className: "logoImg",
+            src: (0, _ySvgDefault.default),
+            alt: "logo"
+        }, void 0, false, {
+            fileName: "src/components/logo/Logo.jsx",
+            lineNumber: 9,
+            columnNumber: 10
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/logo/Logo.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+exports.default = Logo;
+_c = Logo;
+var _c;
+$RefreshReg$(_c, "Logo");
+
+  $parcel$ReactRefreshHelpers$42f7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/y.svg":"1GP1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"1GP1E":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "y.08306a29.svg" + "?" + Date.now();
+
 },{"./helpers/bundle-url":"lgJ39"}],"gXaFa":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b7c9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -63504,53 +64098,7 @@ $RefreshReg$(_c, "Projects");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dorWe":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$42f7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$42f7.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _styleScss = require("../../sass/style.scss");
-var _ySvg = require("../../assets/y.svg");
-var _ySvgDefault = parcelHelpers.interopDefault(_ySvg);
-function Logo() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "logo",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-            className: "logoImg",
-            src: (0, _ySvgDefault.default),
-            alt: "logo"
-        }, void 0, false, {
-            fileName: "src/components/logo/Logo.jsx",
-            lineNumber: 9,
-            columnNumber: 10
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/logo/Logo.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
-}
-exports.default = Logo;
-_c = Logo;
-var _c;
-$RefreshReg$(_c, "Logo");
-
-  $parcel$ReactRefreshHelpers$42f7.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/y.svg":"1GP1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"1GP1E":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "y.08306a29.svg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lcd2F":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../deck/Deck":"1ZiTE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lcd2F":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$288d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -63683,6 +64231,7 @@ function Skills() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 className: "skillsHeader",
+                id: "skillsSideNav",
                 children: "Programming Skills"
             }, void 0, false, {
                 fileName: "src/components/skills/Skills.jsx",

@@ -1,22 +1,25 @@
 
 
-.sideNav{
+.sideNavigation{
      z-index: 4;
     // background-color: rgb(16, 16, 16);
     // position: sticky;
-    width: 5vw;
+    width: 8vw;
     height: 50vh;
     // align-self: flex-start;
-    margin-top: 25vh;
+    margin-top: 20vh;
     left: 5vw;
     float: left;
+    padding-left: 1vw;
 
 }
 
 
 .imgSmall{
-    width: 8vw;
-    height: 8vh;
+    // width: 8vw;
+    height: 10vh;
+    position: relative;
+    top: -5vh;
     
     
 }
@@ -31,3 +34,302 @@
     opacity: 1;
     transition: 2s;
 }
+
+
+
+.bbfont{
+    font-family: Logo;
+    position: relative;
+    color: white;
+   
+}
+
+
+.byfont{
+    font-family: Black-y;
+    position: relative;
+   
+}
+
+.bfont{
+    font-family: Blackboxcodedesign;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.y{
+    color: var(--pink-highlighter);
+    font-family: Logo;
+   font-size: 20vh;
+   margin-left: 1vw;
+   position: relative;
+   top: 250px;
+   opacity: .4;
+   
+   
+}
+.yt{
+   
+    font-family: Black-y;
+   font-size: 10vh;
+//    margin-left: 3vw;
+   position: relative;
+top:-25px;
+  
+   
+   
+}
+
+.b{
+    font-size: 12vh;
+    top: -50px;
+}
+
+.smallLetter{
+    font-size: 5vh;
+    margin-left: 3vw;
+    top: -90px;
+    
+}
+
+.a{
+    top: -110px;
+}
+
+.c{
+    top: -130px;
+}
+
+.k{
+    top: -150px;
+}
+
+.b2{
+    font-size: 12vh;
+    top: -180px;
+}
+
+.o{
+    top: -230px;
+}
+
+.x{
+    top: -250px;
+}
+
+// About
+.section{
+    
+   position: relative;
+   top: -58vh;
+   left:5vw
+}
+
+.about-b{
+    top: -110px;
+   
+}
+
+.about-o{
+    top: -130px;
+}
+
+.about-u{
+    top: -160px;
+}
+.about-t{
+    top: -190px;
+}
+
+.about-m{
+    top: -190px;
+}
+.about-e{
+    top: -219px;
+}
+
+
+// Projects
+.sectionProjects{
+    
+   position: relative;
+   top: -114vh;
+   left:5vw
+}
+
+.projects-r{
+    top: -115px;
+}
+
+.projects-o{
+    top: -140px;
+}
+
+.projects-j{
+    top: -165px;
+}
+
+.projects-e{
+    top: -185px;
+}
+
+.projects-c{
+    top: -205px;
+}
+
+.projects-t{
+    top: -230px;
+}
+.projects-s{
+   top: -255px; 
+}
+
+
+// Skills
+.sectionSkills{
+    
+    position: relative;
+    top: -166vh;
+    left:5vw
+ }
+ 
+ .skills-k{
+     top: -115px;
+ }
+
+ .skills-i{
+    top: -140px;
+}
+
+.skills-l{
+    top: -165px;
+}
+
+.skills-ll{
+    top: -185px;
+}
+
+.skills-s{
+    top: -205px;
+}
+
+
+// Skills
+.sectionDegrees{
+    
+    position: relative;
+    top: -215vh;
+    left:5vw
+ }
+ 
+ .degrees-e{
+     top: -115px;
+ }
+
+ .degrees-g{
+    top: -140px;
+}
+
+.degrees-r{
+    top: -165px;
+}
+
+.degrees-ee{
+    top: -185px;
+}
+
+.degrees-eee{
+    top: -205px;
+}
+
+.degrees-s{
+    top: -225px;
+}
+
+
+// Certifications
+.sectionCertificates{
+    
+    position: relative;
+    top: -287vh;
+    left:5vw
+ }
+ 
+ .certificates-e{
+     top: -115px;
+ }
+
+ .certificates-r{
+    top: -140px;
+}
+
+.certificates-t{
+    top: -165px;
+}
+
+.certificates-i{
+    top: -185px;
+}
+
+.certificates-f{
+    top: -215px;
+}
+
+.certificates-ii{
+    top: -235px;
+}
+
+.certificates-c{
+    top: -265px;
+}
+
+.certificates-a{
+    top: -295px;
+}
+
+.certificates-tt{
+    top: -315px;
+}
+
+.certificates-ee{
+    top: -335px;
+}
+
+.certificates-s{
+    top: -360px;
+}
+
+// Certifications
+.sectionContact{
+    
+    position: relative;
+    top: -353vh;
+    left:5vw
+ }
+ 
+ .contact-o{
+     top: -125px;
+ }
+
+ .contact-n{
+    top: -155px;
+}
+
+.contact-t{
+    top: -185px;
+}
+
+.contact-a{
+    top: -215px;
+}
+
+.contact-c{
+    top: -240px;
+}
+
+.contact-tt{
+    top: -270px;
+}
+
+
+ 

@@ -39,54 +39,65 @@ export default function Nav() {
       <ul className="ulNav">
       
       <li className="liNav">
-        <div className="liNavCont">
-        <HashLink to="#certificates" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+        <div >
+        <HashLink to="#certificates" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}> <div className="liNavCont">
           {/* <img src="" alt="" /> */}
-         <p>Certificates</p></HashLink></div> 
+         <p>Certificates</p></div></HashLink></div> 
         </li>
        
         
         <li className="liNav">
-        <div className="liNavCont">
-          <HashLink to="#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+        <div >
+          <HashLink to="#about" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+            <div className="liNavCont">
           {/* <img src="" alt="" /> */}
-          <p>About me</p></HashLink>
+          <p>About me</p></div>
+          </HashLink>
           </div>
         </li>
 
 
         <li className="liNav">
-        <div className="liNavCont">
-          <HashLink to="#projects" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+        <div >
+          <HashLink to="#projects" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+          <div className="liNavCont">
           {/* <img src="" alt="" /> */}
-          <p>Projects</p></HashLink>
+          <p>Projects</p></div></HashLink>
           </div>
         </li>
         
         
         <li className="liNav">
-        <div className="liNavCont">
-          <HashLink to="#contact" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+        <div >
+          <HashLink to="#contact" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+          <div className="liNavCont">
           {/* <img src="" alt="" /> */}
-          <p>Contact</p></HashLink>
+          <p>Contact</p>
+          </div>
+          </HashLink>
           </div>
         </li>
         
         
         <li className="liNav">
-        <div className="liNavCont">
-          <HashLink to="#skills" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+        <div >
+          <HashLink to="#skills" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+          <div className="liNavCont">
           {/* <img src="" alt="" /> */}
-          <p>Skills</p> </HashLink>
+          <p>Skills</p> 
+          </div></HashLink>
           </div>
         </li>
        
         
         <li className="liNav">
-        <div className="liNavCont">
-          <HashLink to="#degrees" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>
+        <div >
+          <HashLink to="#degrees" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
+          <div className="liNavCont">
           {/* <img src="" alt="" /> */}
-          <p>Degrees</p></HashLink>
+          <p>Degrees</p>
+          </div>
+          </HashLink>
           </div>
         </li>
         

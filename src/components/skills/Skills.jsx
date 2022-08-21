@@ -122,7 +122,7 @@ function Skills() {
     
 
   return (
-    <><h2 className='skillsHeader' >Programming Skills</h2>
+    <><h2 className='skillsHeader' id='skillsSideNav' >Programming Skills</h2>
     <div className='skillsProgramming'  >
         
     <div className="skills">

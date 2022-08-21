@@ -44,18 +44,103 @@ const App = () => {
     };
   }, []);
   // navbar visible starting at page 2
-  if (scroll > 320) {
+  if (scroll > 2) {
     //console.log(document.getElementById("iconsNav"));
-    const nav = document.getElementById("iconsNav");
+    const nav = document.getElementById("blackbox");
     nav.classList.add("active");
     nav.classList.remove("reveal");
-  } else if (scroll < 320 && scroll > 50) {
-    //console.log(document.getElementById("iconsNav"));
-    const nav = document.getElementById("iconsNav");
-    nav.classList.remove("active");
-    nav.classList.add("reveal");
   } 
+  // else if (scroll < 320 && scroll > 50) {
+  //   //console.log(document.getElementById("iconsNav"));
+  //   const nav = document.getElementById("blackbox");
+  //   nav.classList.remove("active");
+  //   nav.classList.add("reveal");
+  // } 
+  const aboutMe = document.getElementById('aboutMe');
+
+  if(scroll>300 && scroll<530){
+      aboutMe.classList.add("active");
+      aboutMe.classList.remove("reveal");
+  }else if( scroll>2 && aboutMe.classList.contains("active")){
+    if(scroll>531 || scroll<299){
+      aboutMe.classList.remove("active");
+      aboutMe.classList.add("reveal");
+    }
+  }
+
+  const projectsTitle = document.getElementById('projectsTitle')
+
+  if(scroll>800 && scroll<1100){
+    console.log(scroll)
+    projectsTitle.classList.add("active");
+    projectsTitle.classList.remove("reveal");
+}
+else if( scroll>2 && projectsTitle.classList.contains("active")){
+  if(scroll>1110 || scroll<799){
+    projectsTitle.classList.remove("active");
+    projectsTitle.classList.add("reveal");
+  }
+ }
+
+ const skillsTitle = document.getElementById('skillsTitle')
   
+ if(scroll>1200 && scroll<2000){
+  console.log(scroll)
+ skillsTitle.classList.add("active");
+  skillsTitle.classList.remove("reveal");
+}
+else if( scroll>2 && skillsTitle.classList.contains("active")){
+if(scroll>2010 || scroll<1199){
+  skillsTitle.classList.remove("active");
+  skillsTitle.classList.add("reveal");
+}
+}
+
+const degreesTitle = document.getElementById('degreesTitle')
+  
+if(scroll>2020 && scroll<2700){
+ console.log(scroll)
+degreesTitle.classList.add("active");
+ degreesTitle.classList.remove("reveal");
+}
+else if( scroll>2 && degreesTitle.classList.contains("active")){
+if(scroll>2700 || scroll<2015){
+ degreesTitle.classList.remove("active");
+ degreesTitle.classList.add("reveal");
+}
+}
+
+
+const certificatesTitle = document.getElementById('certificatesTitle')
+  
+if(scroll>2700 && scroll<3200){
+ console.log(scroll)
+ certificatesTitle.classList.add("active");
+ certificatesTitle.classList.remove("reveal");
+}
+else if( scroll>2 && certificatesTitle.classList.contains("active")){
+if(scroll>3210 || scroll<2715){
+  certificatesTitle.classList.remove("active");
+  certificatesTitle.classList.add("reveal");
+}
+}
+
+
+const contactTitle = document.getElementById('contactTitle')
+  
+if(scroll>3220 ){
+ console.log(scroll)
+ contactTitle.classList.add("active");
+ contactTitle.classList.remove("reveal");
+}
+else if( scroll>2 && contactTitle.classList.contains("active")){
+if( scroll<3000){
+  contactTitle.classList.remove("active");
+  contactTitle.classList.add("reveal");
+}
+}
+
+
   if(scroll > 1202){
      // programming skills
      let html = document.getElementById("html");
@@ -148,7 +233,7 @@ const App = () => {
    
       <Parallax ref={parallax} pages={6} style={{ top: "0", left: "0" }}>
         {/* background */}
-        <ParallaxLayer offset={0} speed={0} factor={10}>
+        <ParallaxLayer offset={0} speed={0.1} factor={10}>
           // {/* <div className="backg"> */}
           <Background />
           // {/* </div> */}
@@ -157,20 +242,20 @@ const App = () => {
         {/* side navigation */}
         <ParallaxLayer
           className="sideNavLayer"
-          style={{ width: "10vw" }}
+          style={{ width: "15vw", float:"left"}}
           // style={props}
           sticky={{ start: 0, end: 5 }}
           // offset={2}
           // speed={-1}
           factor={10}
         >
-          <div className="sideNav reveal" id="iconsNav">
+          <div className="sideNav " id="iconsNav">
             <Sidenav />
           </div>
         </ParallaxLayer>
 
         {/* yblackbox logo  */}
-        <ParallaxLayer
+        {/* <ParallaxLayer
           className="yblackbox"
           sticky={{ start: 0, end: 5 }}
           style={{ width: "10vw", float: "left" }}
@@ -178,7 +263,7 @@ const App = () => {
           <div className="logoComp">
             <Logo />
           </div>
-        </ParallaxLayer>
+        </ParallaxLayer> */}
 
         {/* top cube animation / navigation */}
         <ParallaxLayer
@@ -205,8 +290,9 @@ const App = () => {
           className="layerOne"
           offset={1}
           speed={0.5}
+          style={{ width: "70vw", float: "right" , position: "relative"}}
           // sticky={{start:2, end:2}}
-          style={{}}
+          
         >
           <div className="aboutComp">
             {/* <p>I've scrolled {scroll} pixels</p> */}
@@ -251,7 +337,7 @@ const App = () => {
           </div>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={3.5}
+          offset={4}
           // style={{ width: "50vw", float: "right" }}
           speed={0.5}
         >
@@ -261,20 +347,20 @@ const App = () => {
           </div>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={3.5}
+          offset={4}
           // style={{ width: "50vw", float: "right" }}
           speed={0.5}
         >
          
-          <div className="certificationComp" >
+          <div className="certificationTextComp" >
             <CertificateText />
           </div>
         </ParallaxLayer>
-        <p id="contact"> <p>I've scrolled {scroll} pixels</p> </p>
+        <p id="contact">  </p>
         <ParallaxLayer id="contact"
           offset={5}
           // style={{ width: "50vw", float: "right" }}
-          speed={1}
+          speed={0.1}
         >
           
           <div className="contactComp" >  
