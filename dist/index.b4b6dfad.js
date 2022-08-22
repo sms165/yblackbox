@@ -3193,12 +3193,12 @@ const App = ()=>{
                 skillsTitle.classList.add("reveal");
             }
         }
-        if (scroll > 2480 && scroll < 3200) {
+        if (scroll > 2480 && scroll < 3400) {
             console.log(scroll);
             degreesTitle.classList.add("active");
             degreesTitle.classList.remove("reveal");
         } else if (scroll > 2 && degreesTitle.classList.contains("active")) {
-            if (scroll > 3210 || scroll < 2470) {
+            if (scroll > 3410 || scroll < 2470) {
                 degreesTitle.classList.remove("active");
                 degreesTitle.classList.add("reveal");
             }
@@ -3321,14 +3321,14 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 488,
+                            lineNumber: 487,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 486,
+                    lineNumber: 485,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3350,17 +3350,17 @@ const App = ()=>{
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 503,
+                            lineNumber: 502,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 502,
+                        lineNumber: 501,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 493,
+                    lineNumber: 492,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3378,25 +3378,25 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 531,
+                            lineNumber: 530,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 533,
+                                lineNumber: 532,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 532,
+                            lineNumber: 531,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 519,
+                    lineNumber: 518,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3412,17 +3412,17 @@ const App = ()=>{
                         className: "aboutComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 549,
+                            lineNumber: 548,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 547,
+                        lineNumber: 546,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 539,
+                    lineNumber: 538,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3430,7 +3430,7 @@ const App = ()=>{
                     children: "  "
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 552,
+                    lineNumber: 551,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3444,46 +3444,46 @@ const App = ()=>{
                         className: "deckComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 562,
+                            lineNumber: 561,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 561,
+                        lineNumber: 560,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 554,
+                    lineNumber: 553,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     id: "skills"
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 566,
+                    lineNumber: 565,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 2,
                     // style={{ width: "50vw", float: "right" }}
-                    speed: 1.5,
+                    speed: 1,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "skillsComp",
                         id: "skillsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 576,
+                            lineNumber: 575,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 574,
+                        lineNumber: 573,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 567,
+                    lineNumber: 566,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3491,7 +3491,7 @@ const App = ()=>{
                     children: "  "
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 579,
+                    lineNumber: 578,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3502,17 +3502,17 @@ const App = ()=>{
                         className: "educationComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 588,
+                            lineNumber: 587,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 587,
+                        lineNumber: 586,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 580,
+                    lineNumber: 579,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3520,49 +3520,51 @@ const App = ()=>{
                     children: "  "
                 }, void 0, false, {
                     fileName: "src/index.jsx",
+                    lineNumber: 590,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    offset: 4,
+                    // style={{ width: "50vw", float: "right" }}
+                    speed: 0.5,
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "certificationComp",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
+                                fileName: "src/index.jsx",
+                                lineNumber: 600,
+                                columnNumber: 11
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 599,
+                            columnNumber: 10
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "certificationTextComp",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateTextDefault.default), {}, void 0, false, {
+                                fileName: "src/index.jsx",
+                                lineNumber: 602,
+                                columnNumber: 10
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 601,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/index.jsx",
                     lineNumber: 591,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 4,
                     // style={{ width: "50vw", float: "right" }}
-                    speed: 0.5,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "certificationComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 599,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 598,
-                        columnNumber: 11
-                    }, undefined)
+                    speed: 0.5
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 592,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 4,
-                    // style={{ width: "50vw", float: "right" }}
-                    speed: 0.5,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "certificationTextComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateTextDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 609,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 608,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 602,
+                    lineNumber: 605,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3570,7 +3572,7 @@ const App = ()=>{
                     children: "  "
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 612,
+                    lineNumber: 613,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3582,23 +3584,23 @@ const App = ()=>{
                         className: "contactComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 620,
+                            lineNumber: 621,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 619,
+                        lineNumber: 620,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 613,
+                    lineNumber: 614,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 484,
+            lineNumber: 483,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3611,12 +3613,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 633,
+        lineNumber: 634,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 632,
+    lineNumber: 633,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;

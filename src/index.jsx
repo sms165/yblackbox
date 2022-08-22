@@ -351,13 +351,13 @@ if(document.documentElement.clientHeight > 900){
   }
   
     
-  if(scroll>2480 && scroll<3200){
+  if(scroll>2480 && scroll<3400){
    console.log(scroll)
   degreesTitle.classList.add("active");
    degreesTitle.classList.remove("reveal");
   }
   else if( scroll>2 && degreesTitle.classList.contains("active")){
-  if(scroll>3210 || scroll<2470){
+  if(scroll>3410 || scroll<2470){
    degreesTitle.classList.remove("active");
    degreesTitle.classList.add("reveal");
   }
@@ -390,7 +390,6 @@ if(document.documentElement.clientHeight > 900){
 
   }
 }
-
   if(scroll > 1202){
      // programming skills
      let html = document.getElementById("html");
@@ -567,7 +566,7 @@ if(document.documentElement.clientHeight > 900){
         <ParallaxLayer
           offset={2}
           // style={{ width: "50vw", float: "right" }}
-          speed={1.5}
+          speed={1}
         >
           {/* <div id="skills"></div> */}
           
@@ -595,8 +594,12 @@ if(document.documentElement.clientHeight > 900){
           speed={0.5}
         >
          
-          <div className="certificationComp" >
-            <Certificate />
+         
+            {/* <Certificate /> */}
+         <div className="certificationComp" >
+          <Certificate /></div>
+          <div className="certificationTextComp" > 
+         <CertificateText  /> 
           </div>
         </ParallaxLayer>
         <ParallaxLayer
@@ -605,9 +608,7 @@ if(document.documentElement.clientHeight > 900){
           speed={0.5}
         >
          
-          <div className="certificationTextComp" >
-            <CertificateText />
-          </div>
+          
         </ParallaxLayer>
         <p id="contact">  </p>
         <ParallaxLayer id="contact"
