@@ -56,90 +56,340 @@ const App = () => {
   //   nav.classList.remove("active");
   //   nav.classList.add("reveal");
   // } 
+
+  const height = document.documentElement.clientHeight;
+  
+
   const aboutMe = document.getElementById('aboutMe');
+  const projectsTitle = document.getElementById('projectsTitle');
+  const skillsTitle = document.getElementById('skillsTitle');
+  const degreesTitle = document.getElementById('degreesTitle');
+  const certificatesTitle = document.getElementById('certificatesTitle');
+  const contactTitle = document.getElementById('contactTitle');
+  console.log( document.documentElement.clientHeight)
 
-  if(scroll>300 && scroll<530){
-      aboutMe.classList.add("active");
-      aboutMe.classList.remove("reveal");
-  }else if( scroll>2 && aboutMe.classList.contains("active")){
-    if(scroll>531 || scroll<299){
-      aboutMe.classList.remove("active");
-      aboutMe.classList.add("reveal");
+
+  if(document.documentElement.clientHeight < 721) {
+
+    if(scroll>300 && scroll<530){
+      console.log( document.documentElement.clientHeight)
+        aboutMe.classList.add("active");
+        aboutMe.classList.remove("reveal");
+    }else if( scroll>2 && aboutMe.classList.contains("active")){
+      if(scroll>531 || scroll<299){
+        aboutMe.classList.remove("active");
+        aboutMe.classList.add("reveal");
+      }
     }
+  
+  
+    if(scroll>800 && scroll<1200){
+      console.log(scroll)
+      projectsTitle.classList.add("active");
+      projectsTitle.classList.remove("reveal");
   }
-
-  const projectsTitle = document.getElementById('projectsTitle')
-
-  if(scroll>800 && scroll<1100){
+  else if( scroll>2 && projectsTitle.classList.contains("active")){
+    if(scroll>1210 || scroll<799){
+      projectsTitle.classList.remove("active");
+      projectsTitle.classList.add("reveal");
+    }
+   }
+  
+    
+   if(scroll>1220 && scroll<2075){
     console.log(scroll)
-    projectsTitle.classList.add("active");
-    projectsTitle.classList.remove("reveal");
-}
-else if( scroll>2 && projectsTitle.classList.contains("active")){
-  if(scroll>1110 || scroll<799){
-    projectsTitle.classList.remove("active");
-    projectsTitle.classList.add("reveal");
+   skillsTitle.classList.add("active");
+    skillsTitle.classList.remove("reveal");
   }
- }
-
- const skillsTitle = document.getElementById('skillsTitle')
+  else if( scroll>2 && skillsTitle.classList.contains("active")){
+  if(scroll>2075 || scroll<1199){
+    skillsTitle.classList.remove("active");
+    skillsTitle.classList.add("reveal");
+  }
+  }
   
- if(scroll>1200 && scroll<2000){
-  console.log(scroll)
- skillsTitle.classList.add("active");
-  skillsTitle.classList.remove("reveal");
-}
-else if( scroll>2 && skillsTitle.classList.contains("active")){
-if(scroll>2010 || scroll<1199){
-  skillsTitle.classList.remove("active");
-  skillsTitle.classList.add("reveal");
-}
-}
+    
+  if(scroll>2080 && scroll<2700){
+   console.log(scroll)
+  degreesTitle.classList.add("active");
+   degreesTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && degreesTitle.classList.contains("active")){
+  if(scroll>2700 || scroll<2075){
+   degreesTitle.classList.remove("active");
+   degreesTitle.classList.add("reveal");
+  }
+  }
+  if(scroll>2700 && scroll<2800){
+    console.log(scroll)
+    certificatesTitle.classList.add("active");
+    certificatesTitle.classList.remove("reveal");
+   }
+   else if( scroll>2 && certificatesTitle.classList.contains("active")){
+   if(scroll>2800 || scroll<2700){
+     certificatesTitle.classList.remove("active");
+     certificatesTitle.classList.add("reveal");
+   }
+   }
+   
+     
+   if(scroll>2800 ){
+    console.log(scroll)
+    contactTitle.classList.add("active");
+    contactTitle.classList.remove("reveal");
+   }
+   else if( scroll>2 && contactTitle.classList.contains("active")){
+   if( scroll<2800){
+     contactTitle.classList.remove("active");
+     contactTitle.classList.add("reveal");
+   }
+ 
+   }
+   }
+ 
 
-const degreesTitle = document.getElementById('degreesTitle')
+   else if(document.documentElement.clientHeight < 770) {
+    if(scroll>300 && scroll<530){
+      console.log( document.documentElement.clientHeight)
+        aboutMe.classList.add("active");
+        aboutMe.classList.remove("reveal");
+    }else if( scroll>2 && aboutMe.classList.contains("active")){
+      if(scroll>531 || scroll<299){
+        aboutMe.classList.remove("active");
+        aboutMe.classList.add("reveal");
+      }
+    }
   
-if(scroll>2020 && scroll<2700){
- console.log(scroll)
-degreesTitle.classList.add("active");
- degreesTitle.classList.remove("reveal");
-}
-else if( scroll>2 && degreesTitle.classList.contains("active")){
-if(scroll>2700 || scroll<2015){
- degreesTitle.classList.remove("active");
- degreesTitle.classList.add("reveal");
-}
-}
-
-
-const certificatesTitle = document.getElementById('certificatesTitle')
   
-if(scroll>2700 && scroll<3200){
- console.log(scroll)
- certificatesTitle.classList.add("active");
- certificatesTitle.classList.remove("reveal");
-}
-else if( scroll>2 && certificatesTitle.classList.contains("active")){
-if(scroll>3210 || scroll<2715){
-  certificatesTitle.classList.remove("active");
-  certificatesTitle.classList.add("reveal");
-}
-}
-
-
-const contactTitle = document.getElementById('contactTitle')
+    if(scroll>800 && scroll<1200){
+      console.log(scroll)
+      projectsTitle.classList.add("active");
+      projectsTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && projectsTitle.classList.contains("active")){
+    if(scroll>1210 || scroll<799){
+      projectsTitle.classList.remove("active");
+      projectsTitle.classList.add("reveal");
+    }
+   }
   
-if(scroll>3220 ){
- console.log(scroll)
- contactTitle.classList.add("active");
- contactTitle.classList.remove("reveal");
-}
-else if( scroll>2 && contactTitle.classList.contains("active")){
-if( scroll<3000){
-  contactTitle.classList.remove("active");
-  contactTitle.classList.add("reveal");
-}
-}
+    
+   if(scroll>1220 && scroll<2075){
+    console.log(scroll)
+   skillsTitle.classList.add("active");
+    skillsTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && skillsTitle.classList.contains("active")){
+  if(scroll>2075 || scroll<1199){
+    skillsTitle.classList.remove("active");
+    skillsTitle.classList.add("reveal");
+  }
+  }
+  
+    
+  if(scroll>2080 && scroll<2700){
+   console.log(scroll)
+  degreesTitle.classList.add("active");
+   degreesTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && degreesTitle.classList.contains("active")){
+  if(scroll>2700 || scroll<2075){
+   degreesTitle.classList.remove("active");
+   degreesTitle.classList.add("reveal");
+  }
+  }
+  
+  
+  
+    
+  if(scroll>2700 && scroll<2700){
+   console.log(scroll)
+   certificatesTitle.classList.add("active");
+   certificatesTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && certificatesTitle.classList.contains("active")){
+  if(scroll>2800 || scroll<2715){
+    certificatesTitle.classList.remove("active");
+    certificatesTitle.classList.add("reveal");
+  }
+  }
+  
+    
+  if(scroll>2900 ){
+   console.log(scroll)
+   contactTitle.classList.add("active");
+   contactTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && contactTitle.classList.contains("active")){
+  if( scroll<2800){
+    contactTitle.classList.remove("active");
+    contactTitle.classList.add("reveal");
+  }
 
+  }
+  }
+
+
+   else if(document.documentElement.clientHeight < 900) {
+    if(scroll>300 && scroll<530){
+      console.log( document.documentElement.clientHeight)
+        aboutMe.classList.add("active");
+        aboutMe.classList.remove("reveal");
+    }else if( scroll>2 && aboutMe.classList.contains("active")){
+      if(scroll>531 || scroll<299){
+        aboutMe.classList.remove("active");
+        aboutMe.classList.add("reveal");
+      }
+    }
+  
+  
+    if(scroll>800 && scroll<1200){
+      console.log(scroll)
+      projectsTitle.classList.add("active");
+      projectsTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && projectsTitle.classList.contains("active")){
+    if(scroll>1210 || scroll<799){
+      projectsTitle.classList.remove("active");
+      projectsTitle.classList.add("reveal");
+    }
+   }
+  
+    
+   if(scroll>1220 && scroll<2075){
+    console.log(scroll)
+   skillsTitle.classList.add("active");
+    skillsTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && skillsTitle.classList.contains("active")){
+  if(scroll>2075 || scroll<1199){
+    skillsTitle.classList.remove("active");
+    skillsTitle.classList.add("reveal");
+  }
+  }
+  
+    
+  if(scroll>2080 && scroll<2700){
+   console.log(scroll)
+  degreesTitle.classList.add("active");
+   degreesTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && degreesTitle.classList.contains("active")){
+  if(scroll>2700 || scroll<2075){
+   degreesTitle.classList.remove("active");
+   degreesTitle.classList.add("reveal");
+  }
+  }
+  
+  
+  
+    
+  if(scroll>2700 && scroll<3450){
+   console.log(scroll)
+   certificatesTitle.classList.add("active");
+   certificatesTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && certificatesTitle.classList.contains("active")){
+  if(scroll>3460 || scroll<2715){
+    certificatesTitle.classList.remove("active");
+    certificatesTitle.classList.add("reveal");
+  }
+  }
+  
+    
+  if(scroll>3470 ){
+   console.log(scroll)
+   contactTitle.classList.add("active");
+   contactTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && contactTitle.classList.contains("active")){
+  if( scroll<3465){
+    contactTitle.classList.remove("active");
+    contactTitle.classList.add("reveal");
+  }
+
+  }
+  }
+if(document.documentElement.clientHeight > 900){
+
+    if(scroll>300 && scroll<830){
+      console.log( document.documentElement.clientHeight)
+        aboutMe.classList.add("active");
+        aboutMe.classList.remove("reveal");
+    }else if( scroll>2 && aboutMe.classList.contains("active")){
+      if(scroll>831 || scroll<299){
+        aboutMe.classList.remove("active");
+        aboutMe.classList.add("reveal");
+      }
+    }
+  
+  
+    if(scroll>840 && scroll<1690){
+      console.log(scroll)
+      projectsTitle.classList.add("active");
+      projectsTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && projectsTitle.classList.contains("active")){
+    if(scroll>1700|| scroll<839){
+      projectsTitle.classList.remove("active");
+      projectsTitle.classList.add("reveal");
+    }
+   }
+  
+  
+    
+   if(scroll>1710 && scroll<2475){
+    console.log(scroll)
+   skillsTitle.classList.add("active");
+    skillsTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && skillsTitle.classList.contains("active")){
+  if(scroll>2475 || scroll<1705){
+    skillsTitle.classList.remove("active");
+    skillsTitle.classList.add("reveal");
+  }
+  }
+  
+    
+  if(scroll>2480 && scroll<3200){
+   console.log(scroll)
+  degreesTitle.classList.add("active");
+   degreesTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && degreesTitle.classList.contains("active")){
+  if(scroll>3210 || scroll<2470){
+   degreesTitle.classList.remove("active");
+   degreesTitle.classList.add("reveal");
+  }
+  }
+  
+      
+  if(scroll>3430 && scroll<4200){
+   console.log(scroll)
+   certificatesTitle.classList.add("active");
+   certificatesTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && certificatesTitle.classList.contains("active")){
+  if(scroll>4210 || scroll<3420){
+    certificatesTitle.classList.remove("active");
+    certificatesTitle.classList.add("reveal");
+  }
+  }
+  
+    
+  if(scroll>4220 ){
+   console.log(scroll)
+   contactTitle.classList.add("active");
+   contactTitle.classList.remove("reveal");
+  }
+  else if( scroll>2 && contactTitle.classList.contains("active")){
+  if( scroll<4210){
+    contactTitle.classList.remove("active");
+    contactTitle.classList.add("reveal");
+  }
+
+  }
+}
 
   if(scroll > 1202){
      // programming skills
@@ -150,7 +400,7 @@ if( scroll<3000){
      let java = document.getElementById("java");
      let javascript = document.getElementById("javascript");
      let python = document.getElementById("python");
-     console.log(html);
+    //  console.log(html);
      html.classList.add("visible");
      csharp.classList.add("visible");
      css.classList.add("visible");
@@ -165,7 +415,7 @@ if( scroll<3000){
      let illustrator = document.getElementById("illustrator");
      let indesign = document.getElementById("indesign");
      let photoshop = document.getElementById("photoshop");
-     console.log(afterEffects);
+    //  console.log(afterEffects);
      afterEffects.classList.add("visible");
      premierePro.classList.add("visible");
      illustrator.classList.add("visible");
@@ -191,7 +441,7 @@ if( scroll<3000){
     let uopeopleImg = document.getElementById("uopeopleImg");
     let lutzImg = document.getElementById("lutzImg");
     let cfImg = document.getElementById("cfImg");
-    console.log(uopeopleImg)
+    // console.log(uopeopleImg)
     uopeopleImg.classList.add("uopeopleImg");
     lutzImg.classList.add("lutzImg");
     cfImg.classList.add("cfImg");
@@ -247,7 +497,7 @@ if( scroll<3000){
           sticky={{ start: 0, end: 5 }}
           // offset={2}
           // speed={-1}
-          factor={10}
+          factor={.1}
         >
           <div className="sideNav " id="iconsNav">
             <Sidenav />
@@ -299,49 +549,52 @@ if( scroll<3000){
             <About />
           </div>
         </ParallaxLayer>
-
+        <p id="projects" >  </p>
         {/* projects page */}
         <ParallaxLayer
           offset={1}
           style={{ width: "70vw", float: "right" }}
           speed={1}
         >
-           <p id="projects">  </p>
+           
           {/* <Sidenav style={{float:'left'}} /> */}
           <div className="deckComp">
             <Projects />
           </div>
         </ParallaxLayer>
-
+        
+        <p id="skills"></p>
         <ParallaxLayer
           offset={2}
           // style={{ width: "50vw", float: "right" }}
           speed={1.5}
         >
           {/* <div id="skills"></div> */}
-          <p id="skills"></p>
+          
           <div className="skillsComp" id="skillsNav" >
          
             <Skills />
           </div>
         </ParallaxLayer>
+        <p id="degrees">  </p>
         <ParallaxLayer
           offset={3}
           // style={{ width: "50vw", float: "right" }}
           speed={0.5}
         >
-          <p id="degrees">  </p>
+          
           {/* <p>I've scrolled {scroll} pixels</p> */}
           <div className="educationComp" >
             <Education />
           </div>
         </ParallaxLayer>
+        <p id="certificates">  </p>
         <ParallaxLayer
           offset={4}
           // style={{ width: "50vw", float: "right" }}
           speed={0.5}
         >
-         <p id="certificates">  </p>
+         
           <div className="certificationComp" >
             <Certificate />
           </div>

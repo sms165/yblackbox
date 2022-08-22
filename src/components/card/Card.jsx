@@ -38,6 +38,10 @@ class Card extends React.Component {
             {keywords.map(word =>(
               <h5 className="keyword">{word}</h5>
             ))}
+            
+            </div>
+            <div>
+            <button className="cardBtn"> Click for more details</button>
             </div>
           </div>
         </animated.div>

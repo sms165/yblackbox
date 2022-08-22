@@ -2970,69 +2970,258 @@ const App = ()=>{
     //   nav.classList.remove("active");
     //   nav.classList.add("reveal");
     // } 
+    const height = document.documentElement.clientHeight;
     const aboutMe = document.getElementById("aboutMe");
-    if (scroll > 300 && scroll < 530) {
-        aboutMe.classList.add("active");
-        aboutMe.classList.remove("reveal");
-    } else if (scroll > 2 && aboutMe.classList.contains("active")) {
-        if (scroll > 531 || scroll < 299) {
-            aboutMe.classList.remove("active");
-            aboutMe.classList.add("reveal");
-        }
-    }
     const projectsTitle = document.getElementById("projectsTitle");
-    if (scroll > 800 && scroll < 1100) {
-        console.log(scroll);
-        projectsTitle.classList.add("active");
-        projectsTitle.classList.remove("reveal");
-    } else if (scroll > 2 && projectsTitle.classList.contains("active")) {
-        if (scroll > 1110 || scroll < 799) {
-            projectsTitle.classList.remove("active");
-            projectsTitle.classList.add("reveal");
-        }
-    }
     const skillsTitle = document.getElementById("skillsTitle");
-    if (scroll > 1200 && scroll < 2000) {
-        console.log(scroll);
-        skillsTitle.classList.add("active");
-        skillsTitle.classList.remove("reveal");
-    } else if (scroll > 2 && skillsTitle.classList.contains("active")) {
-        if (scroll > 2010 || scroll < 1199) {
-            skillsTitle.classList.remove("active");
-            skillsTitle.classList.add("reveal");
-        }
-    }
     const degreesTitle = document.getElementById("degreesTitle");
-    if (scroll > 2020 && scroll < 2700) {
-        console.log(scroll);
-        degreesTitle.classList.add("active");
-        degreesTitle.classList.remove("reveal");
-    } else if (scroll > 2 && degreesTitle.classList.contains("active")) {
-        if (scroll > 2700 || scroll < 2015) {
-            degreesTitle.classList.remove("active");
-            degreesTitle.classList.add("reveal");
-        }
-    }
     const certificatesTitle = document.getElementById("certificatesTitle");
-    if (scroll > 2700 && scroll < 3200) {
-        console.log(scroll);
-        certificatesTitle.classList.add("active");
-        certificatesTitle.classList.remove("reveal");
-    } else if (scroll > 2 && certificatesTitle.classList.contains("active")) {
-        if (scroll > 3210 || scroll < 2715) {
-            certificatesTitle.classList.remove("active");
-            certificatesTitle.classList.add("reveal");
+    const contactTitle = document.getElementById("contactTitle");
+    console.log(document.documentElement.clientHeight);
+    if (document.documentElement.clientHeight < 721) {
+        if (scroll > 300 && scroll < 530) {
+            console.log(document.documentElement.clientHeight);
+            aboutMe.classList.add("active");
+            aboutMe.classList.remove("reveal");
+        } else if (scroll > 2 && aboutMe.classList.contains("active")) {
+            if (scroll > 531 || scroll < 299) {
+                aboutMe.classList.remove("active");
+                aboutMe.classList.add("reveal");
+            }
+        }
+        if (scroll > 800 && scroll < 1200) {
+            console.log(scroll);
+            projectsTitle.classList.add("active");
+            projectsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && projectsTitle.classList.contains("active")) {
+            if (scroll > 1210 || scroll < 799) {
+                projectsTitle.classList.remove("active");
+                projectsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 1220 && scroll < 2075) {
+            console.log(scroll);
+            skillsTitle.classList.add("active");
+            skillsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && skillsTitle.classList.contains("active")) {
+            if (scroll > 2075 || scroll < 1199) {
+                skillsTitle.classList.remove("active");
+                skillsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2080 && scroll < 2700) {
+            console.log(scroll);
+            degreesTitle.classList.add("active");
+            degreesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && degreesTitle.classList.contains("active")) {
+            if (scroll > 2700 || scroll < 2075) {
+                degreesTitle.classList.remove("active");
+                degreesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2700 && scroll < 2800) {
+            console.log(scroll);
+            certificatesTitle.classList.add("active");
+            certificatesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && certificatesTitle.classList.contains("active")) {
+            if (scroll > 2800 || scroll < 2700) {
+                certificatesTitle.classList.remove("active");
+                certificatesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2800) {
+            console.log(scroll);
+            contactTitle.classList.add("active");
+            contactTitle.classList.remove("reveal");
+        } else if (scroll > 2 && contactTitle.classList.contains("active")) {
+            if (scroll < 2800) {
+                contactTitle.classList.remove("active");
+                contactTitle.classList.add("reveal");
+            }
+        }
+    } else if (document.documentElement.clientHeight < 770) {
+        if (scroll > 300 && scroll < 530) {
+            console.log(document.documentElement.clientHeight);
+            aboutMe.classList.add("active");
+            aboutMe.classList.remove("reveal");
+        } else if (scroll > 2 && aboutMe.classList.contains("active")) {
+            if (scroll > 531 || scroll < 299) {
+                aboutMe.classList.remove("active");
+                aboutMe.classList.add("reveal");
+            }
+        }
+        if (scroll > 800 && scroll < 1200) {
+            console.log(scroll);
+            projectsTitle.classList.add("active");
+            projectsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && projectsTitle.classList.contains("active")) {
+            if (scroll > 1210 || scroll < 799) {
+                projectsTitle.classList.remove("active");
+                projectsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 1220 && scroll < 2075) {
+            console.log(scroll);
+            skillsTitle.classList.add("active");
+            skillsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && skillsTitle.classList.contains("active")) {
+            if (scroll > 2075 || scroll < 1199) {
+                skillsTitle.classList.remove("active");
+                skillsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2080 && scroll < 2700) {
+            console.log(scroll);
+            degreesTitle.classList.add("active");
+            degreesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && degreesTitle.classList.contains("active")) {
+            if (scroll > 2700 || scroll < 2075) {
+                degreesTitle.classList.remove("active");
+                degreesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2700 && scroll < 2700) {
+            console.log(scroll);
+            certificatesTitle.classList.add("active");
+            certificatesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && certificatesTitle.classList.contains("active")) {
+            if (scroll > 2800 || scroll < 2715) {
+                certificatesTitle.classList.remove("active");
+                certificatesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2900) {
+            console.log(scroll);
+            contactTitle.classList.add("active");
+            contactTitle.classList.remove("reveal");
+        } else if (scroll > 2 && contactTitle.classList.contains("active")) {
+            if (scroll < 2800) {
+                contactTitle.classList.remove("active");
+                contactTitle.classList.add("reveal");
+            }
+        }
+    } else if (document.documentElement.clientHeight < 900) {
+        if (scroll > 300 && scroll < 530) {
+            console.log(document.documentElement.clientHeight);
+            aboutMe.classList.add("active");
+            aboutMe.classList.remove("reveal");
+        } else if (scroll > 2 && aboutMe.classList.contains("active")) {
+            if (scroll > 531 || scroll < 299) {
+                aboutMe.classList.remove("active");
+                aboutMe.classList.add("reveal");
+            }
+        }
+        if (scroll > 800 && scroll < 1200) {
+            console.log(scroll);
+            projectsTitle.classList.add("active");
+            projectsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && projectsTitle.classList.contains("active")) {
+            if (scroll > 1210 || scroll < 799) {
+                projectsTitle.classList.remove("active");
+                projectsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 1220 && scroll < 2075) {
+            console.log(scroll);
+            skillsTitle.classList.add("active");
+            skillsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && skillsTitle.classList.contains("active")) {
+            if (scroll > 2075 || scroll < 1199) {
+                skillsTitle.classList.remove("active");
+                skillsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2080 && scroll < 2700) {
+            console.log(scroll);
+            degreesTitle.classList.add("active");
+            degreesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && degreesTitle.classList.contains("active")) {
+            if (scroll > 2700 || scroll < 2075) {
+                degreesTitle.classList.remove("active");
+                degreesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2700 && scroll < 3450) {
+            console.log(scroll);
+            certificatesTitle.classList.add("active");
+            certificatesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && certificatesTitle.classList.contains("active")) {
+            if (scroll > 3460 || scroll < 2715) {
+                certificatesTitle.classList.remove("active");
+                certificatesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 3470) {
+            console.log(scroll);
+            contactTitle.classList.add("active");
+            contactTitle.classList.remove("reveal");
+        } else if (scroll > 2 && contactTitle.classList.contains("active")) {
+            if (scroll < 3465) {
+                contactTitle.classList.remove("active");
+                contactTitle.classList.add("reveal");
+            }
         }
     }
-    const contactTitle = document.getElementById("contactTitle");
-    if (scroll > 3220) {
-        console.log(scroll);
-        contactTitle.classList.add("active");
-        contactTitle.classList.remove("reveal");
-    } else if (scroll > 2 && contactTitle.classList.contains("active")) {
-        if (scroll < 3000) {
-            contactTitle.classList.remove("active");
-            contactTitle.classList.add("reveal");
+    if (document.documentElement.clientHeight > 900) {
+        if (scroll > 300 && scroll < 830) {
+            console.log(document.documentElement.clientHeight);
+            aboutMe.classList.add("active");
+            aboutMe.classList.remove("reveal");
+        } else if (scroll > 2 && aboutMe.classList.contains("active")) {
+            if (scroll > 831 || scroll < 299) {
+                aboutMe.classList.remove("active");
+                aboutMe.classList.add("reveal");
+            }
+        }
+        if (scroll > 840 && scroll < 1690) {
+            console.log(scroll);
+            projectsTitle.classList.add("active");
+            projectsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && projectsTitle.classList.contains("active")) {
+            if (scroll > 1700 || scroll < 839) {
+                projectsTitle.classList.remove("active");
+                projectsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 1710 && scroll < 2475) {
+            console.log(scroll);
+            skillsTitle.classList.add("active");
+            skillsTitle.classList.remove("reveal");
+        } else if (scroll > 2 && skillsTitle.classList.contains("active")) {
+            if (scroll > 2475 || scroll < 1705) {
+                skillsTitle.classList.remove("active");
+                skillsTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 2480 && scroll < 3200) {
+            console.log(scroll);
+            degreesTitle.classList.add("active");
+            degreesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && degreesTitle.classList.contains("active")) {
+            if (scroll > 3210 || scroll < 2470) {
+                degreesTitle.classList.remove("active");
+                degreesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 3430 && scroll < 4200) {
+            console.log(scroll);
+            certificatesTitle.classList.add("active");
+            certificatesTitle.classList.remove("reveal");
+        } else if (scroll > 2 && certificatesTitle.classList.contains("active")) {
+            if (scroll > 4210 || scroll < 3420) {
+                certificatesTitle.classList.remove("active");
+                certificatesTitle.classList.add("reveal");
+            }
+        }
+        if (scroll > 4220) {
+            console.log(scroll);
+            contactTitle.classList.add("active");
+            contactTitle.classList.remove("reveal");
+        } else if (scroll > 2 && contactTitle.classList.contains("active")) {
+            if (scroll < 4210) {
+                contactTitle.classList.remove("active");
+                contactTitle.classList.add("reveal");
+            }
         }
     }
     if (scroll > 1202) {
@@ -3044,7 +3233,7 @@ const App = ()=>{
         let java = document.getElementById("java");
         let javascript = document.getElementById("javascript");
         let python = document.getElementById("python");
-        console.log(html);
+        //  console.log(html);
         html.classList.add("visible");
         csharp.classList.add("visible");
         css.classList.add("visible");
@@ -3058,7 +3247,7 @@ const App = ()=>{
         let illustrator = document.getElementById("illustrator");
         let indesign = document.getElementById("indesign");
         let photoshop = document.getElementById("photoshop");
-        console.log(afterEffects);
+        //  console.log(afterEffects);
         afterEffects.classList.add("visible");
         premierePro.classList.add("visible");
         illustrator.classList.add("visible");
@@ -3081,7 +3270,7 @@ const App = ()=>{
         let uopeopleImg = document.getElementById("uopeopleImg");
         let lutzImg = document.getElementById("lutzImg");
         let cfImg = document.getElementById("cfImg");
-        console.log(uopeopleImg);
+        // console.log(uopeopleImg)
         uopeopleImg.classList.add("uopeopleImg");
         lutzImg.classList.add("lutzImg");
         cfImg.classList.add("cfImg");
@@ -3132,14 +3321,14 @@ const App = ()=>{
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 238,
+                            lineNumber: 488,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 236,
+                    lineNumber: 486,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3155,23 +3344,23 @@ const App = ()=>{
                     },
                     // offset={2}
                     // speed={-1}
-                    factor: 10,
+                    factor: .1,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "sideNav ",
                         id: "iconsNav",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 253,
+                            lineNumber: 503,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 252,
+                        lineNumber: 502,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 243,
+                    lineNumber: 493,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3189,25 +3378,25 @@ const App = ()=>{
                             className: "clouds"
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 281,
+                            lineNumber: 531,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "nav-comp",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
                                 fileName: "src/index.jsx",
-                                lineNumber: 283,
+                                lineNumber: 533,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 282,
+                            lineNumber: 532,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 269,
+                    lineNumber: 519,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3223,17 +3412,25 @@ const App = ()=>{
                         className: "aboutComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 299,
+                            lineNumber: 549,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 297,
+                        lineNumber: 547,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 289,
+                    lineNumber: 539,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    id: "projects",
+                    children: "  "
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 552,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3243,124 +3440,108 @@ const App = ()=>{
                         float: "right"
                     },
                     speed: 1,
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            id: "projects",
-                            children: "  "
-                        }, void 0, false, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "deckComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 309,
-                            columnNumber: 12
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "deckComp",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 312,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 311,
-                            columnNumber: 11
+                            lineNumber: 562,
+                            columnNumber: 13
                         }, undefined)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 561,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 304,
+                    lineNumber: 554,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    id: "skills"
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 566,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 2,
                     // style={{ width: "50vw", float: "right" }}
                     speed: 1.5,
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            id: "skills"
-                        }, void 0, false, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skillsComp",
+                        id: "skillsNav",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 322,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skillsComp",
-                            id: "skillsNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 325,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 323,
-                            columnNumber: 11
+                            lineNumber: 576,
+                            columnNumber: 13
                         }, undefined)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 574,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 316,
+                    lineNumber: 567,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    id: "degrees",
+                    children: "  "
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 579,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 3,
                     // style={{ width: "50vw", float: "right" }}
                     speed: 0.5,
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            id: "degrees",
-                            children: "  "
-                        }, void 0, false, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "educationComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 333,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "educationComp",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 336,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 335,
-                            columnNumber: 11
+                            lineNumber: 588,
+                            columnNumber: 13
                         }, undefined)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 587,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 328,
+                    lineNumber: 580,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    id: "certificates",
+                    children: "  "
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 591,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 4,
                     // style={{ width: "50vw", float: "right" }}
                     speed: 0.5,
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            id: "certificates",
-                            children: "  "
-                        }, void 0, false, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "certificationComp",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 344,
-                            columnNumber: 10
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "certificationComp",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 346,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 345,
-                            columnNumber: 11
+                            lineNumber: 599,
+                            columnNumber: 13
                         }, undefined)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 598,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 339,
+                    lineNumber: 592,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3371,17 +3552,17 @@ const App = ()=>{
                         className: "certificationTextComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateTextDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 356,
+                            lineNumber: 609,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 355,
+                        lineNumber: 608,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 349,
+                    lineNumber: 602,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3389,7 +3570,7 @@ const App = ()=>{
                     children: "  "
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 359,
+                    lineNumber: 612,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
@@ -3401,23 +3582,23 @@ const App = ()=>{
                         className: "contactComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 367,
+                            lineNumber: 620,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 366,
+                        lineNumber: 619,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 360,
+                    lineNumber: 613,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 234,
+            lineNumber: 484,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3430,12 +3611,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 380,
+        lineNumber: 633,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 379,
+    lineNumber: 632,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -31122,14 +31303,7 @@ const objs = [
         name: "myFLIX",
         keywords: [
             "React",
-            "Parcel",
-            "React Bootstrap",
-            "React Redux",
-            "React Router",
-            "Axios",
             "Netlify",
-            "Fontawesome",
-            "SCSS",
             "Node.js"
         ],
         text: "The C and the L are silent."
@@ -31141,16 +31315,11 @@ const objs = [
         ],
         name: "myFlix API",
         keywords: [
-            "React",
-            "Parcel",
-            "React Bootstrap",
-            "React Redux",
-            "React Router",
-            "Axios",
-            "Netlify",
-            "Fontawesome",
-            "SCSS",
-            "Node.js"
+            "Authentication",
+            "MongoDB",
+            "Express",
+            "Postman",
+            "Heroku"
         ]
     },
     {
@@ -31162,15 +31331,13 @@ const objs = [
         name: "Meet App",
         keywords: [
             "React",
-            "Parcel",
-            "React Bootstrap",
-            "React Redux",
-            "React Router",
-            "Axios",
-            "Netlify",
-            "Fontawesome",
-            "SCSS",
-            "Node.js"
+            "AWS",
+            "GoogleCalendar API",
+            "Outh2",
+            "Jest",
+            "Enzyme",
+            "Puppeteer",
+            "PWA"
         ],
         text: "A little known fact is that I cover about 40% of Africa."
     },
@@ -31181,15 +31348,9 @@ const objs = [
         name: "YBlackBox",
         keywords: [
             "React",
-            "Parcel",
-            "React Bootstrap",
-            "React Redux",
-            "React Router",
-            "Axios",
-            "Netlify",
-            "Fontawesome",
             "SCSS",
-            "Node.js"
+            "Illustrator",
+            "Procreate"
         ]
     }
 ];
@@ -31249,7 +31410,7 @@ function Deck() {
             bind: bind
         }, void 0, false, {
             fileName: "src/components/deck/Deck.jsx",
-            lineNumber: 180,
+            lineNumber: 159,
             columnNumber: 5
         }, this));
 }
@@ -33647,6 +33808,20 @@ class Card extends (0, _reactDefault.default).Component {
                             }, void 0, false, {
                                 fileName: "src/components/card/Card.jsx",
                                 lineNumber: 37,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "cardBtn",
+                                    children: " Click for more details"
+                                }, void 0, false, {
+                                    fileName: "src/components/card/Card.jsx",
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/card/Card.jsx",
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, this)
                         ]

@@ -346,26 +346,28 @@ body {
 
 #projects{
   position: fixed;
-  top: 250px;
+  top: 230vh;
+}
+
+#skills{
+  position: fixed;
+  top: 290vh;
 }
 
 #degrees{
   position: fixed;
-  top: -260px;
-}
-
-#contact{
-  position: fixed;
-  top: 4800px;
+  top: 415vh;
 }
 
 #certificates{
   position: fixed;
-  top: -950px;
+  top: 485vh;
 }
 
-
-#skills{
+#contact{
   position: fixed;
-  top: -1700px;
+  top: 580vh;
 }
+
+
+

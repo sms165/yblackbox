@@ -67,7 +67,7 @@
     // padding: .4em;
     margin: .2em;
   //  align-content: space-around;
-padding: 0 .2em;
+padding: 0 .5em;
   color: white;
 //   flex-direction: row;
 //   flex-wrap:nowrap;
@@ -99,6 +99,22 @@ padding: 0 .2em;
   .slider-control-bottomcenter > ul > li > button {
     color: var(--pink-highlighter) !important;
   }
+  
+  .cardBtn{
+    padding: 1vh;
+    text-align: center;
+    position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border-color:var(--pink-highlighter);
+
+  }
+
   
   
 //   h2 {

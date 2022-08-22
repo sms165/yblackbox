@@ -28,14 +28,7 @@ const objs = [
     name: "myFLIX",
     keywords: [
       "React",
-      "Parcel",
-      "React Bootstrap",
-      "React Redux",
-      "React Router",
-      "Axios",
       "Netlify",
-      "Fontawesome",
-      "SCSS",
       "Node.js"
 
 
@@ -52,16 +45,12 @@ const objs = [
     name: "myFlix API",
     
     keywords: [
-      "React",
-      "Parcel",
-      "React Bootstrap",
-      "React Redux",
-      "React Router",
-      "Axios",
-      "Netlify",
-      "Fontawesome",
-      "SCSS",
-      "Node.js"
+      "Authentication",
+      "MongoDB",
+      "Express",
+      "Postman",
+      "Heroku"
+      
 
 
     ],
@@ -77,16 +66,13 @@ const objs = [
     
     keywords: [
       "React",
-      "Parcel",
-      "React Bootstrap",
-      "React Redux",
-      "React Router",
-      "Axios",
-      "Netlify",
-      "Fontawesome",
-      "SCSS",
-      "Node.js"
-
+      "AWS",
+      "GoogleCalendar API",
+      "Outh2",
+      "Jest",
+      "Enzyme",
+      "Puppeteer",
+      "PWA"
 
     ],
     text: "A little known fact is that I cover about 40% of Africa."
@@ -99,20 +85,13 @@ const objs = [
    
     keywords: [
       "React",
-      "Parcel",
-      "React Bootstrap",
-      "React Redux",
-      "React Router",
-      "Axios",
-      "Netlify",
-      "Fontawesome",
       "SCSS",
-      "Node.js"
+      "Illustrator",
+      "Procreate"
 
 
     ],
-    // text:
-    //   "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I have a knife."
+   
   }
 ];
 

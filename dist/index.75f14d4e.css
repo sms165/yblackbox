@@ -413,27 +413,27 @@ body {
 
 #projects {
   position: fixed;
-  top: 250px;
-}
-
-#degrees {
-  position: fixed;
-  top: -260px;
-}
-
-#contact {
-  position: fixed;
-  top: 4800px;
-}
-
-#certificates {
-  position: fixed;
-  top: -950px;
+  top: 230vh;
 }
 
 #skills {
   position: fixed;
-  top: -1700px;
+  top: 290vh;
+}
+
+#degrees {
+  position: fixed;
+  top: 415vh;
+}
+
+#certificates {
+  position: fixed;
+  top: 485vh;
+}
+
+#contact {
+  position: fixed;
+  top: 580vh;
 }
 
 .container {
@@ -945,6 +945,10 @@ body {
   transform: rotateX(-180deg)translateZ(50px);
 }
 
+#html {
+  height: 1024px;
+}
+
 p, a, h1, h2, h3, h4, h5 {
   font-family: Raleway, sans-serif;
 }
@@ -1027,7 +1031,7 @@ h2 {
   background: #040404;
   border-radius: 30px;
   margin: .2em;
-  padding: 0 .2em;
+  padding: 0 .5em;
 }
 
 .slider-control-bottomcenter {
@@ -1036,6 +1040,20 @@ h2 {
 
 .slider-control-bottomcenter > ul > li > button {
   color: var(--pink-highlighter) !important;
+}
+
+.cardBtn {
+  text-align: center;
+  color: #fff;
+  border-color: var(--pink-highlighter);
+  background-color: #000;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1vh;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logoComp {
