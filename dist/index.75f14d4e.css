@@ -1046,6 +1046,7 @@ h2 {
   text-align: center;
   color: #fff;
   border-color: var(--pink-highlighter);
+  z-index: 0;
   background-color: #000;
   border-radius: 5px;
   margin: 0 auto;
@@ -1772,6 +1773,6928 @@ textarea {
   margin: 5px;
   padding: 5px;
   font-family: Raleway, sans-serif;
+}
+
+.MacBookPro161_MacBookPro161 {
+  width: 100%;
+  height: 100vh;
+  background: #d60000;
+  margin: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.MacBookPro161_MacBookPro161 .imac1999636_19201 {
+  width: 1429.26px;
+  height: 779.37px;
+  object-fit: cover;
+  position: absolute;
+  top: 156.87px;
+  left: 4.98px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .ImageProject {
+  width: 458.575px;
+  height: 286.35px;
+  position: absolute;
+  top: 551.12px;
+  left: 832.075px;
+}
+
+.MacBookPro161_MacBookPro161 .ImageProject .Vector4 {
+  width: 458.575px;
+  height: 286.35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .ImageProject .Screenshot20220823at17051 {
+  width: 458.16px;
+  height: 260.62px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: .415px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .ImageProject .Screenshot20220823at17181 {
+  width: 459.82px;
+  height: 186.75px;
+  object-fit: cover;
+  position: absolute;
+  top: 246.51px;
+  left: -.415px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup {
+  width: 95.865px;
+  height: 172.225px;
+  position: absolute;
+  top: 659.02px;
+  left: 94.62px;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup .Vector2 {
+  width: 95.865px;
+  height: 172.225px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup .Screenshot20220823at17071 {
+  width: 97.11px;
+  height: 173.47px;
+  object-fit: cover;
+  position: absolute;
+  top: -.83px;
+  left: -.83px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup_1 {
+  width: 662.755px;
+  height: 375.16px;
+  position: absolute;
+  top: 276.39px;
+  left: 319.55px;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup_1 .Vector1 {
+  width: 662.755px;
+  height: 375.16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup_1 .Screenshot20220823at17081 {
+  width: 673.96px;
+  height: 383.46px;
+  object-fit: cover;
+  position: absolute;
+  top: -4.15px;
+  left: -5.81px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup_2 {
+  width: 199.615px;
+  height: 265.6px;
+  position: absolute;
+  top: 551.12px;
+  left: 179.28px;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup_2 .Vector3 {
+  width: 199.615px;
+  height: 265.6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Maskgroup_2 .Screenshot20220823at17061 {
+  width: 198.37px;
+  height: 267.26px;
+  object-fit: cover;
+  position: absolute;
+  top: -2.49px;
+  left: .83px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .Development {
+  width: 1172.79px;
+  height: 1401.87px;
+  position: absolute;
+  top: 8184.63px;
+  left: 170.15px;
+}
+
+.MacBookPro161_MacBookPro161 .Development .TechnologiesUsedProgrammedusingtheMERNtechstackwhichstandsforMongoDBDatabaseusedtostoremoviedataExpressNodejswebframeworkReactJavaScriptframeworkNodejsruntimeenvironmentallowsJavaScripttobeusedontheserversideHTMLCSSReactBootstrap {
+  width: 1168.64px;
+  height: 399.23px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 169.32px;
+  left: 4.15px;
+}
+
+.MacBookPro161_MacBookPro161 .Development .DecisionsmadeandconsequencesAsthelessonsonCareerFoundrywerenotuptodatewiththenewversionsforexampleofReactandReactRouterIhadtorelyonothersourcestoprogramthissiteAsawebdeveloperitisimportanttostayuptodateandcontinuelearningwhichiswhyIchoosetoprogramwiththecurrentversionsIstudiedtheofficialdocumentationtohelpmecompletethetaskswhichwasdifficultattimesbutitgavemetheopportunitytogainmoreexperiencewithreadingdocumentationsIdecidedtoincludemoreviewsandfunctionsthanthelessonstatedtohaveachancetolearnmoreIwantedtomakethepasswordchangefunctionontheuserupdateviewmoresecureTheuserneedstotypeintheiroldpasswordandtheirnewpasswordtheninthebackendtheprogramchecksiftheoldpasswordisthesameasthatwhichissavedinthedatabaseandonlyifitreturnstruethepasswordwillbechangedAconsequenceofthiswasthatIhadtogobacktotheAPItomakeanewendpointwhichhasthelogicbehindittohandlethepasswordcomparisonandchange {
+  width: 1168.64px;
+  height: 790.99px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 610.88px;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Development .Development_1 {
+  width: 398.4px;
+  height: 79.68px;
+  color: #000;
+  font-family: Joan;
+  font-size: 53.12px;
+  font-weight: 400;
+  line-height: 62.25px;
+  position: absolute;
+  top: 12.45px;
+  left: 83px;
+}
+
+.MacBookPro161_MacBookPro161 .Development .Line1 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 0;
+  left: 16.6px;
+}
+
+.MacBookPro161_MacBookPro161 .Development .Line2 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 102.09px;
+  left: 190.9px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide {
+  width: 1177.77px;
+  height: 2052.59px;
+  position: absolute;
+  top: 5990.94px;
+  left: 159.36px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Rectangle10 {
+  width: 215.8px;
+  height: 215.8px;
+  background: #f90606;
+  position: absolute;
+  top: 646.57px;
+  left: 1.66px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Rectangle8 {
+  width: 215.8px;
+  height: 215.8px;
+  background: #0d1a25;
+  position: absolute;
+  top: 353.58px;
+  left: 1.66px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Maskgroup_3 {
+  width: 215.8px;
+  height: 215.8px;
+  position: absolute;
+  top: 1836.79px;
+  left: 3.32px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Maskgroup_3 .Rectangle11 {
+  width: 215.8px;
+  height: 215.8px;
+  box-sizing: border-box;
+  background: #d9d9d9;
+  border: 1px solid #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Maskgroup_3 .movietheater1 {
+  width: 420.81px;
+  height: 283.03px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: -103.75px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Rectangle11_1 {
+  width: 215.8px;
+  height: 215.8px;
+  background: #122535;
+  position: absolute;
+  top: 353.58px;
+  left: 584.32px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Joan {
+  width: 77.19px;
+  height: 51.46px;
+  color: #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1119.67px;
+  left: 69.72px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide ._ {
+  width: 96.28px;
+  height: 102.92px;
+  color: #000;
+  font-family: Font Awesome 5 Free;
+  font-size: 79.68px;
+  font-weight: 400;
+  line-height: 93.375px;
+  position: absolute;
+  top: 1511.43px;
+  left: 665.66px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .BackgroundColor0D1A25 {
+  width: 322.04px;
+  height: 99.6px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 353.58px;
+  left: 222.44px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .ComponentColor122535 {
+  width: 322.04px;
+  height: 99.6px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 353.58px;
+  left: 811.74px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .ButtonColor59A9F0 {
+  width: 322.04px;
+  height: 99.6px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 654.87px;
+  left: 811.74px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .ColorPaletteIorientedthestyleofthewebsiteontheclassicalsimplestyleinadarktheme {
+  width: 1168.64px;
+  height: 249px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 169.32px;
+  left: 9.13px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .__1 {
+  width: 89.64px;
+  height: 83px;
+  color: #000;
+  font-family: Font Awesome 5 Free;
+  font-size: 79.68px;
+  font-weight: 400;
+  line-height: 93.375px;
+  position: absolute;
+  top: 1510.6px;
+  left: 77.19px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Typography, .MacBookPro161_MacBookPro161 .StyleGuide .Typography_1 {
+  width: 1168.64px;
+  height: 249px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 927.11px;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .StyleGuide_1 {
+  width: 398.4px;
+  height: 79.68px;
+  color: #000;
+  font-family: Joan;
+  font-size: 53.12px;
+  font-weight: 400;
+  line-height: 62.25px;
+  position: absolute;
+  top: 12.45px;
+  left: 87.98px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Line1_1 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 0;
+  left: 21.58px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Line2_1 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 102.09px;
+  left: 195.88px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .GoogleFontDesignedbyPaoloBiagini {
+  width: 322.04px;
+  height: 142.76px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1051.61px;
+  left: 246.51px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Maskgroup_4 {
+  width: 215.8px;
+  height: 215.8px;
+  position: absolute;
+  top: 1836.79px;
+  left: 595.11px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Maskgroup_4 .Rectangle12 {
+  width: 215.8px;
+  height: 215.8px;
+  box-sizing: border-box;
+  background: #d9d9d9;
+  border: 1px solid #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Maskgroup_4 .dorisday1 {
+  width: 233.23px;
+  height: 349.43px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: -10.79px;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Icongraphy {
+  width: 1168.64px;
+  height: 249px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1337.96px;
+  left: 4.98px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .FontAwesomeTrashCan {
+  width: 322.04px;
+  height: 142.76px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1444.2px;
+  left: 248.17px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .PixabayFreeImage {
+  width: 322.04px;
+  height: 142.76px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1836.79px;
+  left: 248.17px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Rectangle9 {
+  width: 215.8px;
+  height: 215.8px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  position: absolute;
+  top: 1444.2px;
+  left: 1.66px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .FontAwesomePentoPaper {
+  width: 322.04px;
+  height: 142.76px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1444.2px;
+  left: 839.96px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .TheMovieDBImagesformoviesactorsanddirectors {
+  width: 322.04px;
+  height: 142.76px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1837.62px;
+  left: 834.15px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Rectangle10_1 {
+  width: 215.8px;
+  height: 215.8px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  position: absolute;
+  top: 1444.2px;
+  left: 593.45px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Images {
+  width: 1168.64px;
+  height: 249px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 1730.55px;
+  left: 1.66px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .LinkHoverColorF90606 {
+  width: 322.04px;
+  height: 99.6px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 654.87px;
+  left: 222.44px;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Rectangle8_1 {
+  width: 215.8px;
+  height: 215.8px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  position: absolute;
+  top: 1051.61px;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .StyleGuide .Rectangle7 {
+  width: 215.8px;
+  height: 215.8px;
+  background: #59a9f0;
+  position: absolute;
+  top: 646.57px;
+  left: 590.96px;
+}
+
+.MacBookPro161_MacBookPro161 .Header {
+  width: 1443.37px;
+  height: 249.83px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Header .Rectangle3 {
+  width: 1440.05px;
+  height: 172.64px;
+  background: #0d1a25;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Header .Rectangle4 {
+  width: 747px;
+  height: 170.98px;
+  background: #0d1a25;
+  position: absolute;
+  top: 0;
+  left: 696.37px;
+}
+
+.MacBookPro161_MacBookPro161 .Header .Vector {
+  width: 193.39px;
+  height: 211.65px;
+  position: absolute;
+  top: 38.18px;
+  left: 126.99px;
+}
+
+.MacBookPro161_MacBookPro161 .Header .httpsmyflixmoviedbnetlifyapp {
+  width: 455.67px;
+  height: 63.08px;
+  color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+  font-family: Joan;
+  font-size: 29.88px;
+  font-weight: 400;
+  line-height: 35.0156px;
+  display: flex;
+  position: absolute;
+  top: 53.95px;
+  left: 842.45px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning {
+  width: 1302.69px;
+  height: 4064.82px;
+  position: absolute;
+  top: 1805.25px;
+  left: 65.57px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes {
+  width: 1149.55px;
+  height: 2231.35px;
+  position: absolute;
+  top: 1833.47px;
+  left: 95.45px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 {
+  width: 650.458px;
+  height: 2108.51px;
+  position: absolute;
+  top: 122.84px;
+  left: 229.08px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1_1 {
+  width: 8.1983px;
+  height: 394.674px;
+  position: absolute;
+  top: 0;
+  left: 625.575px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector2_1 {
+  width: 586.619px;
+  height: 10.4638px;
+  position: absolute;
+  top: 2.66184px;
+  left: 40.3997px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector3_1 {
+  width: 568.897px;
+  height: 9.43639px;
+  position: absolute;
+  top: 383.207px;
+  left: 63.2329px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector4_1 {
+  width: 35.3319px;
+  height: 376.386px;
+  position: absolute;
+  top: 13.9471px;
+  left: 31.9971px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector5 {
+  width: 0;
+  height: 2.22171px;
+  position: absolute;
+  top: 39.1899px;
+  left: 431.783px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector6 {
+  width: 5.21544px;
+  height: 311.076px;
+  position: absolute;
+  top: 40.8832px;
+  left: 432.293px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector7 {
+  width: 230.55px;
+  height: 2.60044px;
+  position: absolute;
+  top: 34.8474px;
+  left: 201.662px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector8 {
+  width: 248.134px;
+  height: 3.51737px;
+  position: absolute;
+  top: 352.771px;
+  left: 185.376px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector9 {
+  width: 2.83142px;
+  height: 316.25px;
+  position: absolute;
+  top: 31.8679px;
+  left: 193.683px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector10 {
+  width: 120.618px;
+  height: 37.9182px;
+  position: absolute;
+  top: 301.23px;
+  left: 243.845px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector11 {
+  width: .639142px;
+  height: 33.1943px;
+  position: absolute;
+  top: 250.089px;
+  left: 405.248px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector12 {
+  width: .670892px;
+  height: 32.8146px;
+  position: absolute;
+  top: 253.009px;
+  left: 219.598px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector13 {
+  width: 186.989px;
+  height: 4.92934px;
+  position: absolute;
+  top: 242.648px;
+  left: 219.478px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector14 {
+  width: 186.81px;
+  height: 5.4485px;
+  position: absolute;
+  top: 280.185px;
+  left: 219.218px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector15 {
+  width: 185.544px;
+  height: 4.66956px;
+  position: absolute;
+  top: 214.484px;
+  left: 221.815px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector16 {
+  width: 2.36832px;
+  height: 35.919px;
+  position: absolute;
+  top: 181.11px;
+  left: 404.05px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector17 {
+  width: 3.11581px;
+  height: 35.0671px;
+  position: absolute;
+  top: 177.321px;
+  left: 218.14px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector18 {
+  width: 185.957px;
+  height: 4.78952px;
+  position: absolute;
+  top: 175.511px;
+  left: 218.839px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector19 {
+  width: .92605px;
+  height: 93.219px;
+  position: absolute;
+  top: 60.297px;
+  left: 379.043px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector20 {
+  width: 3.78773px;
+  height: 90.0668px;
+  position: absolute;
+  top: 59.7511px;
+  left: 247.088px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector21 {
+  width: 125.655px;
+  height: 5.40513px;
+  position: absolute;
+  top: 58.3954px;
+  left: 248.455px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector22 {
+  width: 131.076px;
+  height: 6.03857px;
+  position: absolute;
+  top: 145.695px;
+  left: 248.219px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector23 {
+  width: 129.929px;
+  height: 85.7992px;
+  position: absolute;
+  top: 61.1833px;
+  left: 249.797px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector24 {
+  width: 132.651px;
+  height: 88.0931px;
+  position: absolute;
+  top: 63.3568px;
+  left: 245.93px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector25 {
+  width: 12.3734px;
+  height: 23.6627px;
+  position: absolute;
+  top: 309.399px;
+  left: 256.99px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector26 {
+  width: 12.5867px;
+  height: 16.2466px;
+  position: absolute;
+  top: 314.538px;
+  left: 272.156px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector27 {
+  width: 14.1157px;
+  height: 21.5828px;
+  position: absolute;
+  top: 314.64px;
+  left: 289.369px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector28 {
+  width: .923968px;
+  height: 17.8106px;
+  position: absolute;
+  top: 313.851px;
+  left: 312.286px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector29 {
+  width: 1.18549px;
+  height: 1.21258px;
+  position: absolute;
+  top: 308.516px;
+  left: 313.362px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector30 {
+  width: 15.4952px;
+  height: 19.4831px;
+  position: absolute;
+  top: 311.621px;
+  left: 319.396px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector31 {
+  width: 10.0795px;
+  height: 18.6446px;
+  position: absolute;
+  top: 184.132px;
+  left: 233.356px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector32 {
+  width: 10.2025px;
+  height: 15.4737px;
+  position: absolute;
+  top: 186.197px;
+  left: 246.328px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector33 {
+  width: 15.9415px;
+  height: 15.3842px;
+  position: absolute;
+  top: 185.715px;
+  left: 258.423px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector34 {
+  width: 8.42905px;
+  height: 16.0537px;
+  position: absolute;
+  top: 186.496px;
+  left: 277.852px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector35 {
+  width: 14.1883px;
+  height: 18.0829px;
+  position: absolute;
+  top: 185.258px;
+  left: 290.446px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector36 {
+  width: 15.3835px;
+  height: 18.1133px;
+  position: absolute;
+  top: 185.956px;
+  left: 305.132px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector37 {
+  width: 23.3205px;
+  height: 18.4663px;
+  position: absolute;
+  top: 185.01px;
+  left: 324.959px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector38 {
+  width: 15.8219px;
+  height: 21.2149px;
+  position: absolute;
+  top: 188.009px;
+  left: 354.132px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector39 {
+  width: 1.42537px;
+  height: 23.0139px;
+  position: absolute;
+  top: 252.831px;
+  left: 229.928px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector40 {
+  width: 15.4826px;
+  height: 14.5011px;
+  position: absolute;
+  top: 251.611px;
+  left: 229.629px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector41 {
+  width: 13.655px;
+  height: 17.7603px;
+  position: absolute;
+  top: 249.963px;
+  left: 250.194px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector42 {
+  width: 11.5515px;
+  height: 16.8261px;
+  position: absolute;
+  top: 250.435px;
+  left: 268.891px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector43 {
+  width: 9.30583px;
+  height: 18.1437px;
+  position: absolute;
+  top: 250.43px;
+  left: 283.053px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector44 {
+  width: 25.1875px;
+  height: 18.8963px;
+  position: absolute;
+  top: 249.589px;
+  left: 298.178px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector45 {
+  width: 15.1405px;
+  height: 20.5141px;
+  position: absolute;
+  top: 251.74px;
+  left: 324.769px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector46 {
+  width: 8.28618px;
+  height: 16.0817px;
+  position: absolute;
+  top: 256.953px;
+  left: 346.045px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector47 {
+  width: 14.0894px;
+  height: 26.9884px;
+  position: absolute;
+  top: 252.536px;
+  left: 356.502px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector48 {
+  width: 8.1983px;
+  height: 394.674px;
+  position: absolute;
+  top: 438.24px;
+  left: 634.705px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector49 {
+  width: 586.619px;
+  height: 10.4638px;
+  position: absolute;
+  top: 440.902px;
+  left: 49.5297px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector50 {
+  width: 568.897px;
+  height: 9.43639px;
+  position: absolute;
+  top: 821.447px;
+  left: 72.3629px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector51 {
+  width: 35.3319px;
+  height: 376.386px;
+  position: absolute;
+  top: 452.187px;
+  left: 41.1271px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector52 {
+  width: 68.2662px;
+  height: 56.7829px;
+  position: absolute;
+  top: 462.776px;
+  left: 51.7588px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector53 {
+  width: 62.8165px;
+  height: 47.3538px;
+  position: absolute;
+  top: 469.51px;
+  left: 50.9866px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector54 {
+  width: 65.0664px;
+  height: 53.4296px;
+  position: absolute;
+  top: 465.508px;
+  left: 54.5003px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector55 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 465.456px;
+  left: 537.975px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector56 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 464.763px;
+  left: 452.584px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector57 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 466.242px;
+  left: 369.982px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector58 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 467.722px;
+  left: 287.343px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector59 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 467.722px;
+  left: 206.109px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector60 {
+  width: 73.5383px;
+  height: 30.2934px;
+  position: absolute;
+  top: 467.685px;
+  left: 121.676px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector61 {
+  width: 586.466px;
+  height: 5.26572px;
+  position: absolute;
+  top: 538.403px;
+  left: 51.0879px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector62 {
+  width: 1.03518px;
+  height: 26.8011px;
+  position: absolute;
+  top: 556.63px;
+  left: 254.145px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector63 {
+  width: 2.12455px;
+  height: 28.2463px;
+  position: absolute;
+  top: 555.271px;
+  left: 372.763px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector64 {
+  width: 117.081px;
+  height: 1.0602px;
+  position: absolute;
+  top: 556.094px;
+  left: 255.743px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector65 {
+  width: 119.496px;
+  height: 2.70398px;
+  position: absolute;
+  top: 585.4px;
+  left: 256.839px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector66 {
+  width: .0000759888px;
+  height: 0;
+  position: absolute;
+  top: 591.61px;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector67 {
+  width: 1.73834px;
+  height: 142.92px;
+  position: absolute;
+  top: 597.495px;
+  left: 65.3653px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector68 {
+  width: 91.6583px;
+  height: 1.33051px;
+  position: absolute;
+  top: 596.986px;
+  left: 69.5074px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector70 {
+  width: 4.13727px;
+  height: 140.824px;
+  position: absolute;
+  top: 598.458px;
+  left: 156.932px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector71 {
+  width: 97.1586px;
+  height: 2.16376px;
+  position: absolute;
+  top: 743.898px;
+  left: 64.6007px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector72 {
+  width: 1.73833px;
+  height: 142.92px;
+  position: absolute;
+  top: 599.618px;
+  left: 180.048px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector73 {
+  width: 91.6583px;
+  height: 1.33051px;
+  position: absolute;
+  top: 599.11px;
+  left: 184.19px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector74 {
+  width: 4.13727px;
+  height: 140.824px;
+  position: absolute;
+  top: 600.581px;
+  left: 271.615px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector75 {
+  width: 97.1586px;
+  height: 2.16376px;
+  position: absolute;
+  top: 746.021px;
+  left: 179.283px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector76 {
+  width: 1.73833px;
+  height: 142.92px;
+  position: absolute;
+  top: 598.359px;
+  left: 295.798px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector77 {
+  width: 91.6583px;
+  height: 1.33051px;
+  position: absolute;
+  top: 597.85px;
+  left: 299.94px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector78 {
+  width: 4.13727px;
+  height: 140.824px;
+  position: absolute;
+  top: 599.321px;
+  left: 387.365px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector79 {
+  width: 97.1586px;
+  height: 2.16376px;
+  position: absolute;
+  top: 744.761px;
+  left: 295.033px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector80 {
+  width: 1.73834px;
+  height: 142.92px;
+  position: absolute;
+  top: 598.484px;
+  left: 413.625px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector81 {
+  width: 91.6583px;
+  height: 1.33051px;
+  position: absolute;
+  top: 597.975px;
+  left: 417.767px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector82 {
+  width: 4.13727px;
+  height: 140.824px;
+  position: absolute;
+  top: 599.446px;
+  left: 505.192px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector83 {
+  width: 97.1586px;
+  height: 2.16376px;
+  position: absolute;
+  top: 744.887px;
+  left: 412.86px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector84 {
+  width: 1.73833px;
+  height: 142.92px;
+  position: absolute;
+  top: 599.118px;
+  left: 527.155px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector85 {
+  width: 91.6583px;
+  height: 1.33051px;
+  position: absolute;
+  top: 598.61px;
+  left: 531.297px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector86 {
+  width: 4.13726px;
+  height: 140.824px;
+  position: absolute;
+  top: 600.081px;
+  left: 618.722px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector87 {
+  width: 97.1586px;
+  height: 2.16376px;
+  position: absolute;
+  top: 745.521px;
+  left: 526.39px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector88 {
+  width: 1.56023px;
+  height: 44.5335px;
+  position: absolute;
+  top: 780.713px;
+  left: 66.4324px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector89 {
+  width: 93.219px;
+  height: 35.6989px;
+  position: absolute;
+  top: 782.25px;
+  left: 67.7598px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector90 {
+  width: .932838px;
+  height: 40.5201px;
+  position: absolute;
+  top: 783.024px;
+  left: 184.94px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector91 {
+  width: 91.2503px;
+  height: 39.5336px;
+  position: absolute;
+  top: 781.933px;
+  left: 185.278px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector92 {
+  width: 1.56647px;
+  height: 38.0264px;
+  position: absolute;
+  top: 782.416px;
+  left: 293.269px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector93 {
+  width: 95.4115px;
+  height: 38.9362px;
+  position: absolute;
+  top: 780.171px;
+  left: 293.766px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector94 {
+  width: .0000823212px;
+  height: 0;
+  position: absolute;
+  top: 873.863px;
+  left: 413.87px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector95 {
+  width: .601571px;
+  height: 38.1273px;
+  position: absolute;
+  top: 781.522px;
+  left: 412.131px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector96 {
+  width: 94.8984px;
+  height: 44.5262px;
+  position: absolute;
+  top: 778.745px;
+  left: 413.365px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector97 {
+  width: .512367px;
+  height: 42.775px;
+  position: absolute;
+  top: 782.813px;
+  left: 530.935px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector98 {
+  width: 86.9853px;
+  height: 44.3965px;
+  position: absolute;
+  top: 782.312px;
+  left: 532.387px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector99 {
+  width: .0000886536px;
+  height: 0;
+  position: absolute;
+  top: 639.078px;
+  left: 531.821px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector100 {
+  width: 8.75639px;
+  height: 12.6976px;
+  position: absolute;
+  top: 475.12px;
+  left: 127.739px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector101 {
+  width: 6.68776px;
+  height: 9.21876px;
+  position: absolute;
+  top: 478.512px;
+  left: 139.781px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector102 {
+  width: 8.05501px;
+  height: 8.19949px;
+  position: absolute;
+  top: 478.739px;
+  left: 148.841px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector103 {
+  width: .919895px;
+  height: 8.1926px;
+  position: absolute;
+  top: 479.089px;
+  left: 159.805px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector104 {
+  width: 0;
+  height: .566572px;
+  position: absolute;
+  top: 475.921px;
+  left: 160.377px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector105 {
+  width: 7.67713px;
+  height: 10.6968px;
+  position: absolute;
+  top: 477.248px;
+  left: 163.847px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector106 {
+  width: 6.89151px;
+  height: 10.651px;
+  position: absolute;
+  top: 478.642px;
+  left: 174.02px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector107 {
+  width: 9.10891px;
+  height: 14.2993px;
+  position: absolute;
+  top: 476.471px;
+  left: 215.459px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector108 {
+  width: 5.31034px;
+  height: .647222px;
+  position: absolute;
+  top: 484.344px;
+  left: 217.836px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector109 {
+  width: 7.46559px;
+  height: 10.666px;
+  position: absolute;
+  top: 479.432px;
+  left: 226.639px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector110 {
+  width: 1.01434px;
+  height: 12.5388px;
+  position: absolute;
+  top: 476.584px;
+  left: 235.686px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector111 {
+  width: 4.10707px;
+  height: .164136px;
+  position: absolute;
+  top: 482.123px;
+  left: 234.015px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector112 {
+  width: 6.83318px;
+  height: 9.79465px;
+  position: absolute;
+  top: 480.259px;
+  left: 240.303px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector113 {
+  width: 5.05179px;
+  height: 10.3632px;
+  position: absolute;
+  top: 479.891px;
+  left: 249.37px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector114 {
+  width: 8.31357px;
+  height: 10.8005px;
+  position: absolute;
+  top: 479.532px;
+  left: 253.536px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector115 {
+  width: .892333px;
+  height: 11.6767px;
+  position: absolute;
+  top: 476.965px;
+  left: 292.934px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector116 {
+  width: 8.00068px;
+  height: 13.6245px;
+  position: absolute;
+  top: 476.07px;
+  left: 292.823px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector117 {
+  width: 1.00641px;
+  height: 8.85604px;
+  position: absolute;
+  top: 480.211px;
+  left: 303.399px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector118 {
+  width: .377283px;
+  height: .375688px;
+  position: absolute;
+  top: 476.307px;
+  left: 303.416px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector119 {
+  width: 2.9px;
+  height: 8.81956px;
+  position: absolute;
+  top: 479.173px;
+  left: 306.473px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector120 {
+  width: 5.06886px;
+  height: 10.3004px;
+  position: absolute;
+  top: 478.446px;
+  left: 311.378px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector121 {
+  width: 5.07278px;
+  height: 9.76263px;
+  position: absolute;
+  top: 479.147px;
+  left: 318.863px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector122 {
+  width: 1.09243px;
+  height: 12.9084px;
+  position: absolute;
+  top: 475.909px;
+  left: 325.653px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector123 {
+  width: 3.02389px;
+  height: .181563px;
+  position: absolute;
+  top: 482.237px;
+  left: 324.65px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector124 {
+  width: 4.94899px;
+  height: 10.7738px;
+  position: absolute;
+  top: 479.212px;
+  left: 330.304px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector125 {
+  width: 3.61515px;
+  height: 9.23456px;
+  position: absolute;
+  top: 478.852px;
+  left: 337.315px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector126 {
+  width: 6.41663px;
+  height: 11.3209px;
+  position: absolute;
+  top: 479.101px;
+  left: 342.394px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector127 {
+  width: 7.19479px;
+  height: 13.9187px;
+  position: absolute;
+  top: 474.436px;
+  left: 377px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector128 {
+  width: 6.03127px;
+  height: 10.5067px;
+  position: absolute;
+  top: 477.964px;
+  left: 387.601px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector129 {
+  width: 5.93462px;
+  height: 9.81167px;
+  position: absolute;
+  top: 478.295px;
+  left: 396.861px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector130 {
+  width: 5.28328px;
+  height: 10.1703px;
+  position: absolute;
+  top: 478.242px;
+  left: 405.478px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector131 {
+  width: 6.39246px;
+  height: 10.2733px;
+  position: absolute;
+  top: 478.382px;
+  left: 411.338px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector132 {
+  width: 6.78808px;
+  height: 11.1487px;
+  position: absolute;
+  top: 478.948px;
+  left: 419.225px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector133 {
+  width: 7.70581px;
+  height: 14.2514px;
+  position: absolute;
+  top: 471.813px;
+  left: 460.62px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector134 {
+  width: 3.51466px;
+  height: 8.26069px;
+  position: absolute;
+  top: 477.098px;
+  left: 470.256px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector135 {
+  width: 4.8213px;
+  height: 8.61247px;
+  position: absolute;
+  top: 477.471px;
+  left: 475.286px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector136 {
+  width: 3.60389px;
+  height: 13.8275px;
+  position: absolute;
+  top: 473.1px;
+  left: 482.888px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector137 {
+  width: 3.35384px;
+  height: .663838px;
+  position: absolute;
+  top: 480.755px;
+  left: 483.244px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector138 {
+  width: .0915538px;
+  height: 8.72311px;
+  position: absolute;
+  top: 478.425px;
+  left: 490.453px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector139 {
+  width: .554148px;
+  height: .0757861px;
+  position: absolute;
+  top: 475.203px;
+  left: 490.896px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector140 {
+  width: .852784px;
+  height: 10.5408px;
+  position: absolute;
+  top: 474.48px;
+  left: 494.246px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector141 {
+  width: 6.59684px;
+  height: 9.83275px;
+  position: absolute;
+  top: 476.215px;
+  left: 497.802px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector142 {
+  width: 6.13911px;
+  height: 13.3367px;
+  position: absolute;
+  top: 472.53px;
+  left: 545.293px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector143 {
+  width: 6.22657px;
+  height: 9.43558px;
+  position: absolute;
+  top: 476.645px;
+  left: 553.352px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector144 {
+  width: 5.54617px;
+  height: 15.1224px;
+  position: absolute;
+  top: 476.702px;
+  left: 562.743px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector145 {
+  width: 5.16556px;
+  height: 9.92798px;
+  position: absolute;
+  top: 477.533px;
+  left: 571.398px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector146 {
+  width: 5.15044px;
+  height: 9.63092px;
+  position: absolute;
+  top: 477.092px;
+  left: 579.877px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector147 {
+  width: 1.00738px;
+  height: 12.7284px;
+  position: absolute;
+  top: 473.378px;
+  left: 588.456px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector148 {
+  width: 5.13626px;
+  height: .677212px;
+  position: absolute;
+  top: 479.622px;
+  left: 587.038px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector149 {
+  width: 8.43365px;
+  height: 16.0229px;
+  position: absolute;
+  top: 562.318px;
+  left: 262.189px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector150 {
+  width: 6.77627px;
+  height: 10.8212px;
+  position: absolute;
+  top: 566.569px;
+  left: 273.158px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector151 {
+  width: 6.6497px;
+  height: 10.9955px;
+  position: absolute;
+  top: 566.793px;
+  left: 282.599px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector152 {
+  width: 3.53115px;
+  height: 10.2084px;
+  position: absolute;
+  top: 567.026px;
+  left: 293.142px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector153 {
+  width: 5.74817px;
+  height: 10.8281px;
+  position: absolute;
+  top: 567.011px;
+  left: 298.793px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector154 {
+  width: 7.16175px;
+  height: 14.0699px;
+  position: absolute;
+  top: 564.459px;
+  left: 306.094px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector155 {
+  width: 9.39603px;
+  height: .817437px;
+  position: absolute;
+  top: 563.816px;
+  left: 317.858px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector156 {
+  width: .36105px;
+  height: 11.5933px;
+  position: absolute;
+  top: 565.356px;
+  left: 322.402px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector157 {
+  width: 7.18739px;
+  height: 1.14895px;
+  position: absolute;
+  top: 577.824px;
+  left: 319.022px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector158 {
+  width: 6.12197px;
+  height: 10.9144px;
+  position: absolute;
+  top: 567.929px;
+  left: 328.608px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector159 {
+  width: 7.02221px;
+  height: 14.0063px;
+  position: absolute;
+  top: 568.383px;
+  left: 338.002px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector160 {
+  width: 6.93411px;
+  height: 9.67712px;
+  position: absolute;
+  top: 565.774px;
+  left: 347.213px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector161 {
+  width: 1.45667px;
+  height: 13.0121px;
+  position: absolute;
+  top: 562.601px;
+  left: 358.077px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector162 {
+  width: 5.5301px;
+  height: .512671px;
+  position: absolute;
+  top: 568.883px;
+  left: 355.831px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector208 {
+  width: 68.433px;
+  height: 77.7983px;
+  position: absolute;
+  top: 630.886px;
+  left: 77.0052px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector209 {
+  width: 1.5959px;
+  height: 68.9005px;
+  position: absolute;
+  top: 633.105px;
+  left: 258.005px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector210 {
+  width: 1.03438px;
+  height: 64.4105px;
+  position: absolute;
+  top: 636.812px;
+  left: 199.764px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector211 {
+  width: 57.6201px;
+  height: 3.26975px;
+  position: absolute;
+  top: 633.163px;
+  left: 201.547px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector212 {
+  width: 55.0272px;
+  height: 1.27904px;
+  position: absolute;
+  top: 701.886px;
+  left: 202.68px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector213 {
+  width: 1.97342px;
+  height: 71.9328px;
+  position: absolute;
+  top: 630.51px;
+  left: 314.864px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector214 {
+  width: 1.91214px;
+  height: 65.5635px;
+  position: absolute;
+  top: 633.42px;
+  left: 372.851px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector215 {
+  width: 58.4131px;
+  height: 1.74268px;
+  position: absolute;
+  top: 632.454px;
+  left: 315.94px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector216 {
+  width: 57.3194px;
+  height: 1.67783px;
+  position: absolute;
+  top: 700.199px;
+  left: 315.36px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector217 {
+  width: 66.1662px;
+  height: 72.0763px;
+  position: absolute;
+  top: 634.448px;
+  left: 77.7556px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector218 {
+  width: 65.4499px;
+  height: 75.4777px;
+  position: absolute;
+  top: 632.859px;
+  left: 76.8785px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector219 {
+  width: 52.329px;
+  height: 69.5972px;
+  position: absolute;
+  top: 634.429px;
+  left: 205.588px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector220 {
+  width: 62.1358px;
+  height: 74.7207px;
+  position: absolute;
+  top: 636.459px;
+  left: 199.965px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector221 {
+  width: 56.924px;
+  height: 70.8086px;
+  position: absolute;
+  top: 633.23px;
+  left: 314.345px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector222 {
+  width: 60.9381px;
+  height: 67.1372px;
+  position: absolute;
+  top: 634.657px;
+  left: 313.856px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector223 {
+  width: 1.97343px;
+  height: 71.9328px;
+  position: absolute;
+  top: 629.873px;
+  left: 434.559px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector224 {
+  width: 1.91214px;
+  height: 65.5635px;
+  position: absolute;
+  top: 632.783px;
+  left: 492.546px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector225 {
+  width: 58.4131px;
+  height: 1.74268px;
+  position: absolute;
+  top: 631.817px;
+  left: 435.636px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector226 {
+  width: 57.3194px;
+  height: 1.67783px;
+  position: absolute;
+  top: 699.561px;
+  left: 435.055px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector227 {
+  width: 56.924px;
+  height: 70.8086px;
+  position: absolute;
+  top: 632.592px;
+  left: 434.04px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector228 {
+  width: 60.9381px;
+  height: 67.1372px;
+  position: absolute;
+  top: 634.019px;
+  left: 433.552px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector229 {
+  width: .841196px;
+  height: 66.6979px;
+  position: absolute;
+  top: 633.66px;
+  left: 547.591px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector230 {
+  width: .670753px;
+  height: 69.9672px;
+  position: absolute;
+  top: 629.858px;
+  left: 605.725px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector231 {
+  width: 56.9084px;
+  height: 3.54331px;
+  position: absolute;
+  top: 629.241px;
+  left: 547.685px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector232 {
+  width: 58.6874px;
+  height: 1.57935px;
+  position: absolute;
+  top: 700.783px;
+  left: 547.891px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector233 {
+  width: 54.7126px;
+  height: 64.8587px;
+  position: absolute;
+  top: 635.02px;
+  left: 549.997px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector234 {
+  width: 55.0809px;
+  height: 66.7919px;
+  position: absolute;
+  top: 633.288px;
+  left: 549.516px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector235 {
+  width: 15.0049px;
+  height: .788257px;
+  position: absolute;
+  top: 610.252px;
+  left: 80.1775px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector236 {
+  width: .822756px;
+  height: 13.1921px;
+  position: absolute;
+  top: 611.515px;
+  left: 87.9943px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector237 {
+  width: .0716827px;
+  height: 7.41569px;
+  position: absolute;
+  top: 616.706px;
+  left: 96.3213px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector238 {
+  width: .302638px;
+  height: 0;
+  position: absolute;
+  top: 613.297px;
+  left: 97.0301px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector239 {
+  width: .334148px;
+  height: 13.3631px;
+  position: absolute;
+  top: 612.002px;
+  left: 102.231px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector240 {
+  width: 5.82695px;
+  height: .564141px;
+  position: absolute;
+  top: 618.256px;
+  left: 99.0531px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector241 {
+  width: .893172px;
+  height: 12.6287px;
+  position: absolute;
+  top: 611.673px;
+  left: 108.609px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector242 {
+  width: 8.14574px;
+  height: 13.1402px;
+  position: absolute;
+  top: 611.013px;
+  left: 112.331px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector243 {
+  width: 12.5328px;
+  height: .635874px;
+  position: absolute;
+  top: 610.33px;
+  left: 194.423px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector244 {
+  width: .97733px;
+  height: 12.8804px;
+  position: absolute;
+  top: 611.128px;
+  left: 200.359px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector245 {
+  width: .361694px;
+  height: 7.61752px;
+  position: absolute;
+  top: 616.342px;
+  left: 207.097px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector246 {
+  width: 0;
+  height: .0486328px;
+  position: absolute;
+  top: 613.848px;
+  left: 207.847px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector247 {
+  width: .797679px;
+  height: 13.498px;
+  position: absolute;
+  top: 611.105px;
+  left: 212.431px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector248 {
+  width: 4.81479px;
+  height: .583999px;
+  position: absolute;
+  top: 618.012px;
+  left: 210.448px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector249 {
+  width: .433959px;
+  height: 13.1187px;
+  position: absolute;
+  top: 611.747px;
+  left: 219.187px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector250 {
+  width: 8.69536px;
+  height: 12.5404px;
+  position: absolute;
+  top: 611.887px;
+  left: 223.505px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector251 {
+  width: 11.967px;
+  height: .668701px;
+  position: absolute;
+  top: 609.781px;
+  left: 310.777px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector252 {
+  width: 1.13404px;
+  height: 12.4812px;
+  position: absolute;
+  top: 611.062px;
+  left: 316.194px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector253 {
+  width: .10478px;
+  height: 8.06535px;
+  position: absolute;
+  top: 615.174px;
+  left: 322.688px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector254 {
+  width: .176472px;
+  height: .161299px;
+  position: absolute;
+  top: 612.534px;
+  left: 323.058px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector255 {
+  width: .0716918px;
+  height: 13.2273px;
+  position: absolute;
+  top: 610.222px;
+  left: 327.492px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector256 {
+  width: 4.53865px;
+  height: .471333px;
+  position: absolute;
+  top: 617.259px;
+  left: 325.247px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector257 {
+  width: .790996px;
+  height: 13.7266px;
+  position: absolute;
+  top: 610.551px;
+  left: 332.45px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector258 {
+  width: 7.21882px;
+  height: 12.0054px;
+  position: absolute;
+  top: 611.485px;
+  left: 335.516px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector259 {
+  width: 12.4788px;
+  height: 1.19758px;
+  position: absolute;
+  top: 608.506px;
+  left: 430.681px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector260 {
+  width: .588457px;
+  height: 10.7693px;
+  position: absolute;
+  top: 610.607px;
+  left: 437.446px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector261 {
+  width: .239833px;
+  height: 6.71052px;
+  position: absolute;
+  top: 615.301px;
+  left: 443.822px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector262 {
+  width: 0;
+  height: .126851px;
+  position: absolute;
+  top: 612.814px;
+  left: 444.286px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector263 {
+  width: .951417px;
+  height: 12.0427px;
+  position: absolute;
+  top: 610.476px;
+  left: 448.096px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector264 {
+  width: 3.83057px;
+  height: .981978px;
+  position: absolute;
+  top: 615.32px;
+  left: 447.165px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector265 {
+  width: .996251px;
+  height: 12.0978px;
+  position: absolute;
+  top: 610.466px;
+  left: 453.825px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector266 {
+  width: 6.5788px;
+  height: 11.2755px;
+  position: absolute;
+  top: 611.478px;
+  left: 457.517px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector267 {
+  width: 12.8344px;
+  height: .925239px;
+  position: absolute;
+  top: 607.84px;
+  left: 547.202px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector268 {
+  width: 1.00974px;
+  height: 14.7203px;
+  position: absolute;
+  top: 608.756px;
+  left: 552.761px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector269 {
+  width: .350764px;
+  height: 9.7602px;
+  position: absolute;
+  top: 614.139px;
+  left: 559.75px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector270 {
+  width: .03189px;
+  height: .183184px;
+  position: absolute;
+  top: 611.382px;
+  left: 559.936px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector271 {
+  width: .709254px;
+  height: 12.8006px;
+  position: absolute;
+  top: 610.043px;
+  left: 564.288px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector272 {
+  width: 4.32067px;
+  height: .338809px;
+  position: absolute;
+  top: 616.911px;
+  left: 562.789px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector273 {
+  width: .0478223px;
+  height: 14.035px;
+  position: absolute;
+  top: 609.946px;
+  left: 570.724px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector274 {
+  width: 8.57224px;
+  height: 12.4407px;
+  position: absolute;
+  top: 610.855px;
+  left: 574.152px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector275 {
+  width: 15.8865px;
+  height: .894844px;
+  position: absolute;
+  top: 793.553px;
+  left: 541.917px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector276 {
+  width: 1.38902px;
+  height: 15.0608px;
+  position: absolute;
+  top: 794.261px;
+  left: 549.326px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector277 {
+  width: .525513px;
+  height: 8.98451px;
+  position: absolute;
+  top: 800.43px;
+  left: 557.39px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector278 {
+  width: .325435px;
+  height: .202231px;
+  position: absolute;
+  top: 797.444px;
+  left: 557.271px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector279 {
+  width: .706417px;
+  height: 17.0835px;
+  position: absolute;
+  top: 794.522px;
+  left: 563.097px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector280 {
+  width: 4.28615px;
+  height: .701934px;
+  position: absolute;
+  top: 802.651px;
+  left: 562.161px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector281 {
+  width: .730227px;
+  height: 13.6999px;
+  position: absolute;
+  top: 795.699px;
+  left: 569.098px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector282 {
+  width: 8.73962px;
+  height: 12.9448px;
+  position: absolute;
+  top: 796.728px;
+  left: 573.432px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector283 {
+  width: 12.025px;
+  height: 1.07479px;
+  position: absolute;
+  top: 792.198px;
+  left: 427.719px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector284 {
+  width: 1.1912px;
+  height: 14.0691px;
+  position: absolute;
+  top: 793.657px;
+  left: 433.362px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector285 {
+  width: 1.95016px;
+  height: 10.3568px;
+  position: absolute;
+  top: 798.152px;
+  left: 440.04px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector286 {
+  width: .324637px;
+  height: .134146px;
+  position: absolute;
+  top: 794.501px;
+  left: 439.443px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector287 {
+  width: 2.49232px;
+  height: 15.6545px;
+  position: absolute;
+  top: 793.102px;
+  left: 444.689px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector288 {
+  width: 4.43695px;
+  height: .0239111px;
+  position: absolute;
+  top: 800.574px;
+  left: 444.689px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector289 {
+  width: 1.35827px;
+  height: 14.1497px;
+  position: absolute;
+  top: 793.879px;
+  left: 451.95px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector290 {
+  width: 11.3492px;
+  height: 14.6818px;
+  position: absolute;
+  top: 795.696px;
+  left: 456.659px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector291 {
+  width: 14.5253px;
+  height: .598994px;
+  position: absolute;
+  top: 793.144px;
+  left: 305.613px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector292 {
+  width: .972633px;
+  height: 15.3631px;
+  position: absolute;
+  top: 794.225px;
+  left: 313.316px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector293 {
+  width: .521992px;
+  height: 9.29292px;
+  position: absolute;
+  top: 800.794px;
+  left: 320.093px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector294 {
+  width: .618915px;
+  height: .0774072px;
+  position: absolute;
+  top: 796.498px;
+  left: 320.298px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector295 {
+  width: .484175px;
+  height: 15.1544px;
+  position: absolute;
+  top: 794.784px;
+  left: 325.48px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector296 {
+  width: 6.60383px;
+  height: .529692px;
+  position: absolute;
+  top: 802.561px;
+  left: 322.234px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector297 {
+  width: .560613px;
+  height: 14.5368px;
+  position: absolute;
+  top: 794.552px;
+  left: 331.814px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector298 {
+  width: 10.126px;
+  height: 12.1347px;
+  position: absolute;
+  top: 796.902px;
+  left: 335.579px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector299 {
+  width: 14.2475px;
+  height: .803252px;
+  position: absolute;
+  top: 794.118px;
+  left: 194.858px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector300 {
+  width: 1.0221px;
+  height: 15.2857px;
+  position: absolute;
+  top: 795.457px;
+  left: 201.075px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector301 {
+  width: .153459px;
+  height: 9.5758px;
+  position: absolute;
+  top: 801.113px;
+  left: 208.27px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector302 {
+  width: 0;
+  height: .202231px;
+  position: absolute;
+  top: 797.955px;
+  left: 208.606px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector303 {
+  width: 1.15884px;
+  height: 16.1323px;
+  position: absolute;
+  top: 793.574px;
+  left: 214.479px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector304 {
+  width: 5.67517px;
+  height: .626147px;
+  position: absolute;
+  top: 802.232px;
+  left: 212.836px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector305 {
+  width: .609018px;
+  height: 14.7264px;
+  position: absolute;
+  top: 794.951px;
+  left: 221.988px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector306 {
+  width: 10.097px;
+  height: 13.5702px;
+  position: absolute;
+  top: 796.212px;
+  left: 225.964px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector307 {
+  width: 13.774px;
+  height: 1.54166px;
+  position: absolute;
+  top: 792.362px;
+  left: 77.0984px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector308 {
+  width: .198432px;
+  height: 13.9941px;
+  position: absolute;
+  top: 792.976px;
+  left: 84.0463px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector309 {
+  width: .0238098px;
+  height: 9.73588px;
+  position: absolute;
+  top: 799.273px;
+  left: 91.5311px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector310 {
+  width: .0793829px;
+  height: .226143px;
+  position: absolute;
+  top: 796.688px;
+  left: 92.0074px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector311 {
+  width: .309553px;
+  height: 16.0132px;
+  position: absolute;
+  top: 794.768px;
+  left: 97.3015px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector312 {
+  width: 6.90545px;
+  height: .6071px;
+  position: absolute;
+  top: 802.347px;
+  left: 93.8012px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector313 {
+  width: 1.09664px;
+  height: 12.9594px;
+  position: absolute;
+  top: 795.903px;
+  left: 103.801px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector314 {
+  width: 10.3309px;
+  height: 13.1989px;
+  position: absolute;
+  top: 796.486px;
+  left: 107.925px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector315 {
+  width: 64.9063px;
+  height: 26.0984px;
+  position: absolute;
+  top: 713.662px;
+  left: 79.5913px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector316 {
+  width: .427601px;
+  height: 23.0207px;
+  position: absolute;
+  top: 714.817px;
+  left: 197.9px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector317 {
+  width: .79811px;
+  height: 22.2037px;
+  position: absolute;
+  top: 715.081px;
+  left: 256.204px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector318 {
+  width: 57.7113px;
+  height: 1.93032px;
+  position: absolute;
+  top: 713.012px;
+  left: 198.732px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector319 {
+  width: 55.5087px;
+  height: 1.48006px;
+  position: absolute;
+  top: 737.496px;
+  left: 200.013px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector320 {
+  width: 57.8884px;
+  height: 19.4454px;
+  position: absolute;
+  top: 713.252px;
+  left: 314.261px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector321 {
+  width: 60.5395px;
+  height: 20.7557px;
+  position: absolute;
+  top: 714.007px;
+  left: 314.18px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector322 {
+  width: 59.705px;
+  height: 20.3066px;
+  position: absolute;
+  top: 714.058px;
+  left: 432.558px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector323 {
+  width: .568029px;
+  height: 20.166px;
+  position: absolute;
+  top: 716.687px;
+  left: 492.411px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector324 {
+  width: 60.1064px;
+  height: 3.00105px;
+  position: absolute;
+  top: 735.65px;
+  left: 432.905px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector325 {
+  width: 61.7022px;
+  height: 24.7983px;
+  position: absolute;
+  top: 714.201px;
+  left: 544.481px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector326 {
+  width: .0000759888px;
+  height: 0;
+  position: absolute;
+  top: 810.841px;
+  left: 636.031px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector327 {
+  width: 8.86404px;
+  height: 13.5171px;
+  position: absolute;
+  top: 719.095px;
+  left: 86.0701px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector328 {
+  width: 5.96796px;
+  height: 9.85301px;
+  position: absolute;
+  top: 722.677px;
+  left: 97.0013px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector329 {
+  width: .241138px;
+  height: 11.6427px;
+  position: absolute;
+  top: 720.473px;
+  left: 105.941px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector330 {
+  width: 3.45493px;
+  height: .543472px;
+  position: absolute;
+  top: 726.307px;
+  left: 104.223px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector331 {
+  width: 6.74481px;
+  height: 9.55878px;
+  position: absolute;
+  top: 723.431px;
+  left: 110.35px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector332 {
+  width: .222698px;
+  height: 9.50123px;
+  position: absolute;
+  top: 723.65px;
+  left: 120.918px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector333 {
+  width: .0412746px;
+  height: .205068px;
+  position: absolute;
+  top: 720.512px;
+  left: 121.625px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector334 {
+  width: .585367px;
+  height: 12.9351px;
+  position: absolute;
+  top: 720.087px;
+  left: 125.162px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector335 {
+  width: 5.50432px;
+  height: 11.0324px;
+  position: absolute;
+  top: 722.982px;
+  left: 129.196px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector336 {
+  width: 4.8874px;
+  height: 11.9471px;
+  position: absolute;
+  top: 794.948px;
+  left: 122.093px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector337 {
+  width: 7.82139px;
+  height: 14.108px;
+  position: absolute;
+  top: 719.502px;
+  left: 201.446px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector338 {
+  width: 5.95613px;
+  height: 10.326px;
+  position: absolute;
+  top: 722.3px;
+  left: 211.764px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector339 {
+  width: .312428px;
+  height: 13.2792px;
+  position: absolute;
+  top: 719.393px;
+  left: 220.388px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector340 {
+  width: 4.11443px;
+  height: .583594px;
+  position: absolute;
+  top: 725.424px;
+  left: 218.363px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector341 {
+  width: 6.02446px;
+  height: 10.2044px;
+  position: absolute;
+  top: 722.682px;
+  left: 224.516px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector342 {
+  width: .220868px;
+  height: 10.0719px;
+  position: absolute;
+  top: 722.745px;
+  left: 233.728px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector343 {
+  width: .628199px;
+  height: .213174px;
+  position: absolute;
+  top: 719.809px;
+  left: 233.445px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector344 {
+  width: .305614px;
+  height: 13.3943px;
+  position: absolute;
+  top: 718.96px;
+  left: 238.159px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector345 {
+  width: 6.79371px;
+  height: 11.1094px;
+  position: absolute;
+  top: 722.619px;
+  left: 241.414px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector346 {
+  width: .28104px;
+  height: 11.5754px;
+  position: absolute;
+  top: 718.224px;
+  left: 319.513px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector347 {
+  width: 7.50001px;
+  height: 13.0182px;
+  position: absolute;
+  top: 717.64px;
+  left: 319.387px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector348 {
+  width: 5.6523px;
+  height: 9.15756px;
+  position: absolute;
+  top: 720.342px;
+  left: 329.302px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector349 {
+  width: .335774px;
+  height: 10.3628px;
+  position: absolute;
+  top: 718.531px;
+  left: 337.944px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector350 {
+  width: 2.63868px;
+  height: .456338px;
+  position: absolute;
+  top: 723.51px;
+  left: 337.05px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector351 {
+  width: 5.28724px;
+  height: 9.22038px;
+  position: absolute;
+  top: 720.254px;
+  left: 342.578px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector352 {
+  width: .482526px;
+  height: 8.88319px;
+  position: absolute;
+  top: 720.577px;
+  left: 351.043px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector353 {
+  width: .317337px;
+  height: .0425537px;
+  position: absolute;
+  top: 717.644px;
+  left: 351.856px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector354 {
+  width: 1.28321px;
+  height: 11.926px;
+  position: absolute;
+  top: 716.966px;
+  left: 355.033px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector355 {
+  width: 5.74384px;
+  height: 10.1371px;
+  position: absolute;
+  top: 719.535px;
+  left: 358.498px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector356 {
+  width: .139617px;
+  height: 11.0109px;
+  position: absolute;
+  top: 720.586px;
+  left: 437.596px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector357 {
+  width: 7.22061px;
+  height: 12.1286px;
+  position: absolute;
+  top: 719.833px;
+  left: 437.221px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector358 {
+  width: 5.90624px;
+  height: 9.98634px;
+  position: absolute;
+  top: 721.922px;
+  left: 446.632px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector359 {
+  width: .205056px;
+  height: 12.2907px;
+  position: absolute;
+  top: 719.003px;
+  left: 455.628px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector360 {
+  width: 3.35579px;
+  height: .279639px;
+  position: absolute;
+  top: 725.278px;
+  left: 453.878px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector361 {
+  width: 6.12407px;
+  height: 9.62443px;
+  position: absolute;
+  top: 721.571px;
+  left: 459.661px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector362 {
+  width: .167175px;
+  height: 10.1951px;
+  position: absolute;
+  top: 721.348px;
+  left: 469.623px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector363 {
+  width: 0;
+  height: .205879px;
+  position: absolute;
+  top: 718.212px;
+  left: 469.986px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector364 {
+  width: .400423px;
+  height: 13.2605px;
+  position: absolute;
+  top: 717.904px;
+  left: 473.547px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector365 {
+  width: 5.93797px;
+  height: 10.2376px;
+  position: absolute;
+  top: 721.66px;
+  left: 476.64px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector366 {
+  width: .15137px;
+  height: 10.5152px;
+  position: absolute;
+  top: 718.994px;
+  left: 550.064px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector367 {
+  width: 8.33285px;
+  height: 12.6328px;
+  position: absolute;
+  top: 717.756px;
+  left: 549.376px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector368 {
+  width: 5.81332px;
+  height: 9.0611px;
+  position: absolute;
+  top: 721.418px;
+  left: 559.806px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector369 {
+  width: .384934px;
+  height: 13.1029px;
+  position: absolute;
+  top: 718.736px;
+  left: 568.748px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector370 {
+  width: 3.10536px;
+  height: .478628px;
+  position: absolute;
+  top: 725.003px;
+  left: 567.498px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector371 {
+  width: 4.87126px;
+  height: 9.44368px;
+  position: absolute;
+  top: 722.503px;
+  left: 573.778px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector372 {
+  width: 5.97398px;
+  height: 4.33926px;
+  position: absolute;
+  top: 727.365px;
+  left: 572.189px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector373 {
+  width: 1.07261px;
+  height: 9.84045px;
+  position: absolute;
+  top: 722.739px;
+  left: 581.139px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector374 {
+  width: .125432px;
+  height: .152383px;
+  position: absolute;
+  top: 720.028px;
+  left: 582.678px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector375 {
+  width: .942463px;
+  height: 11.7011px;
+  position: absolute;
+  top: 719.973px;
+  left: 585.252px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector376 {
+  width: 5.28953px;
+  height: 10.2161px;
+  position: absolute;
+  top: 722.451px;
+  left: 588.63px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector377 {
+  width: 16.3397px;
+  height: 786.607px;
+  position: absolute;
+  top: 879.755px;
+  left: 634.118px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector378 {
+  width: 586.619px;
+  height: 10.4638px;
+  position: absolute;
+  top: 876.586px;
+  left: 47.5603px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector379 {
+  width: 583.282px;
+  height: 9.67509px;
+  position: absolute;
+  top: 1642.39px;
+  left: 56.2902px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector380 {
+  width: 71.0873px;
+  height: 757.284px;
+  position: absolute;
+  top: 887.871px;
+  left: 39.1577px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector381 {
+  width: 68.2662px;
+  height: 56.7829px;
+  position: absolute;
+  top: 898.46px;
+  left: 49.7893px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector382 {
+  width: 62.8165px;
+  height: 47.3538px;
+  position: absolute;
+  top: 905.194px;
+  left: 49.0172px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector383 {
+  width: 65.0664px;
+  height: 53.4296px;
+  position: absolute;
+  top: 901.192px;
+  left: 52.5309px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector384 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 901.14px;
+  left: 536.005px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector385 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 900.447px;
+  left: 450.615px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector386 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 901.927px;
+  left: 368.013px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector387 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 903.406px;
+  left: 285.373px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector388 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 903.406px;
+  left: 204.139px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector389 {
+  width: 73.5383px;
+  height: 30.2934px;
+  position: absolute;
+  top: 903.369px;
+  left: 119.707px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector390 {
+  width: 586.466px;
+  height: 5.26572px;
+  position: absolute;
+  top: 974.088px;
+  left: 49.1185px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector428 {
+  width: 8.75639px;
+  height: 12.6976px;
+  position: absolute;
+  top: 910.804px;
+  left: 125.769px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector429 {
+  width: 6.68776px;
+  height: 9.21876px;
+  position: absolute;
+  top: 914.196px;
+  left: 137.811px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector430 {
+  width: 8.05501px;
+  height: 8.19949px;
+  position: absolute;
+  top: 914.423px;
+  left: 146.872px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector431 {
+  width: .919895px;
+  height: 8.1926px;
+  position: absolute;
+  top: 914.773px;
+  left: 157.835px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector432 {
+  width: 0;
+  height: .566572px;
+  position: absolute;
+  top: 911.605px;
+  left: 158.407px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector433 {
+  width: 7.67713px;
+  height: 10.6968px;
+  position: absolute;
+  top: 912.932px;
+  left: 161.878px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector434 {
+  width: 6.89151px;
+  height: 10.651px;
+  position: absolute;
+  top: 914.326px;
+  left: 172.051px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector435 {
+  width: 9.10891px;
+  height: 14.2993px;
+  position: absolute;
+  top: 912.155px;
+  left: 213.49px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector436 {
+  width: 5.31035px;
+  height: .647222px;
+  position: absolute;
+  top: 920.029px;
+  left: 215.866px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector437 {
+  width: 7.46559px;
+  height: 10.666px;
+  position: absolute;
+  top: 915.116px;
+  left: 224.67px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector438 {
+  width: 1.01434px;
+  height: 12.5388px;
+  position: absolute;
+  top: 912.268px;
+  left: 233.717px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector439 {
+  width: 4.10707px;
+  height: .164136px;
+  position: absolute;
+  top: 917.807px;
+  left: 232.046px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector440 {
+  width: 6.83318px;
+  height: 9.79465px;
+  position: absolute;
+  top: 915.943px;
+  left: 238.334px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector441 {
+  width: 5.05179px;
+  height: 10.3632px;
+  position: absolute;
+  top: 915.575px;
+  left: 247.4px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector442 {
+  width: 8.31357px;
+  height: 10.8005px;
+  position: absolute;
+  top: 915.216px;
+  left: 251.567px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector443 {
+  width: .892333px;
+  height: 11.6767px;
+  position: absolute;
+  top: 912.649px;
+  left: 290.964px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector444 {
+  width: 8.00068px;
+  height: 13.6245px;
+  position: absolute;
+  top: 911.754px;
+  left: 290.854px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector445 {
+  width: 1.00641px;
+  height: 8.85604px;
+  position: absolute;
+  top: 915.895px;
+  left: 301.429px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector446 {
+  width: .377283px;
+  height: .375688px;
+  position: absolute;
+  top: 911.991px;
+  left: 301.446px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector447 {
+  width: 2.9px;
+  height: 8.81956px;
+  position: absolute;
+  top: 914.857px;
+  left: 304.504px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector448 {
+  width: 5.06886px;
+  height: 10.3004px;
+  position: absolute;
+  top: 914.13px;
+  left: 309.409px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector449 {
+  width: 5.07278px;
+  height: 9.76263px;
+  position: absolute;
+  top: 914.831px;
+  left: 316.893px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector450 {
+  width: 1.09243px;
+  height: 12.9084px;
+  position: absolute;
+  top: 911.594px;
+  left: 323.683px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector451 {
+  width: 3.02389px;
+  height: .181563px;
+  position: absolute;
+  top: 917.921px;
+  left: 322.681px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector452 {
+  width: 4.94899px;
+  height: 10.7738px;
+  position: absolute;
+  top: 914.895px;
+  left: 328.335px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector453 {
+  width: 3.61515px;
+  height: 9.23456px;
+  position: absolute;
+  top: 914.536px;
+  left: 335.345px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector454 {
+  width: 6.41663px;
+  height: 11.3209px;
+  position: absolute;
+  top: 914.785px;
+  left: 340.425px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector455 {
+  width: 7.19479px;
+  height: 13.9187px;
+  position: absolute;
+  top: 910.12px;
+  left: 375.031px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector456 {
+  width: 6.03127px;
+  height: 10.5067px;
+  position: absolute;
+  top: 913.648px;
+  left: 385.631px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector457 {
+  width: 5.93462px;
+  height: 9.81167px;
+  position: absolute;
+  top: 913.98px;
+  left: 394.892px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector458 {
+  width: 5.28328px;
+  height: 10.1703px;
+  position: absolute;
+  top: 913.926px;
+  left: 403.509px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector459 {
+  width: 6.39246px;
+  height: 10.2733px;
+  position: absolute;
+  top: 914.066px;
+  left: 409.369px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector460 {
+  width: 6.78808px;
+  height: 11.1487px;
+  position: absolute;
+  top: 914.632px;
+  left: 417.255px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector461 {
+  width: 7.70581px;
+  height: 14.2514px;
+  position: absolute;
+  top: 907.497px;
+  left: 458.651px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector462 {
+  width: 3.51466px;
+  height: 8.26069px;
+  position: absolute;
+  top: 912.782px;
+  left: 468.287px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector463 {
+  width: 4.8213px;
+  height: 8.61247px;
+  position: absolute;
+  top: 913.156px;
+  left: 473.317px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector464 {
+  width: 3.60389px;
+  height: 13.8275px;
+  position: absolute;
+  top: 908.785px;
+  left: 480.919px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector465 {
+  width: 3.35384px;
+  height: .663838px;
+  position: absolute;
+  top: 916.439px;
+  left: 481.275px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector466 {
+  width: .0915538px;
+  height: 8.72311px;
+  position: absolute;
+  top: 914.109px;
+  left: 488.484px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector467 {
+  width: .554148px;
+  height: .0757861px;
+  position: absolute;
+  top: 910.887px;
+  left: 488.927px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector468 {
+  width: .852784px;
+  height: 10.5408px;
+  position: absolute;
+  top: 910.164px;
+  left: 492.276px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector469 {
+  width: 6.59684px;
+  height: 9.83275px;
+  position: absolute;
+  top: 911.898px;
+  left: 495.832px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector470 {
+  width: 6.13911px;
+  height: 13.3367px;
+  position: absolute;
+  top: 908.214px;
+  left: 543.323px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector471 {
+  width: 6.22657px;
+  height: 9.43558px;
+  position: absolute;
+  top: 912.329px;
+  left: 551.383px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector472 {
+  width: 5.54617px;
+  height: 15.1224px;
+  position: absolute;
+  top: 912.386px;
+  left: 560.774px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector473 {
+  width: 5.16556px;
+  height: 9.92798px;
+  position: absolute;
+  top: 913.217px;
+  left: 569.428px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector474 {
+  width: 5.15044px;
+  height: 9.63092px;
+  position: absolute;
+  top: 912.776px;
+  left: 577.908px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector475 {
+  width: 1.00738px;
+  height: 12.7284px;
+  position: absolute;
+  top: 909.062px;
+  left: 586.487px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector476 {
+  width: 5.13626px;
+  height: .677212px;
+  position: absolute;
+  top: 915.306px;
+  left: 585.068px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector609 {
+  width: .0000759888px;
+  height: 0;
+  position: absolute;
+  top: 1246.52px;
+  left: 634.062px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector611 {
+  width: 6.29169px;
+  height: 278.736px;
+  position: absolute;
+  top: 1002.45px;
+  left: 103.643px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector612 {
+  width: 158.746px;
+  height: 4.54879px;
+  position: absolute;
+  top: 996.832px;
+  left: 112.871px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector613 {
+  width: 5.12339px;
+  height: 257.584px;
+  position: absolute;
+  top: 997.817px;
+  left: 267.557px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector614 {
+  width: 154.831px;
+  height: 7.20292px;
+  position: absolute;
+  top: 1273.13px;
+  left: 114.381px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector615 {
+  width: 3.46742px;
+  height: 23.6781px;
+  position: absolute;
+  top: 1251.22px;
+  left: 267.982px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector616 {
+  width: .112061px;
+  height: 32.6294px;
+  position: absolute;
+  top: 987.447px;
+  left: 358.451px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector617 {
+  width: 20.8595px;
+  height: 27.6615px;
+  position: absolute;
+  top: 987.195px;
+  left: 358.5px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector618 {
+  width: 15.0859px;
+  height: 18.4355px;
+  position: absolute;
+  top: 996.396px;
+  left: 384.182px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector619 {
+  width: 11.7505px;
+  height: 18.8578px;
+  position: absolute;
+  top: 996.819px;
+  left: 403.26px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector620 {
+  width: .928513px;
+  height: 17.1374px;
+  position: absolute;
+  top: 997.371px;
+  left: 420.39px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector621 {
+  width: 1.01581px;
+  height: .75624px;
+  position: absolute;
+  top: 990.711px;
+  left: 419.838px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector622 {
+  width: 13.0793px;
+  height: 19.4491px;
+  position: absolute;
+  top: 994.542px;
+  left: 424.948px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector623 {
+  width: 20.8923px;
+  height: 3.15627px;
+  position: absolute;
+  top: 987.699px;
+  left: 444.803px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector624 {
+  width: 1.61689px;
+  height: 23.2935px;
+  position: absolute;
+  top: 989.583px;
+  left: 455.897px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector625 {
+  width: .791398px;
+  height: 18.093px;
+  position: absolute;
+  top: 996.007px;
+  left: 466.552px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector626 {
+  width: .256145px;
+  height: .66019px;
+  position: absolute;
+  top: 992.595px;
+  left: 466.783px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector627 {
+  width: .512481px;
+  height: 24.4096px;
+  position: absolute;
+  top: 989.739px;
+  left: 472.882px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector628 {
+  width: 11.0461px;
+  height: 1.06992px;
+  position: absolute;
+  top: 1002.02px;
+  left: 465.807px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector629 {
+  width: 3.76206px;
+  height: 28.5171px;
+  position: absolute;
+  top: 989.079px;
+  left: 479.702px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector630 {
+  width: 14.4657px;
+  height: 21.6931px;
+  position: absolute;
+  top: 994.782px;
+  left: 488.465px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector631 {
+  width: 15.3073px;
+  height: 22.0047px;
+  position: absolute;
+  top: 1080.81px;
+  left: 370.692px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector632 {
+  width: 13.131px;
+  height: 16.6709px;
+  position: absolute;
+  top: 1083.39px;
+  left: 388.73px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector633 {
+  width: 11.7325px;
+  height: 16.0091px;
+  position: absolute;
+  top: 1084.52px;
+  left: 403.078px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector634 {
+  width: 11.0941px;
+  height: 16.2089px;
+  position: absolute;
+  top: 1083.5px;
+  left: 416.349px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector635 {
+  width: 4.29335px;
+  height: 15.8498px;
+  position: absolute;
+  top: 1082.03px;
+  left: 429.297px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector636 {
+  width: .83884px;
+  height: 17.8863px;
+  position: absolute;
+  top: 1082.64px;
+  left: 437.138px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector637 {
+  width: .812763px;
+  height: .40811px;
+  position: absolute;
+  top: 1075.81px;
+  left: 437.404px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector638 {
+  width: 12.2091px;
+  height: 20.2304px;
+  position: absolute;
+  top: 1081.53px;
+  left: 443.516px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector639 {
+  width: 1.51848px;
+  height: 20.9247px;
+  position: absolute;
+  top: 1077.87px;
+  left: 460.598px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector640 {
+  width: 8.78884px;
+  height: 1.34227px;
+  position: absolute;
+  top: 1085.43px;
+  left: 457.044px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector641 {
+  width: 1.37828px;
+  height: 16.2612px;
+  position: absolute;
+  top: 1082.59px;
+  left: 468.424px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector642 {
+  width: .658443px;
+  height: .124419px;
+  position: absolute;
+  top: 1077.27px;
+  left: 470.009px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector643 {
+  width: 13.0322px;
+  height: 16.69px;
+  position: absolute;
+  top: 1083.79px;
+  left: 474.429px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector644 {
+  width: 14.6371px;
+  height: 16.7747px;
+  position: absolute;
+  top: 1084.97px;
+  left: 490.198px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector648 {
+  width: 75.7697px;
+  height: 6.71173px;
+  position: absolute;
+  top: 1114.77px;
+  left: 396.931px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector649 {
+  width: 18.7783px;
+  height: 4.60674px;
+  position: absolute;
+  top: 1111.41px;
+  left: 494.872px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector650 {
+  width: 36.2599px;
+  height: 6.37252px;
+  position: absolute;
+  top: 1136.15px;
+  left: 398.307px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector651 {
+  width: 21.9801px;
+  height: 3.08778px;
+  position: absolute;
+  top: 1137.93px;
+  left: 456.067px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector652 {
+  width: 25.0218px;
+  height: 4.60026px;
+  position: absolute;
+  top: 1134.88px;
+  left: 504.846px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector653 {
+  width: 32.4979px;
+  height: 4.05273px;
+  position: absolute;
+  top: 1155.83px;
+  left: 399.364px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector654 {
+  width: 70.0385px;
+  height: 5.78325px;
+  position: absolute;
+  top: 1154.06px;
+  left: 460.646px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector655 {
+  width: 157.928px;
+  height: 275.513px;
+  position: absolute;
+  top: 995.409px;
+  left: 110.411px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector656 {
+  width: 144.932px;
+  height: 284.309px;
+  position: absolute;
+  top: 998.23px;
+  left: 113.681px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector658 {
+  width: 5.88674px;
+  height: .352183px;
+  position: absolute;
+  top: 1040.79px;
+  left: 384.671px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector659 {
+  width: .452722px;
+  height: 6.04627px;
+  position: absolute;
+  top: 1037.93px;
+  left: 387.23px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector660 {
+  width: .509783px;
+  height: 12.8407px;
+  position: absolute;
+  top: 1036.03px;
+  left: 395.727px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector661 {
+  width: 7.29619px;
+  height: .920376px;
+  position: absolute;
+  top: 1035.43px;
+  left: 394.835px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector662 {
+  width: 6.85963px;
+  height: 1.337px;
+  position: absolute;
+  top: 1041.7px;
+  left: 395.091px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector663 {
+  width: 7.02045px;
+  height: 11.0684px;
+  position: absolute;
+  top: 1037.85px;
+  left: 404.333px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector664 {
+  width: 6.18811px;
+  height: 9.08785px;
+  position: absolute;
+  top: 1037.45px;
+  left: 413.142px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector665 {
+  width: 7.29773px;
+  height: 10.1703px;
+  position: absolute;
+  top: 1036.66px;
+  left: 421.548px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector666 {
+  width: 3.97143px;
+  height: 10.7462px;
+  position: absolute;
+  top: 1036.69px;
+  left: 431.88px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector667 {
+  width: .358287px;
+  height: 9.58107px;
+  position: absolute;
+  top: 1036.99px;
+  left: 438.865px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector668 {
+  width: 0;
+  height: .0672754px;
+  position: absolute;
+  top: 1032.88px;
+  left: 439.202px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector669 {
+  width: 1.81238px;
+  height: 13.3744px;
+  position: absolute;
+  top: 1033.15px;
+  left: 442.682px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector670 {
+  width: 4.58512px;
+  height: .670322px;
+  position: absolute;
+  top: 1038.83px;
+  left: 441.931px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector671 {
+  width: 6.81631px;
+  height: 10.4577px;
+  position: absolute;
+  top: 1036.32px;
+  left: 448.372px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector672 {
+  width: 5.43665px;
+  height: 10.2372px;
+  position: absolute;
+  top: 1036.5px;
+  left: 457.572px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector673 {
+  width: 1.54609px;
+  height: 1.48533px;
+  position: absolute;
+  top: 1031.72px;
+  left: 437.583px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector674 {
+  width: 1.25623px;
+  height: 22.5296px;
+  position: absolute;
+  top: 1029.77px;
+  left: 379.653px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector675 {
+  width: 1.41572px;
+  height: 22.6171px;
+  position: absolute;
+  top: 1029.41px;
+  left: 467.716px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector676 {
+  width: 87.6338px;
+  height: 2.04623px;
+  position: absolute;
+  top: 1027.31px;
+  left: 379.158px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector677 {
+  width: 87.1463px;
+  height: 2.20631px;
+  position: absolute;
+  top: 1053.06px;
+  left: 381.025px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector678 {
+  width: 11.9297px;
+  height: 19.6631px;
+  position: absolute;
+  top: 1176.23px;
+  left: 370.684px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector679 {
+  width: 10.9488px;
+  height: 16.155px;
+  position: absolute;
+  top: 1180.89px;
+  left: 384.724px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector680 {
+  width: 10.233px;
+  height: 16.1275px;
+  position: absolute;
+  top: 1179.66px;
+  left: 398.907px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector681 {
+  width: 9.34605px;
+  height: 15.509px;
+  position: absolute;
+  top: 1179.13px;
+  left: 412.43px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector682 {
+  width: 10.616px;
+  height: 17.0243px;
+  position: absolute;
+  top: 1180.03px;
+  left: 420.833px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector683 {
+  width: 11.1052px;
+  height: 16.2815px;
+  position: absolute;
+  top: 1180.72px;
+  left: 432.745px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector684 {
+  width: 66.0662px;
+  height: 25.0277px;
+  position: absolute;
+  top: 1206.15px;
+  left: 385.419px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector685 {
+  width: 65.3295px;
+  height: 22.9231px;
+  position: absolute;
+  top: 1239.93px;
+  left: 385.167px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector686 {
+  width: 65.7135px;
+  height: 24.196px;
+  position: absolute;
+  top: 1270.99px;
+  left: 384.2px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector687 {
+  width: 8.82432px;
+  height: 14.848px;
+  position: absolute;
+  top: 1212.45px;
+  left: 391.717px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector688 {
+  width: 8.22295px;
+  height: 11.5693px;
+  position: absolute;
+  top: 1215.41px;
+  left: 402.374px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector689 {
+  width: 6.99374px;
+  height: 10.8394px;
+  position: absolute;
+  top: 1214.49px;
+  left: 413.649px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector690 {
+  width: 4.71739px;
+  height: 8.7612px;
+  position: absolute;
+  top: 1216.29px;
+  left: 423.88px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector691 {
+  width: 8.86695px;
+  height: 10.8783px;
+  position: absolute;
+  top: 1215.17px;
+  left: 429.982px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector692 {
+  width: 9.27325px;
+  height: 13.9742px;
+  position: absolute;
+  top: 1243.74px;
+  left: 390.443px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector693 {
+  width: 9.46628px;
+  height: 11.3124px;
+  position: absolute;
+  top: 1246.05px;
+  left: 402.247px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector694 {
+  width: 7.72844px;
+  height: 10.1736px;
+  position: absolute;
+  top: 1246.68px;
+  left: 413.239px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector695 {
+  width: 4.26689px;
+  height: 9.06354px;
+  position: absolute;
+  top: 1246.56px;
+  left: 424.146px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector696 {
+  width: 8.37458px;
+  height: 12.1801px;
+  position: absolute;
+  top: 1246.15px;
+  left: 430.008px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector697 {
+  width: 9.64928px;
+  height: 15.9431px;
+  position: absolute;
+  top: 1275.63px;
+  left: 389.374px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector698 {
+  width: 9.9582px;
+  height: 10.6794px;
+  position: absolute;
+  top: 1278.71px;
+  left: 401.486px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector699 {
+  width: 7.42657px;
+  height: 12.5306px;
+  position: absolute;
+  top: 1277.79px;
+  left: 413.541px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector700 {
+  width: 4.97333px;
+  height: 8.92453px;
+  position: absolute;
+  top: 1279.57px;
+  left: 423.836px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector701 {
+  width: 10.1869px;
+  height: 11.3221px;
+  position: absolute;
+  top: 1278.71px;
+  left: 430.745px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector702 {
+  width: 17.8557px;
+  height: 31.0427px;
+  position: absolute;
+  top: 1325.94px;
+  left: 83.4557px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector703 {
+  width: 12.8121px;
+  height: 1.4144px;
+  position: absolute;
+  top: 1342.5px;
+  left: 85.8616px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector704 {
+  width: 14.7418px;
+  height: 19.3717px;
+  position: absolute;
+  top: 1334.51px;
+  left: 102.603px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector705 {
+  width: 2.24316px;
+  height: 24.6528px;
+  position: absolute;
+  top: 1330.21px;
+  left: 123.844px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector706 {
+  width: 11.0221px;
+  height: 2.16092px;
+  position: absolute;
+  top: 1341.49px;
+  left: 116.874px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector707 {
+  width: 15.0767px;
+  height: 22.352px;
+  position: absolute;
+  top: 1332.66px;
+  left: 131.778px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector708 {
+  width: 8.06405px;
+  height: 24.0886px;
+  position: absolute;
+  top: 1332.19px;
+  left: 150.939px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector709 {
+  width: 11.6217px;
+  height: 19.5707px;
+  position: absolute;
+  top: 1333.44px;
+  left: 159.38px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector710 {
+  width: 1.80876px;
+  height: .451069px;
+  position: absolute;
+  top: 1337.83px;
+  left: 176.601px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector711 {
+  width: .376892px;
+  height: 1.42656px;
+  position: absolute;
+  top: 1345.46px;
+  left: 178.202px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector712 {
+  width: 15.5805px;
+  height: 31.4731px;
+  position: absolute;
+  top: 1477.19px;
+  left: 77.3449px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector713 {
+  width: .779949px;
+  height: 17.832px;
+  position: absolute;
+  top: 1486.97px;
+  left: 97.7881px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector714 {
+  width: .759508px;
+  height: .890791px;
+  position: absolute;
+  top: 1478.36px;
+  left: 96.4127px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector715 {
+  width: 8.15945px;
+  height: 20.7618px;
+  position: absolute;
+  top: 1483.89px;
+  left: 103.515px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector716 {
+  width: 16.2751px;
+  height: 20.8752px;
+  position: absolute;
+  top: 1485.11px;
+  left: 112.258px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector717 {
+  width: 12.9824px;
+  height: 18.9887px;
+  position: absolute;
+  top: 1487.14px;
+  left: 130.646px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector718 {
+  width: 1.26326px;
+  height: 25.974px;
+  position: absolute;
+  top: 1481.41px;
+  left: 148.503px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector719 {
+  width: 7.76259px;
+  height: 1.02656px;
+  position: absolute;
+  top: 1494.55px;
+  left: 144.477px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector720 {
+  width: 13.5663px;
+  height: 16.2486px;
+  position: absolute;
+  top: 1488.24px;
+  left: 156.082px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector721 {
+  width: 7.72622px;
+  height: 17.999px;
+  position: absolute;
+  top: 1487.51px;
+  left: 174.094px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector722 {
+  width: .60292px;
+  height: .409731px;
+  position: absolute;
+  top: 1490.78px;
+  left: 188.038px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector723 {
+  width: .527552px;
+  height: .480249px;
+  position: absolute;
+  top: 1499.46px;
+  left: 188.17px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector725 {
+  width: 87.1408px;
+  height: 93.3065px;
+  position: absolute;
+  top: 1367.25px;
+  left: 91.3821px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector726 {
+  width: 92.645px;
+  height: 101.195px;
+  position: absolute;
+  top: 1522.14px;
+  left: 93.1503px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector727 {
+  width: 4.00318px;
+  height: 103.337px;
+  position: absolute;
+  top: 1520.53px;
+  left: 183.099px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector728 {
+  width: 91.779px;
+  height: 2.90297px;
+  position: absolute;
+  top: 1519.02px;
+  left: 95.2745px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector729 {
+  width: 5.19596px;
+  height: 94.4214px;
+  position: absolute;
+  top: 1366.81px;
+  left: 223.229px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector730 {
+  width: 2.63406px;
+  height: 95.3925px;
+  position: absolute;
+  top: 1366.05px;
+  left: 302.95px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector731 {
+  width: 77.1388px;
+  height: 3.81079px;
+  position: absolute;
+  top: 1365.73px;
+  left: 226.546px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector732 {
+  width: 72.5637px;
+  height: 3.09062px;
+  position: absolute;
+  top: 1458.42px;
+  left: 228.523px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector733 {
+  width: 80.7171px;
+  height: 1.82251px;
+  position: absolute;
+  top: 1519.33px;
+  left: 214.765px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector734 {
+  width: 1.2418px;
+  height: 85.569px;
+  position: absolute;
+  top: 1527.6px;
+  left: 293.718px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector735 {
+  width: 2.80111px;
+  height: 96.603px;
+  position: absolute;
+  top: 1524.17px;
+  left: 211.334px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector736 {
+  width: 78.9034px;
+  height: .991704px;
+  position: absolute;
+  top: 1620.54px;
+  left: 215.435px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector737 {
+  width: 28.7699px;
+  height: 29.3325px;
+  position: absolute;
+  top: 1379.74px;
+  left: 119.535px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector738 {
+  width: 1.10646px;
+  height: 28.0644px;
+  position: absolute;
+  top: 1380.93px;
+  left: 119.823px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector739 {
+  width: 26.6265px;
+  height: 1.18016px;
+  position: absolute;
+  top: 1379.52px;
+  left: 119.117px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector740 {
+  width: 1.01014px;
+  height: 20.2296px;
+  position: absolute;
+  top: 1421.25px;
+  left: 114.308px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector741 {
+  width: .746767px;
+  height: 19.6922px;
+  position: absolute;
+  top: 1421.84px;
+  left: 158.637px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector742 {
+  width: 44.4733px;
+  height: 2.54431px;
+  position: absolute;
+  top: 1419.71px;
+  left: 114.11px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector743 {
+  width: 43.4476px;
+  height: 2.43731px;
+  position: absolute;
+  top: 1442.21px;
+  left: 114.479px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector744 {
+  width: .893717px;
+  height: 30.1653px;
+  position: absolute;
+  top: 1379.57px;
+  left: 250.82px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector745 {
+  width: 1.38879px;
+  height: 26.9515px;
+  position: absolute;
+  top: 1381.21px;
+  left: 279.979px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector746 {
+  width: 27.9544px;
+  height: 3.33783px;
+  position: absolute;
+  top: 1379.79px;
+  left: 251.614px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector747 {
+  width: 27.8734px;
+  height: 2.26183px;
+  position: absolute;
+  top: 1408.93px;
+  left: 252.613px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector748 {
+  width: .93912px;
+  height: 18.4355px;
+  position: absolute;
+  top: 1427.41px;
+  left: 244.305px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector749 {
+  width: 41.7829px;
+  height: 4.24321px;
+  position: absolute;
+  top: 1423.17px;
+  left: 243.526px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector750 {
+  width: 3.37397px;
+  height: 19.0466px;
+  position: absolute;
+  top: 1424.89px;
+  left: 285.939px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector751 {
+  width: 46.1771px;
+  height: 3.22476px;
+  position: absolute;
+  top: 1443.87px;
+  left: 243.751px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector752 {
+  width: 8.04912px;
+  height: 13.0948px;
+  position: absolute;
+  top: 1424.66px;
+  left: 118.218px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector753 {
+  width: 6.63463px;
+  height: 9.56729px;
+  position: absolute;
+  top: 1427.36px;
+  left: 127.372px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector754 {
+  width: 9.49808px;
+  height: 9.81937px;
+  position: absolute;
+  top: 1426.96px;
+  left: 136.576px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector755 {
+  width: 6.73653px;
+  height: 10.7499px;
+  position: absolute;
+  top: 1425.6px;
+  left: 147.555px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector756 {
+  width: 8.05149px;
+  height: 13.5876px;
+  position: absolute;
+  top: 1431.33px;
+  left: 248.055px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector757 {
+  width: 6.44921px;
+  height: 10.172px;
+  position: absolute;
+  top: 1432.13px;
+  left: 258.031px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector758 {
+  width: 10.9766px;
+  height: 9.79141px;
+  position: absolute;
+  top: 1431.48px;
+  left: 266.766px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector759 {
+  width: 5.37342px;
+  height: 9.5219px;
+  position: absolute;
+  top: 1430.37px;
+  left: 279.54px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector760 {
+  width: 27.7021px;
+  height: 24.9267px;
+  position: absolute;
+  top: 1380.62px;
+  left: 118.455px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector761 {
+  width: 24.4857px;
+  height: 29.1736px;
+  position: absolute;
+  top: 1379.7px;
+  left: 121.744px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector762 {
+  width: 24.4497px;
+  height: 29.1217px;
+  position: absolute;
+  top: 1379.75px;
+  left: 254.08px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector763 {
+  width: 30.2139px;
+  height: 26.1871px;
+  position: absolute;
+  top: 1383.14px;
+  left: 248.592px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector764 {
+  width: 1.14989px;
+  height: 26.2256px;
+  position: absolute;
+  top: 1526.88px;
+  left: 120.144px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector765 {
+  width: 34.0184px;
+  height: 28.7432px;
+  position: absolute;
+  top: 1525.18px;
+  left: 120.226px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector766 {
+  width: 32.5149px;
+  height: 1.93072px;
+  position: absolute;
+  top: 1524.12px;
+  left: 120.62px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector767 {
+  width: 29.1206px;
+  height: 24.9997px;
+  position: absolute;
+  top: 1526.44px;
+  left: 121.545px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector768 {
+  width: 31.1191px;
+  height: 28.2828px;
+  position: absolute;
+  top: 1524.16px;
+  left: 121.772px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector769 {
+  width: 1.30919px;
+  height: 23.6769px;
+  position: absolute;
+  top: 1567.93px;
+  left: 111.679px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector770 {
+  width: 48.3887px;
+  height: .912271px;
+  position: absolute;
+  top: 1566.85px;
+  left: 112.387px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector771 {
+  width: .710799px;
+  height: 22.5417px;
+  position: absolute;
+  top: 1567.06px;
+  left: 160.925px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector772 {
+  width: 48.5971px;
+  height: 2.25697px;
+  position: absolute;
+  top: 1590.31px;
+  left: 112.86px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector773 {
+  width: 9.25439px;
+  height: 13.0571px;
+  position: absolute;
+  top: 1571.14px;
+  left: 116.576px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector774 {
+  width: 6.72759px;
+  height: 9.47286px;
+  position: absolute;
+  top: 1573.88px;
+  left: 127.308px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector775 {
+  width: 10.0277px;
+  height: 10.1164px;
+  position: absolute;
+  top: 1573.49px;
+  left: 136.516px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector776 {
+  width: 6.35835px;
+  height: 9.56607px;
+  position: absolute;
+  top: 1573.1px;
+  left: 148.474px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector777 {
+  width: 33.5069px;
+  height: 29.3252px;
+  position: absolute;
+  top: 1526.43px;
+  left: 232.765px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector778 {
+  width: 27.607px;
+  height: 28.9065px;
+  position: absolute;
+  top: 1526.94px;
+  left: 236.587px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector779 {
+  width: 31.7817px;
+  height: 24.0023px;
+  position: absolute;
+  top: 1529.19px;
+  left: 233.349px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector780 {
+  width: 1.11404px;
+  height: 21.4556px;
+  position: absolute;
+  top: 1571.58px;
+  left: 229.968px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector781 {
+  width: .636555px;
+  height: 21.6416px;
+  position: absolute;
+  top: 1570.09px;
+  left: 278.43px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector782 {
+  width: 46.0445px;
+  height: 1.42697px;
+  position: absolute;
+  top: 1569.35px;
+  left: 231.335px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector783 {
+  width: 47.0221px;
+  height: 1.59394px;
+  position: absolute;
+  top: 1591.61px;
+  left: 232.149px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector784 {
+  width: 8.07227px;
+  height: 11.9714px;
+  position: absolute;
+  top: 1574.05px;
+  left: 235.181px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector785 {
+  width: 6.42745px;
+  height: 9.54662px;
+  position: absolute;
+  top: 1577.09px;
+  left: 245.453px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector786 {
+  width: 8.7198px;
+  height: 10.4536px;
+  position: absolute;
+  top: 1575.83px;
+  left: 254.839px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector787 {
+  width: 6.37429px;
+  height: 10.3093px;
+  position: absolute;
+  top: 1575.35px;
+  left: 265.72px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector788 {
+  width: 30.1773px;
+  height: .716523px;
+  position: absolute;
+  top: 1328.01px;
+  left: 351.545px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector789 {
+  width: 1.41732px;
+  height: 31.7074px;
+  position: absolute;
+  top: 1330.33px;
+  left: 366.597px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector790 {
+  width: 9.47841px;
+  height: 19.6363px;
+  position: absolute;
+  top: 1336.55px;
+  left: 377.002px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector791 {
+  width: 15.7795px;
+  height: 21.5075px;
+  position: absolute;
+  top: 1336.56px;
+  left: 389.673px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector792 {
+  width: 1.47806px;
+  height: 18.7832px;
+  position: absolute;
+  top: 1338.83px;
+  left: 409.765px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector793 {
+  width: .121487px;
+  height: .440127px;
+  position: absolute;
+  top: 1330.59px;
+  left: 408.671px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector794 {
+  width: 4.07967px;
+  height: 25.2716px;
+  position: absolute;
+  top: 1331.54px;
+  left: 417.181px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector795 {
+  width: 17.6647px;
+  height: 24.3432px;
+  position: absolute;
+  top: 1334.14px;
+  left: 423.414px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector796 {
+  width: 14.8031px;
+  height: 21.6866px;
+  position: absolute;
+  top: 1333.55px;
+  left: 445.319px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector798 {
+  width: 3.21875px;
+  height: 142.25px;
+  position: absolute;
+  top: 1380.34px;
+  left: 357.729px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector799 {
+  width: 1.98407px;
+  height: 154.423px;
+  position: absolute;
+  top: 1378.99px;
+  left: 582.422px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector800 {
+  width: 225.82px;
+  height: 5.73584px;
+  position: absolute;
+  top: 1378.79px;
+  left: 357.789px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector801 {
+  width: 224.522px;
+  height: 3.50926px;
+  position: absolute;
+  top: 1522.59px;
+  left: 358.498px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector802 {
+  width: 224.16px;
+  height: 141.597px;
+  position: absolute;
+  top: 1378.54px;
+  left: 359.126px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector803 {
+  width: 229.001px;
+  height: 143.145px;
+  position: absolute;
+  top: 1381.57px;
+  left: 354.993px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector804 {
+  width: 1.10145px;
+  height: 28.0003px;
+  position: absolute;
+  top: 1594.94px;
+  left: 423.43px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector805 {
+  width: 175.517px;
+  height: 29.5165px;
+  position: absolute;
+  top: 1592.93px;
+  left: 425.575px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector806 {
+  width: 172.31px;
+  height: 4.41545px;
+  position: absolute;
+  top: 1622.51px;
+  left: 427.913px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector807 {
+  width: 13.1827px;
+  height: 19.3226px;
+  position: absolute;
+  top: 1598.88px;
+  left: 428.338px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector808 {
+  width: 10.9011px;
+  height: 15.4928px;
+  position: absolute;
+  top: 1604.13px;
+  left: 442.328px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector809 {
+  width: 10.385px;
+  height: 13.4916px;
+  position: absolute;
+  top: 1605.94px;
+  left: 456.253px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector810 {
+  width: .560392px;
+  height: 14.8727px;
+  position: absolute;
+  top: 1602.04px;
+  left: 470.019px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector811 {
+  width: 8.715px;
+  height: 12.1639px;
+  position: absolute;
+  top: 1606.89px;
+  left: 469.652px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector812 {
+  width: 1.15445px;
+  height: 17.6241px;
+  position: absolute;
+  top: 1601.99px;
+  left: 488.726px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector813 {
+  width: 10.3768px;
+  height: .912676px;
+  position: absolute;
+  top: 1611.08px;
+  left: 482.599px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector814 {
+  width: 10.4802px;
+  height: 10.6915px;
+  position: absolute;
+  top: 1608.3px;
+  left: 494.737px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector815 {
+  width: 16.647px;
+  height: 16.8817px;
+  position: absolute;
+  top: 1601.04px;
+  left: 511.884px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector816 {
+  width: 10.3826px;
+  height: 12.1667px;
+  position: absolute;
+  top: 1604.07px;
+  left: 529.832px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector817 {
+  width: 8.52176px;
+  height: 14.1562px;
+  position: absolute;
+  top: 1603.55px;
+  left: 541.111px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector818 {
+  width: 1.80939px;
+  height: 12.9793px;
+  position: absolute;
+  top: 1604.62px;
+  left: 554.278px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector819 {
+  width: 1.15941px;
+  height: .98522px;
+  position: absolute;
+  top: 1600.19px;
+  left: 555.353px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector820 {
+  width: 9.39133px;
+  height: 17.6116px;
+  position: absolute;
+  top: 1599.66px;
+  left: 559.643px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector821 {
+  width: 9.50728px;
+  height: 13.6006px;
+  position: absolute;
+  top: 1602.27px;
+  left: 572.976px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector822 {
+  width: 8.1983px;
+  height: 394.674px;
+  position: absolute;
+  top: 1713.12px;
+  left: 628.065px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector823 {
+  width: 586.619px;
+  height: 10.4638px;
+  position: absolute;
+  top: 1715.78px;
+  left: 42.8897px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector824 {
+  width: 568.897px;
+  height: 9.43639px;
+  position: absolute;
+  top: 2099.07px;
+  left: 75.53px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector825 {
+  width: 35.3319px;
+  height: 376.386px;
+  position: absolute;
+  top: 1727.07px;
+  left: 34.4871px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector826 {
+  width: 68.2662px;
+  height: 56.7829px;
+  position: absolute;
+  top: 1737.66px;
+  left: 45.1188px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector827 {
+  width: 62.8165px;
+  height: 47.3538px;
+  position: absolute;
+  top: 1744.39px;
+  left: 44.3466px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector828 {
+  width: 65.0664px;
+  height: 53.4296px;
+  position: absolute;
+  top: 1740.39px;
+  left: 47.8603px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector829 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 1740.34px;
+  left: 531.335px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector830 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 1739.64px;
+  left: 445.944px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector831 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 1741.12px;
+  left: 363.342px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector832 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 1742.6px;
+  left: 280.703px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector833 {
+  width: 73.431px;
+  height: 30.2492px;
+  position: absolute;
+  top: 1742.6px;
+  left: 199.469px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector834 {
+  width: 73.5383px;
+  height: 30.2934px;
+  position: absolute;
+  top: 1742.57px;
+  left: 115.036px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector835 {
+  width: 586.466px;
+  height: 5.26572px;
+  position: absolute;
+  top: 1813.28px;
+  left: 44.4479px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector871 {
+  width: 8.75639px;
+  height: 12.6976px;
+  position: absolute;
+  top: 1750px;
+  left: 121.099px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector872 {
+  width: 6.68776px;
+  height: 9.21876px;
+  position: absolute;
+  top: 1753.39px;
+  left: 133.141px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector873 {
+  width: 8.05501px;
+  height: 8.19949px;
+  position: absolute;
+  top: 1753.62px;
+  left: 142.201px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector874 {
+  width: .919895px;
+  height: 8.1926px;
+  position: absolute;
+  top: 1753.97px;
+  left: 153.165px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector875 {
+  width: 0;
+  height: .566572px;
+  position: absolute;
+  top: 1750.8px;
+  left: 153.737px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector876 {
+  width: 7.67713px;
+  height: 10.6968px;
+  position: absolute;
+  top: 1752.13px;
+  left: 157.207px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector877 {
+  width: 6.89151px;
+  height: 10.651px;
+  position: absolute;
+  top: 1753.52px;
+  left: 167.38px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector878 {
+  width: 9.1089px;
+  height: 14.2993px;
+  position: absolute;
+  top: 1751.35px;
+  left: 208.819px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector879 {
+  width: 5.31035px;
+  height: .647222px;
+  position: absolute;
+  top: 1759.22px;
+  left: 211.196px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector880 {
+  width: 7.46559px;
+  height: 10.666px;
+  position: absolute;
+  top: 1754.31px;
+  left: 219.999px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector881 {
+  width: 1.01434px;
+  height: 12.5388px;
+  position: absolute;
+  top: 1751.46px;
+  left: 229.046px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector882 {
+  width: 4.10707px;
+  height: .164136px;
+  position: absolute;
+  top: 1757px;
+  left: 227.375px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector883 {
+  width: 6.83318px;
+  height: 9.79465px;
+  position: absolute;
+  top: 1755.14px;
+  left: 233.663px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector884 {
+  width: 5.05179px;
+  height: 10.3632px;
+  position: absolute;
+  top: 1754.77px;
+  left: 242.73px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector885 {
+  width: 8.31357px;
+  height: 10.8005px;
+  position: absolute;
+  top: 1754.41px;
+  left: 246.896px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector886 {
+  width: .892333px;
+  height: 11.6767px;
+  position: absolute;
+  top: 1751.84px;
+  left: 286.294px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector887 {
+  width: 8.00068px;
+  height: 13.6245px;
+  position: absolute;
+  top: 1750.95px;
+  left: 286.183px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector888 {
+  width: 1.00641px;
+  height: 8.85604px;
+  position: absolute;
+  top: 1755.09px;
+  left: 296.759px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector889 {
+  width: .377281px;
+  height: .375688px;
+  position: absolute;
+  top: 1751.19px;
+  left: 296.776px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector890 {
+  width: 2.9px;
+  height: 8.81956px;
+  position: absolute;
+  top: 1754.05px;
+  left: 299.833px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector891 {
+  width: 5.06886px;
+  height: 10.3004px;
+  position: absolute;
+  top: 1753.33px;
+  left: 304.738px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector892 {
+  width: 5.07278px;
+  height: 9.76263px;
+  position: absolute;
+  top: 1754.03px;
+  left: 312.223px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector893 {
+  width: 1.09243px;
+  height: 12.9084px;
+  position: absolute;
+  top: 1750.79px;
+  left: 319.013px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector894 {
+  width: 3.02389px;
+  height: .181563px;
+  position: absolute;
+  top: 1757.12px;
+  left: 318.01px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector895 {
+  width: 4.94899px;
+  height: 10.7738px;
+  position: absolute;
+  top: 1754.09px;
+  left: 323.664px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector896 {
+  width: 3.61515px;
+  height: 9.23456px;
+  position: absolute;
+  top: 1753.73px;
+  left: 330.675px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector897 {
+  width: 6.41663px;
+  height: 11.3209px;
+  position: absolute;
+  top: 1753.98px;
+  left: 335.754px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector898 {
+  width: 7.1948px;
+  height: 13.9187px;
+  position: absolute;
+  top: 1749.32px;
+  left: 370.36px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector899 {
+  width: 6.03127px;
+  height: 10.5067px;
+  position: absolute;
+  top: 1752.84px;
+  left: 380.961px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector900 {
+  width: 5.93462px;
+  height: 9.81167px;
+  position: absolute;
+  top: 1753.18px;
+  left: 390.221px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector901 {
+  width: 5.28328px;
+  height: 10.1703px;
+  position: absolute;
+  top: 1753.12px;
+  left: 398.838px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector902 {
+  width: 6.39246px;
+  height: 10.2733px;
+  position: absolute;
+  top: 1753.26px;
+  left: 404.698px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector903 {
+  width: 6.78808px;
+  height: 11.1487px;
+  position: absolute;
+  top: 1753.83px;
+  left: 412.585px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector904 {
+  width: 7.70581px;
+  height: 14.2514px;
+  position: absolute;
+  top: 1746.69px;
+  left: 453.98px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector905 {
+  width: 3.51466px;
+  height: 8.26069px;
+  position: absolute;
+  top: 1751.98px;
+  left: 463.616px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector906 {
+  width: 4.8213px;
+  height: 8.61247px;
+  position: absolute;
+  top: 1752.35px;
+  left: 468.646px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector907 {
+  width: 3.60389px;
+  height: 13.8275px;
+  position: absolute;
+  top: 1747.98px;
+  left: 476.248px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector908 {
+  width: 3.35384px;
+  height: .663838px;
+  position: absolute;
+  top: 1755.63px;
+  left: 476.604px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector909 {
+  width: .0915538px;
+  height: 8.72311px;
+  position: absolute;
+  top: 1753.31px;
+  left: 483.813px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector910 {
+  width: .554148px;
+  height: .0757861px;
+  position: absolute;
+  top: 1750.08px;
+  left: 484.256px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector911 {
+  width: .852784px;
+  height: 10.5408px;
+  position: absolute;
+  top: 1749.36px;
+  left: 487.606px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector912 {
+  width: 6.59684px;
+  height: 9.83275px;
+  position: absolute;
+  top: 1751.09px;
+  left: 491.162px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector913 {
+  width: 6.13911px;
+  height: 13.3367px;
+  position: absolute;
+  top: 1747.41px;
+  left: 538.653px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector914 {
+  width: 6.22657px;
+  height: 9.43558px;
+  position: absolute;
+  top: 1751.52px;
+  left: 546.712px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector915 {
+  width: 5.54617px;
+  height: 15.1224px;
+  position: absolute;
+  top: 1751.58px;
+  left: 556.103px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector916 {
+  width: 5.16556px;
+  height: 9.92798px;
+  position: absolute;
+  top: 1752.41px;
+  left: 564.758px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector917 {
+  width: 5.15044px;
+  height: 9.63092px;
+  position: absolute;
+  top: 1751.97px;
+  left: 573.237px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector918 {
+  width: 1.00738px;
+  height: 12.7284px;
+  position: absolute;
+  top: 1748.26px;
+  left: 581.816px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector919 {
+  width: 5.13626px;
+  height: .677212px;
+  position: absolute;
+  top: 1754.5px;
+  left: 580.398px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1052 {
+  width: .0000759888px;
+  height: 0;
+  position: absolute;
+  top: 2085.72px;
+  left: 629.391px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1053 {
+  width: 12.386px;
+  height: 24.6722px;
+  position: absolute;
+  top: 1834.15px;
+  left: 73.9546px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1054 {
+  width: 9.14796px;
+  height: 19.5188px;
+  position: absolute;
+  top: 1840.58px;
+  left: 92.3062px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1055 {
+  width: 12.6774px;
+  height: 18.1384px;
+  position: absolute;
+  top: 1841.31px;
+  left: 104.315px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1056 {
+  width: 9.40034px;
+  height: 17.9042px;
+  position: absolute;
+  top: 1841.26px;
+  left: 120.85px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1057 {
+  width: 14.1762px;
+  height: 25.6627px;
+  position: absolute;
+  top: 1833.78px;
+  left: 142.575px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1058 {
+  width: 6.21451px;
+  height: 16.0314px;
+  position: absolute;
+  top: 1842.15px;
+  left: 161.337px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1059 {
+  width: 11.661px;
+  height: 15.3789px;
+  position: absolute;
+  top: 1843.36px;
+  left: 171.899px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1060 {
+  width: 7.52885px;
+  height: 25.0621px;
+  position: absolute;
+  top: 1835.94px;
+  left: 186.438px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1061 {
+  width: 5.62878px;
+  height: .224927px;
+  position: absolute;
+  top: 1849.55px;
+  left: 185.253px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1062 {
+  width: .809749px;
+  height: 14.4577px;
+  position: absolute;
+  top: 1845.64px;
+  left: 197.282px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1063 {
+  width: .228574px;
+  height: .0575488px;
+  position: absolute;
+  top: 1840.76px;
+  left: 199.053px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1064 {
+  width: .742398px;
+  height: 20.8311px;
+  position: absolute;
+  top: 1838.86px;
+  left: 204.339px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1065 {
+  width: 10.2049px;
+  height: 17.7372px;
+  position: absolute;
+  top: 1843.13px;
+  left: 208.82px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1066 {
+  width: 12.5633px;
+  height: 19.1358px;
+  position: absolute;
+  top: 1880.24px;
+  left: 64.7333px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1067 {
+  width: 10.3121px;
+  height: 15.0361px;
+  position: absolute;
+  top: 1882.42px;
+  left: 83.0916px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1068 {
+  width: 16.3942px;
+  height: 13.2832px;
+  position: absolute;
+  top: 1883.35px;
+  left: 97.7493px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1069 {
+  width: 11.1765px;
+  height: 14.4784px;
+  position: absolute;
+  top: 1882.87px;
+  left: 116.76px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1070 {
+  width: 10.5984px;
+  height: 16.493px;
+  position: absolute;
+  top: 1923.5px;
+  left: 65.3644px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1071 {
+  width: 9.92895px;
+  height: 1.17813px;
+  position: absolute;
+  top: 1930.73px;
+  left: 64.7623px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1072 {
+  width: 5.30019px;
+  height: .6148px;
+  position: absolute;
+  top: 1931.59px;
+  left: 79.1486px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1073 {
+  width: 15.5149px;
+  height: 14.0934px;
+  position: absolute;
+  top: 1925.75px;
+  left: 90.1347px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1074 {
+  width: 10.9178px;
+  height: 13.2148px;
+  position: absolute;
+  top: 1925.52px;
+  left: 109.193px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1075 {
+  width: 1.40006px;
+  height: 12.1874px;
+  position: absolute;
+  top: 1926.36px;
+  left: 123.079px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1076 {
+  width: .564926px;
+  height: 1.0067px;
+  position: absolute;
+  top: 1920.63px;
+  left: 123.207px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1077 {
+  width: .542876px;
+  height: 17.4166px;
+  position: absolute;
+  top: 1921.22px;
+  left: 128.708px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1078 {
+  width: 12.0393px;
+  height: 20.2483px;
+  position: absolute;
+  top: 1959.47px;
+  left: 64.8481px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1079 {
+  width: 1.11914px;
+  height: 13.0976px;
+  position: absolute;
+  top: 1965.47px;
+  left: 82.0153px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1080 {
+  width: .857179px;
+  height: .546309px;
+  position: absolute;
+  top: 1956.97px;
+  left: 84.5059px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1081 {
+  width: 4.87476px;
+  height: 13.3003px;
+  position: absolute;
+  top: 1964.38px;
+  left: 87.5172px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1082 {
+  width: 1.54293px;
+  height: 17.7019px;
+  position: absolute;
+  top: 1960.71px;
+  left: 96.8492px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1083 {
+  width: 6.54309px;
+  height: 1.04966px;
+  position: absolute;
+  top: 1968.97px;
+  left: 94.6206px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1084 {
+  width: 10.3432px;
+  height: 18.2102px;
+  position: absolute;
+  top: 1961.46px;
+  left: 102.835px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1085 {
+  width: 12.429px;
+  height: 20.2122px;
+  position: absolute;
+  top: 1960.03px;
+  left: 115.093px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1086 {
+  width: 8.90471px;
+  height: 15.0389px;
+  position: absolute;
+  top: 1966.1px;
+  left: 130.15px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1087 {
+  width: 9.0835px;
+  height: 23.2558px;
+  position: absolute;
+  top: 1965.91px;
+  left: 143.215px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1088 {
+  width: 42.3451px;
+  height: 8.64165px;
+  position: absolute;
+  top: 1882.82px;
+  left: 233.888px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1089 {
+  width: 24.5387px;
+  height: 5.60696px;
+  position: absolute;
+  top: 1929.46px;
+  left: 227.022px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1090 {
+  width: 13.6043px;
+  height: 15.8154px;
+  position: absolute;
+  top: 1924.68px;
+  left: 260.55px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1091 {
+  width: 19.3173px;
+  height: 3.52709px;
+  position: absolute;
+  top: 1930.19px;
+  left: 282.124px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1092 {
+  width: 21.0769px;
+  height: 5.90605px;
+  position: absolute;
+  top: 1967.21px;
+  left: 229.757px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1093 {
+  width: 30.4487px;
+  height: 3.48008px;
+  position: absolute;
+  top: 1972.81px;
+  left: 263.342px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1094 {
+  width: 12.3392px;
+  height: 16.3945px;
+  position: absolute;
+  top: 1838.5px;
+  left: 266.436px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1095 {
+  width: 13.6008px;
+  height: 16.354px;
+  position: absolute;
+  top: 1838.86px;
+  left: 279.944px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1096 {
+  width: 10.9683px;
+  height: 15.7708px;
+  position: absolute;
+  top: 1840.12px;
+  left: 297.703px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1097 {
+  width: 7.00014px;
+  height: 14.2182px;
+  position: absolute;
+  top: 1839.72px;
+  left: 312.439px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1098 {
+  width: 10.1559px;
+  height: 14.8877px;
+  position: absolute;
+  top: 1840.34px;
+  left: 324.22px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1099 {
+  width: 11.6706px;
+  height: 15.2083px;
+  position: absolute;
+  top: 1840.61px;
+  left: 336.748px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1100 {
+  width: 19.0712px;
+  height: 16.8237px;
+  position: absolute;
+  top: 1837.99px;
+  left: 351.281px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1101 {
+  width: 10.7699px;
+  height: 18.7431px;
+  position: absolute;
+  top: 1837.05px;
+  left: 373.203px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1102 {
+  width: 54.9737px;
+  height: 26.9722px;
+  position: absolute;
+  top: 1830.55px;
+  left: 562.229px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1104 {
+  width: 5.42251px;
+  height: 9.86922px;
+  position: absolute;
+  top: 1837.81px;
+  left: 568.541px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1105 {
+  width: 4.94955px;
+  height: 8.19787px;
+  position: absolute;
+  top: 1839.49px;
+  left: 576.841px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1106 {
+  width: 1.33748px;
+  height: 9.70387px;
+  position: absolute;
+  top: 1837.75px;
+  left: 583.695px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1107 {
+  width: 6.40449px;
+  height: 8.39524px;
+  position: absolute;
+  top: 1839.18px;
+  left: 587.357px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1108 {
+  width: 1.02529px;
+  height: 9.6062px;
+  position: absolute;
+  top: 1837.24px;
+  left: 596.309px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1109 {
+  width: 3.2218px;
+  height: .699907px;
+  position: absolute;
+  top: 1842.16px;
+  left: 595.126px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1110 {
+  width: 5.44214px;
+  height: 9.99647px;
+  position: absolute;
+  top: 1838.05px;
+  left: 601.76px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1111 {
+  width: 49.3722px;
+  height: 21.5176px;
+  position: absolute;
+  top: 1872.95px;
+  left: 339.574px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1112 {
+  width: 7.98508px;
+  height: 12.311px;
+  position: absolute;
+  top: 1877.63px;
+  left: 343.514px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1113 {
+  width: 6.07828px;
+  height: .330298px;
+  position: absolute;
+  top: 1884.01px;
+  left: 344.807px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1114 {
+  width: 5.84228px;
+  height: 12.3783px;
+  position: absolute;
+  top: 1877.63px;
+  left: 354.024px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1115 {
+  width: 1.028px;
+  height: 7.5701px;
+  position: absolute;
+  top: 1881.93px;
+  left: 362.291px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1116 {
+  width: .158946px;
+  height: .0863232px;
+  position: absolute;
+  top: 1878.6px;
+  left: 362.45px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1117 {
+  width: 1.76403px;
+  height: 11.9471px;
+  position: absolute;
+  top: 1877.76px;
+  left: 365.838px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1118 {
+  width: 4.959px;
+  height: .39271px;
+  position: absolute;
+  top: 1883.27px;
+  left: 363.963px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1119 {
+  width: 49.3722px;
+  height: 21.5176px;
+  position: absolute;
+  top: 1913.71px;
+  left: 336.194px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1120 {
+  width: 7.98508px;
+  height: 12.311px;
+  position: absolute;
+  top: 1918.39px;
+  left: 340.134px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1121 {
+  width: 6.07828px;
+  height: .330298px;
+  position: absolute;
+  top: 1924.76px;
+  left: 341.427px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1122 {
+  width: 5.84228px;
+  height: 12.3783px;
+  position: absolute;
+  top: 1918.39px;
+  left: 350.644px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1123 {
+  width: 1.028px;
+  height: 7.5701px;
+  position: absolute;
+  top: 1922.69px;
+  left: 358.912px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1124 {
+  width: .158946px;
+  height: .0863232px;
+  position: absolute;
+  top: 1919.35px;
+  left: 359.07px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1125 {
+  width: 1.76403px;
+  height: 11.9471px;
+  position: absolute;
+  top: 1918.52px;
+  left: 362.459px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1126 {
+  width: 4.959px;
+  height: .39271px;
+  position: absolute;
+  top: 1924.03px;
+  left: 360.583px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1127 {
+  width: 49.3722px;
+  height: 21.5176px;
+  position: absolute;
+  top: 1956.32px;
+  left: 337.375px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1128 {
+  width: 7.98508px;
+  height: 12.311px;
+  position: absolute;
+  top: 1961px;
+  left: 341.315px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1129 {
+  width: 6.07828px;
+  height: .330298px;
+  position: absolute;
+  top: 1967.37px;
+  left: 342.609px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1130 {
+  width: 5.84228px;
+  height: 12.3783px;
+  position: absolute;
+  top: 1960.99px;
+  left: 351.825px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1131 {
+  width: 1.028px;
+  height: 7.5701px;
+  position: absolute;
+  top: 1965.29px;
+  left: 360.093px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1132 {
+  width: .158946px;
+  height: .0863232px;
+  position: absolute;
+  top: 1961.96px;
+  left: 360.252px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1133 {
+  width: 1.76403px;
+  height: 11.9471px;
+  position: absolute;
+  top: 1961.13px;
+  left: 363.64px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1134 {
+  width: 4.959px;
+  height: .39271px;
+  position: absolute;
+  top: 1966.64px;
+  left: 361.765px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1135 {
+  width: .897579px;
+  height: 19.9151px;
+  position: absolute;
+  top: 2026.35px;
+  left: 59.7851px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1136 {
+  width: 12.9107px;
+  height: 15.6103px;
+  position: absolute;
+  top: 2023.17px;
+  left: 58.6679px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1137 {
+  width: 13.8946px;
+  height: 18.1064px;
+  position: absolute;
+  top: 2030.15px;
+  left: 73.9794px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1138 {
+  width: 12.1469px;
+  height: 18.1445px;
+  position: absolute;
+  top: 2029.14px;
+  left: 89.4082px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1139 {
+  width: 13.5076px;
+  height: 17.2051px;
+  position: absolute;
+  top: 2028.77px;
+  left: 102.486px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1140 {
+  width: 18.8291px;
+  height: 15.9544px;
+  position: absolute;
+  top: 2029.51px;
+  left: 120.302px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1141 {
+  width: 13.1604px;
+  height: 17.0713px;
+  position: absolute;
+  top: 2029.64px;
+  left: 141.128px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1142 {
+  width: 7.81322px;
+  height: 15.6626px;
+  position: absolute;
+  top: 2029px;
+  left: 157.866px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1143 {
+  width: 11.2746px;
+  height: 23.5837px;
+  position: absolute;
+  top: 2023.7px;
+  left: 165.041px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1144 {
+  width: 43.9014px;
+  height: 7.87244px;
+  position: absolute;
+  top: 2029.83px;
+  left: 227.333px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1145 {
+  width: 49.3722px;
+  height: 21.5176px;
+  position: absolute;
+  top: 2018.56px;
+  left: 339.927px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1146 {
+  width: 7.98508px;
+  height: 12.311px;
+  position: absolute;
+  top: 2023.24px;
+  left: 343.867px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1147 {
+  width: 6.07828px;
+  height: .330298px;
+  position: absolute;
+  top: 2029.61px;
+  left: 345.161px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1148 {
+  width: 5.84228px;
+  height: 12.3783px;
+  position: absolute;
+  top: 2023.24px;
+  left: 354.377px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1149 {
+  width: 1.028px;
+  height: 7.5701px;
+  position: absolute;
+  top: 2027.54px;
+  left: 362.645px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1150 {
+  width: .158946px;
+  height: .0863232px;
+  position: absolute;
+  top: 2024.2px;
+  left: 362.804px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1151 {
+  width: 1.76403px;
+  height: 11.9471px;
+  position: absolute;
+  top: 2023.37px;
+  left: 366.192px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Group1 .Vector1152 {
+  width: 4.959px;
+  height: .39271px;
+  position: absolute;
+  top: 2028.88px;
+  left: 364.316px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Wireframes .Wireframes_1 {
+  width: 1149.55px;
+  height: 245.68px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .UserFlow {
+  width: 1302.69px;
+  height: 1381.12px;
+  position: absolute;
+  top: 464.8px;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .UserFlow .UserFlow1 {
+  width: 1302.69px;
+  height: 1381.12px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .UserFlow .UserFlow_1 {
+  width: 1149.55px;
+  height: 245.68px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 28.22px;
+  left: 95.45px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .UserStoriesAsauserIwanttobeabletoaccessinformationonmoviesactorsdirectorsandgenressothatIamabletolearnmoreAsauserIwanttobeabletocreateaprofilemakeafavoriteslisttosavefavoritemoviesandbeabletoupdatemyprofiledata {
+  width: 1149.55px;
+  height: 245.68px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 175.96px;
+  left: 95.45px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Line4 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 102.09px;
+  left: 269.75px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Planning_1 {
+  width: 398.4px;
+  height: 79.68px;
+  color: #000;
+  font-family: Joan;
+  font-size: 53.12px;
+  font-weight: 400;
+  line-height: 62.25px;
+  position: absolute;
+  top: 12.45px;
+  left: 154.38px;
+}
+
+.MacBookPro161_MacBookPro161 .Planning .Line3 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 0;
+  left: 112.05px;
+}
+
+.MacBookPro161_MacBookPro161 .ProjectOverview {
+  width: 1210.14px;
+  height: 552.78px;
+  position: absolute;
+  top: 1126.31px;
+  left: 148.57px;
+}
+
+.MacBookPro161_MacBookPro161 .ProjectOverview .ObjectiveUsingReactbuildtheclientsideforanapplicationcalledmyFlixbasedonitsexistingserversidecodeRESTAPIanddatabase {
+  width: 588.47px;
+  height: 366.86px;
+  color: #0d1a25;
+  border: 1px solid #000;
+  font-family: Joan;
+  font-size: 39.84px;
+  font-weight: 400;
+  line-height: 46.6875px;
+  position: absolute;
+  top: 169.32px;
+  left: 0;
+}
+
+.MacBookPro161_MacBookPro161 .ProjectOverview .ProjectOverview_1 {
+  width: 398.4px;
+  height: 79.68px;
+  color: #000;
+  font-family: Joan;
+  font-size: 53.12px;
+  font-weight: 400;
+  line-height: 62.25px;
+  position: absolute;
+  top: 12.45px;
+  left: 78.85px;
+}
+
+.MacBookPro161_MacBookPro161 .ProjectOverview .Line1_2 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 0;
+  left: 12.45px;
+}
+
+.MacBookPro161_MacBookPro161 .ProjectOverview .Line2_2 {
+  width: 315.4px;
+  height: 2.49px;
+  border: 3px solid #250d0d;
+  position: absolute;
+  top: 102.09px;
+  left: 186.75px;
+}
+
+.MacBookPro161_MacBookPro161 .ProjectOverview .Rectangle5 {
+  width: 483.89px;
+  height: 460.65px;
+  background: #0d1a25;
+  position: absolute;
+  top: 92.13px;
+  left: 726.25px;
+}
+
+.MacBookPro161_MacBookPro161 .ProjectOverview .Githubhttpsgithubcomsms165movieclientNetlifyliveversionhttpsmyflixmoviedbnetlifyapp {
+  width: 296.31px;
+  height: 301.29px;
+  color: #fff;
+  font-family: Joan;
+  font-size: 33.2px;
+  font-weight: 400;
+  line-height: 38.9063px;
+  position: absolute;
+  top: 175.96px;
+  left: 834.15px;
 }
 
 /*# sourceMappingURL=index.75f14d4e.css.map */

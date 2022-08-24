@@ -20,7 +20,11 @@ import Skills from "./components/skills/Skills";
 import Education from "./components/education/Education";
 import Contact from "./components/contact/Contact";
 import Certificate from "./components/certificate/Certificate";
-import CertificateText from "./components/certificateText/CertificateText"
+import CertificateText from "./components/certificateText/CertificateText";
+import {Link} from 'react-router-dom'
+import MyFlixProject from "./components/myflixProject/myflixProject";
+import { Router, Route, Routes } from "react-router-dom";
+import MeetAppProj from "./components/meetAppProj/MeetAppProj";
 
 const App = () => {
   const [scroll, setScroll] = useState(0);
@@ -479,7 +483,7 @@ if(document.documentElement.clientHeight > 900){
   }
   return (
     <>
-   
+     
       <Parallax ref={parallax} pages={6} style={{ top: "0", left: "0" }}>
         {/* background */}
         <ParallaxLayer offset={0} speed={0.1} factor={10}>
@@ -546,6 +550,8 @@ if(document.documentElement.clientHeight > 900){
           <div className="aboutComp">
             {/* <p>I've scrolled {scroll} pixels</p> */}
             <About />
+            {/* <Link to="/meetAppProj"   ><div>Meet App Project</div></Link> */}
+            
           </div>
         </ParallaxLayer>
         <p id="projects" >  </p>
@@ -622,6 +628,7 @@ if(document.documentElement.clientHeight > 900){
           </div>
         </ParallaxLayer>
       </Parallax>
+      
     </>
   );
 };
