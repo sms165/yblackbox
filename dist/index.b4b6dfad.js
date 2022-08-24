@@ -3278,7 +3278,7 @@ const App = ()=>{
         lutzImg.classList.add("visible");
         cfImg.classList.add("visible");
     }
-    if (scroll > 2500) {
+    if (scroll > 2450) {
         let maskC = document.getElementById("mask-c");
         let maske = document.getElementById("mask-e");
         let maskr = document.getElementById("mask-r");
@@ -3497,7 +3497,7 @@ const App = ()=>{
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 3,
                     // style={{ width: "50vw", float: "right" }}
-                    speed: 0.5,
+                    speed: 0.8,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "educationComp",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
@@ -64389,7 +64389,7 @@ function Skills() {
                 detail.innerHTML = '<div class="detail"><h1>Docker</h1><img class="imageDetail" src="' + (0, _dockerSvgDefault.default) + '"  /></div><div class="text"><br /><p>Docker allows developers to easily deploy an application in a sandbox, using Os-level virtualization.</p><br /><p>First experience was during my internship at abas Software.</p><p>Used in combination with the Shopware CMS</div>';
                 break;
             case "git":
-                detail.innerHTML = '<div class="detail"><h1>Git</h1><img class="imageDetail" src="' + (0, _gitSvgDefault.default) + '"  /></div><div class="text"><br /><p>Git is a free and open source version control system.</p><br /><p>Ongoing usage to uplad and keep track of completed and ongoing projects.</p><br /><a href="https://github.com/sms165" target=\u201D_blank\u201D >Personal github</a></div>';
+                detail.innerHTML = '<div class="detail"><h1>Git</h1><img class="imageDetail" src="' + (0, _gitSvgDefault.default) + '"  /></div><div class="text"><br /><p>Git is a free and open source version control system.</p><br /><p>Ongoing usage to upload and keep track of completed and ongoing projects.</p><br /><a href="https://github.com/sms165" target=\u201D_blank\u201D >Personal github</a></div>';
                 break;
             case "microsoft":
                 detail.innerHTML = '<div class="detail"><h1>Microsoft Office</h1><img class="imageDetail" src="' + (0, _microsoftSvgDefault.default) + '"  /></div><div class="text"><br /><p>Microsoft Office is a family of client softwarem server software, and services developed by Microsoft.</p><br /<br /><p>Software Experience: Excel, OneDrive, Outlook, PowerPoint, Teams, Word, Yammer</p></div>';

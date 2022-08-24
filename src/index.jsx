@@ -450,7 +450,7 @@ if(document.documentElement.clientHeight > 900){
   }
  
 
-  if (scroll > 2500) {
+  if (scroll > 2450) {
     let maskC = document.getElementById("mask-c");
     let maske = document.getElementById("mask-e");
     let maskr = document.getElementById("mask-r");
@@ -579,7 +579,7 @@ if(document.documentElement.clientHeight > 900){
         <ParallaxLayer
           offset={3}
           // style={{ width: "50vw", float: "right" }}
-          speed={0.5}
+          speed={0.8}
         >
           
           {/* <p>I've scrolled {scroll} pixels</p> */}

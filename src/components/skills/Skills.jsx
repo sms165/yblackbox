@@ -99,7 +99,7 @@ function Skills() {
             detail.innerHTML='<div class="detail"><h1>Docker</h1><img class="imageDetail" src="' + dockerSvg + '"  /></div><div class="text"><br /><p>Docker allows developers to easily deploy an application in a sandbox, using Os-level virtualization.</p><br /><p>First experience was during my internship at abas Software.</p><p>Used in combination with the Shopware CMS</div>';   
             break;
         case 'git':
-            detail.innerHTML='<div class="detail"><h1>Git</h1><img class="imageDetail" src="' + gitSvg + '"  /></div><div class="text"><br /><p>Git is a free and open source version control system.</p><br /><p>Ongoing usage to uplad and keep track of completed and ongoing projects.</p><br /><a href="https://github.com/sms165" target=”_blank” >Personal github</a></div>';   
+            detail.innerHTML='<div class="detail"><h1>Git</h1><img class="imageDetail" src="' + gitSvg + '"  /></div><div class="text"><br /><p>Git is a free and open source version control system.</p><br /><p>Ongoing usage to upload and keep track of completed and ongoing projects.</p><br /><a href="https://github.com/sms165" target=”_blank” >Personal github</a></div>';   
             break;
         case 'microsoft':
             detail.innerHTML='<div class="detail"><h1>Microsoft Office</h1><img class="imageDetail" src="' + microsoftSvg + '"  /></div><div class="text"><br /><p>Microsoft Office is a family of client softwarem server software, and services developed by Microsoft.</p><br /<br /><p>Software Experience: Excel, OneDrive, Outlook, PowerPoint, Teams, Word, Yammer</p></div>';           

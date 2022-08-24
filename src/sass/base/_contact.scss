@@ -38,6 +38,11 @@
     color: white;
     font-family: 'Raleway', sans-serif;
     background-color: rgba(190, 187, 187, 0.1);
+   
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border-color:var(--pink-highlighter);
   }
 
   input{

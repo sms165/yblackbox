@@ -1257,7 +1257,7 @@ h2 {
 
 .premierePro.visible {
   width: 50%;
-  animation: premierePro 150s;
+  animation: premierePro 15s;
 }
 
 .afterEffects.visible {
@@ -1636,19 +1636,19 @@ p {
 }
 
 #mask-i.visible {
-  animation: strokeOffset 6s linear 3s forwards;
+  animation: strokeOffset 5s linear 3s forwards;
 }
 
 #mask-f.visible {
-  animation: strokeOffset 6s linear 3.8s forwards;
+  animation: strokeOffset 5s linear 3.8s forwards;
 }
 
 #mask-it.visible {
-  animation: strokeOffset 6s linear 5s forwards;
+  animation: strokeOffset 5s linear 5s forwards;
 }
 
 #mask-ct.visible {
-  animation: strokeOffset 6s linear 6s forwards;
+  animation: strokeOffset 5s linear 6s forwards;
 }
 
 #mask-a.visible {
@@ -1656,15 +1656,15 @@ p {
 }
 
 #mask-tt.visible {
-  animation: strokeOffset 6s linear 7.5s forwards;
+  animation: strokeOffset 5s linear 7.5s forwards;
 }
 
 #mask-et.visible {
-  animation: strokeOffset 6s linear 9s forwards;
+  animation: strokeOffset 5s linear 9s forwards;
 }
 
 #mask-s.visible {
-  animation: strokeOffset 6s linear 10s forwards;
+  animation: strokeOffset 5s linear 10s forwards;
 }
 
 .cls-1 {
@@ -1743,7 +1743,10 @@ p {
   text-align: center;
   width: 8vw;
   color: #fff;
-  background-color: #bebbbb1a;
+  color: #fff;
+  border-color: var(--pink-highlighter);
+  background-color: #000;
+  border-radius: 5px;
   margin-left: 12vw;
   padding: 1vh;
   font-family: Raleway, sans-serif;
