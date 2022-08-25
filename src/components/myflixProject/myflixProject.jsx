@@ -1,862 +1,511 @@
-import React from 'react'
-import './myFlixProject.css'
-import ImgAsset from '../../assets/myFlix'
-export default function MyFlixProject () {
-	return (
-		<div className='myFlixProject_myFlixProject'>
-			<img className='imac1999636_19201' src = {ImgAsset.myFlixProject_imac1999636_19201} />
-			<div className='ImageProject'>
-				<img className='Vector4' src = {ImgAsset.myFlixProject_Vector4} />
-				<img className='Screenshot20220823at17051' src = {ImgAsset.myFlixProject_Screenshot20220823at17051} />
-				<img className='Screenshot20220823at17181' src = {ImgAsset.myFlixProject_Screenshot20220823at17181} />
-			</div>
-			<div className='Maskgroup'>
-				<img className='Vector2' src = {ImgAsset.myFlixProject_Vector2} />
-				<img className='Screenshot20220823at17071' src = {ImgAsset.myFlixProject_Screenshot20220823at17071} />
-			</div>
-			<div className='Maskgroup_1'>
-				<img className='Vector1' src = {ImgAsset.myFlixProject_Vector1} />
-				<img className='Screenshot20220823at17081' src = {ImgAsset.myFlixProject_Screenshot20220823at17081} />
-			</div>
-			<div className='Maskgroup_2'>
-				<img className='Vector3' src = {ImgAsset.myFlixProject_Vector3} />
-				<img className='Screenshot20220823at17061' src = {ImgAsset.myFlixProject_Screenshot20220823at17061} />
-			</div>
-			<div className='Development'>
-				<span className='TechnologiesUsedProgrammedusingtheMERNtechstackwhichstandsforMongoDBDatabaseusedtostoremoviedataExpressNodejswebframeworkReactJavaScriptframeworkNodejsruntimeenvironmentallowsJavaScripttobeusedontheserversideHTMLCSSReactBootstrap'>Technologies Used:<br/>Programmed using the MERN tech stack which stands for:<br/>MongoDB: Database used to store movie data<br/>Express:  Node.js web framework<br/>React: JavaScript framework<br/>Node.js: runtime environment , allows JavaScript to be used on the server side<br/>HTML<br/>CSS / React Bootstrap<br/><br/></span>
-				<span className='DecisionsmadeandconsequencesAsthelessonsonCareerFoundrywerenotuptodatewiththenewversionsforexampleofReactandReactRouterIhadtorelyonothersourcestoprogramthissiteAsawebdeveloperitisimportanttostayuptodateandcontinuelearningwhichiswhyIchoosetoprogramwiththecurrentversionsIstudiedtheofficialdocumentationtohelpmecompletethetaskswhichwasdifficultattimesbutitgavemetheopportunitytogainmoreexperiencewithreadingdocumentationsIdecidedtoincludemoreviewsandfunctionsthanthelessonstatedtohaveachancetolearnmoreIwantedtomakethepasswordchangefunctionontheuserupdateviewmoresecureTheuserneedstotypeintheiroldpasswordandtheirnewpasswordtheninthebackendtheprogramchecksiftheoldpasswordisthesameasthatwhichissavedinthedatabaseandonlyifitreturnstruethepasswordwillbechangedAconsequenceofthiswasthatIhadtogobacktotheAPItomakeanewendpointwhichhasthelogicbehindittohandlethepasswordcomparisonandchange'>Decisions made and consequences:<br/>As the lessons on CareerFoundry were not up to date with the new versions  for example of React and React Router, I had to rely on other sources to program this site. As a web developer it is important to stay up to date and continue learning, which is why I choose to program with the current versions. <br/>I studied the official documentation to help me complete the tasks, which was difficult at times but it gave me the opportunity to gain more experience with reading documentations.<br/>I decided to include more views, and functions than the lesson stated to have a chance to learn more.<br/>I wanted to make the password change function on the user update view more secure. The user needs to type in their old password and their new password, then in the backend the program checks if the old password is the same as that which is saved in the database and only if it returns true the password will be changed.<br/>A consequence of this was that I had to go back to the API to make a new endpoint which has the logic behind it to handle the password comparison and change.<br/><br/></span>
-				<span className='Development_1'>Development</span>
-				<img className='Line1' src = {ImgAsset.myFlixProject_Line1} />
-				<img className='Line2' src = {ImgAsset.myFlixProject_Line2} />
-			</div>
-			<div className='StyleGuide'>
-				<div className='Rectangle10'/>
-				<div className='Rectangle8'/>
-				<div className='Maskgroup_3'>
-					<div className='Rectangle11'/>
-					<img className='movietheater1' src = {ImgAsset.myFlixProject_movietheater1} />
-				</div>
-				<div className='Rectangle11_1'/>
-				<span className='Joan'>Joan</span>
-				<span className='_'></span>
-				<span className='BackgroundColor0D1A25'>Background Color:<br/>#0D1A25<br/></span>
-				<span className='ComponentColor122535'>Component Color:<br/>#122535<br/></span>
-				<span className='ButtonColor59A9F0'>Button Color:<br/>#59A9F0<br/></span>
-				<span className='ColorPaletteIorientedthestyleofthewebsiteontheclassicalsimplestyleinadarktheme'>Color Palette:<br/>I oriented the style of the website on the classical simple style in a dark theme. <br/></span>
-				<span className='__1'></span>
-				<span className='Typography'>Typography:<br/><br/><br/></span>
-				<span className='Typography_1'>Typography:<br/><br/><br/></span>
-				<span className='StyleGuide_1'>Style Guide</span>
-				<img className='Line1_1' src = {ImgAsset.myFlixProject_Line1_1} />
-				<img className='Line2_1' src = {ImgAsset.myFlixProject_Line2_1} />
-				<span className='GoogleFontDesignedbyPaoloBiagini'>Google Font:<br/>Designed by Paolo Biagini<br/><br/></span>
-				<div className='Maskgroup_4'>
-					<div className='Rectangle12'/>
-					<img className='dorisday1' src = {ImgAsset.myFlixProject_dorisday1} />
-				</div>
-				<span className='Icongraphy'>Icongraphy:<br/><br/><br/></span>
-				<span className='FontAwesomeTrashCan'>FontAwesome:<br/>TrashCan<br/><br/></span>
-				<span className='PixabayFreeImage'>Pixabay:<br/>Free Image<br/><br/></span>
-				<div className='Rectangle9'/>
-				<span className='FontAwesomePentoPaper'>FontAwesome:<br/>Pen-to-Paper<br/><br/></span>
-				<span className='TheMovieDBImagesformoviesactorsanddirectors'>TheMovieDB:<br/>Images for movies, actors, and directors.<br/><br/></span>
-				<div className='Rectangle10_1'/>
-				<span className='Images'>Images:<br/><br/><br/></span>
-				<span className='LinkHoverColorF90606'>Link Hover Color:<br/>#F90606<br/></span>
-				<div className='Rectangle8_1'/>
-				<div className='Rectangle7'/>
-			</div>
-			<div className='Header'>
-				<div className='Rectangle3'/>
-				<div className='Rectangle4'/>
-				<img className='Vector' src = {ImgAsset.myFlixProject_Vector} />
-				<span className='httpsmyflixmoviedbnetlifyapp'>https://myflix-moviedb.netlify.app/</span>
-			</div>
-			<div className='Planning'>
-				<div className='Wireframes'>
-					<div className='Group1'>
-						<img className='Vector1_1' src = {ImgAsset.myFlixProject_Vector1_1} />
-						<img className='Vector2_1' src = {ImgAsset.myFlixProject_Vector2_1} />
-						<img className='Vector3_1' src = {ImgAsset.myFlixProject_Vector3_1} />
-						<img className='Vector4_1' src = {ImgAsset.myFlixProject_Vector4_1} />
-						<img className='Vector5' src = {ImgAsset.myFlixProject_Vector5} />
-						<img className='Vector6' src = {ImgAsset.myFlixProject_Vector6} />
-						<img className='Vector7' src = {ImgAsset.myFlixProject_Vector7} />
-						<img className='Vector8' src = {ImgAsset.myFlixProject_Vector8} />
-						<img className='Vector9' src = {ImgAsset.myFlixProject_Vector9} />
-						<img className='Vector10' src = {ImgAsset.myFlixProject_Vector10} />
-						<img className='Vector11' src = {ImgAsset.myFlixProject_Vector11} />
-						<img className='Vector12' src = {ImgAsset.myFlixProject_Vector12} />
-						<img className='Vector13' src = {ImgAsset.myFlixProject_Vector13} />
-						<img className='Vector14' src = {ImgAsset.myFlixProject_Vector14} />
-						<img className='Vector15' src = {ImgAsset.myFlixProject_Vector15} />
-						<img className='Vector16' src = {ImgAsset.myFlixProject_Vector16} />
-						<img className='Vector17' src = {ImgAsset.myFlixProject_Vector17} />
-						<img className='Vector18' src = {ImgAsset.myFlixProject_Vector18} />
-						<img className='Vector19' src = {ImgAsset.myFlixProject_Vector19} />
-						<img className='Vector20' src = {ImgAsset.myFlixProject_Vector20} />
-						<img className='Vector21' src = {ImgAsset.myFlixProject_Vector21} />
-						<img className='Vector22' src = {ImgAsset.myFlixProject_Vector22} />
-						<img className='Vector23' src = {ImgAsset.myFlixProject_Vector23} />
-						<img className='Vector24' src = {ImgAsset.myFlixProject_Vector24} />
-						<img className='Vector25' src = {ImgAsset.myFlixProject_Vector25} />
-						<img className='Vector26' src = {ImgAsset.myFlixProject_Vector26} />
-						<img className='Vector27' src = {ImgAsset.myFlixProject_Vector27} />
-						<img className='Vector28' src = {ImgAsset.myFlixProject_Vector28} />
-						<img className='Vector29' src = {ImgAsset.myFlixProject_Vector29} />
-						<img className='Vector30' src = {ImgAsset.myFlixProject_Vector30} />
-						<img className='Vector31' src = {ImgAsset.myFlixProject_Vector31} />
-						<img className='Vector32' src = {ImgAsset.myFlixProject_Vector32} />
-						<img className='Vector33' src = {ImgAsset.myFlixProject_Vector33} />
-						<img className='Vector34' src = {ImgAsset.myFlixProject_Vector34} />
-						<img className='Vector35' src = {ImgAsset.myFlixProject_Vector35} />
-						<img className='Vector36' src = {ImgAsset.myFlixProject_Vector36} />
-						<img className='Vector37' src = {ImgAsset.myFlixProject_Vector37} />
-						<img className='Vector38' src = {ImgAsset.myFlixProject_Vector38} />
-						<img className='Vector39' src = {ImgAsset.myFlixProject_Vector39} />
-						<img className='Vector40' src = {ImgAsset.myFlixProject_Vector40} />
-						<img className='Vector41' src = {ImgAsset.myFlixProject_Vector41} />
-						<img className='Vector42' src = {ImgAsset.myFlixProject_Vector42} />
-						<img className='Vector43' src = {ImgAsset.myFlixProject_Vector43} />
-						<img className='Vector44' src = {ImgAsset.myFlixProject_Vector44} />
-						<img className='Vector45' src = {ImgAsset.myFlixProject_Vector45} />
-						<img className='Vector46' src = {ImgAsset.myFlixProject_Vector46} />
-						<img className='Vector47' src = {ImgAsset.myFlixProject_Vector47} />
-						<img className='Vector48' src = {ImgAsset.myFlixProject_Vector48} />
-						<img className='Vector49' src = {ImgAsset.myFlixProject_Vector49} />
-						<img className='Vector50' src = {ImgAsset.myFlixProject_Vector50} />
-						<img className='Vector51' src = {ImgAsset.myFlixProject_Vector51} />
-						<img className='Vector52' src = {ImgAsset.myFlixProject_Vector52} />
-						<img className='Vector53' src = {ImgAsset.myFlixProject_Vector53} />
-						<img className='Vector54' src = {ImgAsset.myFlixProject_Vector54} />
-						<img className='Vector55' src = {ImgAsset.myFlixProject_Vector55} />
-						<img className='Vector56' src = {ImgAsset.myFlixProject_Vector56} />
-						<img className='Vector57' src = {ImgAsset.myFlixProject_Vector57} />
-						<img className='Vector58' src = {ImgAsset.myFlixProject_Vector58} />
-						<img className='Vector59' src = {ImgAsset.myFlixProject_Vector59} />
-						<img className='Vector60' src = {ImgAsset.myFlixProject_Vector60} />
-						<img className='Vector61' src = {ImgAsset.myFlixProject_Vector61} />
-						<img className='Vector62' src = {ImgAsset.myFlixProject_Vector62} />
-						<img className='Vector63' src = {ImgAsset.myFlixProject_Vector63} />
-						<img className='Vector64' src = {ImgAsset.myFlixProject_Vector64} />
-						<img className='Vector65' src = {ImgAsset.myFlixProject_Vector65} />
-						<img className='Vector66' src = {ImgAsset.myFlixProject_Vector66} />
-						<img className='Vector67' src = {ImgAsset.myFlixProject_Vector67} />
-						<img className='Vector68' src = {ImgAsset.myFlixProject_Vector68} />
-						<img className='Vector70' src = {ImgAsset.myFlixProject_Vector70} />
-						<img className='Vector71' src = {ImgAsset.myFlixProject_Vector71} />
-						<img className='Vector72' src = {ImgAsset.myFlixProject_Vector72} />
-						<img className='Vector73' src = {ImgAsset.myFlixProject_Vector73} />
-						<img className='Vector74' src = {ImgAsset.myFlixProject_Vector74} />
-						<img className='Vector75' src = {ImgAsset.myFlixProject_Vector75} />
-						<img className='Vector76' src = {ImgAsset.myFlixProject_Vector76} />
-						<img className='Vector77' src = {ImgAsset.myFlixProject_Vector77} />
-						<img className='Vector78' src = {ImgAsset.myFlixProject_Vector78} />
-						<img className='Vector79' src = {ImgAsset.myFlixProject_Vector79} />
-						<img className='Vector80' src = {ImgAsset.myFlixProject_Vector80} />
-						<img className='Vector81' src = {ImgAsset.myFlixProject_Vector81} />
-						<img className='Vector82' src = {ImgAsset.myFlixProject_Vector82} />
-						<img className='Vector83' src = {ImgAsset.myFlixProject_Vector83} />
-						<img className='Vector84' src = {ImgAsset.myFlixProject_Vector84} />
-						<img className='Vector85' src = {ImgAsset.myFlixProject_Vector85} />
-						<img className='Vector86' src = {ImgAsset.myFlixProject_Vector86} />
-						<img className='Vector87' src = {ImgAsset.myFlixProject_Vector87} />
-						<img className='Vector88' src = {ImgAsset.myFlixProject_Vector88} />
-						<img className='Vector89' src = {ImgAsset.myFlixProject_Vector89} />
-						<img className='Vector90' src = {ImgAsset.myFlixProject_Vector90} />
-						<img className='Vector91' src = {ImgAsset.myFlixProject_Vector91} />
-						<img className='Vector92' src = {ImgAsset.myFlixProject_Vector92} />
-						<img className='Vector93' src = {ImgAsset.myFlixProject_Vector93} />
-						<img className='Vector94' src = {ImgAsset.myFlixProject_Vector94} />
-						<img className='Vector95' src = {ImgAsset.myFlixProject_Vector95} />
-						<img className='Vector96' src = {ImgAsset.myFlixProject_Vector96} />
-						<img className='Vector97' src = {ImgAsset.myFlixProject_Vector97} />
-						<img className='Vector98' src = {ImgAsset.myFlixProject_Vector98} />
-						<img className='Vector99' src = {ImgAsset.myFlixProject_Vector99} />
-						<img className='Vector100' src = {ImgAsset.myFlixProject_Vector100} />
-						<img className='Vector101' src = {ImgAsset.myFlixProject_Vector101} />
-						<img className='Vector102' src = {ImgAsset.myFlixProject_Vector102} />
-						<img className='Vector103' src = {ImgAsset.myFlixProject_Vector103} />
-						<img className='Vector104' src = {ImgAsset.myFlixProject_Vector104} />
-						<img className='Vector105' src = {ImgAsset.myFlixProject_Vector105} />
-						<img className='Vector106' src = {ImgAsset.myFlixProject_Vector106} />
-						<img className='Vector107' src = {ImgAsset.myFlixProject_Vector107} />
-						<img className='Vector108' src = {ImgAsset.myFlixProject_Vector108} />
-						<img className='Vector109' src = {ImgAsset.myFlixProject_Vector109} />
-						<img className='Vector110' src = {ImgAsset.myFlixProject_Vector110} />
-						<img className='Vector111' src = {ImgAsset.myFlixProject_Vector111} />
-						<img className='Vector112' src = {ImgAsset.myFlixProject_Vector112} />
-						<img className='Vector113' src = {ImgAsset.myFlixProject_Vector113} />
-						<img className='Vector114' src = {ImgAsset.myFlixProject_Vector114} />
-						<img className='Vector115' src = {ImgAsset.myFlixProject_Vector115} />
-						<img className='Vector116' src = {ImgAsset.myFlixProject_Vector116} />
-						<img className='Vector117' src = {ImgAsset.myFlixProject_Vector117} />
-						<img className='Vector118' src = {ImgAsset.myFlixProject_Vector118} />
-						<img className='Vector119' src = {ImgAsset.myFlixProject_Vector119} />
-						<img className='Vector120' src = {ImgAsset.myFlixProject_Vector120} />
-						<img className='Vector121' src = {ImgAsset.myFlixProject_Vector121} />
-						<img className='Vector122' src = {ImgAsset.myFlixProject_Vector122} />
-						<img className='Vector123' src = {ImgAsset.myFlixProject_Vector123} />
-						<img className='Vector124' src = {ImgAsset.myFlixProject_Vector124} />
-						<img className='Vector125' src = {ImgAsset.myFlixProject_Vector125} />
-						<img className='Vector126' src = {ImgAsset.myFlixProject_Vector126} />
-						<img className='Vector127' src = {ImgAsset.myFlixProject_Vector127} />
-						<img className='Vector128' src = {ImgAsset.myFlixProject_Vector128} />
-						<img className='Vector129' src = {ImgAsset.myFlixProject_Vector129} />
-						<img className='Vector130' src = {ImgAsset.myFlixProject_Vector130} />
-						<img className='Vector131' src = {ImgAsset.myFlixProject_Vector131} />
-						<img className='Vector132' src = {ImgAsset.myFlixProject_Vector132} />
-						<img className='Vector133' src = {ImgAsset.myFlixProject_Vector133} />
-						<img className='Vector134' src = {ImgAsset.myFlixProject_Vector134} />
-						<img className='Vector135' src = {ImgAsset.myFlixProject_Vector135} />
-						<img className='Vector136' src = {ImgAsset.myFlixProject_Vector136} />
-						<img className='Vector137' src = {ImgAsset.myFlixProject_Vector137} />
-						<img className='Vector138' src = {ImgAsset.myFlixProject_Vector138} />
-						<img className='Vector139' src = {ImgAsset.myFlixProject_Vector139} />
-						<img className='Vector140' src = {ImgAsset.myFlixProject_Vector140} />
-						<img className='Vector141' src = {ImgAsset.myFlixProject_Vector141} />
-						<img className='Vector142' src = {ImgAsset.myFlixProject_Vector142} />
-						<img className='Vector143' src = {ImgAsset.myFlixProject_Vector143} />
-						<img className='Vector144' src = {ImgAsset.myFlixProject_Vector144} />
-						<img className='Vector145' src = {ImgAsset.myFlixProject_Vector145} />
-						<img className='Vector146' src = {ImgAsset.myFlixProject_Vector146} />
-						<img className='Vector147' src = {ImgAsset.myFlixProject_Vector147} />
-						<img className='Vector148' src = {ImgAsset.myFlixProject_Vector148} />
-						<img className='Vector149' src = {ImgAsset.myFlixProject_Vector149} />
-						<img className='Vector150' src = {ImgAsset.myFlixProject_Vector150} />
-						<img className='Vector151' src = {ImgAsset.myFlixProject_Vector151} />
-						<img className='Vector152' src = {ImgAsset.myFlixProject_Vector152} />
-						<img className='Vector153' src = {ImgAsset.myFlixProject_Vector153} />
-						<img className='Vector154' src = {ImgAsset.myFlixProject_Vector154} />
-						<img className='Vector155' src = {ImgAsset.myFlixProject_Vector155} />
-						<img className='Vector156' src = {ImgAsset.myFlixProject_Vector156} />
-						<img className='Vector157' src = {ImgAsset.myFlixProject_Vector157} />
-						<img className='Vector158' src = {ImgAsset.myFlixProject_Vector158} />
-						<img className='Vector159' src = {ImgAsset.myFlixProject_Vector159} />
-						<img className='Vector160' src = {ImgAsset.myFlixProject_Vector160} />
-						<img className='Vector161' src = {ImgAsset.myFlixProject_Vector161} />
-						<img className='Vector162' src = {ImgAsset.myFlixProject_Vector162} />
-						<img className='Vector208' src = {ImgAsset.myFlixProject_Vector208} />
-						<img className='Vector209' src = {ImgAsset.myFlixProject_Vector209} />
-						<img className='Vector210' src = {ImgAsset.myFlixProject_Vector210} />
-						<img className='Vector211' src = {ImgAsset.myFlixProject_Vector211} />
-						<img className='Vector212' src = {ImgAsset.myFlixProject_Vector212} />
-						<img className='Vector213' src = {ImgAsset.myFlixProject_Vector213} />
-						<img className='Vector214' src = {ImgAsset.myFlixProject_Vector214} />
-						<img className='Vector215' src = {ImgAsset.myFlixProject_Vector215} />
-						<img className='Vector216' src = {ImgAsset.myFlixProject_Vector216} />
-						<img className='Vector217' src = {ImgAsset.myFlixProject_Vector217} />
-						<img className='Vector218' src = {ImgAsset.myFlixProject_Vector218} />
-						<img className='Vector219' src = {ImgAsset.myFlixProject_Vector219} />
-						<img className='Vector220' src = {ImgAsset.myFlixProject_Vector220} />
-						<img className='Vector221' src = {ImgAsset.myFlixProject_Vector221} />
-						<img className='Vector222' src = {ImgAsset.myFlixProject_Vector222} />
-						<img className='Vector223' src = {ImgAsset.myFlixProject_Vector223} />
-						<img className='Vector224' src = {ImgAsset.myFlixProject_Vector224} />
-						<img className='Vector225' src = {ImgAsset.myFlixProject_Vector225} />
-						<img className='Vector226' src = {ImgAsset.myFlixProject_Vector226} />
-						<img className='Vector227' src = {ImgAsset.myFlixProject_Vector227} />
-						<img className='Vector228' src = {ImgAsset.myFlixProject_Vector228} />
-						<img className='Vector229' src = {ImgAsset.myFlixProject_Vector229} />
-						<img className='Vector230' src = {ImgAsset.myFlixProject_Vector230} />
-						<img className='Vector231' src = {ImgAsset.myFlixProject_Vector231} />
-						<img className='Vector232' src = {ImgAsset.myFlixProject_Vector232} />
-						<img className='Vector233' src = {ImgAsset.myFlixProject_Vector233} />
-						<img className='Vector234' src = {ImgAsset.myFlixProject_Vector234} />
-						<img className='Vector235' src = {ImgAsset.myFlixProject_Vector235} />
-						<img className='Vector236' src = {ImgAsset.myFlixProject_Vector236} />
-						<img className='Vector237' src = {ImgAsset.myFlixProject_Vector237} />
-						<img className='Vector238' src = {ImgAsset.myFlixProject_Vector238} />
-						<img className='Vector239' src = {ImgAsset.myFlixProject_Vector239} />
-						<img className='Vector240' src = {ImgAsset.myFlixProject_Vector240} />
-						<img className='Vector241' src = {ImgAsset.myFlixProject_Vector241} />
-						<img className='Vector242' src = {ImgAsset.myFlixProject_Vector242} />
-						<img className='Vector243' src = {ImgAsset.myFlixProject_Vector243} />
-						<img className='Vector244' src = {ImgAsset.myFlixProject_Vector244} />
-						<img className='Vector245' src = {ImgAsset.myFlixProject_Vector245} />
-						<img className='Vector246' src = {ImgAsset.myFlixProject_Vector246} />
-						<img className='Vector247' src = {ImgAsset.myFlixProject_Vector247} />
-						<img className='Vector248' src = {ImgAsset.myFlixProject_Vector248} />
-						<img className='Vector249' src = {ImgAsset.myFlixProject_Vector249} />
-						<img className='Vector250' src = {ImgAsset.myFlixProject_Vector250} />
-						<img className='Vector251' src = {ImgAsset.myFlixProject_Vector251} />
-						<img className='Vector252' src = {ImgAsset.myFlixProject_Vector252} />
-						<img className='Vector253' src = {ImgAsset.myFlixProject_Vector253} />
-						<img className='Vector254' src = {ImgAsset.myFlixProject_Vector254} />
-						<img className='Vector255' src = {ImgAsset.myFlixProject_Vector255} />
-						<img className='Vector256' src = {ImgAsset.myFlixProject_Vector256} />
-						<img className='Vector257' src = {ImgAsset.myFlixProject_Vector257} />
-						<img className='Vector258' src = {ImgAsset.myFlixProject_Vector258} />
-						<img className='Vector259' src = {ImgAsset.myFlixProject_Vector259} />
-						<img className='Vector260' src = {ImgAsset.myFlixProject_Vector260} />
-						<img className='Vector261' src = {ImgAsset.myFlixProject_Vector261} />
-						<img className='Vector262' src = {ImgAsset.myFlixProject_Vector262} />
-						<img className='Vector263' src = {ImgAsset.myFlixProject_Vector263} />
-						<img className='Vector264' src = {ImgAsset.myFlixProject_Vector264} />
-						<img className='Vector265' src = {ImgAsset.myFlixProject_Vector265} />
-						<img className='Vector266' src = {ImgAsset.myFlixProject_Vector266} />
-						<img className='Vector267' src = {ImgAsset.myFlixProject_Vector267} />
-						<img className='Vector268' src = {ImgAsset.myFlixProject_Vector268} />
-						<img className='Vector269' src = {ImgAsset.myFlixProject_Vector269} />
-						<img className='Vector270' src = {ImgAsset.myFlixProject_Vector270} />
-						<img className='Vector271' src = {ImgAsset.myFlixProject_Vector271} />
-						<img className='Vector272' src = {ImgAsset.myFlixProject_Vector272} />
-						<img className='Vector273' src = {ImgAsset.myFlixProject_Vector273} />
-						<img className='Vector274' src = {ImgAsset.myFlixProject_Vector274} />
-						<img className='Vector275' src = {ImgAsset.myFlixProject_Vector275} />
-						<img className='Vector276' src = {ImgAsset.myFlixProject_Vector276} />
-						<img className='Vector277' src = {ImgAsset.myFlixProject_Vector277} />
-						<img className='Vector278' src = {ImgAsset.myFlixProject_Vector278} />
-						<img className='Vector279' src = {ImgAsset.myFlixProject_Vector279} />
-						<img className='Vector280' src = {ImgAsset.myFlixProject_Vector280} />
-						<img className='Vector281' src = {ImgAsset.myFlixProject_Vector281} />
-						<img className='Vector282' src = {ImgAsset.myFlixProject_Vector282} />
-						<img className='Vector283' src = {ImgAsset.myFlixProject_Vector283} />
-						<img className='Vector284' src = {ImgAsset.myFlixProject_Vector284} />
-						<img className='Vector285' src = {ImgAsset.myFlixProject_Vector285} />
-						<img className='Vector286' src = {ImgAsset.myFlixProject_Vector286} />
-						<img className='Vector287' src = {ImgAsset.myFlixProject_Vector287} />
-						<img className='Vector288' src = {ImgAsset.myFlixProject_Vector288} />
-						<img className='Vector289' src = {ImgAsset.myFlixProject_Vector289} />
-						<img className='Vector290' src = {ImgAsset.myFlixProject_Vector290} />
-						<img className='Vector291' src = {ImgAsset.myFlixProject_Vector291} />
-						<img className='Vector292' src = {ImgAsset.myFlixProject_Vector292} />
-						<img className='Vector293' src = {ImgAsset.myFlixProject_Vector293} />
-						<img className='Vector294' src = {ImgAsset.myFlixProject_Vector294} />
-						<img className='Vector295' src = {ImgAsset.myFlixProject_Vector295} />
-						<img className='Vector296' src = {ImgAsset.myFlixProject_Vector296} />
-						<img className='Vector297' src = {ImgAsset.myFlixProject_Vector297} />
-						<img className='Vector298' src = {ImgAsset.myFlixProject_Vector298} />
-						<img className='Vector299' src = {ImgAsset.myFlixProject_Vector299} />
-						<img className='Vector300' src = {ImgAsset.myFlixProject_Vector300} />
-						<img className='Vector301' src = {ImgAsset.myFlixProject_Vector301} />
-						<img className='Vector302' src = {ImgAsset.myFlixProject_Vector302} />
-						<img className='Vector303' src = {ImgAsset.myFlixProject_Vector303} />
-						<img className='Vector304' src = {ImgAsset.myFlixProject_Vector304} />
-						<img className='Vector305' src = {ImgAsset.myFlixProject_Vector305} />
-						<img className='Vector306' src = {ImgAsset.myFlixProject_Vector306} />
-						<img className='Vector307' src = {ImgAsset.myFlixProject_Vector307} />
-						<img className='Vector308' src = {ImgAsset.myFlixProject_Vector308} />
-						<img className='Vector309' src = {ImgAsset.myFlixProject_Vector309} />
-						<img className='Vector310' src = {ImgAsset.myFlixProject_Vector310} />
-						<img className='Vector311' src = {ImgAsset.myFlixProject_Vector311} />
-						<img className='Vector312' src = {ImgAsset.myFlixProject_Vector312} />
-						<img className='Vector313' src = {ImgAsset.myFlixProject_Vector313} />
-						<img className='Vector314' src = {ImgAsset.myFlixProject_Vector314} />
-						<img className='Vector315' src = {ImgAsset.myFlixProject_Vector315} />
-						<img className='Vector316' src = {ImgAsset.myFlixProject_Vector316} />
-						<img className='Vector317' src = {ImgAsset.myFlixProject_Vector317} />
-						<img className='Vector318' src = {ImgAsset.myFlixProject_Vector318} />
-						<img className='Vector319' src = {ImgAsset.myFlixProject_Vector319} />
-						<img className='Vector320' src = {ImgAsset.myFlixProject_Vector320} />
-						<img className='Vector321' src = {ImgAsset.myFlixProject_Vector321} />
-						<img className='Vector322' src = {ImgAsset.myFlixProject_Vector322} />
-						<img className='Vector323' src = {ImgAsset.myFlixProject_Vector323} />
-						<img className='Vector324' src = {ImgAsset.myFlixProject_Vector324} />
-						<img className='Vector325' src = {ImgAsset.myFlixProject_Vector325} />
-						<img className='Vector326' src = {ImgAsset.myFlixProject_Vector326} />
-						<img className='Vector327' src = {ImgAsset.myFlixProject_Vector327} />
-						<img className='Vector328' src = {ImgAsset.myFlixProject_Vector328} />
-						<img className='Vector329' src = {ImgAsset.myFlixProject_Vector329} />
-						<img className='Vector330' src = {ImgAsset.myFlixProject_Vector330} />
-						<img className='Vector331' src = {ImgAsset.myFlixProject_Vector331} />
-						<img className='Vector332' src = {ImgAsset.myFlixProject_Vector332} />
-						<img className='Vector333' src = {ImgAsset.myFlixProject_Vector333} />
-						<img className='Vector334' src = {ImgAsset.myFlixProject_Vector334} />
-						<img className='Vector335' src = {ImgAsset.myFlixProject_Vector335} />
-						<img className='Vector336' src = {ImgAsset.myFlixProject_Vector336} />
-						<img className='Vector337' src = {ImgAsset.myFlixProject_Vector337} />
-						<img className='Vector338' src = {ImgAsset.myFlixProject_Vector338} />
-						<img className='Vector339' src = {ImgAsset.myFlixProject_Vector339} />
-						<img className='Vector340' src = {ImgAsset.myFlixProject_Vector340} />
-						<img className='Vector341' src = {ImgAsset.myFlixProject_Vector341} />
-						<img className='Vector342' src = {ImgAsset.myFlixProject_Vector342} />
-						<img className='Vector343' src = {ImgAsset.myFlixProject_Vector343} />
-						<img className='Vector344' src = {ImgAsset.myFlixProject_Vector344} />
-						<img className='Vector345' src = {ImgAsset.myFlixProject_Vector345} />
-						<img className='Vector346' src = {ImgAsset.myFlixProject_Vector346} />
-						<img className='Vector347' src = {ImgAsset.myFlixProject_Vector347} />
-						<img className='Vector348' src = {ImgAsset.myFlixProject_Vector348} />
-						<img className='Vector349' src = {ImgAsset.myFlixProject_Vector349} />
-						<img className='Vector350' src = {ImgAsset.myFlixProject_Vector350} />
-						<img className='Vector351' src = {ImgAsset.myFlixProject_Vector351} />
-						<img className='Vector352' src = {ImgAsset.myFlixProject_Vector352} />
-						<img className='Vector353' src = {ImgAsset.myFlixProject_Vector353} />
-						<img className='Vector354' src = {ImgAsset.myFlixProject_Vector354} />
-						<img className='Vector355' src = {ImgAsset.myFlixProject_Vector355} />
-						<img className='Vector356' src = {ImgAsset.myFlixProject_Vector356} />
-						<img className='Vector357' src = {ImgAsset.myFlixProject_Vector357} />
-						<img className='Vector358' src = {ImgAsset.myFlixProject_Vector358} />
-						<img className='Vector359' src = {ImgAsset.myFlixProject_Vector359} />
-						<img className='Vector360' src = {ImgAsset.myFlixProject_Vector360} />
-						<img className='Vector361' src = {ImgAsset.myFlixProject_Vector361} />
-						<img className='Vector362' src = {ImgAsset.myFlixProject_Vector362} />
-						<img className='Vector363' src = {ImgAsset.myFlixProject_Vector363} />
-						<img className='Vector364' src = {ImgAsset.myFlixProject_Vector364} />
-						<img className='Vector365' src = {ImgAsset.myFlixProject_Vector365} />
-						<img className='Vector366' src = {ImgAsset.myFlixProject_Vector366} />
-						<img className='Vector367' src = {ImgAsset.myFlixProject_Vector367} />
-						<img className='Vector368' src = {ImgAsset.myFlixProject_Vector368} />
-						<img className='Vector369' src = {ImgAsset.myFlixProject_Vector369} />
-						<img className='Vector370' src = {ImgAsset.myFlixProject_Vector370} />
-						<img className='Vector371' src = {ImgAsset.myFlixProject_Vector371} />
-						<img className='Vector372' src = {ImgAsset.myFlixProject_Vector372} />
-						<img className='Vector373' src = {ImgAsset.myFlixProject_Vector373} />
-						<img className='Vector374' src = {ImgAsset.myFlixProject_Vector374} />
-						<img className='Vector375' src = {ImgAsset.myFlixProject_Vector375} />
-						<img className='Vector376' src = {ImgAsset.myFlixProject_Vector376} />
-						<img className='Vector377' src = {ImgAsset.myFlixProject_Vector377} />
-						<img className='Vector378' src = {ImgAsset.myFlixProject_Vector378} />
-						<img className='Vector379' src = {ImgAsset.myFlixProject_Vector379} />
-						<img className='Vector380' src = {ImgAsset.myFlixProject_Vector380} />
-						<img className='Vector381' src = {ImgAsset.myFlixProject_Vector381} />
-						<img className='Vector382' src = {ImgAsset.myFlixProject_Vector382} />
-						<img className='Vector383' src = {ImgAsset.myFlixProject_Vector383} />
-						<img className='Vector384' src = {ImgAsset.myFlixProject_Vector384} />
-						<img className='Vector385' src = {ImgAsset.myFlixProject_Vector385} />
-						<img className='Vector386' src = {ImgAsset.myFlixProject_Vector386} />
-						<img className='Vector387' src = {ImgAsset.myFlixProject_Vector387} />
-						<img className='Vector388' src = {ImgAsset.myFlixProject_Vector388} />
-						<img className='Vector389' src = {ImgAsset.myFlixProject_Vector389} />
-						<img className='Vector390' src = {ImgAsset.myFlixProject_Vector390} />
-						<img className='Vector428' src = {ImgAsset.myFlixProject_Vector428} />
-						<img className='Vector429' src = {ImgAsset.myFlixProject_Vector429} />
-						<img className='Vector430' src = {ImgAsset.myFlixProject_Vector430} />
-						<img className='Vector431' src = {ImgAsset.myFlixProject_Vector431} />
-						<img className='Vector432' src = {ImgAsset.myFlixProject_Vector432} />
-						<img className='Vector433' src = {ImgAsset.myFlixProject_Vector433} />
-						<img className='Vector434' src = {ImgAsset.myFlixProject_Vector434} />
-						<img className='Vector435' src = {ImgAsset.myFlixProject_Vector435} />
-						<img className='Vector436' src = {ImgAsset.myFlixProject_Vector436} />
-						<img className='Vector437' src = {ImgAsset.myFlixProject_Vector437} />
-						<img className='Vector438' src = {ImgAsset.myFlixProject_Vector438} />
-						<img className='Vector439' src = {ImgAsset.myFlixProject_Vector439} />
-						<img className='Vector440' src = {ImgAsset.myFlixProject_Vector440} />
-						<img className='Vector441' src = {ImgAsset.myFlixProject_Vector441} />
-						<img className='Vector442' src = {ImgAsset.myFlixProject_Vector442} />
-						<img className='Vector443' src = {ImgAsset.myFlixProject_Vector443} />
-						<img className='Vector444' src = {ImgAsset.myFlixProject_Vector444} />
-						<img className='Vector445' src = {ImgAsset.myFlixProject_Vector445} />
-						<img className='Vector446' src = {ImgAsset.myFlixProject_Vector446} />
-						<img className='Vector447' src = {ImgAsset.myFlixProject_Vector447} />
-						<img className='Vector448' src = {ImgAsset.myFlixProject_Vector448} />
-						<img className='Vector449' src = {ImgAsset.myFlixProject_Vector449} />
-						<img className='Vector450' src = {ImgAsset.myFlixProject_Vector450} />
-						<img className='Vector451' src = {ImgAsset.myFlixProject_Vector451} />
-						<img className='Vector452' src = {ImgAsset.myFlixProject_Vector452} />
-						<img className='Vector453' src = {ImgAsset.myFlixProject_Vector453} />
-						<img className='Vector454' src = {ImgAsset.myFlixProject_Vector454} />
-						<img className='Vector455' src = {ImgAsset.myFlixProject_Vector455} />
-						<img className='Vector456' src = {ImgAsset.myFlixProject_Vector456} />
-						<img className='Vector457' src = {ImgAsset.myFlixProject_Vector457} />
-						<img className='Vector458' src = {ImgAsset.myFlixProject_Vector458} />
-						<img className='Vector459' src = {ImgAsset.myFlixProject_Vector459} />
-						<img className='Vector460' src = {ImgAsset.myFlixProject_Vector460} />
-						<img className='Vector461' src = {ImgAsset.myFlixProject_Vector461} />
-						<img className='Vector462' src = {ImgAsset.myFlixProject_Vector462} />
-						<img className='Vector463' src = {ImgAsset.myFlixProject_Vector463} />
-						<img className='Vector464' src = {ImgAsset.myFlixProject_Vector464} />
-						<img className='Vector465' src = {ImgAsset.myFlixProject_Vector465} />
-						<img className='Vector466' src = {ImgAsset.myFlixProject_Vector466} />
-						<img className='Vector467' src = {ImgAsset.myFlixProject_Vector467} />
-						<img className='Vector468' src = {ImgAsset.myFlixProject_Vector468} />
-						<img className='Vector469' src = {ImgAsset.myFlixProject_Vector469} />
-						<img className='Vector470' src = {ImgAsset.myFlixProject_Vector470} />
-						<img className='Vector471' src = {ImgAsset.myFlixProject_Vector471} />
-						<img className='Vector472' src = {ImgAsset.myFlixProject_Vector472} />
-						<img className='Vector473' src = {ImgAsset.myFlixProject_Vector473} />
-						<img className='Vector474' src = {ImgAsset.myFlixProject_Vector474} />
-						<img className='Vector475' src = {ImgAsset.myFlixProject_Vector475} />
-						<img className='Vector476' src = {ImgAsset.myFlixProject_Vector476} />
-						<img className='Vector609' src = {ImgAsset.myFlixProject_Vector609} />
-						<img className='Vector611' src = {ImgAsset.myFlixProject_Vector611} />
-						<img className='Vector612' src = {ImgAsset.myFlixProject_Vector612} />
-						<img className='Vector613' src = {ImgAsset.myFlixProject_Vector613} />
-						<img className='Vector614' src = {ImgAsset.myFlixProject_Vector614} />
-						<img className='Vector615' src = {ImgAsset.myFlixProject_Vector615} />
-						<img className='Vector616' src = {ImgAsset.myFlixProject_Vector616} />
-						<img className='Vector617' src = {ImgAsset.myFlixProject_Vector617} />
-						<img className='Vector618' src = {ImgAsset.myFlixProject_Vector618} />
-						<img className='Vector619' src = {ImgAsset.myFlixProject_Vector619} />
-						<img className='Vector620' src = {ImgAsset.myFlixProject_Vector620} />
-						<img className='Vector621' src = {ImgAsset.myFlixProject_Vector621} />
-						<img className='Vector622' src = {ImgAsset.myFlixProject_Vector622} />
-						<img className='Vector623' src = {ImgAsset.myFlixProject_Vector623} />
-						<img className='Vector624' src = {ImgAsset.myFlixProject_Vector624} />
-						<img className='Vector625' src = {ImgAsset.myFlixProject_Vector625} />
-						<img className='Vector626' src = {ImgAsset.myFlixProject_Vector626} />
-						<img className='Vector627' src = {ImgAsset.myFlixProject_Vector627} />
-						<img className='Vector628' src = {ImgAsset.myFlixProject_Vector628} />
-						<img className='Vector629' src = {ImgAsset.myFlixProject_Vector629} />
-						<img className='Vector630' src = {ImgAsset.myFlixProject_Vector630} />
-						<img className='Vector631' src = {ImgAsset.myFlixProject_Vector631} />
-						<img className='Vector632' src = {ImgAsset.myFlixProject_Vector632} />
-						<img className='Vector633' src = {ImgAsset.myFlixProject_Vector633} />
-						<img className='Vector634' src = {ImgAsset.myFlixProject_Vector634} />
-						<img className='Vector635' src = {ImgAsset.myFlixProject_Vector635} />
-						<img className='Vector636' src = {ImgAsset.myFlixProject_Vector636} />
-						<img className='Vector637' src = {ImgAsset.myFlixProject_Vector637} />
-						<img className='Vector638' src = {ImgAsset.myFlixProject_Vector638} />
-						<img className='Vector639' src = {ImgAsset.myFlixProject_Vector639} />
-						<img className='Vector640' src = {ImgAsset.myFlixProject_Vector640} />
-						<img className='Vector641' src = {ImgAsset.myFlixProject_Vector641} />
-						<img className='Vector642' src = {ImgAsset.myFlixProject_Vector642} />
-						<img className='Vector643' src = {ImgAsset.myFlixProject_Vector643} />
-						<img className='Vector644' src = {ImgAsset.myFlixProject_Vector644} />
-						<img className='Vector648' src = {ImgAsset.myFlixProject_Vector648} />
-						<img className='Vector649' src = {ImgAsset.myFlixProject_Vector649} />
-						<img className='Vector650' src = {ImgAsset.myFlixProject_Vector650} />
-						<img className='Vector651' src = {ImgAsset.myFlixProject_Vector651} />
-						<img className='Vector652' src = {ImgAsset.myFlixProject_Vector652} />
-						<img className='Vector653' src = {ImgAsset.myFlixProject_Vector653} />
-						<img className='Vector654' src = {ImgAsset.myFlixProject_Vector654} />
-						<img className='Vector655' src = {ImgAsset.myFlixProject_Vector655} />
-						<img className='Vector656' src = {ImgAsset.myFlixProject_Vector656} />
-						<img className='Vector658' src = {ImgAsset.myFlixProject_Vector658} />
-						<img className='Vector659' src = {ImgAsset.myFlixProject_Vector659} />
-						<img className='Vector660' src = {ImgAsset.myFlixProject_Vector660} />
-						<img className='Vector661' src = {ImgAsset.myFlixProject_Vector661} />
-						<img className='Vector662' src = {ImgAsset.myFlixProject_Vector662} />
-						<img className='Vector663' src = {ImgAsset.myFlixProject_Vector663} />
-						<img className='Vector664' src = {ImgAsset.myFlixProject_Vector664} />
-						<img className='Vector665' src = {ImgAsset.myFlixProject_Vector665} />
-						<img className='Vector666' src = {ImgAsset.myFlixProject_Vector666} />
-						<img className='Vector667' src = {ImgAsset.myFlixProject_Vector667} />
-						<img className='Vector668' src = {ImgAsset.myFlixProject_Vector668} />
-						<img className='Vector669' src = {ImgAsset.myFlixProject_Vector669} />
-						<img className='Vector670' src = {ImgAsset.myFlixProject_Vector670} />
-						<img className='Vector671' src = {ImgAsset.myFlixProject_Vector671} />
-						<img className='Vector672' src = {ImgAsset.myFlixProject_Vector672} />
-						<img className='Vector673' src = {ImgAsset.myFlixProject_Vector673} />
-						<img className='Vector674' src = {ImgAsset.myFlixProject_Vector674} />
-						<img className='Vector675' src = {ImgAsset.myFlixProject_Vector675} />
-						<img className='Vector676' src = {ImgAsset.myFlixProject_Vector676} />
-						<img className='Vector677' src = {ImgAsset.myFlixProject_Vector677} />
-						<img className='Vector678' src = {ImgAsset.myFlixProject_Vector678} />
-						<img className='Vector679' src = {ImgAsset.myFlixProject_Vector679} />
-						<img className='Vector680' src = {ImgAsset.myFlixProject_Vector680} />
-						<img className='Vector681' src = {ImgAsset.myFlixProject_Vector681} />
-						<img className='Vector682' src = {ImgAsset.myFlixProject_Vector682} />
-						<img className='Vector683' src = {ImgAsset.myFlixProject_Vector683} />
-						<img className='Vector684' src = {ImgAsset.myFlixProject_Vector684} />
-						<img className='Vector685' src = {ImgAsset.myFlixProject_Vector685} />
-						<img className='Vector686' src = {ImgAsset.myFlixProject_Vector686} />
-						<img className='Vector687' src = {ImgAsset.myFlixProject_Vector687} />
-						<img className='Vector688' src = {ImgAsset.myFlixProject_Vector688} />
-						<img className='Vector689' src = {ImgAsset.myFlixProject_Vector689} />
-						<img className='Vector690' src = {ImgAsset.myFlixProject_Vector690} />
-						<img className='Vector691' src = {ImgAsset.myFlixProject_Vector691} />
-						<img className='Vector692' src = {ImgAsset.myFlixProject_Vector692} />
-						<img className='Vector693' src = {ImgAsset.myFlixProject_Vector693} />
-						<img className='Vector694' src = {ImgAsset.myFlixProject_Vector694} />
-						<img className='Vector695' src = {ImgAsset.myFlixProject_Vector695} />
-						<img className='Vector696' src = {ImgAsset.myFlixProject_Vector696} />
-						<img className='Vector697' src = {ImgAsset.myFlixProject_Vector697} />
-						<img className='Vector698' src = {ImgAsset.myFlixProject_Vector698} />
-						<img className='Vector699' src = {ImgAsset.myFlixProject_Vector699} />
-						<img className='Vector700' src = {ImgAsset.myFlixProject_Vector700} />
-						<img className='Vector701' src = {ImgAsset.myFlixProject_Vector701} />
-						<img className='Vector702' src = {ImgAsset.myFlixProject_Vector702} />
-						<img className='Vector703' src = {ImgAsset.myFlixProject_Vector703} />
-						<img className='Vector704' src = {ImgAsset.myFlixProject_Vector704} />
-						<img className='Vector705' src = {ImgAsset.myFlixProject_Vector705} />
-						<img className='Vector706' src = {ImgAsset.myFlixProject_Vector706} />
-						<img className='Vector707' src = {ImgAsset.myFlixProject_Vector707} />
-						<img className='Vector708' src = {ImgAsset.myFlixProject_Vector708} />
-						<img className='Vector709' src = {ImgAsset.myFlixProject_Vector709} />
-						<img className='Vector710' src = {ImgAsset.myFlixProject_Vector710} />
-						<img className='Vector711' src = {ImgAsset.myFlixProject_Vector711} />
-						<img className='Vector712' src = {ImgAsset.myFlixProject_Vector712} />
-						<img className='Vector713' src = {ImgAsset.myFlixProject_Vector713} />
-						<img className='Vector714' src = {ImgAsset.myFlixProject_Vector714} />
-						<img className='Vector715' src = {ImgAsset.myFlixProject_Vector715} />
-						<img className='Vector716' src = {ImgAsset.myFlixProject_Vector716} />
-						<img className='Vector717' src = {ImgAsset.myFlixProject_Vector717} />
-						<img className='Vector718' src = {ImgAsset.myFlixProject_Vector718} />
-						<img className='Vector719' src = {ImgAsset.myFlixProject_Vector719} />
-						<img className='Vector720' src = {ImgAsset.myFlixProject_Vector720} />
-						<img className='Vector721' src = {ImgAsset.myFlixProject_Vector721} />
-						<img className='Vector722' src = {ImgAsset.myFlixProject_Vector722} />
-						<img className='Vector723' src = {ImgAsset.myFlixProject_Vector723} />
-						<img className='Vector725' src = {ImgAsset.myFlixProject_Vector725} />
-						<img className='Vector726' src = {ImgAsset.myFlixProject_Vector726} />
-						<img className='Vector727' src = {ImgAsset.myFlixProject_Vector727} />
-						<img className='Vector728' src = {ImgAsset.myFlixProject_Vector728} />
-						<img className='Vector729' src = {ImgAsset.myFlixProject_Vector729} />
-						<img className='Vector730' src = {ImgAsset.myFlixProject_Vector730} />
-						<img className='Vector731' src = {ImgAsset.myFlixProject_Vector731} />
-						<img className='Vector732' src = {ImgAsset.myFlixProject_Vector732} />
-						<img className='Vector733' src = {ImgAsset.myFlixProject_Vector733} />
-						<img className='Vector734' src = {ImgAsset.myFlixProject_Vector734} />
-						<img className='Vector735' src = {ImgAsset.myFlixProject_Vector735} />
-						<img className='Vector736' src = {ImgAsset.myFlixProject_Vector736} />
-						<img className='Vector737' src = {ImgAsset.myFlixProject_Vector737} />
-						<img className='Vector738' src = {ImgAsset.myFlixProject_Vector738} />
-						<img className='Vector739' src = {ImgAsset.myFlixProject_Vector739} />
-						<img className='Vector740' src = {ImgAsset.myFlixProject_Vector740} />
-						<img className='Vector741' src = {ImgAsset.myFlixProject_Vector741} />
-						<img className='Vector742' src = {ImgAsset.myFlixProject_Vector742} />
-						<img className='Vector743' src = {ImgAsset.myFlixProject_Vector743} />
-						<img className='Vector744' src = {ImgAsset.myFlixProject_Vector744} />
-						<img className='Vector745' src = {ImgAsset.myFlixProject_Vector745} />
-						<img className='Vector746' src = {ImgAsset.myFlixProject_Vector746} />
-						<img className='Vector747' src = {ImgAsset.myFlixProject_Vector747} />
-						<img className='Vector748' src = {ImgAsset.myFlixProject_Vector748} />
-						<img className='Vector749' src = {ImgAsset.myFlixProject_Vector749} />
-						<img className='Vector750' src = {ImgAsset.myFlixProject_Vector750} />
-						<img className='Vector751' src = {ImgAsset.myFlixProject_Vector751} />
-						<img className='Vector752' src = {ImgAsset.myFlixProject_Vector752} />
-						<img className='Vector753' src = {ImgAsset.myFlixProject_Vector753} />
-						<img className='Vector754' src = {ImgAsset.myFlixProject_Vector754} />
-						<img className='Vector755' src = {ImgAsset.myFlixProject_Vector755} />
-						<img className='Vector756' src = {ImgAsset.myFlixProject_Vector756} />
-						<img className='Vector757' src = {ImgAsset.myFlixProject_Vector757} />
-						<img className='Vector758' src = {ImgAsset.myFlixProject_Vector758} />
-						<img className='Vector759' src = {ImgAsset.myFlixProject_Vector759} />
-						<img className='Vector760' src = {ImgAsset.myFlixProject_Vector760} />
-						<img className='Vector761' src = {ImgAsset.myFlixProject_Vector761} />
-						<img className='Vector762' src = {ImgAsset.myFlixProject_Vector762} />
-						<img className='Vector763' src = {ImgAsset.myFlixProject_Vector763} />
-						<img className='Vector764' src = {ImgAsset.myFlixProject_Vector764} />
-						<img className='Vector765' src = {ImgAsset.myFlixProject_Vector765} />
-						<img className='Vector766' src = {ImgAsset.myFlixProject_Vector766} />
-						<img className='Vector767' src = {ImgAsset.myFlixProject_Vector767} />
-						<img className='Vector768' src = {ImgAsset.myFlixProject_Vector768} />
-						<img className='Vector769' src = {ImgAsset.myFlixProject_Vector769} />
-						<img className='Vector770' src = {ImgAsset.myFlixProject_Vector770} />
-						<img className='Vector771' src = {ImgAsset.myFlixProject_Vector771} />
-						<img className='Vector772' src = {ImgAsset.myFlixProject_Vector772} />
-						<img className='Vector773' src = {ImgAsset.myFlixProject_Vector773} />
-						<img className='Vector774' src = {ImgAsset.myFlixProject_Vector774} />
-						<img className='Vector775' src = {ImgAsset.myFlixProject_Vector775} />
-						<img className='Vector776' src = {ImgAsset.myFlixProject_Vector776} />
-						<img className='Vector777' src = {ImgAsset.myFlixProject_Vector777} />
-						<img className='Vector778' src = {ImgAsset.myFlixProject_Vector778} />
-						<img className='Vector779' src = {ImgAsset.myFlixProject_Vector779} />
-						<img className='Vector780' src = {ImgAsset.myFlixProject_Vector780} />
-						<img className='Vector781' src = {ImgAsset.myFlixProject_Vector781} />
-						<img className='Vector782' src = {ImgAsset.myFlixProject_Vector782} />
-						<img className='Vector783' src = {ImgAsset.myFlixProject_Vector783} />
-						<img className='Vector784' src = {ImgAsset.myFlixProject_Vector784} />
-						<img className='Vector785' src = {ImgAsset.myFlixProject_Vector785} />
-						<img className='Vector786' src = {ImgAsset.myFlixProject_Vector786} />
-						<img className='Vector787' src = {ImgAsset.myFlixProject_Vector787} />
-						<img className='Vector788' src = {ImgAsset.myFlixProject_Vector788} />
-						<img className='Vector789' src = {ImgAsset.myFlixProject_Vector789} />
-						<img className='Vector790' src = {ImgAsset.myFlixProject_Vector790} />
-						<img className='Vector791' src = {ImgAsset.myFlixProject_Vector791} />
-						<img className='Vector792' src = {ImgAsset.myFlixProject_Vector792} />
-						<img className='Vector793' src = {ImgAsset.myFlixProject_Vector793} />
-						<img className='Vector794' src = {ImgAsset.myFlixProject_Vector794} />
-						<img className='Vector795' src = {ImgAsset.myFlixProject_Vector795} />
-						<img className='Vector796' src = {ImgAsset.myFlixProject_Vector796} />
-						<img className='Vector798' src = {ImgAsset.myFlixProject_Vector798} />
-						<img className='Vector799' src = {ImgAsset.myFlixProject_Vector799} />
-						<img className='Vector800' src = {ImgAsset.myFlixProject_Vector800} />
-						<img className='Vector801' src = {ImgAsset.myFlixProject_Vector801} />
-						<img className='Vector802' src = {ImgAsset.myFlixProject_Vector802} />
-						<img className='Vector803' src = {ImgAsset.myFlixProject_Vector803} />
-						<img className='Vector804' src = {ImgAsset.myFlixProject_Vector804} />
-						<img className='Vector805' src = {ImgAsset.myFlixProject_Vector805} />
-						<img className='Vector806' src = {ImgAsset.myFlixProject_Vector806} />
-						<img className='Vector807' src = {ImgAsset.myFlixProject_Vector807} />
-						<img className='Vector808' src = {ImgAsset.myFlixProject_Vector808} />
-						<img className='Vector809' src = {ImgAsset.myFlixProject_Vector809} />
-						<img className='Vector810' src = {ImgAsset.myFlixProject_Vector810} />
-						<img className='Vector811' src = {ImgAsset.myFlixProject_Vector811} />
-						<img className='Vector812' src = {ImgAsset.myFlixProject_Vector812} />
-						<img className='Vector813' src = {ImgAsset.myFlixProject_Vector813} />
-						<img className='Vector814' src = {ImgAsset.myFlixProject_Vector814} />
-						<img className='Vector815' src = {ImgAsset.myFlixProject_Vector815} />
-						<img className='Vector816' src = {ImgAsset.myFlixProject_Vector816} />
-						<img className='Vector817' src = {ImgAsset.myFlixProject_Vector817} />
-						<img className='Vector818' src = {ImgAsset.myFlixProject_Vector818} />
-						<img className='Vector819' src = {ImgAsset.myFlixProject_Vector819} />
-						<img className='Vector820' src = {ImgAsset.myFlixProject_Vector820} />
-						<img className='Vector821' src = {ImgAsset.myFlixProject_Vector821} />
-						<img className='Vector822' src = {ImgAsset.myFlixProject_Vector822} />
-						<img className='Vector823' src = {ImgAsset.myFlixProject_Vector823} />
-						<img className='Vector824' src = {ImgAsset.myFlixProject_Vector824} />
-						<img className='Vector825' src = {ImgAsset.myFlixProject_Vector825} />
-						<img className='Vector826' src = {ImgAsset.myFlixProject_Vector826} />
-						<img className='Vector827' src = {ImgAsset.myFlixProject_Vector827} />
-						<img className='Vector828' src = {ImgAsset.myFlixProject_Vector828} />
-						<img className='Vector829' src = {ImgAsset.myFlixProject_Vector829} />
-						<img className='Vector830' src = {ImgAsset.myFlixProject_Vector830} />
-						<img className='Vector831' src = {ImgAsset.myFlixProject_Vector831} />
-						<img className='Vector832' src = {ImgAsset.myFlixProject_Vector832} />
-						<img className='Vector833' src = {ImgAsset.myFlixProject_Vector833} />
-						<img className='Vector834' src = {ImgAsset.myFlixProject_Vector834} />
-						<img className='Vector835' src = {ImgAsset.myFlixProject_Vector835} />
-						<img className='Vector871' src = {ImgAsset.myFlixProject_Vector871} />
-						<img className='Vector872' src = {ImgAsset.myFlixProject_Vector872} />
-						<img className='Vector873' src = {ImgAsset.myFlixProject_Vector873} />
-						<img className='Vector874' src = {ImgAsset.myFlixProject_Vector874} />
-						<img className='Vector875' src = {ImgAsset.myFlixProject_Vector875} />
-						<img className='Vector876' src = {ImgAsset.myFlixProject_Vector876} />
-						<img className='Vector877' src = {ImgAsset.myFlixProject_Vector877} />
-						<img className='Vector878' src = {ImgAsset.myFlixProject_Vector878} />
-						<img className='Vector879' src = {ImgAsset.myFlixProject_Vector879} />
-						<img className='Vector880' src = {ImgAsset.myFlixProject_Vector880} />
-						<img className='Vector881' src = {ImgAsset.myFlixProject_Vector881} />
-						<img className='Vector882' src = {ImgAsset.myFlixProject_Vector882} />
-						<img className='Vector883' src = {ImgAsset.myFlixProject_Vector883} />
-						<img className='Vector884' src = {ImgAsset.myFlixProject_Vector884} />
-						<img className='Vector885' src = {ImgAsset.myFlixProject_Vector885} />
-						<img className='Vector886' src = {ImgAsset.myFlixProject_Vector886} />
-						<img className='Vector887' src = {ImgAsset.myFlixProject_Vector887} />
-						<img className='Vector888' src = {ImgAsset.myFlixProject_Vector888} />
-						<img className='Vector889' src = {ImgAsset.myFlixProject_Vector889} />
-						<img className='Vector890' src = {ImgAsset.myFlixProject_Vector890} />
-						<img className='Vector891' src = {ImgAsset.myFlixProject_Vector891} />
-						<img className='Vector892' src = {ImgAsset.myFlixProject_Vector892} />
-						<img className='Vector893' src = {ImgAsset.myFlixProject_Vector893} />
-						<img className='Vector894' src = {ImgAsset.myFlixProject_Vector894} />
-						<img className='Vector895' src = {ImgAsset.myFlixProject_Vector895} />
-						<img className='Vector896' src = {ImgAsset.myFlixProject_Vector896} />
-						<img className='Vector897' src = {ImgAsset.myFlixProject_Vector897} />
-						<img className='Vector898' src = {ImgAsset.myFlixProject_Vector898} />
-						<img className='Vector899' src = {ImgAsset.myFlixProject_Vector899} />
-						<img className='Vector900' src = {ImgAsset.myFlixProject_Vector900} />
-						<img className='Vector901' src = {ImgAsset.myFlixProject_Vector901} />
-						<img className='Vector902' src = {ImgAsset.myFlixProject_Vector902} />
-						<img className='Vector903' src = {ImgAsset.myFlixProject_Vector903} />
-						<img className='Vector904' src = {ImgAsset.myFlixProject_Vector904} />
-						<img className='Vector905' src = {ImgAsset.myFlixProject_Vector905} />
-						<img className='Vector906' src = {ImgAsset.myFlixProject_Vector906} />
-						<img className='Vector907' src = {ImgAsset.myFlixProject_Vector907} />
-						<img className='Vector908' src = {ImgAsset.myFlixProject_Vector908} />
-						<img className='Vector909' src = {ImgAsset.myFlixProject_Vector909} />
-						<img className='Vector910' src = {ImgAsset.myFlixProject_Vector910} />
-						<img className='Vector911' src = {ImgAsset.myFlixProject_Vector911} />
-						<img className='Vector912' src = {ImgAsset.myFlixProject_Vector912} />
-						<img className='Vector913' src = {ImgAsset.myFlixProject_Vector913} />
-						<img className='Vector914' src = {ImgAsset.myFlixProject_Vector914} />
-						<img className='Vector915' src = {ImgAsset.myFlixProject_Vector915} />
-						<img className='Vector916' src = {ImgAsset.myFlixProject_Vector916} />
-						<img className='Vector917' src = {ImgAsset.myFlixProject_Vector917} />
-						<img className='Vector918' src = {ImgAsset.myFlixProject_Vector918} />
-						<img className='Vector919' src = {ImgAsset.myFlixProject_Vector919} />
-						<img className='Vector1052' src = {ImgAsset.myFlixProject_Vector1052} />
-						<img className='Vector1053' src = {ImgAsset.myFlixProject_Vector1053} />
-						<img className='Vector1054' src = {ImgAsset.myFlixProject_Vector1054} />
-						<img className='Vector1055' src = {ImgAsset.myFlixProject_Vector1055} />
-						<img className='Vector1056' src = {ImgAsset.myFlixProject_Vector1056} />
-						<img className='Vector1057' src = {ImgAsset.myFlixProject_Vector1057} />
-						<img className='Vector1058' src = {ImgAsset.myFlixProject_Vector1058} />
-						<img className='Vector1059' src = {ImgAsset.myFlixProject_Vector1059} />
-						<img className='Vector1060' src = {ImgAsset.myFlixProject_Vector1060} />
-						<img className='Vector1061' src = {ImgAsset.myFlixProject_Vector1061} />
-						<img className='Vector1062' src = {ImgAsset.myFlixProject_Vector1062} />
-						<img className='Vector1063' src = {ImgAsset.myFlixProject_Vector1063} />
-						<img className='Vector1064' src = {ImgAsset.myFlixProject_Vector1064} />
-						<img className='Vector1065' src = {ImgAsset.myFlixProject_Vector1065} />
-						<img className='Vector1066' src = {ImgAsset.myFlixProject_Vector1066} />
-						<img className='Vector1067' src = {ImgAsset.myFlixProject_Vector1067} />
-						<img className='Vector1068' src = {ImgAsset.myFlixProject_Vector1068} />
-						<img className='Vector1069' src = {ImgAsset.myFlixProject_Vector1069} />
-						<img className='Vector1070' src = {ImgAsset.myFlixProject_Vector1070} />
-						<img className='Vector1071' src = {ImgAsset.myFlixProject_Vector1071} />
-						<img className='Vector1072' src = {ImgAsset.myFlixProject_Vector1072} />
-						<img className='Vector1073' src = {ImgAsset.myFlixProject_Vector1073} />
-						<img className='Vector1074' src = {ImgAsset.myFlixProject_Vector1074} />
-						<img className='Vector1075' src = {ImgAsset.myFlixProject_Vector1075} />
-						<img className='Vector1076' src = {ImgAsset.myFlixProject_Vector1076} />
-						<img className='Vector1077' src = {ImgAsset.myFlixProject_Vector1077} />
-						<img className='Vector1078' src = {ImgAsset.myFlixProject_Vector1078} />
-						<img className='Vector1079' src = {ImgAsset.myFlixProject_Vector1079} />
-						<img className='Vector1080' src = {ImgAsset.myFlixProject_Vector1080} />
-						<img className='Vector1081' src = {ImgAsset.myFlixProject_Vector1081} />
-						<img className='Vector1082' src = {ImgAsset.myFlixProject_Vector1082} />
-						<img className='Vector1083' src = {ImgAsset.myFlixProject_Vector1083} />
-						<img className='Vector1084' src = {ImgAsset.myFlixProject_Vector1084} />
-						<img className='Vector1085' src = {ImgAsset.myFlixProject_Vector1085} />
-						<img className='Vector1086' src = {ImgAsset.myFlixProject_Vector1086} />
-						<img className='Vector1087' src = {ImgAsset.myFlixProject_Vector1087} />
-						<img className='Vector1088' src = {ImgAsset.myFlixProject_Vector1088} />
-						<img className='Vector1089' src = {ImgAsset.myFlixProject_Vector1089} />
-						<img className='Vector1090' src = {ImgAsset.myFlixProject_Vector1090} />
-						<img className='Vector1091' src = {ImgAsset.myFlixProject_Vector1091} />
-						<img className='Vector1092' src = {ImgAsset.myFlixProject_Vector1092} />
-						<img className='Vector1093' src = {ImgAsset.myFlixProject_Vector1093} />
-						<img className='Vector1094' src = {ImgAsset.myFlixProject_Vector1094} />
-						<img className='Vector1095' src = {ImgAsset.myFlixProject_Vector1095} />
-						<img className='Vector1096' src = {ImgAsset.myFlixProject_Vector1096} />
-						<img className='Vector1097' src = {ImgAsset.myFlixProject_Vector1097} />
-						<img className='Vector1098' src = {ImgAsset.myFlixProject_Vector1098} />
-						<img className='Vector1099' src = {ImgAsset.myFlixProject_Vector1099} />
-						<img className='Vector1100' src = {ImgAsset.myFlixProject_Vector1100} />
-						<img className='Vector1101' src = {ImgAsset.myFlixProject_Vector1101} />
-						<img className='Vector1102' src = {ImgAsset.myFlixProject_Vector1102} />
-						<img className='Vector1104' src = {ImgAsset.myFlixProject_Vector1104} />
-						<img className='Vector1105' src = {ImgAsset.myFlixProject_Vector1105} />
-						<img className='Vector1106' src = {ImgAsset.myFlixProject_Vector1106} />
-						<img className='Vector1107' src = {ImgAsset.myFlixProject_Vector1107} />
-						<img className='Vector1108' src = {ImgAsset.myFlixProject_Vector1108} />
-						<img className='Vector1109' src = {ImgAsset.myFlixProject_Vector1109} />
-						<img className='Vector1110' src = {ImgAsset.myFlixProject_Vector1110} />
-						<img className='Vector1111' src = {ImgAsset.myFlixProject_Vector1111} />
-						<img className='Vector1112' src = {ImgAsset.myFlixProject_Vector1112} />
-						<img className='Vector1113' src = {ImgAsset.myFlixProject_Vector1113} />
-						<img className='Vector1114' src = {ImgAsset.myFlixProject_Vector1114} />
-						<img className='Vector1115' src = {ImgAsset.myFlixProject_Vector1115} />
-						<img className='Vector1116' src = {ImgAsset.myFlixProject_Vector1116} />
-						<img className='Vector1117' src = {ImgAsset.myFlixProject_Vector1117} />
-						<img className='Vector1118' src = {ImgAsset.myFlixProject_Vector1118} />
-						<img className='Vector1119' src = {ImgAsset.myFlixProject_Vector1119} />
-						<img className='Vector1120' src = {ImgAsset.myFlixProject_Vector1120} />
-						<img className='Vector1121' src = {ImgAsset.myFlixProject_Vector1121} />
-						<img className='Vector1122' src = {ImgAsset.myFlixProject_Vector1122} />
-						<img className='Vector1123' src = {ImgAsset.myFlixProject_Vector1123} />
-						<img className='Vector1124' src = {ImgAsset.myFlixProject_Vector1124} />
-						<img className='Vector1125' src = {ImgAsset.myFlixProject_Vector1125} />
-						<img className='Vector1126' src = {ImgAsset.myFlixProject_Vector1126} />
-						<img className='Vector1127' src = {ImgAsset.myFlixProject_Vector1127} />
-						<img className='Vector1128' src = {ImgAsset.myFlixProject_Vector1128} />
-						<img className='Vector1129' src = {ImgAsset.myFlixProject_Vector1129} />
-						<img className='Vector1130' src = {ImgAsset.myFlixProject_Vector1130} />
-						<img className='Vector1131' src = {ImgAsset.myFlixProject_Vector1131} />
-						<img className='Vector1132' src = {ImgAsset.myFlixProject_Vector1132} />
-						<img className='Vector1133' src = {ImgAsset.myFlixProject_Vector1133} />
-						<img className='Vector1134' src = {ImgAsset.myFlixProject_Vector1134} />
-						<img className='Vector1135' src = {ImgAsset.myFlixProject_Vector1135} />
-						<img className='Vector1136' src = {ImgAsset.myFlixProject_Vector1136} />
-						<img className='Vector1137' src = {ImgAsset.myFlixProject_Vector1137} />
-						<img className='Vector1138' src = {ImgAsset.myFlixProject_Vector1138} />
-						<img className='Vector1139' src = {ImgAsset.myFlixProject_Vector1139} />
-						<img className='Vector1140' src = {ImgAsset.myFlixProject_Vector1140} />
-						<img className='Vector1141' src = {ImgAsset.myFlixProject_Vector1141} />
-						<img className='Vector1142' src = {ImgAsset.myFlixProject_Vector1142} />
-						<img className='Vector1143' src = {ImgAsset.myFlixProject_Vector1143} />
-						<img className='Vector1144' src = {ImgAsset.myFlixProject_Vector1144} />
-						<img className='Vector1145' src = {ImgAsset.myFlixProject_Vector1145} />
-						<img className='Vector1146' src = {ImgAsset.myFlixProject_Vector1146} />
-						<img className='Vector1147' src = {ImgAsset.myFlixProject_Vector1147} />
-						<img className='Vector1148' src = {ImgAsset.myFlixProject_Vector1148} />
-						<img className='Vector1149' src = {ImgAsset.myFlixProject_Vector1149} />
-						<img className='Vector1150' src = {ImgAsset.myFlixProject_Vector1150} />
-						<img className='Vector1151' src = {ImgAsset.myFlixProject_Vector1151} />
-						<img className='Vector1152' src = {ImgAsset.myFlixProject_Vector1152} />
-					</div>
-					<span className='Wireframes_1'>Wireframes:<br/><br/></span>
-				</div>
-				<div className='UserFlow'>
-					<img className='UserFlow1' src = {ImgAsset.myFlixProject_UserFlow1} />
-					<span className='UserFlow_1'>User Flow:<br/><br/></span>
-				</div>
-				<span className='UserStoriesAsauserIwanttobeabletoaccessinformationonmoviesactorsdirectorsandgenressothatIamabletolearnmoreAsauserIwanttobeabletocreateaprofilemakeafavoriteslisttosavefavoritemoviesandbeabletoupdatemyprofiledata'>User Stories:<br/>As a user, I want to be able to access information on movies, actors, directors and genres so that I am able to learn more.<br/>As a user, I want to be able to create a profile, make a favorites list to save favorite movies, and be able to update my profile data.<br/></span>
-				<img className='Line4' src = {ImgAsset.myFlixProject_Line4} />
-				<span className='Planning_1'>Planning</span>
-				<img className='Line3' src = {ImgAsset.myFlixProject_Line3} />
-			</div>
-			<div className='ProjectOverview'>
-				<span className='ObjectiveUsingReactbuildtheclientsideforanapplicationcalledmyFlixbasedonitsexistingserversidecodeRESTAPIanddatabase'>Objective:<br/>Using React, build the client-side for an application called myFlix based on its existing server-side code (REST API and database). <br/></span>
-				<span className='ProjectOverview_1'>Project Overview</span>
-				<img className='Line1_2' src = {ImgAsset.myFlixProject_Line1_2} />
-				<img className='Line2_2' src = {ImgAsset.myFlixProject_Line2_2} />
-				<div className='Rectangle5'/>
-				<span className='Githubhttpsgithubcomsms165movieclientNetlifyliveversionhttpsmyflixmoviedbnetlifyapp'>Github:<br/>https://github.com/sms165/movie-client<br/><br/>Netlify (live version):<br/>https://myflix-moviedb.netlify.app/</span>
+import React from "react";
+// import styles from "./myflixProject.css";
+
+import logo from "./assets/logo-white-small.svg";
+import screens from "./assets/screens.jpg";
+import userFlow from "./assets/userFlow.jpg";
+import wireframes from "./assets/wireframeMyFlix.svg";
+import movieImg from "./assets/dorisday.jpg";
+import theater from "./assets/movie-theater.jpg";
+
+
+import { HashLink } from 'react-router-hash-link';
+
+import { BrowserRouter as Router } from 'react-router-dom'
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPenToSquare,
+  faRegular,
+  faTrashCan,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
+
+export default function MyFlixProject() {
+
+	const rectangleHeader={
+		height: '20vh',
+		width: '100vw',
+		backgroundColor: '#0D1A25',
+		display:'flex',
+		justifyContent: 'right',
+		flexWrap: 'wrap',
+		alignContent: 'space-around',
+
+	}
+	const logoImg ={
+		height:'20vh',
+		zIndex: '1000',
+		position: 'absolute',
+		paddingLeft: '5vw',
+		top: '10vh'
+	}
+
+	const screensImg ={
+		height:'90vh',
+		paddingRight: '20vw',
+		// position: 'absolute',
+		
+	}
+
+	const font ={
+		
+			fontFamily: 'Joan',
+			
+			
+		}
+
+	const userFLowDiagram ={
+		width: '100vw',
+		
+	}
+
+	const wireframeDiagram={
+		width: '80vw',
+		display: 'block',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+  width: '50%',
+	}
+
+	const swatch={
+		height: '40vh',
+		width:'40vh',
+		borderRadius: '0px 30px 0px 30px',
+		
+
+	}
+
+	const flexCont={
+		display: 'flex',
+		flexDirection: 'row',
+		justifyContent: 'center',
+		flexWrap: 'wrap',
+	}
+
+	const flexContStyle={
+		display: 'flex',
+		flexDirection: 'row',
+		justifyContent: 'center',
+		flexWrap: 'wrap',
+		alignContent: 'space-around',
+		rowGap:'20px'
+	}
+
+	const overDesc={
+		flexGrow: '2',
+		margin: '25px',
+	}
+
+	const links={
+		backgroundColor: '#0D1A25',
+		color:'white',
+		margin: '25px',
+		padding:'20px',
+		height: 'fit-content',
+		width:'fit-content',
+		borderRadius: '0px 30px 0px 30px',
+		paddingBottom: '50px'
+		
+	}
+
+	const linkOut={
+		textDecoration:'none',
+		color:'white',
+
+	}
+
+	const bgColor ={
+		backgroundColor: '#0D1A25',
+		height: '30vh',
+		width:'30vh',
+		borderRadius: '0px 30px 0px 30px',
+		
+	}
+	const linkColor ={
+		backgroundColor: '#F90606',
+		height: '30vh',
+		width:'30vh',
+		borderRadius: '0px 30px 0px 30px',
+		
+	}
+
+	const compColor ={
+		backgroundColor: '#122535',
+		height: '30vh',
+		width:'30vh',
+		borderRadius: '0px 30px 0px 30px',
+		
+	}
+
+	const btnColor ={
+		backgroundColor: '#59A9F0',
+		height: '30vh',
+		width:'30vh',
+		borderRadius: '0px 30px 0px 30px',
+		
+	}
+
+	const swatchDesc={
+		width: '20vw',
+		marginLeft: '20px'
+	}
+
+	const googleFont={
+		
+		height: '30vh',
+		width:'30vh',
+		borderRadius: '0px 30px 0px 30px',
+		border: '1px solid gray',
+		display:'flex',
+		alignItems:'center',
+		justifyContent:'center',
+		
+		
+	}
+
+	const imageBox={
+		
+		height: '30vh',
+		width:'30vh',
+		borderRadius: '0px 30px 0px 30px',
+		
+		
+	}
+
+	const fontName={
+		
+	}
+
+	const imageMovie={
+		height: '30vh',
+		width:'30vh',
+		borderRadius: '0px 30px 0px 30px',
+	}
+
+	const faIcon ={
+		height:'10vh'
+	}
+	const line ={
+		float:'left',
+		width:'160px',
+		marginLeft:'60px',
+		
+
+	}
+
+	const lineTwo ={
+		float:'left',
+		width:'160px',
+		marginLeft: '160px',
+
+	}
+
+	const marg={
+		margin:'5px',
+		marginLeft:'100px',
+		
+	}
+
+	const navMenu ={
+		float:'right',
+		display:'flex',
+		flexDirection: 'row',
+		
+		flexWrap: 'wrap',
+		alignContent: 'space-around',
+		color:'white',
+		
+
+		
+	}
+
+	const navItem={
+		paddingLeft:'1em',
+		textDecoration:'none',
+		color:'white',
+		
+	}
+	const navItemLast={
+		paddingLeft:'1em',
+		paddingRight:'3em',
+		textDecoration:'none',
+		color:'white',
+	}
+	const underline={
+		textDecoration:'none'
+	}
+
+
+  return (
+	
+    <div style={font} className="proj">
+      <div className="projHeader">
+		<div style={rectangleHeader}>
+			<div class="menu" style={navMenu}>
+			<a style={underline} href='#overview'>
+				<p style={navItem}>Overview</p>
+				</a>
+				<a style={underline} href='#planning'>
+				<p style={navItem}>Planning</p>
+				
+				</a>
+				<a style={underline} href='#style'>
+				<p style={navItem}>Styling Guide</p>
+				</a>
+				<a style={underline} href='#development'>
+				<p style={navItem}>Development</p>
+				</a>
+				<a style={underline} href='#decisions'>
+				<p style={navItemLast}>Decisions</p>
+				</a>
 			</div>
 		</div>
-	)
+		
+		<img style={logoImg} src={logo} alt="" />
+		
+	  </div>
+      <div className="projScreen">
+		<img style={screensImg} src={screens} alt="" />
+	  </div>
+      <div className="projOverview" id="overview" >
+		
+			<hr style={line} />
+			<br />
+        <h2  style={marg}>Project Overview</h2>
+		
+		<hr style={lineTwo} />
+		<br />
+		<div className="projOverViewDetail" style={flexCont}>
+		<div style={overDesc} >
+			<h3 >Objective</h3>
+			<p >Using React, build the client-side for an application called myFlix based on its existing server-side code (REST API and database). 
+</p>
+		</div>
+		<div style={links}>
+			<h3 >Github:</h3>
+			<a href="https://github.com/sms165/movie-client" target="_blank"   style={linkOut} > https://github.com/sms165/movie-client</a>
+			<br/>
+			<br/>
+			<h3 >Netlify (live version):</h3>
+			
+			<a href="https://myflix-moviedb.netlify.app/" target="_blank"style={linkOut} >https://myflix-moviedb.netlify.app/</a>
+		</div>
+		</div>
+      </div>
+      <div className="projPlanning" id="planning">
+        
+	  <hr style={line} />
+			<br />
+        <h2  style={marg}>Planning</h2>
+		<hr style={lineTwo} />
+		
+		<br/>
+		<div className="userStories" style={overDesc}>
+			<h3 >User Stories</h3>
+			<ul>
+				<li>As a user, I want to be able to access information on movies, actors, directors and genres so that I am able to learn more.</li>
+				<li>As a user, I want to be able to create a profile, make a favorites list to save favorite movies, and be able to update my profile data.</li>
+			</ul>
+		</div>
+		<div className="userFlow" style={overDesc}>
+			<h3 >User Flow</h3>
+			<img style={userFLowDiagram} src={userFlow} alt="" />
+		</div>
+		<div className="wireframes" style={overDesc} >
+			<h3 >Wireframes</h3>
+			<img style={wireframeDiagram} src={wireframes} alt="" />
+		</div>
+
+      </div>
+	  <br/>
+	  <br/>
+      <div className="projStyle" id="style">
+	  <hr style={line} />
+			<br />
+        <h2  style={marg}>Style Guide</h2>
+		<hr style={lineTwo} />
+		<br />
+        <div className="color" style={overDesc}>
+          <h3 >Color Palette</h3>
+          <p >
+            I oriented the style of the website on the classical simple style in
+            a dark theme.
+          </p>
+          <div className="swatches" style={flexContStyle}>
+			<div className="bgCol" style={flexCont}>
+            <div className="backgroundColor" style={bgColor} ></div>
+            <div style={swatchDesc}>
+              <h4 >Background Color:</h4>
+              <p >#0D1A25</p>
+            </div>
+			</div>
+			<div className="compCol" style={flexCont}>
+            <div className="componentColor" style={compColor}></div>
+            <div style={swatchDesc}>
+              <h4>Component Color:</h4>
+              <p>#122535</p>
+            </div>
+			</div>
+			<div className="linkCol" style={flexCont}>
+            <div className="linkColor" style={linkColor}></div>
+            <div style={swatchDesc}>
+              <h4>Link Hover Color:</h4>
+              <p>#F90606</p>
+            </div>
+			</div>
+			<div className="btnCol" style={flexCont}>
+            <div className="buttonColor" style={btnColor}></div>
+            <div style={swatchDesc}>
+              <h4>Button Color:</h4>
+              <p>#59A9F0</p>
+            </div>
+			</div>
+			</div>
+          </div>
+
+<div className="typography" style={overDesc}>
+		  <h3>Typography</h3>
+          
+          <div className="font" style={flexContStyle}>
+			<div style={flexCont}>
+            <div className="fontName" style={googleFont} ><div style={fontName}><h2 >Joan</h2></div></div>
+            <div className="fontDesc" style={swatchDesc}>
+              <h4>Google Font:</h4>
+              <p>Designed by Paolo Biagini</p>
+            </div></div>
+		</div>
+		
+
+		<div className="icongraphy" >
+		  <h3>Icongraphy</h3>
+          <div style={flexContStyle}>
+		  <div style={flexCont}>
+         
+            <div className="iconImage" style={googleFont}> <FontAwesomeIcon style={faIcon} icon={faTrashCan} /></div>
+            <div className="iconDesc"  style={swatchDesc}>
+              <h4>FontAwesome:</h4>
+              <p>TrashCan</p>
+            </div>
+		</div>
+		<div style={flexCont}>
+		
+            <div className="iconImage" style={googleFont}><FontAwesomeIcon style={faIcon}  icon={faPenToSquare} /></div>
+            <div className="iconDesc"  style={swatchDesc}>
+              <h4>FontAwesome:</h4>
+              <p>Pen-to-Square</p>
+            </div>
+		</div>
+		
+		</div>
+		</div>
+		
+
+
+		<div className="images" >
+		  <h3>Images</h3>
+          
+		  <div style={flexContStyle}>
+		  <div style={flexCont}>
+
+          
+            <div className="imgImage" style={imageBox}><img style={imageMovie} src={theater} alt="" /></div>
+            <div className="imgDesc" style={swatchDesc}>
+              <h4>Pixabay:</h4>
+              <p>Free Image</p>
+            </div>
+		</div>
+
+		<div style={flexCont}>
+            <div className="imgImage" style={imageBox}><img style={imageMovie} src={movieImg}  /> </div>
+            <div className="imageDesc" style={swatchDesc}>
+              <h4>TheMovieDB:</h4>
+              <p>Images for movies, actors, and directors.</p>
+            </div>
+		</div>
+		</div>
+		</div>
+
+        </div>
+      </div>
+	  <br/>
+	  <br/>
+      <div className="projDevel" id="development">
+	  <hr style={line} />
+			<br />
+        <h2  style={marg}>Development</h2>
+		<hr style={lineTwo} />
+		<br />
+	
+        <div className="techUsed" style={overDesc}>
+          <h3>Technologies Used</h3>
+          <ul>
+            <li>Programmed using the MERN tech stack which stands for:</li>
+            <ul>
+              <li>MongoDB: Database used to store movie data</li>
+              <li>Express: Node.js web framework</li>
+              <li>React: JavaScript framework</li>
+              <li>
+                Node.js: runtime environment , allows JavaScript to be used on
+                the server side
+              </li>
+            </ul>
+            <li>HTML</li>
+            <li>CSS / React Bootstrap</li>
+          </ul>
+        </div>
+		<br/>
+	  <br/>
+        <div className="decisions" id="decisions" >
+          
+		  <hr style={line} />
+			<br />
+        <h2  style={marg}>Decisions made and consequences:</h2>
+		<hr style={lineTwo} />
+		<br />
+          <ul>
+            <li>
+              As the lessons on CareerFoundry were not up to date with the new
+              versions for example of React and React Router, I had to rely on
+              other sources to program this site. As a web developer it is
+              important to stay up to date and continue learning, which is why I
+              choose to program with the current versions.<br/>
+	  
+            </li>
+            <ul>
+              <li>
+                I studied the official documentation to help me complete the
+                tasks, which was difficult at times but it gave me the
+                opportunity to gain more experience with reading documentations.<br/>
+
+              </li>
+            </ul>
+            <li>
+              I decided to include more views, and functions than the lesson
+              stated to have a chance to learn more.<br/>
+            </li>
+            <ul>
+              <li>
+                I wanted to make the password change function on the user update
+                view more secure. The user needs to type in their old password
+                and their new password, then in the backend the program checks
+                if the old password is the same as that which is saved in the
+                database and only if it returns true the password will be
+                changed.<br/>
+              </li>
+              <ul>
+                <li>
+                  A consequence of this was that I had to go back to the API to
+                  make a new endpoint which has the logic behind it to handle
+                  the password comparison and change.<br/><br/>
+                </li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+	
+	
+  );
 }
