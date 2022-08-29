@@ -11,7 +11,62 @@ import cf from "../../assets/careerFoundry.svg";
 import cert from "../../assets/cert.svg";
 
 export default function Certificates() {
+
+	const certificatesSideNav = useRef();
+	const certificatesTitle = document.getElementById('certificatesTitle');
+	const [certificatesSideNavIntersecting, setCertificatesSideNavIntersecting] = useState();
+	// console.log('isIntersecting', contactSideNavIntersecting)
+	useEffect(() => {
   
+	  // console.log('aboutSideNav', aboutSideNav.current);
+	  const observer = new IntersectionObserver((entries) =>{
+		const entry =entries[0];
+		setCertificatesSideNavIntersecting(entry.isIntersecting)
+		// console.log('entry', entry);
+	  }) 
+	  observer.observe(certificatesSideNav.current);
+  
+	  
+  
+	  return () => {
+	  };
+	}, []);
+  
+  
+	if(certificatesSideNavIntersecting == true){
+	  certificatesTitle.classList.add("active");
+	  certificatesTitle.classList.remove("reveal");
+
+	  let maskC = document.getElementById("mask-c");
+    let maske = document.getElementById("mask-e");
+    let maskr = document.getElementById("mask-r");
+    let maskt = document.getElementById("mask-t");
+    let maski = document.getElementById("mask-i");
+    let maskf = document.getElementById("mask-f");
+    let maskit = document.getElementById("mask-it");
+    let maskct = document.getElementById("mask-ct");
+    let maska = document.getElementById("mask-a");
+    let masktt = document.getElementById("mask-tt");
+    let masket = document.getElementById("mask-et");
+    let masks = document.getElementById("mask-s");
+
+    maskC.classList.add("visible");
+    maske.classList.add("visible");
+    maskr.classList.add("visible");
+    maskt.classList.add("visible");
+    maski.classList.add("visible");
+    maskf.classList.add("visible");
+    maskit.classList.add("visible");
+    maskct.classList.add("visible");
+    maska.classList.add("visible");
+    masktt.classList.add("visible");
+    masket.classList.add("visible");
+    masks.classList.add("visible");
+	
+	}else if (certificatesSideNavIntersecting == false && screenTop>2) {
+	  certificatesTitle.classList.remove("active");
+	  certificatesTitle.classList.add("reveal");
+	}
 
   const [isVisible, setIsVisible] = useState(false);
 
@@ -24,7 +79,7 @@ export default function Certificates() {
 masks.forEach((mask, index, el) => {
     const id = `mask-${mask}`
     let path = document.getElementById(id)
-    console.log(path)
+    // console.log(path)
     if(!path===null){
        const length = path.getTotalLength()
     path.style.strokeDasharray = length;
@@ -42,7 +97,7 @@ return () => {
 }, []);
 
   return (
-  <div >
+  <div ref={certificatesSideNav} >
 <svg width="600px" id="certSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.12 92.83">
 <title>Certifications</title>
 	<defs>
@@ -52,7 +107,7 @@ return () => {
 
         <g id="cert-mask">
 		
-			<mask id="mask-cert-c">
+			<mask   id="mask-cert-c">
       <path class="cls-2 mask" id='mask-c' d="M59.76,116.6c-2.57-5.42-2.09-8.35-1.16-10,.82-1.47,2.18-2.35,2.77-4.8a5.87,5.87,0,0,0-4.06-7.56c-2.2-.72-4.37.14-7.19,1.66-4.43,2.4-7.66,4.23-12,8.85A58.47,58.47,0,0,0,27.62,121a75.81,75.81,0,0,0-5,14.39c-1.56,6.24-2.68,10.91-1.84,17a25.31,25.31,0,0,0,3.14,9.22c1.28,2.22,2.43,4.15,4.79,5.17a9.35,9.35,0,0,0,6.64,0c2.44-.85,4.36-3.29,8.11-8.12a114,114,0,0,0,7.38-10.69c.79-1.3,1.42-2.38,1.84-3.14"  />
 			</mask>
 		<mask id="mask-cert-e">

@@ -9,7 +9,7 @@ import Certificates from '../certificate/Certificate';
 
 export default function Education() {
   
-
+  
   return (
   <div >
    

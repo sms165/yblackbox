@@ -1,4 +1,8 @@
-
+.projectSideNav{
+   
+    height: 60vh;
+    padding-bottom: 20vh;
+}
 
 .sideNavigation{
      z-index: 4;
@@ -26,13 +30,13 @@
 
 .reveal{
     opacity: 0;
-    transition: 2s;
+    // transition: 2s;
     
 }
 
 .active{
     opacity: 1;
-    transition: 2s;
+    // transition: 2s;
 }
 
 
@@ -332,4 +336,3 @@ top:-25px;
 }
 
 
- 

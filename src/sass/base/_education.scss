@@ -4,7 +4,12 @@
   display: block;
   margin-right: 5vw;
   float: right;
-  margin-top: 20vh;
+  margin-top: -50vh;
+  height: 1024px;
+}
+
+.edu{
+  height: 80vh;
 }
 
 p {
@@ -33,15 +38,17 @@ p {
 // }
 
 .uopeopleImg {
-  width: 50vw;
+  width: 40vw;
   
-  position: relative;
-  right: -82px;
+  position: absolute;
+  right: -500px;
   top: 10px;
 }
 
 
-
+.hidden{
+  opacity: 0;
+}
 
 .uopeopleImg.visible {
     width: 40vw;

@@ -9,9 +9,7 @@ import movieImg from "./assets/dorisday.jpg";
 import theater from "./assets/movie-theater.jpg";
 
 
-import { HashLink } from 'react-router-hash-link';
 
-import { BrowserRouter as Router } from 'react-router-dom'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

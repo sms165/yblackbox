@@ -2,6 +2,9 @@ import React from 'react';
 import { useEffect } from 'react';
 import '../../sass/style.scss';
 
+import { useRef, useState } from "react";
+import { useEffect } from "react";
+
 // programming languages
 import htmlSvg from "../../assets/html.svg";
 import cssSvg from "../../assets/css.svg";
@@ -28,13 +31,77 @@ import mongodbSvg from "../../assets/mongodb.svg";
 
 function Skills() {
 
-    useEffect(() => {
-        console.log(document.getElementById('skillDetail'))
-      return () => {
-        
-      }
-    }, [])
+    const skillsSideNav = useRef();
+    const skillsTitle = document.getElementById('skillsTitle');
+  const [skillsSideNavIntersecting, setSkillsSideNavIntersecting] = useState();
+  
+  useEffect(() => {
+
+    // console.log('aboutSideNav', aboutSideNav.current);
+    const observer = new IntersectionObserver((entries) =>{
+      const entry =entries[0];
+      setSkillsSideNavIntersecting(entry.isIntersecting)
+      // console.log('entry', entry);
+    }) 
+    observer.observe(skillsSideNav.current);
+
     
+
+    return () => {
+    };
+  }, []);
+
+
+  if(skillsSideNavIntersecting == true){
+    skillsTitle.classList.add("active");
+    skillsTitle.classList.remove("reveal");
+
+    // programming skills
+    let html = document.getElementById("html");
+    let csharp = document.getElementById("csharp");
+    let css = document.getElementById("css");
+    let php = document.getElementById("php");
+    let java = document.getElementById("java");
+    let javascript = document.getElementById("javascript");
+    let python = document.getElementById("python");
+   //  console.log(html);
+    html.classList.add("visible");
+    csharp.classList.add("visible");
+    css.classList.add("visible");
+    php.classList.add("visible");
+    java.classList.add("visible");
+    javascript.classList.add("visible");
+    python.classList.add("visible");
+
+    // graphic design skills
+    let afterEffects = document.getElementById("afterEffects");
+    let premierePro = document.getElementById("premierePro");
+    let illustrator = document.getElementById("illustrator");
+    let indesign = document.getElementById("indesign");
+    let photoshop = document.getElementById("photoshop");
+   //  console.log(afterEffects);
+    afterEffects.classList.add("visible");
+    premierePro.classList.add("visible");
+    illustrator.classList.add("visible");
+    indesign.classList.add("visible");
+    photoshop.classList.add("visible");
+
+    // etc skills
+    let docker = document.getElementById("docker");
+    let git = document.getElementById("git");
+    let microsoft = document.getElementById("microsoft");
+    let mongodb = document.getElementById("mongodb");
+    let phpMyAdmin = document.getElementById("phpMyAdmin");
+    docker.classList.add("visible");
+    git.classList.add("visible");
+    microsoft.classList.add("visible");
+    mongodb.classList.add("visible");
+    phpMyAdmin.classList.add("visible");
+  }else if (skillsSideNavIntersecting == false && screenTop>2) {
+    skillsTitle.classList.remove("active");
+    skillsTitle.classList.add("reveal");
+  }
+  
 
     
     const programmingSkills = (language) =>{
@@ -74,7 +141,7 @@ function Skills() {
             detail.innerHTML='<div class="detail"><h1>After Effects</h1><img class="imageDetail" src="' + afterEffectsSvg + '"  /></div><div class="text"><br /><p>After Effect is a visual effects and motion graphics software for video.</p><br /><p>First experience was in High School.</p><p>Projects: Various projects in High School, animatons of svg images</div>';   
             break;
         case 'illustrator':
-            detail.innerHTML='<div class="detail"><h1>Illustrator</h1><img class="imageDetail" src="' + illustratorSvg + '"  /></div><div class="text"><br /><p>Illustrator is a vector-based graphics software.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>Projects: Logos, Svgs,Vecctor Illustrations></p></div>';   
+            detail.innerHTML='<div class="detail"><h1>Illustrator</h1><img class="imageDetail" src="' + illustratorSvg + '"  /></div><div class="text"><br /><p>Illustrator is a vector-based graphics software.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>Projects: Logos, Svgs,Vector Illustrations</p><p>The cube at the top of the webpage for example was done with illustrator.</div>';   
             break;
         case 'indesign':
             detail.innerHTML='<div class="detail"><h1>InDesign</h1><img class="imageDetail" src="' + indesignSvg + '"  /></div><div class="text"><br /><p>InDesign is a layout and page design software for print and digital media.</p><br /><p>First experience was in High School, and continued learning.</p><br /><p>Projects: Restaurant Menu, Movie Poster, CD design, Business Card, Calendar, Playing Cards</p></div>';           
@@ -122,7 +189,9 @@ function Skills() {
     
 
   return (
-    <><h2 className='skillsHeader' id='skillsSideNav' >Programming Skills</h2>
+    <>
+    <div className='skillsSideNav ' ref={skillsSideNav}>
+    <h2  className='skillsHeader' id='skillsSideNav' >Programming Skills</h2>
     <div className='skillsProgramming'  >
         
     <div className="skills">
@@ -214,6 +283,8 @@ function Skills() {
            <h1>Click on name to learn more!</h1> 
         </div>
         </div>
+    </div>
+
     </div>
     </>
   )

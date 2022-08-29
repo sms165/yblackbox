@@ -1,10 +1,41 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
+import { useRef, useState } from "react";
+import { useEffect } from "react";
 
 import '../../sass/style.scss';
 
 export default function Contact() {
+
+  const contactSideNav = useRef();
+  const contactTitle = document.getElementById('contactTitle');
+  const [contactSideNavIntersecting, setContactSideNavIntersecting] = useState();
+  // console.log('isIntersecting', contactSideNavIntersecting)
+  useEffect(() => {
+
+    // console.log('aboutSideNav', aboutSideNav.current);
+    const observer = new IntersectionObserver((entries) =>{
+      const entry =entries[0];
+      setContactSideNavIntersecting(entry.isIntersecting)
+      // console.log('entry', entry);
+    }) 
+    observer.observe(contactSideNav.current);
+
+    
+
+    return () => {
+    };
+  }, []);
+
+
+  if(contactSideNavIntersecting == true){
+    contactTitle.classList.add("active");
+    contactTitle.classList.remove("reveal");
+  }else if (contactSideNavIntersecting == false && screenTop>2) {
+    contactTitle.classList.remove("active");
+    contactTitle.classList.add("reveal");
+  }
   
 
   const SERVICE_ID = "service_dxgkupe";
@@ -33,7 +64,7 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
   return (
     
 
-    <div className='contactBox'>
+    <div ref={contactSideNav} className='contactBox'>
       
       <h2 className='formHeader'>Contact Me</h2>
       <div className="form">
