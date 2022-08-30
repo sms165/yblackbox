@@ -4,8 +4,7 @@ import '../../sass/style.scss';
 import { useRef, useState } from "react";
 import { useEffect } from "react";
 import { Switch } from 'react-router-dom';
-import MyFlixProject from '../myflixProject/myflixProject';
-import MeetAppProj from '../meetAppProj/MeetAppProj'
+
 import Nav from '../nav/Nav';
 
 export default function About() {

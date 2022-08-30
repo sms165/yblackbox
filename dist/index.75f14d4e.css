@@ -1001,6 +1001,7 @@ h2 {
 
 .keyword {
   color: #fff;
+  width: -moz-fit-content;
   width: fit-content;
   background: #040404;
   border-radius: 30px;
