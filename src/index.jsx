@@ -79,7 +79,7 @@ const App = () => {
       <Parallax ref={parallax} pages={8} style={{ top: "0", left: "0" }}>
         
         {/* background */}
-        <ParallaxLayer offset={0} speed={0.1} factor={10}>
+        <ParallaxLayer offset={0}  factor={10}>
           // {/* <div className="backg"> */}
           <Background />
           // {/* </div> */}
@@ -139,6 +139,7 @@ const App = () => {
           offset={1.5}
           // style={{ top:"20vh" }}
           speed={1}
+          style={{ width: "70vw", float: "right"}}
         >
            
           {/* <Sidenav style={{float:'left'}} /> */}

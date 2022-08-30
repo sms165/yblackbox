@@ -63,7 +63,10 @@ export default function Certificates() {
     masket.classList.add("visible");
     masks.classList.add("visible");
 	
-	}else if (certificatesSideNavIntersecting == false && screenTop>2) {
+	} 
+	
+	if (certificatesSideNavIntersecting == false ) {
+		if(certificatesTitle.classList.contains("active"))
 	  certificatesTitle.classList.remove("active");
 	  certificatesTitle.classList.add("reveal");
 	}

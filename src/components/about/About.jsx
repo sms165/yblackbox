@@ -36,9 +36,13 @@ export default function About() {
     aboutMe.classList.add("active");
     aboutMe.classList.remove("reveal");
     console.log('aboutSideNav', aboutSideNav.current);
-  }else if (aboutSideNavIntersecting == false && screenTop>2) {
+  }
+  
+  if (aboutSideNavIntersecting == false ) {
+    if(aboutMe.classList.contains("active")){
     aboutMe.classList.remove("active");
     aboutMe.classList.add("reveal");
+    }
   }
 
 

@@ -32,9 +32,13 @@ export default function Contact() {
   if(contactSideNavIntersecting == true){
     contactTitle.classList.add("active");
     contactTitle.classList.remove("reveal");
-  }else if (contactSideNavIntersecting == false && screenTop>2) {
+  }
+  
+  if (contactSideNavIntersecting == false) {
+    if(contactTitle.classList.contains("active")){
     contactTitle.classList.remove("active");
     contactTitle.classList.add("reveal");
+    }
   }
   
 

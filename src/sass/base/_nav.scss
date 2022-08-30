@@ -44,6 +44,8 @@ body {
   border-radius: 50%;
   display: grid;
   place-content: center;
+  animation: orbit 30s linear infinite;
+  transform-origin: center;
   
 
   
@@ -62,6 +64,7 @@ body {
     border-radius: 50%;
     display: grid;
     place-content: center;
+   
 
     &:hover {
       border: solid 3px var(--pink-highlighter);

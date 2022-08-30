@@ -56,9 +56,12 @@ if(degreesSideNavIntersecting == true){
    uopeopleImg.classList.add("visible");
    lutzImg.classList.add("visible");
    cfImg.classList.add("visible");
-}else if (degreesSideNavIntersecting == false && screenTop>2) {
+}
+
+if (degreesSideNavIntersecting == false) {
+  if(degreesTitle.classList.contains("active")){
   degreesTitle.classList.remove("active");
-  degreesTitle.classList.add("reveal");
+  degreesTitle.classList.add("reveal");}
 }
   
 

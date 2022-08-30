@@ -8,7 +8,7 @@
      z-index: 4;
     // background-color: rgb(16, 16, 16);
     // position: sticky;
-    width: 8vw;
+    width: 3vw;
     height: 50vh;
     // align-self: flex-start;
     margin-top: 20vh;
@@ -92,7 +92,8 @@ top:-25px;
 .smallLetter{
     font-size: 5vh;
     margin-left: 3vw;
-    top: -90px;
+    top: -80px;
+    position: relative;
     
 }
 
@@ -121,218 +122,50 @@ top:-25px;
     top: -250px;
 }
 
-// About
-.section{
-    
-   position: relative;
-   top: -58vh;
-   left:5vw
+
+.sectionAbout{
+    position: relative;
+    top: -40vh;
 }
 
-.about-b{
-    top: -110px;
-   
-}
-
-.about-o{
-    top: -130px;
-}
-
-.about-u{
-    top: -160px;
-}
-.about-t{
-    top: -190px;
-}
-
-.about-m{
-    top: -190px;
-}
-.about-e{
-    top: -219px;
-}
-
-
-// Projects
 .sectionProjects{
-    
-   position: relative;
-   top: -114vh;
-   left:5vw
-}
-
-.projects-r{
-    top: -115px;
-}
-
-.projects-o{
-    top: -140px;
-}
-
-.projects-j{
-    top: -165px;
-}
-
-.projects-e{
-    top: -185px;
-}
-
-.projects-c{
-    top: -205px;
-}
-
-.projects-t{
-    top: -230px;
-}
-.projects-s{
-   top: -255px; 
-}
-
-
-// Skills
-.sectionSkills{
-    
     position: relative;
-    top: -166vh;
-    left:5vw
- }
- 
- .skills-k{
-     top: -115px;
- }
-
- .skills-i{
-    top: -140px;
+    top: -55vh
 }
 
-.skills-l{
-    top: -165px;
-}
-
-.skills-ll{
-    top: -185px;
-}
-
-.skills-s{
-    top: -205px;
-}
-
-
-// Skills
 .sectionDegrees{
-    
     position: relative;
-    top: -215vh;
-    left:5vw
- }
- 
- .degrees-e{
-     top: -115px;
- }
-
- .degrees-g{
-    top: -140px;
+    top: -50vh
 }
 
-.degrees-r{
-    top: -165px;
-}
-
-.degrees-ee{
-    top: -185px;
-}
-
-.degrees-eee{
-    top: -205px;
-}
-
-.degrees-s{
-    top: -225px;
-}
-
-
-// Certifications
 .sectionCertificates{
-    
     position: relative;
-    top: -287vh;
-    left:5vw
- }
- 
- .certificates-e{
-     top: -115px;
- }
-
- .certificates-r{
-    top: -140px;
+    top: -70vh;
 }
 
-.certificates-t{
-    top: -165px;
+.sectionSkills{
+    position: relative;
+    top:-45vh;
 }
 
-.certificates-i{
-    top: -185px;
-}
 
-.certificates-f{
-    top: -215px;
-}
 
-.certificates-ii{
-    top: -235px;
-}
-
-.certificates-c{
-    top: -265px;
-}
-
-.certificates-a{
-    top: -295px;
-}
-
-.certificates-tt{
-    top: -315px;
-}
-
-.certificates-ee{
-    top: -335px;
-}
-
-.certificates-s{
-    top: -360px;
-}
 
 // Certifications
 .sectionContact{
     
     position: relative;
-    top: -353vh;
-    left:5vw
+    top: -50vh;
+    
  }
  
- .contact-o{
-     top: -125px;
- }
-
- .contact-n{
-    top: -155px;
+ 
+.sideNavTextSection{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    left: 2vw;
+    float: left;
+    position: absolute;
+    word-wrap: none;
 }
-
-.contact-t{
-    top: -185px;
-}
-
-.contact-a{
-    top: -215px;
-}
-
-.contact-c{
-    top: -240px;
-}
-
-.contact-tt{
-    top: -270px;
-}
-
 
