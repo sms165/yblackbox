@@ -15,7 +15,7 @@ import { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 import Deck from "./components/deck/Deck";
 import Projects from "./components/projects/Projects";
-import Logo from "./components/logo/Logo";
+
 import Skills from "./components/skills/Skills";
 import Education from "./components/education/Education";
 import Contact from "./components/contact/Contact";

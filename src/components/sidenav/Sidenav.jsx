@@ -5,24 +5,13 @@ import {
   faThin
 } from "@fortawesome/free-solid-svg-icons";
 import "../../sass/style.scss";
-import logo from "../../assets/logo2.svg";
-import user from "../../assets/user.svg";
-import code from "../../assets/code.svg";
-import portfolio from "../../assets/portfolio.svg";
-import education from "../../assets/education.svg";
-import mail from "../../assets/mail.svg";
-import {
-  
-  faUser,
-  faCode,
-  faLaptopCode,
-  faLaptopFile
-} from "@fortawesome/free-solid-svg-icons";
+
+
 
 import { HashLink } from 'react-router-hash-link';
 
 import { BrowserRouter as Router } from 'react-router-dom'
-import Logo from "../logo/Logo";
+
 
 export default function Sidenav() {
 

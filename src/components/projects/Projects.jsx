@@ -32,10 +32,18 @@ useEffect(() => {
 if(projectsSideNavIntersecting == true){
   projectsTitle.classList.add("active");
   projectsTitle.classList.remove("reveal");
-}else if (projectsSideNavIntersecting == false && screenTop>2) {
+}
+  
+if(projectsSideNavIntersecting == false){
+
+    if(projectsTitle.classList.contains("active") ){
   projectsTitle.classList.remove("active");
   projectsTitle.classList.add("reveal");
+  }
+
 }
+
+
   return (
    <>
    

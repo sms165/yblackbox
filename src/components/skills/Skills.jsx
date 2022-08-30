@@ -97,12 +97,16 @@ function Skills() {
     microsoft.classList.add("visible");
     mongodb.classList.add("visible");
     phpMyAdmin.classList.add("visible");
-  }else if (skillsSideNavIntersecting == false && screenTop>2) {
+  }else if ( screenTop>2 ){
+    
+    if(skillsSideNavIntersecting == false){
+        if(skillsTitle.classList.contains("active")){
     skillsTitle.classList.remove("active");
     skillsTitle.classList.add("reveal");
+    }}
   }
   
-
+//   skillsSideNavIntersecting == false && screenTop>2
     
     const programmingSkills = (language) =>{
         let detail= document.getElementById('textDetail');
