@@ -34,8 +34,8 @@ export default function Certificates() {
   
   
 	if(certificatesSideNavIntersecting == true){
-	  certificatesTitle.classList.add("active");
-	  certificatesTitle.classList.remove("reveal");
+	//   certificatesTitle.classList.add("active");
+	//   certificatesTitle.classList.remove("reveal");
 
 	  let maskC = document.getElementById("mask-c");
     let maske = document.getElementById("mask-e");
@@ -65,11 +65,11 @@ export default function Certificates() {
 	
 	} 
 	
-	if (certificatesSideNavIntersecting == false ) {
-		if(certificatesTitle.classList.contains("active"))
-	  certificatesTitle.classList.remove("active");
-	  certificatesTitle.classList.add("reveal");
-	}
+	// if (certificatesSideNavIntersecting == false ) {
+	// 	if(certificatesTitle.classList.contains("active"))
+	//   certificatesTitle.classList.remove("active");
+	//   certificatesTitle.classList.add("reveal");
+	// }
 
   const [isVisible, setIsVisible] = useState(false);
 
@@ -101,7 +101,9 @@ return () => {
 
   return (
   <div ref={certificatesSideNav} >
-<svg width="600px" id="certSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.12 92.83">
+	<div className="certificateTitleSvgAnimate">
+		
+<svg className='certificateSvgDrawing' id="certSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.12 92.83">
 <title>Certifications</title>
 	<defs>
 		<style>
@@ -192,7 +194,7 @@ return () => {
 	</g>
 	
 </svg>
-
+</div>
 
    </div>
   )

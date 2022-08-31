@@ -2959,20 +2959,10 @@ const App = ()=>{
     }, []);
     // navbar visible starting at page 2
     if (scroll > 2) {
-        //console.log(document.getElementById("iconsNav"));
         const nav = document.getElementById("blackbox");
         nav.classList.add("active");
         nav.classList.remove("reveal");
-    // {console.log({scroll})}
     }
-    // const height = document.documentElement.clientHeight;
-    // const aboutMe = document.getElementById('aboutMe');
-    // const projectsTitle = document.getElementById('projectsTitle');
-    // const skillsTitle = document.getElementById('skillsTitle');
-    // const degreesTitle = document.getElementById('degreesTitle');
-    // const certificatesTitle = document.getElementById('certificatesTitle');
-    // const contactTitle = document.getElementById('contactTitle');
-    // console.log( document.body.height)
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.Parallax), {
             ref: parallax,
@@ -2984,275 +2974,110 @@ const App = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
                     offset: 0,
-                    factor: 10,
+                    factor: 12,
                     children: [
                         "// ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _backgroundDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 84,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, undefined),
                         "// "
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 82,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    className: "sideNavLayer",
-                    style: {
-                        width: "15vw",
-                        float: "left"
-                    },
-                    // style={props}
-                    sticky: {
-                        start: 0,
-                        end: 8
-                    },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "sideNav ",
-                        id: "iconsNav",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 96,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 95,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 89,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    // offset={0}
-                    speed: 1,
                     style: {
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
                         zindex: "1"
                     },
+                    offset: 0,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "clouds"
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 88,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 78,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    className: "sideNavLayer",
+                    style: {
+                        width: "10vw",
+                        float: "left"
+                    },
+                    sticky: {
+                        start: 0,
+                        end: 8
+                    },
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidenavDefault.default), {}, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 99,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 93,
+                    columnNumber: 10
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
+                    className: "content",
+                    speed: 0.5,
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "clouds"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 109,
+                            columnNumber: 14
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 110,
+                            columnNumber: 14
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 111,
+                            columnNumber: 14
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
+                            fileName: "src/index.jsx",
+                            lineNumber: 112,
+                            columnNumber: 14
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateTextDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
                             lineNumber: 113,
-                            columnNumber: 11
+                            columnNumber: 14
                         }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "nav-comp",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 115,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
                             lineNumber: 114,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 101,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 1,
-                    speed: 0.5,
-                    style: {
-                        width: "70vw",
-                        float: "right",
-                        position: "relative"
-                    },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "aboutComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 130,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 128,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 121,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 1.5,
-                    // style={{ top:"20vh" }}
-                    speed: 1,
-                    style: {
-                        width: "70vw",
-                        float: "right"
-                    },
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "deckComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 149,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 148,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 147,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 138,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    id: "degrees",
-                    children: "  "
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 157,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 3,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "educationComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 166,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 165,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 158,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    id: "certificates",
-                    children: "  "
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 171,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 3.5,
-                    // style={{ width: "50vw", float: "right" }}
-                    speed: 1,
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "certificationComp",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 181,
-                                columnNumber: 11
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 180,
-                            columnNumber: 10
+                            columnNumber: 14
                         }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "certificationTextComp",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateTextDefault.default), {}, void 0, false, {
-                                fileName: "src/index.jsx",
-                                lineNumber: 183,
-                                columnNumber: 10
-                            }, undefined)
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                             fileName: "src/index.jsx",
-                            lineNumber: 182,
-                            columnNumber: 11
+                            lineNumber: 115,
+                            columnNumber: 14
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/index.jsx",
-                    lineNumber: 172,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    id: "skills"
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 187,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    offset: 4.5,
-                    // style={{ width: "50vw", float: "right" }}
-                    speed: .5,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "skillsComp",
-                        id: "skillsNav",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 197,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 195,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 188,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    id: "contact",
-                    children: "  "
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 204,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _parallax.ParallaxLayer), {
-                    id: "contact",
-                    offset: 6.5,
-                    // style={{ width: "70vw", float: "right" , position: "relative"}}
-                    // style={{ width: "50vw", float: "right" }}
-                    speed: 0.1,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "contactComp",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
-                            fileName: "src/index.jsx",
-                            lineNumber: 213,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/index.jsx",
-                        lineNumber: 212,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/index.jsx",
-                    lineNumber: 205,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 79,
+            lineNumber: 68,
             columnNumber: 7
         }, undefined)
     }, void 0, false);
@@ -3265,12 +3090,12 @@ const root = (0, _client.createRoot)(rootElement);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 227,
+        lineNumber: 278,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 226,
+    lineNumber: 277,
     columnNumber: 3
 }, undefined)); // ReactDOM.render(<App />, document.getElementById("root"));
 var _c;
@@ -33417,7 +33242,7 @@ class Card extends (0, _reactDefault.default).Component {
                     transform: (0, _reactSpring.to)([
                         x,
                         y
-                    ], (x, y)=>`translate3d(${x}px,${y}px,0)`)
+                    ], (x, y)=>`translate3d(${x}px,20px,0)`)
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactSpring.animated).div, {
                     ...bind(i),
@@ -35484,274 +35309,288 @@ function Nav() {
     //   };
     // }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "orbit",
-        id: "orbit",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "center-image",
+        className: "navContainer",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "navigation",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "orbit",
+                id: "orbit",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cubeDefault.default), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "center-image",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cubeDefault.default), {}, void 0, false, {
+                                fileName: "src/components/nav/Nav.jsx",
+                                lineNumber: 41,
+                                columnNumber: 37
+                            }, this),
+                            " "
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/nav/Nav.jsx",
-                        lineNumber: 37,
-                        columnNumber: 37
+                        lineNumber: 41,
+                        columnNumber: 7
                     }, this),
-                    " "
-                ]
-            }, void 0, true, {
-                fileName: "src/components/nav/Nav.jsx",
-                lineNumber: 37,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    className: "ulNav",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "liNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
-                                    to: "#certificates",
-                                    scroll: (el)=>el.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "end"
-                                        }),
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "liNavCont",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                children: "Certificates"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "ulNav",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "liNav",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
+                                            to: "#certificates",
+                                            scroll: (el)=>el.scrollIntoView({
+                                                    behavior: "smooth",
+                                                    block: "end"
+                                                }),
+                                            children: [
+                                                " ",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "liNavCont",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                        children: "Certificates"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/nav/Nav.jsx",
+                                                        lineNumber: 49,
+                                                        columnNumber: 10
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/nav/Nav.jsx",
+                                                    lineNumber: 47,
+                                                    columnNumber: 112
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 9
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/nav/Nav.jsx",
+                                        lineNumber: 46,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/nav/Nav.jsx",
+                                    lineNumber: 45,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "liNav",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
+                                            to: "#about",
+                                            scroll: (el)=>el.scrollIntoView({
+                                                    behavior: "smooth",
+                                                    block: "end"
+                                                }),
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "liNavCont",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "About me"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/nav/Nav.jsx",
+                                                    lineNumber: 58,
+                                                    columnNumber: 11
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/nav/Nav.jsx",
-                                                lineNumber: 45,
-                                                columnNumber: 10
+                                                lineNumber: 56,
+                                                columnNumber: 13
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/nav/Nav.jsx",
-                                            lineNumber: 43,
-                                            columnNumber: 112
+                                            lineNumber: 55,
+                                            columnNumber: 11
                                         }, this)
-                                    ]
-                                }, void 0, true, {
+                                    }, void 0, false, {
+                                        fileName: "src/components/nav/Nav.jsx",
+                                        lineNumber: 54,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 43,
+                                    lineNumber: 53,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "liNav",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
+                                            to: "#projects",
+                                            scroll: (el)=>el.scrollIntoView({
+                                                    behavior: "smooth",
+                                                    block: "end"
+                                                }),
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "liNavCont",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Projects"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/nav/Nav.jsx",
+                                                    lineNumber: 69,
+                                                    columnNumber: 11
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/nav/Nav.jsx",
+                                                lineNumber: 67,
+                                                columnNumber: 11
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 66,
+                                            columnNumber: 11
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/nav/Nav.jsx",
+                                        lineNumber: 65,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/nav/Nav.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "liNav",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
+                                            to: "#contact",
+                                            scroll: (el)=>el.scrollIntoView({
+                                                    behavior: "smooth",
+                                                    block: "end"
+                                                }),
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "liNavCont",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Contact"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/nav/Nav.jsx",
+                                                    lineNumber: 79,
+                                                    columnNumber: 11
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/nav/Nav.jsx",
+                                                lineNumber: 77,
+                                                columnNumber: 11
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 76,
+                                            columnNumber: 11
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/nav/Nav.jsx",
+                                        lineNumber: 75,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/nav/Nav.jsx",
+                                    lineNumber: 74,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "liNav",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
+                                            to: "#skills",
+                                            scroll: (el)=>el.scrollIntoView({
+                                                    behavior: "smooth",
+                                                    block: "end"
+                                                }),
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "liNavCont",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Skills"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/nav/Nav.jsx",
+                                                    lineNumber: 91,
+                                                    columnNumber: 11
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/nav/Nav.jsx",
+                                                lineNumber: 89,
+                                                columnNumber: 11
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 88,
+                                            columnNumber: 11
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/nav/Nav.jsx",
+                                        lineNumber: 87,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/nav/Nav.jsx",
+                                    lineNumber: 86,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "liNav",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
+                                            to: "#degrees",
+                                            scroll: (el)=>el.scrollIntoView({
+                                                    behavior: "smooth",
+                                                    block: "end"
+                                                }),
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "liNavCont",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Degrees"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/nav/Nav.jsx",
+                                                    lineNumber: 102,
+                                                    columnNumber: 11
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/nav/Nav.jsx",
+                                                lineNumber: 100,
+                                                columnNumber: 11
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/nav/Nav.jsx",
+                                            lineNumber: 99,
+                                            columnNumber: 11
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/nav/Nav.jsx",
+                                        lineNumber: 98,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/nav/Nav.jsx",
+                                    lineNumber: 97,
                                     columnNumber: 9
                                 }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 42,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
+                            ]
+                        }, void 0, true, {
                             fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 41,
+                            lineNumber: 43,
                             columnNumber: 7
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "liNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
-                                    to: "#about",
-                                    scroll: (el)=>el.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "end"
-                                        }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "liNavCont",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "About me"
-                                        }, void 0, false, {
-                                            fileName: "src/components/nav/Nav.jsx",
-                                            lineNumber: 54,
-                                            columnNumber: 11
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 52,
-                                        columnNumber: 13
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 51,
-                                    columnNumber: 11
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 50,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 49,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "liNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
-                                    to: "#projects",
-                                    scroll: (el)=>el.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "end"
-                                        }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "liNavCont",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Projects"
-                                        }, void 0, false, {
-                                            fileName: "src/components/nav/Nav.jsx",
-                                            lineNumber: 65,
-                                            columnNumber: 11
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 63,
-                                        columnNumber: 11
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 62,
-                                    columnNumber: 11
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 61,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 60,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "liNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
-                                    to: "#contact",
-                                    scroll: (el)=>el.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "end"
-                                        }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "liNavCont",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Contact"
-                                        }, void 0, false, {
-                                            fileName: "src/components/nav/Nav.jsx",
-                                            lineNumber: 75,
-                                            columnNumber: 11
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 73,
-                                        columnNumber: 11
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 72,
-                                    columnNumber: 11
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 71,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 70,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "liNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
-                                    to: "#skills",
-                                    scroll: (el)=>el.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "end"
-                                        }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "liNavCont",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Skills"
-                                        }, void 0, false, {
-                                            fileName: "src/components/nav/Nav.jsx",
-                                            lineNumber: 87,
-                                            columnNumber: 11
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 85,
-                                        columnNumber: 11
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 84,
-                                    columnNumber: 11
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 83,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 82,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "liNav",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterHashLink.HashLink), {
-                                    to: "#degrees",
-                                    scroll: (el)=>el.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "end"
-                                        }),
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "liNavCont",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Degrees"
-                                        }, void 0, false, {
-                                            fileName: "src/components/nav/Nav.jsx",
-                                            lineNumber: 98,
-                                            columnNumber: 11
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/nav/Nav.jsx",
-                                        lineNumber: 96,
-                                        columnNumber: 11
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/nav/Nav.jsx",
-                                    lineNumber: 95,
-                                    columnNumber: 11
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/nav/Nav.jsx",
-                                lineNumber: 94,
-                                columnNumber: 9
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/nav/Nav.jsx",
-                            lineNumber: 93,
-                            columnNumber: 9
                         }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/nav/Nav.jsx",
-                    lineNumber: 39,
-                    columnNumber: 7
-                }, this)
-            }, void 0, false, {
+                    }, void 0, false, {
+                        fileName: "src/components/nav/Nav.jsx",
+                        lineNumber: 42,
+                        columnNumber: 6
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/nav/Nav.jsx",
-                lineNumber: 38,
-                columnNumber: 6
+                lineNumber: 40,
+                columnNumber: 5
             }, this)
-        ]
-    }, void 0, true, {
+        }, void 0, false, {
+            fileName: "src/components/nav/Nav.jsx",
+            lineNumber: 39,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "src/components/nav/Nav.jsx",
-        lineNumber: 36,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }
@@ -63155,6 +62994,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
 var _reactRouterDom = require("react-router-dom");
 var _styleScss = require("../../sass/style.scss");
 var _nav = require("../nav/Nav");
@@ -63177,53 +63017,83 @@ function About() {
         observer.observe(aboutSideNav.current);
         return ()=>{};
     }, []);
-    if (aboutSideNavIntersecting == true) {
-        aboutMe.classList.add("active");
-        aboutMe.classList.remove("reveal");
-        console.log("aboutSideNav", aboutSideNav.current);
-    }
-    if (aboutSideNavIntersecting == false) {
-        if (aboutMe.classList.contains("active")) {
-            aboutMe.classList.remove("active");
-            aboutMe.classList.add("reveal");
-        }
-    }
+    // if(aboutSideNavIntersecting == true){
+    //   aboutMe.classList.add("active");
+    //   aboutMe.classList.remove("reveal");
+    //   console.log('aboutSideNav', aboutSideNav.current);
+    // }
+    // if (aboutSideNavIntersecting == false ) {
+    //   if(aboutMe.classList.contains("active")){
+    //   aboutMe.classList.remove("active");
+    //   aboutMe.classList.add("reveal");
+    //   }
+    // }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         ref: aboutSideNav,
         className: "about",
-        id: "about",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                id: "about"
-            }, void 0, false, {
-                fileName: "src/components/about/About.jsx",
-                lineNumber: 58,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Hello, my name is Stephanie Schlachter and I live in Germany. I am a full-stack developer in search for new and exiting opportunities."
-            }, void 0, false, {
-                fileName: "src/components/about/About.jsx",
-                lineNumber: 59,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "src/components/about/About.jsx",
-                lineNumber: 60,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Welcome to my page"
-            }, void 0, false, {
-                fileName: "src/components/about/About.jsx",
-                lineNumber: 61,
-                columnNumber: 9
-            }, this)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "aboutContainer",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "image",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://via.placeholder.com/500",
+                        alt: ""
+                    }, void 0, false, {
+                        fileName: "src/components/about/About.jsx",
+                        lineNumber: 56,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/about/About.jsx",
+                    lineNumber: 55,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "aboutBox",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            id: "about"
+                        }, void 0, false, {
+                            fileName: "src/components/about/About.jsx",
+                            lineNumber: 61,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Hello, my name is Stephanie Schlachter and I live in Germany. I am a full-stack developer in search for new and exiting opportunities."
+                        }, void 0, false, {
+                            fileName: "src/components/about/About.jsx",
+                            lineNumber: 62,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/components/about/About.jsx",
+                            lineNumber: 63,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Welcome to my page"
+                        }, void 0, false, {
+                            fileName: "src/components/about/About.jsx",
+                            lineNumber: 64,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/about/About.jsx",
+                    lineNumber: 60,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/about/About.jsx",
+            lineNumber: 52,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
         fileName: "src/components/about/About.jsx",
         lineNumber: 51,
-        columnNumber: 5
+        columnNumber: 3
     }, this);
 }
 exports.default = About;
@@ -63237,7 +63107,1338 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../../sass/style.scss":"fpeeO","../nav/Nav":"4znZA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"fpeeO":[function() {},{}],"gIcUF":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","../../sass/style.scss":"fpeeO","../nav/Nav":"4znZA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3AD9A":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Accordion", ()=>(0, _accordionDefault.default));
+parcelHelpers.export(exports, "AccordionContext", ()=>(0, _accordionContextDefault.default));
+parcelHelpers.export(exports, "AccordionCollapse", ()=>(0, _accordionCollapseDefault.default));
+parcelHelpers.export(exports, "AccordionButton", ()=>(0, _accordionButtonDefault.default));
+parcelHelpers.export(exports, "useAccordionButton", ()=>(0, _accordionButton.useAccordionButton));
+parcelHelpers.export(exports, "Alert", ()=>(0, _alertDefault.default));
+parcelHelpers.export(exports, "Anchor", ()=>(0, _anchorDefault.default));
+parcelHelpers.export(exports, "Badge", ()=>(0, _badgeDefault.default));
+parcelHelpers.export(exports, "Breadcrumb", ()=>(0, _breadcrumbDefault.default));
+parcelHelpers.export(exports, "BreadcrumbItem", ()=>(0, _breadcrumbItemDefault.default));
+parcelHelpers.export(exports, "Button", ()=>(0, _buttonDefault.default));
+parcelHelpers.export(exports, "ButtonGroup", ()=>(0, _buttonGroupDefault.default));
+parcelHelpers.export(exports, "ButtonToolbar", ()=>(0, _buttonToolbarDefault.default));
+parcelHelpers.export(exports, "Card", ()=>(0, _cardDefault.default));
+parcelHelpers.export(exports, "CardImg", ()=>(0, _cardImgDefault.default));
+parcelHelpers.export(exports, "CardGroup", ()=>(0, _cardGroupDefault.default));
+parcelHelpers.export(exports, "Carousel", ()=>(0, _carouselDefault.default));
+parcelHelpers.export(exports, "CarouselItem", ()=>(0, _carouselItemDefault.default));
+parcelHelpers.export(exports, "CloseButton", ()=>(0, _closeButtonDefault.default));
+parcelHelpers.export(exports, "Col", ()=>(0, _colDefault.default));
+parcelHelpers.export(exports, "Collapse", ()=>(0, _collapseDefault.default));
+parcelHelpers.export(exports, "Dropdown", ()=>(0, _dropdownDefault.default));
+parcelHelpers.export(exports, "DropdownButton", ()=>(0, _dropdownButtonDefault.default));
+parcelHelpers.export(exports, "Fade", ()=>(0, _fadeDefault.default));
+parcelHelpers.export(exports, "Form", ()=>(0, _formDefault.default));
+parcelHelpers.export(exports, "FormControl", ()=>(0, _formControlDefault.default));
+parcelHelpers.export(exports, "FormCheck", ()=>(0, _formCheckDefault.default));
+parcelHelpers.export(exports, "FormFloating", ()=>(0, _formFloatingDefault.default));
+parcelHelpers.export(exports, "FloatingLabel", ()=>(0, _floatingLabelDefault.default));
+parcelHelpers.export(exports, "FormGroup", ()=>(0, _formGroupDefault.default));
+parcelHelpers.export(exports, "FormLabel", ()=>(0, _formLabelDefault.default));
+parcelHelpers.export(exports, "FormText", ()=>(0, _formTextDefault.default));
+parcelHelpers.export(exports, "FormSelect", ()=>(0, _formSelectDefault.default));
+parcelHelpers.export(exports, "Container", ()=>(0, _containerDefault.default));
+parcelHelpers.export(exports, "Image", ()=>(0, _imageDefault.default));
+parcelHelpers.export(exports, "Figure", ()=>(0, _figureDefault.default));
+parcelHelpers.export(exports, "InputGroup", ()=>(0, _inputGroupDefault.default));
+parcelHelpers.export(exports, "ListGroup", ()=>(0, _listGroupDefault.default));
+parcelHelpers.export(exports, "ListGroupItem", ()=>(0, _listGroupItemDefault.default));
+parcelHelpers.export(exports, "Modal", ()=>(0, _modalDefault.default));
+parcelHelpers.export(exports, "ModalBody", ()=>(0, _modalBodyDefault.default));
+parcelHelpers.export(exports, "ModalDialog", ()=>(0, _modalDialogDefault.default));
+parcelHelpers.export(exports, "ModalHeader", ()=>(0, _modalHeaderDefault.default));
+parcelHelpers.export(exports, "ModalFooter", ()=>(0, _modalFooterDefault.default));
+parcelHelpers.export(exports, "ModalTitle", ()=>(0, _modalTitleDefault.default));
+parcelHelpers.export(exports, "Nav", ()=>(0, _navDefault.default));
+parcelHelpers.export(exports, "Navbar", ()=>(0, _navbarDefault.default));
+parcelHelpers.export(exports, "NavbarBrand", ()=>(0, _navbarBrandDefault.default));
+parcelHelpers.export(exports, "NavDropdown", ()=>(0, _navDropdownDefault.default));
+parcelHelpers.export(exports, "NavItem", ()=>(0, _navItemDefault.default));
+parcelHelpers.export(exports, "NavLink", ()=>(0, _navLinkDefault.default));
+parcelHelpers.export(exports, "Offcanvas", ()=>(0, _offcanvasDefault.default));
+parcelHelpers.export(exports, "OffcanvasHeader", ()=>(0, _offcanvasHeaderDefault.default));
+parcelHelpers.export(exports, "OffcanvasTitle", ()=>(0, _offcanvasTitleDefault.default));
+parcelHelpers.export(exports, "OffcanvasBody", ()=>(0, _offcanvasBodyDefault.default));
+parcelHelpers.export(exports, "Overlay", ()=>(0, _overlayDefault.default));
+parcelHelpers.export(exports, "OverlayTrigger", ()=>(0, _overlayTriggerDefault.default));
+parcelHelpers.export(exports, "PageItem", ()=>(0, _pageItemDefault.default));
+parcelHelpers.export(exports, "Pagination", ()=>(0, _paginationDefault.default));
+parcelHelpers.export(exports, "Placeholder", ()=>(0, _placeholderDefault.default));
+parcelHelpers.export(exports, "PlaceholderButton", ()=>(0, _placeholderButtonDefault.default));
+parcelHelpers.export(exports, "Popover", ()=>(0, _popoverDefault.default));
+parcelHelpers.export(exports, "PopoverHeader", ()=>(0, _popoverHeaderDefault.default));
+parcelHelpers.export(exports, "PopoverBody", ()=>(0, _popoverBodyDefault.default));
+parcelHelpers.export(exports, "ProgressBar", ()=>(0, _progressBarDefault.default));
+parcelHelpers.export(exports, "Ratio", ()=>(0, _ratioDefault.default));
+parcelHelpers.export(exports, "Row", ()=>(0, _rowDefault.default));
+parcelHelpers.export(exports, "Spinner", ()=>(0, _spinnerDefault.default));
+parcelHelpers.export(exports, "SplitButton", ()=>(0, _splitButtonDefault.default));
+parcelHelpers.export(exports, "SSRProvider", ()=>(0, _ssrproviderDefault.default));
+parcelHelpers.export(exports, "Stack", ()=>(0, _stackDefault.default));
+parcelHelpers.export(exports, "Tab", ()=>(0, _tabDefault.default));
+parcelHelpers.export(exports, "TabContainer", ()=>(0, _tabContainerDefault.default));
+parcelHelpers.export(exports, "TabContent", ()=>(0, _tabContentDefault.default));
+parcelHelpers.export(exports, "Table", ()=>(0, _tableDefault.default));
+parcelHelpers.export(exports, "TabPane", ()=>(0, _tabPaneDefault.default));
+parcelHelpers.export(exports, "Tabs", ()=>(0, _tabsDefault.default));
+parcelHelpers.export(exports, "ThemeProvider", ()=>(0, _themeProviderDefault.default));
+parcelHelpers.export(exports, "Toast", ()=>(0, _toastDefault.default));
+parcelHelpers.export(exports, "ToastBody", ()=>(0, _toastBodyDefault.default));
+parcelHelpers.export(exports, "ToastHeader", ()=>(0, _toastHeaderDefault.default));
+parcelHelpers.export(exports, "ToastContainer", ()=>(0, _toastContainerDefault.default));
+parcelHelpers.export(exports, "ToggleButton", ()=>(0, _toggleButtonDefault.default));
+parcelHelpers.export(exports, "ToggleButtonGroup", ()=>(0, _toggleButtonGroupDefault.default));
+parcelHelpers.export(exports, "Tooltip", ()=>(0, _tooltipDefault.default));
+var _accordion = require("./Accordion");
+var _accordionDefault = parcelHelpers.interopDefault(_accordion);
+var _accordionContext = require("./AccordionContext");
+var _accordionContextDefault = parcelHelpers.interopDefault(_accordionContext);
+var _accordionCollapse = require("./AccordionCollapse");
+var _accordionCollapseDefault = parcelHelpers.interopDefault(_accordionCollapse);
+var _accordionButton = require("./AccordionButton");
+var _accordionButtonDefault = parcelHelpers.interopDefault(_accordionButton);
+var _alert = require("./Alert");
+var _alertDefault = parcelHelpers.interopDefault(_alert);
+var _anchor = require("./Anchor");
+var _anchorDefault = parcelHelpers.interopDefault(_anchor);
+var _badge = require("./Badge");
+var _badgeDefault = parcelHelpers.interopDefault(_badge);
+var _breadcrumb = require("./Breadcrumb");
+var _breadcrumbDefault = parcelHelpers.interopDefault(_breadcrumb);
+var _breadcrumbItem = require("./BreadcrumbItem");
+var _breadcrumbItemDefault = parcelHelpers.interopDefault(_breadcrumbItem);
+var _button = require("./Button");
+var _buttonDefault = parcelHelpers.interopDefault(_button);
+var _buttonGroup = require("./ButtonGroup");
+var _buttonGroupDefault = parcelHelpers.interopDefault(_buttonGroup);
+var _buttonToolbar = require("./ButtonToolbar");
+var _buttonToolbarDefault = parcelHelpers.interopDefault(_buttonToolbar);
+var _card = require("./Card");
+var _cardDefault = parcelHelpers.interopDefault(_card);
+var _cardImg = require("./CardImg");
+var _cardImgDefault = parcelHelpers.interopDefault(_cardImg);
+var _cardGroup = require("./CardGroup");
+var _cardGroupDefault = parcelHelpers.interopDefault(_cardGroup);
+var _carousel = require("./Carousel");
+var _carouselDefault = parcelHelpers.interopDefault(_carousel);
+var _carouselItem = require("./CarouselItem");
+var _carouselItemDefault = parcelHelpers.interopDefault(_carouselItem);
+var _closeButton = require("./CloseButton");
+var _closeButtonDefault = parcelHelpers.interopDefault(_closeButton);
+var _col = require("./Col");
+var _colDefault = parcelHelpers.interopDefault(_col);
+var _collapse = require("./Collapse");
+var _collapseDefault = parcelHelpers.interopDefault(_collapse);
+var _dropdown = require("./Dropdown");
+var _dropdownDefault = parcelHelpers.interopDefault(_dropdown);
+var _dropdownButton = require("./DropdownButton");
+var _dropdownButtonDefault = parcelHelpers.interopDefault(_dropdownButton);
+var _fade = require("./Fade");
+var _fadeDefault = parcelHelpers.interopDefault(_fade);
+var _form = require("./Form");
+var _formDefault = parcelHelpers.interopDefault(_form);
+var _formControl = require("./FormControl");
+var _formControlDefault = parcelHelpers.interopDefault(_formControl);
+var _formCheck = require("./FormCheck");
+var _formCheckDefault = parcelHelpers.interopDefault(_formCheck);
+var _formFloating = require("./FormFloating");
+var _formFloatingDefault = parcelHelpers.interopDefault(_formFloating);
+var _floatingLabel = require("./FloatingLabel");
+var _floatingLabelDefault = parcelHelpers.interopDefault(_floatingLabel);
+var _formGroup = require("./FormGroup");
+var _formGroupDefault = parcelHelpers.interopDefault(_formGroup);
+var _formLabel = require("./FormLabel");
+var _formLabelDefault = parcelHelpers.interopDefault(_formLabel);
+var _formText = require("./FormText");
+var _formTextDefault = parcelHelpers.interopDefault(_formText);
+var _formSelect = require("./FormSelect");
+var _formSelectDefault = parcelHelpers.interopDefault(_formSelect);
+var _container = require("./Container");
+var _containerDefault = parcelHelpers.interopDefault(_container);
+var _image = require("./Image");
+var _imageDefault = parcelHelpers.interopDefault(_image);
+var _figure = require("./Figure");
+var _figureDefault = parcelHelpers.interopDefault(_figure);
+var _inputGroup = require("./InputGroup");
+var _inputGroupDefault = parcelHelpers.interopDefault(_inputGroup);
+var _listGroup = require("./ListGroup");
+var _listGroupDefault = parcelHelpers.interopDefault(_listGroup);
+var _listGroupItem = require("./ListGroupItem");
+var _listGroupItemDefault = parcelHelpers.interopDefault(_listGroupItem);
+var _modal = require("./Modal");
+var _modalDefault = parcelHelpers.interopDefault(_modal);
+var _modalBody = require("./ModalBody");
+var _modalBodyDefault = parcelHelpers.interopDefault(_modalBody);
+var _modalDialog = require("./ModalDialog");
+var _modalDialogDefault = parcelHelpers.interopDefault(_modalDialog);
+var _modalHeader = require("./ModalHeader");
+var _modalHeaderDefault = parcelHelpers.interopDefault(_modalHeader);
+var _modalFooter = require("./ModalFooter");
+var _modalFooterDefault = parcelHelpers.interopDefault(_modalFooter);
+var _modalTitle = require("./ModalTitle");
+var _modalTitleDefault = parcelHelpers.interopDefault(_modalTitle);
+var _nav = require("./Nav");
+var _navDefault = parcelHelpers.interopDefault(_nav);
+var _navbar = require("./Navbar");
+var _navbarDefault = parcelHelpers.interopDefault(_navbar);
+var _navbarBrand = require("./NavbarBrand");
+var _navbarBrandDefault = parcelHelpers.interopDefault(_navbarBrand);
+var _navDropdown = require("./NavDropdown");
+var _navDropdownDefault = parcelHelpers.interopDefault(_navDropdown);
+var _navItem = require("./NavItem");
+var _navItemDefault = parcelHelpers.interopDefault(_navItem);
+var _navLink = require("./NavLink");
+var _navLinkDefault = parcelHelpers.interopDefault(_navLink);
+var _offcanvas = require("./Offcanvas");
+var _offcanvasDefault = parcelHelpers.interopDefault(_offcanvas);
+var _offcanvasHeader = require("./OffcanvasHeader");
+var _offcanvasHeaderDefault = parcelHelpers.interopDefault(_offcanvasHeader);
+var _offcanvasTitle = require("./OffcanvasTitle");
+var _offcanvasTitleDefault = parcelHelpers.interopDefault(_offcanvasTitle);
+var _offcanvasBody = require("./OffcanvasBody");
+var _offcanvasBodyDefault = parcelHelpers.interopDefault(_offcanvasBody);
+var _overlay = require("./Overlay");
+var _overlayDefault = parcelHelpers.interopDefault(_overlay);
+var _overlayTrigger = require("./OverlayTrigger");
+var _overlayTriggerDefault = parcelHelpers.interopDefault(_overlayTrigger);
+var _pageItem = require("./PageItem");
+var _pageItemDefault = parcelHelpers.interopDefault(_pageItem);
+var _pagination = require("./Pagination");
+var _paginationDefault = parcelHelpers.interopDefault(_pagination);
+var _placeholder = require("./Placeholder");
+var _placeholderDefault = parcelHelpers.interopDefault(_placeholder);
+var _placeholderButton = require("./PlaceholderButton");
+var _placeholderButtonDefault = parcelHelpers.interopDefault(_placeholderButton);
+var _popover = require("./Popover");
+var _popoverDefault = parcelHelpers.interopDefault(_popover);
+var _popoverHeader = require("./PopoverHeader");
+var _popoverHeaderDefault = parcelHelpers.interopDefault(_popoverHeader);
+var _popoverBody = require("./PopoverBody");
+var _popoverBodyDefault = parcelHelpers.interopDefault(_popoverBody);
+var _progressBar = require("./ProgressBar");
+var _progressBarDefault = parcelHelpers.interopDefault(_progressBar);
+var _ratio = require("./Ratio");
+var _ratioDefault = parcelHelpers.interopDefault(_ratio);
+var _row = require("./Row");
+var _rowDefault = parcelHelpers.interopDefault(_row);
+var _spinner = require("./Spinner");
+var _spinnerDefault = parcelHelpers.interopDefault(_spinner);
+var _splitButton = require("./SplitButton");
+var _splitButtonDefault = parcelHelpers.interopDefault(_splitButton);
+var _ssrprovider = require("./SSRProvider");
+var _ssrproviderDefault = parcelHelpers.interopDefault(_ssrprovider);
+var _stack = require("./Stack");
+var _stackDefault = parcelHelpers.interopDefault(_stack);
+var _tab = require("./Tab");
+var _tabDefault = parcelHelpers.interopDefault(_tab);
+var _tabContainer = require("./TabContainer");
+var _tabContainerDefault = parcelHelpers.interopDefault(_tabContainer);
+var _tabContent = require("./TabContent");
+var _tabContentDefault = parcelHelpers.interopDefault(_tabContent);
+var _table = require("./Table");
+var _tableDefault = parcelHelpers.interopDefault(_table);
+var _tabPane = require("./TabPane");
+var _tabPaneDefault = parcelHelpers.interopDefault(_tabPane);
+var _tabs = require("./Tabs");
+var _tabsDefault = parcelHelpers.interopDefault(_tabs);
+var _themeProvider = require("./ThemeProvider");
+var _themeProviderDefault = parcelHelpers.interopDefault(_themeProvider);
+var _toast = require("./Toast");
+var _toastDefault = parcelHelpers.interopDefault(_toast);
+var _toastBody = require("./ToastBody");
+var _toastBodyDefault = parcelHelpers.interopDefault(_toastBody);
+var _toastHeader = require("./ToastHeader");
+var _toastHeaderDefault = parcelHelpers.interopDefault(_toastHeader);
+var _toastContainer = require("./ToastContainer");
+var _toastContainerDefault = parcelHelpers.interopDefault(_toastContainer);
+var _toggleButton = require("./ToggleButton");
+var _toggleButtonDefault = parcelHelpers.interopDefault(_toggleButton);
+var _toggleButtonGroup = require("./ToggleButtonGroup");
+var _toggleButtonGroupDefault = parcelHelpers.interopDefault(_toggleButtonGroup);
+var _tooltip = require("./Tooltip");
+var _tooltipDefault = parcelHelpers.interopDefault(_tooltip);
+
+},{"./Accordion":false,"./AccordionContext":false,"./AccordionCollapse":false,"./AccordionButton":false,"./Alert":false,"./Anchor":false,"./Badge":false,"./Breadcrumb":false,"./BreadcrumbItem":false,"./Button":false,"./ButtonGroup":false,"./ButtonToolbar":false,"./Card":false,"./CardImg":false,"./CardGroup":false,"./Carousel":false,"./CarouselItem":false,"./CloseButton":false,"./Col":"2L2I6","./Collapse":false,"./Dropdown":false,"./DropdownButton":false,"./Fade":false,"./Form":false,"./FormControl":false,"./FormCheck":false,"./FormFloating":false,"./FloatingLabel":false,"./FormGroup":false,"./FormLabel":false,"./FormText":false,"./FormSelect":false,"./Container":"hEdsw","./Image":false,"./Figure":false,"./InputGroup":false,"./ListGroup":false,"./ListGroupItem":false,"./Modal":false,"./ModalBody":false,"./ModalDialog":false,"./ModalHeader":false,"./ModalFooter":false,"./ModalTitle":false,"./Nav":false,"./Navbar":false,"./NavbarBrand":false,"./NavDropdown":false,"./NavItem":false,"./NavLink":false,"./Offcanvas":false,"./OffcanvasHeader":false,"./OffcanvasTitle":false,"./OffcanvasBody":false,"./Overlay":false,"./OverlayTrigger":false,"./PageItem":false,"./Pagination":false,"./Placeholder":false,"./PlaceholderButton":false,"./Popover":false,"./PopoverHeader":false,"./PopoverBody":false,"./ProgressBar":false,"./Ratio":false,"./Row":"cMC39","./Spinner":false,"./SplitButton":false,"./SSRProvider":false,"./Stack":false,"./Tab":false,"./TabContainer":false,"./TabContent":false,"./Table":false,"./TabPane":false,"./Tabs":false,"./ThemeProvider":"dVixI","./Toast":false,"./ToastBody":false,"./ToastHeader":false,"./ToastContainer":false,"./ToggleButton":false,"./ToggleButtonGroup":false,"./Tooltip":false,"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2L2I6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "useCol", ()=>useCol);
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _react = require("react");
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function useCol({ as , bsPrefix , className , ...props }) {
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "col");
+    const breakpoints = (0, _themeProvider.useBootstrapBreakpoints)();
+    const minBreakpoint = (0, _themeProvider.useBootstrapMinBreakpoint)();
+    const spans = [];
+    const classes = [];
+    breakpoints.forEach((brkPoint)=>{
+        const propValue = props[brkPoint];
+        delete props[brkPoint];
+        let span;
+        let offset;
+        let order;
+        if (typeof propValue === "object" && propValue != null) ({ span , offset , order  } = propValue);
+        else span = propValue;
+        const infix = brkPoint !== minBreakpoint ? `-${brkPoint}` : "";
+        if (span) spans.push(span === true ? `${bsPrefix}${infix}` : `${bsPrefix}${infix}-${span}`);
+        if (order != null) classes.push(`order${infix}-${order}`);
+        if (offset != null) classes.push(`offset${infix}-${offset}`);
+    });
+    return [
+        {
+            ...props,
+            className: (0, _classnamesDefault.default)(className, ...spans, ...classes)
+        },
+        {
+            as,
+            bsPrefix,
+            spans
+        }
+    ];
+}
+const Col = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+    const [{ className , ...colProps }, { as: Component = "div" , bsPrefix , spans  }] = useCol(props);
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ...colProps,
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, !spans.length && bsPrefix)
+    });
+});
+Col.displayName = "Col";
+exports.default = Col;
+
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jocGM":[function(require,module,exports) {
+/*!
+  Copyright (c) 2018 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/ /* global define */ (function() {
+    "use strict";
+    var hasOwn = {}.hasOwnProperty;
+    function classNames() {
+        var classes = [];
+        for(var i = 0; i < arguments.length; i++){
+            var arg = arguments[i];
+            if (!arg) continue;
+            var argType = typeof arg;
+            if (argType === "string" || argType === "number") classes.push(arg);
+            else if (Array.isArray(arg)) {
+                if (arg.length) {
+                    var inner = classNames.apply(null, arg);
+                    if (inner) classes.push(inner);
+                }
+            } else if (argType === "object") {
+                if (arg.toString === Object.prototype.toString) {
+                    for(var key in arg)if (hasOwn.call(arg, key) && arg[key]) classes.push(key);
+                } else classes.push(arg.toString());
+            }
+        }
+        return classes.join(" ");
+    }
+    if (module.exports) {
+        classNames.default = classNames;
+        module.exports = classNames;
+    } else if (typeof define === "function" && typeof define.amd === "object" && define.amd) // register as 'classnames', consistent with npm package name
+    define("classnames", [], function() {
+        return classNames;
+    });
+    else window.classNames = classNames;
+})();
+
+},{}],"dVixI":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DEFAULT_BREAKPOINTS", ()=>DEFAULT_BREAKPOINTS);
+parcelHelpers.export(exports, "DEFAULT_MIN_BREAKPOINT", ()=>DEFAULT_MIN_BREAKPOINT);
+parcelHelpers.export(exports, "useBootstrapPrefix", ()=>useBootstrapPrefix);
+parcelHelpers.export(exports, "useBootstrapBreakpoints", ()=>useBootstrapBreakpoints);
+parcelHelpers.export(exports, "useBootstrapMinBreakpoint", ()=>useBootstrapMinBreakpoint);
+parcelHelpers.export(exports, "useIsRTL", ()=>useIsRTL);
+parcelHelpers.export(exports, "createBootstrapComponent", ()=>createBootstrapComponent);
+parcelHelpers.export(exports, "ThemeConsumer", ()=>Consumer);
+var _react = require("react");
+var _jsxRuntime = require("react/jsx-runtime");
+const DEFAULT_BREAKPOINTS = [
+    "xxl",
+    "xl",
+    "lg",
+    "md",
+    "sm",
+    "xs"
+];
+const DEFAULT_MIN_BREAKPOINT = "xs";
+const ThemeContext = /*#__PURE__*/ _react.createContext({
+    prefixes: {},
+    breakpoints: DEFAULT_BREAKPOINTS,
+    minBreakpoint: DEFAULT_MIN_BREAKPOINT
+});
+const { Consumer , Provider  } = ThemeContext;
+function ThemeProvider({ prefixes ={} , breakpoints =DEFAULT_BREAKPOINTS , minBreakpoint =DEFAULT_MIN_BREAKPOINT , dir , children  }) {
+    const contextValue = (0, _react.useMemo)(()=>({
+            prefixes: {
+                ...prefixes
+            },
+            breakpoints,
+            minBreakpoint,
+            dir
+        }), [
+        prefixes,
+        breakpoints,
+        minBreakpoint,
+        dir
+    ]);
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Provider, {
+        value: contextValue,
+        children: children
+    });
+}
+function useBootstrapPrefix(prefix, defaultPrefix) {
+    const { prefixes  } = (0, _react.useContext)(ThemeContext);
+    return prefix || prefixes[defaultPrefix] || defaultPrefix;
+}
+function useBootstrapBreakpoints() {
+    const { breakpoints  } = (0, _react.useContext)(ThemeContext);
+    return breakpoints;
+}
+function useBootstrapMinBreakpoint() {
+    const { minBreakpoint  } = (0, _react.useContext)(ThemeContext);
+    return minBreakpoint;
+}
+function useIsRTL() {
+    const { dir  } = (0, _react.useContext)(ThemeContext);
+    return dir === "rtl";
+}
+function createBootstrapComponent(Component, opts) {
+    if (typeof opts === "string") opts = {
+        prefix: opts
+    };
+    const isClassy = Component.prototype && Component.prototype.isReactComponent; // If it's a functional component make sure we don't break it with a ref
+    const { prefix , forwardRefAs =isClassy ? "ref" : "innerRef"  } = opts;
+    const Wrapped = /*#__PURE__*/ _react.forwardRef(({ ...props }, ref)=>{
+        props[forwardRefAs] = ref;
+        const bsPrefix = useBootstrapPrefix(props.bsPrefix, prefix);
+        return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+            ...props,
+            bsPrefix: bsPrefix
+        });
+    });
+    Wrapped.displayName = `Bootstrap(${Component.displayName || Component.name})`;
+    return Wrapped;
+}
+exports.default = ThemeProvider;
+
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
+"use strict";
+module.exports = require("./cjs/react-jsx-runtime.development.js");
+
+},{"./cjs/react-jsx-runtime.development.js":"kujY4"}],"kujY4":[function(require,module,exports) {
+/**
+ * @license React
+ * react-jsx-runtime.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+(function() {
+    "use strict";
+    var React = require("react");
+    // ATTENTION
+    // When adding new symbols to this file,
+    // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
+    // The Symbol used to tag the ReactElement-like types.
+    var REACT_ELEMENT_TYPE = Symbol.for("react.element");
+    var REACT_PORTAL_TYPE = Symbol.for("react.portal");
+    var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+    var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
+    var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+    var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
+    var REACT_CONTEXT_TYPE = Symbol.for("react.context");
+    var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
+    var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
+    var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
+    var REACT_MEMO_TYPE = Symbol.for("react.memo");
+    var REACT_LAZY_TYPE = Symbol.for("react.lazy");
+    var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
+    var MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
+    var FAUX_ITERATOR_SYMBOL = "@@iterator";
+    function getIteratorFn(maybeIterable) {
+        if (maybeIterable === null || typeof maybeIterable !== "object") return null;
+        var maybeIterator = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL];
+        if (typeof maybeIterator === "function") return maybeIterator;
+        return null;
+    }
+    var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+    function error(format) {
+        for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
+        printWarning("error", format, args);
+    }
+    function printWarning(level, format, args) {
+        var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+        var stack = ReactDebugCurrentFrame.getStackAddendum();
+        if (stack !== "") {
+            format += "%s";
+            args = args.concat([
+                stack
+            ]);
+        } // eslint-disable-next-line react-internal/safe-string-coercion
+        var argsWithFormat = args.map(function(item) {
+            return String(item);
+        }); // Careful: RN currently depends on this prefix
+        argsWithFormat.unshift("Warning: " + format); // We intentionally don't use spread (or .apply) directly because it
+        // breaks IE9: https://github.com/facebook/react/issues/13610
+        // eslint-disable-next-line react-internal/no-production-logging
+        Function.prototype.apply.call(console[level], console, argsWithFormat);
+    }
+    // -----------------------------------------------------------------------------
+    var enableScopeAPI = false; // Experimental Create Event Handle API.
+    var enableCacheElement = false;
+    var enableTransitionTracing = false; // No known bugs, but needs performance testing
+    var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
+    // stuff. Intended to enable React core members to more easily debug scheduling
+    // issues in DEV builds.
+    var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
+    var REACT_MODULE_REFERENCE;
+    REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
+    function isValidElementType(type) {
+        if (typeof type === "string" || typeof type === "function") return true;
+         // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
+        if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) return true;
+        if (typeof type === "object" && type !== null) {
+            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // types supported by any Flight configuration anywhere since
+            // we don't know which Flight build this will end up being used
+            // with.
+            type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== undefined) return true;
+        }
+        return false;
+    }
+    function getWrappedName(outerType, innerType, wrapperName) {
+        var displayName = outerType.displayName;
+        if (displayName) return displayName;
+        var functionName = innerType.displayName || innerType.name || "";
+        return functionName !== "" ? wrapperName + "(" + functionName + ")" : wrapperName;
+    } // Keep in sync with react-reconciler/getComponentNameFromFiber
+    function getContextName(type) {
+        return type.displayName || "Context";
+    } // Note that the reconciler package should generally prefer to use getComponentNameFromFiber() instead.
+    function getComponentNameFromType(type) {
+        if (type == null) // Host root, text node or just invalid type.
+        return null;
+        if (typeof type.tag === "number") error("Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.");
+        if (typeof type === "function") return type.displayName || type.name || null;
+        if (typeof type === "string") return type;
+        switch(type){
+            case REACT_FRAGMENT_TYPE:
+                return "Fragment";
+            case REACT_PORTAL_TYPE:
+                return "Portal";
+            case REACT_PROFILER_TYPE:
+                return "Profiler";
+            case REACT_STRICT_MODE_TYPE:
+                return "StrictMode";
+            case REACT_SUSPENSE_TYPE:
+                return "Suspense";
+            case REACT_SUSPENSE_LIST_TYPE:
+                return "SuspenseList";
+        }
+        if (typeof type === "object") switch(type.$$typeof){
+            case REACT_CONTEXT_TYPE:
+                var context = type;
+                return getContextName(context) + ".Consumer";
+            case REACT_PROVIDER_TYPE:
+                var provider = type;
+                return getContextName(provider._context) + ".Provider";
+            case REACT_FORWARD_REF_TYPE:
+                return getWrappedName(type, type.render, "ForwardRef");
+            case REACT_MEMO_TYPE:
+                var outerName = type.displayName || null;
+                if (outerName !== null) return outerName;
+                return getComponentNameFromType(type.type) || "Memo";
+            case REACT_LAZY_TYPE:
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init = lazyComponent._init;
+                try {
+                    return getComponentNameFromType(init(payload));
+                } catch (x) {
+                    return null;
+                }
+        }
+        return null;
+    }
+    var assign = Object.assign;
+    // Helpers to patch console.logs to avoid logging during side-effect free
+    // replaying on render function. This currently only patches the object
+    // lazily which won't cover if the log function was extracted eagerly.
+    // We could also eagerly patch the method.
+    var disabledDepth = 0;
+    var prevLog;
+    var prevInfo;
+    var prevWarn;
+    var prevError;
+    var prevGroup;
+    var prevGroupCollapsed;
+    var prevGroupEnd;
+    function disabledLog() {}
+    disabledLog.__reactDisabledLog = true;
+    function disableLogs() {
+        if (disabledDepth === 0) {
+            /* eslint-disable react-internal/no-production-logging */ prevLog = console.log;
+            prevInfo = console.info;
+            prevWarn = console.warn;
+            prevError = console.error;
+            prevGroup = console.group;
+            prevGroupCollapsed = console.groupCollapsed;
+            prevGroupEnd = console.groupEnd; // https://github.com/facebook/react/issues/19099
+            var props = {
+                configurable: true,
+                enumerable: true,
+                value: disabledLog,
+                writable: true
+            }; // $FlowFixMe Flow thinks console is immutable.
+            Object.defineProperties(console, {
+                info: props,
+                log: props,
+                warn: props,
+                error: props,
+                group: props,
+                groupCollapsed: props,
+                groupEnd: props
+            });
+        /* eslint-enable react-internal/no-production-logging */ }
+        disabledDepth++;
+    }
+    function reenableLogs() {
+        disabledDepth--;
+        if (disabledDepth === 0) {
+            /* eslint-disable react-internal/no-production-logging */ var props = {
+                configurable: true,
+                enumerable: true,
+                writable: true
+            }; // $FlowFixMe Flow thinks console is immutable.
+            Object.defineProperties(console, {
+                log: assign({}, props, {
+                    value: prevLog
+                }),
+                info: assign({}, props, {
+                    value: prevInfo
+                }),
+                warn: assign({}, props, {
+                    value: prevWarn
+                }),
+                error: assign({}, props, {
+                    value: prevError
+                }),
+                group: assign({}, props, {
+                    value: prevGroup
+                }),
+                groupCollapsed: assign({}, props, {
+                    value: prevGroupCollapsed
+                }),
+                groupEnd: assign({}, props, {
+                    value: prevGroupEnd
+                })
+            });
+        /* eslint-enable react-internal/no-production-logging */ }
+        if (disabledDepth < 0) error("disabledDepth fell below zero. This is a bug in React. Please file an issue.");
+    }
+    var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
+    var prefix;
+    function describeBuiltInComponentFrame(name, source, ownerFn) {
+        if (prefix === undefined) // Extract the VM specific prefix used by each line.
+        try {
+            throw Error();
+        } catch (x) {
+            var match = x.stack.trim().match(/\n( *(at )?)/);
+            prefix = match && match[1] || "";
+        }
+         // We use the prefix to ensure our stacks line up with native stack frames.
+        return "\n" + prefix + name;
+    }
+    var reentry = false;
+    var componentFrameCache;
+    var PossiblyWeakMap = typeof WeakMap === "function" ? WeakMap : Map;
+    componentFrameCache = new PossiblyWeakMap();
+    function describeNativeComponentFrame(fn, construct) {
+        // If something asked for a stack inside a fake render, it should get ignored.
+        if (!fn || reentry) return "";
+        var frame = componentFrameCache.get(fn);
+        if (frame !== undefined) return frame;
+        var control;
+        reentry = true;
+        var previousPrepareStackTrace = Error.prepareStackTrace; // $FlowFixMe It does accept undefined.
+        Error.prepareStackTrace = undefined;
+        var previousDispatcher;
+        previousDispatcher = ReactCurrentDispatcher.current; // Set the dispatcher in DEV because this might be call in the render function
+        // for warnings.
+        ReactCurrentDispatcher.current = null;
+        disableLogs();
+        try {
+            // This should throw.
+            if (construct) {
+                // Something should be setting the props in the constructor.
+                var Fake = function() {
+                    throw Error();
+                }; // $FlowFixMe
+                Object.defineProperty(Fake.prototype, "props", {
+                    set: function() {
+                        // We use a throwing setter instead of frozen or non-writable props
+                        // because that won't throw in a non-strict mode function.
+                        throw Error();
+                    }
+                });
+                if (typeof Reflect === "object" && Reflect.construct) {
+                    // We construct a different control for this case to include any extra
+                    // frames added by the construct call.
+                    try {
+                        Reflect.construct(Fake, []);
+                    } catch (x) {
+                        control = x;
+                    }
+                    Reflect.construct(fn, [], Fake);
+                } else {
+                    try {
+                        Fake.call();
+                    } catch (x1) {
+                        control = x1;
+                    }
+                    fn.call(Fake.prototype);
+                }
+            } else {
+                try {
+                    throw Error();
+                } catch (x2) {
+                    control = x2;
+                }
+                fn();
+            }
+        } catch (sample) {
+            // This is inlined manually because closure doesn't do it for us.
+            if (sample && control && typeof sample.stack === "string") {
+                // This extracts the first frame from the sample that isn't also in the control.
+                // Skipping one frame that we assume is the frame that calls the two.
+                var sampleLines = sample.stack.split("\n");
+                var controlLines = control.stack.split("\n");
+                var s = sampleLines.length - 1;
+                var c = controlLines.length - 1;
+                while(s >= 1 && c >= 0 && sampleLines[s] !== controlLines[c])// We expect at least one stack frame to be shared.
+                // Typically this will be the root most one. However, stack frames may be
+                // cut off due to maximum stack limits. In this case, one maybe cut off
+                // earlier than the other. We assume that the sample is longer or the same
+                // and there for cut off earlier. So we should find the root most frame in
+                // the sample somewhere in the control.
+                c--;
+                for(; s >= 1 && c >= 0; s--, c--)// Next we find the first one that isn't the same which should be the
+                // frame that called our sample function and the control.
+                if (sampleLines[s] !== controlLines[c]) {
+                    // In V8, the first line is describing the message but other VMs don't.
+                    // If we're about to return the first line, and the control is also on the same
+                    // line, that's a pretty good indicator that our sample threw at same line as
+                    // the control. I.e. before we entered the sample frame. So we ignore this result.
+                    // This can happen if you passed a class to function component, or non-function.
+                    if (s !== 1 || c !== 1) do {
+                        s--;
+                        c--; // We may still have similar intermediate frames from the construct call.
+                        // The next one that isn't the same should be our match though.
+                        if (c < 0 || sampleLines[s] !== controlLines[c]) {
+                            // V8 adds a "new" prefix for native classes. Let's remove it to make it prettier.
+                            var _frame = "\n" + sampleLines[s].replace(" at new ", " at "); // If our component frame is labeled "<anonymous>"
+                            // but we have a user-provided "displayName"
+                            // splice it in to make the stack more readable.
+                            if (fn.displayName && _frame.includes("<anonymous>")) _frame = _frame.replace("<anonymous>", fn.displayName);
+                            if (typeof fn === "function") componentFrameCache.set(fn, _frame);
+                            return _frame;
+                        }
+                    }while (s >= 1 && c >= 0);
+                    break;
+                }
+            }
+        } finally{
+            reentry = false;
+            ReactCurrentDispatcher.current = previousDispatcher;
+            reenableLogs();
+            Error.prepareStackTrace = previousPrepareStackTrace;
+        } // Fallback to just using the name if we couldn't make it throw.
+        var name = fn ? fn.displayName || fn.name : "";
+        var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
+        if (typeof fn === "function") componentFrameCache.set(fn, syntheticFrame);
+        return syntheticFrame;
+    }
+    function describeFunctionComponentFrame(fn, source, ownerFn) {
+        return describeNativeComponentFrame(fn, false);
+    }
+    function shouldConstruct(Component) {
+        var prototype = Component.prototype;
+        return !!(prototype && prototype.isReactComponent);
+    }
+    function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
+        if (type == null) return "";
+        if (typeof type === "function") return describeNativeComponentFrame(type, shouldConstruct(type));
+        if (typeof type === "string") return describeBuiltInComponentFrame(type);
+        switch(type){
+            case REACT_SUSPENSE_TYPE:
+                return describeBuiltInComponentFrame("Suspense");
+            case REACT_SUSPENSE_LIST_TYPE:
+                return describeBuiltInComponentFrame("SuspenseList");
+        }
+        if (typeof type === "object") switch(type.$$typeof){
+            case REACT_FORWARD_REF_TYPE:
+                return describeFunctionComponentFrame(type.render);
+            case REACT_MEMO_TYPE:
+                // Memo may contain any component type so we recursively resolve it.
+                return describeUnknownElementTypeFrameInDEV(type.type, source, ownerFn);
+            case REACT_LAZY_TYPE:
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init = lazyComponent._init;
+                try {
+                    // Lazy may contain any component type so we recursively resolve it.
+                    return describeUnknownElementTypeFrameInDEV(init(payload), source, ownerFn);
+                } catch (x) {}
+        }
+        return "";
+    }
+    var hasOwnProperty = Object.prototype.hasOwnProperty;
+    var loggedTypeFailures = {};
+    var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+    function setCurrentlyValidatingElement(element) {
+        if (element) {
+            var owner = element._owner;
+            var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+            ReactDebugCurrentFrame.setExtraStackFrame(stack);
+        } else ReactDebugCurrentFrame.setExtraStackFrame(null);
+    }
+    function checkPropTypes(typeSpecs, values, location, componentName, element) {
+        // $FlowFixMe This is okay but Flow doesn't know it.
+        var has = Function.call.bind(hasOwnProperty);
+        for(var typeSpecName in typeSpecs)if (has(typeSpecs, typeSpecName)) {
+            var error$1 = void 0; // Prop type validation may throw. In case they do, we don't want to
+            // fail the render phase where it didn't fail before. So we log it.
+            // After these have been cleaned up, we'll let them throw.
+            try {
+                // This is intentionally an invariant that gets caught. It's the same
+                // behavior as without this statement except with a better message.
+                if (typeof typeSpecs[typeSpecName] !== "function") {
+                    // eslint-disable-next-line react-internal/prod-error-codes
+                    var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; " + "it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`." + "This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
+                    err.name = "Invariant Violation";
+                    throw err;
+                }
+                error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+            } catch (ex) {
+                error$1 = ex;
+            }
+            if (error$1 && !(error$1 instanceof Error)) {
+                setCurrentlyValidatingElement(element);
+                error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
+                setCurrentlyValidatingElement(null);
+            }
+            if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
+                // Only monitor this failure once because there tends to be a lot of the
+                // same error.
+                loggedTypeFailures[error$1.message] = true;
+                setCurrentlyValidatingElement(element);
+                error("Failed %s type: %s", location, error$1.message);
+                setCurrentlyValidatingElement(null);
+            }
+        }
+    }
+    var isArrayImpl = Array.isArray; // eslint-disable-next-line no-redeclare
+    function isArray(a) {
+        return isArrayImpl(a);
+    }
+    /*
+ * The `'' + value` pattern (used in in perf-sensitive code) throws for Symbol
+ * and Temporal.* types. See https://github.com/facebook/react/pull/22064.
+ *
+ * The functions in this module will throw an easier-to-understand,
+ * easier-to-debug exception with a clear errors message message explaining the
+ * problem. (Instead of a confusing exception thrown inside the implementation
+ * of the `value` object).
+ */ // $FlowFixMe only called in DEV, so void return is not possible.
+    function typeName(value) {
+        // toStringTag is needed for namespaced types like Temporal.Instant
+        var hasToStringTag = typeof Symbol === "function" && Symbol.toStringTag;
+        var type = hasToStringTag && value[Symbol.toStringTag] || value.constructor.name || "Object";
+        return type;
+    } // $FlowFixMe only called in DEV, so void return is not possible.
+    function willCoercionThrow(value) {
+        try {
+            testStringCoercion(value);
+            return false;
+        } catch (e) {
+            return true;
+        }
+    }
+    function testStringCoercion(value) {
+        // If you ended up here by following an exception call stack, here's what's
+        // happened: you supplied an object or symbol value to React (as a prop, key,
+        // DOM attribute, CSS property, string ref, etc.) and when React tried to
+        // coerce it to a string using `'' + value`, an exception was thrown.
+        //
+        // The most common types that will cause this exception are `Symbol` instances
+        // and Temporal objects like `Temporal.Instant`. But any object that has a
+        // `valueOf` or `[Symbol.toPrimitive]` method that throws will also cause this
+        // exception. (Library authors do this to prevent users from using built-in
+        // numeric operators like `+` or comparison operators like `>=` because custom
+        // methods are needed to perform accurate arithmetic or comparison.)
+        //
+        // To fix the problem, coerce this object or symbol value to a string before
+        // passing it to React. The most reliable way is usually `String(value)`.
+        //
+        // To find which value is throwing, check the browser or debugger console.
+        // Before this exception was thrown, there should be `console.error` output
+        // that shows the type (Symbol, Temporal.PlainDate, etc.) that caused the
+        // problem and how that type was used: key, atrribute, input value prop, etc.
+        // In most cases, this console output also shows the component and its
+        // ancestor components where the exception happened.
+        //
+        // eslint-disable-next-line react-internal/safe-string-coercion
+        return "" + value;
+    }
+    function checkKeyStringCoercion(value) {
+        if (willCoercionThrow(value)) {
+            error("The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.", typeName(value));
+            return testStringCoercion(value); // throw (to help callers find troubleshooting comments)
+        }
+    }
+    var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
+    var RESERVED_PROPS = {
+        key: true,
+        ref: true,
+        __self: true,
+        __source: true
+    };
+    var specialPropKeyWarningShown;
+    var specialPropRefWarningShown;
+    var didWarnAboutStringRefs;
+    didWarnAboutStringRefs = {};
+    function hasValidRef(config) {
+        if (hasOwnProperty.call(config, "ref")) {
+            var getter = Object.getOwnPropertyDescriptor(config, "ref").get;
+            if (getter && getter.isReactWarning) return false;
+        }
+        return config.ref !== undefined;
+    }
+    function hasValidKey(config) {
+        if (hasOwnProperty.call(config, "key")) {
+            var getter = Object.getOwnPropertyDescriptor(config, "key").get;
+            if (getter && getter.isReactWarning) return false;
+        }
+        return config.key !== undefined;
+    }
+    function warnIfStringRefCannotBeAutoConverted(config, self) {
+        if (typeof config.ref === "string" && ReactCurrentOwner.current && self && ReactCurrentOwner.current.stateNode !== self) {
+            var componentName = getComponentNameFromType(ReactCurrentOwner.current.type);
+            if (!didWarnAboutStringRefs[componentName]) {
+                error('Component "%s" contains the string ref "%s". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref', getComponentNameFromType(ReactCurrentOwner.current.type), config.ref);
+                didWarnAboutStringRefs[componentName] = true;
+            }
+        }
+    }
+    function defineKeyPropWarningGetter(props, displayName) {
+        var warnAboutAccessingKey = function() {
+            if (!specialPropKeyWarningShown) {
+                specialPropKeyWarningShown = true;
+                error("%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+            }
+        };
+        warnAboutAccessingKey.isReactWarning = true;
+        Object.defineProperty(props, "key", {
+            get: warnAboutAccessingKey,
+            configurable: true
+        });
+    }
+    function defineRefPropWarningGetter(props, displayName) {
+        var warnAboutAccessingRef = function() {
+            if (!specialPropRefWarningShown) {
+                specialPropRefWarningShown = true;
+                error("%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+            }
+        };
+        warnAboutAccessingRef.isReactWarning = true;
+        Object.defineProperty(props, "ref", {
+            get: warnAboutAccessingRef,
+            configurable: true
+        });
+    }
+    /**
+ * Factory method to create a new React element. This no longer adheres to
+ * the class pattern, so do not use new to call it. Also, instanceof check
+ * will not work. Instead test $$typeof field against Symbol.for('react.element') to check
+ * if something is a React Element.
+ *
+ * @param {*} type
+ * @param {*} props
+ * @param {*} key
+ * @param {string|object} ref
+ * @param {*} owner
+ * @param {*} self A *temporary* helper to detect places where `this` is
+ * different from the `owner` when React.createElement is called, so that we
+ * can warn. We want to get rid of owner and replace string `ref`s with arrow
+ * functions, and as long as `this` and owner are the same, there will be no
+ * change in behavior.
+ * @param {*} source An annotation object (added by a transpiler or otherwise)
+ * indicating filename, line number, and/or other information.
+ * @internal
+ */ var ReactElement = function(type, key, ref, self, source, owner, props) {
+        var element = {
+            // This tag allows us to uniquely identify this as a React Element
+            $$typeof: REACT_ELEMENT_TYPE,
+            // Built-in properties that belong on the element
+            type: type,
+            key: key,
+            ref: ref,
+            props: props,
+            // Record the component responsible for creating this element.
+            _owner: owner
+        };
+        // The validation flag is currently mutative. We put it on
+        // an external backing store so that we can freeze the whole object.
+        // This can be replaced with a WeakMap once they are implemented in
+        // commonly used development environments.
+        element._store = {}; // To make comparing ReactElements easier for testing purposes, we make
+        // the validation flag non-enumerable (where possible, which should
+        // include every environment we run tests in), so the test framework
+        // ignores it.
+        Object.defineProperty(element._store, "validated", {
+            configurable: false,
+            enumerable: false,
+            writable: true,
+            value: false
+        }); // self and source are DEV only properties.
+        Object.defineProperty(element, "_self", {
+            configurable: false,
+            enumerable: false,
+            writable: false,
+            value: self
+        }); // Two elements created in two different places should be considered
+        // equal for testing purposes and therefore we hide it from enumeration.
+        Object.defineProperty(element, "_source", {
+            configurable: false,
+            enumerable: false,
+            writable: false,
+            value: source
+        });
+        if (Object.freeze) {
+            Object.freeze(element.props);
+            Object.freeze(element);
+        }
+        return element;
+    };
+    /**
+ * https://github.com/reactjs/rfcs/pull/107
+ * @param {*} type
+ * @param {object} props
+ * @param {string} key
+ */ function jsxDEV(type, config, maybeKey, source, self) {
+        var propName; // Reserved names are extracted
+        var props = {};
+        var key = null;
+        var ref = null; // Currently, key can be spread in as a prop. This causes a potential
+        // issue if key is also explicitly declared (ie. <div {...props} key="Hi" />
+        // or <div key="Hi" {...props} /> ). We want to deprecate key spread,
+        // but as an intermediary step, we will use jsxDEV for everything except
+        // <div {...props} key="Hi" />, because we aren't currently able to tell if
+        // key is explicitly declared to be undefined or not.
+        if (maybeKey !== undefined) {
+            checkKeyStringCoercion(maybeKey);
+            key = "" + maybeKey;
+        }
+        if (hasValidKey(config)) {
+            checkKeyStringCoercion(config.key);
+            key = "" + config.key;
+        }
+        if (hasValidRef(config)) {
+            ref = config.ref;
+            warnIfStringRefCannotBeAutoConverted(config, self);
+        } // Remaining properties are added to a new props object
+        for(propName in config)if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) props[propName] = config[propName];
+         // Resolve default props
+        if (type && type.defaultProps) {
+            var defaultProps = type.defaultProps;
+            for(propName in defaultProps)if (props[propName] === undefined) props[propName] = defaultProps[propName];
+        }
+        if (key || ref) {
+            var displayName = typeof type === "function" ? type.displayName || type.name || "Unknown" : type;
+            if (key) defineKeyPropWarningGetter(props, displayName);
+            if (ref) defineRefPropWarningGetter(props, displayName);
+        }
+        return ReactElement(type, key, ref, self, source, ReactCurrentOwner.current, props);
+    }
+    var ReactCurrentOwner$1 = ReactSharedInternals.ReactCurrentOwner;
+    var ReactDebugCurrentFrame$1 = ReactSharedInternals.ReactDebugCurrentFrame;
+    function setCurrentlyValidatingElement$1(element) {
+        if (element) {
+            var owner = element._owner;
+            var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+            ReactDebugCurrentFrame$1.setExtraStackFrame(stack);
+        } else ReactDebugCurrentFrame$1.setExtraStackFrame(null);
+    }
+    var propTypesMisspellWarningShown;
+    propTypesMisspellWarningShown = false;
+    /**
+ * Verifies the object is a ReactElement.
+ * See https://reactjs.org/docs/react-api.html#isvalidelement
+ * @param {?object} object
+ * @return {boolean} True if `object` is a ReactElement.
+ * @final
+ */ function isValidElement(object) {
+        return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+    }
+    function getDeclarationErrorAddendum() {
+        if (ReactCurrentOwner$1.current) {
+            var name = getComponentNameFromType(ReactCurrentOwner$1.current.type);
+            if (name) return "\n\nCheck the render method of `" + name + "`.";
+        }
+        return "";
+    }
+    function getSourceInfoErrorAddendum(source) {
+        if (source !== undefined) {
+            var fileName = source.fileName.replace(/^.*[\\\/]/, "");
+            var lineNumber = source.lineNumber;
+            return "\n\nCheck your code at " + fileName + ":" + lineNumber + ".";
+        }
+        return "";
+    }
+    /**
+ * Warn if there's no key explicitly set on dynamic arrays of children or
+ * object keys are not valid. This allows us to keep track of children between
+ * updates.
+ */ var ownerHasKeyUseWarning = {};
+    function getCurrentComponentErrorInfo(parentType) {
+        var info = getDeclarationErrorAddendum();
+        if (!info) {
+            var parentName = typeof parentType === "string" ? parentType : parentType.displayName || parentType.name;
+            if (parentName) info = "\n\nCheck the top-level render call using <" + parentName + ">.";
+        }
+        return info;
+    }
+    /**
+ * Warn if the element doesn't have an explicit key assigned to it.
+ * This element is in an array. The array could grow and shrink or be
+ * reordered. All children that haven't already been validated are required to
+ * have a "key" property assigned to it. Error statuses are cached so a warning
+ * will only be shown once.
+ *
+ * @internal
+ * @param {ReactElement} element Element that requires a key.
+ * @param {*} parentType element's parent's type.
+ */ function validateExplicitKey(element, parentType) {
+        if (!element._store || element._store.validated || element.key != null) return;
+        element._store.validated = true;
+        var currentComponentErrorInfo = getCurrentComponentErrorInfo(parentType);
+        if (ownerHasKeyUseWarning[currentComponentErrorInfo]) return;
+        ownerHasKeyUseWarning[currentComponentErrorInfo] = true; // Usually the current owner is the offender, but if it accepts children as a
+        // property, it may be the creator of the child that's responsible for
+        // assigning it a key.
+        var childOwner = "";
+        if (element && element._owner && element._owner !== ReactCurrentOwner$1.current) // Give the component that originally created this child.
+        childOwner = " It was passed a child from " + getComponentNameFromType(element._owner.type) + ".";
+        setCurrentlyValidatingElement$1(element);
+        error('Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.', currentComponentErrorInfo, childOwner);
+        setCurrentlyValidatingElement$1(null);
+    }
+    /**
+ * Ensure that every element either is passed in a static location, in an
+ * array with an explicit keys property defined, or in an object literal
+ * with valid key property.
+ *
+ * @internal
+ * @param {ReactNode} node Statically passed child of any type.
+ * @param {*} parentType node's parent's type.
+ */ function validateChildKeys(node, parentType) {
+        if (typeof node !== "object") return;
+        if (isArray(node)) for(var i = 0; i < node.length; i++){
+            var child = node[i];
+            if (isValidElement(child)) validateExplicitKey(child, parentType);
+        }
+        else if (isValidElement(node)) // This element was passed in a valid location.
+        {
+            if (node._store) node._store.validated = true;
+        } else if (node) {
+            var iteratorFn = getIteratorFn(node);
+            if (typeof iteratorFn === "function") // Entry iterators used to provide implicit keys,
+            // but now we print a separate warning for them later.
+            {
+                if (iteratorFn !== node.entries) {
+                    var iterator = iteratorFn.call(node);
+                    var step;
+                    while(!(step = iterator.next()).done)if (isValidElement(step.value)) validateExplicitKey(step.value, parentType);
+                }
+            }
+        }
+    }
+    /**
+ * Given an element, validate that its props follow the propTypes definition,
+ * provided by the type.
+ *
+ * @param {ReactElement} element
+ */ function validatePropTypes(element) {
+        var type = element.type;
+        if (type === null || type === undefined || typeof type === "string") return;
+        var propTypes;
+        if (typeof type === "function") propTypes = type.propTypes;
+        else if (typeof type === "object" && (type.$$typeof === REACT_FORWARD_REF_TYPE || // Inner props are checked in the reconciler.
+        type.$$typeof === REACT_MEMO_TYPE)) propTypes = type.propTypes;
+        else return;
+        if (propTypes) {
+            // Intentionally inside to avoid triggering lazy initializers:
+            var name = getComponentNameFromType(type);
+            checkPropTypes(propTypes, element.props, "prop", name, element);
+        } else if (type.PropTypes !== undefined && !propTypesMisspellWarningShown) {
+            propTypesMisspellWarningShown = true; // Intentionally inside to avoid triggering lazy initializers:
+            var _name = getComponentNameFromType(type);
+            error("Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?", _name || "Unknown");
+        }
+        if (typeof type.getDefaultProps === "function" && !type.getDefaultProps.isReactClassApproved) error("getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.");
+    }
+    /**
+ * Given a fragment, validate that it can only be provided with fragment props
+ * @param {ReactElement} fragment
+ */ function validateFragmentProps(fragment) {
+        var keys = Object.keys(fragment.props);
+        for(var i = 0; i < keys.length; i++){
+            var key = keys[i];
+            if (key !== "children" && key !== "key") {
+                setCurrentlyValidatingElement$1(fragment);
+                error("Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.", key);
+                setCurrentlyValidatingElement$1(null);
+                break;
+            }
+        }
+        if (fragment.ref !== null) {
+            setCurrentlyValidatingElement$1(fragment);
+            error("Invalid attribute `ref` supplied to `React.Fragment`.");
+            setCurrentlyValidatingElement$1(null);
+        }
+    }
+    function jsxWithValidation(type, props, key, isStaticChildren, source, self) {
+        var validType = isValidElementType(type); // We warn in this case but don't throw. We expect the element creation to
+        // succeed and there will likely be errors in render.
+        if (!validType) {
+            var info = "";
+            if (type === undefined || typeof type === "object" && type !== null && Object.keys(type).length === 0) info += " You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.";
+            var sourceInfo = getSourceInfoErrorAddendum(source);
+            if (sourceInfo) info += sourceInfo;
+            else info += getDeclarationErrorAddendum();
+            var typeString;
+            if (type === null) typeString = "null";
+            else if (isArray(type)) typeString = "array";
+            else if (type !== undefined && type.$$typeof === REACT_ELEMENT_TYPE) {
+                typeString = "<" + (getComponentNameFromType(type.type) || "Unknown") + " />";
+                info = " Did you accidentally export a JSX literal instead of a component?";
+            } else typeString = typeof type;
+            error("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
+        }
+        var element = jsxDEV(type, props, key, source, self); // The result can be nullish if a mock or a custom function is used.
+        // TODO: Drop this when these are no longer allowed as the type argument.
+        if (element == null) return element;
+         // Skip key warning if the type isn't valid since our key validation logic
+        // doesn't expect a non-string/function type and can throw confusing errors.
+        // We don't want exception behavior to differ between dev and prod.
+        // (Rendering will throw with a helpful message and as soon as the type is
+        // fixed, the key warnings will appear.)
+        if (validType) {
+            var children = props.children;
+            if (children !== undefined) {
+                if (isStaticChildren) {
+                    if (isArray(children)) {
+                        for(var i = 0; i < children.length; i++)validateChildKeys(children[i], type);
+                        if (Object.freeze) Object.freeze(children);
+                    } else error("React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.");
+                } else validateChildKeys(children, type);
+            }
+        }
+        if (type === REACT_FRAGMENT_TYPE) validateFragmentProps(element);
+        else validatePropTypes(element);
+        return element;
+    } // These two functions exist to still get child warnings in dev
+    // even with the prod transform. This means that jsxDEV is purely
+    // opt-in behavior for better messages but that we won't stop
+    // giving you warnings if you use production apis.
+    function jsxWithValidationStatic(type, props, key) {
+        return jsxWithValidation(type, props, key, true);
+    }
+    function jsxWithValidationDynamic(type, props, key) {
+        return jsxWithValidation(type, props, key, false);
+    }
+    var jsx = jsxWithValidationDynamic; // we may want to special case jsxs internally to take advantage of static children.
+    // for now we can ship identical prod functions
+    var jsxs = jsxWithValidationStatic;
+    exports.Fragment = REACT_FRAGMENT_TYPE;
+    exports.jsx = jsx;
+    exports.jsxs = jsxs;
+})();
+
+},{"react":"21dqq"}],"hEdsw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _react = require("react");
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+const defaultProps = {
+    fluid: false
+};
+const Container = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , fluid , // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = "div" , className , ...props }, ref)=>{
+    const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "container");
+    const suffix = typeof fluid === "string" ? `-${fluid}` : "-fluid";
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        ...props,
+        className: (0, _classnamesDefault.default)(className, fluid ? `${prefix}${suffix}` : prefix)
+    });
+});
+Container.displayName = "Container";
+Container.defaultProps = defaultProps;
+exports.default = Container;
+
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cMC39":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _react = require("react");
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+const Row = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = "div" , ...props }, ref)=>{
+    const decoratedBsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "row");
+    const breakpoints = (0, _themeProvider.useBootstrapBreakpoints)();
+    const minBreakpoint = (0, _themeProvider.useBootstrapMinBreakpoint)();
+    const sizePrefix = `${decoratedBsPrefix}-cols`;
+    const classes = [];
+    breakpoints.forEach((brkPoint)=>{
+        const propValue = props[brkPoint];
+        delete props[brkPoint];
+        let cols;
+        if (propValue != null && typeof propValue === "object") ({ cols  } = propValue);
+        else cols = propValue;
+        const infix = brkPoint !== minBreakpoint ? `-${brkPoint}` : "";
+        if (cols != null) classes.push(`${sizePrefix}${infix}-${cols}`);
+    });
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        ...props,
+        className: (0, _classnamesDefault.default)(className, decoratedBsPrefix, ...classes)
+    });
+});
+Row.displayName = "Row";
+exports.default = Row;
+
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fpeeO":[function() {},{}],"fpeeO":[function() {},{}],"gIcUF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Parallax", ()=>Parallax);
@@ -63547,40 +64748,47 @@ function Projects() {
         observer.observe(projectsSideNav.current);
         return ()=>{};
     }, []);
-    if (projectsSideNavIntersecting == true) {
-        projectsTitle.classList.add("active");
-        projectsTitle.classList.remove("reveal");
-    }
-    if (projectsSideNavIntersecting == false) {
-        if (projectsTitle.classList.contains("active")) {
-            projectsTitle.classList.remove("active");
-            projectsTitle.classList.add("reveal");
-        }
-    }
+    // if(projectsSideNavIntersecting == true){
+    //   projectsTitle.classList.add("active");
+    //   projectsTitle.classList.remove("reveal");
+    // }
+    // if(projectsSideNavIntersecting == false){
+    //     if(projectsTitle.classList.contains("active") ){
+    //   projectsTitle.classList.remove("active");
+    //   projectsTitle.classList.add("reveal");
+    //   }
+    // }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
-                fileName: "src/components/projects/Projects.jsx",
-                lineNumber: 50,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "projectSideNav",
-                ref: projectsSideNav
-            }, void 0, false, {
-                fileName: "src/components/projects/Projects.jsx",
-                lineNumber: 51,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "projects"
-            }, void 0, false, {
-                fileName: "src/components/projects/Projects.jsx",
-                lineNumber: 52,
-                columnNumber: 12
-            }, this)
-        ]
-    }, void 0, true);
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "projectsContainer",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deckDefault.default), {}, void 0, false, {
+                    fileName: "src/components/projects/Projects.jsx",
+                    lineNumber: 50,
+                    columnNumber: 5
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "projectSideNav",
+                    ref: projectsSideNav
+                }, void 0, false, {
+                    fileName: "src/components/projects/Projects.jsx",
+                    lineNumber: 51,
+                    columnNumber: 5
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    id: "projects"
+                }, void 0, false, {
+                    fileName: "src/components/projects/Projects.jsx",
+                    lineNumber: 52,
+                    columnNumber: 12
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/projects/Projects.jsx",
+            lineNumber: 49,
+            columnNumber: 4
+        }, this)
+    }, void 0, false);
 }
 exports.default = Projects;
 _s(Projects, "KSF2gF4ibqUINh8Y9xNXBKSl8yw=");
@@ -63605,6 +64813,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
 var _styleScss = require("../../sass/style.scss");
 // programming languages
 var _htmlSvg = require("../../assets/html.svg");
@@ -63660,8 +64869,8 @@ function Skills() {
         return ()=>{};
     }, []);
     if (skillsSideNavIntersecting == true) {
-        skillsTitle.classList.add("active");
-        skillsTitle.classList.remove("reveal");
+        // skillsTitle.classList.add("active");
+        // skillsTitle.classList.remove("reveal");
         // programming skills
         let html = document.getElementById("html");
         let csharp = document.getElementById("csharp");
@@ -63670,7 +64879,7 @@ function Skills() {
         let java = document.getElementById("java");
         let javascript = document.getElementById("javascript");
         let python = document.getElementById("python");
-        //  console.log(html);
+        console.log(html);
         html.classList.add("visible");
         csharp.classList.add("visible");
         css.classList.add("visible");
@@ -63702,15 +64911,14 @@ function Skills() {
         mongodb.classList.add("visible");
         phpMyAdmin.classList.add("visible");
     }
-    if (skillsSideNavIntersecting == false) {
-        if (skillsTitle.classList.contains("active")) {
-            skillsTitle.classList.remove("active");
-            skillsTitle.classList.add("reveal");
-        }
-    }
+    // if(skillsSideNavIntersecting == false){
+    //     if(skillsTitle.classList.contains("active")){
+    // skillsTitle.classList.remove("active");
+    // skillsTitle.classList.add("reveal");
+    // }}
     //   skillsSideNavIntersecting == false && screenTop>2
     const programmingSkills = (language)=>{
-        let detail = document.getElementById("textDetail");
+        let detail = document.getElementById("programmingTextDetail");
         switch(language){
             case "csharp":
                 detail.innerHTML = '<div class="detail"><h1>C#</h1><img class="imageDetail" src="' + (0, _cSvgDefault.default) + '"  /></div><div class="text"><br /><p>C# is an object oriented programming language which allows development of cross-platform application for Windows, Web and mobile development.</p><br /><p>I learned C# during my training at Lutz & Grub.</p><br /><p>IDE: VisualStudio</p></div>';
@@ -63760,7 +64968,7 @@ function Skills() {
         }
     };
     const etcSkills = (language)=>{
-        let detail = document.getElementById("etcTextDetail");
+        let detail = document.getElementById("otherSkillsTextDetail");
         switch(language){
             case "docker":
                 detail.innerHTML = '<div class="detail"><h1>Docker</h1><img class="imageDetail" src="' + (0, _dockerSvgDefault.default) + '"  /></div><div class="text"><br /><p>Docker allows developers to easily deploy an application in a sandbox, using Os-level virtualization.</p><br /><p>First experience was during my internship at abas Software.</p><p>Used in combination with the Shopware CMS</div>';
@@ -63783,741 +64991,731 @@ function Skills() {
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "skillsSideNav ",
-            ref: skillsSideNav,
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "skillsHeader",
-                    id: "skillsSideNav",
-                    children: "Programming Skills"
-                }, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 200,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "skillsProgramming",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skills",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName csharp",
-                                            onClick: ()=>programmingSkills("csharp"),
-                                            children: "C#"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 205,
-                                            columnNumber: 8
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "csharp",
-                                                id: "csharp"
-                                            }, void 0, false, {
-                                                fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 205,
-                                                columnNumber: 114
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 205,
-                                            columnNumber: 92
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 204,
-                                    columnNumber: 5
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>programmingSkills("css"),
-                                            children: "CSS"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 208,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "css",
-                                                id: "css"
-                                            }, void 0, false, {
-                                                fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 208,
-                                                columnNumber: 106
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 208,
-                                            columnNumber: 84
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 207,
-                                    columnNumber: 10
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>programmingSkills("html"),
-                                            children: "HTML"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 211,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "html",
-                                                id: "html"
-                                            }, void 0, false, {
-                                                fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 211,
-                                                columnNumber: 108
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 211,
-                                            columnNumber: 86
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 210,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>programmingSkills("java"),
-                                            children: "Java"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 214,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "java",
-                                                id: "java"
+            className: "skillsContainer",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "skillsSideNav ",
+                ref: skillsSideNav,
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "skillsHeader",
+                        id: "skillsSideNav",
+                        children: "Programming Skills"
+                    }, void 0, false, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 206,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "programmingSkillsContainer",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "programmingChartContainer",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName csharp",
+                                                onClick: ()=>programmingSkills("csharp"),
+                                                children: "C#"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
                                                 lineNumber: 214,
-                                                columnNumber: 108
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 214,
-                                            columnNumber: 86
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 213,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>programmingSkills("javascript"),
-                                            children: "JavaScript"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 217,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "javascript",
-                                                id: "javascript"
-                                            }, void 0, false, {
-                                                fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 217,
-                                                columnNumber: 120
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 217,
-                                            columnNumber: 98
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 216,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>programmingSkills("php"),
-                                            children: "PHP"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 220,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "php",
-                                                id: "php"
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "csharp",
+                                                    id: "csharp"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 221,
+                                                    columnNumber: 25
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
                                                 lineNumber: 220,
-                                                columnNumber: 106
+                                                columnNumber: 23
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 220,
-                                            columnNumber: 84
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 219,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>programmingSkills("python"),
-                                            children: "Python"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 223,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "python",
-                                                id: "python"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 213,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>programmingSkills("css"),
+                                                children: "CSS"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 223,
-                                                columnNumber: 112
+                                                lineNumber: 226,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "css",
+                                                    id: "css"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 233,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 232,
+                                                columnNumber: 23
                                             }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 225,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>programmingSkills("html"),
+                                                children: "HTML"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 238,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "html",
+                                                    id: "html"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 245,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 244,
+                                                columnNumber: 23
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 237,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>programmingSkills("java"),
+                                                children: "Java"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 250,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "java",
+                                                    id: "java"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 257,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 256,
+                                                columnNumber: 23
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 249,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>programmingSkills("javascript"),
+                                                children: "JavaScript"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 262,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "javascript",
+                                                    id: "javascript"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 269,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 268,
+                                                columnNumber: 23
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 261,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>programmingSkills("php"),
+                                                children: "PHP"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 274,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "php",
+                                                    id: "php"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 281,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 280,
+                                                columnNumber: 23
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 273,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>programmingSkills("python"),
+                                                children: "Python"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 286,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "python",
+                                                    id: "python"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 293,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 292,
+                                                columnNumber: 23
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 285,
+                                        columnNumber: 21
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 211,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skillDetailContainer",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "skillsBox",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "programmingTextDetail",
+                                        id: "programmingTextDetail",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                            children: "Click on a Programming Language to learn more!"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 223,
-                                            columnNumber: 90
+                                            lineNumber: 306,
+                                            columnNumber: 23
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 222,
-                                    columnNumber: 9
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 203,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skillDetail",
-                            id: "skillDetail",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "textDetail",
-                                id: "textDetail",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    children: "Click on a Programming Language to learn more!"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 305,
+                                        columnNumber: 21
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 228,
-                                    columnNumber: 12
+                                    lineNumber: 303,
+                                    columnNumber: 21
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 227,
-                                columnNumber: 9
+                                lineNumber: 302,
+                                columnNumber: 17
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 226,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 201,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 233,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 234,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 235,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "skillsHeader",
-                    children: "Graphic Design Skills"
-                }, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 236,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "skillsGraphic",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skills",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>graphicDesignSkills("afterEffects"),
-                                            children: "AfterEffects"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 240,
-                                            columnNumber: 8
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "afterEffects",
-                                                id: "afterEffects"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 209,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "skillsHeader",
+                        children: "Graphic Design Skills"
+                    }, void 0, false, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 318,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "graphicDesignSkillsContainer",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "graphicDesignChartContainer",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>graphicDesignSkills("afterEffects"),
+                                                children: "AfterEffects"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 240,
-                                                columnNumber: 125
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 240,
-                                            columnNumber: 103
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 239,
-                                    columnNumber: 5
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>graphicDesignSkills("illustrator"),
-                                            children: "Illustrator"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 243,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "illustrator",
-                                                id: "illustrator"
+                                                lineNumber: 328,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "afterEffects",
+                                                    id: "afterEffects"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 335,
+                                                    columnNumber: 21
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 243,
-                                                columnNumber: 124
+                                                lineNumber: 334,
+                                                columnNumber: 19
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 243,
-                                            columnNumber: 102
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 242,
-                                    columnNumber: 10
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>graphicDesignSkills("indesign"),
-                                            children: "InDesign"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 246,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "indesign",
-                                                id: "indesign"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 327,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>graphicDesignSkills("illustrator"),
+                                                children: "Illustrator"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 246,
-                                                columnNumber: 118
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 246,
-                                            columnNumber: 96
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 245,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>graphicDesignSkills("photoshop"),
-                                            children: "Photoshop"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 249,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "photoshop",
-                                                id: "photoshop"
+                                                lineNumber: 340,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "illustrator",
+                                                    id: "illustrator"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 347,
+                                                    columnNumber: 21
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 249,
-                                                columnNumber: 120
+                                                lineNumber: 346,
+                                                columnNumber: 19
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 249,
-                                            columnNumber: 98
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 248,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>graphicDesignSkills("premierePro"),
-                                            children: "PremierePro"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 252,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "premierePro",
-                                                id: "premierePro"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 339,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>graphicDesignSkills("indesign"),
+                                                children: "InDesign"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 252,
-                                                columnNumber: 124
+                                                lineNumber: 352,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "indesign",
+                                                    id: "indesign"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 359,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 358,
+                                                columnNumber: 19
                                             }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 351,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>graphicDesignSkills("photoshop"),
+                                                children: "Photoshop"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 364,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "photoshop",
+                                                    id: "photoshop"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 371,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 370,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 363,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>graphicDesignSkills("premierePro"),
+                                                children: "PremierePro"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 376,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "premierePro",
+                                                    id: "premierePro"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 383,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 382,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 375,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 324,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skillDetailContainer",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "skillsBox",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "graphicDesignTextDetail",
+                                        id: "graphicDesignTextDetail",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                            children: "Click on a Software name to learn more!"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 252,
-                                            columnNumber: 102
+                                            lineNumber: 396,
+                                            columnNumber: 19
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 251,
-                                    columnNumber: 9
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 238,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skillDetail",
-                            id: "skillDetail",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "graphicDesignTextDetail",
-                                id: "graphicDesignTextDetail",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    children: "Click on a Software name to learn more!"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 392,
+                                        columnNumber: 17
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 257,
-                                    columnNumber: 12
+                                    lineNumber: 390,
+                                    columnNumber: 21
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 256,
-                                columnNumber: 9
+                                lineNumber: 389,
+                                columnNumber: 15
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 255,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 237,
-                    columnNumber: 6
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 262,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 263,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 264,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 265,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "skillsHeader",
-                    children: "Other Computer Skills"
-                }, void 0, false, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 266,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "skillsEtc",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skills",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>etcSkills("docker"),
-                                            children: "Docker"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 270,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "docker",
-                                                id: "docker"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 319,
+                        columnNumber: 16
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "skillsHeader",
+                        children: "Other Computer Skills"
+                    }, void 0, false, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 407,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "otherSkillsContainer",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "otherSkillsChartContainer",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>etcSkills("docker"),
+                                                children: "Docker"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 270,
-                                                columnNumber: 104
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 270,
-                                            columnNumber: 82
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 269,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>etcSkills("git"),
-                                            children: "Git"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 273,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "git",
-                                                id: "git"
+                                                lineNumber: 418,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "docker",
+                                                    id: "docker"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 422,
+                                                    columnNumber: 21
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 273,
-                                                columnNumber: 98
+                                                lineNumber: 421,
+                                                columnNumber: 19
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 273,
-                                            columnNumber: 76
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 272,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>etcSkills("microsoft"),
-                                            children: "Microsoft Office"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 276,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "microsoft",
-                                                id: "microsoft"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 417,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>etcSkills("git"),
+                                                children: "Git"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 276,
-                                                columnNumber: 117
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 276,
-                                            columnNumber: 95
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 275,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>etcSkills("mongodb"),
-                                            children: "MongoDB"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 279,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "mongodb",
-                                                id: "mongodb"
+                                                lineNumber: 427,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "git",
+                                                    id: "git"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 431,
+                                                    columnNumber: 21
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 279,
-                                                columnNumber: 106
+                                                lineNumber: 430,
+                                                columnNumber: 19
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 279,
-                                            columnNumber: 84
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 278,
-                                    columnNumber: 10
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "skillName",
-                                            onClick: ()=>etcSkills("phpMyAdmin"),
-                                            children: "PHP MyAdmin"
-                                        }, void 0, false, {
-                                            fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 283,
-                                            columnNumber: 8
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "bar",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "phpMyAdmin",
-                                                id: "phpMyAdmin"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 426,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>etcSkills("microsoft"),
+                                                children: "Microsoft Office"
                                             }, void 0, false, {
                                                 fileName: "src/components/skills/Skills.jsx",
-                                                lineNumber: 283,
-                                                columnNumber: 112
+                                                lineNumber: 436,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "microsoft",
+                                                    id: "microsoft"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 443,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 442,
+                                                columnNumber: 19
                                             }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 435,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>etcSkills("mongodb"),
+                                                children: "MongoDB"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 448,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "mongodb",
+                                                    id: "mongodb"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 455,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 454,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 447,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                className: "skillName",
+                                                onClick: ()=>etcSkills("phpMyAdmin"),
+                                                children: "PHP MyAdmin"
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 460,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "bar",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "phpMyAdmin",
+                                                    id: "phpMyAdmin"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/skills/Skills.jsx",
+                                                    lineNumber: 467,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/skills/Skills.jsx",
+                                                lineNumber: 466,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 459,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/skills/Skills.jsx",
+                                lineNumber: 413,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skillDetailContainer",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "skillsBox",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "otherSkillsTextDetail",
+                                        id: "otherSkillsTextDetail",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                            children: "Click on name to learn more!"
                                         }, void 0, false, {
                                             fileName: "src/components/skills/Skills.jsx",
-                                            lineNumber: 283,
-                                            columnNumber: 90
+                                            lineNumber: 483,
+                                            columnNumber: 19
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 282,
-                                    columnNumber: 9
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 268,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skillDetail",
-                            id: "skillDetail",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "etcTextDetail",
-                                id: "etcTextDetail",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    children: "Click on name to learn more!"
+                                    }, void 0, false, {
+                                        fileName: "src/components/skills/Skills.jsx",
+                                        lineNumber: 479,
+                                        columnNumber: 18
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/skills/Skills.jsx",
-                                    lineNumber: 289,
-                                    columnNumber: 12
+                                    lineNumber: 474,
+                                    columnNumber: 21
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/skills/Skills.jsx",
-                                lineNumber: 288,
-                                columnNumber: 9
+                                lineNumber: 473,
+                                columnNumber: 15
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/skills/Skills.jsx",
-                            lineNumber: 287,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/skills/Skills.jsx",
-                    lineNumber: 267,
-                    columnNumber: 6
-                }, this)
-            ]
-        }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/skills/Skills.jsx",
+                        lineNumber: 411,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/skills/Skills.jsx",
+                lineNumber: 201,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "src/components/skills/Skills.jsx",
-            lineNumber: 199,
-            columnNumber: 5
+            lineNumber: 200,
+            columnNumber: 7
         }, this)
     }, void 0, false);
 }
@@ -64532,7 +65730,7 @@ $RefreshReg$(_c, "Skills");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv","../../assets/photoshop.svg":"hxB0T","../../assets/illustrator.svg":"34TSB","../../assets/premierePro.svg":"4nsTu","../../assets/afterEffects.svg":"jkIhe","../../assets/indesign.svg":"3iW5a","../../assets/docker.svg":"kKrTC","../../assets/git.svg":"1Z1oN","../../assets/phpMyAdmin.svg":"jOaGu","../../assets/microsoft.svg":"9CfWl","../../assets/mongodb.svg":"6rO54","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../sass/style.scss":"fpeeO","../../assets/html.svg":"eeusY","../../assets/css.svg":"6fudE","../../assets/c.svg":"aagvU","../../assets/javascript.svg":"aXfDG","../../assets/java.svg":"4wIUY","../../assets/php.svg":"lLbyI","../../assets/python.svg":"gIRGv","../../assets/photoshop.svg":"hxB0T","../../assets/illustrator.svg":"34TSB","../../assets/premierePro.svg":"4nsTu","../../assets/afterEffects.svg":"jkIhe","../../assets/indesign.svg":"3iW5a","../../assets/docker.svg":"kKrTC","../../assets/git.svg":"1Z1oN","../../assets/phpMyAdmin.svg":"jOaGu","../../assets/microsoft.svg":"9CfWl","../../assets/mongodb.svg":"6rO54","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"eeusY":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "html.18dc761f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6fudE":[function(require,module,exports) {
@@ -64595,6 +65793,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
 var _styleScss = require("../../sass/style.scss");
 var _uopeopleTextSvg = require("../../assets/uopeople-text.svg");
 var _uopeopleTextSvgDefault = parcelHelpers.interopDefault(_uopeopleTextSvg);
@@ -64625,13 +65824,13 @@ function Education() {
         return ()=>{};
     }, []);
     if (degreesSideNavIntersecting == true) {
-        degreesTitle.classList.add("active");
-        degreesTitle.classList.remove("reveal");
+        // degreesTitle.classList.add("active");
+        // degreesTitle.classList.remove("reveal");
         // education images
         let uopeopleImg = document.getElementById("uopeopleImg");
         let lutzImg = document.getElementById("lutzImg");
         let cfImg = document.getElementById("cfImg");
-        // console.log(uopeopleImg)
+        console.log(uopeopleImg);
         uopeopleImg.classList.add("uopeopleImg");
         lutzImg.classList.add("lutzImg");
         cfImg.classList.add("cfImg");
@@ -64642,96 +65841,146 @@ function Education() {
         lutzImg.classList.add("visible");
         cfImg.classList.add("visible");
     }
-    if (degreesSideNavIntersecting == false) {
-        if (degreesTitle.classList.contains("active")) {
-            degreesTitle.classList.remove("active");
-            degreesTitle.classList.add("reveal");
-        }
-    }
+    // if (degreesSideNavIntersecting == false) {
+    //   if(degreesTitle.classList.contains("active")){
+    //   degreesTitle.classList.remove("active");
+    //   degreesTitle.classList.add("reveal");}
+    // }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "educationContainer",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "edu",
+                className: "uopeopleContainer",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        ref: degreesSideNav,
-                        class: "uopeopleText anim-typewriter",
-                        id: "uopeopleText",
-                        children: "Bachelor | Computer Science | 2020 - 2023"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "uopeopleImgContainer",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            id: "uopeopleImg",
+                            className: "uopeopleImg hidden",
+                            src: (0, _uopeopleTextSvgDefault.default),
+                            alt: "uopeople logo"
+                        }, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 76,
+                            columnNumber: 15
+                        }, this)
                     }, void 0, false, {
                         fileName: "src/components/education/Education.jsx",
                         lineNumber: 75,
-                        columnNumber: 5
+                        columnNumber: 13
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        id: "uopeopleImg",
-                        className: "hidden",
-                        src: (0, _uopeopleTextSvgDefault.default),
-                        alt: "uopeople logo"
-                    }, void 0, false, {
-                        fileName: "src/components/education/Education.jsx",
-                        lineNumber: 77,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "degreeCfText anim-typewriter-cf",
-                        id: "degreeCfText",
-                        children: "Bootcamp | Full-Stack Web Development | 2022"
-                    }, void 0, false, {
-                        fileName: "src/components/education/Education.jsx",
-                        lineNumber: 79,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        id: "cfImg",
-                        src: (0, _careerFoundrySvgDefault.default),
-                        className: "hidden",
-                        alt: "careerFoundry logo"
-                    }, void 0, false, {
-                        fileName: "src/components/education/Education.jsx",
-                        lineNumber: 80,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "degreeLutzText anim-typewriter-lutz",
-                        id: "degreeLutzText",
-                        children: "IHK | Fachinformatiker - Anwendungsentwicklung | 2019 - 2021"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "degreeText",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            ref: degreesSideNav,
+                            className: "uopeopleText anim-typewriter",
+                            id: "uopeopleText",
+                            children: "Bachelor | Computer Science | 2020 - 2023"
+                        }, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 84,
+                            columnNumber: 15
+                        }, this)
                     }, void 0, false, {
                         fileName: "src/components/education/Education.jsx",
                         lineNumber: 83,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        id: "lutzImg",
-                        src: (0, _lutzSvgDefault.default),
-                        className: "hidden",
-                        alt: "lutz grub logo"
-                    }, void 0, false, {
-                        fileName: "src/components/education/Education.jsx",
-                        lineNumber: 86,
-                        columnNumber: 9
+                        columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 72,
-                columnNumber: 4
+                lineNumber: 74,
+                columnNumber: 11
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "cfContainer",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "cfImgContainer",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            id: "cfImg",
+                            src: (0, _careerFoundrySvgDefault.default),
+                            className: "cfImg hidden",
+                            alt: "careerFoundry logo"
+                        }, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 96,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 95,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "degreeText",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "cfText anim-typewriter-cf",
+                            id: "degreeCfText",
+                            children: "Bootcamp | Full-Stack Web Development | 2022"
+                        }, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 104,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 103,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 89,
-                columnNumber: 1
+                lineNumber: 94,
+                columnNumber: 11
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "lutzContainer",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "lutzImgContainer",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            id: "lutzImg",
+                            src: (0, _lutzSvgDefault.default),
+                            className: "lutzImg hidden",
+                            alt: "lutz grub logo"
+                        }, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 112,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 111,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "degreeText",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "lutzText anim-typewriter-lutz",
+                            id: "degreeLutzText",
+                            children: "IHK | Fachinformatiker - Anwendungsentwicklung | 2019 - 2021"
+                        }, void 0, false, {
+                            fileName: "src/components/education/Education.jsx",
+                            lineNumber: 120,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/education/Education.jsx",
+                        lineNumber: 119,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/education/Education.jsx",
-                lineNumber: 90,
-                columnNumber: 1
+                lineNumber: 110,
+                columnNumber: 11
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/education/Education.jsx",
-        lineNumber: 71,
-        columnNumber: 3
+        lineNumber: 72,
+        columnNumber: 5
     }, this);
 }
 exports.default = Education;
@@ -64745,7 +65994,7 @@ $RefreshReg$(_c, "Education");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../sass/style.scss":"fpeeO","../../assets/uopeople-text.svg":"f8qAh","../../assets/lutz.svg":"1I1fy","../../assets/careerFoundry.svg":"7x02p","../../assets/cert.svg":"ffAkN","../certificate/Certificate":"lIcVn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"f8qAh":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../sass/style.scss":"fpeeO","../../assets/uopeople-text.svg":"f8qAh","../../assets/lutz.svg":"1I1fy","../../assets/careerFoundry.svg":"7x02p","../../assets/cert.svg":"ffAkN","../certificate/Certificate":"lIcVn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fpeeO":[function() {},{}],"f8qAh":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("byUka") + "uopeople-text.c41c69e3.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"1I1fy":[function(require,module,exports) {
@@ -64796,8 +66045,8 @@ function Certificates() {
         return ()=>{};
     }, []);
     if (certificatesSideNavIntersecting == true) {
-        certificatesTitle.classList.add("active");
-        certificatesTitle.classList.remove("reveal");
+        //   certificatesTitle.classList.add("active");
+        //   certificatesTitle.classList.remove("reveal");
         let maskC = document.getElementById("mask-c");
         let maske = document.getElementById("mask-e");
         let maskr = document.getElementById("mask-r");
@@ -64823,10 +66072,11 @@ function Certificates() {
         masket.classList.add("visible");
         masks.classList.add("visible");
     }
-    if (certificatesSideNavIntersecting == false) {
-        if (certificatesTitle.classList.contains("active")) certificatesTitle.classList.remove("active");
-        certificatesTitle.classList.add("reveal");
-    }
+    // if (certificatesSideNavIntersecting == false ) {
+    // 	if(certificatesTitle.classList.contains("active"))
+    //   certificatesTitle.classList.remove("active");
+    //   certificatesTitle.classList.add("reveal");
+    // }
     const [isVisible, setIsVisible] = (0, _react.useState)(false);
     const masks1 = [
         "c",
@@ -64858,479 +66108,486 @@ function Certificates() {
     }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         ref: certificatesSideNav,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-            width: "600px",
-            id: "certSvg",
-            xmlns: "http://www.w3.org/2000/svg",
-            viewBox: "0 0 271.12 92.83",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("title", {
-                    children: "Certifications"
-                }, void 0, false, {
-                    fileName: "src/components/certificate/Certificate.jsx",
-                    lineNumber: 105,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("defs", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("style", {}, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 107,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "cert-mask",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-c",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-c",
-                                        d: "M59.76,116.6c-2.57-5.42-2.09-8.35-1.16-10,.82-1.47,2.18-2.35,2.77-4.8a5.87,5.87,0,0,0-4.06-7.56c-2.2-.72-4.37.14-7.19,1.66-4.43,2.4-7.66,4.23-12,8.85A58.47,58.47,0,0,0,27.62,121a75.81,75.81,0,0,0-5,14.39c-1.56,6.24-2.68,10.91-1.84,17a25.31,25.31,0,0,0,3.14,9.22c1.28,2.22,2.43,4.15,4.79,5.17a9.35,9.35,0,0,0,6.64,0c2.44-.85,4.36-3.29,8.11-8.12a114,114,0,0,0,7.38-10.69c.79-1.3,1.42-2.38,1.84-3.14"
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "certificateTitleSvgAnimate",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                className: "certificateSvgDrawing",
+                id: "certSvg",
+                xmlns: "http://www.w3.org/2000/svg",
+                viewBox: "0 0 271.12 92.83",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("title", {
+                        children: "Certifications"
+                    }, void 0, false, {
+                        fileName: "src/components/certificate/Certificate.jsx",
+                        lineNumber: 107,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("defs", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("style", {}, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 109,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "cert-mask",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-c",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-c",
+                                            d: "M59.76,116.6c-2.57-5.42-2.09-8.35-1.16-10,.82-1.47,2.18-2.35,2.77-4.8a5.87,5.87,0,0,0-4.06-7.56c-2.2-.72-4.37.14-7.19,1.66-4.43,2.4-7.66,4.23-12,8.85A58.47,58.47,0,0,0,27.62,121a75.81,75.81,0,0,0-5,14.39c-1.56,6.24-2.68,10.91-1.84,17a25.31,25.31,0,0,0,3.14,9.22c1.28,2.22,2.43,4.15,4.79,5.17a9.35,9.35,0,0,0,6.64,0c2.44-.85,4.36-3.29,8.11-8.12a114,114,0,0,0,7.38-10.69c.79-1.3,1.42-2.38,1.84-3.14"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 116,
+                                            columnNumber: 7
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 114,
-                                        columnNumber: 7
+                                        lineNumber: 115,
+                                        columnNumber: 4
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-e",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-e",
+                                            d: "M46.62,154c6.53-11.64,10.19-13.9,12.35-13.64a12.79,12.79,0,0,0,2.22.18c.88,0,3-.17,6.63-2.21a23.56,23.56,0,0,0,7.2-5.9c2-2.54,3.66-4.57,3.32-7.2a5.45,5.45,0,0,0-3.14-4.42c-2.36-.87-4.9,1.44-6.82,3.13-3.72,3.28-5.36,7-7,10.7-1.19,2.68-.13,1-2.95,9.77-.5,1.55-.93,2.86-.37,4.24.93,2.28,3.86,3,4.61,3.14,2.23.45,4-.21,6.27-1.11A27.46,27.46,0,0,0,78.52,144c.9-.9,1.59-1.69,2-2.21"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 119,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 118,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-r",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-r",
+                                            d: "M65.8,151.56A83.48,83.48,0,0,0,78.52,144c3-2.13,4.45-3.2,5.59-4.5,3-3.37,3.35-6.08,8.06-16.15A25,25,0,0,1,93.83,120c.44.18-15.85,40.1-14.76,40.57.79.34,10.64-19.29,18.08-28.21.51-.62,0,0,8.66-9,2-2.13,3.12-3.27,3.53-3,.82.5-1,6.79-4.08,12.24-1,1.78-2,3.17-1.84,5.16a14.34,14.34,0,0,0,1.82,5h0"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 122,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 121,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-t",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-t",
+                                            d: "M129.79,102a232.1,232.1,0,0,0-12.17,24.34A86.27,86.27,0,0,0,113.19,139c-1.94,7.5-1.07,8.53-2,13.1a9.47,9.47,0,0,0,0,3.69c.21,1,.34,1.7.74,1.84,1,.36,3.06-2.89,6.45-8.67,3.89-6.62,5.85-9.93,5.9-10.32,1.6-10.79-20.31-20.89-18.44-24.72.5-1,2-.27,10.33-.73,7-.39,9.41-1.08,15.68-.93,2.52.07,4.57.24,5.9.37"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 125,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 124,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-i",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-i",
+                                            d: "M114.11,154.15c4.45-6,7.66-11.07,9.78-14.57l7.19-12c2.84-4.73,4.26-7.09,4.42-7,.5.27-7.74,23.58-12,30.06-.31.47-1.2,1.78-.74,2.77.61,1.31,3.45,1.79,5.15.72s1.92-3.27,2-4.41c1.16-11.24-2.55-30.13,2-32.64,1.83-1,4.07,1.12,6.09-.55a5.67,5.67,0,0,0,1.48-5.37,6,6,0,0,0-1.3-2.56"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 128,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 127,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-f",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-f",
+                                            d: "M125.92,152.33a175.75,175.75,0,0,1,12.17-13.12c2.08-2,5-4.9,9.22-8.48,5.47-4.68,6.82-5.24,9.77-8.49a87.72,87.72,0,0,0,6.45-8.85,72.16,72.16,0,0,0,6.27-10.33c3.33-6.93,2.56-8.86,2-9.68a3.89,3.89,0,0,0-3.24-1.92c-2.12.14-2.81,2.89-6.36,8.65-2.52,4.11-2.63,3.47-5.34,7.93-2,3.23-3.25,5.76-4.61,8.49-.91,1.79-2.82,5.61-4.62,10-1.72,4.18-3.14,9-5.9,18.63-6.13,21.3-1.44,8.1-4.05,17.52a18.08,18.08,0,0,0-.19,8.11c.63,2.95,1.65,3.74,2.22,4.06a4.17,4.17,0,0,0,3.87,0c.79-.44,1.89-1.46,2.76-9.77.53-5,.79-7.5.37-10.15a68.18,68.18,0,0,0-1.47-7.19c-.75-2.6-1.23-3.43-.74-4.42.75-1.53,2.5-.86,6.09-3a21.64,21.64,0,0,0,4.05-3.14,23.44,23.44,0,0,0,2.21-2.47"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 131,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 130,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-it",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-3 mask",
+                                            id: "mask-it",
+                                            d: "M146,144.56a75.64,75.64,0,0,0,10.58-9c3.22-3.33,6-6.83,7.3-8.5,2.44-3.1,4.9-6.51,5-6.46S160,138.07,156.53,146.4c-.53,1.28-1.63,4-.37,5.9a3.34,3.34,0,0,0,2.58,1.48c.77,0,1.71-.33,4.06-3.14a30.09,30.09,0,0,0,3.32-4.61c3.69-7.13-1.8-18.86,2.58-30.06a23.88,23.88,0,0,1,3.47-6"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 134,
+                                            columnNumber: 4
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 133,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-ct",
+                                        "data-name": "mask-c",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-3 mask",
+                                            id: "mask-ct",
+                                            d: "M161,152.3a67.41,67.41,0,0,0,8.67-11.43,38.44,38.44,0,0,1,2.12-3.38c1.86-2.64,2.64-3.05,5.26-6.21,1.88-2.28,2-2.66,4.24-5.35s3.14-3.42,4.24-3.87c.4-.17,3.62-1.45,5.35.18,1.35,1.28,1,3.58.92,3.88-.29,1.62-1.16,1.78-2,4.24a6.05,6.05,0,0,0-.55,2.95c.25,2,1.84,3,1.64,3.26-.47.64-8.31-6.42-12-4.37-1.08.6-.4,1.22-3.13,7.56a10.9,10.9,0,0,0-1.3,5.17,6.21,6.21,0,0,0,.74,2.95c1.4,2.4,4.32,2.85,5,3a8.13,8.13,0,0,0,5.72-1.29c2.26-1.64,1.23-3,3.76-5.11,1.37-1.12,2.42-1.31,4.54-3.19.63-.57,1.12-1.07,1.44-1.41"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 137,
+                                            columnNumber: 4
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 136,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-a",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-a",
+                                            d: "M185.66,149a31.44,31.44,0,0,0,9.61-8.06c1.7-2.18,2.19-3.49,4.78-6.51,1.19-1.38,1.4-1.48,5.9-5.9,4.85-4.76,5.53-5.56,7.37-6.27,1.26-.48,4.07-1.55,6.46-.18,2.18,1.25,2.86,3.89,3.13,5,.06.23.74,2.87.19,3.13-1.63.77-9.35-21.37-16-20.65-7.26.78-7,27.76-9.22,38.17a3.63,3.63,0,0,0,.37,2.95,3.42,3.42,0,0,0,3.88.74c1.5-.72,1.39-2.37,2.58-4.79.62-1.28.84-1.2,5.16-5.91a77.65,77.65,0,0,0,5.9-6.82c1.61-2.22,2.43-3.77,2.58-3.69.35.18-3.6,8.27-6.27,18.81-.26,1-.94,3.81-.36,4.06.73.32,2.66-3.84,7.19-8.48a42,42,0,0,1,3.87-3.51"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 140,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 139,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-tt",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-tt",
+                                            d: "M214.06,149.54a52.33,52.33,0,0,0,14-12.07,51.53,51.53,0,0,0,5.21-7.85c2.36-4.41,3.13-7.44,4.43-11.25a82.27,82.27,0,0,1,7.56-16.6c.1,0-14.47,40.94-18.26,51.82-.69,2-1.5,4.36-.76,4.86,1.15.78,6-3,8.32-8.18a19.59,19.59,0,0,0,1.48-5.16c1.41-12.13-16.4-26.29-13.46-31.17,1.07-1.78,4.27-1.26,12.54-.73,10,.64,18.19.71,23.76.67"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 143,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 142,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-et",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-et",
+                                            d: "M228.08,155.25c3.92-8.36,8.41-11.49,11.89-12.76,3-1.1,5.7-1,10.05-3.47a27.32,27.32,0,0,0,6.64-5.53c2.26-2.56,4.18-4.73,4.43-7.93,0-.22.32-4.75-1.95-5.85s-6.19,2.19-7.83,4c-1.95,2.17-1.79,3.26-5,8.3-2,3.12-2,2.69-2.86,4.21-2.66,4.86-3.85,12.42-.82,14.6,1.18.85,2.88.52,6.27-.14a22.35,22.35,0,0,0,8.85-3.55,26.37,26.37,0,0,0,5-4.61c.55-.68,1.27-1.65,2.58-3.14.9-1,1.67-1.84,2.2-2.38"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 146,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 145,
+                                        columnNumber: 3
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
+                                        id: "mask-cert-s",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            class: "cls-2 mask",
+                                            id: "mask-s",
+                                            d: "M250.68,150.06c6.1-4.91,10.79-8.81,13.94-11.47,8-6.79,5.83-5.27,7.35-6.39a29.76,29.76,0,0,0,5.16-4.79c1.48-1.76,2.31-2.75,2-3.56-.65-1.69-6.12-2.2-8.18.24-1,1.2-.91,2.77-.83,4.24.87,14.53,0,12.68.93,17.15.95,4.65,1.68,5.66,2,9.77a21.68,21.68,0,0,1-.36,7.19c-.62,2.59-1.22,5.06-3.51,6.83a9.22,9.22,0,0,1-7.16,1.55c-1-.21-3.66-.74-4.83-2.84-1.39-2.52.18-5.7,1.3-7.93,1.59-3.2,3.42-5,5.9-7.56,8.47-8.75,8-9.37,13.83-14.57,2.57-2.31,4.8-4.11,6.36-5.33"
+                                        }, void 0, false, {
+                                            fileName: "src/components/certificate/Certificate.jsx",
+                                            lineNumber: 149,
+                                            columnNumber: 5
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 148,
+                                        columnNumber: 3
                                     }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 113,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/certificate/Certificate.jsx",
+                        lineNumber: 108,
+                        columnNumber: 2
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                        id: "text",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "c",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-c)",
+                                    id: "cert-char-c",
+                                    class: "cls-1",
+                                    d: "M65.14,97.17C58,88.58,46,92.11,39,99a70,70,0,0,0-21.3,40.54c-3.37,12.63,2.52,37.08,19.66,27.37,3.25-.72,29.85-37.39,21.37-33.9-4.49,7.1-20.63,36.33-29.89,31.52-12.78-21,6.09-62.18,29.47-67.66-1.37,4.41-3.17,9-2.91,13.63-.29,4.33,8.26,10.32,5.86,2.42C60.66,107.34,65.91,102.17,65.14,97.17Z"
                                 }, void 0, false, {
                                     fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 113,
+                                    lineNumber: 157,
+                                    columnNumber: 5
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 156,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "e",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-e)",
+                                    id: "cert-char-e",
+                                    class: "cls-1",
+                                    d: "M85.09,132.59c-1.53,7.85-28.74,30.6-22.64,9.8,34.93-14.06,8.71-41.38-6-5-6.4,23.41,17.29,17.08,26.13,4C84.05,140.24,90.77,129.15,85.09,132.59Zm-8.66-9.65c1,7.12-6.66,12.78-12.35,15.69l-.14-.14C66.8,132.68,70,125.34,76.43,122.94Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 160,
                                     columnNumber: 4
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-e",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-e",
-                                        d: "M46.62,154c6.53-11.64,10.19-13.9,12.35-13.64a12.79,12.79,0,0,0,2.22.18c.88,0,3-.17,6.63-2.21a23.56,23.56,0,0,0,7.2-5.9c2-2.54,3.66-4.57,3.32-7.2a5.45,5.45,0,0,0-3.14-4.42c-2.36-.87-4.9,1.44-6.82,3.13-3.72,3.28-5.36,7-7,10.7-1.19,2.68-.13,1-2.95,9.77-.5,1.55-.93,2.86-.37,4.24.93,2.28,3.86,3,4.61,3.14,2.23.45,4-.21,6.27-1.11A27.46,27.46,0,0,0,78.52,144c.9-.9,1.59-1.69,2-2.21"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 117,
-                                        columnNumber: 5
-                                    }, this)
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 159,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "r",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-r)",
+                                    id: "cert-char-r",
+                                    class: "cls-1",
+                                    d: "M110.8,121.66c-1.56-2-4.49-3.1-5.65-.28-5,6.23-10.66,11.72-15.3,18.24,1-5.47,5.26-10.76,5.4-16.18-1-1.57-4-4.2-5.47-2a154.43,154.43,0,0,0-9.73,25.2c-.26,3.47-4.82,10.63-1.35,12.82,1.29.58,3,.87,3.48-.82,5.32-8.85,11.18-19.45,17.89-27.08.24-.26.48-.54.71-.82l.15.07c-1.48,4.06.25,13.8,6,11.54a1.24,1.24,0,0,0-.42-1.46c-1.41-2,.58-4.77.81-7C107.77,129.8,111.42,125.57,110.8,121.66Z"
                                 }, void 0, false, {
                                     fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 116,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-r",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-r",
-                                        d: "M65.8,151.56A83.48,83.48,0,0,0,78.52,144c3-2.13,4.45-3.2,5.59-4.5,3-3.37,3.35-6.08,8.06-16.15A25,25,0,0,1,93.83,120c.44.18-15.85,40.1-14.76,40.57.79.34,10.64-19.29,18.08-28.21.51-.62,0,0,8.66-9,2-2.13,3.12-3.27,3.53-3,.82.5-1,6.79-4.08,12.24-1,1.78-2,3.17-1.84,5.16a14.34,14.34,0,0,0,1.82,5h0"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 120,
-                                        columnNumber: 5
-                                    }, this)
+                                    lineNumber: 163,
+                                    columnNumber: 4
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 162,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "t",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-t)",
+                                    id: "cert-char-t",
+                                    class: "cls-1",
+                                    d: "M129.18,109.73c.32-.74,2-3.22,1.81-4-.55-1.59-3.37-2.86-4.82-2.45-2.53,1.2-3,5.65-5.51,6.82-2.91.28-6.41.08-9.12,1-1.51,5.21,3.15,5.24,6.92,4.4-3.86,8.19-7.43,16.56-9.37,25.42-1.52,5.68-4.26,24.26,6.46,15.34,3.19-4,7.62-13,10.16-17.47.34-1.07,4.9-6.82,1.06-6-2.61.92-3.24,4.26-4.9,6.25-.4.36-7.4,12.58-7.88,12.07,2.1-12.66,7.4-24.38,12.64-36,5.15-1.39,11.7,2,16.12-.43C142.09,109.43,133.15,110.56,129.18,109.73Z"
                                 }, void 0, false, {
                                     fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 119,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-t",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-t",
-                                        d: "M129.79,102a232.1,232.1,0,0,0-12.17,24.34A86.27,86.27,0,0,0,113.19,139c-1.94,7.5-1.07,8.53-2,13.1a9.47,9.47,0,0,0,0,3.69c.21,1,.34,1.7.74,1.84,1,.36,3.06-2.89,6.45-8.67,3.89-6.62,5.85-9.93,5.9-10.32,1.6-10.79-20.31-20.89-18.44-24.72.5-1,2-.27,10.33-.73,7-.39,9.41-1.08,15.68-.93,2.52.07,4.57.24,5.9.37"
+                                    lineNumber: 166,
+                                    columnNumber: 4
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 165,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "i",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        mask: "url(#mask-cert-i)",
+                                        id: "cert-char-i",
+                                        class: "cls-1",
+                                        d: "M139.05,118.25c0-2.33,3.07-4.31,2.35-6.46-3.92-5.34-5.55-.73-6.39,3.41C134.53,117,138.08,120.55,139.05,118.25Z"
                                     }, void 0, false, {
                                         fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 123,
-                                        columnNumber: 5
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 122,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-i",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-i",
-                                        d: "M114.11,154.15c4.45-6,7.66-11.07,9.78-14.57l7.19-12c2.84-4.73,4.26-7.09,4.42-7,.5.27-7.74,23.58-12,30.06-.31.47-1.2,1.78-.74,2.77.61,1.31,3.45,1.79,5.15.72s1.92-3.27,2-4.41c1.16-11.24-2.55-30.13,2-32.64,1.83-1,4.07,1.12,6.09-.55a5.67,5.67,0,0,0,1.48-5.37,6,6,0,0,0-1.3-2.56"
+                                        lineNumber: 169,
+                                        columnNumber: 4
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        mask: "url(#mask-cert-i)",
+                                        id: "cert-char-i",
+                                        class: "cls-1",
+                                        d: "M141.18,133.66c-4.76,6.47-9.53,13-15.26,18.67,1.65-9.18,5.78-18.42,9.65-26.91.46-1.06.43-1.3-.35-2.13-6.5-7.6-16,24.07-14.13,28.62,1.66,6.26,8.44,2.37,10.51-1.57l11.93-16.54A6.1,6.1,0,0,0,144,133C142.8,131.62,142,132.58,141.18,133.66Z"
                                     }, void 0, false, {
                                         fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 126,
-                                        columnNumber: 5
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 125,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-f",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-f",
-                                        d: "M125.92,152.33a175.75,175.75,0,0,1,12.17-13.12c2.08-2,5-4.9,9.22-8.48,5.47-4.68,6.82-5.24,9.77-8.49a87.72,87.72,0,0,0,6.45-8.85,72.16,72.16,0,0,0,6.27-10.33c3.33-6.93,2.56-8.86,2-9.68a3.89,3.89,0,0,0-3.24-1.92c-2.12.14-2.81,2.89-6.36,8.65-2.52,4.11-2.63,3.47-5.34,7.93-2,3.23-3.25,5.76-4.61,8.49-.91,1.79-2.82,5.61-4.62,10-1.72,4.18-3.14,9-5.9,18.63-6.13,21.3-1.44,8.1-4.05,17.52a18.08,18.08,0,0,0-.19,8.11c.63,2.95,1.65,3.74,2.22,4.06a4.17,4.17,0,0,0,3.87,0c.79-.44,1.89-1.46,2.76-9.77.53-5,.79-7.5.37-10.15a68.18,68.18,0,0,0-1.47-7.19c-.75-2.6-1.23-3.43-.74-4.42.75-1.53,2.5-.86,6.09-3a21.64,21.64,0,0,0,4.05-3.14,23.44,23.44,0,0,0,2.21-2.47"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 129,
-                                        columnNumber: 5
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 128,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-it",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-3 mask",
-                                        id: "mask-it",
-                                        d: "M146,144.56a75.64,75.64,0,0,0,10.58-9c3.22-3.33,6-6.83,7.3-8.5,2.44-3.1,4.9-6.51,5-6.46S160,138.07,156.53,146.4c-.53,1.28-1.63,4-.37,5.9a3.34,3.34,0,0,0,2.58,1.48c.77,0,1.71-.33,4.06-3.14a30.09,30.09,0,0,0,3.32-4.61c3.69-7.13-1.8-18.86,2.58-30.06a23.88,23.88,0,0,1,3.47-6"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 132,
+                                        lineNumber: 170,
                                         columnNumber: 4
                                     }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 168,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "f",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-f)",
+                                    id: "cert-char-f",
+                                    class: "cls-1",
+                                    d: "M170.08,91.2c-12.51.66-28.69,40.88-32,52.47-15.69,51.9,22.59,38.62,8.94,1.28,1.68-1.3,18-12.86,10.8-12.36a75.35,75.35,0,0,1-12.22,10.16c1.66-10.49,11.19-16.09,16.69-24.57C165.89,112,177.67,97.36,170.08,91.2Zm-29.39,81.87c-1.51-8.47.88-16.75,3.05-24.86,0,0,.3-.12.35-.14C145.64,157,145,165.05,140.69,173.07Zm29.39-79.53c-.72,12.15-9.89,23.38-17.89,32C156.29,114,161.8,102.69,170.08,93.54Z"
                                 }, void 0, false, {
                                     fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 131,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-ct",
-                                    "data-name": "mask-c",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-3 mask",
-                                        id: "mask-ct",
-                                        d: "M161,152.3a67.41,67.41,0,0,0,8.67-11.43,38.44,38.44,0,0,1,2.12-3.38c1.86-2.64,2.64-3.05,5.26-6.21,1.88-2.28,2-2.66,4.24-5.35s3.14-3.42,4.24-3.87c.4-.17,3.62-1.45,5.35.18,1.35,1.28,1,3.58.92,3.88-.29,1.62-1.16,1.78-2,4.24a6.05,6.05,0,0,0-.55,2.95c.25,2,1.84,3,1.64,3.26-.47.64-8.31-6.42-12-4.37-1.08.6-.4,1.22-3.13,7.56a10.9,10.9,0,0,0-1.3,5.17,6.21,6.21,0,0,0,.74,2.95c1.4,2.4,4.32,2.85,5,3a8.13,8.13,0,0,0,5.72-1.29c2.26-1.64,1.23-3,3.76-5.11,1.37-1.12,2.42-1.31,4.54-3.19.63-.57,1.12-1.07,1.44-1.41"
+                                    lineNumber: 173,
+                                    columnNumber: 4
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/certificate/Certificate.jsx",
+                                lineNumber: 172,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "i2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        mask: "url(#mask-cert-it)",
+                                        id: "cert-char-it",
+                                        class: "cls-1",
+                                        d: "M171.57,118.25c0-2.33,3.06-4.31,2.34-6.46-3.91-5.34-5.54-.73-6.39,3.41C167.05,117,170.6,120.55,171.57,118.25Z"
                                     }, void 0, false, {
                                         fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 135,
+                                        lineNumber: 176,
+                                        columnNumber: 4
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        mask: "url(#mask-cert-it)",
+                                        id: "cert-char-it",
+                                        class: "cls-1",
+                                        d: "M173.7,133.66c-4.77,6.47-9.54,13-15.27,18.67,1.66-9.18,5.79-18.42,9.66-26.91.45-1.06.43-1.3-.36-2.13-6.49-7.6-16,24.07-14.13,28.62,1.67,6.26,8.44,2.38,10.51-1.57L176,133.8a6,6,0,0,0,.5-.85C175.32,131.62,174.5,132.58,173.7,133.66Z"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificate/Certificate.jsx",
+                                        lineNumber: 177,
                                         columnNumber: 4
                                     }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 134,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-a",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-a",
-                                        d: "M185.66,149a31.44,31.44,0,0,0,9.61-8.06c1.7-2.18,2.19-3.49,4.78-6.51,1.19-1.38,1.4-1.48,5.9-5.9,4.85-4.76,5.53-5.56,7.37-6.27,1.26-.48,4.07-1.55,6.46-.18,2.18,1.25,2.86,3.89,3.13,5,.06.23.74,2.87.19,3.13-1.63.77-9.35-21.37-16-20.65-7.26.78-7,27.76-9.22,38.17a3.63,3.63,0,0,0,.37,2.95,3.42,3.42,0,0,0,3.88.74c1.5-.72,1.39-2.37,2.58-4.79.62-1.28.84-1.2,5.16-5.91a77.65,77.65,0,0,0,5.9-6.82c1.61-2.22,2.43-3.77,2.58-3.69.35.18-3.6,8.27-6.27,18.81-.26,1-.94,3.81-.36,4.06.73.32,2.66-3.84,7.19-8.48a42,42,0,0,1,3.87-3.51"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 138,
-                                        columnNumber: 5
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 137,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-tt",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-tt",
-                                        d: "M214.06,149.54a52.33,52.33,0,0,0,14-12.07,51.53,51.53,0,0,0,5.21-7.85c2.36-4.41,3.13-7.44,4.43-11.25a82.27,82.27,0,0,1,7.56-16.6c.1,0-14.47,40.94-18.26,51.82-.69,2-1.5,4.36-.76,4.86,1.15.78,6-3,8.32-8.18a19.59,19.59,0,0,0,1.48-5.16c1.41-12.13-16.4-26.29-13.46-31.17,1.07-1.78,4.27-1.26,12.54-.73,10,.64,18.19.71,23.76.67"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 141,
-                                        columnNumber: 5
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 140,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-et",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-et",
-                                        d: "M228.08,155.25c3.92-8.36,8.41-11.49,11.89-12.76,3-1.1,5.7-1,10.05-3.47a27.32,27.32,0,0,0,6.64-5.53c2.26-2.56,4.18-4.73,4.43-7.93,0-.22.32-4.75-1.95-5.85s-6.19,2.19-7.83,4c-1.95,2.17-1.79,3.26-5,8.3-2,3.12-2,2.69-2.86,4.21-2.66,4.86-3.85,12.42-.82,14.6,1.18.85,2.88.52,6.27-.14a22.35,22.35,0,0,0,8.85-3.55,26.37,26.37,0,0,0,5-4.61c.55-.68,1.27-1.65,2.58-3.14.9-1,1.67-1.84,2.2-2.38"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 144,
-                                        columnNumber: 5
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 143,
-                                    columnNumber: 3
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("mask", {
-                                    id: "mask-cert-s",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        class: "cls-2 mask",
-                                        id: "mask-s",
-                                        d: "M250.68,150.06c6.1-4.91,10.79-8.81,13.94-11.47,8-6.79,5.83-5.27,7.35-6.39a29.76,29.76,0,0,0,5.16-4.79c1.48-1.76,2.31-2.75,2-3.56-.65-1.69-6.12-2.2-8.18.24-1,1.2-.91,2.77-.83,4.24.87,14.53,0,12.68.93,17.15.95,4.65,1.68,5.66,2,9.77a21.68,21.68,0,0,1-.36,7.19c-.62,2.59-1.22,5.06-3.51,6.83a9.22,9.22,0,0,1-7.16,1.55c-1-.21-3.66-.74-4.83-2.84-1.39-2.52.18-5.7,1.3-7.93,1.59-3.2,3.42-5,5.9-7.56,8.47-8.75,8-9.37,13.83-14.57,2.57-2.31,4.8-4.11,6.36-5.33"
-                                    }, void 0, false, {
-                                        fileName: "src/components/certificate/Certificate.jsx",
-                                        lineNumber: 147,
-                                        columnNumber: 5
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 146,
-                                    columnNumber: 3
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 111,
-                            columnNumber: 9
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/certificate/Certificate.jsx",
-                    lineNumber: 106,
-                    columnNumber: 2
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                    id: "text",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "c",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-c)",
-                                id: "cert-char-c",
-                                class: "cls-1",
-                                d: "M65.14,97.17C58,88.58,46,92.11,39,99a70,70,0,0,0-21.3,40.54c-3.37,12.63,2.52,37.08,19.66,27.37,3.25-.72,29.85-37.39,21.37-33.9-4.49,7.1-20.63,36.33-29.89,31.52-12.78-21,6.09-62.18,29.47-67.66-1.37,4.41-3.17,9-2.91,13.63-.29,4.33,8.26,10.32,5.86,2.42C60.66,107.34,65.91,102.17,65.14,97.17Z"
-                            }, void 0, false, {
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 155,
-                                columnNumber: 5
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 154,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "e",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-e)",
-                                id: "cert-char-e",
-                                class: "cls-1",
-                                d: "M85.09,132.59c-1.53,7.85-28.74,30.6-22.64,9.8,34.93-14.06,8.71-41.38-6-5-6.4,23.41,17.29,17.08,26.13,4C84.05,140.24,90.77,129.15,85.09,132.59Zm-8.66-9.65c1,7.12-6.66,12.78-12.35,15.69l-.14-.14C66.8,132.68,70,125.34,76.43,122.94Z"
-                            }, void 0, false, {
-                                fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 158,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 157,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "r",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-r)",
-                                id: "cert-char-r",
-                                class: "cls-1",
-                                d: "M110.8,121.66c-1.56-2-4.49-3.1-5.65-.28-5,6.23-10.66,11.72-15.3,18.24,1-5.47,5.26-10.76,5.4-16.18-1-1.57-4-4.2-5.47-2a154.43,154.43,0,0,0-9.73,25.2c-.26,3.47-4.82,10.63-1.35,12.82,1.29.58,3,.87,3.48-.82,5.32-8.85,11.18-19.45,17.89-27.08.24-.26.48-.54.71-.82l.15.07c-1.48,4.06.25,13.8,6,11.54a1.24,1.24,0,0,0-.42-1.46c-1.41-2,.58-4.77.81-7C107.77,129.8,111.42,125.57,110.8,121.66Z"
-                            }, void 0, false, {
-                                fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 161,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 160,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "t",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-t)",
-                                id: "cert-char-t",
-                                class: "cls-1",
-                                d: "M129.18,109.73c.32-.74,2-3.22,1.81-4-.55-1.59-3.37-2.86-4.82-2.45-2.53,1.2-3,5.65-5.51,6.82-2.91.28-6.41.08-9.12,1-1.51,5.21,3.15,5.24,6.92,4.4-3.86,8.19-7.43,16.56-9.37,25.42-1.52,5.68-4.26,24.26,6.46,15.34,3.19-4,7.62-13,10.16-17.47.34-1.07,4.9-6.82,1.06-6-2.61.92-3.24,4.26-4.9,6.25-.4.36-7.4,12.58-7.88,12.07,2.1-12.66,7.4-24.38,12.64-36,5.15-1.39,11.7,2,16.12-.43C142.09,109.43,133.15,110.56,129.18,109.73Z"
-                            }, void 0, false, {
-                                fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 164,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 163,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "i",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                    mask: "url(#mask-cert-i)",
-                                    id: "cert-char-i",
+                                lineNumber: 175,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "ct",
+                                "data-name": "c",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-ct)",
+                                    id: "cert-char-ct",
                                     class: "cls-1",
-                                    d: "M139.05,118.25c0-2.33,3.07-4.31,2.35-6.46-3.92-5.34-5.55-.73-6.39,3.41C134.53,117,138.08,120.55,139.05,118.25Z"
+                                    d: "M201.17,132.66c-2.56-.91-9.84,11.92-14.19,13.71-18.17,12.08-8.43-19.27,1.77-22.15-1.1,3.94-3.3,10.7,2.06,12.35,1,.24,1.35-.12,1.06-1.06-.8-4.13,2.2-7.65,2.7-11.51-6.46-12.6-20.41,2.1-22.08,11-4.66,11.64,6.67,22.41,17,13.63C192.14,146.14,203.07,135.63,201.17,132.66Z"
                                 }, void 0, false, {
                                     fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 167,
-                                    columnNumber: 4
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                    mask: "url(#mask-cert-i)",
-                                    id: "cert-char-i",
-                                    class: "cls-1",
-                                    d: "M141.18,133.66c-4.76,6.47-9.53,13-15.26,18.67,1.65-9.18,5.78-18.42,9.65-26.91.46-1.06.43-1.3-.35-2.13-6.5-7.6-16,24.07-14.13,28.62,1.66,6.26,8.44,2.37,10.51-1.57l11.93-16.54A6.1,6.1,0,0,0,144,133C142.8,131.62,142,132.58,141.18,133.66Z"
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 168,
+                                    lineNumber: 180,
                                     columnNumber: 4
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 166,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "f",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-f)",
-                                id: "cert-char-f",
-                                class: "cls-1",
-                                d: "M170.08,91.2c-12.51.66-28.69,40.88-32,52.47-15.69,51.9,22.59,38.62,8.94,1.28,1.68-1.3,18-12.86,10.8-12.36a75.35,75.35,0,0,1-12.22,10.16c1.66-10.49,11.19-16.09,16.69-24.57C165.89,112,177.67,97.36,170.08,91.2Zm-29.39,81.87c-1.51-8.47.88-16.75,3.05-24.86,0,0,.3-.12.35-.14C145.64,157,145,165.05,140.69,173.07Zm29.39-79.53c-.72,12.15-9.89,23.38-17.89,32C156.29,114,161.8,102.69,170.08,93.54Z"
                             }, void 0, false, {
                                 fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 171,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 170,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "i2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                    mask: "url(#mask-cert-it)",
-                                    id: "cert-char-it",
+                                lineNumber: 179,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "a",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-a)",
+                                    id: "cert-char-a",
                                     class: "cls-1",
-                                    d: "M171.57,118.25c0-2.33,3.06-4.31,2.34-6.46-3.91-5.34-5.54-.73-6.39,3.41C167.05,117,170.6,120.55,171.57,118.25Z"
+                                    d: "M230.85,132.24c-2.27,0-12.31,12-14.2,13.13l-.28-.14c.37-4.41,5.6-11.06,3.76-14.77-1.16-1.1-3.86-2.46-4.9-.63-5.12,6.5-9.71,13.49-15.76,19.24.32-9.54,9.66-26,20.41-24.82.58,1.2.53,4.45,2.74,4.16,2.62-1.18.69-5.18-1-6.54-6.2-6.62-15.08-.64-19.27,5.22-5.49,5.31-14.76,29.1-.25,26.09,1.68-1.43,6.33-7,7.88-8.59-.08,2.58-1.9,5.74.21,7.67,1.89,1.38,3.6,1.19,5.11-.57l3.41-4C219.74,145.48,234.3,132.37,230.85,132.24Z"
                                 }, void 0, false, {
                                     fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 174,
-                                    columnNumber: 4
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                    mask: "url(#mask-cert-it)",
-                                    id: "cert-char-it",
-                                    class: "cls-1",
-                                    d: "M173.7,133.66c-4.77,6.47-9.54,13-15.27,18.67,1.66-9.18,5.79-18.42,9.66-26.91.45-1.06.43-1.3-.36-2.13-6.49-7.6-16,24.07-14.13,28.62,1.67,6.26,8.44,2.38,10.51-1.57L176,133.8a6,6,0,0,0,.5-.85C175.32,131.62,174.5,132.58,173.7,133.66Z"
-                                }, void 0, false, {
-                                    fileName: "src/components/certificate/Certificate.jsx",
-                                    lineNumber: 175,
+                                    lineNumber: 183,
                                     columnNumber: 4
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 173,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "ct",
-                            "data-name": "c",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-ct)",
-                                id: "cert-char-ct",
-                                class: "cls-1",
-                                d: "M201.17,132.66c-2.56-.91-9.84,11.92-14.19,13.71-18.17,12.08-8.43-19.27,1.77-22.15-1.1,3.94-3.3,10.7,2.06,12.35,1,.24,1.35-.12,1.06-1.06-.8-4.13,2.2-7.65,2.7-11.51-6.46-12.6-20.41,2.1-22.08,11-4.66,11.64,6.67,22.41,17,13.63C192.14,146.14,203.07,135.63,201.17,132.66Z"
                             }, void 0, false, {
                                 fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 178,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 177,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "a",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-a)",
-                                id: "cert-char-a",
-                                class: "cls-1",
-                                d: "M230.85,132.24c-2.27,0-12.31,12-14.2,13.13l-.28-.14c.37-4.41,5.6-11.06,3.76-14.77-1.16-1.1-3.86-2.46-4.9-.63-5.12,6.5-9.71,13.49-15.76,19.24.32-9.54,9.66-26,20.41-24.82.58,1.2.53,4.45,2.74,4.16,2.62-1.18.69-5.18-1-6.54-6.2-6.62-15.08-.64-19.27,5.22-5.49,5.31-14.76,29.1-.25,26.09,1.68-1.43,6.33-7,7.88-8.59-.08,2.58-1.9,5.74.21,7.67,1.89,1.38,3.6,1.19,5.11-.57l3.41-4C219.74,145.48,234.3,132.37,230.85,132.24Z"
+                                lineNumber: 182,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "t-2",
+                                "data-name": "t",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-tt)",
+                                    id: "cert-char-tt",
+                                    class: "cls-1",
+                                    d: "M245.48,109.73c.31-.74,2-3.22,1.81-4-.56-1.59-3.37-2.86-4.83-2.45-2.52,1.19-3.05,5.65-5.5,6.82-2.92.28-6.41.08-9.13,1-1.51,5.21,3.16,5.24,6.93,4.4-3.86,8.19-7.43,16.56-9.37,25.42-1.53,5.68-4.27,24.26,6.46,15.34,3.18-4,7.61-13,10.15-17.47.34-1.07,4.9-6.82,1.06-6-2.61.92-3.24,4.26-4.9,6.25-.4.36-7.4,12.58-7.88,12.07,2.11-12.66,7.4-24.38,12.64-36,5.15-1.39,11.71,2,16.12-.43C258.38,109.43,249.44,110.56,245.48,109.73Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 186,
+                                    columnNumber: 4
+                                }, this)
                             }, void 0, false, {
                                 fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 181,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 180,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "t-2",
-                            "data-name": "t",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-tt)",
-                                id: "cert-char-tt",
-                                class: "cls-1",
-                                d: "M245.48,109.73c.31-.74,2-3.22,1.81-4-.56-1.59-3.37-2.86-4.83-2.45-2.52,1.19-3.05,5.65-5.5,6.82-2.92.28-6.41.08-9.13,1-1.51,5.21,3.16,5.24,6.93,4.4-3.86,8.19-7.43,16.56-9.37,25.42-1.53,5.68-4.27,24.26,6.46,15.34,3.18-4,7.61-13,10.15-17.47.34-1.07,4.9-6.82,1.06-6-2.61.92-3.24,4.26-4.9,6.25-.4.36-7.4,12.58-7.88,12.07,2.11-12.66,7.4-24.38,12.64-36,5.15-1.39,11.71,2,16.12-.43C258.38,109.43,249.44,110.56,245.48,109.73Z"
+                                lineNumber: 185,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "e-2",
+                                "data-name": "e",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-et)",
+                                    id: "cert-char-et",
+                                    class: "cls-1",
+                                    d: "M268.13,132.59c-1.54,7.85-28.75,30.6-22.65,9.8,34.93-14.06,8.72-41.38-6-5-6.4,23.41,17.29,17.08,26.13,4C267.08,140.24,273.8,129.15,268.13,132.59Zm-8.67-9.65c1,7.12-6.66,12.78-12.35,15.69l-.14-.14C249.83,132.68,253,125.34,259.46,122.94Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 189,
+                                    columnNumber: 4
+                                }, this)
                             }, void 0, false, {
                                 fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 184,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 183,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "e-2",
-                            "data-name": "e",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-et)",
-                                id: "cert-char-et",
-                                class: "cls-1",
-                                d: "M268.13,132.59c-1.54,7.85-28.75,30.6-22.65,9.8,34.93-14.06,8.72-41.38-6-5-6.4,23.41,17.29,17.08,26.13,4C267.08,140.24,273.8,129.15,268.13,132.59Zm-8.67-9.65c1,7.12-6.66,12.78-12.35,15.69l-.14-.14C249.83,132.68,253,125.34,259.46,122.94Z"
+                                lineNumber: 188,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                                id: "s",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    mask: "url(#mask-cert-s)",
+                                    id: "cert-char-s",
+                                    class: "cls-1",
+                                    d: "M284.6,132.59c-2.26-1.72-9.45,7.28-11.5,8.45-.51-4.27.42-7.76,1.91-11.71.71,1.87,7.42,4.23,5.18,1-2.92-3.09,1.71-8.86-4.61-9.58-9.19,3.16-8.3,16.93-7.77,24.88-5.16,6.87-13.56,13.69-13.1,23.11,3.52,11.24,22.51,3.94,21.72-6.53,1.32-6.09-3.22-12.32-2-17.89C274.55,143.52,287.53,133,284.6,132.59Zm-23,38.34c-4.1-6.64,3.32-14.92,7.27-20.09C270,157.84,270.29,169.25,261.56,170.93Z"
+                                }, void 0, false, {
+                                    fileName: "src/components/certificate/Certificate.jsx",
+                                    lineNumber: 192,
+                                    columnNumber: 4
+                                }, this)
                             }, void 0, false, {
                                 fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 187,
-                                columnNumber: 4
+                                lineNumber: 191,
+                                columnNumber: 3
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 186,
-                            columnNumber: 3
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
-                            id: "s",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                mask: "url(#mask-cert-s)",
-                                id: "cert-char-s",
-                                class: "cls-1",
-                                d: "M284.6,132.59c-2.26-1.72-9.45,7.28-11.5,8.45-.51-4.27.42-7.76,1.91-11.71.71,1.87,7.42,4.23,5.18,1-2.92-3.09,1.71-8.86-4.61-9.58-9.19,3.16-8.3,16.93-7.77,24.88-5.16,6.87-13.56,13.69-13.1,23.11,3.52,11.24,22.51,3.94,21.72-6.53,1.32-6.09-3.22-12.32-2-17.89C274.55,143.52,287.53,133,284.6,132.59Zm-23,38.34c-4.1-6.64,3.32-14.92,7.27-20.09C270,157.84,270.29,169.25,261.56,170.93Z"
-                            }, void 0, false, {
-                                fileName: "src/components/certificate/Certificate.jsx",
-                                lineNumber: 190,
-                                columnNumber: 4
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/certificate/Certificate.jsx",
-                            lineNumber: 189,
-                            columnNumber: 3
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/certificate/Certificate.jsx",
-                    lineNumber: 153,
-                    columnNumber: 2
-                }, this)
-            ]
-        }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/certificate/Certificate.jsx",
+                        lineNumber: 155,
+                        columnNumber: 2
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/certificate/Certificate.jsx",
+                lineNumber: 106,
+                columnNumber: 1
+            }, this)
+        }, void 0, false, {
             fileName: "src/components/certificate/Certificate.jsx",
             lineNumber: 104,
-            columnNumber: 1
+            columnNumber: 2
         }, this)
     }, void 0, false, {
         fileName: "src/components/certificate/Certificate.jsx",
@@ -65383,16 +66640,16 @@ function Contact() {
         observer.observe(contactSideNav.current);
         return ()=>{};
     }, []);
-    if (contactSideNavIntersecting == true) {
-        contactTitle.classList.add("active");
-        contactTitle.classList.remove("reveal");
-    }
-    if (contactSideNavIntersecting == false) {
-        if (contactTitle.classList.contains("active")) {
-            contactTitle.classList.remove("active");
-            contactTitle.classList.add("reveal");
-        }
-    }
+    // if(contactSideNavIntersecting == true){
+    //   contactTitle.classList.add("active");
+    //   contactTitle.classList.remove("reveal");
+    // }
+    // if (contactSideNavIntersecting == false) {
+    //   if(contactTitle.classList.contains("active")){
+    //   contactTitle.classList.remove("active");
+    //   contactTitle.classList.add("reveal");
+    //   }
+    // }
     const SERVICE_ID = "service_dxgkupe";
     const TEMPLATE_ID = "template_rczwl7p";
     const USER_ID = "EN8tmj-G93IuOAs-N";
@@ -65415,113 +66672,120 @@ function Contact() {
         e.target.reset();
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        ref: contactSideNav,
-        className: "contactBox",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "formHeader",
-                children: "Contact Me"
-            }, void 0, false, {
-                fileName: "src/components/contact/Contact.jsx",
-                lineNumber: 73,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "form",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                    onSubmit: handleOnSubmit,
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                            id: "form-input-control-email",
-                            label: "Email",
-                            name: "user_email",
-                            placeholder: "Email…",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 76,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                            id: "form-input-control-last-name",
-                            label: "Name",
-                            name: "user_name",
-                            placeholder: "Name…",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 85,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                            id: "form-input-control-subject",
-                            label: "Subject",
-                            name: "subject",
-                            placeholder: "Subject…",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 94,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 103,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 104,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                            id: "form-textarea-control-opinion",
-                            rows: 8,
-                            label: "Message",
-                            name: "user_message",
-                            placeholder: "Message…",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 105,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 114,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 115,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "formSubmit",
-                            type: "submit",
-                            color: "green",
-                            children: "Submit"
-                        }, void 0, false, {
-                            fileName: "src/components/contact/Contact.jsx",
-                            lineNumber: 116,
-                            columnNumber: 9
-                        }, this)
-                    ]
-                }, void 0, true, {
+        className: "contactContainer",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            ref: contactSideNav,
+            className: "contactBox",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "formHeader",
+                    children: "Contact Me"
+                }, void 0, false, {
+                    fileName: "src/components/contact/Contact.jsx",
+                    lineNumber: 74,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "form",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        onSubmit: handleOnSubmit,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                id: "form-input-control-email",
+                                label: "Email",
+                                name: "user_email",
+                                placeholder: "Email…",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 77,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                id: "form-input-control-last-name",
+                                label: "Name",
+                                name: "user_name",
+                                placeholder: "Name…",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 86,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                id: "form-input-control-subject",
+                                label: "Subject",
+                                name: "subject",
+                                placeholder: "Subject…",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 95,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 104,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 105,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                id: "form-textarea-control-opinion",
+                                rows: 8,
+                                label: "Message",
+                                name: "user_message",
+                                placeholder: "Message…",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 106,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 115,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 116,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "formSubmit",
+                                type: "submit",
+                                color: "green",
+                                children: "Submit"
+                            }, void 0, false, {
+                                fileName: "src/components/contact/Contact.jsx",
+                                lineNumber: 117,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/contact/Contact.jsx",
+                        lineNumber: 76,
+                        columnNumber: 8
+                    }, this)
+                }, void 0, false, {
                     fileName: "src/components/contact/Contact.jsx",
                     lineNumber: 75,
-                    columnNumber: 8
+                    columnNumber: 7
                 }, this)
-            }, void 0, false, {
-                fileName: "src/components/contact/Contact.jsx",
-                lineNumber: 74,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+            ]
+        }, void 0, true, {
+            fileName: "src/components/contact/Contact.jsx",
+            lineNumber: 73,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "src/components/contact/Contact.jsx",
-        lineNumber: 71,
-        columnNumber: 5
+        lineNumber: 72,
+        columnNumber: 7
     }, this);
 }
 exports.default = Contact;
@@ -68689,149 +69953,174 @@ var _certSvgDefault = parcelHelpers.interopDefault(_certSvg);
 var _certificate = require("../certificate/Certificate");
 var _certificateDefault = parcelHelpers.interopDefault(_certificate);
 function Education() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "certBox",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "cert",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "adobe",
+            className: "certificateContainer",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _certificateDefault.default), {}, void 0, false, {
+                    fileName: "src/components/certificateText/CertificateText.jsx",
+                    lineNumber: 18,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    fileName: "src/components/certificateText/CertificateText.jsx",
+                    lineNumber: 20,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    fileName: "src/components/certificateText/CertificateText.jsx",
+                    lineNumber: 21,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    fileName: "src/components/certificateText/CertificateText.jsx",
+                    lineNumber: 22,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "certificateListContainer",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "certificationBox",
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "Adobe"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "adobe",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Adobe"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 27,
+                                        columnNumber: 5
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Adobe Certified Expert in Photoshop"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 28,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Adobe Certified Expert in InDesign"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 29,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Adobe Certified Expert in PremierePro"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 30,
+                                        columnNumber: 7
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 20,
+                                lineNumber: 26,
                                 columnNumber: 5
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Adobe Certified Expert in Photoshop"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 21,
+                                lineNumber: 32,
+                                columnNumber: 1
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "web",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Web"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 34,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "SEO Search Engine Optimization"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 35,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "CIW Certified Internet Web Associate"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 36,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "CIW Certified Internet Web Professional"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 37,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Microsoft JavaScript Certificate"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 38,
+                                        columnNumber: 7
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/certificateText/CertificateText.jsx",
+                                lineNumber: 33,
+                                columnNumber: 1
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/certificateText/CertificateText.jsx",
+                                lineNumber: 40,
                                 columnNumber: 7
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Adobe Certified Expert in InDesign"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "proManag",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Project Management"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 42,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "ITIL Foundation IT Service Management"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 43,
+                                        columnNumber: 7
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "GPM Basis Certificate"
+                                    }, void 0, false, {
+                                        fileName: "src/components/certificateText/CertificateText.jsx",
+                                        lineNumber: 44,
+                                        columnNumber: 7
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 22,
-                                columnNumber: 7
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Adobe Certified Expert in PremierePro"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 23,
+                                lineNumber: 41,
                                 columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/certificateText/CertificateText.jsx",
-                        lineNumber: 19,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "src/components/certificateText/CertificateText.jsx",
-                        lineNumber: 25,
+                        lineNumber: 24,
                         columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "web",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "Web"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 27,
-                                columnNumber: 7
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "SEO Search Engine Optimization"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 28,
-                                columnNumber: 7
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "CIW Certified Internet Web Associate"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 29,
-                                columnNumber: 7
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "CIW Certified Internet Web Professional"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 30,
-                                columnNumber: 7
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Microsoft JavaScript Certificate"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 31,
-                                columnNumber: 7
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/certificateText/CertificateText.jsx",
-                        lineNumber: 26,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "src/components/certificateText/CertificateText.jsx",
-                        lineNumber: 33,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "proManag",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "Project Management"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 35,
-                                columnNumber: 7
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "ITIL Foundation IT Service Management"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 36,
-                                columnNumber: 7
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "GPM Basis Certificate"
-                            }, void 0, false, {
-                                fileName: "src/components/certificateText/CertificateText.jsx",
-                                lineNumber: 37,
-                                columnNumber: 7
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/certificateText/CertificateText.jsx",
-                        lineNumber: 34,
-                        columnNumber: 7
                     }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/certificateText/CertificateText.jsx",
-                lineNumber: 18,
-                columnNumber: 4
-            }, this)
-        }, void 0, false, {
+                }, void 0, false, {
+                    fileName: "src/components/certificateText/CertificateText.jsx",
+                    lineNumber: 23,
+                    columnNumber: 4
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "src/components/certificateText/CertificateText.jsx",
-            lineNumber: 17,
-            columnNumber: 1
+            lineNumber: 15,
+            columnNumber: 5
         }, this)
-    }, void 0, false, {
-        fileName: "src/components/certificateText/CertificateText.jsx",
-        lineNumber: 14,
-        columnNumber: 3
-    }, this);
+    }, void 0, false);
 }
 exports.default = Education;
 _c = Education;

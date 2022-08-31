@@ -5,17 +5,24 @@ import { useEffect, useState, useRef } from 'react';
 
 
 import cert from "../../assets/cert.svg";
-import Certificates from '../certificate/Certificate';
+import Certificate from '../certificate/Certificate';
 
 export default function Education() {
   
   
   return (
-  <div >
+ <>
+    <div className="certificateContainer">
+   {/* <div className="certificationComp" > */}
    
-
-<div className="certBox">
-   <div className="cert">
+   <Certificate />
+   {/* </div> */}
+   <br/>
+   <br/>
+   <br/>
+   <div className="certificateListContainer">
+<div className="certificationBox">
+   {/* <div className="cert"> */}
     <div className="adobe">
     <h3>Adobe</h3>
       <p>Adobe Certified Expert in Photoshop</p>
@@ -36,9 +43,10 @@ export default function Education() {
       <p>ITIL Foundation IT Service Management</p>
       <p>GPM Basis Certificate</p>
       </div>
-
+</div>
    </div>
-   </div></div>
-   
+   </div>
+  
+  </>
   )
 }

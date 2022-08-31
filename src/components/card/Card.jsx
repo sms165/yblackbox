@@ -28,7 +28,7 @@ class Card extends React.Component {
         style={{
           transform: to(
             [x, y],
-            (x, y) => `translate3d(${x}px,${y}px,0)`
+            (x, y) => `translate3d(${x}px,20px,0)`
           )
         }}
       >

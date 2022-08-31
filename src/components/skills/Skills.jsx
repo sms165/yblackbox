@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col, Container } from 'react-bootstrap';
 import { useEffect } from 'react';
 import '../../sass/style.scss';
 
@@ -53,8 +54,8 @@ function Skills() {
 
 
   if(skillsSideNavIntersecting == true){
-    skillsTitle.classList.add("active");
-    skillsTitle.classList.remove("reveal");
+    // skillsTitle.classList.add("active");
+    // skillsTitle.classList.remove("reveal");
 
     // programming skills
     let html = document.getElementById("html");
@@ -64,7 +65,7 @@ function Skills() {
     let java = document.getElementById("java");
     let javascript = document.getElementById("javascript");
     let python = document.getElementById("python");
-   //  console.log(html);
+     console.log(html);
     html.classList.add("visible");
     csharp.classList.add("visible");
     css.classList.add("visible");
@@ -101,17 +102,17 @@ function Skills() {
   
   
     
-    if(skillsSideNavIntersecting == false){
-        if(skillsTitle.classList.contains("active")){
-    skillsTitle.classList.remove("active");
-    skillsTitle.classList.add("reveal");
-    }}
+    // if(skillsSideNavIntersecting == false){
+    //     if(skillsTitle.classList.contains("active")){
+    // skillsTitle.classList.remove("active");
+    // skillsTitle.classList.add("reveal");
+    // }}
   
   
 //   skillsSideNavIntersecting == false && screenTop>2
     
     const programmingSkills = (language) =>{
-        let detail= document.getElementById('textDetail');
+        let detail= document.getElementById('programmingTextDetail');
        switch (language) {
         case 'csharp':
             detail.innerHTML='<div class="detail"><h1>C#</h1><img class="imageDetail" src="' + cSvg + '"  /></div><div class="text"><br /><p>C# is an object oriented programming language which allows development of cross-platform application for Windows, Web and mobile development.</p><br /><p>I learned C# during my training at Lutz & Grub.</p><br /><p>IDE: VisualStudio</p></div>';   
@@ -166,7 +167,7 @@ function Skills() {
 
 
     const etcSkills = (language) =>{
-        let detail= document.getElementById('etcTextDetail');
+        let detail= document.getElementById('otherSkillsTextDetail');
        switch (language) {
         case 'docker':
             detail.innerHTML='<div class="detail"><h1>Docker</h1><img class="imageDetail" src="' + dockerSvg + '"  /></div><div class="text"><br /><p>Docker allows developers to easily deploy an application in a sandbox, using Os-level virtualization.</p><br /><p>First experience was during my internship at abas Software.</p><p>Used in combination with the Shopware CMS</div>';   
@@ -196,104 +197,301 @@ function Skills() {
 
   return (
     <>
-    <div className='skillsSideNav ' ref={skillsSideNav}>
-    <h2  className='skillsHeader' id='skillsSideNav' >Programming Skills</h2>
-    <div className='skillsProgramming'  >
-        
-    <div className="skills">
-    <li>
-       <h3 className='skillName csharp' onClick={() => programmingSkills('csharp')}>C#</h3><span className="bar"><span className="csharp" id='csharp'></span></span>
-        </li>
-         <li>
-        <h3 className='skillName' onClick={() => programmingSkills('css')}>CSS</h3><span className="bar"><span className="css" id="css"></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => programmingSkills('html')}>HTML</h3><span className="bar"><span className="html" id='html'></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => programmingSkills('java')}>Java</h3><span className="bar"><span className="java" id='java'></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => programmingSkills('javascript')}>JavaScript</h3><span className="bar"><span className="javascript" id='javascript'></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => programmingSkills('php')}>PHP</h3><span className="bar"><span className="php" id='php'></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => programmingSkills('python')}>Python</h3><span className="bar"><span className="python" id='python'></span></span>
-        </li>
-    </div>
-    <div className="skillDetail" id='skillDetail'>
-        <div className="textDetail" id='textDetail'>
-           <h1>Click on a Programming Language to learn more!</h1> 
-        </div>
-        
-    </div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <h2 className='skillsHeader'>Graphic Design Skills</h2>
-     <div className="skillsGraphic">
-        <div className="skills">
-    <li>
-       <h3 className='skillName' onClick={() => graphicDesignSkills('afterEffects')}>AfterEffects</h3><span className="bar"><span className="afterEffects" id='afterEffects'></span></span>
-        </li>
-         <li>
-        <h3 className='skillName' onClick={() => graphicDesignSkills('illustrator')}>Illustrator</h3><span className="bar"><span className="illustrator" id="illustrator"></span></span>
-        </li>
-        <li>     
-        <h3 className='skillName' onClick={() => graphicDesignSkills('indesign')}>InDesign</h3><span className="bar"><span className="indesign" id='indesign'></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => graphicDesignSkills('photoshop')}>Photoshop</h3><span className="bar"><span className="photoshop" id='photoshop'></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => graphicDesignSkills('premierePro')}>PremierePro</h3><span className="bar"><span className="premierePro" id='premierePro'></span></span>
-        </li>
-    </div>
-    <div className="skillDetail" id='skillDetail'>
-        <div className="graphicDesignTextDetail" id='graphicDesignTextDetail'>
-           <h1>Click on a Software name to learn more!</h1> 
-        </div>
-        </div>
-    </div>
+      <div className="skillsContainer">
+        <div className="skillsSideNav " ref={skillsSideNav}>
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <h2 className='skillsHeader'>Other Computer Skills</h2>
-     <div className="skillsEtc">
-        <div className="skills">
-        <li>
-        <h3 className='skillName' onClick={() => etcSkills('docker')}>Docker</h3><span className="bar"><span className="docker" id='docker'></span></span>
-        </li>
-        <li>
-        <h3 className='skillName' onClick={() => etcSkills('git')}>Git</h3><span className="bar"><span className="git" id='git'></span></span>
-        </li>
-        <li>     
-        <h3 className='skillName' onClick={() => etcSkills('microsoft')}>Microsoft Office</h3><span className="bar"><span className="microsoft" id='microsoft'></span></span>
-        </li>
-         <li>
-        <h3 className='skillName' onClick={() => etcSkills('mongodb')}>MongoDB</h3><span className="bar"><span className="mongodb" id="mongodb"></span></span>
-        </li>
-        
-        <li>
-       <h3 className='skillName' onClick={() => etcSkills('phpMyAdmin')}>PHP MyAdmin</h3><span className="bar"><span className="phpMyAdmin" id='phpMyAdmin'></span></span>
-        </li>
-        
-    </div>
-    <div className="skillDetail" id='skillDetail'>
-        <div className="etcTextDetail" id='etcTextDetail'>
-           <h1>Click on name to learn more!</h1> 
-        </div>
-        </div>
-    </div>
+          
+            
+              
+                <h2 className="skillsHeader" id="skillsSideNav">
+                  Programming Skills
+                </h2>
+                <div className="programmingSkillsContainer">
 
-    </div>
+                <div className="programmingChartContainer">
+                
+                    <li>
+                      <h3
+                        className="skillName csharp"
+                        onClick={() => programmingSkills("csharp")}
+                      >
+                        C#
+                      </h3>
+                      <span className="bar">
+                        <span className="csharp" id="csharp"></span>
+                      </span>
+                    </li>
+
+                    <li>
+                      <h3
+                        className="skillName"
+                        onClick={() => programmingSkills("css")}
+                      >
+                        CSS
+                      </h3>
+                      <span className="bar">
+                        <span className="css" id="css"></span>
+                      </span>
+                    </li>
+
+                    <li>
+                      <h3
+                        className="skillName"
+                        onClick={() => programmingSkills("html")}
+                      >
+                        HTML
+                      </h3>
+                      <span className="bar">
+                        <span className="html" id="html"></span>
+                      </span>
+                    </li>
+
+                    <li>
+                      <h3
+                        className="skillName"
+                        onClick={() => programmingSkills("java")}
+                      >
+                        Java
+                      </h3>
+                      <span className="bar">
+                        <span className="java" id="java"></span>
+                      </span>
+                    </li>
+
+                    <li>
+                      <h3
+                        className="skillName"
+                        onClick={() => programmingSkills("javascript")}
+                      >
+                        JavaScript
+                      </h3>
+                      <span className="bar">
+                        <span className="javascript" id="javascript"></span>
+                      </span>
+                    </li>
+
+                    <li>
+                      <h3
+                        className="skillName"
+                        onClick={() => programmingSkills("php")}
+                      >
+                        PHP
+                      </h3>
+                      <span className="bar">
+                        <span className="php" id="php"></span>
+                      </span>
+                    </li>
+
+                    <li>
+                      <h3
+                        className="skillName"
+                        onClick={() => programmingSkills("python")}
+                      >
+                        Python
+                      </h3>
+                      <span className="bar">
+                        <span className="python" id="python"></span>
+                      </span>
+                    </li>
+
+                  </div>
+                  
+
+
+                  
+                <div className="skillDetailContainer">
+                    <div className="skillsBox">
+                  {/* <div className="skillDetail" id="skillDetail"> */}
+                    <div className="programmingTextDetail" id="programmingTextDetail">
+                      <h1>Click on a Programming Language to learn more!</h1>
+                    {/* </div>
+                  </div> */}
+                  </div>
+                  </div>
+                </div>
+                
+            </div>
+            
+
+            
+              
+            <h2 className="skillsHeader">Graphic Design Skills</h2>
+               <div className="graphicDesignSkillsContainer">
+
+
+            {/* <div className="skillsGraphic"> */}
+            
+                <div className="graphicDesignChartContainer">
+              {/* <div className="skills"> */}
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => graphicDesignSkills("afterEffects")}
+                  >
+                    AfterEffects
+                  </h3>
+                  <span className="bar">
+                    <span className="afterEffects" id="afterEffects"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => graphicDesignSkills("illustrator")}
+                  >
+                    Illustrator
+                  </h3>
+                  <span className="bar">
+                    <span className="illustrator" id="illustrator"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => graphicDesignSkills("indesign")}
+                  >
+                    InDesign
+                  </h3>
+                  <span className="bar">
+                    <span className="indesign" id="indesign"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => graphicDesignSkills("photoshop")}
+                  >
+                    Photoshop
+                  </h3>
+                  <span className="bar">
+                    <span className="photoshop" id="photoshop"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => graphicDesignSkills("premierePro")}
+                  >
+                    PremierePro
+                  </h3>
+                  <span className="bar">
+                    <span className="premierePro" id="premierePro"></span>
+                  </span>
+                </li>
+
+              </div>
+              
+              <div className="skillDetailContainer">
+                    <div className="skillsBox">
+              {/* <div className="skillDetail" id="skillDetail"> */}
+                <div
+                  className="graphicDesignTextDetail"
+                  id="graphicDesignTextDetail"
+                >
+                  <h1>Click on a Software name to learn more!</h1>
+                </div>
+              </div>
+            </div>
+            {/* </div> */}
+            
+            </div>
+
+            
+
+              
+            <h2 className="skillsHeader">Other Computer Skills</h2>
+           
+
+
+            <div className="otherSkillsContainer">
+           
+                <div className="otherSkillsChartContainer">
+            {/* <div className="skillsEtc">
+              <div className="skills"> */}
+
+                <li>
+                  <h3 className="skillName" onClick={() => etcSkills("docker")}>
+                    Docker
+                  </h3>
+                  <span className="bar">
+                    <span className="docker" id="docker"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3 className="skillName" onClick={() => etcSkills("git")}>
+                    Git
+                  </h3>
+                  <span className="bar">
+                    <span className="git" id="git"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => etcSkills("microsoft")}
+                  >
+                    Microsoft Office
+                  </h3>
+                  <span className="bar">
+                    <span className="microsoft" id="microsoft"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => etcSkills("mongodb")}
+                  >
+                    MongoDB
+                  </h3>
+                  <span className="bar">
+                    <span className="mongodb" id="mongodb"></span>
+                  </span>
+                </li>
+
+                <li>
+                  <h3
+                    className="skillName"
+                    onClick={() => etcSkills("phpMyAdmin")}
+                  >
+                    PHP MyAdmin
+                  </h3>
+                  <span className="bar">
+                    <span className="phpMyAdmin" id="phpMyAdmin"></span>
+                  </span>
+                </li>
+
+              </div>
+              
+              <div className="skillDetailContainer">
+                    <div className="skillsBox">
+              {/* <div className="skillDetailContainer">
+                    <div className="skillsBox"></div>
+              <div className="skillDetail" id="skillDetail">
+                <div className="etcTextDetail" id="etcTextDetail"> */}
+                 <div
+                  className="otherSkillsTextDetail"
+                  id="otherSkillsTextDetail"
+                >
+                  <h1>Click on name to learn more!</h1>
+                </div>
+              </div>
+              </div>
+              
+              </div>
+            
+          
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default Skills

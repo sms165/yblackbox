@@ -1,10 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 
 // #html{
 //     height: 100%;
     
 // }
+.aboutContainer{
+    // height: 100vh;
+    // background-color: green;
+    margin-left: 10vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    // height: fit-content;
+}
 
+.about{
+    
+    padding: 2rem;
+}
 
 
 p{
@@ -24,13 +39,21 @@ a{
     
 }
 
-.aboutComp{
-    color: white;
-    width: 30vw;
-    display: block;
-    margin-right: 5vw;
-    float: right;
-    margin-top: 0vh;
-    
-    
-}
+
+
+.aboutBox {
+        margin: auto;
+        // position: relative;
+        background-color: rgba(190, 187, 187, 0.1);
+        // opacity: .1;
+        border-radius: 10%;
+      // float: right;
+        width:40vw;
+
+        height: fit-content;
+        // margin-right: 10vw;
+        // margin-top: 50vh;
+        // overflow: hidden;
+        // padding-bottom: 200px;
+        padding: 2rem;
+      }

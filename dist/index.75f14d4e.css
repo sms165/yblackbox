@@ -1,4 +1,3 @@
-@import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
 *, :before, :after {
   box-sizing: border-box;
 }
@@ -57,6 +56,11 @@ img, picture {
   src: url("Joan-Regular.d330bb13.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url("Raleway-VariableFont_wght.aea2714f.ttf") format("truetype");
+}
+
 :root {
   --yellow-highlighter: #ff0;
   --yellow-light: #ff6;
@@ -68,10 +72,24 @@ img, picture {
   --blue-light: #6ff;
 }
 
-body {
-  min-height: 100vh;
-  max-width: 100vw;
-  display: grid;
+.navContainer {
+  width: 100%;
+  place-content: center;
+  display: flex;
+}
+
+li p {
+  color: #fff;
+}
+
+.navigation {
+  height: 100vh;
+  z-index: 10000;
+  padding-top: 40vh;
+}
+
+.orbit {
+  margin: auto;
 }
 
 .center-image {
@@ -81,13 +99,13 @@ body {
 }
 
 .ulNav {
+  position: flex;
   color: #fff;
   width: 100px;
   height: 100px;
   transform-origin: center;
   list-style: none;
   animation: orbit 30s linear infinite;
-  position: relative;
 }
 
 .ulNav:hover, .ulNav:hover li p {
@@ -418,31 +436,6 @@ body {
   }
 }
 
-#projects {
-  position: fixed;
-  top: 0;
-}
-
-#skills {
-  position: fixed;
-  top: 525vh;
-}
-
-#degrees {
-  position: fixed;
-  top: 360vh;
-}
-
-#certificates {
-  position: fixed;
-  top: 455vh;
-}
-
-#contact {
-  position: fixed;
-  top: 730vh;
-}
-
 .container {
   width: 100px;
   height: 100px;
@@ -583,12 +576,6 @@ body {
   left: 5vw;
 }
 
-.imgSmall {
-  height: 10vh;
-  position: relative;
-  top: -5vh;
-}
-
 .reveal {
   opacity: 0;
 }
@@ -604,6 +591,7 @@ body {
 }
 
 .byfont {
+  color: #fff;
   font-family: Black-y;
   position: relative;
 }
@@ -669,33 +657,33 @@ body {
 }
 
 .sectionAbout {
-  position: relative;
-  top: -40vh;
+  position: fixed;
+  top: 400px;
 }
 
 .sectionProjects {
-  position: relative;
-  top: -55vh;
+  position: fixed;
+  top: 310px;
 }
 
 .sectionDegrees {
-  position: relative;
-  top: -50vh;
+  position: fixed;
+  top: 335px;
 }
 
 .sectionCertificates {
-  position: relative;
-  top: -70vh;
+  position: fixed;
+  top: 210px;
 }
 
 .sectionSkills {
-  position: relative;
-  top: -45vh;
+  position: fixed;
+  top: 360px;
 }
 
 .sectionContact {
-  position: relative;
-  top: -50vh;
+  position: fixed;
+  top: 340px;
 }
 
 .sideNavTextSection {
@@ -768,6 +756,18 @@ body {
   transform: rotateX(-180deg)translateZ(50px);
 }
 
+.aboutContainer {
+  color: #fff;
+  flex-direction: row;
+  place-content: space-around center;
+  margin-left: 10vw;
+  display: flex;
+}
+
+.about {
+  padding: 2rem;
+}
+
 p, a, h1, h2, h3, h4, h5 {
   font-family: Raleway, sans-serif;
 }
@@ -781,29 +781,33 @@ a {
   text-decoration: none;
 }
 
-.aboutComp {
-  color: #fff;
-  width: 30vw;
-  float: right;
-  margin-top: 0;
-  margin-right: 5vw;
-  display: block;
+.aboutBox {
+  width: 40vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #bebbbb1a;
+  border-radius: 10%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.projectsContainer {
+  height: 100vh;
+  margin-left: 10vw;
 }
 
 .ex {
   position: absolute;
-  top: -15vh;
 }
 
 .ex > div {
   width: 70vw;
-  height: 100vh;
   will-change: transform;
   justify-content: end;
   align-items: flex-end;
   display: flex;
   position: absolute;
-  top: 400px;
+  top: 1vh;
 }
 
 .ex > div > div {
@@ -878,46 +882,63 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
-.logoComp {
-  margin-top: 2vh;
-}
-
-.logoImg {
-  height: 10vh;
-  position: relative;
-  top: -50px;
-}
-
-.skillsSideNav {
-  height: 1024px;
-  flex-direction: column;
+.skillsContainer {
+  flex-direction: row;
+  place-content: space-between center;
+  margin-left: 10vw;
+  padding: 4vh 7vw 2vh 4vw;
   display: flex;
 }
 
-.skillDetail {
-  width: 350px;
-  float: right;
-  height: 400px;
+.skillsHeader {
+  text-align: center;
+  padding: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.skillName:hover {
+  color: var(--pink-highlighter);
+  cursor: pointer;
+}
+
+.skillsBox {
+  width: 40vw;
   background-color: #bebbbb1a;
   border-radius: 10%;
-  flex-basis: 30%;
-  margin-top: 3vw;
-  margin-right: 10vw;
-  padding-bottom: 200px;
-  position: relative;
+  margin: auto;
+  padding: 2rem;
   overflow: hidden;
 }
 
-.textDetail, .graphicDesignTextDetail, .etcTextDetail {
+.detail {
   color: #fff;
-  padding: 20px;
+  justify-content: space-between;
+  display: flex;
 }
 
-.skillsEtc, .skillsProgramming, .skillsGraphic {
+.imageDetail {
+  float: right;
+  width: 8vw;
+  height: 8vh;
+  float: right;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.skillsGraphic {
   display: flex;
 }
 
 .text {
+  color: #fff;
   height: 30vh;
   flex-direction: row;
   margin-top: 40px;
@@ -926,38 +947,8 @@ h2 {
   overflow-y: scroll;
 }
 
-.skillName:hover {
-  color: var(--pink-highlighter);
-  cursor: pointer;
-}
-
-.imageDetail {
-  width: 8vw;
-  height: 8vh;
-  position: absolute;
-  top: 20px;
-  right: 10px;
-}
-
-.skills {
-  width: 600px;
-  color: #fff;
-  flex-basis: 50%;
-  margin: 20px auto;
-  padding-left: 200px;
-  text-decoration: none;
-  list-style: none;
-}
-
-.skills li {
-  margin: 20px 0;
-}
-
-.skillsHeader {
-  margin: auto;
-}
-
 .bar {
+  width: 40vw;
   height: 6px;
   box-shadow: 0 0 10px var(--pink-highlighter);
   background: #353b48;
@@ -1228,71 +1219,143 @@ h2 {
   }
 }
 
-.educationComp {
-  color: #fff;
-  float: right;
-  height: 1024px;
-  margin-top: -50vh;
-  margin-right: 5vw;
-  display: block;
+.programmingSkillsContainer, .graphicDesignSkillsContainer, .otherSkillsContainer {
+  flex-direction: row;
+  align-content: space-between;
+  display: flex;
 }
 
-.edu {
-  height: 80vh;
+.programmingChartContainer, .graphicDesignChartContainer, .otherSkillsChartContainer {
+  margin: auto 0;
+  padding: 3rem;
 }
 
-p {
-  color: #fff;
-}
-
-.degreeUop {
-  position: relative;
-  top: 230px;
-  right: -250px;
-}
-
-.uopeopleImg {
-  width: 40vw;
-  position: absolute;
-  top: 10px;
-  right: -500px;
+.educationContainer {
+  height: 100vh;
+  flex-flow: column wrap;
+  place-content: space-around center;
+  margin-left: 10vw;
+  padding-top: 4vh;
+  display: flex;
 }
 
 .hidden {
   opacity: 0;
 }
 
-.uopeopleImg.visible {
-  width: 40vw;
-  animation: uopeople 9s;
-  position: relative;
-  top: 10px;
-  right: -50px;
+.uopeopleContainer {
+  margin-left: 50vw;
+  padding-bottom: 3vh;
 }
 
-@keyframes uopeople {
-  from {
-    opacity: 0;
-    right: -500px;
-  }
+.uopeopleImgContainer {
+  width: 30vw;
+  height: 20vh;
+}
 
-  to {
-    opacity: 1;
-    right: -50px;
-  }
+.uopeopleImg {
+  width: 100%;
+  height: 100%;
 }
 
 .uopeopleText {
+  color: #fff;
   white-space: nowrap;
-  border-right: 2px solid #ffffffbf;
-  position: relative;
-  top: 200px;
-  right: -180px;
   overflow: hidden;
 }
 
+.uopeopleImg.visible {
+  animation: slideInUopeople 3s;
+}
+
+@keyframes slideInUopeople {
+  0% {
+    opacity: 0;
+    margin-left: 100vw;
+  }
+
+  100% {
+    opacity: 1;
+    right: 50vw;
+  }
+}
+
+.cfContainer {
+  margin-left: 20vw;
+  padding-bottom: 3vh;
+}
+
+.cfImgContainer {
+  width: 30vw;
+  height: 15vh;
+}
+
+.cfImg {
+  width: 100%;
+  height: 100%;
+}
+
+.cfText {
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cfImg.visible {
+  animation: slideInCf 5s;
+}
+
+@keyframes slideInCf {
+  0% {
+    opacity: 0;
+    margin-left: 100vw;
+  }
+
+  100% {
+    opacity: 1;
+    right: 20vw;
+  }
+}
+
+.lutzContainer {
+  margin-left: 5vw;
+  padding-bottom: 3vh;
+}
+
+.lutzImgContainer {
+  width: 30vw;
+  height: 23vh;
+}
+
+.lutzImg {
+  width: 100%;
+  height: 100%;
+}
+
+.lutzText {
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.lutzImg.visible {
+  animation: slideInLutz 5s;
+}
+
+@keyframes slideInLutz {
+  0% {
+    opacity: 0;
+    margin-left: 100vw;
+  }
+
+  100% {
+    opacity: 1;
+    right: 5vw;
+  }
+}
+
 .anim-typewriter {
-  animation: typewriter 10s steps(40, end) 9s both, blinkTextCursor .5s steps(44, end) infinite;
+  animation: typewriter 10s steps(40, end) 1s both, blinkTextCursor .5s steps(40, end) infinite;
 }
 
 @keyframes typewriter {
@@ -1313,15 +1376,6 @@ p {
   to {
     border-right-color: #0000;
   }
-}
-
-.degreeLutzText {
-  white-space: nowrap;
-  border-right: 2px solid #ffffffbf;
-  position: relative;
-  top: 310px;
-  right: 150px;
-  overflow: hidden;
 }
 
 .anim-typewriter-lutz {
@@ -1348,38 +1402,6 @@ p {
   }
 }
 
-.lutzImg {
-  width: 40vw;
-  position: relative;
-  top: 130px;
-  right: 350px;
-}
-
-.lutzImg.visible {
-  animation: lutz 9s;
-}
-
-@keyframes lutz {
-  0% {
-    opacity: 0;
-    right: -400px;
-  }
-
-  100% {
-    opacity: 1;
-    right: 350px;
-  }
-}
-
-.degreeCfText {
-  white-space: nowrap;
-  border-right: 2px solid #ffffffbf;
-  position: relative;
-  top: 180px;
-  right: -20px;
-  overflow: hidden;
-}
-
 .anim-typewriter-cf {
   animation: typewriter-cf 10s steps(40, end) 9s both, blinkTextCursor-cf .5s steps(44, end) infinite;
 }
@@ -1404,40 +1426,30 @@ p {
   }
 }
 
-.cfImg {
-  width: 40vw;
-  position: relative;
-  top: 70px;
-  right: 20px;
-}
-
-.cfImg.visible {
-  animation: cf 9s;
-}
-
-@keyframes cf {
-  0% {
-    opacity: 0;
-    right: -400px;
-  }
-
-  100% {
-    opacity: 1;
-    right: 20px;
-  }
-}
-
-.certificationComp {
-  z-index: 1;
-  margin-top: 40vh;
-  margin-left: 28vw;
-}
-
-.certificationTextComp {
-  z-index: 0;
-  margin-top: 20vh;
+.certificateContainer {
+  color: #fff;
+  flex-direction: column;
+  place-content: space-around space-between;
+  align-items: center;
   margin-left: 10vw;
-  position: relative;
+  margin-right: 10vw;
+  display: flex;
+}
+
+.certificationBox {
+  background-color: #bebbbb1a;
+  border-radius: 10%;
+  padding: 2rem;
+}
+
+.certificateTitleSvgAnimate {
+  color: #fff;
+  width: 40vw;
+  padding-bottom: 4vh;
+}
+
+.certificateSvgDrawing {
+  width: 100%;
 }
 
 .mask {
@@ -1528,41 +1540,23 @@ p {
   overflow: visible !important;
 }
 
-#text {
-  position: relative;
-  top: 100px;
-}
-
-.certBox {
-  width: 30vw;
-  background-color: #bebbbb1a;
-  border-radius: 10%;
-  flex-basis: 30%;
-  place-content: center;
-  align-items: center;
-  margin: 0 auto auto;
+.contactContainer {
+  flex-direction: row;
+  place-content: space-between center;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  padding: 8vh 7vw 2vh 4vw;
   display: flex;
-  position: relative;
-}
-
-.cert {
-  align-content: center;
-  padding: 40px;
-}
-
-.contactComp {
-  height: 1024px;
 }
 
 .contactBox {
-  width: 40vw;
-  height: 70vh;
+  width: 500px;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: #bebbbb1a;
   border-radius: 10%;
   flex-basis: 30%;
   margin: auto;
-  padding-bottom: 200px;
-  overflow: hidden;
 }
 
 .form {

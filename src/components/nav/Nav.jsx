@@ -1,4 +1,5 @@
 import React from "react";
+
 import '../../sass/style.scss';
 import Cube from "../cube/Cube";
 
@@ -33,6 +34,9 @@ export default function Nav() {
   // }, []);
 
   return (
+
+    <div className="navContainer">
+      <div className="navigation">
     <div className="orbit" id="orbit">
       <div className="center-image"><Cube /> </div>
      <Router>
@@ -103,7 +107,8 @@ export default function Nav() {
         
       </ul>
       </Router>
-       
+      </div>
+    </div>
     </div>
   );
 }

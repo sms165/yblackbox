@@ -29,26 +29,28 @@ useEffect(() => {
 }, []);
 
 
-if(projectsSideNavIntersecting == true){
-  projectsTitle.classList.add("active");
-  projectsTitle.classList.remove("reveal");
-}
+// if(projectsSideNavIntersecting == true){
+//   projectsTitle.classList.add("active");
+//   projectsTitle.classList.remove("reveal");
+// }
   
-if(projectsSideNavIntersecting == false){
+// if(projectsSideNavIntersecting == false){
 
-    if(projectsTitle.classList.contains("active") ){
-  projectsTitle.classList.remove("active");
-  projectsTitle.classList.add("reveal");
-  }
+//     if(projectsTitle.classList.contains("active") ){
+//   projectsTitle.classList.remove("active");
+//   projectsTitle.classList.add("reveal");
+//   }
 
-}
+// }
 
 
   return (
    <>
-   
+   <div className="projectsContainer">
     <Deck  />
     <div className='projectSideNav' ref={projectsSideNav}>
-     </div><div  id="projects"></div></>
+     </div><div  id="projects"></div>
+     </div>
+     </>
   )
 }

@@ -1,7 +1,20 @@
-
-.contactComp{
-  height: 1024px;
+.contactContainer{
+    // height: 250vh;
+    margin-left: 10vw;
+    padding-right: 7vw;
+    // background-color: lightblue;
+    margin-top: 10vh;
+    padding-top: 8vh;
+    padding-left: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 2vh;
+    
+   
 }
+
 .contactBox {
     margin: auto;
     // position: relative;
@@ -9,15 +22,16 @@
     // opacity: .1;
     border-radius: 10%;
   // float: right;
-    width: 40vw;
+    width: 500px;
   
-    height: 70vh;
+    height: fit-content;
     // margin-right: 10vw;
     // margin-top: 50vh;
-    overflow: hidden;
-    padding-bottom: 200px;
+    // overflow: hidden;
+    // padding-bottom: 200px;
     flex-basis: 30%;
   }
+
 
   .form{
     padding: 3vh 5vw 5vh 5vw;

@@ -51,24 +51,13 @@ const App = () => {
   }, []);
   // navbar visible starting at page 2
   if (scroll > 2) {
-    //console.log(document.getElementById("iconsNav"));
+    
     const nav = document.getElementById("blackbox");
     nav.classList.add("active");
     nav.classList.remove("reveal");
-    // {console.log({scroll})}
+   
   } 
-  
 
-  // const height = document.documentElement.clientHeight;
-  
-
-  // const aboutMe = document.getElementById('aboutMe');
-  // const projectsTitle = document.getElementById('projectsTitle');
-  // const skillsTitle = document.getElementById('skillsTitle');
-  // const degreesTitle = document.getElementById('degreesTitle');
-  // const certificatesTitle = document.getElementById('certificatesTitle');
-  // const contactTitle = document.getElementById('contactTitle');
-  // console.log( document.body.height)
 
 
    
@@ -79,46 +68,104 @@ const App = () => {
       <Parallax ref={parallax} pages={8} style={{ top: "0", left: "0" }}>
         
         {/* background */}
-        <ParallaxLayer offset={0}  factor={10}>
+        <ParallaxLayer offset={0}  factor={12}>
           // {/* <div className="backg"> */}
           <Background />
           // {/* </div> */}
         </ParallaxLayer>
 
-        {/* side navigation */}
+       {/* clouds for top nav background */}
         <ParallaxLayer
-          className="sideNavLayer"
-          style={{ width: "15vw", float:"left"}}
-          // style={props}
-          sticky={{ start: 0, end: 8 }}
-        >
-          <div className="sideNav " id="iconsNav">
-            <Sidenav />
-          </div>
-        </ParallaxLayer>
-
-        {/* top cube animation / navigation */}
-        <ParallaxLayer
-          // offset={0}
-          speed={1}
-          
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
             zindex: "1",
+            
           }}
+          offset={0}
         >
-          {/* <div className="topMenu"> */}
           <div className="clouds"></div>
-          <div className="nav-comp">
-            <Nav />
-          </div>
+      
+        </ParallaxLayer>
+
+         {/* side logo */}
+         <ParallaxLayer
+          className="sideNavLayer"
+          style={{ width: "10vw", float:"left"}}
+          sticky={{ start: 0, end: 8 }}
+        >
+          {/* <div className="sideNav " id="iconsNav"> */}
+            <Sidenav />
           {/* </div> */}
         </ParallaxLayer>
 
-        {/* about page */}
         <ParallaxLayer
+        className="content"
+        speed={0.5}
+        // style={{  width: "90vw", float:"right"}}
+        
+        >
+             <Nav />
+             <About />
+             <Projects />
+             <Skills />
+             <CertificateText />
+             <Education />
+             <Contact />
+
+
+        </ParallaxLayer>
+
+
+        {/* top cube animation / navigation, content */}
+        
+          {/* <div className="topMenu"> */}
+          
+          {/* <div className="nav-comp"> */}
+            {/* <Nav /> */}
+          {/* </div> */}
+
+
+          {/* <div  className="aboutComp"> */}
+            {/* <p>I've scrolled {scroll} pixels</p> */}
+            {/* <About /> */}
+            {/* <Link to="/meetAppProj"   ><div>Meet App Project</div></Link> */}
+            
+          {/* </div> */}
+
+          {/* <div className="deckComp"  > */}
+            {/* <div >   */}
+            {/* <Projects /> */}
+            {/* </div>
+          </div> */}
+
+
+          {/* <div className="educationComp" > */}
+            {/* <Education /> */}
+          {/* </div> */}
+
+          {/* <div className="certificationTextComp" >  */}
+         {/* <div className="certificationComp" > */}
+         
+          {/* <CertificateText  /> */}
+          {/* </div> */}
+
+
+          {/* <div className="skillsComp" id="skillsNav" > */}
+         
+         {/* <Skills /> */}
+       {/* </div> */}
+
+       {/* <p id="contact">  </p>
+          <div className="contactComp" >   */}
+            {/* <Contact /> */}
+          {/* </div> */}
+          
+      
+
+        {/* about page */}
+        {/* <ParallaxLayer
           offset={1}
           speed={0.5}
           style={{ width: "70vw", float: "right" , position: "relative"}}
@@ -127,42 +174,43 @@ const App = () => {
         >
           <div  className="aboutComp">
             {/* <p>I've scrolled {scroll} pixels</p> */}
-            <About />
+            {/* <About /> */}
             {/* <Link to="/meetAppProj"   ><div>Meet App Project</div></Link> */}
             
-          </div>
-        </ParallaxLayer>
+          {/* </div>
+        </ParallaxLayer> */} 
 
       
         {/* projects page */}
-        <ParallaxLayer
-          offset={1.5}
+        {/* <ParallaxLayer
+          offset={2}
           // style={{ top:"20vh" }}
-          speed={1}
+          speed={.5}
           style={{ width: "70vw", float: "right"}}
         >
            
           {/* <Sidenav style={{float:'left'}} /> */}
             
-          <div className="deckComp"  >
+          {/* <div className="deckComp"  >
             <div >  
             <Projects />
             </div>
           </div>
-        </ParallaxLayer>
+        </ParallaxLayer> */} 
 
 
        
 
-        <p id="degrees">  </p>
+        {/* <p id="degrees">  </p>
         <ParallaxLayer
           offset={3}
+          speed={.2}
           // style={{ width: "50vw", float: "right" }}
           // speed={1}
-        >
+        > */}
           
           {/* <p>I've scrolled {scroll} pixels</p> */}
-          <div className="educationComp" >
+          {/* <div className="educationComp" >
             <Education />
           </div>
         </ParallaxLayer>
@@ -170,49 +218,52 @@ const App = () => {
 
         <p id="certificates">  </p>
         <ParallaxLayer
-          offset={3.5}
-          // style={{ width: "50vw", float: "right" }}
-          speed={1}
-        >
-         
-         
-            {/* <Certificate /> */}
-         <div className="certificationComp" >
-          <Certificate /></div>
-          <div className="certificationTextComp" > 
-         <CertificateText  /> 
-          </div>
-        </ParallaxLayer>
-
-        <p id="skills"></p>
-        <ParallaxLayer
-          offset={4.5}
+          offset={4}
           // style={{ width: "50vw", float: "right" }}
           speed={.5}
         >
+          */}
+         
+            {/* <Certificate /><div className="certificationTextComp" >  */}
+         {/* <div className="certificationComp" > */}
+         
+          {/* <CertificateText  /></div> */}
+          
+          
+          {/* </div> */}
+        {/* </ParallaxLayer> */}
+
+        {/* <p id="skills"></p>
+        <ParallaxLayer
+          offset={5}
+          // style={{ width: "50vw", float: "right" }}
+          speed={.5}
+          factor={2}
+        > */}
           {/* <div id="skills"></div> */}
           
-          <div className="skillsComp" id="skillsNav" >
+          {/* <div className="skillsComp" id="skillsNav" >
          
             <Skills />
           </div>
-        </ParallaxLayer>
+        </ParallaxLayer> */}
 
         
        
         
-        <p id="contact">  </p>
-        <ParallaxLayer id="contact"
-          offset={6.5}
+        
+        {/* <ParallaxLayer id="contact"
+          offset={7}
+          speed={1}
           // style={{ width: "70vw", float: "right" , position: "relative"}}
           // style={{ width: "50vw", float: "right" }}
-          speed={0.1}
+          // speed={.5}
         >
-          
+          <p id="contact">  </p>
           <div className="contactComp" >  
             <Contact />
           </div>
-        </ParallaxLayer>
+        </ParallaxLayer> */}
       </Parallax>
       
     </>

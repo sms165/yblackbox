@@ -29,17 +29,17 @@ export default function Contact() {
   }, []);
 
 
-  if(contactSideNavIntersecting == true){
-    contactTitle.classList.add("active");
-    contactTitle.classList.remove("reveal");
-  }
+  // if(contactSideNavIntersecting == true){
+  //   contactTitle.classList.add("active");
+  //   contactTitle.classList.remove("reveal");
+  // }
   
-  if (contactSideNavIntersecting == false) {
-    if(contactTitle.classList.contains("active")){
-    contactTitle.classList.remove("active");
-    contactTitle.classList.add("reveal");
-    }
-  }
+  // if (contactSideNavIntersecting == false) {
+  //   if(contactTitle.classList.contains("active")){
+  //   contactTitle.classList.remove("active");
+  //   contactTitle.classList.add("reveal");
+  //   }
+  // }
   
 
   const SERVICE_ID = "service_dxgkupe";
@@ -68,8 +68,9 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
   return (
     
 
-    <div ref={contactSideNav} className='contactBox'>
-      
+    
+      <div className="contactContainer">
+      <div ref={contactSideNav} className='contactBox'>
       <h2 className='formHeader'>Contact Me</h2>
       <div className="form">
        <form onSubmit={handleOnSubmit}>
@@ -115,6 +116,7 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
         <br/>
         <button className='formSubmit' type='submit' color='green'>Submit</button>
       </form>
+    </div>
     </div>
     </div>
     

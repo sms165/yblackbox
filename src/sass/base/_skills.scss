@@ -1,63 +1,75 @@
-.skillsSideNav{
-    // float: right;
-    // padding-right: 30vw;
-     display: flex;
-     flex-direction: column;
-     height: 1024px;
-}
-
-
-
-.skillDetail{
-    position: relative;
-    background-color: rgba(190, 187, 187, 0.1);
-    // opacity: .1;
-    border-radius: 10%;
-    
-    width: 350px;
-    float: right;
-    height: 400px;
-    margin-right: 10vw;
-    margin-top: 3vw;
-    overflow: hidden;
-    padding-bottom: 200px;
-    flex-basis: 30%;
-
-    
-}
-
-.textDetail{
-    padding: 20px;
-    color: white;
-    // flex-direction: row;  
-}
-
-.graphicDesignTextDetail{
-    padding: 20px;
-    color: white;
-    // flex-direction: row;  
-}
-
-.etcTextDetail{
-    padding: 20px;
-    color: white;
-    // flex-direction: row;  
-}
-
-.skillsEtc{
+.skillsContainer{
+    // height: 250vh;
+    margin-left: 10vw;
+    padding-right: 7vw;
+    // background-color: brown;
+    padding-top: 4vh;
+    padding-left: 4vw;
     display: flex;
-}
-
-.skillsProgramming{
-    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 2vh;
+    
    
 }
 
-.skillsGraphic{
+.skillsHeader{
+    text-align: center;
+    padding: 3rem;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 100%
+} 
+
+.skillName:hover{
+    color: var(--pink-highlighter);
+    cursor: pointer;   
+}
+
+.skillsBox {
+    margin: auto;
+    // position: relative;
+    background-color: rgba(190, 187, 187, 0.1);
+    // opacity: .1;
+    border-radius: 10%;
+  // float: right;
+    // height:20px ;
+    padding: 2rem;
+    width: 40vw;
+//     float: right;
+    // height: 400px;
+    overflow: hidden;
+  }
+
+.detail{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+
+}
+
+.imageDetail{
+    position: relative;
+    float: right;
+        top: 0px;
+        right: 0px;
+        width: 8vw;
+    height: 8vh;
+   float: right;
+}
+ .skillsGraphic{
     display: flex;
 }
 
 .text{
+    color: white;
     margin-top: 40px;
     flex-direction: row;
     height: 30vh;
@@ -66,47 +78,10 @@
     overflow-y: scroll;
 }
 
-.skillName:hover{
-    color: var(--pink-highlighter);
-    cursor: pointer;   
-}
 
-.imageDetail{
-    position: absolute;
-        top: 20px;
-        right: 10px;
-        width: 8vw;
-    height: 8vh;
-    
-}
-.skills{
-    width: 600px;
-    margin: 20px auto;
-    color:white;
-    text-decoration: none;
-    list-style: none;
-    // float: left;
-    padding-left: 200px;
-    flex-basis: 50%;
-}
-
-.skills li{
-    margin: 20px 0;
-}
-
-// skills header
-.skillsHeader{
-    
-    margin: auto;
-    // box-shadow: 0 0 10px var(--pink-highlighter);
-    
-}
-
-
-
-
-// skill bar progress
+  // // skill bar progress
 .bar{
+    width: 40vw;
     background:#353b48 ;
     display: block;
     height: 6px;
@@ -122,7 +97,6 @@
     float: left;
     background: var(--pink-highlighter);
 }
-
 
 // programming skills
 .html.visible{
@@ -377,3 +351,150 @@
     }
     
 }
+
+.programmingSkillsContainer , .graphicDesignSkillsContainer, .otherSkillsContainer{
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    align-content: space-between;
+    
+}
+
+.programmingChartContainer, .graphicDesignChartContainer, .otherSkillsChartContainer{
+    
+    // flex-basis: 80%;
+    // flex-grow: 2;
+    padding: 3rem;
+    margin: auto 0;
+    
+}
+
+
+
+
+
+
+// .skillsSideNav{
+//     // float: right;
+//     // padding-right: 30vw;
+//      display: flex;
+//      flex-direction: column;
+//     //  height: 1024px;
+// }
+
+
+
+// .skillDetail{
+//     position: relative;
+//     background-color: rgba(190, 187, 187, 0.1);
+//     // opacity: .1;
+//     border-radius: 10%;
+    
+//     width: 350px;
+//     float: right;
+//     height: 400px;
+//     margin-right: 10vw;
+//     margin-top: 3vw;
+//     overflow: hidden;
+//     padding-bottom: 200px;
+//     flex-basis: 30%;
+
+    
+// }
+
+// .textDetail{
+//     padding: 20px;
+//     color: white;
+//     // flex-direction: row;  
+// }
+
+// .graphicDesignTextDetail{
+//     padding: 20px;
+//     color: white;
+//     // flex-direction: row;  
+// }
+
+// .etcTextDetail{
+//     padding: 20px;
+//     color: white;
+//     // flex-direction: row;  
+// }
+
+// .skillsEtc{
+//     display: flex;
+// }
+
+// .skillsProgramming{
+//     display: flex;
+   
+// }
+
+
+
+// .text{
+//     margin-top: 40px;
+//     flex-direction: row;
+//     height: 30vh;
+//     overflow: hidden;
+//     margin-bottom: 20px;
+//     overflow-y: scroll;
+// }
+
+// .skillName:hover{
+//     color: var(--pink-highlighter);
+//     cursor: pointer;   
+// }
+
+// .imageDetail{
+//     position: absolute;
+//         top: 20px;
+//         right: 10px;
+//         width: 8vw;
+//     height: 8vh;
+    
+// }
+// .skills{
+//     width: 600px;
+//     margin: 20px auto;
+//     color:white;
+//     text-decoration: none;
+//     list-style: none;
+//     // float: left;
+//     padding-left: 200px;
+//     flex-basis: 50%;
+// }
+
+// .skills li{
+//     margin: 20px 0;
+// }
+
+// // skills header
+// .skillsHeader{
+    
+//     margin: auto;
+//     // box-shadow: 0 0 10px var(--pink-highlighter);
+    
+// }
+
+
+
+
+// // skill bar progress
+// .bar{
+//     background:#353b48 ;
+//     display: block;
+//     height: 6px;
+//     border: 1px solid rgba(0,0,0,0.3);
+//     border-radius: 3px;
+//     overflow: hidden;
+//     box-shadow: 0 0 10px var(--pink-highlighter);
+// }
+
+// .bar span{
+//     // z-index: 1;
+//     height: 5px;
+//     float: left;
+//     background: var(--pink-highlighter);
+// }
+
+
