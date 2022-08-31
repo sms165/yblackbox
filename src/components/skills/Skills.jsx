@@ -37,13 +37,15 @@ function Skills() {
   const [skillsSideNavIntersecting, setSkillsSideNavIntersecting] = useState();
   
   useEffect(() => {
-
+    let options = {
+      threshold: .2
+    }
     // console.log('aboutSideNav', aboutSideNav.current);
     const observer = new IntersectionObserver((entries) =>{
       const entry =entries[0];
       setSkillsSideNavIntersecting(entry.isIntersecting)
       // console.log('entry', entry);
-    }) 
+    }, options) 
     observer.observe(skillsSideNav.current);
 
     
@@ -54,8 +56,8 @@ function Skills() {
 
 
   if(skillsSideNavIntersecting == true){
-    // skillsTitle.classList.add("active");
-    // skillsTitle.classList.remove("reveal");
+    skillsTitle.classList.add("active");
+    skillsTitle.classList.remove("reveal");
 
     // programming skills
     let html = document.getElementById("html");
@@ -102,11 +104,11 @@ function Skills() {
   
   
     
-    // if(skillsSideNavIntersecting == false){
-    //     if(skillsTitle.classList.contains("active")){
-    // skillsTitle.classList.remove("active");
-    // skillsTitle.classList.add("reveal");
-    // }}
+    if(skillsSideNavIntersecting == false){
+        if(skillsTitle.classList.contains("active")){
+    skillsTitle.classList.remove("active");
+    skillsTitle.classList.add("reveal");
+    }}
   
   
 //   skillsSideNavIntersecting == false && screenTop>2
@@ -197,16 +199,16 @@ function Skills() {
 
   return (
     <>
-      <div className="skillsContainer">
+      <div className="skillsContainer" >
         <div className="skillsSideNav " ref={skillsSideNav}>
 
           
-            
+            <div id='skillsLink'></div>
               
                 <h2 className="skillsHeader" id="skillsSideNav">
                   Programming Skills
                 </h2>
-                <div className="programmingSkillsContainer">
+                <div className="programmingSkillsContainer" >
 
                 <div className="programmingChartContainer">
                 

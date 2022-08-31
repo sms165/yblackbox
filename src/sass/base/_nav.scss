@@ -362,27 +362,35 @@ li p{
   }
 }
 
-// #projects{
-//   position: fixed;
-//   top: 0vh;
-// }
+#skillsLink{
+  position: fixed;
+  top:300vh
+}
 
-// #skills{
-//   position: fixed;
-//   top: 525vh;
-// }
+#aboutLink{
+  position: fixed;
+  top:150vh;
+}
 
-// #degrees{
-//   position: fixed;
-//   top: 360vh;
-// }
+#projectsLink{
+  position: fixed;
+  top: 220vh;
+}
 
-// #certificates{
-//   position: fixed;
-//   top: 455vh;
-// }
+#contactLink{
+  position: fixed;
+  top:600vh;
+ 
+}
 
-// #contact{
-//   position: fixed;
-//   top: 730vh;
-// }
+#certificatesLink{
+  position: fixed;
+  top:470vh;
+}
+
+#degreeLink{
+  position: fixed;
+  top:530vh;
+}
+
+

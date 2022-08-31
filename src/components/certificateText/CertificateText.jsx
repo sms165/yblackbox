@@ -3,16 +3,56 @@ import '../../sass/style.scss';
 
 import { useEffect, useState, useRef } from 'react';
 
+import { Element } from 'react-scroll'
 
 import cert from "../../assets/cert.svg";
 import Certificate from '../certificate/Certificate';
 
 export default function Education() {
   
+
+	const certificatesSideNav = useRef();
+	const certificatesTitle = document.getElementById('certificatesTitle');
+	const [certificatesSideNavIntersecting, setCertificatesSideNavIntersecting] = useState();
+	// console.log('isIntersecting', contactSideNavIntersecting)
+	useEffect(() => {
+		let options = {
+			threshold: .7
+		  }
+	  // console.log('aboutSideNav', aboutSideNav.current);
+	  const observer = new IntersectionObserver((entries) =>{
+		const entry =entries[0];
+		setCertificatesSideNavIntersecting(entry.isIntersecting)
+		// console.log('entry', entry);
+	  }, options) 
+	  observer.observe(certificatesSideNav.current);
+  
+	  
+  
+	  return () => {
+	  };
+	}, []);
+  
+  
+	if(certificatesSideNavIntersecting == true){
+	  certificatesTitle.classList.add("active");
+	  certificatesTitle.classList.remove("reveal");
+
+	 
+	
+	} 
+	
+	if (certificatesSideNavIntersecting == false ) {
+		if(certificatesTitle.classList.contains("active"))
+	  certificatesTitle.classList.remove("active");
+	  certificatesTitle.classList.add("reveal");
+	}
+
+
   
   return (
  <>
-    <div className="certificateContainer">
+    <div className="certificateContainer"  ref={certificatesSideNav}>
    {/* <div className="certificationComp" > */}
    
    <Certificate />
@@ -20,7 +60,9 @@ export default function Education() {
    <br/>
    <br/>
    <br/>
-   <div className="certificateListContainer">
+   <div className="certificateListContainer"  >
+    <div id='certificatesLink'></div>
+   
 <div className="certificationBox">
    {/* <div className="cert"> */}
     <div className="adobe">

@@ -38,7 +38,7 @@ export default function Sidenav() {
        </div>
 
        <div className="sectionAbout reveal" id="aboutMe">
-       <p className="bfont smallLetter sideNavTextSection">ABOUT ME</p>
+       <p className="bfont smallLetter sideNavTextSection">ABOUT</p>
        
        </div>
 

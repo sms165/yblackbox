@@ -15,15 +15,19 @@ export default function About() {
   const aboutSideNav = useRef();
   const aboutMe = document.getElementById('aboutMe');
   const [aboutSideNavIntersecting, setAboutSideNavIntersecting] = useState();
-  // console.log('isIntersecting', aboutSideNavIntersecting)
+  console.log('iabout', aboutSideNavIntersecting)
   useEffect(() => {
+
+    let options = {
+      threshold: .7
+    }
 
     // console.log('aboutSideNav', aboutSideNav.current);
     const observer = new IntersectionObserver((entries) =>{
       const entry =entries[0];
       setAboutSideNavIntersecting(entry.isIntersecting)
       // console.log('entry', entry);
-    }) 
+    }, options) 
     observer.observe(aboutSideNav.current);
 
     
@@ -33,26 +37,27 @@ export default function About() {
   }, []);
 
 
-  // if(aboutSideNavIntersecting == true){
-  //   aboutMe.classList.add("active");
-  //   aboutMe.classList.remove("reveal");
-  //   console.log('aboutSideNav', aboutSideNav.current);
-  // }
+  if(aboutSideNavIntersecting == true){
+    aboutMe.classList.add("active");
+    aboutMe.classList.remove("reveal");
+    console.log('aboutSideNav', aboutSideNav.current);
+  }
   
-  // if (aboutSideNavIntersecting == false ) {
-  //   if(aboutMe.classList.contains("active")){
-  //   aboutMe.classList.remove("active");
-  //   aboutMe.classList.add("reveal");
-  //   }
-  // }
+  if (aboutSideNavIntersecting == false ) {
+    if(aboutMe.classList.contains("active")){
+    aboutMe.classList.remove("active");
+    aboutMe.classList.add("reveal");
+    }
+  }
 
 
   return (
-  <div ref={aboutSideNav} className='about' >
-    <div className="aboutContainer">
+  <div  className='about' >
+    <div id='aboutLink'></div>
+    <div className="aboutContainer"  >
     
      
-          <div className="image">
+          <div className="image" ref={aboutSideNav} >
           <img src="https://via.placeholder.com/500" alt="" />
           </div>
       

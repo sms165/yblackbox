@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import { useRef, useState } from "react";
 import { useEffect } from "react";
+import { Element } from 'react-scroll'
 
 import '../../sass/style.scss';
 
@@ -13,13 +14,15 @@ export default function Contact() {
   const [contactSideNavIntersecting, setContactSideNavIntersecting] = useState();
   // console.log('isIntersecting', contactSideNavIntersecting)
   useEffect(() => {
-
+    let options = {
+      threshold: .2
+    }
     // console.log('aboutSideNav', aboutSideNav.current);
     const observer = new IntersectionObserver((entries) =>{
       const entry =entries[0];
       setContactSideNavIntersecting(entry.isIntersecting)
       // console.log('entry', entry);
-    }) 
+    }, options) 
     observer.observe(contactSideNav.current);
 
     
@@ -29,17 +32,17 @@ export default function Contact() {
   }, []);
 
 
-  // if(contactSideNavIntersecting == true){
-  //   contactTitle.classList.add("active");
-  //   contactTitle.classList.remove("reveal");
-  // }
+  if(contactSideNavIntersecting == true){
+    contactTitle.classList.add("active");
+    contactTitle.classList.remove("reveal");
+  }
   
-  // if (contactSideNavIntersecting == false) {
-  //   if(contactTitle.classList.contains("active")){
-  //   contactTitle.classList.remove("active");
-  //   contactTitle.classList.add("reveal");
-  //   }
-  // }
+  if (contactSideNavIntersecting == false) {
+    if(contactTitle.classList.contains("active")){
+    contactTitle.classList.remove("active");
+    contactTitle.classList.add("reveal");
+    }
+  }
   
 
   const SERVICE_ID = "service_dxgkupe";
@@ -66,12 +69,17 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
     e.target.reset()
   };
   return (
-    
+    <>
 
     
       <div className="contactContainer">
-      <div ref={contactSideNav} className='contactBox'>
+      <div className="contactLink" id='contactLink'></div>
+        
+      <div ref={contactSideNav} className='contactBox' >
+      
+      
       <h2 className='formHeader'>Contact Me</h2>
+      
       <div className="form">
        <form onSubmit={handleOnSubmit}>
         <input
@@ -119,6 +127,6 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
     </div>
     </div>
     </div>
-    
+    </>
   )
 }

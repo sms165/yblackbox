@@ -23,13 +23,15 @@ export default function Education() {
 const [degreesSideNavIntersecting, setDegreesSideNavIntersecting] = useState();
 console.log('isIntersecting', degreesSideNavIntersecting)
 useEffect(() => {
-
+  let options = {
+    threshold: .2
+  }
   // console.log('aboutSideNav', aboutSideNav.current);
   const observer = new IntersectionObserver((entries) =>{
     const entry =entries[0];
     setDegreesSideNavIntersecting(entry.isIntersecting)
     // console.log('entry', entry);
-  }) 
+  }, options) 
   observer.observe(degreesSideNav.current);
 
   
@@ -40,8 +42,8 @@ useEffect(() => {
 
 
 if(degreesSideNavIntersecting == true){
-  // degreesTitle.classList.add("active");
-  // degreesTitle.classList.remove("reveal");
+  degreesTitle.classList.add("active");
+  degreesTitle.classList.remove("reveal");
 
    // education images
    let uopeopleImg = document.getElementById("uopeopleImg");
@@ -59,18 +61,18 @@ if(degreesSideNavIntersecting == true){
    cfImg.classList.add("visible");
 }
 
-// if (degreesSideNavIntersecting == false) {
-//   if(degreesTitle.classList.contains("active")){
-//   degreesTitle.classList.remove("active");
-//   degreesTitle.classList.add("reveal");}
-// }
+if (degreesSideNavIntersecting == false) {
+  if(degreesTitle.classList.contains("active")){
+  degreesTitle.classList.remove("active");
+  degreesTitle.classList.add("reveal");}
+}
   
 
   
 
   return (
     <div className="educationContainer">
-      
+        <div id='degreeLink'></div>
           <div className="uopeopleContainer">
             <div className="uopeopleImgContainer">
               <img

@@ -12,19 +12,19 @@ import cert from "../../assets/cert.svg";
 
 export default function Certificates() {
 
-	const certificatesSideNav = useRef();
+	const certificatesTextAnim = useRef();
 	const certificatesTitle = document.getElementById('certificatesTitle');
 	const [certificatesSideNavIntersecting, setCertificatesSideNavIntersecting] = useState();
 	// console.log('isIntersecting', contactSideNavIntersecting)
 	useEffect(() => {
-  
+		
 	  // console.log('aboutSideNav', aboutSideNav.current);
 	  const observer = new IntersectionObserver((entries) =>{
 		const entry =entries[0];
 		setCertificatesSideNavIntersecting(entry.isIntersecting)
 		// console.log('entry', entry);
 	  }) 
-	  observer.observe(certificatesSideNav.current);
+	  observer.observe(certificatesTextAnim.current);
   
 	  
   
@@ -100,7 +100,7 @@ return () => {
 }, []);
 
   return (
-  <div ref={certificatesSideNav} >
+  <div ref={certificatesTextAnim} >
 	<div className="certificateTitleSvgAnimate">
 		
 <svg className='certificateSvgDrawing' id="certSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.12 92.83">

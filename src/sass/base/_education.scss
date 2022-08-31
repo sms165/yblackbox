@@ -36,7 +36,9 @@ padding-bottom: 3vh;
     color: white;
     white-space: nowrap;
     overflow: hidden;  
+    border-right: 2px solid rgba(255,255,255,.75);
 }
+
 
 .uopeopleImg.visible {
   animation: slideInUopeople 3s;
@@ -74,6 +76,7 @@ padding-bottom: 3vh;
     color: white;
     white-space: nowrap;
     overflow: hidden;
+    border-right: 2px solid rgba(255,255,255,.75);
 }
 
 .cfImg.visible {
@@ -113,6 +116,7 @@ padding-bottom: 3vh;
     color: white;
     white-space: nowrap;
     overflow: hidden; 
+    border-right: 2px solid rgba(255,255,255,.75);
 }
 
 .lutzImg.visible {
@@ -147,7 +151,7 @@ padding-bottom: 3vh;
 
 /* Animation */
 .anim-typewriter-lutz{
-    animation: typewriter-lutz 10s steps(40) 9s 1 normal both,
+    animation: typewriter-lutz 10s steps(40) 2s 1 normal both,
                blinkTextCursor-lutz 500ms steps(44)  infinite normal;
   }
   @keyframes typewriter-lutz{
@@ -161,7 +165,7 @@ padding-bottom: 3vh;
 
   /* Animation */
 .anim-typewriter-cf{
-    animation: typewriter-cf 10s steps(40) 9s 1 normal both,
+    animation: typewriter-cf 10s steps(40) 3s 1 normal both,
                blinkTextCursor-cf 500ms steps(44) infinite normal;
   }
   @keyframes typewriter-cf{

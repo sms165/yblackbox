@@ -13,13 +13,16 @@ export default function Projects() {
 const [projectsSideNavIntersecting, setProjectsSideNavIntersecting] = useState();
 console.log('isIntersecting', projectsSideNavIntersecting)
 useEffect(() => {
+  let options = {
+    threshold: .8
+  }
 
   // console.log('aboutSideNav', aboutSideNav.current);
   const observer = new IntersectionObserver((entries) =>{
     const entry =entries[0];
     setProjectsSideNavIntersecting(entry.isIntersecting)
     // console.log('entry', entry);
-  }) 
+  }, options) 
   observer.observe(projectsSideNav.current);
 
   
@@ -29,24 +32,26 @@ useEffect(() => {
 }, []);
 
 
-// if(projectsSideNavIntersecting == true){
-//   projectsTitle.classList.add("active");
-//   projectsTitle.classList.remove("reveal");
-// }
+if(projectsSideNavIntersecting == true){
+  projectsTitle.classList.add("active");
+  projectsTitle.classList.remove("reveal");
+}
   
-// if(projectsSideNavIntersecting == false){
+if(projectsSideNavIntersecting == false){
 
-//     if(projectsTitle.classList.contains("active") ){
-//   projectsTitle.classList.remove("active");
-//   projectsTitle.classList.add("reveal");
-//   }
+    if(projectsTitle.classList.contains("active") ){
+  projectsTitle.classList.remove("active");
+  projectsTitle.classList.add("reveal");
+  }
 
-// }
+}
 
 
   return (
-   <>
-   <div className="projectsContainer">
+    <>
+   <div id='projectsLink'></div>
+   <div className="projectsContainer"  >
+    {/* <a id='projectsLink'></a> */}
     <Deck  />
     <div className='projectSideNav' ref={projectsSideNav}>
      </div><div  id="projects"></div>

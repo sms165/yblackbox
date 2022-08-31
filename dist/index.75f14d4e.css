@@ -436,6 +436,36 @@ li p {
   }
 }
 
+#skillsLink {
+  position: fixed;
+  top: 300vh;
+}
+
+#aboutLink {
+  position: fixed;
+  top: 150vh;
+}
+
+#projectsLink {
+  position: fixed;
+  top: 220vh;
+}
+
+#contactLink {
+  position: fixed;
+  top: 600vh;
+}
+
+#certificatesLink {
+  position: fixed;
+  top: 470vh;
+}
+
+#degreeLink {
+  position: fixed;
+  top: 530vh;
+}
+
 .container {
   width: 100px;
   height: 100px;
@@ -658,7 +688,7 @@ li p {
 
 .sectionAbout {
   position: fixed;
-  top: 400px;
+  top: 65vh;
 }
 
 .sectionProjects {
@@ -757,6 +787,7 @@ li p {
 }
 
 .aboutContainer {
+  height: 100vh;
   color: #fff;
   flex-direction: row;
   place-content: space-around center;
@@ -883,6 +914,7 @@ h2 {
 }
 
 .skillsContainer {
+  height: 230vh;
   flex-direction: row;
   place-content: space-between center;
   margin-left: 10vw;
@@ -1261,6 +1293,7 @@ li {
 .uopeopleText {
   color: #fff;
   white-space: nowrap;
+  border-right: 2px solid #ffffffbf;
   overflow: hidden;
 }
 
@@ -1298,6 +1331,7 @@ li {
 .cfText {
   color: #fff;
   white-space: nowrap;
+  border-right: 2px solid #ffffffbf;
   overflow: hidden;
 }
 
@@ -1335,6 +1369,7 @@ li {
 .lutzText {
   color: #fff;
   white-space: nowrap;
+  border-right: 2px solid #ffffffbf;
   overflow: hidden;
 }
 
@@ -1379,7 +1414,7 @@ li {
 }
 
 .anim-typewriter-lutz {
-  animation: typewriter-lutz 10s steps(40, end) 9s both, blinkTextCursor-lutz .5s steps(44, end) infinite;
+  animation: typewriter-lutz 10s steps(40, end) 2s both, blinkTextCursor-lutz .5s steps(44, end) infinite;
 }
 
 @keyframes typewriter-lutz {
@@ -1403,7 +1438,7 @@ li {
 }
 
 .anim-typewriter-cf {
-  animation: typewriter-cf 10s steps(40, end) 9s both, blinkTextCursor-cf .5s steps(44, end) infinite;
+  animation: typewriter-cf 10s steps(40, end) 3s both, blinkTextCursor-cf .5s steps(44, end) infinite;
 }
 
 @keyframes typewriter-cf {
@@ -1427,6 +1462,7 @@ li {
 }
 
 .certificateContainer {
+  height: 100vh;
   color: #fff;
   flex-direction: column;
   place-content: space-around space-between;
@@ -1541,6 +1577,8 @@ li {
 }
 
 .contactContainer {
+  height: 100vh;
+  background-color: #add8e6;
   flex-direction: row;
   place-content: space-between center;
   margin-top: 10vh;
