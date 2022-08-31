@@ -71,8 +71,9 @@ if (degreesSideNavIntersecting == false) {
   
 
   return (
+    <>
     <div className="educationContainer">
-        <div id='degreeLink'></div>
+       
           <div className="uopeopleContainer">
             <div className="uopeopleImgContainer">
               <img
@@ -124,8 +125,9 @@ if (degreesSideNavIntersecting == false) {
               </p>
             </div>
           </div>
-
-      
+          
     </div>
+    <div id='degreeLink'></div>
+      </>
   );
 }

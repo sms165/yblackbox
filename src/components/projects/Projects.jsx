@@ -49,13 +49,14 @@ if(projectsSideNavIntersecting == false){
 
   return (
     <>
-   <div id='projectsLink'></div>
+   
    <div className="projectsContainer"  >
     {/* <a id='projectsLink'></a> */}
     <Deck  />
     <div className='projectSideNav' ref={projectsSideNav}>
      </div><div  id="projects"></div>
      </div>
+     <div id='projectsLink'></div>
      </>
   )
 }

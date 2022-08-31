@@ -61,7 +61,7 @@ export default function Education() {
    <br/>
    <br/>
    <div className="certificateListContainer"  >
-    <div id='certificatesLink'></div>
+   
    
 <div className="certificationBox">
    {/* <div className="cert"> */}
@@ -87,8 +87,9 @@ export default function Education() {
       </div>
 </div>
    </div>
+   
    </div>
-  
+  <div id='certificatesLink'></div>
   </>
   )
 }

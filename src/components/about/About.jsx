@@ -53,7 +53,7 @@ export default function About() {
 
   return (
   <div  className='about' >
-    <div id='aboutLink'></div>
+    
     <div className="aboutContainer"  >
     
      
@@ -78,6 +78,7 @@ export default function About() {
         </Routes>
     </Router> */}
         </div>
+        <div id='aboutLink'></div>
         </div>
   )
 }

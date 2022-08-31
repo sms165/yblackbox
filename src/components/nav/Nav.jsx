@@ -61,13 +61,13 @@ export default function Nav() {
         
         <li className="liNav">
         <div >
-          <div>
+          
           <HashLink to="#aboutLink" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
             <div className="liNavCont">
           {/* <img src="" alt="" /> */}
           <p>About me</p></div>
           </HashLink>
-          </div>
+          
           </div>
         </li>
 

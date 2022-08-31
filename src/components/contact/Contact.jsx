@@ -73,7 +73,7 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
 
     
       <div className="contactContainer">
-      <div className="contactLink" id='contactLink'></div>
+      
         
       <div ref={contactSideNav} className='contactBox' >
       
@@ -126,7 +126,9 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
       </form>
     </div>
     </div>
+    <div className="contactLink" id='contactLink'></div>
     </div>
+    
     </>
   )
 }

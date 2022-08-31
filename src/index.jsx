@@ -65,10 +65,11 @@ const App = () => {
   return (
     <>
      
-      <Parallax ref={parallax} pages={6} style={{ top: "0", left: "0" }}>
+      <Parallax ref={parallax} pages={10} style={{ top: "0", left: "0" }}>
         
         {/* background */}
-        <ParallaxLayer offset={0}  factor={7}>
+        <ParallaxLayer offset={0}  factor={200}
+        speed={.5}>
           // {/* <div className="backg"> */}
           <Background />
           // {/* </div> */}
@@ -102,11 +103,11 @@ const App = () => {
 
         <ParallaxLayer
         className="content"
-        speed={0.5}
+        
         // style={{  width: "90vw", float:"right"}}
         
         >
-           <React.Fragment>
+          
              <Nav />
              <About />
              <Projects />
@@ -114,7 +115,7 @@ const App = () => {
              <CertificateText />
              <Education />
              <Contact />
-</React.Fragment>
+
 
         </ParallaxLayer>
 

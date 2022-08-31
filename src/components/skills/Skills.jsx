@@ -203,7 +203,7 @@ function Skills() {
         <div className="skillsSideNav " ref={skillsSideNav}>
 
           
-            <div id='skillsLink'></div>
+           
               
                 <h2 className="skillsHeader" id="skillsSideNav">
                   Programming Skills
@@ -315,7 +315,7 @@ function Skills() {
             </div>
             
 
-            
+            <div id='skillsLink'></div>
               
             <h2 className="skillsHeader">Graphic Design Skills</h2>
                <div className="graphicDesignSkillsContainer">
