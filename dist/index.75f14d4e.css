@@ -757,7 +757,6 @@ li p {
 }
 
 .aboutContainer {
-  height: 100vh;
   color: #fff;
   flex-direction: row;
   place-content: space-around center;
@@ -884,7 +883,6 @@ h2 {
 }
 
 .skillsContainer {
-  height: 210vh;
   flex-direction: row;
   place-content: space-between center;
   margin-left: 10vw;
@@ -1432,7 +1430,6 @@ li {
 }
 
 .certificateContainer {
-  height: 100vh;
   color: #fff;
   flex-direction: column;
   place-content: space-around space-between;
@@ -1547,7 +1544,6 @@ li {
 }
 
 .contactContainer {
-  height: 100vh;
   flex-direction: row;
   place-content: space-between center;
   margin-top: 10vh;
@@ -1557,7 +1553,6 @@ li {
 }
 
 .contactBox {
-  width: 500px;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #bebbbb1a;
