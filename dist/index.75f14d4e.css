@@ -118,7 +118,6 @@ li p {
   transform-origin: center;
   border-radius: 50%;
   place-content: center;
-  animation: orbit 30s linear infinite;
   display: grid;
   position: absolute;
 }
@@ -197,8 +196,16 @@ li p {
 }
 
 @keyframes orbit {
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
   100% {
-    transform: rotate(1turn);
+    transform: rotate(360deg);
   }
 }
 

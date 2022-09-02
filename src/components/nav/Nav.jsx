@@ -46,8 +46,9 @@ export default function Nav() {
      <Router>
       <ul className="ulNav">
       
+     
       <li className="liNav">
-        <div  >
+        <div className="content"  >
        
         <HashLink to="#certificatesLink" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
         <div className="liNavCont">
@@ -60,7 +61,7 @@ export default function Nav() {
        
         
         <li className="liNav">
-        <div >
+        <div className="content" >
           
           <HashLink to="#aboutLink" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
             <div className="liNavCont">
@@ -73,7 +74,7 @@ export default function Nav() {
 
 
         <li className="liNav">
-        <div >
+        <div className="content" >
           <HashLink to="#projectsLink" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
           <div className="liNavCont">
           {/* <img src="" alt="" /> */}
@@ -83,7 +84,7 @@ export default function Nav() {
         
        <li className="liNav">
        
-        <div >
+        <div className="content" >
           <HashLink to="#contactLink" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
           
          {/* <a href="#contactLink"> */}
@@ -101,7 +102,7 @@ export default function Nav() {
         
         
         <li className="liNav">
-        <div >
+        <div className="content">
           <HashLink to="#skillsLink" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
           <div className="liNavCont">
           {/* <img src="" alt="" /> */}
@@ -112,7 +113,7 @@ export default function Nav() {
        
         
         <li className="liNav">
-        <div >
+        <div className="content" >
           <HashLink to="#degreeLink" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}>
           <div className="liNavCont">
           {/* <img src="" alt="" /> */}

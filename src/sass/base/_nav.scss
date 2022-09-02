@@ -64,6 +64,7 @@ li p{
   }
 }
 
+
 .liNav {
   position: absolute;
   //   background: black;
@@ -73,12 +74,10 @@ li p{
   border-radius: 50%;
   display: grid;
   place-content: center;
-  animation: orbit 30s linear infinite;
+  // animation: orbit 30s linear infinite;
   transform-origin: center;
 
-  // &:hover {
-  //   border: solid 3px var(--pink-highlighter);
-  // }
+   
 }
 
 .liNavCont {
@@ -102,6 +101,8 @@ li p{
   p {
     animation: first 30s linear infinite;
   }
+ 
+  
 }
 
 .liNav:nth-child(2) {
@@ -154,9 +155,16 @@ li p{
   }
 }
 
+
 @keyframes orbit {
-  100% {
-    transform: rotate(1turn);
+  25% {
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
   }
 }
 
@@ -165,6 +173,7 @@ li p{
     transform: rotate(1turn);
   }
 }
+
 
 @keyframes first {
   16% {
