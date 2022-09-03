@@ -41,7 +41,7 @@ padding-bottom: 3vh;
 
 
 .uopeopleImg.visible {
-  animation: slideInUopeople 3s;
+  animation: slideInUopeople 2s;
 }
 
 @keyframes slideInUopeople {
@@ -80,7 +80,7 @@ padding-bottom: 3vh;
 }
 
 .cfImg.visible {
-  animation: slideInCf 5s;
+  animation: slideInCf 3s;
 }
 
 @keyframes slideInCf {
@@ -120,7 +120,7 @@ padding-bottom: 3vh;
 }
 
 .lutzImg.visible {
-  animation: slideInLutz 5s;
+  animation: slideInLutz 3s;
 }
 
 @keyframes slideInLutz {
@@ -137,7 +137,7 @@ padding-bottom: 3vh;
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 10s steps(40) 1s 1 normal both,
+  animation: typewriter 10s steps(40) 8s 1 normal both,
              blinkTextCursor 500ms steps(40) infinite normal;
 }
 @keyframes typewriter{
@@ -151,7 +151,7 @@ padding-bottom: 3vh;
 
 /* Animation */
 .anim-typewriter-lutz{
-    animation: typewriter-lutz 10s steps(40) 2s 1 normal both,
+    animation: typewriter-lutz 10s steps(40) 8s 1 normal both,
                blinkTextCursor-lutz 500ms steps(44)  infinite normal;
   }
   @keyframes typewriter-lutz{
@@ -165,7 +165,7 @@ padding-bottom: 3vh;
 
   /* Animation */
 .anim-typewriter-cf{
-    animation: typewriter-cf 10s steps(40) 3s 1 normal both,
+    animation: typewriter-cf 10s steps(40) 8s 1 normal both,
                blinkTextCursor-cf 500ms steps(44) infinite normal;
   }
   @keyframes typewriter-cf{

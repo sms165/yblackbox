@@ -39,26 +39,33 @@ img, picture {
   font-family: Blackboxcodedesign;
   src: url("Blackboxcodedesign-Regular.6ff793bb.ttf") format("truetype");
   src: url("Blackboxcodedesign-Regular.0bbff089.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Logo;
   src: url("Logo-Regular.498a6c5f.ttf") format("truetype");
+  src: url("Logo-Regular.b328237e.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Black-y;
   src: url("Black_y-Regular.b9618b5d.ttf") format("truetype");
+  src: url("Black_y-Regular.a26fdf5f.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Joan;
   src: url("Joan-Regular.d330bb13.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Raleway;
   src: url("Raleway-VariableFont_wght.aea2714f.ttf") format("truetype");
+  font-display: swap;
 }
 
 :root {
@@ -1273,7 +1280,7 @@ li {
 }
 
 .uopeopleImg.visible {
-  animation: slideInUopeople 3s;
+  animation: slideInUopeople 2s;
 }
 
 @keyframes slideInUopeople {
@@ -1311,7 +1318,7 @@ li {
 }
 
 .cfImg.visible {
-  animation: slideInCf 5s;
+  animation: slideInCf 3s;
 }
 
 @keyframes slideInCf {
@@ -1349,7 +1356,7 @@ li {
 }
 
 .lutzImg.visible {
-  animation: slideInLutz 5s;
+  animation: slideInLutz 3s;
 }
 
 @keyframes slideInLutz {
@@ -1365,7 +1372,7 @@ li {
 }
 
 .anim-typewriter {
-  animation: typewriter 10s steps(40, end) 1s both, blinkTextCursor .5s steps(40, end) infinite;
+  animation: typewriter 10s steps(40, end) 8s both, blinkTextCursor .5s steps(40, end) infinite;
 }
 
 @keyframes typewriter {
@@ -1389,7 +1396,7 @@ li {
 }
 
 .anim-typewriter-lutz {
-  animation: typewriter-lutz 10s steps(40, end) 2s both, blinkTextCursor-lutz .5s steps(44, end) infinite;
+  animation: typewriter-lutz 10s steps(40, end) 8s both, blinkTextCursor-lutz .5s steps(44, end) infinite;
 }
 
 @keyframes typewriter-lutz {
@@ -1413,7 +1420,7 @@ li {
 }
 
 .anim-typewriter-cf {
-  animation: typewriter-cf 10s steps(40, end) 3s both, blinkTextCursor-cf .5s steps(44, end) infinite;
+  animation: typewriter-cf 10s steps(40, end) 8s both, blinkTextCursor-cf .5s steps(44, end) infinite;
 }
 
 @keyframes typewriter-cf {
@@ -1474,11 +1481,11 @@ li {
 }
 
 #mask-c.visible {
-  animation: strokeOffset linear forwards;
+  animation: strokeOffset 1s linear .3s forwards;
 }
 
 #mask-e.visible {
-  animation: strokeOffset 2s linear .5s forwards;
+  animation: strokeOffset 1s linear .5s forwards;
 }
 
 #mask-r.visible {
@@ -1490,7 +1497,7 @@ li {
 }
 
 #mask-i.visible {
-  animation: strokeOffset 2.5s linear 2.2s forwards;
+  animation: strokeOffset 2s linear 2.5s forwards;
 }
 
 #mask-f.visible {

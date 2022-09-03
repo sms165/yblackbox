@@ -70,10 +70,10 @@
   }
   
   #mask-c.visible {
-    animation: strokeOffset 0s linear forwards 0s;
+    animation: strokeOffset 1s linear forwards .3s;
   }
   #mask-e.visible {
-    animation: strokeOffset 2s linear forwards .5s;
+    animation: strokeOffset 1s linear forwards .5s;
   }
   #mask-r.visible {
     animation: strokeOffset 2.5s linear forwards 1s;
@@ -82,7 +82,7 @@
     animation: strokeOffset 2.5s linear forwards 2s;
   }
   #mask-i.visible {
-    animation: strokeOffset 2.5s linear forwards 2.2s;
+    animation: strokeOffset 2s linear forwards 2.5s;
   }
   #mask-f.visible {
     animation: strokeOffset 2.5s linear forwards 3.4s;

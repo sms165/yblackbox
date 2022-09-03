@@ -68,7 +68,7 @@ const App = () => {
       <Parallax ref={parallax} pages={10} style={{ top: "0", left: "0" }}>
         
         {/* background */}
-        <ParallaxLayer offset={0}  factor={200}
+        <ParallaxLayer offset={0}  factor={20}
         speed={.5}>
           // {/* <div className="backg"> */}
           <Background />
