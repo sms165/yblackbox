@@ -4,6 +4,7 @@
     box-sizing: border-box;
     height: 100vh;
   padding: 20px;
+  
 }
 
 
@@ -35,7 +36,11 @@
     padding: 5vh;
     font-size: 2em;
     text-align: center;
-    position: fixed;
+    // position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: fixed;
     cursor: pointer;
 //   left: 50%;
 //   top: 20px;

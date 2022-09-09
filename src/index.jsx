@@ -67,7 +67,7 @@ const App = () => {
   return (
     <>
      
-      <Parallax ref={parallax} pages={10} style={{ top: "0", left: "0" }}>
+      <Parallax ref={parallax} pages={9} style={{ top: "0", left: "0" }}>
         
         {/* background */}
         <ParallaxLayer offset={0}  factor={20}
@@ -123,7 +123,8 @@ const App = () => {
 
         <ParallaxLayer
           className="game"
-          offset={9}
+          offset={8}
+          
           // style={float="right"}
           // style={{ width: "10vw", float:"left"}}
         //  offset={9}
