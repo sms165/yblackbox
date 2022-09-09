@@ -1,0 +1,196 @@
+.gameStyle{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100vh;
+  padding: 20px;
+}
+
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+    flex-direction: row;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.tetris{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+    flex-direction: row;
+    
+}
+
+.gameBtn{
+    padding: 5vh;
+    font-size: 2em;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+//   left: 50%;
+//   top: 20px;
+//   transform: translate(-50%, -50%);
+//   margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border-color:var(--pink-highlighter);
+    // z-index: 0;
+    box-shadow: 0 0 10px var(--pink-highlighter);
+
+  }
+
+  .board{
+    margin: 2em auto;
+    display: grid;
+    grid-gap: 2px;
+    width: 30vw;
+    height: 85vh;
+    background: black;
+    border: 10px solid rgb(32,0,64);
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+  }
+
+  .boardCell{
+    width: auto;
+    border-radius: 6px;
+    position: relative;
+  }
+
+
+  //tetromino
+  .tetromino{
+    border-top: 3px solid rgba(255,255,255, 0.1);
+    border-left: 3px solid rgba(255,255,255, 0.1);
+    border-bottom: 3px solid rgba(0,0,0, 0.1);
+    border-right: 3px solid rgba(0,0,0, 0.1);
+  }
+
+  .tetromino .sparkle {
+    position: absolute;
+    z-index: 10;
+    width: 6px;
+    height: 6px;
+    left: -2px;
+    top: -2px;
+    background-color: rgba(255,255,255, 0.4);
+    border-radius: 4px 4px;
+  }
+
+  .tetromino.ghost{
+    background-color: rgba(190, 187, 187, 0.1);;
+    border: 5px solid rgba(190, 187, 187, 0.1);
+  }
+
+  .tetromino.ghost .sparkle{
+    opacity: 0;
+  }
+
+  .tetromino__i{
+    background-color: rgba(132, 61, 198, 1);
+  }
+
+  .tetromino__j{
+    background-color: var(--blue-highlighter);
+  }
+
+  .tetromino__l{
+    background-color: rgba(36, 95, 223, 1);
+  }
+
+  .tetromino__o{
+    background-color: var(--yellow-highlighter);
+  }
+
+  .tetromino__s{
+    background-color: var(--green-highlighter);
+  }
+
+  .tetromino__t{
+    background-color: rgba(255,255,255,1);
+  }
+  
+  .tetromino__z{
+    background-color: var(--pink-highlighter);
+  }
+
+
+// gamestats
+.gameStats{
+    // position: absolute;
+    // flex-direction: row;
+    align-self: flex-end;
+    padding: 2em;
+    width: 15vw;
+    list-style-type: none;
+    color: rgba(255,255,255, 0.5)
+ }
+
+ .gameStats__left{
+    right: 0;
+    top: 22vh;
+    text-align: left;
+ }
+
+ .gameStats__left{
+    right: 0;
+    top: 0;
+    text-align: left;
+ }
+
+
+ .gameStats .value{
+    font-size: 2rem;
+    // margin-bottom: 0.5em;
+    color: rgba(255,255,255, 1)
+ }
+
+
+//  Preview section
+.preview{
+    position: absolute;
+    margin: 2em auto;
+    left: 33vw;
+    background-color: rgba(190, 187, 187, 0.1);;
+    border: 5px solid rgba(190, 187, 187, 0.1);
+    border-radius: 10px;
+}
+
+.previewBoard{
+    //margin-top: 10px;
+    display: grid;
+   // grid-gap: 2px;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    width: 8vw;
+    height: 8vw;
+}
+
+
+// gamecontroller
+.gameController{
+    position: absolute;
+    // top: -100em;
+    bottom: -1px;
+    background: transparent;
+    border: none;
+}
+
+.gameController:focus{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(255,255,255, 0);
+    
+}

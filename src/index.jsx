@@ -22,6 +22,8 @@ import Contact from "./components/contact/Contact";
 import Certificate from "./components/certificate/Certificate";
 import CertificateText from "./components/certificateText/CertificateText";
 
+import Game from "./components/game/Game"
+
 
 const App = () => {
   const [scroll, setScroll] = useState(0);
@@ -115,9 +117,27 @@ const App = () => {
              <CertificateText />
              <Education />
              <Contact />
-
+            
 
         </ParallaxLayer>
+
+        <ParallaxLayer
+          className="game"
+          offset={9}
+          // style={float="right"}
+          // style={{ width: "10vw", float:"left"}}
+        //  offset={9}
+        >
+         {/* <h1>hello</h1> */}
+         <div className="gameStyle">
+         <Game rows={20} columns={10} />
+
+         </div>
+          {/* <div className="sideNav " id="iconsNav"> */}
+            {/* <Game rows={20} columns={10} /> */}
+          {/* </div> */}
+        </ParallaxLayer>
+
 
 
         {/* top cube animation / navigation, content */}

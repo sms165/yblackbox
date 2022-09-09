@@ -122,7 +122,7 @@ const USER_ID = "EN8tmj-G93IuOAs-N";
         />
         <br/>
         <br/>
-        <button className='formSubmit' type='submit' color='green'>Submit</button>
+        <button className='formSubmit' type='submit'>Submit</button>
       </form>
     </div>
     </div>

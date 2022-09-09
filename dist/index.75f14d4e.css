@@ -1619,4 +1619,170 @@ textarea {
   font-family: Raleway, sans-serif;
 }
 
+.gameStyle {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.game {
+  min-height: 50vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.menu {
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tetris {
+  min-height: 50vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.gameBtn {
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  border-color: var(--pink-highlighter);
+  box-shadow: 0 0 10px var(--pink-highlighter);
+  background-color: #000;
+  border-radius: 5px;
+  padding: 5vh;
+  font-size: 2em;
+  position: fixed;
+}
+
+.board {
+  grid-gap: 2px;
+  width: 30vw;
+  height: 85vh;
+  background: #000;
+  border: 10px solid #200040;
+  border-radius: 10px;
+  margin: 2em auto;
+  display: grid;
+  box-shadow: 0 5px 15px #00000059;
+}
+
+.boardCell {
+  width: auto;
+  border-radius: 6px;
+  position: relative;
+}
+
+.tetromino {
+  border: 3px solid #0000001a;
+  border-color: #ffffff1a #0000001a #0000001a #ffffff1a;
+}
+
+.tetromino .sparkle {
+  z-index: 10;
+  width: 6px;
+  height: 6px;
+  background-color: #fff6;
+  border-radius: 4px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+}
+
+.tetromino.ghost {
+  background-color: #bebbbb1a;
+  border: 5px solid #bebbbb1a;
+}
+
+.tetromino.ghost .sparkle {
+  opacity: 0;
+}
+
+.tetromino__i {
+  background-color: #843dc6;
+}
+
+.tetromino__j {
+  background-color: var(--blue-highlighter);
+}
+
+.tetromino__l {
+  background-color: #245fdf;
+}
+
+.tetromino__o {
+  background-color: var(--yellow-highlighter);
+}
+
+.tetromino__s {
+  background-color: var(--green-highlighter);
+}
+
+.tetromino__t {
+  background-color: #fff;
+}
+
+.tetromino__z {
+  background-color: var(--pink-highlighter);
+}
+
+.gameStats {
+  width: 15vw;
+  color: #ffffff80;
+  align-self: flex-end;
+  padding: 2em;
+  list-style-type: none;
+}
+
+.gameStats__left {
+  text-align: left;
+  text-align: left;
+  top: 0;
+  right: 0;
+}
+
+.gameStats .value {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.preview {
+  background-color: #bebbbb1a;
+  border: 5px solid #bebbbb1a;
+  border-radius: 10px;
+  margin: 2em auto;
+  position: absolute;
+  left: 33vw;
+}
+
+.previewBoard {
+  width: 8vw;
+  height: 8vw;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+}
+
+.gameController {
+  background: none;
+  border: none;
+  position: absolute;
+  bottom: -1px;
+}
+
+.gameController:focus {
+  color: #fff0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
 /*# sourceMappingURL=index.75f14d4e.css.map */
