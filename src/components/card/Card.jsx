@@ -18,7 +18,7 @@ class Card extends React.Component {
 
   render() {
     const { i, x, y, rot, scale, trans, cards, bind, objs } = this.props;
-    const { name, age, distance, text, pics, keywords } = objs[i];
+    const { name, age, distance, text, pics, keywords, webpage } = objs[i];
   
 
     return (
@@ -54,7 +54,7 @@ class Card extends React.Component {
             </div>
             <div>
          
-        <a href="https://github.com/sms165" target="_blank"><button className="cardBtn">More Details</button></a>
+        <a href={webpage} target="_blank"><button className="cardBtn">More Details</button></a>
             </div>
             
           </div>

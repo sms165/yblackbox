@@ -35,7 +35,7 @@ const objs = [
     ],
     
     
-    text: "The C and the L are silent."
+    webpage: "https://projects.yblackbox.com/myFlixProject/myflix.html"
   },
   {
     pics: [
@@ -50,10 +50,10 @@ const objs = [
       "Express",
       "Postman",
       "Heroku"
-      
-
 
     ],
+
+    webpage:"https://projects.yblackbox.com/myFlixApi/myflixapi.html"
     
   },
   {
@@ -75,7 +75,7 @@ const objs = [
       "PWA"
 
     ],
-    text: "A little known fact is that I cover about 40% of Africa."
+    webpage: "https://projects.yblackbox.com/meetApp/meet.html"
   },
   {
     pics: [
@@ -91,6 +91,8 @@ const objs = [
 
 
     ],
+
+    webpage:"https://projects.yblackbox.com/yblackbox/yblackbox.html"
    
   }
 ];
