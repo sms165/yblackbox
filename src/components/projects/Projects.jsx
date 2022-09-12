@@ -3,6 +3,8 @@ import Deck from '../deck/Deck'
 
 import '../../sass/style.scss';
 
+import swipe from '../../assets/swipe3.svg'
+
 import { useRef, useState } from "react";
 import { useEffect } from "react";
 
@@ -54,9 +56,13 @@ if(projectsSideNavIntersecting == false){
     {/* <a id='projectsLink'></a> */}
     <Deck  />
     <div className='projectSideNav' ref={projectsSideNav}>
-     </div><div  id="projects"></div>
+     </div><div  id="projects"> 
+     <img className='swipe' src={swipe} alt="" />
+     </div>
+    
      </div>
      <div id='projectsLink'></div>
+     
      </>
   )
 }

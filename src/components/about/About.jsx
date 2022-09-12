@@ -1,22 +1,37 @@
 import React from 'react';
+
 import { Row, Col , Container} from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Link, Routes, HashLink } from 'react-router-dom';
 import '../../sass/style.scss';
 import { useRef, useState } from "react";
 import { useEffect } from "react";
 import { Switch } from 'react-router-dom';
+import lottie from 'lottie-web'
+import characterAnim from '../../assets/data.json'
 
 import Nav from '../nav/Nav';
 
 export default function About() {
 
   const [scroll, setScroll] = useState(0);
+
+  const animate = useRef(null);
   
   const aboutSideNav = useRef();
   const aboutMe = document.getElementById('aboutMe');
   const [aboutSideNavIntersecting, setAboutSideNavIntersecting] = useState();
-  console.log('iabout', aboutSideNavIntersecting)
+  // console.log('iabout', aboutSideNavIntersecting)
   useEffect(() => {
+const instance =
+    lottie.loadAnimation({
+      container: animate.current,
+     renderer: 'svg',
+      loop: true, 
+      autoplay: true,
+      animationData: characterAnim
+    })
+
+
 
     let options = {
       threshold: .7
@@ -32,8 +47,7 @@ export default function About() {
 
     
 
-    return () => {
-    };
+    return () => instance.destroy();
   }, []);
 
 
@@ -57,8 +71,9 @@ export default function About() {
     <div className="aboutContainer"  >
     
      
-          <div className="image" ref={aboutSideNav} >
-          <img src="https://via.placeholder.com/500" alt="" />
+          <div  className="image" ref={aboutSideNav} >
+            <div ref={animate}></div>
+          {/* <img src="https://via.placeholder.com/500" alt="" /></div> */}
           </div>
       
         
