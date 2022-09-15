@@ -669,34 +669,9 @@ li p {
   top: -250px;
 }
 
-.sectionAbout {
+.sectionAbout, .sectionProjects, .sectionDegrees, .sectionCertificates, .sectionSkills, .sectionContact {
   position: fixed;
-  top: 65vh;
-}
-
-.sectionProjects {
-  position: fixed;
-  top: 310px;
-}
-
-.sectionDegrees {
-  position: fixed;
-  top: 335px;
-}
-
-.sectionCertificates {
-  position: fixed;
-  top: 210px;
-}
-
-.sectionSkills {
-  position: fixed;
-  top: 360px;
-}
-
-.sectionContact {
-  position: fixed;
-  top: 340px;
+  top: 30vh;
 }
 
 .sideNavTextSection {
