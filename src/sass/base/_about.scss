@@ -14,6 +14,7 @@
     justify-content: center;
     align-content: space-around;
     height: 100vh;
+    align-items: center;
     // height: fit-content;
 }
 
@@ -43,7 +44,7 @@ a{
 
 
 .aboutBox {
-        margin: auto;
+        margin: auto 0 ;
         // position: relative;
         background-color: rgba(190, 187, 187, 0.1);
         // opacity: .1;

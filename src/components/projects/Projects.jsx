@@ -51,10 +51,11 @@ if(projectsSideNavIntersecting == false){
 
   return (
     <>
-   
+  
    <div className="projectsContainer"  >
-    {/* <a id='projectsLink'></a> */}
-    <div className="imageSwipe"> <img className='swipe' src={swipe} alt="" /></div>
+   {/* <img className='swipe' src={swipe} alt="" /> */}
+    <div className="imageSwipe"> 
+    <img className='swipe' src={swipe} alt="" /></div>
     <div className="deckCont"><div className='projectSideNav' ref={projectsSideNav}>
     <div className="cardsCont">
     <Deck  />

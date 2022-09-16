@@ -764,6 +764,7 @@ li p {
   height: 100vh;
   flex-direction: row;
   place-content: space-around center;
+  align-items: center;
   margin-left: 10vw;
   display: flex;
 }
@@ -791,7 +792,7 @@ a {
   height: fit-content;
   background-color: #bebbbb1a;
   border-radius: 10%;
-  margin: auto;
+  margin: auto 0;
   padding: 2rem;
 }
 
@@ -800,23 +801,26 @@ a {
 }
 
 .projectsContainer {
+  color: #fff;
   height: 100vh;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 15vw;
+  place-content: space-around center;
+  align-items: center;
+  margin-bottom: 5vh;
+  margin-left: 10vw;
   display: flex;
 }
 
 .deckCont {
-  width: 50vw;
+  width: 40vw;
   margin-left: 10vw;
 }
 
 .imageSwipe {
-  height: 50vh;
-  max-width: 20vw;
+  height: -moz-fit-content;
+  height: fit-content;
   justify-items: center;
-  margin-left: 10vw;
+  margin-left: 5vw;
   display: flex;
 }
 
@@ -909,6 +913,7 @@ h2 {
 .skillsContainer {
   flex-direction: row;
   place-content: space-between center;
+  margin-top: 3vh;
   margin-left: 10vw;
   padding: 4vh 7vw 2vh 4vw;
   display: flex;
