@@ -1,8 +1,38 @@
 .projectsContainer{
     // background-color: yellow;
     height: 100vh;
-    margin-left: 10vw;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    // align-content: space-around;
+    // margin-right: 10vw;
+    
+  
 }
+
+.deckCont{
+ width: 50vw;
+ margin-left: 10vw;
+  // width: 300px;
+}
+
+.imageSwipe{
+  // width: 20vw;
+  // top: 40vh;
+  display: flex;
+  justify-items: center;
+  // right: 0px;
+  height: 50vh;
+  max-width: 20vw;
+  // height: 50vh;
+  margin-left: 10vw;
+ 
+}
+   
+    
+
+
 
 .ex{
     position: absolute  ;
@@ -13,12 +43,12 @@
   .ex > div {
    position: absolute;
    top:1vh;
-    width: 70vw;
+    //  width: 50vw;
     // height: 100vh;
     will-change: transform;
-    display: flex;
-     align-items:flex-end;
-    justify-content:end;
+    // display: flex;
+    //  align-items:flex-end;
+    // justify-content:end;
   }
   
   .ex > div > div {
@@ -122,10 +152,10 @@ padding: 0 .5em;
   }
 
   .swipe{
-    position: relative;
-    left: 30%;
-    bottom: 20vh;
-    transform: translate(-50%, -50%);
+    // position: relative;
+    // left: 30%;
+    // bottom: 20vh;
+    // transform: translate(-50%, -50%);
     font-family: Blackboxcodedesign;
     
   }

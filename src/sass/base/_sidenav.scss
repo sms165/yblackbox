@@ -45,6 +45,14 @@
     font-family: Logo;
     position: relative;
     color: white;
+    
+   
+}
+
+.vertical{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-left: -3vw;
    
 }
 
@@ -64,6 +72,7 @@
 
 .y{
     color: var(--pink-highlighter);
+    padding-bottom: -.5px;
     font-family: Logo;
    font-size: 20vh;
    margin-left: 1vw;
@@ -76,10 +85,13 @@
 .yt{
    
     font-family: Black-y;
+    // color: var(--pink-highlighter);
+    // -webkit-text-stroke:1px white;
    font-size: 10vh;
 //    margin-left: 3vw;
    position: relative;
-top:-25px;
+   padding-bottom: 5px;
+// top:-25px;
   
    
    
@@ -96,6 +108,15 @@ top:-25px;
     top: -80px;
     position: relative;
     
+}
+
+.letterName{
+    font-size: 5vh;
+    // margin-left: -10vw;
+}
+
+.big{
+    margin-left: -20vw;
 }
 
 .a{
@@ -126,27 +147,27 @@ top:-25px;
 
 .sectionAbout{
     position: fixed;
-    top: 30vh;
+    top: 40vh;
 }
 
 .sectionProjects{
     position: fixed;
-    top: 30vh;
+    top: 40vh;
 }
 
 .sectionDegrees{
     position: fixed;
-    top: 30vh;
+    top: 40vh;
 }
 
 .sectionCertificates{
     position: fixed;
-    top: 30vh;
+    top: 40vh;
 }
 
 .sectionSkills{
     position: fixed;
-    top: 30vh;
+    top: 40vh;
 }
 
 
@@ -156,7 +177,7 @@ top:-25px;
 .sectionContact{
     
     position:fixed;
-    top: 30vh;
+    top: 40vh;
     
  }
  

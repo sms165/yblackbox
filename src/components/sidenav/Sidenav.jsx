@@ -25,16 +25,15 @@ export default function Sidenav() {
     <p className="bfont y">Y</p> */}
     {/* <img className="imgSmall" src={logo} alt="" srcset="" /> */}
         <div className="reveal" id="blackbox">
-         <p className="byfont yt ">Y</p>
-        <p className="bbfont b">B</p>
-        <p className="bbfont smallLetter">L</p>
-        <p className="bbfont smallLetter a">A</p>
-        <p className="bbfont smallLetter c">C</p>
-        <p className="bbfont smallLetter k">K</p>
+         {/* <p className="byfont yt ">Y</p> */}
+        {/* <p className="bbfont b">B</p> */}
+        
+        <div className="bbfont vertical"><span className="byfont yt big">Y</span><span className="b big">B</span><span className="bbfont letterName">LACK</span></div>
+        
         <p> </p>
-        <p className="bbfont b2">B</p>
-        <p className="bbfont smallLetter o">O</p>
-        <p className="bbfont smallLetter x">X</p>
+        {/* <p className="bbfont b2">B</p> */}
+        <p className="bbfont letterName vertical"><span className="b2 big">B</span>OX</p>
+       
        </div>
 
        <div className="sectionAbout reveal" id="aboutMe">

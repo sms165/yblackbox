@@ -603,6 +603,12 @@ li p {
   position: relative;
 }
 
+.vertical {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin-left: -3vw;
+}
+
 .byfont {
   color: #fff;
   font-family: Black-y;
@@ -619,6 +625,7 @@ li p {
   color: var(--pink-highlighter);
   opacity: .4;
   margin-left: 1vw;
+  padding-bottom: -.5px;
   font-family: Logo;
   font-size: 20vh;
   position: relative;
@@ -626,10 +633,10 @@ li p {
 }
 
 .yt {
+  padding-bottom: 5px;
   font-family: Black-y;
   font-size: 10vh;
   position: relative;
-  top: -25px;
 }
 
 .b {
@@ -642,6 +649,14 @@ li p {
   font-size: 5vh;
   position: relative;
   top: -80px;
+}
+
+.letterName {
+  font-size: 5vh;
+}
+
+.big {
+  margin-left: -20vw;
 }
 
 .a {
@@ -671,7 +686,7 @@ li p {
 
 .sectionAbout, .sectionProjects, .sectionDegrees, .sectionCertificates, .sectionSkills, .sectionContact {
   position: fixed;
-  top: 30vh;
+  top: 40vh;
 }
 
 .sideNavTextSection {
@@ -781,13 +796,28 @@ a {
 }
 
 .image {
-  height: 100vh;
-  width: 90vw;
+  width: 30vw;
 }
 
 .projectsContainer {
   height: 100vh;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 15vw;
+  display: flex;
+}
+
+.deckCont {
+  width: 50vw;
   margin-left: 10vw;
+}
+
+.imageSwipe {
+  height: 50vh;
+  max-width: 20vw;
+  justify-items: center;
+  margin-left: 10vw;
+  display: flex;
 }
 
 .ex {
@@ -795,11 +825,7 @@ a {
 }
 
 .ex > div {
-  width: 70vw;
   will-change: transform;
-  justify-content: end;
-  align-items: flex-end;
-  display: flex;
   position: absolute;
   top: 1vh;
 }
@@ -878,10 +904,6 @@ h2 {
 
 .swipe {
   font-family: Blackboxcodedesign;
-  position: relative;
-  bottom: 20vh;
-  left: 30%;
-  transform: translate(-50%, -50%);
 }
 
 .skillsContainer {
