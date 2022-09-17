@@ -23,143 +23,31 @@ import Certificate from "./components/certificate/Certificate";
 import CertificateText from "./components/certificateText/CertificateText";
 
 import Game from "./components/game/Game"
+import { StrictMode } from "react";
 
 
-const App = () => {
-  const [scroll, setScroll] = useState(0);
-  const parallax = useRef(null);
+import App from "./App";
+const t0 = performance.now();
 
-  const [isVisible, setIsVisible] = useState(false);
+function renderCallback(e) {
+  console.log("Rendering done", e);
+  const t1 = performance.now();
 
-  // const aboutSideNav = useRef();
-
-
-  useEffect(() => {
-
-    const getScroll = (e) => {
-      setScroll(e.target.scrollTop);
-    };
-    const container = parallax.current.container.current;
-    container.addEventListener("scroll", getScroll);
-
-    // console.log('aboutSideNav', aboutSideNav.current)
-    
-
-    return () => {
-      // if(currentTarget){
-      //   observer.unobserve(currentTarget);
-      // }
-    };
-  }, []);
-  // navbar visible starting at page 2
-  if (scroll > 2) {
-    
-    const nav = document.getElementById("blackbox");
-    nav.classList.add("active");
-    nav.classList.remove("reveal");
-   
-  } 
-
-
-
-   
-
-  return (
-    <>
-     
-      <Parallax ref={parallax} pages={9} style={{ top: "0", left: "0" }}>
-        
-        {/* background */}
-        <ParallaxLayer offset={0}  factor={20}
-        speed={.5}>
-          // {/* <div className="backg"> */}
-          <Background />
-          // {/* </div> */}
-        </ParallaxLayer>
-
-       {/* clouds for top nav background */}
-        <ParallaxLayer
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            zindex: "1",
-            
-          }}
-          offset={0}
-        >
-          <div className="clouds"></div>
-      
-        </ParallaxLayer>
-
-         {/* side logo */}
-         <ParallaxLayer
-          className="sideNavLayer"
-          style={{ width: "10vw", float:"left"}}
-          sticky={{ start: 0, end: 8 }}
-        >
-          {/* <div className="sideNav " id="iconsNav"> */}
-            <Sidenav />
-          {/* </div> */}
-        </ParallaxLayer>
-
-        <ParallaxLayer
-        className="content"
-        
-        // style={{  width: "90vw", float:"right"}}
-        
-        >
-          
-             <Nav />
-             <About />
-             <Projects />
-             <Skills />
-             <CertificateText />
-             <Education />
-             <Contact />
-            
-
-        </ParallaxLayer>
-
-        <ParallaxLayer
-          className="game"
-          offset={8}
-          
-          // style={float="right"}
-          // style={{ width: "10vw", float:"left"}}
-        //  offset={9}
-        >
-         {/* <h1>hello</h1> */}
-         <div className="gameStyle">
-         <Game rows={20} columns={10} />
-
-         </div>
-          {/* <div className="sideNav " id="iconsNav"> */}
-            {/* <Game rows={20} columns={10} /> */}
-          {/* </div> */}
-        </ParallaxLayer>
-
-
-
-
-        
-       
-        
-        
-        
-      </Parallax>
-      
-    </>
-  );
-};
+  console.log(`Mount took ~${(t1 - t0) / 1000} seconds.`);
+}
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
-//const root = ReactDOM.createRoot(do?cument.getElementById('root'));
+
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>,
+  rootElement,
+  renderCallback
 );
 
-// ReactDOM.render(<App />, document.getElementById("root"));
+
+
+
+

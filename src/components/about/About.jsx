@@ -1,99 +1,74 @@
-import React from 'react';
+import React from "react";
 
-import { Row, Col , Container} from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link, Routes, HashLink } from 'react-router-dom';
-import '../../sass/style.scss';
+import "../../sass/style.scss";
 import { useRef, useState } from "react";
 import { useEffect } from "react";
-import { Switch } from 'react-router-dom';
-import lottie from 'lottie-web'
-import characterAnim from '../../assets/data.json'
 
-import Nav from '../nav/Nav';
+import lottie from "lottie-web";
+import characterAnim from "../../assets/data.json";
 
 export default function About() {
-
-  const [scroll, setScroll] = useState(0);
-
   const animate = useRef(null);
-  
+
   const aboutSideNav = useRef();
-  const aboutMe = document.getElementById('aboutMe');
+  const aboutMe = document.getElementById("aboutMe");
   const [aboutSideNavIntersecting, setAboutSideNavIntersecting] = useState();
   // console.log('iabout', aboutSideNavIntersecting)
   useEffect(() => {
-const instance =
-    lottie.loadAnimation({
+    const instance = lottie.loadAnimation({
       container: animate.current,
-     renderer: 'svg',
-      loop: true, 
+      renderer: "svg",
+      loop: true,
       autoplay: true,
-      animationData: characterAnim
-    })
-
-
+      animationData: characterAnim,
+    });
 
     let options = {
-      threshold: .7
-    }
+      threshold: 0.7,
+    };
 
     // console.log('aboutSideNav', aboutSideNav.current);
-    const observer = new IntersectionObserver((entries) =>{
-      const entry =entries[0];
-      setAboutSideNavIntersecting(entry.isIntersecting)
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      setAboutSideNavIntersecting(entry.isIntersecting);
       // console.log('entry', entry);
-    }, options) 
+    }, options);
     observer.observe(aboutSideNav.current);
-
-    
 
     return () => instance.destroy();
   }, []);
 
-
-  if(aboutSideNavIntersecting == true){
+  if (aboutSideNavIntersecting == true) {
     aboutMe.classList.add("active");
     aboutMe.classList.remove("reveal");
-    console.log('aboutSideNav', aboutSideNav.current);
+    console.log("aboutSideNav", aboutSideNav.current);
   }
-  
-  if (aboutSideNavIntersecting == false ) {
-    if(aboutMe.classList.contains("active")){
-    aboutMe.classList.remove("active");
-    aboutMe.classList.add("reveal");
+
+  if (aboutSideNavIntersecting == false) {
+    if (aboutMe.classList.contains("active")) {
+      aboutMe.classList.remove("active");
+      aboutMe.classList.add("reveal");
     }
   }
 
-
   return (
-  <div  className='about' >
-    
-    <div className="aboutContainer"  >
-    
-     
-          <div  className="image" ref={aboutSideNav} >
-            <div ref={animate}></div>
-          {/* <img src="https://via.placeholder.com/500" alt="" /></div> */}
-          </div>
-      
-        
-        <div className="aboutBox">
-          <a id='about'></a>
-        <p>Hello, my name is Stephanie Schlachter and I live in Germany. I am a full-stack developer in search for new and exiting opportunities.</p>
-        <br/>
-        <p>Welcome to my page</p>
+    <div className="about">
+      <div className="aboutContainer">
+        <div className="image" ref={aboutSideNav}>
+          <div ref={animate}></div>
         </div>
-    
-        {/* <Link to="/meetAppProj"   ><div>Meet App Project</div></Link> */}
-        {/* <Link to="/meet" target="_blank" >meet</Link>
 
-        <Routes>
-          <Route path="/meet" element={<MyFlixProject />} />
-         
-        </Routes>
-    </Router> */}
+        <div className="aboutBox">
+          <a id="about"></a>
+          <p>
+            Hello, my name is Stephanie Schlachter and I live in Germany. I am a
+            full-stack developer in search for new and exiting opportunities.
+          </p>
+          <br />
+          <p>Welcome to my page</p>
         </div>
-        <div id='aboutLink'></div>
-        </div>
-  )
+      </div>
+      <div id="aboutLink"></div>
+    </div>
+  );
 }
